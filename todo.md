@@ -102,3 +102,15 @@
 - [x] Générer témoignages réalistes pour plomberie
 - [x] Générer témoignages réalistes pour électricité
 - [ ] Déployer la mise à jour
+
+## Phase 9: Section Blog SEO
+
+- [x] Créer fichier de données des articles blog
+- [x] Créer page Blog (liste des articles)
+- [x] Créer page Article (template dynamique)
+- [x] Générer 5 articles SEO pour plomberie
+- [x] Générer 5 articles SEO pour électricité
+- [x] Ajouter route /blog dans App.tsx
+- [x] Ajouter lien Blog dans Header
+- [x] Optimiser meta tags et Schema.org Article
+- [ ] Déployer la mise à jour
