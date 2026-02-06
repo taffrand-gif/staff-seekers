@@ -1,31 +1,43 @@
-import { useAuth } from "@/_core/hooks/useAuth";
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { getLoginUrl } from "@/const";
-import { Streamdown } from 'streamdown';
+import HeroUrgence from "@/components/HeroUrgence";
+import RecentCalls from "@/components/RecentCalls";
+import CookieConsent from "@/components/CookieConsent";
+import FAQSection from "@/components/FAQSection";
+import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
+import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema } from "@/hooks/useSEO";
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Workflow, Frontend Best Practices, Design Guide and Common Pitfalls
- */
 export default function Home() {
-  // The userAuth hooks provides authentication state
-  // To implement login/logout functionality, simply call logout() or redirect to getLoginUrl()
-  let { user, loading, error, isAuthenticated, logout } = useAuth();
+  const config = ACTIVE_CONFIG;
+  const gradientClass = config.type === 'plomberie' ? 'gradient-bg-plomberie' : 'gradient-bg-electricite';
 
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  // SEO
+  useSEO({
+    title: generateSEOTitle(),
+    description: generateMetaDescription(),
+    canonical: `https://${config.domain}`,
+    schema: generateLocalBusinessSchema(),
+  });
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
-    </div>
+    <>
+      {/* Section Hero avec gradient de fond */}
+      <div className={`min-h-screen flex items-center justify-center p-5 ${gradientClass}`}>
+        <div className="w-full max-w-2xl">
+          <HeroUrgence />
+          <RecentCalls />
+          
+          {/* Footer note */}
+          <p className="text-center text-white text-sm mt-5 opacity-90">
+            {config.businessName} • Macedo de Cavaleiros<br />
+            Cobertura: Bragança, Sé, Santa Maria e todo o concelho
+          </p>
+        </div>
+      </div>
+
+      {/* Section FAQ */}
+      <FAQSection />
+
+      {/* Cookie Consent Banner */}
+      <CookieConsent />
+    </>
   );
 }
