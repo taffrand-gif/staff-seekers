@@ -1,4 +1,8 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
+import { useSEO } from "@/hooks/useSEO";
 
 interface Dica {
   title: string;
@@ -10,197 +14,162 @@ export default function Dicas() {
   const config = ACTIVE_CONFIG;
   const dicas = getDicas(config.type);
 
+  useSEO({
+    title: `Dicas e Conselhos | ${config.businessName}`,
+    description: `Dicas úteis para prevenir problemas de ${config.type === 'plomberie' ? 'canalização' : 'eletricidade'}. Conselhos de especialistas disponíveis 24h.`,
+    canonical: `https://${config.domain}/dicas`,
+  });
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="container py-4">
-          <a href="/" className="text-2xl font-bold text-gray-900">
-            {config.businessName}
-          </a>
-        </div>
-      </header>
+    <>
+      <Header />
+      <WhatsAppButton />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
-        <div className="container text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Dicas e Conselhos
-          </h1>
-          <p className="text-xl opacity-90">
-            Aprenda a prevenir problemas e a manter o seu sistema em bom estado
-          </p>
-        </div>
-      </div>
-
-      {/* Dicas Grid */}
-      <div className="container py-16">
-        <div className="grid md:grid-cols-2 gap-8">
-          {dicas.map((dica, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">{dica.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
-                {dica.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                {dica.content}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* CTA Section */}
-        <div className="mt-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Precisa de Ajuda Profissional?
-          </h2>
-          <p className="text-xl mb-6 opacity-90">
-            Estamos disponíveis 24/7 para urgências
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={`tel:+${config.whatsappNumber}`}
-              className="bg-white text-green-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors"
-            >
-              📞 Ligar Agora
-            </a>
-            <a
-              href={`https://wa.me/${config.whatsappNumber}`}
-              className="bg-[#25D366] text-white font-bold py-3 px-8 rounded-lg hover:bg-[#20ba5a] transition-colors"
-            >
-              💬 WhatsApp
-            </a>
+      <section className="bg-gradient-to-r from-red-50 to-red-100 py-16">
+        <div className="container">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Dicas e Conselhos
+            </h1>
+            <p className="text-xl text-gray-700">
+              Aprenda a prevenir problemas e a manter o seu sistema em bom estado
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="container text-center">
-          <p className="mb-2">
-            {config.businessName} - {config.name} 24h
-          </p>
-          <p className="text-gray-400 text-sm">
-            📞 {formatPhone(config.phone)} | 💬 WhatsApp
-          </p>
-          <p className="text-gray-500 text-xs mt-4">
-            © 2024 {config.businessName}. Todos os direitos reservados.
-          </p>
+      {/* Dicas Grid */}
+      <section className="py-16 bg-white">
+        <div className="container">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8">
+              {dicas.map((dica, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl border border-gray-200 p-8 hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">{dica.icon}</div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    {dica.title}
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed text-lg">
+                    {dica.content}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-      </footer>
-    </div>
-  );
-}
+      </section>
 
-function formatPhone(phone: string): string {
-  return phone.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
+      <Footer />
+    </>
+  );
 }
 
 function getDicas(serviceType: 'plomberie' | 'electricite'): Dica[] {
   if (serviceType === 'plomberie') {
     return [
       {
-        icon: "💧",
-        title: "Previna Fugas de Água",
-        content: "Verifique regularmente torneiras, autoclismos e tubagens visíveis. Pequenas fugas podem desperdiçar centenas de litros por mês e causar danos graves. Se notar manchas de humidade ou mofo, contacte um profissional.",
+        icon: '💧',
+        title: 'Verifique regularmente as torneiras',
+        content: 'Inspecione todas as torneiras da sua casa mensalmente. Uma torneira a pingar pode desperdiçar até 20 litros de água por dia e aumentar significativamente a sua fatura.',
       },
       {
-        icon: "🚿",
-        title: "Manutenção de Esquentadores",
-        content: "Faça manutenção anual do seu esquentador ou caldeira. Limpe o filtro de entrada de água regularmente e verifique se não há fugas. Uma manutenção preventiva prolonga a vida útil do equipamento e previne avarias.",
+        icon: '🚿',
+        title: 'Limpe os ralos com frequência',
+        content: 'Evite entupimentos removendo cabelos e resíduos dos ralos semanalmente. Use uma rede de proteção para evitar que detritos entrem na canalização.',
       },
       {
-        icon: "🔧",
-        title: "Evite Entupimentos",
-        content: "Nunca deite gorduras, óleos ou restos de comida pelo ralo. Use filtros nas pias e ralos. Evite deitar papel higiénico em excesso ou objetos sólidos no WC. Em caso de entupimento, não use produtos químicos agressivos.",
+        icon: '🔧',
+        title: 'Não force válvulas e torneiras',
+        content: 'Se uma torneira estiver difícil de fechar, não force. Isso pode danificar as vedações e causar fugas. Chame um profissional para ajustar ou substituir as peças.',
       },
       {
-        icon: "❄️",
-        title: "Proteja as Canalizações no Inverno",
-        content: "No inverno, proteja as tubagens exteriores do frio. Isole canos expostos e, em caso de geada, deixe as torneiras a pingar ligeiramente. Canalizações congeladas podem rebentar e causar danos graves.",
+        icon: '❄️',
+        title: 'Proteja os canos no inverno',
+        content: 'Em períodos de frio intenso, isole os canos expostos para evitar congelamento e rebentamento. Deixe uma torneira a pingar ligeiramente durante a noite.',
       },
       {
-        icon: "🔍",
-        title: "Conheça a Sua Instalação",
-        content: "Saiba onde fica a torneira de corte geral da água. Em caso de fuga grave, feche-a imediatamente. Mantenha o número de um canalizador de urgência sempre à mão.",
+        icon: '🚽',
+        title: 'Não deite lixo na sanita',
+        content: 'Nunca deite toalhitas, cotonetes, fraldas ou outros objetos na sanita. Mesmo produtos "biodegradáveis" podem causar entupimentos graves.',
       },
       {
-        icon: "💦",
-        title: "Pressão de Água Adequada",
-        content: "A pressão de água ideal é entre 2 e 4 bar. Pressão muito alta pode danificar equipamentos e causar fugas. Pressão muito baixa indica possíveis problemas na instalação. Instale um regulador de pressão se necessário.",
+        icon: '🔍',
+        title: 'Verifique o contador de água',
+        content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
       },
       {
-        icon: "🛁",
-        title: "Limpeza de Sifões",
-        content: "Limpe os sifões das pias e lavatórios regularmente. Acumulação de resíduos pode causar maus cheiros e entupimentos. É uma operação simples que pode fazer você mesmo.",
+        icon: '🧼',
+        title: 'Evite produtos químicos agressivos',
+        content: 'Produtos de desentupimento químicos podem danificar as canalizações a longo prazo. Prefira métodos mecânicos ou chame um profissional.',
       },
       {
-        icon: "⚠️",
-        title: "Sinais de Alerta",
-        content: "Fique atento a sinais como: água com cor estranha, maus cheiros, ruídos nas canalizações, manchas de humidade, aumento inexplicável na conta da água. Estes podem indicar problemas que requerem atenção profissional.",
+        icon: '⚙️',
+        title: 'Faça manutenção preventiva',
+        content: 'Agende uma inspeção anual com um canalizador profissional para detetar problemas antes que se tornem emergências caras.',
       },
       {
-        icon: "🏠",
-        title: "Manutenção Preventiva",
-        content: "Faça uma inspeção anual completa da sua instalação de canalizações. Prevenir é sempre mais barato que remediar. Um canalizador profissional pode identificar problemas antes que se tornem graves.",
+        icon: '💰',
+        title: 'Invista em equipamentos de qualidade',
+        content: 'Torneiras, autoclismos e esquentadores de qualidade duram mais e têm menos problemas. O investimento inicial compensa a longo prazo.',
       },
       {
-        icon: "📱",
-        title: "Em Caso de Emergência",
-        content: "Tenha sempre à mão o número de um canalizador de urgência 24h. Em caso de fuga grave, feche a água imediatamente e contacte um profissional. Não tente reparações complexas sem conhecimentos adequados.",
+        icon: '📞',
+        title: 'Tenha sempre um contacto de emergência',
+        content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.',
       },
     ];
   } else {
     return [
       {
-        icon: "⚡",
-        title: "Evite Sobrecargas",
-        content: "Não ligue demasiados aparelhos numa única tomada ou extensão. Sobrecargas podem causar aquecimento excessivo, danificar equipamentos e provocar incêndios. Use extensões com proteção contra sobrecarga.",
+        icon: '⚡',
+        title: 'Não sobrecarregue as tomadas',
+        content: 'Evite ligar múltiplos aparelhos de alta potência na mesma tomada. Use extensões com proteção contra sobrecarga e nunca ligue várias extensões em cadeia.',
       },
       {
-        icon: "🔌",
-        title: "Verifique Fios e Tomadas",
-        content: "Inspecione regularmente fios, tomadas e fichas. Sinais de aquecimento, cheiro a queimado, faíscas ou descoloração indicam problemas graves. Substitua imediatamente qualquer equipamento danificado.",
+        icon: '🔌',
+        title: 'Verifique os cabos regularmente',
+        content: 'Inspecione os cabos elétricos dos seus aparelhos. Se estiverem gastos, rachados ou expostos, substitua-os imediatamente para evitar curto-circuitos.',
       },
       {
-        icon: "💡",
-        title: "Use Lâmpadas Adequadas",
-        content: "Respeite sempre a potência máxima indicada nas luminárias. Lâmpadas de potência excessiva podem causar aquecimento e incêndios. Prefira lâmpadas LED que consomem menos energia e duram mais.",
+        icon: '💡',
+        title: 'Use lâmpadas LED',
+        content: 'As lâmpadas LED consomem até 80% menos energia que as incandescentes, duram muito mais tempo e geram menos calor, reduzindo o risco de sobreaquecimento.',
       },
       {
-        icon: "🏠",
-        title: "Disjuntores e Fusíveis",
-        content: "Nunca substitua fusíveis por outros de maior capacidade. Se o disjuntor salta frequentemente, há um problema que requer atenção profissional. Não tente 'enganar' as proteções elétricas.",
+        icon: '🛡️',
+        title: 'Instale proteções contra surtos',
+        content: 'Proteja equipamentos sensíveis (computadores, TVs) com dispositivos de proteção contra picos de tensão. Trovoadas podem causar danos irreparáveis.',
       },
       {
-        icon: "🌧️",
-        title: "Eletricidade e Água Não Combinam",
-        content: "Nunca toque em equipamentos elétricos com as mãos molhadas. Mantenha aparelhos elétricos longe de água. Instale disjuntores diferenciais em casas de banho e cozinhas para proteção extra.",
+        icon: '🔧',
+        title: 'Não faça reparações sem conhecimento',
+        content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um eletricista certificado para reparações.',
       },
       {
-        icon: "🔧",
-        title: "Manutenção do Quadro Elétrico",
-        content: "Faça inspeção anual do quadro elétrico por um profissional certificado. Verifique se não há sinais de aquecimento, oxidação ou danos. Mantenha o quadro limpo e acessível.",
+        icon: '🏠',
+        title: 'Mantenha o quadro elétrico acessível',
+        content: 'Nunca bloqueie o acesso ao quadro elétrico. Em caso de emergência, precisa de conseguir desligar a eletricidade rapidamente.',
       },
       {
-        icon: "⚠️",
-        title: "Sinais de Perigo",
-        content: "Fique atento a: disjuntores que saltam frequentemente, luzes que piscam, tomadas quentes, cheiro a queimado, faíscas. Estes são sinais de problemas graves que requerem atenção imediata.",
+        icon: '🔍',
+        title: 'Teste os disjuntores mensalmente',
+        content: 'Verifique se os disjuntores funcionam corretamente desligando-os e voltando a ligar. Um disjuntor defeituoso pode não proteger em caso de sobrecarga.',
       },
       {
-        icon: "🛡️",
-        title: "Proteção Contra Raios",
-        content: "Instale proteção contra sobretensões (para-raios) especialmente se vive numa zona rural ou exposta. Desconecte equipamentos sensíveis durante tempestades. Não use chuveiro elétrico durante trovoadas.",
+        icon: '💧',
+        title: 'Mantenha a eletricidade longe da água',
+        content: 'Nunca toque em interruptores ou aparelhos elétricos com as mãos molhadas. Instale tomadas com proteção IP44 em casas de banho e cozinhas.',
       },
       {
-        icon: "👶",
-        title: "Segurança Infantil",
-        content: "Use protetores de tomadas em casas com crianças. Mantenha fios e extensões fora do alcance. Ensine as crianças sobre os perigos da eletricidade. Nunca deixe crianças brincarem perto de quadros elétricos.",
+        icon: '📋',
+        title: 'Faça certificação elétrica regular',
+        content: 'A certificação elétrica é obrigatória e garante que a sua instalação está segura e conforme as normas. Renove-a periodicamente.',
       },
       {
-        icon: "📱",
-        title: "Em Caso de Emergência",
-        content: "Tenha sempre à mão o número de um eletricista de urgência 24h. Em caso de cheiro a queimado ou faíscas, desligue o disjuntor geral imediatamente. Nunca tente reparações elétricas sem conhecimentos adequados.",
+        icon: '📞',
+        title: 'Tenha sempre um contacto de emergência',
+        content: 'Guarde o número de um eletricista de confiança disponível 24h. Problemas elétricos podem ser perigosos e requerem intervenção imediata.',
       },
     ];
   }

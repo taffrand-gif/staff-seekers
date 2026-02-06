@@ -56,3 +56,39 @@
 - [x] Guide de personnalisation du template
 - [x] README.md
 - [ ] Checkpoint final
+
+## Phase 7: Refonte Complète (Modèle canalizadores24h.com)
+
+### Design & Structure
+- [x] Remplacer le gradient par fond blanc/neutre
+- [x] Créer header fixe rouge avec téléphone
+- [x] Ajouter navigation horizontale (HOME | SERVIÇOS | FAQ | DICAS | GALERIA | CONTACTOS)
+- [x] Créer bouton WhatsApp flottant (vert, bas gauche)
+- [x] Refondre le footer avec icônes de services
+
+### Contenu
+- [x] Ajouter sections thématiques sur la page d'accueil
+- [x] Texte long et détaillé pour le SEO (plusieurs paragraphes)
+- [x] Répéter les CTA téléphone dans le contenu
+- [x] Créer contenu riche pour toutes les pages
+
+### Photos
+- [x] Générer photo plombier réparant tuyau
+- [x] Générer photo van de service
+- [x] Générer photo électricien panneau
+- [x] Générer photo électricien câblage
+- [x] Générer photo service urgence 24h
+- [x] Uploader les photos vers S3 CDN
+- [x] Intégrer les photos dans les pages
+
+### Pages Complètes
+- [x] Page SERVIÇOS (Services détaillés)
+- [x] Page CONTACTOS (Contact avec formulaire)
+- [x] Améliorer page FAQ existante
+- [x] Améliorer page DICAS existante
+- [x] Améliorer page GALERIA avec vraies photos
+
+### Pages Locales (12 villes)
+- [x] Améliorer le contenu de chaque page locale
+- [x] Ajouter plus de texte spécifique à chaque ville
+- [x] Intégrer les photos dans les pages locales

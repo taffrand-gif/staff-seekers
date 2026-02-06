@@ -1,41 +1,42 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import FAQSection from "@/components/FAQSection";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function FAQ() {
   const config = ACTIVE_CONFIG;
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header simple */}
-      <header className="bg-white shadow-sm">
-        <div className="container py-4">
-          <a href="/" className="text-2xl font-bold text-gray-900">
-            {config.businessName}
-          </a>
-        </div>
-      </header>
+  useSEO({
+    title: `Perguntas Frequentes (FAQ) | ${config.businessName}`,
+    description: `Encontre respostas às perguntas mais frequentes sobre serviços de ${config.name.toLowerCase()}. Disponíveis 24h/dia em Bragança.`,
+    canonical: `https://${config.domain}/faq`,
+  });
 
-      {/* Contenu FAQ */}
+  return (
+    <>
+      <Header />
+      <WhatsAppButton />
+
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-red-50 to-red-100 py-16">
+        <div className="container">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Perguntas Frequentes
+            </h1>
+            <p className="text-xl text-gray-700">
+              Encontre respostas às dúvidas mais comuns sobre os nossos serviços
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Content */}
       <FAQSection />
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 mt-16">
-        <div className="container text-center">
-          <p className="mb-2">
-            {config.businessName} - {config.name} 24h
-          </p>
-          <p className="text-gray-400 text-sm">
-            📞 {formatPhone(config.phone)} | 💬 WhatsApp
-          </p>
-          <p className="text-gray-500 text-xs mt-4">
-            © 2024 {config.businessName}. Todos os direitos reservados.
-          </p>
-        </div>
-      </footer>
-    </div>
+      <Footer />
+    </>
   );
-}
-
-function formatPhone(phone: string): string {
-  return phone.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
 }

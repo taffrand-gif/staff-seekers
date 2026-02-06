@@ -9,6 +9,8 @@ import FAQ from "./pages/FAQ";
 import Dicas from "./pages/Dicas";
 import Galeria from "./pages/Galeria";
 import CityPage from "./pages/CityPage";
+import Servicos from "./pages/Servicos";
+import Contactos from "./pages/Contactos";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -18,6 +20,8 @@ function Router() {
       <Route path={"/faq"} component={FAQ} />
       <Route path={"/dicas"} component={Dicas} />
       <Route path={"/galeria"} component={Galeria} />
+      <Route path={"/servicos"} component={Servicos} />
+      <Route path={"/contactos"} component={Contactos} />
       <Route path={"/servicos/:citySlug"} component={CityPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
