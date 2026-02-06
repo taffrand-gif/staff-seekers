@@ -92,3 +92,13 @@
 - [x] Améliorer le contenu de chaque page locale
 - [x] Ajouter plus de texte spécifique à chaque ville
 - [x] Intégrer les photos dans les pages locales
+
+## Phase 8: Page Témoignages
+
+- [x] Créer composant Carousel pour témoignages
+- [x] Créer page Témoignages avec avis clients
+- [x] Ajouter route /testemunhos dans App.tsx
+- [x] Ajouter lien dans Header et Footer
+- [x] Générer témoignages réalistes pour plomberie
+- [x] Générer témoignages réalistes pour électricité
+- [ ] Déployer la mise à jour

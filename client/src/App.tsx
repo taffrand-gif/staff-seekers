@@ -11,6 +11,7 @@ import Galeria from "./pages/Galeria";
 import CityPage from "./pages/CityPage";
 import Servicos from "./pages/Servicos";
 import Contactos from "./pages/Contactos";
+import Testemunhos from "./pages/Testemunhos";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -22,6 +23,7 @@ function Router() {
       <Route path={"/galeria"} component={Galeria} />
       <Route path={"/servicos"} component={Servicos} />
       <Route path={"/contactos"} component={Contactos} />
+      <Route path={"/testemunhos"} component={Testemunhos} />
       <Route path={"/servicos/:citySlug"} component={CityPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
