@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import { PriceCalculator } from "@/components/PriceCalculator";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema, generateKeywords, generateOrganizationSchema } from "@/hooks/useSEO";
 
@@ -101,6 +102,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section - ULTRA VISIBLE */}
+      <TestimonialsSection />
 
       {/* Main Content Section */}
       <section className="py-16 bg-gray-50">

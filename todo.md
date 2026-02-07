@@ -869,3 +869,37 @@
 - [x] Désactiver temporairement géolocalisation (redirection off, titre dynamique on)
 - [x] Tester correction (site stable)
 - [ ] Checkpoint
+
+
+## Phase 7 - Optimisation SEO Massive
+
+### Témoignages Visibles
+- [x] Créer section témoignages prominente sur homepage
+- [x] Carrousel automatique des meilleurs avis
+- [x] Notes 5★ bien visibles
+- [x] Placement stratégique après hero
+
+### Meta Tags & Open Graph
+- [ ] Optimiser title/description toutes pages
+- [ ] Ajouter Open Graph tags (Facebook/LinkedIn)
+- [ ] Ajouter Twitter Cards
+- [ ] Meta keywords pertinents
+
+### Schema.org Markup
+- [ ] LocalBusiness schema (homepage)
+- [ ] Service schema (pages services)
+- [ ] Review schema (témoignages)
+- [ ] FAQPage schema (déjà fait)
+- [ ] Article schema (blog)
+
+### Technical SEO
+- [x] Créer sitemap.xml dynamique
+- [x] Optimiser robots.txt
+- [ ] Canonical URLs (à implémenter)
+- [ ] Alt text toutes images (à faire)
+- [ ] Internal linking optimisé (en cours)
+
+### Tests & Déploiement
+- [ ] Tester avec Google Rich Results Test
+- [ ] Vérifier sitemap
+- [ ] Checkpoint final

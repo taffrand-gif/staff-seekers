@@ -1,0 +1,15 @@
+# Robots.txt optimisé pour Norte-Reparos.com / Staff-Seekers.com
+User-agent: *
+Allow: /
+
+# Priorités SEO
+Sitemap: https://norte-reparos.com/sitemap.xml
+Sitemap: https://staff-seekers.com/sitemap.xml
+
+# Crawl-delay pour éviter surcharge
+Crawl-delay: 1
+
+# Bloquer ressources inutiles
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
