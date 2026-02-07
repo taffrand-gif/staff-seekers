@@ -365,3 +365,68 @@
 - [x] Ajouter vercel.json pour configuration build correcte
 - [ ] Créer guide de déploiement Vercel pour les deux sites
 - [ ] Tester les deux sites après déploiement
+
+## Phase 36: Soumission Sitemaps à Google Search Console
+
+### Norte Reparos
+- [ ] Vérifier la propriété norte-reparos.com dans Google Search Console
+- [ ] Soumettre sitemap https://norte-reparos.com/sitemap.xml
+- [ ] Vérifier l'indexation
+
+### Staff Seekers
+- [ ] Vérifier la propriété staff-seekers.com dans Google Search Console
+- [ ] Soumettre sitemap https://staff-seekers.com/sitemap.xml
+- [ ] Vérifier l'indexation
+
+## Phase 37: Correction Langue Staff Seekers (Portugais)
+
+### Problème
+- [x] Site staff-seekers.com contient du texte en français au lieu de portugais
+
+### Corrections à effectuer
+- [x] Identifier tous les textes en français (texte cookies en brésilien)
+- [x] Traduire en portugais européen correct
+- [x] Déployer les corrections
+- [x] Tester le site
+
+## Phase 38: Changement Nom Staff Seekers
+
+### Modifications
+- [ ] Remplacer "Staff Seekers" par "Eletricista Bragança"
+- [ ] Ajouter sous-titre avec villes (Macedo de Cavaleiros, Mirandela, Bragança)
+- [ ] Mettre à jour la configuration
+- [ ] Déployer les modifications
+- [ ] Tester le site
+
+## Phase 39: Géolocalisation Automatique et Personnalisation par Ville
+
+### Fonctionnalités
+- [x] Créer hook useGeolocation pour détecter la ville du visiteur
+- [x] Implémenter changement dynamique du titre selon la ville
+- [x] Personnaliser le contenu selon la localisation
+- [x] Ajouter villes : Macedo de Cavaleiros, Mirandela, Chaves, Bragança, Miranda do Douro, Vinhais, Vimioso
+- [x] Optimiser SEO pour chaque ville (titre et description dynamiques)
+- [x] Déployer sur staff-seekers.com
+- [ ] Copier sur norte-reparos.com
+- [ ] Tester la géolocalisation
+
+## Phase 40: Modifier Logo Header avec Géolocalisation
+
+### Modifications
+- [x] Modifier Header pour utiliser useGeolocation
+- [x] Afficher la ville dans le logo en haut à gauche
+- [x] Déployer les modifications
+- [ ] Tester le site
+
+## Phase 41: Extension Géolocalisation (32 nouvelles villes/villages)
+
+### Nouvelles zones à ajouter
+- [x] Miranda do Douro + 7 villages (Duas Igrejas, Genísio, Malhadas, Palaçoulo, Picote, Póvoa, Sendim)
+- [x] Freixo de Espada à Cinta + 4 villages (Fornos, Lagoaça, Ligares, Mazouco)
+- [x] Chaves + 7 villages (Águas Frias, Calvão, Faiões, Outeiro Seco, Santo Estêvão, Vidago, Vilas Boas)
+- [x] Vila Real + 3 zones (Abade de Neiva, Lordelo, Mateus)
+- [x] Alijó + 4 villages (Favaios, Pinhão, Sanfins do Douro, Vilar de Maçada)
+- [x] Figueira de Castelo Rodrigo + 3 villages (Escalhão, Mata de Lobos, Vermiosa)
+- [x] Sabrosa + 3 villages (Celeirós, Covas do Douro, Provesende)
+- [x] Déployer les modifications (47 villes/villages au total)
+- [ ] Tester la géolocalisation étendue
