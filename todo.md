@@ -430,3 +430,28 @@
 - [x] Sabrosa + 3 villages (Celeirós, Covas do Douro, Provesende)
 - [x] Déployer les modifications (47 villes/villages au total)
 - [ ] Tester la géolocalisation étendue
+
+## Phase 42: Pages Dédiées par Ville (SEO Local)
+
+### Pages à créer
+- [x] Composant CityPage dynamique (déjà existant)
+- [x] Page Macedo de Cavaleiros (/servicos/macedo-de-cavaleiros)
+- [x] Page Mirandela (/servicos/mirandela)
+- [x] Page Bragança (/servicos/braganca)
+- [x] Page Chaves (/servicos/chaves) - NOUVELLE
+- [x] Page Vila Real (/servicos/vila-real) - NOUVELLE
+- [x] Page Miranda do Douro (/servicos/miranda-do-douro)
+- [x] Page Freixo de Espada à Cinta (/servicos/freixo-de-espada-a-cinta)
+- [x] Page Alijó (/servicos/alijo) - NOUVELLE
+- [x] Page Sabrosa (/servicos/sabrosa) - NOUVELLE
+- [x] Page Figueira de Castelo Rodrigo (/servicos/figueira-de-castelo-rodrigo) - NOUVELLE
+- [x] 27 pages villages supplémentaires
+
+### Optimisations SEO
+- [x] Schema LocalBusiness spécifique par ville
+- [x] Meta title et description optimisés
+- [x] Contenu unique avec mots-clés locaux
+- [x] Routes dynamiques dans App.tsx (/servicos/:citySlug)
+- [x] Sitemap.xml automatiquement généré pour toutes les villes
+- [x] Déployer (140+ pages villes/villages)
+- [ ] Tester les pages principales
