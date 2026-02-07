@@ -232,7 +232,7 @@ export default function QuoteFormEnhanced() {
               <button
                 type="button"
                 onClick={() => setShowMap(!showMap)}
-                className="px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-4 py-3" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 📍 Mapa
               </button>
@@ -313,7 +313,7 @@ export default function QuoteFormEnhanced() {
               onClick={() => setFormData({ ...formData, urgency: "normal" })}
               className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
                 formData.urgency === "normal"
-                  ? "bg-blue-600 text-white"
+                  ? "text-white" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
             >
@@ -324,7 +324,7 @@ export default function QuoteFormEnhanced() {
               onClick={() => setFormData({ ...formData, urgency: "urgent" })}
               className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
                 formData.urgency === "urgent"
-                  ? "bg-red-600 text-white"
+                  ? "text-white" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
             >
@@ -352,7 +352,7 @@ export default function QuoteFormEnhanced() {
         <button
           type="submit"
           disabled={createQuote.isPending}
-          className="w-full bg-red-600 hover:bg-red-700 disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
+          className="w-full dynamic-bg hover:bg-red-700 disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
         >
           {createQuote.isPending ? "A enviar..." : "📧 Enviar Pedido de Orçamento"}
         </button>

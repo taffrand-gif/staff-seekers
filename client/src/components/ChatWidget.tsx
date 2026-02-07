@@ -140,12 +140,12 @@ export default function ChatWidget() {
               </div>
               <div>
                 <h3 className="font-bold text-sm sm:text-base">{config.businessName}</h3>
-                <p className="text-xs text-red-100">Normalmente responde em minutos</p>
+                <p className="text-xs text-white text-opacity-80">Normalmente responde em minutos</p>
               </div>
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-red-200 transition-colors"
+              className="text-white hover:text-opacity-100 transition-colors"
               aria-label="Fechar chat"
             >
               <svg
@@ -280,7 +280,7 @@ export default function ChatWidget() {
                       <p className="text-xs sm:text-sm">{message.text}</p>
                       <p
                         className={`text-[10px] sm:text-xs mt-1 ${
-                          message.sender === "user" ? "text-red-100" : "text-gray-500"
+                          message.sender === "user" ? "text-white text-opacity-80" : "text-gray-500"
                         }`}
                       >
                         {new Date(message.timestamp).toLocaleTimeString("pt-PT", {

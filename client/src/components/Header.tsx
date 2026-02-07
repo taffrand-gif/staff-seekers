@@ -98,7 +98,7 @@ export default function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-gray-700 hover: font-medium transition-colors px-4 py-2 hover:bg-red-50 rounded" style={{color: gradient.from}}
+                    className="text-gray-700 hover: font-medium transition-colors px-4 py-2 hover:bg-opacity-5 rounded" style={{color: gradient.from}}
                   >
                     {item.label}
                   </Link>

@@ -107,7 +107,7 @@ export default function FAQSection() {
                 >
                   <AccordionTrigger className="text-left font-semibold hover:no-underline py-4">
                     <div className="flex items-start gap-3 pr-4">
-                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center font-bold text-xs" style={{color: gradient.from}}>
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full" style={{backgroundColor: `${ACTIVE_CONFIG.gradient.from}20`}} flex items-center justify-center font-bold text-xs" style={{color: gradient.from}}>
                         {faq.id}
                       </span>
                       <div>

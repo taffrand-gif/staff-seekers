@@ -46,7 +46,7 @@ export function PriceCalculator() {
   return (
     <Card className="p-6 shadow-lg">
       <div className="flex items-center gap-3 mb-4">
-        <Calculator className="h-8 w-8 text-red-600" />
+        <Calculator className="h-8 w-8" style={{color: ACTIVE_CONFIG.gradient.from}} />
         <h3 className="text-2xl font-bold">Calculador de Preços</h3>
       </div>
       <p className="text-gray-600 mb-6">Obtenha uma estimativa rápida do custo do serviço.</p>
@@ -85,7 +85,7 @@ export function PriceCalculator() {
                   setShowConfirmation(false);
                 }}
                 disabled={isCalculating}
-                className="w-4 h-4 text-red-600 focus:ring-red-500"
+                className="w-4 h-4 text-primary focus:ring-red-500"
               />
               <span>Normal</span>
             </label>
@@ -100,7 +100,7 @@ export function PriceCalculator() {
                   setShowConfirmation(false);
                 }}
                 disabled={isCalculating}
-                className="w-4 h-4 text-red-600 focus:ring-red-500"
+                className="w-4 h-4 text-primary focus:ring-red-500"
               />
               <span>Urgente (+30%)</span>
             </label>

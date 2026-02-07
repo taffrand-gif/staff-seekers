@@ -153,7 +153,7 @@ export function NewsletterPopup() {
             <Button 
               type="submit" 
               disabled={isSubmitting}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold"
+              className="w-full hover:opacity-90 text-white font-semibold"
             >
               {isSubmitting ? 'A enviar...' : '🎁 Quero Receber Ofertas'}
             </Button>
