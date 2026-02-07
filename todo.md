@@ -243,5 +243,17 @@
 
 ## Phase 25: Déploiement
 
+- [x] Créer un checkpoint (version d640270d)
+- [x] Redéployer sur GitHub et Vercel (norte-reparos + staff-seekers)
+
+## Phase 26: Intégration Prise de Rendez-vous dans Contact
+
+- [x] Ajouter un sélecteur "Contact Simple" vs "Réservation" dans le formulaire
+- [x] Afficher les champs de date/heure conditionnellement
+- [x] Connecter à l'API bookings existante
+- [x] Tester le formulaire unifié
+
+## Phase 27: Déploiement
+
 - [ ] Créer un checkpoint
 - [ ] Redéployer sur GitHub et Vercel
