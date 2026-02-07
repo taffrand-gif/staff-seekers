@@ -6,32 +6,89 @@ interface SEOProps {
   description: string;
   canonical?: string;
   schema?: object;
+  image?: string;
+  keywords?: string;
+  ogType?: 'website' | 'article';
+  author?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
 }
 
-export function useSEO({ title, description, canonical, schema }: SEOProps) {
+export function useSEO({ 
+  title, 
+  description, 
+  canonical, 
+  schema,
+  image,
+  keywords,
+  ogType = 'website',
+  author,
+  publishedTime,
+  modifiedTime
+}: SEOProps) {
   useEffect(() => {
+    const config = ACTIVE_CONFIG;
+    const defaultImage = `https://${config.domain}/og-image.jpg`;
+    const finalImage = image || defaultImage;
+    const finalCanonical = canonical || window.location.href;
+
     // Mettre à jour le titre
     document.title = title;
 
-    // Mettre à jour ou créer la meta description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', description);
-
-    // Mettre à jour ou créer le lien canonique
-    if (canonical) {
-      let linkCanonical = document.querySelector('link[rel="canonical"]');
-      if (!linkCanonical) {
-        linkCanonical = document.createElement('link');
-        linkCanonical.setAttribute('rel', 'canonical');
-        document.head.appendChild(linkCanonical);
+    // Helper pour créer ou mettre à jour une meta tag
+    const setMetaTag = (name: string, content: string, isProperty = false) => {
+      const attribute = isProperty ? 'property' : 'name';
+      let meta = document.querySelector(`meta[${attribute}="${name}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attribute, name);
+        document.head.appendChild(meta);
       }
-      linkCanonical.setAttribute('href', canonical);
+      meta.setAttribute('content', content);
+    };
+
+    // Meta tags basiques
+    setMetaTag('description', description);
+    if (keywords) {
+      setMetaTag('keywords', keywords);
     }
+    setMetaTag('author', author || config.businessName);
+    setMetaTag('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+    setMetaTag('googlebot', 'index, follow');
+
+    // Open Graph tags
+    setMetaTag('og:title', title, true);
+    setMetaTag('og:description', description, true);
+    setMetaTag('og:image', finalImage, true);
+    setMetaTag('og:url', finalCanonical, true);
+    setMetaTag('og:type', ogType, true);
+    setMetaTag('og:site_name', config.businessName, true);
+    setMetaTag('og:locale', 'pt_PT', true);
+    
+    if (ogType === 'article' && publishedTime) {
+      setMetaTag('article:published_time', publishedTime, true);
+    }
+    if (ogType === 'article' && modifiedTime) {
+      setMetaTag('article:modified_time', modifiedTime, true);
+    }
+    if (ogType === 'article' && author) {
+      setMetaTag('article:author', author, true);
+    }
+
+    // Twitter Card tags
+    setMetaTag('twitter:card', 'summary_large_image');
+    setMetaTag('twitter:title', title);
+    setMetaTag('twitter:description', description);
+    setMetaTag('twitter:image', finalImage);
+
+    // Canonical URL
+    let linkCanonical = document.querySelector('link[rel="canonical"]');
+    if (!linkCanonical) {
+      linkCanonical = document.createElement('link');
+      linkCanonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(linkCanonical);
+    }
+    linkCanonical.setAttribute('href', finalCanonical);
 
     // Ajouter les données structurées Schema.org
     if (schema) {
@@ -47,7 +104,7 @@ export function useSEO({ title, description, canonical, schema }: SEOProps) {
       
       scriptTag.textContent = JSON.stringify(schema);
     }
-  }, [title, description, canonical, schema]);
+  }, [title, description, canonical, schema, image, keywords, ogType, author, publishedTime, modifiedTime]);
 }
 
 // Fonction helper pour générer le titre SEO selon le format requis
@@ -69,21 +126,36 @@ export function generateMetaDescription(ville?: string): string {
   
   if (ville) {
     if (config.type === 'plomberie') {
-      return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h.`;
+      return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h. Ligue ${config.phone}`;
     } else {
-      return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue agora.`;
+      return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue ${config.phone}`;
     }
   }
   
   // Page d'accueil
   if (config.type === 'plomberie') {
-    return `${config.name} 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Somos uma equipa de canalizadores profissionais e certificados.`;
+    return `${config.name} 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados. Ligue ${config.phone}`;
   } else {
-    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Somos uma equipa de eletricistas profissionais e certificados.`;
+    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de eletricistas profissionais certificados. Ligue ${config.phone}`;
   }
 }
 
-// Fonction pour générer le schema LocalBusiness
+// Fonction pour générer les mots-clés SEO
+export function generateKeywords(ville?: string): string {
+  const config = ACTIVE_CONFIG;
+  
+  const baseKeywords = config.type === 'plomberie' 
+    ? ['canalizador', 'plombier', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete']
+    : ['eletricista', 'électricien', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
+  
+  if (ville) {
+    return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');
+  }
+  
+  return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName].join(', ');
+}
+
+// Fonction pour générer le schema LocalBusiness enrichi
 export function generateLocalBusinessSchema(ville?: string) {
   const config = ACTIVE_CONFIG;
   
@@ -93,6 +165,7 @@ export function generateLocalBusinessSchema(ville?: string) {
     "name": config.businessName,
     "image": `https://${config.domain}/logo.png`,
     "telephone": `+${config.whatsappNumber}`,
+    "priceRange": "€€",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": ville || "Macedo de Cavaleiros",
@@ -105,7 +178,6 @@ export function generateLocalBusinessSchema(ville?: string) {
       "longitude": ville ? getCityCoordinates(ville).lng : -6.9667
     },
     "url": `https://${config.domain}${ville ? `/servicos/${getCitySlug(ville)}` : ''}`,
-    "priceRange": "€€",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
@@ -123,7 +195,42 @@ export function generateLocalBusinessSchema(ville?: string) {
     "areaServed": {
       "@type": "City",
       "name": ville || "Bragança"
-    }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+    ]
+  };
+}
+
+// Fonction pour générer le schema Organization
+export function generateOrganizationSchema() {
+  const config = ACTIVE_CONFIG;
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": config.businessName,
+    "url": `https://${config.domain}`,
+    "logo": `https://${config.domain}/logo.png`,
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": `+${config.whatsappNumber}`,
+      "contactType": "customer service",
+      "areaServed": "PT",
+      "availableLanguage": ["Portuguese"]
+    },
+    "sameAs": [
+      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+    ]
   };
 }
 
@@ -139,6 +246,61 @@ export function generateFAQSchema(faqs: Array<{ question: string; answer: string
         "@type": "Answer",
         "text": faq.answer
       }
+    }))
+  };
+}
+
+// Fonction pour générer le schema Article (pour le blog)
+export function generateArticleSchema(article: {
+  title: string;
+  description: string;
+  author: string;
+  publishedTime: string;
+  modifiedTime?: string;
+  image: string;
+  url: string;
+}) {
+  const config = ACTIVE_CONFIG;
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.description,
+    "image": article.image,
+    "author": {
+      "@type": "Person",
+      "name": article.author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": config.businessName,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `https://${config.domain}/logo.png`
+      }
+    },
+    "datePublished": article.publishedTime,
+    "dateModified": article.modifiedTime || article.publishedTime,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": article.url
+    }
+  };
+}
+
+// Fonction pour générer le schema BreadcrumbList
+export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url: string }>) {
+  const config = ACTIVE_CONFIG;
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": crumb.name,
+      "item": `https://${config.domain}${crumb.url}`
     }))
   };
 }

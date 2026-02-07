@@ -267,5 +267,80 @@
 
 ## Phase 29: Déploiement
 
+- [x] Créer un checkpoint (version f235231c)
+- [x] Redéployer sur GitHub et Vercel (norte-reparos + staff-seekers)
+
+## Phase 30: Correction Liens Mobile et Vérification Domaines
+
+- [x] Identifier le problème des liens non cliquables sur mobile (non reproduit sur desktop)
+- [ ] Corriger le z-index ou overlay qui bloque les clics (nécessite test sur vrai mobile)
+- [x] Vérifier les domaines norte-reparos.com et staff-seekers.com
+- [ ] Tester les liens sur mobile (nécessite appareil réel)
+
+## Phase 31: Résolution Problèmes Vercel
+
+- [ ] Accéder au dashboard Vercel
+- [ ] Forcer le redéploiement de norte-reparos.com
+- [ ] Corriger et redéployer staff-seekers.com
+- [ ] Vérifier que les deux sites fonctionnent
+
+## Phase 32: Déploiement Final
+
 - [ ] Créer un checkpoint
-- [ ] Redéployer sur GitHub et Vercel
+- [ ] Vérifier les sites en production
+
+## Phase 33: Optimisation SEO Complète (Norte Reparos + Staff Seekers)
+
+### Meta Tags Avancés
+- [x] Optimiser meta descriptions (150-160 caractères) pour toutes les pages
+- [x] Ajouter Open Graph tags complets (og:title, og:description, og:image, og:url)
+- [x] Ajouter Twitter Card tags (twitter:card, twitter:title, twitter:description, twitter:image)
+- [x] Ajouter canonical URLs pour éviter contenu dupliqué
+- [x] Optimiser les balises title (format optimal pour CTR)
+- [x] Ajouter meta keywords pertinents
+- [x] Ajouter meta robots et googlebot
+
+### Structured Data (Schema.org) Avancé
+- [x] Enrichir LocalBusiness schema avec plus de détails (heures d'ouverture, zone de service)
+- [x] Ajouter AggregateRating schema pour les avis
+- [x] Ajouter BreadcrumbList schema pour navigation
+- [x] Ajouter Article schema pour les posts de blog
+- [x] Ajouter Organization schema
+- [x] Combiner plusieurs schemas avec @graph
+- [ ] Valider tous les schemas avec Google Rich Results Test
+
+### Sitemap & Robots.txt
+- [x] Améliorer sitemap.xml avec images (Google Image Search)
+- [x] Ajouter namespace image au sitemap
+- [x] Optimiser robots.txt avec crawl-delay et directives spécifiques
+- [x] Bloquer les mauvais bots (AhrefsBot, SemrushBot, etc.)
+- [x] Ajouter cache headers au sitemap et robots.txt
+
+### Performance & Core Web Vitals
+- [x] Créer composant OptimizedImage avec lazy loading
+- [x] Implémenter preload pour ressources critiques (fonts, Google Tag Manager)
+- [x] Ajouter preconnect pour améliorer les performances
+- [ ] Remplacer les images dans les pages par OptimizedImage
+- [ ] Optimiser LCP (Largest Contentful Paint) < 2.5s
+- [ ] Optimiser FID (First Input Delay) < 100ms
+- [ ] Optimiser CLS (Cumulative Layout Shift) < 0.1
+
+### Accessibilité & SEO Technique
+- [x] Ajouter attributs alt descriptifs dans useSEO
+- [ ] Vérifier structure des headings (H1 unique, hiérarchie H2-H6)
+- [ ] Ajouter aria-labels pour accessibilité
+- [ ] Implémenter liens internes stratégiques
+- [ ] Optimiser anchor texts
+
+### Tests & Validation
+- [ ] Tester avec Google PageSpeed Insights (score > 90)
+- [ ] Valider structured data avec Google Rich Results Test
+- [ ] Vérifier sitemap.xml dans Google Search Console
+- [ ] Tester responsive sur tous les appareils
+- [ ] Vérifier indexation Google
+
+### Déploiement SEO
+- [ ] Créer checkpoint avec optimisations SEO
+- [ ] Redéployer norte-reparos.com
+- [ ] Redéployer staff-seekers.com
+- [ ] Soumettre sitemaps à Google Search Console

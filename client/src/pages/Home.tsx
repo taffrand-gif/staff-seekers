@@ -3,18 +3,34 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
-import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema } from "@/hooks/useSEO";
+import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema, generateKeywords, generateOrganizationSchema } from "@/hooks/useSEO";
 
 export default function Home() {
   const config = ACTIVE_CONFIG;
   const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
 
-  // SEO
+  // SEO optimisé avec Open Graph, Twitter Cards, et Schema.org enrichi
+  const seoTitle = generateSEOTitle();
+  const seoDescription = generateMetaDescription();
+  const seoKeywords = generateKeywords();
+  
+  // Combiner LocalBusiness et Organization schemas
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      generateLocalBusinessSchema(),
+      generateOrganizationSchema()
+    ]
+  };
+  
   useSEO({
-    title: generateSEOTitle(),
-    description: generateMetaDescription(),
+    title: seoTitle,
+    description: seoDescription,
     canonical: `https://${config.domain}`,
-    schema: generateLocalBusinessSchema(),
+    keywords: seoKeywords,
+    schema: combinedSchema,
+    image: `https://${config.domain}/og-image.jpg`,
+    ogType: 'website',
   });
 
   const handlePhoneClick = () => {

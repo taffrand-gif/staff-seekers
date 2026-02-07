@@ -5,7 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import { ACTIVE_CONFIG, CITIES } from "../../../shared/serviceConfig";
 import { IMAGES } from "../../../shared/images";
-import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema } from "@/hooks/useSEO";
+import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema, generateKeywords, generateBreadcrumbSchema } from "@/hooks/useSEO";
 
 export default function CityPage() {
   const [, params] = useRoute("/servicos/:citySlug");
@@ -24,12 +24,31 @@ export default function CityPage() {
   const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
   const interventionsCount = getInterventionsCount(city.name);
 
-  // SEO
+  // SEO optimisé pour les pages locales
+  const cityUrl = `https://${config.domain}/servicos/${city.slug}`;
+  const cityImage = `https://${config.domain}/og-image.jpg`;
+  
+  // Générer les schemas LocalBusiness et Breadcrumb
+  const localBusinessSchema = generateLocalBusinessSchema(city.name);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Serviços', url: '/servicos' },
+    { name: city.name, url: `/servicos/${city.slug}` },
+  ]);
+  
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [localBusinessSchema, breadcrumbSchema]
+  };
+  
   useSEO({
     title: generateSEOTitle(city.name),
     description: generateMetaDescription(city.name),
-    canonical: `https://${config.domain}/servicos/${city.slug}`,
-    schema: generateLocalBusinessSchema(city.name),
+    canonical: cityUrl,
+    keywords: generateKeywords(city.name),
+    schema: combinedSchema,
+    image: cityImage,
+    ogType: 'website',
   });
 
   const handlePhoneClick = () => {

@@ -3,7 +3,7 @@ import { Calendar, Clock, ArrowLeft, Tag } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { useSEO } from "@/hooks/useSEO";
+import { useSEO, generateArticleSchema, generateBreadcrumbSchema, generateKeywords } from "@/hooks/useSEO";
 import { ACTIVE_CONFIG } from "@shared/serviceConfig";
 import { plomberieArticles, electriciteArticles, BlogArticle } from "@shared/blogArticles";
 import { Streamdown } from "streamdown";
@@ -31,9 +31,46 @@ export default function BlogArticlePage() {
     );
   }
 
+  // SEO optimisé pour les articles de blog
+  const articleUrl = `https://${ACTIVE_CONFIG.domain}/blog/${article.slug}`;
+  const articleImage = `https://${ACTIVE_CONFIG.domain}/blog-images/${article.slug}.jpg`;
+  
+  // Générer les schemas Article et Breadcrumb
+  const articleSchema = generateArticleSchema({
+    title: article.title,
+    description: article.excerpt,
+    author: article.author,
+    publishedTime: article.date,
+    modifiedTime: article.date,
+    image: articleImage,
+    url: articleUrl,
+  });
+  
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Blog', url: '/blog' },
+    { name: article.title, url: `/blog/${article.slug}` },
+  ]);
+  
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, breadcrumbSchema]
+  };
+  
+  // Mots-clés basés sur la catégorie et le contenu
+  const articleKeywords = `${generateKeywords()}, ${article.category}, ${article.title}`;
+  
   useSEO({
     title: `${article.title} | Blog ${ACTIVE_CONFIG.businessName}`,
     description: article.excerpt,
+    canonical: articleUrl,
+    keywords: articleKeywords,
+    schema: combinedSchema,
+    image: articleImage,
+    ogType: 'article',
+    author: article.author,
+    publishedTime: article.date,
+    modifiedTime: article.date,
   });
 
   // Articles relacionados (mesma categoria, excluindo o atual)
