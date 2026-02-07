@@ -255,5 +255,17 @@
 
 ## Phase 27: Déploiement
 
+- [x] Créer un checkpoint (version e01decf3)
+- [x] Redéployer sur GitHub et Vercel (norte-reparos + staff-seekers)
+
+## Phase 28: Système de Disponibilité en Temps Réel
+
+- [x] Créer une route API pour récupérer les créneaux disponibles par date
+- [x] Modifier le formulaire pour charger dynamiquement les créneaux disponibles
+- [x] Bloquer les créneaux déjà réservés
+- [x] Tester le système de disponibilité
+
+## Phase 29: Déploiement
+
 - [ ] Créer un checkpoint
 - [ ] Redéployer sur GitHub et Vercel

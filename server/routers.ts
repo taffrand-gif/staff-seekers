@@ -99,6 +99,55 @@ export const appRouter = router({
       if (!db) throw new Error("Database not available");
       return db.select().from(bookings).orderBy(bookings.createdAt);
     }),
+    
+    getAvailableSlots: publicProcedure
+      .input(z.object({
+        date: z.string(), // Format: YYYY-MM-DD
+      }))
+      .query(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { bookings } = await import("../drizzle/schema");
+        const { eq, and, gte, lt } = await import("drizzle-orm");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        // Tous les créneaux possibles
+        const allSlots = [
+          "09:00-10:00",
+          "10:00-11:00",
+          "11:00-12:00",
+          "12:00-13:00",
+          "14:00-15:00",
+          "15:00-16:00",
+          "16:00-17:00",
+          "17:00-18:00",
+        ];
+        
+        // Récupérer les réservations pour cette date
+        const startOfDay = new Date(input.date);
+        startOfDay.setHours(0, 0, 0, 0);
+        const endOfDay = new Date(input.date);
+        endOfDay.setHours(23, 59, 59, 999);
+        
+        const existingBookings = await db
+          .select()
+          .from(bookings)
+          .where(
+            and(
+              gte(bookings.preferredDate, startOfDay),
+              lt(bookings.preferredDate, endOfDay),
+              eq(bookings.status, "pending") // Ne compter que les réservations actives
+            )
+          );
+        
+        // Créneaux déjà réservés
+        const bookedSlots = existingBookings.map(b => b.preferredTime);
+        
+        // Créneaux disponibles
+        const availableSlots = allSlots.filter(slot => !bookedSlots.includes(slot));
+        
+        return { availableSlots };
+      }),
   }),
 
   gallery: router({

@@ -24,6 +24,19 @@ export default function Contactos() {
     preferredDate: "",
     preferredTime: "",
   });
+  
+  // Récupérer les créneaux disponibles pour la date sélectionnée
+  const { data: availableSlotsData } = trpc.bookings.getAvailableSlots.useQuery(
+    { date: formData.preferredDate },
+    { enabled: !!formData.preferredDate && formType === "booking" }
+  );
+  
+  const availableSlots = availableSlotsData?.availableSlots || [];
+  
+  // Réinitialiser l'heure quand la date change
+  const handleDateChange = (date: string) => {
+    setFormData({ ...formData, preferredDate: date, preferredTime: "" });
+  };
 
   useSEO({
     title: `Contactos | ${config.businessName}`,
@@ -360,7 +373,7 @@ export default function Contactos() {
                             id="preferredDate"
                             required
                             value={formData.preferredDate}
-                            onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value })}
+                            onChange={(e) => handleDateChange(e.target.value)}
                             min={new Date().toISOString().split('T')[0]}
                             className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
                           />
@@ -376,17 +389,31 @@ export default function Contactos() {
                             value={formData.preferredTime}
                             onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
                             className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                            disabled={!formData.preferredDate}
                           >
-                            <option value="">Selecione...</option>
-                            <option value="09:00-10:00">09:00 - 10:00</option>
-                            <option value="10:00-11:00">10:00 - 11:00</option>
-                            <option value="11:00-12:00">11:00 - 12:00</option>
-                            <option value="12:00-13:00">12:00 - 13:00</option>
-                            <option value="14:00-15:00">14:00 - 15:00</option>
-                            <option value="15:00-16:00">15:00 - 16:00</option>
-                            <option value="16:00-17:00">16:00 - 17:00</option>
-                            <option value="17:00-18:00">17:00 - 18:00</option>
+                            <option value="">
+                              {!formData.preferredDate 
+                                ? "Selecione primeiro uma data" 
+                                : availableSlots.length === 0 
+                                  ? "Nenhum horário disponível" 
+                                  : "Selecione um horário..."}
+                            </option>
+                            {availableSlots.map((slot) => (
+                              <option key={slot} value={slot}>
+                                {slot.replace("-", " - ")}
+                              </option>
+                            ))}
                           </select>
+                          {formData.preferredDate && availableSlots.length === 0 && (
+                            <p className="text-xs text-red-600 mt-1">
+                              ⚠️ Todos os horários estão reservados para esta data. Por favor, escolha outra data.
+                            </p>
+                          )}
+                          {formData.preferredDate && availableSlots.length > 0 && (
+                            <p className="text-xs text-green-600 mt-1">
+                              ✅ {availableSlots.length} horário{availableSlots.length > 1 ? 's' : ''} disponíve{availableSlots.length > 1 ? 'is' : 'l'}
+                            </p>
+                          )}
                         </div>
                       </div>
                     </>
