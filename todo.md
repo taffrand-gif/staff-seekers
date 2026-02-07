@@ -121,5 +121,14 @@
 - [x] Générer sitemap dynamique avec toutes les pages
 - [x] Créer robots.txt
 - [x] Tester le sitemap
-- [ ] Déployer la mise à jour
-- [ ] Instructions pour Google Search Console
+- [x] Déployer la mise à jour
+- [x] Instructions pour Google Search Console
+
+## Phase 11: Duplication Staff Seekers
+
+- [x] Copier le projet vers /home/ubuntu/staff-seekers-v2
+- [x] Changer ACTIVE_CONFIG vers electriciteConfig
+- [x] Mettre à jour package.json (nom: staff-seekers)
+- [x] Initialiser git et pousser vers GitHub
+- [x] Déployer sur Cloudflare Pages
+- [x] Vérifier que les deux sites sont en ligne
