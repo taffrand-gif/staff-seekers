@@ -97,8 +97,8 @@ export const electriciteConfig: ServiceConfig = {
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
   gradient: {
-    from: '#f093fb',
-    to: '#f5576c',
+    from: '#3b82f6',
+    to: '#1e40af',
   },
   accentColor: '#22c55e',
   
