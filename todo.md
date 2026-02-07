@@ -132,3 +132,19 @@
 - [x] Initialiser git et pousser vers GitHub
 - [x] Déployer sur Cloudflare Pages
 - [x] Vérifier que les deux sites sont en ligne
+
+## Phase 12: Déploiement Vercel
+
+- [x] Installer Vercel CLI
+- [x] Connecter Vercel avec GitHub
+- [x] Déployer Norte Reparos sur Vercel
+- [x] Déployer Staff Seekers sur Vercel
+- [ ] Configurer domaine norte-reparos.com (manuel utilisateur)
+- [ ] Configurer domaine staff-seekers.com (manuel utilisateur)
+- [x] Vérifier les deux sites en ligne
+
+## Phase 13: Correction Texte
+
+- [ ] Remplacer "ORÇAMENTOS GRATUITOS" par "PREÇOS COMPETITIVOS" dans tous les fichiers
+- [ ] Pousser vers GitHub
+- [ ] Redéployer sur Vercel

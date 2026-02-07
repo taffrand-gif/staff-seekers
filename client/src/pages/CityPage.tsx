@@ -196,7 +196,7 @@ export default function CityPage() {
                 <div className="text-3xl">💰</div>
                 <div>
                   <h3 className="font-bold text-lg text-gray-900 mb-2">Preços Justos</h3>
-                  <p className="text-gray-700">Orçamentos gratuitos e transparentes, sem surpresas.</p>
+                  <p className="text-gray-700">Preços competitivos e transparentes, sem surpresas.</p>
                 </div>
               </div>
 

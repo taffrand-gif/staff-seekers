@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               <div className="bg-red-600 text-white p-6 rounded-lg">
                 <div className="text-3xl mb-2">💶</div>
-                <h3 className="font-bold text-lg">ORÇAMENTOS GRATUITOS</h3>
+                <h3 className="font-bold text-lg">PREÇOS COMPETITIVOS</h3>
               </div>
             </div>
 
@@ -226,7 +226,7 @@ export default function Home() {
               <div className="flex items-start gap-4">
                 <div className="text-3xl">✅</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-900 mb-2">Orçamentos gratuitos</h3>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">Preços competitivos</h3>
                   <p className="text-gray-700">Sem compromisso e totalmente transparentes.</p>
                 </div>
               </div>
