@@ -465,3 +465,16 @@
 - [x] Déployer staff-seekers
 - [ ] Déployer norte-reparos (checkpoint)
 - [ ] Tester les modifications
+
+## Phase 44: Correction Erreur de Genre (A/O Eletricista)
+
+### Problème
+- [x] "A Eletricista" est incorrect (erreur de genre)
+- [x] Solution : "A empresa Eletricista de Trás-os-Montes"
+
+### Corrections
+- [x] Trouver tous les textes avec "A Eletricista" ou "A Canalizador" (Home.tsx)
+- [x] Corriger dans staff-seekers.com
+- [x] Corriger dans norte-reparos.com
+- [x] Déployer staff-seekers
+- [ ] Déployer norte-reparos (checkpoint)

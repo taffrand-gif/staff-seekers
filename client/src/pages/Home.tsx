@@ -97,7 +97,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-lg leading-relaxed text-gray-700">
-              A <strong>{config.businessName}</strong>, reconhecida empresa nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de {config.type === 'plomberie' ? 'canalizações' : 'sistemas elétricos'}, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.
+              A <strong>empresa {config.businessName}</strong>, reconhecida nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de {config.type === 'plomberie' ? 'canalizações' : 'sistemas elétricos'}, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700">
