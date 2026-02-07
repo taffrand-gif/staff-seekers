@@ -353,3 +353,15 @@
 - [ ] Forcer le redéploiement sur Vercel via checkpoint
 - [ ] Tester que le site fonctionne correctement
 - [ ] Vérifier que le SEO fonctionne sur staff-seekers.com
+
+## Phase 35: Séparation des Repositories GitHub
+
+### Création Repositories Séparés
+- [x] Copier le projet vers /home/ubuntu/staff-seekers
+- [x] Modifier serviceConfig.ts pour utiliser electriciteConfig
+- [x] Créer repository GitHub staff-seekers
+- [x] Pousser le code vers GitHub
+- [x] Vérifier que norte-reparos utilise plumberieConfig
+- [x] Ajouter vercel.json pour configuration build correcte
+- [ ] Créer guide de déploiement Vercel pour les deux sites
+- [ ] Tester les deux sites après déploiement
