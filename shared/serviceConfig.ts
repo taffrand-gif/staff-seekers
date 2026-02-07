@@ -39,7 +39,7 @@ export interface ServiceConfig {
 export const plumberieConfig: ServiceConfig = {
   type: 'plomberie',
   name: 'Canalizador',
-  businessName: 'Norte Reparos',
+  businessName: 'Canalizador de Trás-os-Montes',
   phone: '928484451',
   whatsappNumber: '351928484451',
   domain: 'norte-reparos.com',

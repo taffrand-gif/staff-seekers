@@ -455,3 +455,13 @@
 - [x] Sitemap.xml automatiquement généré pour toutes les villes
 - [x] Déployer (140+ pages villes/villages)
 - [ ] Tester les pages principales
+
+## Phase 43: Modification Noms Commerciaux (Trás-os-Montes)
+
+### Modifications
+- [x] Vérifier orthographe correcte "Trás-os-Montes" (avec accent et traits d'union)
+- [x] Modifier staff-seekers : "Eletricista de Trás-os-Montes"
+- [x] Modifier norte-reparos : "Canalizador de Trás-os-Montes"
+- [x] Déployer staff-seekers
+- [ ] Déployer norte-reparos (checkpoint)
+- [ ] Tester les modifications
