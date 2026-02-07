@@ -3,32 +3,28 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
-import { IMAGES } from "../../../shared/images";
 import { useSEO } from "@/hooks/useSEO";
-
-interface GalleryImage {
-  url: string;
-  alt: string;
-  category: string;
-}
+import { trpc } from "@/lib/trpc";
 
 export default function Galeria() {
   const config = ACTIVE_CONFIG;
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedPhoto, setSelectedPhoto] = useState<{before: string, after: string, title: string} | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>("Todas");
+  const [showBefore, setShowBefore] = useState(true);
 
   useSEO({
     title: `Galeria de Trabalhos | ${config.businessName}`,
-    description: `Veja a galeria de trabalhos realizados pela ${config.businessName}. Serviços de ${config.name.toLowerCase()} com qualidade e profissionalismo.`,
+    description: `Veja a galeria de trabalhos realizados pela ${config.businessName}. Fotos antes e depois dos nossos serviços de ${config.name.toLowerCase()}.`,
     canonical: `https://${config.domain}/galeria`,
   });
 
-  const images = getGalleryImages(config.type);
-  const categories = ["Todas", ...Array.from(new Set(images.map(img => img.category)))];
+  const { data: photos = [], isLoading } = trpc.gallery.list.useQuery();
 
-  const filteredImages = selectedCategory === "Todas" 
-    ? images 
-    : images.filter(img => img.category === selectedCategory);
+  const categories = ["Todas", ...Array.from(new Set(photos.map(p => p.category)))];
+
+  const filteredPhotos = selectedCategory === "Todas" 
+    ? photos 
+    : photos.filter(p => p.category === selectedCategory);
 
   return (
     <>
@@ -43,7 +39,7 @@ export default function Galeria() {
               Galeria de Trabalhos
             </h1>
             <p className="text-xl text-gray-700">
-              Veja alguns dos nossos trabalhos realizados com qualidade e profissionalismo
+              Veja os nossos trabalhos realizados - fotos antes e depois
             </p>
           </div>
         </div>
@@ -73,82 +69,123 @@ export default function Galeria() {
       {/* Gallery Grid */}
       <section className="py-16 bg-gray-50">
         <div className="container">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredImages.map((image, index) => (
-              <div
-                key={index}
-                className="relative group cursor-pointer overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow bg-white"
-                onClick={() => setSelectedImage(image.url)}
-              >
-                <img
-                  src={image.url}
-                  alt={image.alt}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity flex items-center justify-center">
-                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-lg">
-                    🔍 Ver Imagem
-                  </span>
+          {isLoading ? (
+            <div className="text-center py-12">
+              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-red-600"></div>
+              <p className="mt-4 text-gray-600">A carregar galeria...</p>
+            </div>
+          ) : filteredPhotos.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-gray-600 text-lg">Nenhuma foto disponível nesta categoria.</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredPhotos.map((photo) => (
+                <div
+                  key={photo.id}
+                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow cursor-pointer"
+                  onClick={() => setSelectedPhoto({
+                    before: photo.beforeImageUrl,
+                    after: photo.afterImageUrl,
+                    title: photo.title
+                  })}
+                >
+                  {/* Before/After Comparison */}
+                  <div className="relative h-64 overflow-hidden">
+                    <div className="grid grid-cols-2 h-full">
+                      <div className="relative">
+                        <img
+                          src={photo.beforeImageUrl}
+                          alt={`Antes - ${photo.title}`}
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute top-2 left-2 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                          Antes
+                        </div>
+                      </div>
+                      <div className="relative">
+                        <img
+                          src={photo.afterImageUrl}
+                          alt={`Depois - ${photo.title}`}
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute top-2 right-2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                          Depois
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Photo Info */}
+                  <div className="p-4">
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">{photo.title}</h3>
+                    {photo.description && (
+                      <p className="text-gray-600 text-sm mb-2">{photo.description}</p>
+                    )}
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full font-semibold">
+                        {photo.category}
+                      </span>
+                      {photo.city && (
+                        <span className="text-gray-500">📍 {photo.city}</span>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
-                  <p className="text-white text-sm font-semibold">{image.alt}</p>
-                  <p className="text-gray-300 text-xs">{image.category}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
       {/* Lightbox Modal */}
-      {selectedImage && (
+      {selectedPhoto && (
         <div
           className="fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
+          onClick={() => setSelectedPhoto(null)}
         >
           <button
             className="absolute top-4 right-4 text-white text-5xl hover:text-gray-300 transition-colors w-12 h-12 flex items-center justify-center"
-            onClick={() => setSelectedImage(null)}
+            onClick={() => setSelectedPhoto(null)}
             aria-label="Fechar"
           >
             ×
           </button>
-          <img
-            src={selectedImage}
-            alt="Imagem ampliada"
-            className="max-w-full max-h-full object-contain rounded-lg"
-          />
+
+          <div className="max-w-6xl w-full">
+            <h2 className="text-white text-2xl font-bold mb-4 text-center">
+              {selectedPhoto.title}
+            </h2>
+
+            {/* Toggle Button */}
+            <div className="flex justify-center mb-4">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowBefore(!showBefore);
+                }}
+                className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors"
+              >
+                {showBefore ? "Ver Depois →" : "← Ver Antes"}
+              </button>
+            </div>
+
+            {/* Image Display */}
+            <div className="relative">
+              <img
+                src={showBefore ? selectedPhoto.before : selectedPhoto.after}
+                alt={showBefore ? "Antes" : "Depois"}
+                className="max-w-full max-h-[70vh] object-contain mx-auto rounded-lg"
+              />
+              <div className={`absolute top-4 ${showBefore ? 'left-4' : 'right-4'} ${showBefore ? 'bg-red-600' : 'bg-green-600'} text-white px-4 py-2 rounded-full font-semibold`}>
+                {showBefore ? "Antes" : "Depois"}
+              </div>
+            </div>
+          </div>
         </div>
       )}
 
       <Footer />
     </>
   );
-}
-
-// Fonction pour générer la galerie avec les vraies images
-function getGalleryImages(serviceType: 'plomberie' | 'electricite'): GalleryImage[] {
-  if (serviceType === 'plomberie') {
-    return [
-      { url: IMAGES.plomberie.hero, alt: "Reparação profissional de canalização", category: "Reparações" },
-      { url: IMAGES.plomberie.van, alt: "Viatura de serviço equipada", category: "Equipamento" },
-      { url: IMAGES.plomberie.emergency, alt: "Serviço de urgência 24h", category: "Urgências" },
-      { url: IMAGES.gallery[0], alt: "Instalação de torneira moderna", category: "Instalações" },
-      { url: IMAGES.gallery[1], alt: "Manutenção preventiva", category: "Manutenção" },
-      { url: IMAGES.gallery[2], alt: "Desentupimento de canalização", category: "Desentupimentos" },
-      { url: IMAGES.gallery[3], alt: "Reparação de fuga de água", category: "Reparações" },
-      { url: IMAGES.gallery[4], alt: "Instalação de esquentador", category: "Instalações" },
-    ];
-  } else {
-    return [
-      { url: IMAGES.electricite.hero, alt: "Instalação de quadro elétrico", category: "Instalações" },
-      { url: IMAGES.electricite.wiring, alt: "Instalação de fiação elétrica", category: "Instalações" },
-      { url: IMAGES.electricite.emergency, alt: "Serviço de urgência 24h", category: "Urgências" },
-      { url: IMAGES.gallery[0], alt: "Reparação de curto-circuito", category: "Reparações" },
-      { url: IMAGES.gallery[1], alt: "Instalação de tomadas", category: "Instalações" },
-      { url: IMAGES.gallery[2], alt: "Certificação elétrica", category: "Certificação" },
-      { url: IMAGES.gallery[3], alt: "Instalação de iluminação LED", category: "Iluminação" },
-      { url: IMAGES.gallery[4], alt: "Substituição de disjuntor", category: "Reparações" },
-    ];
-  }
 }

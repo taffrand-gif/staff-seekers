@@ -193,4 +193,37 @@
 - [x] Implémenter le système de messages (notifications via notifyOwner)
 - [x] Intégrer le chat dans toutes les pages (via App.tsx)
 - [x] Tester le système de chat (tests unitaires passent)
-- [ ] Redéployer les sites
+- [x] Redéployer les sites (GitHub pushé, Vercel déploiera automatiquement)
+
+## Phase 19: Système de Réservation en Ligne
+
+- [x] Créer le schéma de base de données pour les réservations
+- [x] Ajouter les routes API pour créer/lister les réservations
+- [x] Créer le composant de sélection de date/heure
+- [x] Créer la page de réservation
+- [x] Ajouter la validation et les notifications
+- [x] Tester le système de réservation
+
+## Phase 20: Galerie Photos Avant/Après
+
+- [x] Créer le schéma de base de données pour les photos
+- [x] Ajouter les routes API pour liste des photos
+- [x] Créer le composant de galerie avec comparaison avant/après
+- [x] Créer la page Galerie
+- [x] Ajouter des photos d'exemple (en attente de photos réelles)
+- [x] Tester la galerie
+
+## Phase 21: Système d'Avis Clients
+
+- [x] Créer le schéma de base de données pour les avis
+- [x] Ajouter les routes API pour créer/lister les avis
+- [x] Créer le composant d'affichage des avis avec étoiles
+- [x] Créer le formulaire de soumission d'avis
+- [x] Ajouter la page Testemunhos (témoignages)
+- [x] Tester le système d'avis
+
+## Phase 22: Déploiement Final
+
+- [x] Tester toutes les nouvelles fonctionnalités (8 tests passés)
+- [ ] Créer un checkpoint
+- [ ] Redéployer sur GitHub et Vercel

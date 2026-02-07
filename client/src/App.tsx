@@ -15,6 +15,7 @@ import Testemunhos from "@/pages/Testemunhos";
 import Blog from "@/pages/Blog";
 import BlogArticle from "@/pages/BlogArticle";
 import ChatWidget from "@/components/ChatWidget";
+import Reserva from "@/pages/Reserva";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -26,6 +27,7 @@ function Router() {
       <Route path={"/galeria"} component={Galeria} />
       <Route path={"/servicos"} component={Servicos} />
       <Route path={"/contactos"} component={Contactos} />
+      <Route path="/reserva" component={Reserva} />
        <Route path="/testemunhos" component={Testemunhos} />
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:slug" component={BlogArticle} />

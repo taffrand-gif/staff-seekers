@@ -4,21 +4,39 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
-
-interface Testimonial {
-  name: string;
-  city: string;
-  rating: number;
-  date: string;
-  text: string;
-  service: string;
-}
+import { trpc } from "@/lib/trpc";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Testemunhos() {
   const config = ACTIVE_CONFIG;
-  const [currentIndex, setCurrentIndex] = useState(0);
-  
-  const testimonials = getTestimonials(config.type);
+  const [showForm, setShowForm] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [rating, setRating] = useState(0);
+  const [hoverRating, setHoverRating] = useState(0);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    city: "",
+    comment: "",
+    serviceType: "",
+  });
+
+  const { data: reviews = [], isLoading, refetch } = trpc.reviews.list.useQuery();
+
+  const createReview = trpc.reviews.create.useMutation({
+    onSuccess: () => {
+      setShowSuccess(true);
+      setShowForm(false);
+      setFormData({ name: "", email: "", city: "", comment: "", serviceType: "" });
+      setRating(0);
+      setTimeout(() => setShowSuccess(false), 5000);
+      refetch();
+    },
+  });
 
   useSEO({
     title: `Testemunhos de Clientes | ${config.businessName}`,
@@ -26,19 +44,43 @@ export default function Testemunhos() {
     canonical: `https://${config.domain}/testemunhos`,
   });
 
-  const nextTestimonial = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (rating === 0) {
+      alert("Por favor, selecione uma classificação");
+      return;
+    }
+    createReview.mutate({
+      ...formData,
+      rating,
+    });
   };
 
-  const prevTestimonial = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
+  const averageRating = reviews.length > 0 
+    ? (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1)
+    : "0.0";
 
-  const goToTestimonial = (index: number) => {
-    setCurrentIndex(index);
+  const StarRating = ({ rating: r, interactive = false, onRate }: { rating: number; interactive?: boolean; onRate?: (r: number) => void }) => {
+    return (
+      <div className="flex gap-1">
+        {[1, 2, 3, 4, 5].map((star) => (
+          <button
+            key={star}
+            type="button"
+            onClick={() => interactive && onRate && onRate(star)}
+            onMouseEnter={() => interactive && setHoverRating(star)}
+            onMouseLeave={() => interactive && setHoverRating(0)}
+            className={`text-3xl ${interactive ? 'cursor-pointer hover:scale-110 transition-transform' : ''}`}
+            disabled={!interactive}
+          >
+            <span className={star <= (interactive ? (hoverRating || r) : r) ? 'text-yellow-400' : 'text-gray-300'}>
+              ★
+            </span>
+          </button>
+        ))}
+      </div>
+    );
   };
-
-  const averageRating = (testimonials.reduce((acc, t) => acc + t.rating, 0) / testimonials.length).toFixed(1);
 
   return (
     <>
@@ -66,294 +108,162 @@ export default function Testemunhos() {
                       <span key={i} className="text-yellow-400 text-2xl">★</span>
                     ))}
                   </div>
-                  <p className="text-gray-600">Baseado em {testimonials.length} avaliações</p>
+                  <p className="text-gray-600">Baseado em {reviews.length} avaliações</p>
                 </div>
               </div>
+            </div>
+
+            <div className="mt-8">
+              <Button
+                onClick={() => setShowForm(!showForm)}
+                className="bg-red-600 hover:bg-red-700 text-lg px-8 py-6"
+              >
+                {showForm ? "Cancelar" : "Deixar Avaliação"}
+              </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Carousel Section */}
-      <section className="py-16 bg-white">
-        <div className="container">
-          <div className="max-w-4xl mx-auto">
-            {/* Carousel */}
-            <div className="relative">
-              {/* Main Testimonial Card */}
-              <div className="bg-gray-50 rounded-2xl p-8 md:p-12 shadow-lg">
-                {/* Stars */}
-                <div className="flex gap-1 mb-4 justify-center">
-                  {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                    <span key={i} className="text-yellow-400 text-3xl">★</span>
-                  ))}
-                </div>
-
-                {/* Quote */}
-                <blockquote className="text-xl md:text-2xl text-gray-700 text-center mb-8 leading-relaxed">
-                  "{testimonials[currentIndex].text}"
-                </blockquote>
-
-                {/* Author Info */}
-                <div className="text-center">
-                  <p className="font-bold text-lg text-gray-900">{testimonials[currentIndex].name}</p>
-                  <p className="text-gray-600">{testimonials[currentIndex].city}</p>
-                  <p className="text-sm text-gray-500 mt-2">
-                    {testimonials[currentIndex].service} • {testimonials[currentIndex].date}
-                  </p>
-                </div>
-              </div>
-
-              {/* Navigation Arrows */}
-              <button
-                onClick={prevTestimonial}
-                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 bg-white hover:bg-gray-100 rounded-full p-3 shadow-lg transition-colors"
-                aria-label="Testemunho anterior"
-              >
-                <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-              </button>
-
-              <button
-                onClick={nextTestimonial}
-                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 bg-white hover:bg-gray-100 rounded-full p-3 shadow-lg transition-colors"
-                aria-label="Próximo testemunho"
-              >
-                <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Dots Navigation */}
-            <div className="flex justify-center gap-2 mt-8">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => goToTestimonial(index)}
-                  className={`w-3 h-3 rounded-full transition-colors ${
-                    index === currentIndex ? 'bg-red-600' : 'bg-gray-300 hover:bg-gray-400'
-                  }`}
-                  aria-label={`Ir para testemunho ${index + 1}`}
-                />
-              ))}
-            </div>
+      {/* Success Message */}
+      {showSuccess && (
+        <div className="container max-w-3xl mt-8">
+          <div className="bg-green-50 border border-green-200 text-green-800 px-6 py-4 rounded-lg">
+            <h3 className="font-semibold">Obrigado pela sua avaliação!</h3>
+            <p>O seu testemunho será publicado após aprovação.</p>
           </div>
         </div>
-      </section>
+      )}
 
-      {/* All Testimonials Grid */}
+      {/* Review Form */}
+      {showForm && (
+        <section className="py-8 bg-white">
+          <div className="container max-w-3xl">
+            <Card>
+              <CardHeader>
+                <CardTitle>Deixe a sua Avaliação</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div>
+                    <Label>Classificação *</Label>
+                    <StarRating rating={rating} interactive onRate={setRating} />
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <Label htmlFor="name">Nome *</Label>
+                      <Input
+                        id="name"
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <Label htmlFor="email">Email (opcional)</Label>
+                      <Input
+                        id="email"
+                        type="email"
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <Label htmlFor="city">Cidade *</Label>
+                      <Input
+                        id="city"
+                        value={formData.city}
+                        onChange={(e) => setFormData({ ...formData, city: e.target.value })}
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <Label htmlFor="serviceType">Tipo de Serviço (opcional)</Label>
+                      <Input
+                        id="serviceType"
+                        value={formData.serviceType}
+                        onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <Label htmlFor="comment">Comentário *</Label>
+                    <Textarea
+                      id="comment"
+                      value={formData.comment}
+                      onChange={(e) => setFormData({ ...formData, comment: e.target.value })}
+                      rows={4}
+                      required
+                      minLength={10}
+                      placeholder="Conte-nos sobre a sua experiência..."
+                    />
+                  </div>
+
+                  <Button
+                    type="submit"
+                    className="w-full bg-red-600 hover:bg-red-700 text-lg py-6"
+                    disabled={createReview.isPending}
+                  >
+                    {createReview.isPending ? "A enviar..." : "Enviar Avaliação"}
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+      )}
+
+      {/* Reviews List */}
       <section className="py-16 bg-gray-50">
-        <div className="container">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-              Todos os Testemunhos
-            </h2>
+        <div className="container max-w-5xl">
+          {isLoading ? (
+            <div className="text-center py-12">
+              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-red-600"></div>
+              <p className="mt-4 text-gray-600">A carregar avaliações...</p>
+            </div>
+          ) : reviews.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-gray-600 text-lg">Ainda não há avaliações. Seja o primeiro a avaliar!</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {reviews.map((review) => (
+                <Card key={review.id} className="hover:shadow-lg transition-shadow">
+                  <CardContent className="pt-6">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h3 className="font-bold text-lg text-gray-900">{review.name}</h3>
+                        <p className="text-sm text-gray-500">📍 {review.city}</p>
+                      </div>
+                      <StarRating rating={review.rating} />
+                    </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {testimonials.map((testimonial, index) => (
-                <div key={index} className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-                  {/* Stars */}
-                  <div className="flex gap-1 mb-3">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-xl">★</span>
-                    ))}
-                  </div>
+                    <p className="text-gray-700 mb-4">{review.comment}</p>
 
-                  {/* Text */}
-                  <p className="text-gray-700 mb-4 leading-relaxed">
-                    "{testimonial.text}"
-                  </p>
-
-                  {/* Author */}
-                  <div className="border-t border-gray-200 pt-4">
-                    <p className="font-semibold text-gray-900">{testimonial.name}</p>
-                    <p className="text-sm text-gray-600">{testimonial.city}</p>
-                    <p className="text-xs text-gray-500 mt-1">{testimonial.date}</p>
-                  </div>
-                </div>
+                    <div className="flex items-center justify-between text-sm text-gray-500">
+                      {review.serviceType && (
+                        <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full font-semibold">
+                          {review.serviceType}
+                        </span>
+                      )}
+                      <span>{new Date(review.createdAt).toLocaleDateString('pt-PT')}</span>
+                    </div>
+                  </CardContent>
+                </Card>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-white">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Junte-se aos nossos clientes satisfeitos
-            </h2>
-            <p className="text-xl text-gray-700 mb-8">
-              Contacte-nos agora e experimente o mesmo serviço de excelência
-            </p>
-            <a
-              href="/contactos"
-              className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-4 rounded-lg transition-colors inline-block"
-            >
-              Contacte-nos Agora
-            </a>
-          </div>
+          )}
         </div>
       </section>
 
       <Footer />
     </>
   );
-}
-
-function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[] {
-  if (serviceType === 'plomberie') {
-    return [
-      {
-        name: "Maria Silva",
-        city: "Bragança",
-        rating: 5,
-        date: "Janeiro 2026",
-        service: "Reparação de fuga de água",
-        text: "Excelente serviço! Tive uma fuga de água às 3 da manhã e a equipa chegou em menos de 40 minutos. Resolveram o problema rapidamente e deixaram tudo limpo. Muito profissionais!"
-      },
-      {
-        name: "João Pereira",
-        city: "Mirandela",
-        rating: 5,
-        date: "Dezembro 2025",
-        service: "Desentupimento de canalização",
-        text: "Serviço impecável. O canalizador foi muito atencioso, explicou o problema e resolveu tudo na hora. Preço justo e trabalho de qualidade. Recomendo!"
-      },
-      {
-        name: "Ana Costa",
-        city: "Macedo de Cavaleiros",
-        rating: 5,
-        date: "Novembro 2025",
-        service: "Instalação de esquentador",
-        text: "Muito satisfeita com o serviço. Instalaram o esquentador novo de forma rápida e profissional. Explicaram tudo sobre a manutenção. Equipa de confiança!"
-      },
-      {
-        name: "Carlos Rodrigues",
-        city: "Mogadouro",
-        rating: 5,
-        date: "Outubro 2025",
-        service: "Reparação de autoclismo",
-        text: "Rapidez e eficiência. Liguei de manhã e à tarde já estava resolvido. O técnico foi muito simpático e o preço foi honesto. Vou guardar o contacto!"
-      },
-      {
-        name: "Teresa Fernandes",
-        city: "Miranda do Douro",
-        rating: 5,
-        date: "Setembro 2025",
-        service: "Desentupimento urgente",
-        text: "Salvaram o meu fim de semana! A sanita entupiu na sexta à noite e eles vieram no sábado de manhã. Problema resolvido em 30 minutos. Muito obrigada!"
-      },
-      {
-        name: "Manuel Santos",
-        city: "Vila Flor",
-        rating: 5,
-        date: "Agosto 2025",
-        service: "Instalação de torneiras",
-        text: "Profissionais de primeira. Instalaram torneiras novas em toda a casa. Trabalho limpo, rápido e bem feito. Preço combinado sem surpresas. Recomendo vivamente!"
-      },
-      {
-        name: "Isabel Alves",
-        city: "Torre de Moncorvo",
-        rating: 5,
-        date: "Julho 2025",
-        service: "Reparação de caldeira",
-        text: "Excelente atendimento. A caldeira avariou e fiquei sem água quente. Vieram no próprio dia e resolveram tudo. Técnico muito competente e educado."
-      },
-      {
-        name: "Paulo Martins",
-        city: "Vinhais",
-        rating: 5,
-        date: "Junho 2025",
-        service: "Fuga de água urgente",
-        text: "Serviço de urgência impecável. Tive uma fuga grave e a equipa chegou rapidamente. Resolveram o problema e ainda deram conselhos para prevenir futuras fugas. Top!"
-      },
-      {
-        name: "Luísa Gomes",
-        city: "Carrazeda de Ansiães",
-        rating: 5,
-        date: "Maio 2025",
-        service: "Instalação de casa de banho",
-        text: "Fizeram a instalação completa da casa de banho nova. Trabalho perfeito, dentro do prazo e do orçamento. Equipa muito profissional. Estou muito satisfeita!"
-      },
-    ];
-  } else {
-    return [
-      {
-        name: "António Sousa",
-        city: "Bragança",
-        rating: 5,
-        date: "Janeiro 2026",
-        service: "Reparação de curto-circuito",
-        text: "Serviço de urgência excelente! Tive um curto-circuito à noite e a equipa chegou em 30 minutos. Resolveram tudo com segurança e profissionalismo. Muito bom!"
-      },
-      {
-        name: "Rosa Oliveira",
-        city: "Mirandela",
-        rating: 5,
-        date: "Dezembro 2025",
-        service: "Instalação de quadro elétrico",
-        text: "Instalaram um quadro elétrico novo na minha casa. Trabalho impecável, tudo certificado e explicado ao pormenor. Eletricistas muito competentes!"
-      },
-      {
-        name: "Francisco Lopes",
-        city: "Macedo de Cavaleiros",
-        rating: 5,
-        date: "Novembro 2025",
-        service: "Certificação elétrica",
-        text: "Precisava da certificação elétrica urgente. Fizeram tudo rapidamente, com toda a documentação em ordem. Serviço profissional e preço justo."
-      },
-      {
-        name: "Cristina Ribeiro",
-        city: "Mogadouro",
-        rating: 5,
-        date: "Outubro 2025",
-        service: "Instalação de tomadas",
-        text: "Instalaram várias tomadas novas em casa. Trabalho limpo, rápido e bem feito. O eletricista foi muito cuidadoso e deixou tudo arrumado. Recomendo!"
-      },
-      {
-        name: "José Carvalho",
-        city: "Miranda do Douro",
-        rating: 5,
-        date: "Setembro 2025",
-        service: "Reparação de disjuntor",
-        text: "O disjuntor saltava constantemente. Vieram, identificaram o problema e resolveram na hora. Serviço rápido e eficaz. Muito satisfeito!"
-      },
-      {
-        name: "Margarida Pinto",
-        city: "Vila Flor",
-        rating: 5,
-        date: "Agosto 2025",
-        service: "Instalação de iluminação LED",
-        text: "Mudaram toda a iluminação da casa para LED. Ficou fantástico e já noto a diferença na conta da luz. Equipa muito profissional!"
-      },
-      {
-        name: "Rui Ferreira",
-        city: "Torre de Moncorvo",
-        rating: 5,
-        date: "Julho 2025",
-        service: "Deteção de avaria elétrica",
-        text: "Tinham um problema elétrico que ninguém conseguia encontrar. Eles detetaram e resolveram rapidamente. Muito competentes e honestos!"
-      },
-      {
-        name: "Helena Nunes",
-        city: "Vinhais",
-        rating: 5,
-        date: "Junho 2025",
-        service: "Instalação elétrica completa",
-        text: "Fizeram toda a instalação elétrica da casa nova. Trabalho perfeito, tudo conforme as normas. Equipa de confiança. Recomendo vivamente!"
-      },
-      {
-        name: "Pedro Moreira",
-        city: "Alfândega da Fé",
-        rating: 5,
-        date: "Maio 2025",
-        service: "Reparação urgente",
-        text: "Fiquei sem luz à noite e eles vieram de imediato. Resolveram o problema em menos de uma hora. Serviço de urgência impecável. Muito obrigado!"
-      },
-    ];
-  }
 }

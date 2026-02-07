@@ -58,6 +58,96 @@ export const appRouter = router({
         return { success };
       }),
   }),
+
+  bookings: router({
+    create: publicProcedure
+      .input(z.object({
+        name: z.string().min(1),
+        email: z.string().email(),
+        phone: z.string().min(1),
+        serviceType: z.string().min(1),
+        address: z.string().min(1),
+        city: z.string().min(1),
+        preferredDate: z.string(),
+        preferredTime: z.string(),
+        description: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { bookings } = await import("../drizzle/schema");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        const booking = await db.insert(bookings).values({
+          ...input,
+          preferredDate: new Date(input.preferredDate),
+        });
+        
+        // Notifier le propriétaire
+        await notifyOwner({
+          title: `📅 Nouvelle réservation - ${input.name}`,
+          content: `**Nom:** ${input.name}\n**Email:** ${input.email}\n**Téléphone:** ${input.phone}\n**Service:** ${input.serviceType}\n**Ville:** ${input.city}\n**Date:** ${input.preferredDate}\n**Heure:** ${input.preferredTime}\n\n**Description:**\n${input.description || "Aucune description"}`,
+        });
+        
+        return { success: true };
+      }),
+    
+    list: publicProcedure.query(async () => {
+      const { getDb } = await import("./db");
+      const { bookings } = await import("../drizzle/schema");
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      return db.select().from(bookings).orderBy(bookings.createdAt);
+    }),
+  }),
+
+  gallery: router({
+    list: publicProcedure.query(async () => {
+      const { getDb } = await import("./db");
+      const { galleryPhotos } = await import("../drizzle/schema");
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      return db.select().from(galleryPhotos).orderBy(galleryPhotos.displayOrder);
+    }),
+  }),
+
+  reviews: router({
+    create: publicProcedure
+      .input(z.object({
+        name: z.string().min(1),
+        email: z.string().email().optional(),
+        city: z.string().min(1),
+        rating: z.number().min(1).max(5),
+        comment: z.string().min(10),
+        serviceType: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { reviews } = await import("../drizzle/schema");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        const review = await db.insert(reviews).values(input);
+        
+        // Notifier le propriétaire
+        await notifyOwner({
+          title: `⭐ Nouvel avis - ${input.rating}/5 étoiles`,
+          content: `**Nom:** ${input.name}\n**Ville:** ${input.city}\n**Note:** ${"⭐".repeat(input.rating)}\n\n**Commentaire:**\n${input.comment}`,
+        });
+        
+        return { success: true };
+      }),
+    
+    list: publicProcedure.query(async () => {
+      const { getDb } = await import("./db");
+      const { reviews } = await import("../drizzle/schema");
+      const { eq } = await import("drizzle-orm");
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      // Ne retourner que les avis approuvés
+      return db.select().from(reviews).where(eq(reviews.isApproved, 1)).orderBy(reviews.createdAt);
+    }),
+  }),
 });
 
 export type AppRouter = typeof appRouter;
