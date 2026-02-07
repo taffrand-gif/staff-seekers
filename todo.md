@@ -478,3 +478,51 @@
 - [x] Corriger dans norte-reparos.com
 - [x] Déployer staff-seekers
 - [ ] Déployer norte-reparos (checkpoint)
+
+## Phase 45: Audit Complet et Validation Google
+
+### Mise à jour et déploiement
+- [ ] Vérifier que norte-reparos.com est à jour
+- [ ] Vérifier que staff-seekers.com est à jour
+- [ ] Déployer les deux sites
+
+### Vérifications fonctionnelles
+- [ ] Tester norte-reparos.com (toutes les pages)
+- [ ] Tester staff-seekers.com (toutes les pages)
+- [ ] Vérifier géolocalisation
+- [ ] Vérifier formulaires de contact
+- [ ] Vérifier boutons téléphone/WhatsApp
+
+### Audit PageSpeed Insights
+- [ ] norte-reparos.com Mobile
+- [ ] norte-reparos.com Desktop
+- [ ] staff-seekers.com Mobile
+- [ ] staff-seekers.com Desktop
+
+### Validation Google
+- [ ] Google Rich Results Test - norte-reparos.com
+- [ ] Google Rich Results Test - staff-seekers.com
+- [ ] Schema.org Validator - norte-reparos.com
+- [ ] Schema.org Validator - staff-seekers.com
+
+### Audit SEO
+- [ ] Sitemap.xml fonctionnel
+- [ ] Robots.txt optimisé
+- [ ] Meta tags complets
+- [ ] Open Graph validé
+- [ ] Structured data validé
+- [ ] Rapport final complet
+
+## Phase 46: Vérification Complète Avant Audit
+
+### Vérifications à effectuer
+- [x] Compter le nombre total de villes configurées (98 villes dans CITIES)
+- [x] Compter le nombre total de pages générées (98 pages villes)
+- [x] Vérifier les noms commerciaux (Canalizador/Eletricista de Trás-os-Montes) ✅
+- [x] Vérifier la géolocalisation (48 villes dans useGeolocation)
+- [x] Vérifier les optimisations SEO (meta tags, Open Graph, structured data) ✅
+- [x] Vérifier sitemap.xml (~110 URLs)
+- [x] Vérifier robots.txt ✅
+- [x] Créer rapport détaillé de toutes les modifications ✅
+- [x] Vérifier déploiement norte-reparos (READY ✅)
+- [x] Vérifier déploiement staff-seekers (READY ✅)

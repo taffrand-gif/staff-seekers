@@ -89,7 +89,7 @@ export const plumberieConfig: ServiceConfig = {
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',
-  businessName: 'Staff Seekers',
+  businessName: 'Eletricista de Trás-os-Montes',
   phone: '932321892',
   whatsappNumber: '351932321892',
   domain: 'staff-seekers.com',
@@ -135,10 +135,27 @@ export const electriciteConfig: ServiceConfig = {
   ],
 };
 
-// Sélectionner la configuration active (à modifier selon le site)
-// Pour plomberie: export const ACTIVE_CONFIG = plumberieConfig;
-// Pour électricité: export const ACTIVE_CONFIG = plumberieConfig;
-export const ACTIVE_CONFIG = plumberieConfig;
+// Sélectionner la configuration active automatiquement selon le domaine
+// Détection côté serveur via process.env et côté client via window.location
+function getActiveConfig(): ServiceConfig {
+  // Côté serveur (build time ou SSR)
+  if (typeof window === 'undefined') {
+    const domain = process.env.VITE_DOMAIN || process.env.DOMAIN || '';
+    if (domain.includes('staff-seekers')) {
+      return electriciteConfig;
+    }
+    return plumberieConfig;
+  }
+  
+  // Côté client (runtime)
+  const hostname = window.location.hostname;
+  if (hostname.includes('staff-seekers')) {
+    return electriciteConfig;
+  }
+  return plumberieConfig;
+}
+
+export const ACTIVE_CONFIG = getActiveConfig();
 
 // Liste des 12 villes prioritaires
 export const CITIES = [
