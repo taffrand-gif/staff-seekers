@@ -125,7 +125,7 @@ export default function Home() {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700">
-              Somos uma equipa profissional sempre atualizada com as mais novas tecnologias, podendo assim fornecer aos nossos clientes uma prestação de serviços de {config.name.toLowerCase()}s com a maior segurança e máxima fiabilidade. Fale connosco e beneficie dos nossos orçamentos totalmente gratuitos.
+              Somos uma equipa profissional sempre atualizada com as mais novas tecnologias, podendo assim fornecer aos nossos clientes uma prestação de serviços de {config.name.toLowerCase()}s com a maior segurança e máxima fiabilidade. Fale connosco para obter preços competitivos e transparentes.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function Home() {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700">
-              Só trabalhamos, refira-se, com produtos inovadores e com equipamento topo de gama. Por isso, já sabe, contacte-nos, para serviço de {config.name.toLowerCase()}s com piquetes de serviço 24h, a qualquer hora em qualquer local, interior ou exterior. A sua satisfação é a maior recompensa do nosso trabalho. Peça-nos, sem mais demoras, o seu orçamento grátis.
+              Só trabalhamos, refira-se, com produtos inovadores e com equipamento topo de gama. Por isso, já sabe, contacte-nos, para serviço de {config.name.toLowerCase()}s com piquetes de serviço 24h, a qualquer hora em qualquer local, interior ou exterior. A sua satisfação é a maior recompensa do nosso trabalho. Peça-nos, sem mais demoras, a sua estimativa sem compromisso.
             </p>
 
             <div className="text-center my-12">
@@ -180,7 +180,7 @@ export default function Home() {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700">
-              Livre-se de todas as preocupações! Contacte-nos agora para adjudicar o nosso serviço de {config.name.toLowerCase()}s aos melhores preços que poderá encontrar no mercado. Ligue-nos agora para obter um orçamento gratuito e sem qualquer tipo de compromisso associado. Para si, temos disponibilidade imediata.
+              Livre-se de todas as preocupações! Contacte-nos agora para adjudicar o nosso serviço de {config.name.toLowerCase()}s aos melhores preços que poderá encontrar no mercado. Ligue-nos agora para obter preços competitivos e sem qualquer tipo de compromisso associado. Para si, temos disponibilidade imediata.
             </p>
           </div>
         </div>

@@ -50,7 +50,7 @@ function getFAQs(serviceType: 'plomberie' | 'electricite'): FAQItem[] {
     return [
       {
         question: "Quanto custa uma intervenção de urgência?",
-        answer: "O custo varia conforme o tipo de problema e a complexidade da reparação. Fazemos sempre um orçamento gratuito antes de iniciar qualquer trabalho. Em caso de urgência, deslocamo-nos imediatamente e apresentamos o orçamento no local.",
+        answer: "O custo varia conforme o tipo de problema e a complexidade da reparação. Fazemos sempre uma estimativa sem compromisso antes de iniciar qualquer trabalho. Em caso de urgência, deslocamo-nos imediatamente e apresentamos preços competitivos e transparentes.",
       },
       {
         question: "Atendem urgências 24 horas?",
@@ -93,8 +93,8 @@ function getFAQs(serviceType: 'plomberie' | 'electricite'): FAQItem[] {
         answer: "Sim, somos canalizadores certificados e experientes. Cumprimos todas as normas técnicas e de segurança exigidas.",
       },
       {
-        question: "Fazem orçamentos gratuitos?",
-        answer: "Sim, todos os orçamentos são gratuitos e sem compromisso. Apresentamos sempre o orçamento antes de iniciar qualquer trabalho.",
+        question: "Os preços são competitivos?",
+        answer: "Sim, oferecemos preços competitivos e transparentes, sem compromisso. Apresentamos sempre uma estimativa clara antes de iniciar qualquer trabalho.",
       },
       {
         question: "O que fazer em caso de fuga de água grave?",
@@ -134,7 +134,7 @@ function getFAQs(serviceType: 'plomberie' | 'electricite'): FAQItem[] {
     return [
       {
         question: "Quanto custa uma intervenção de urgência?",
-        answer: "O custo varia conforme o tipo de problema e a complexidade da reparação. Fazemos sempre um orçamento gratuito antes de iniciar qualquer trabalho. Em caso de urgência, deslocamo-nos imediatamente e apresentamos o orçamento no local.",
+        answer: "O custo varia conforme o tipo de problema e a complexidade da reparação. Fazemos sempre uma estimativa sem compromisso antes de iniciar qualquer trabalho. Em caso de urgência, deslocamo-nos imediatamente e apresentamos preços competitivos e transparentes.",
       },
       {
         question: "Atendem urgências 24 horas?",
@@ -177,8 +177,8 @@ function getFAQs(serviceType: 'plomberie' | 'electricite'): FAQItem[] {
         answer: "Sim, somos eletricistas certificados e experientes. Cumprimos todas as normas técnicas e de segurança exigidas, incluindo o RTIEBT (Regulamento Técnico de Instalações Elétricas).",
       },
       {
-        question: "Fazem orçamentos gratuitos?",
-        answer: "Sim, todos os orçamentos são gratuitos e sem compromisso. Apresentamos sempre o orçamento antes de iniciar qualquer trabalho.",
+        question: "Os preços são competitivos?",
+        answer: "Sim, oferecemos preços competitivos e transparentes, sem compromisso. Apresentamos sempre uma estimativa clara antes de iniciar qualquer trabalho.",
       },
       {
         question: "Porque é que o disjuntor salta constantemente?",

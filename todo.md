@@ -145,6 +145,34 @@
 
 ## Phase 13: Correction Texte
 
-- [ ] Remplacer "ORÇAMENTOS GRATUITOS" par "PREÇOS COMPETITIVOS" dans tous les fichiers
-- [ ] Pousser vers GitHub
-- [ ] Redéployer sur Vercel
+- [x] Remplacer "ORÇAMENTOS GRATUITOS" par "PREÇOS COMPETITIVOS" dans tous les fichiers
+- [x] Pousser vers GitHub
+- [x] Redéployer sur Vercel (automatique via GitHub)
+
+## Phase 14: Configuration Domaines Vercel
+
+- [x] Ajouter norte-reparos.com sur Vercel
+- [x] Ajouter www.norte-reparos.com sur Vercel
+- [x] Ajouter staff-seekers.com sur Vercel
+- [x] Ajouter www.staff-seekers.com sur Vercel
+- [ ] Configurer DNS chez Cloudflare (manuel utilisateur)
+- [ ] Vérifier que les domaines affichent le nouveau design (après DNS)
+
+## Phase 15: Modification DNS Cloudflare
+
+- [x] Récupérer les enregistrements DNS actuels
+- [x] Modifier DNS norte-reparos.com vers Vercel
+- [x] Modifier DNS www.norte-reparos.com vers Vercel
+- [x] Modifier DNS staff-seekers.com vers Vercel
+- [x] Modifier DNS www.staff-seekers.com vers Vercel
+- [ ] Vérifier que les domaines affichent le nouveau design (attendre propagation)
+
+## Phase 16: Vérification Complète et Corrections
+
+- [x] Vérifier les sites en ligne (norte-reparos.vercel.app et staff-seekers.vercel.app)
+- [x] Identifier toutes les failles (contenu, SEO, UX, erreurs)
+- [x] Corriger les failles identifiées (remplacement "Orçamentos Gratuitos" par "Preços Competitivos")
+- [x] Ajouter 86 nouvelles villes et villages (98 pages locales au total)
+- [x] Mettre à jour le sitemap.xml (111 URLs au total)
+- [ ] Redéployer les sites
+- [ ] Vérifier que tout fonctionne correctement

@@ -28,8 +28,8 @@ export default function Footer() {
           {/* Best Prices */}
           <div className="bg-red-600 p-8 rounded-lg text-center">
             <div className="text-5xl mb-4">💶</div>
-            <h3 className="text-xl font-bold mb-2">Orçamentos Gratuitos</h3>
-            <p className="text-sm opacity-90">Sem compromisso</p>
+            <h3 className="text-xl font-bold mb-2">Preços Competitivos</h3>
+            <p className="text-sm opacity-90">Sem compromisso e totalmente transparentes</p>
           </div>
         </div>
 

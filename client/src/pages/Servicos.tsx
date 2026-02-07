@@ -95,7 +95,7 @@ export default function Servicos() {
                     De referir que todos os nossos técnicos têm formação contínua na área e muita prática em intervir em qualquer área doméstica ou industrial, procedendo a todo o tipo de desentupimentos ou reparações, nomeadamente de fossas, canos, esgotos, casas de banho, sanitas, lava loiças, condutas de lixo, entre muitos outros.
                   </p>
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Temos piquetes de canalizadores, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar, e pedir um orçamento grátis. Com o serviço de montagem de reparação de canalizações da nossa empresa, a sua vida fica mais fácil!
+                    Temos piquetes de canalizadores, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar para obter preços competitivos e transparentes. Com o serviço de montagem de reparação de canalizações da nossa empresa, a sua vida fica mais fácil!
                   </p>
                 </div>
               </>
@@ -121,7 +121,7 @@ export default function Servicos() {
                     De referir que todos os nossos técnicos têm formação contínua na área e muita prática em intervir em qualquer área doméstica ou industrial, procedendo a todo o tipo de instalações ou reparações elétricas, nomeadamente de quadros, disjuntores, tomadas, interruptores, fiação, entre muitos outros.
                   </p>
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Temos piquetes de eletricistas, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar, e pedir um orçamento grátis. Com o serviço de instalação e reparação elétrica da nossa empresa, a sua vida fica mais fácil!
+                    Temos piquetes de eletricistas, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar para obter preços competitivos e transparentes. Com o serviço de instalação e reparação elétrica da nossa empresa, a sua vida fica mais fácil!
                   </p>
                 </div>
               </>
