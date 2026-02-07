@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
+import { PriceCalculator } from "@/components/PriceCalculator";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema, generateKeywords, generateOrganizationSchema } from "@/hooks/useSEO";
 
@@ -92,8 +93,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Main Content Section */}
+      {/* Price Calculator Section */}
       <section className="py-16 bg-white">
+        <div className="container">
+          <div className="max-w-2xl mx-auto">
+            <PriceCalculator />
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content Section */}
+      <section className="py-16 bg-gray-50">
         <div className="container">
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-lg leading-relaxed text-gray-700">

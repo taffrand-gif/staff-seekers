@@ -821,3 +821,11 @@
 - [x] Correction erreurs TypeScript
 - [x] Test compilation
 
+
+
+## Phase 4 - Intégration Calculateur Page d'Accueil
+
+- [x] Importer PriceCalculator dans Home.tsx
+- [x] Placer stratégiquement après trust signals
+- [x] Tester affichage et fonctionnement
+- [ ] Checkpoint final
