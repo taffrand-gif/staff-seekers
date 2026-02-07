@@ -114,3 +114,12 @@
 - [x] Ajouter lien Blog dans Header
 - [x] Optimiser meta tags et Schema.org Article
 - [ ] Déployer la mise à jour
+
+## Phase 10: Sitemap et Indexation Google
+
+- [x] Créer route API /sitemap.xml
+- [x] Générer sitemap dynamique avec toutes les pages
+- [x] Créer robots.txt
+- [x] Tester le sitemap
+- [ ] Déployer la mise à jour
+- [ ] Instructions pour Google Search Console
