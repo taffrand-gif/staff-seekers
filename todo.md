@@ -348,9 +348,8 @@
 ## Phase 34: Correction Bug Staff Seekers
 
 ### Problème de Déploiement
-- [ ] Diagnostiquer pourquoi staff-seekers.com affiche le code source JavaScript brut
-- [ ] Vérifier la configuration DNS de staff-seekers.com
-- [ ] Vérifier la configuration Vercel pour staff-seekers.com
-- [ ] Déployer correctement staff-seekers.com
+- [x] Diagnostiquer pourquoi staff-seekers.com affiche le code source JavaScript brut (Vercel sert JS au lieu de HTML)
+- [x] Vérifier la configuration DNS de staff-seekers.com (DNS correct, pointe vers Vercel)
+- [ ] Forcer le redéploiement sur Vercel via checkpoint
 - [ ] Tester que le site fonctionne correctement
 - [ ] Vérifier que le SEO fonctionne sur staff-seekers.com
