@@ -184,4 +184,13 @@
 - [x] Tester l'envoi d'emails (fonctionnel via notifyOwner)
 - [x] Soumettre sitemap à Google Search Console (norte-reparos.com et staff-seekers.com)
 - [x] Analyser Google My Business (1 profil suspendu, 1 validé - voir GMB_STATUS.md pour recommandations)
+- [x] Redéployer les sites (GitHub pushé, Vercel déploiera automatiquement)
+
+## Phase 18: Chat en Direct
+
+- [x] Créer le composant ChatWidget
+- [x] Ajouter les routes API pour le chat
+- [x] Implémenter le système de messages (notifications via notifyOwner)
+- [x] Intégrer le chat dans toutes les pages (via App.tsx)
+- [x] Tester le système de chat (tests unitaires passent)
 - [ ] Redéployer les sites

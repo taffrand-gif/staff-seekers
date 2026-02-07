@@ -14,6 +14,7 @@ import Contactos from "./pages/Contactos";
 import Testemunhos from "@/pages/Testemunhos";
 import Blog from "@/pages/Blog";
 import BlogArticle from "@/pages/BlogArticle";
+import ChatWidget from "@/components/ChatWidget";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -51,6 +52,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <ChatWidget />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

@@ -19,6 +19,25 @@ export const appRouter = router({
     }),
   }),
 
+  chat: router({
+    sendMessage: publicProcedure
+      .input(z.object({
+        name: z.string().min(1),
+        message: z.string().min(1),
+      }))
+      .mutation(async ({ input }) => {
+        const { name, message } = input;
+        
+        // Envoyer notification au propriétaire
+        const success = await notifyOwner({
+          title: `💬 Nouveau message chat - ${name}`,
+          content: `**De:** ${name}\n**Message:**\n${message}`,
+        });
+        
+        return { success };
+      }),
+  }),
+
   contact: router({
     sendMessage: publicProcedure
       .input(z.object({
