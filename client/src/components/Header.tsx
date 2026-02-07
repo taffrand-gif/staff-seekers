@@ -25,11 +25,10 @@ export default function Header() {
     { href: "/", label: "HOME" },
     { href: "/servicos", label: "SERVIÇOS" },
     { href: "/faq", label: "FAQ" },
-    { href: "/dicas", label: "DICAS" },
-    { href: "/galeria", label: "GALERIA" },
+    { href: "/trabalhos", label: "TRABALHOS" },
+    { href: "/equipa", label: "EQUIPA" },
     { href: "/testemunhos", label: "TESTEMUNHOS" },
     { href: "/blog", label: "BLOG" },
-    { href: "/orcamento", label: "ORÇAMENTO" },
     { href: "/contactos", label: "CONTACTOS" },
   ];
 

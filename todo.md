@@ -829,3 +829,34 @@
 - [x] Placer stratégiquement après trust signals
 - [x] Tester affichage et fonctionnement
 - [ ] Checkpoint final
+
+
+## Phase 5 - Amélioration UX Calculateur Prix
+
+- [ ] Ajouter animation de chargement (spinner)
+- [ ] Ajouter message de confirmation animé
+- [ ] Améliorer transitions et feedback visuel
+- [ ] Tester animations
+- [ ] Checkpoint final
+
+
+## Phase 6 - Corrections Critiques Audit
+
+### Navigation & Footer
+- [x] Ajouter liens Trabalhos/Equipa/Certificações dans Header
+- [x] Ajouter liens Trabalhos/Equipa/Certificações dans Footer
+
+### Contenu & Orthographe
+- [x] Corriger "canalizadors" → "canalizadores" partout
+- [x] Formater téléphone dans PriceCalculator (espaces)
+
+### Géolocalisation
+- [x] Détecter ville visiteur (IP + GPS fallback)
+- [x] Redirection automatique vers page locale
+- [x] Changement dynamique titre selon ville
+- [x] Pas de popup (discret)
+
+### Tests & Déploiement
+- [x] Tester corrections
+- [x] Tester géolocalisation
+- [ ] Checkpoint final

@@ -22,8 +22,12 @@ import Reserva from "@/pages/Reserva";
 import Orcamento from "@/pages/Orcamento";
 import { FacebookPixel } from "@/components/FacebookPixel";
 import { NewsletterPopup } from "@/components/NewsletterPopup";
+import { useLocalRedirect, useDynamicTitle } from "@/hooks/useGeolocation";
 
 function Router() {
+  // Géolocalisation automatique
+  useLocalRedirect();
+  useDynamicTitle();
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
