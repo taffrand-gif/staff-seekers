@@ -10,6 +10,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { NORTE_REPAROS_TESTIMONIALS, STAFF_SEEKERS_TESTIMONIALS, type Testimonial } from "@/data/testimonialsData";
+import { CheckCircle } from "lucide-react";
 
 export default function Testemunhos() {
   const config = ACTIVE_CONFIG;
@@ -25,7 +27,28 @@ export default function Testemunhos() {
     serviceType: "",
   });
 
-  const { data: reviews = [], isLoading, refetch } = trpc.reviews.list.useQuery();
+  const { data: dbReviews = [], isLoading, refetch } = trpc.reviews.list.useQuery();
+  
+  // Combiner témoignages statiques + base de données
+  const isStaffSeekers = config.type === 'electricite';
+  const staticTestimonials = isStaffSeekers ? STAFF_SEEKERS_TESTIMONIALS : NORTE_REPAROS_TESTIMONIALS;
+  
+  // Convertir témoignages statiques au format reviews
+  const staticReviews = staticTestimonials.map(t => ({
+    id: `static-${t.id}`,
+    name: t.name,
+    city: t.city,
+    rating: t.rating,
+    comment: t.text,
+    serviceType: t.service,
+    createdAt: new Date(t.date),
+    verified: t.verified
+  }));
+  
+  // Combiner et trier par date
+  const reviews = [...staticReviews, ...dbReviews].sort((a, b) => 
+    new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  );
 
   const createReview = trpc.reviews.create.useMutation({
     onSuccess: () => {
@@ -239,7 +262,12 @@ export default function Testemunhos() {
                   <CardContent className="pt-6">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="font-bold text-lg text-gray-900">{review.name}</h3>
+                        <div className="flex items-center gap-2">
+                          <h3 className="font-bold text-lg text-gray-900">{review.name}</h3>
+                          {('verified' in review && review.verified) && (
+                            <CheckCircle className="h-5 w-5 text-green-600" />
+                          )}
+                        </div>
                         <p className="text-sm text-gray-500">📍 {review.city}</p>
                       </div>
                       <StarRating rating={review.rating} />
