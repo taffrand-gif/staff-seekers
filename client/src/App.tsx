@@ -10,6 +10,8 @@ import Dicas from "./pages/Dicas";
 import Galeria from "./pages/Galeria";
 import CityPage from "./pages/CityPage";
 import Servicos from "./pages/Servicos";
+import Services from "./pages/Services";
+import Service from "./pages/Service";
 import Contactos from "./pages/Contactos";
 import Testemunhos from "@/pages/Testemunhos";
 import Blog from "@/pages/Blog";
@@ -35,7 +37,8 @@ function Router() {
       <Route path={"/faq"} component={FAQ} />
       <Route path={"/dicas"} component={Dicas} />
       <Route path={"/galeria"} component={Galeria} />
-      <Route path={"/servicos"} component={Servicos} />
+      <Route path={"/servicos"} component={Services} />
+      <Route path={"/servicos/:slug"} component={Service} />
       <Route path={"/contactos"} component={Contactos} />
       <Route path="/reserva" component={Reserva} />
       <Route path="/orcamento" component={Orcamento} />
