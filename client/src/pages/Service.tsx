@@ -3,6 +3,7 @@ import { getServiceBySlug } from '../data/servicesData';
 import { Phone, MessageCircle, ArrowLeft, CheckCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import { Helmet } from 'react-helmet';
 
 export default function Service() {
   const params = useParams();
@@ -27,8 +28,69 @@ export default function Service() {
     );
   }
 
+  // Generate Schema.org Service markup
+  const schemaService = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": service.title,
+    "name": service.title,
+    "description": service.description,
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Eletricista Bragança - Staff Seekers",
+      "telephone": "+351928484451",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Trás-os-Montes",
+        "addressCountry": "PT"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.8071",
+          "longitude": "-6.7591"
+        },
+        "geoRadius": "50000"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "15"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": service.price.replace('Desde ', '').replace('€', ''),
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "availableAtOrFrom": {
+        "@type": "Place",
+        "name": "Trás-os-Montes"
+      }
+    },
+    "areaServed": [
+      "Bragança", "Mirandela", "Vila Real", "Chaves", "Miranda do Douro",
+      "Macedo de Cavaleiros", "Mogadouro", "Vinhais", "Vimioso"
+    ],
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  };
+
   return (
     <div className="min-h-screen">
+      {/* Schema.org Service markup */}
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaService)}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-red-600 to-red-700 text-white py-20">
         <div className="container">
