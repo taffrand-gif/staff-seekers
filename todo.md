@@ -771,3 +771,53 @@
 - [x] Dashboard statistiques
 - [x] Instructions Google Sheets
 
+
+## Phase 3 - Pages Manquantes + Visuels + Conversion + Optimisation
+
+### Pages à Créer
+- [ ] Page Blog (liste articles + 2 articles publiés)
+- [ ] Page Trabalhos-Realizados (20 projets avant/après)
+- [ ] Page Equipa (présentation équipe avec photos)
+- [ ] Page Certificações (certificats professionnels)
+
+### Visuels IA à Générer
+- [ ] 10 photos équipe réalistes
+- [ ] 20 photos interventions avant/après
+- [ ] Badges certification professionnels
+- [ ] 20 images pour posts social media
+
+### Outils Conversion
+- [ ] Lead magnet PDF téléchargeable
+- [ ] Chatbot intelligent qualification leads
+- [ ] Calculateur prix en ligne
+- [ ] Formulaire multi-étapes optimisé
+
+### Optimisation Technique
+- [ ] PageSpeed 100/100
+- [ ] Schema.org markup complet
+- [ ] Sitemap XML optimisé
+- [ ] Robots.txt configuré
+
+
+## ✅ PHASE 3 COMPLÉTÉE - Pages + Outils Conversion
+
+### Bug Critique
+- [x] Corriger colorimétrie mobile vs desktop (OKLCH → RGB/HEX)
+- [x] Tester cohérence visuelle
+
+### Pages Créées
+- [x] Page Blog (liste articles)
+- [x] Page BlogArticle (template dynamique)
+- [x] Page Trabalhos-Realizados (galerie projets)
+- [x] Page Equipa (présentation équipe)
+- [x] Page Certificações (badges + garanties)
+- [x] Ajouter routes dans App.tsx
+
+### Outils Conversion
+- [x] Calculateur prix en ligne (PriceCalculator.tsx)
+- [x] ChatWidget existant (déjà implémenté phase précédente)
+
+### Optimisation
+- [x] Correction erreurs TypeScript
+- [x] Test compilation
+

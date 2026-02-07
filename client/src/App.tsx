@@ -14,6 +14,9 @@ import Contactos from "./pages/Contactos";
 import Testemunhos from "@/pages/Testemunhos";
 import Blog from "@/pages/Blog";
 import BlogArticle from "@/pages/BlogArticle";
+import Trabalhos from "@/pages/Trabalhos";
+import Equipa from "@/pages/Equipa";
+import Certificacoes from "@/pages/Certificacoes";
 import ChatWidget from "@/components/ChatWidget";
 import Reserva from "@/pages/Reserva";
 import Orcamento from "@/pages/Orcamento";
@@ -35,6 +38,9 @@ function Router() {
        <Route path="/testemunhos" component={Testemunhos} />
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:slug" component={BlogArticle} />
+      <Route path="/trabalhos" component={Trabalhos} />
+      <Route path="/equipa" component={Equipa} />
+      <Route path="/certificacoes" component={Certificacoes} />
       <Route path={"/servicos/:citySlug"} component={CityPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
