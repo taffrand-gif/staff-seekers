@@ -83,6 +83,17 @@ export const appRouter = router({
           preferredDate: new Date(input.preferredDate),
         });
         
+        // Envoyer email auto-réponse au client
+        const { sendAutoResponse } = await import("./emailAutoResponse");
+        await sendAutoResponse({
+          clientName: input.name,
+          clientEmail: input.email,
+          serviceType: input.serviceType,
+          urgency: "normal",
+          phone: input.phone,
+          city: input.city,
+        });
+        
         // Notifier le propriétaire
         await notifyOwner({
           title: `📅 Nouvelle réservation - ${input.name}`,
@@ -186,11 +197,22 @@ export const appRouter = router({
           photoUrls: photoUrlsJson,
         });
         
+        // Envoyer email auto-réponse au client
+        const { sendAutoResponse } = await import("./emailAutoResponse");
+        await sendAutoResponse({
+          clientName: input.name,
+          clientEmail: input.email,
+          serviceType: input.serviceType,
+          urgency: input.urgency,
+          phone: input.phone,
+          city: input.city,
+        });
+        
         // Notifier le propriétaire
         const urgencyEmoji = input.urgency === "urgent" ? "🚨" : "📝";
         await notifyOwner({
           title: `${urgencyEmoji} Nouvelle demande de devis - ${input.name}`,
-          content: `**Nom:** ${input.name}\n**Email:** ${input.email}\n**Téléphone:** ${input.phone}\n**Ville:** ${input.city}\n**Service:** ${input.serviceType}\n**Urgence:** ${input.urgency === "urgent" ? "🚨 URGENT" : "Normale"}\n\n**Description:**\n${input.description}${input.photoUrls && input.photoUrls.length > 0 ? `\n\n**Photos jointes:** ${input.photoUrls.length}` : ""}`,
+          content: `**Nom:** ${input.name}\n**Email:** ${input.email}\n**Téléphone:** ${input.phone}\n**Ville:** ${input.city}\n**Service:** ${input.serviceType}\n**Urgence:** ${input.urgency === "urgent" ? "🚨 URGENT" : "Normale"}\n\n**Description:**\n${input.description}${input.photoUrls && input.photoUrls.length > 0 ? `\n\n**Photos jointes:** ${input.photoUrls.length}` : ""}\n\n**Action:** ${input.urgency === "urgent" ? "⚠️ Contactar em 15-30 min!" : "Contactar em 2-4h"}`,
         });
         
         return { success: true };
@@ -202,6 +224,162 @@ export const appRouter = router({
       const db = await getDb();
       if (!db) throw new Error("Database not available");
       return db.select().from(quoteRequests).orderBy(quoteRequests.createdAt);
+    }),
+  }),
+
+  newsletter: router({
+    subscribe: publicProcedure
+      .input(z.object({
+        email: z.string().email(),
+        name: z.string().optional(),
+        phone: z.string().optional(),
+        city: z.string().optional(),
+        source: z.string().default("footer_form"),
+        tags: z.array(z.string()).optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { emailSubscribers } = await import("../drizzle/schema");
+        const { eq } = await import("drizzle-orm");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        // Vérifier si l'email existe déjà
+        const existing = await db
+          .select()
+          .from(emailSubscribers)
+          .where(eq(emailSubscribers.email, input.email))
+          .limit(1);
+        
+        if (existing.length > 0) {
+          // Si désabonné, réabonner
+          if (existing[0].isSubscribed === 0) {
+            await db
+              .update(emailSubscribers)
+              .set({
+                isSubscribed: 1,
+                subscribedAt: new Date(),
+                unsubscribedAt: null,
+              })
+              .where(eq(emailSubscribers.email, input.email));
+            return { success: true, message: "Réabonné avec succès" };
+          }
+          return { success: false, message: "Email déjà abonné" };
+        }
+        
+        // Ajouter nouvel abonné
+        const tagsJson = input.tags ? JSON.stringify(input.tags) : null;
+        await db.insert(emailSubscribers).values({
+          ...input,
+          tags: tagsJson,
+        });
+        
+        // Notifier le propriétaire
+        await notifyOwner({
+          title: `📧 Nouvel abonné newsletter - ${input.email}`,
+          content: `**Email:** ${input.email}${input.name ? `\n**Nom:** ${input.name}` : ""}${input.city ? `\n**Ville:** ${input.city}` : ""}\n**Source:** ${input.source}`,
+        });
+        
+        return { success: true, message: "Abonné avec succès" };
+      }),
+    
+    unsubscribe: publicProcedure
+      .input(z.object({
+        email: z.string().email(),
+      }))
+      .mutation(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { emailSubscribers } = await import("../drizzle/schema");
+        const { eq } = await import("drizzle-orm");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        await db
+          .update(emailSubscribers)
+          .set({
+            isSubscribed: 0,
+            unsubscribedAt: new Date(),
+          })
+          .where(eq(emailSubscribers.email, input.email));
+        
+        return { success: true };
+      }),
+    
+    list: publicProcedure.query(async () => {
+      const { getDb } = await import("./db");
+      const { emailSubscribers } = await import("../drizzle/schema");
+      const { eq } = await import("drizzle-orm");
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      // Ne retourner que les abonnés actifs
+      return db.select().from(emailSubscribers).where(eq(emailSubscribers.isSubscribed, 1)).orderBy(emailSubscribers.subscribedAt);
+    }),
+    
+    syncToMailchimp: publicProcedure
+      .input(z.object({
+        email: z.string().email().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { syncSubscriberToMailchimp, syncAllSubscribers } = await import("./mailchimp");
+        
+        if (input.email) {
+          // Synchroniser un abonné spécifique
+          const { getDb } = await import("./db");
+          const { emailSubscribers } = await import("../drizzle/schema");
+          const { eq } = await import("drizzle-orm");
+          const db = await getDb();
+          if (!db) throw new Error("Database not available");
+          
+          const subscriber = await db
+            .select()
+            .from(emailSubscribers)
+            .where(eq(emailSubscribers.email, input.email))
+            .limit(1);
+          
+          if (subscriber.length === 0) {
+            return { success: false, message: "Abonné introuvable" };
+          }
+          
+          const result = await syncSubscriberToMailchimp(subscriber[0]);
+          
+          if (result.success && result.mailchimpId) {
+            // Mettre à jour le mailchimpId
+            await db
+              .update(emailSubscribers)
+              .set({ mailchimpId: result.mailchimpId })
+              .where(eq(emailSubscribers.id, subscriber[0].id));
+          }
+          
+          return result;
+        } else {
+          // Synchroniser tous les abonnés
+          const result = await syncAllSubscribers();
+          return { 
+            success: true, 
+            message: `Synchronisé: ${result.synced}, Erreurs: ${result.errors}`,
+            synced: result.synced,
+            errors: result.errors,
+          };
+        }
+      }),
+  }),
+
+  leads: router({
+    exportCSV: publicProcedure.query(async () => {
+      const { getAllLeads, formatLeadsForCSV } = await import("./googleSheetsExport");
+      const leads = await getAllLeads();
+      const csv = formatLeadsForCSV(leads);
+      return { csv, count: leads.length };
+    }),
+    
+    stats: publicProcedure.query(async () => {
+      const { getLeadsStats } = await import("./googleSheetsExport");
+      return await getLeadsStats();
+    }),
+    
+    list: publicProcedure.query(async () => {
+      const { getAllLeads } = await import("./googleSheetsExport");
+      return await getAllLeads();
     }),
   }),
 

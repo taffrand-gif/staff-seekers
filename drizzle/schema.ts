@@ -100,3 +100,23 @@ export const quoteRequests = mysqlTable("quote_requests", {
 
 export type QuoteRequest = typeof quoteRequests.$inferSelect;
 export type InsertQuoteRequest = typeof quoteRequests.$inferInsert;
+
+// Abonnés newsletter
+export const emailSubscribers = mysqlTable("email_subscribers", {
+  id: int("id").autoincrement().primaryKey(),
+  email: varchar("email", { length: 320 }).notNull().unique(),
+  name: varchar("name", { length: 255 }),
+  phone: varchar("phone", { length: 20 }),
+  city: varchar("city", { length: 100 }),
+  source: varchar("source", { length: 100 }).notNull(), // 'footer_form', 'popup', 'quote_form', etc.
+  isSubscribed: int("isSubscribed").default(1).notNull(), // 1 = abonné, 0 = désabonné
+  mailchimpId: varchar("mailchimpId", { length: 100 }), // ID Mailchimp pour sync
+  tags: text("tags"), // JSON array de tags pour segmentation
+  subscribedAt: timestamp("subscribedAt").defaultNow().notNull(),
+  unsubscribedAt: timestamp("unsubscribedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type EmailSubscriber = typeof emailSubscribers.$inferSelect;
+export type InsertEmailSubscriber = typeof emailSubscribers.$inferInsert;

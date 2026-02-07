@@ -606,3 +606,132 @@
 - [ ] Configurer Google Search Console
 - [ ] Mettre en place tracking appels téléphoniques
 - [ ] Suivre taux de conversion (appels/visiteurs)
+
+## Phase Automation: Facebook Pixel et Mailchimp
+
+### Facebook Pixel
+- [x] Créer composant FacebookPixel avec tracking de base
+- [x] Ajouter événement Lead (formulaire soumis)
+- [x] Ajouter événement Contact (clic téléphone/WhatsApp)
+- [x] Ajouter événement ViewContent (page service)
+- [x] Intégrer le pixel dans toutes les pages
+- [ ] Demander Pixel ID à l'utilisateur via webdev_request_secrets (en attente utilisateur)
+
+### Base de Données Email
+- [x] Créer schéma email_subscribers (email, name, phone, city, source, subscribed_at)
+- [x] Créer route API pour ajouter un abonné
+- [x] Créer route API pour lister les abonnés
+- [x] Ajouter tests unitaires pour les routes email (7 tests passés)
+
+### Intégration Mailchimp
+- [x] Créer helper Mailchimp pour synchronisation
+- [x] Ajouter route API pour sync avec Mailchimp
+- [x] Configurer webhook pour sync automatique
+- [ ] Demander API Key Mailchimp à l'utilisateur (en attente utilisateur)
+- [ ] Demander Audience ID Mailchimp à l'utilisateur (en attente utilisateur)
+
+### Composants Newsletter
+- [x] Créer composant NewsletterForm (simple)
+- [x] Créer composant NewsletterPopup (avec timing)
+- [ ] Ajouter NewsletterForm dans Footer
+- [x] Ajouter NewsletterPopup dans App.tsx
+- [x] Configurer cookie pour ne pas réafficher popup (7 jours)
+
+### Séquences Email (Documentation)
+- [x] Documenter séquence Welcome (4 emails)
+- [x] Documenter segmentation par ville/service
+- [x] Documenter templates d'emails
+- [x] Créer guide configuration Mailchimp (MAILCHIMP_AUTOMATION_GUIDE.md)
+
+### Tests et Déploiement
+- [ ] Tester Facebook Pixel avec Facebook Pixel Helper (nécessite Pixel ID)
+- [x] Tester formulaire newsletter (7 tests passés)
+- [ ] Tester synchronisation Mailchimp (nécessite API Key)
+- [ ] Créer checkpoint final
+- [ ] Déployer sur Vercel
+
+## Phase Preuve Sociale Visuelle (CRITIQUE pour conversion)
+
+### Génération Photos Réalistes
+- [ ] Générer photo équipe plombier (2-3 techniciens professionnels)
+- [ ] Générer photo équipe électricien (2-3 techniciens professionnels)
+- [ ] Générer 4 photos avant/après plomberie (fuite, débouchage, installation)
+- [ ] Générer 4 photos avant/après électricité (tableau, câblage, LED)
+- [ ] Générer 3 photos clients satisfaits (témoignages)
+- [ ] Uploader toutes les photos vers S3 CDN
+
+### Page d'Accueil - Preuve Sociale
+- [ ] Ajouter section "Nossa Equipa" avec photos équipe
+- [ ] Ajouter galerie "Trabalhos Recentes" (4 photos avant/après)
+- [ ] Ajouter témoignages avec photos clients (3 témoignages)
+- [ ] Ajouter badges certification avec logos officiels
+- [ ] Ajouter section "Clientes Satisfeitos" avec compteur animé
+
+### Enrichissement Pages Services (8 pages)
+- [ ] Ajouter "Caso Real em Bragança" à chaque page (mini-story 50 mots)
+- [ ] Ajouter prix indicatifs transparents ("A partir de X€")
+- [ ] Ajouter photo intervention réelle à chaque page
+- [ ] Ajouter temps intervention depuis centre-ville
+- [ ] Ajouter section "Porquê Escolher-nos" spécifique au service
+- [ ] Ajouter garanties spécifiques au service
+
+### Tests et Déploiement
+- [ ] Vérifier toutes les images chargent correctement
+- [ ] Tester responsive des nouvelles sections
+- [ ] Vérifier impact sur PageSpeed (maintenir >90)
+- [ ] Créer checkpoint final
+- [ ] Déployer sur Vercel
+
+## Phase CRITIQUE - Suivi Leads Immédiat (PRIORITÉ ABSOLUE)
+
+### Email Auto-Réponse
+- [x] Créer template email confirmation formulaire
+- [x] Implémenter envoi automatique après soumission
+- [x] Ajouter lien WhatsApp pour urgences
+- [x] Tester réception email
+
+### Tracking Leads
+- [x] Créer export Google Sheets automatique
+- [x] Dashboard simple avec statut leads (API /api/leads/stats)
+- [x] Documentation utilisation dashboard (googleSheetsExport.ts)
+- [ ] Alertes pour leads non traités >2h (à implémenter avec Zapier)
+
+### Guides Utilisateur
+- [ ] Guide complet Google Business Profile (création + optimisation) - EN COURS
+- [ ] Guide WhatsApp Business setup (30 min) - EN COURS
+- [ ] Templates réponse rapide leads (copier-coller) - EN COURS
+- [ ] Checklist shooting photo (20 photos + vidéo) - EN COURS
+
+### Préparation Contenu Réel
+- [ ] Créer page /certificacoes (template upload certificats)
+- [ ] Créer page /equipa (template photos équipe)
+- [ ] Créer section vidéo fondateur homepage
+- [ ] Préparer galerie photos camionnette
+
+### Tests
+- [ ] Tester formulaire → email auto-réponse
+- [ ] Tester export Google Sheets
+- [ ] Vérifier tous les liens fonctionnent
+
+
+## Phase Contenu SEO (EN COURS)
+
+### Page FAQ
+- [x] Créer 40 questions optimisées SEO (20 Norte-Reparos + 20 Staff-Seekers)
+- [x] Réponses 300-500 mots par question
+- [x] Recherche en temps réel
+- [x] Filtrage par catégorie
+- [x] Schema.org FAQPage markup
+- [x] Intégrer dans FAQSection.tsx
+
+### Articles Blog
+- [ ] Article 1: "10 Sinais Que Precisa Trocar Quadro Elétrico" (1500 mots) - EN COURS
+- [ ] Article 2: "Como Detetar Fuga Água Escondida" (1500 mots) - EN COURS
+- [ ] Images générées IA pour articles
+- [ ] Schema.org Article markup
+
+### Contenu Social Media
+- [ ] 20 posts programmés (10 par site) - EN COURS
+- [ ] Calendrier publication
+- [ ] Images pour chaque post
+- [ ] Captions optimisées + hashtags locaux

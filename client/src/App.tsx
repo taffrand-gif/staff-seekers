@@ -17,6 +17,8 @@ import BlogArticle from "@/pages/BlogArticle";
 import ChatWidget from "@/components/ChatWidget";
 import Reserva from "@/pages/Reserva";
 import Orcamento from "@/pages/Orcamento";
+import { FacebookPixel } from "@/components/FacebookPixel";
+import { NewsletterPopup } from "@/components/NewsletterPopup";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -55,8 +57,11 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
+          {/* Facebook Pixel - ID sera demandé via webdev_request_secrets */}
+          <FacebookPixel pixelId={import.meta.env.VITE_FACEBOOK_PIXEL_ID || ''} />
           <Router />
           <ChatWidget />
+          <NewsletterPopup />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
