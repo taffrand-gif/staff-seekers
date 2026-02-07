@@ -29,6 +29,7 @@ export default function Header() {
     { href: "/galeria", label: "GALERIA" },
     { href: "/testemunhos", label: "TESTEMUNHOS" },
     { href: "/blog", label: "BLOG" },
+    { href: "/orcamento", label: "ORÇAMENTO" },
     { href: "/contactos", label: "CONTACTOS" },
   ];
 

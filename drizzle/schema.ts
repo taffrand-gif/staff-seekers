@@ -78,3 +78,25 @@ export const reviews = mysqlTable("reviews", {
 
 export type Review = typeof reviews.$inferSelect;
 export type InsertReview = typeof reviews.$inferInsert;
+
+// Demandes de devis
+export const quoteRequests = mysqlTable("quote_requests", {
+  id: int("id").autoincrement().primaryKey(),
+  name: varchar("name", { length: 255 }).notNull(),
+  email: varchar("email", { length: 320 }).notNull(),
+  phone: varchar("phone", { length: 20 }).notNull(),
+  city: varchar("city", { length: 100 }).notNull(),
+  address: text("address"),
+  serviceType: varchar("serviceType", { length: 100 }).notNull(),
+  urgency: mysqlEnum("urgency", ["normal", "urgent"]).default("normal").notNull(),
+  description: text("description").notNull(),
+  photoUrls: text("photoUrls"), // JSON array de URLs de photos
+  status: mysqlEnum("status", ["pending", "quoted", "accepted", "rejected", "completed"]).default("pending").notNull(),
+  estimatedPrice: varchar("estimatedPrice", { length: 50 }),
+  notes: text("notes"), // Notes internes
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type QuoteRequest = typeof quoteRequests.$inferSelect;
+export type InsertQuoteRequest = typeof quoteRequests.$inferInsert;

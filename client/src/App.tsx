@@ -16,6 +16,7 @@ import Blog from "@/pages/Blog";
 import BlogArticle from "@/pages/BlogArticle";
 import ChatWidget from "@/components/ChatWidget";
 import Reserva from "@/pages/Reserva";
+import Orcamento from "@/pages/Orcamento";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -28,6 +29,7 @@ function Router() {
       <Route path={"/servicos"} component={Servicos} />
       <Route path={"/contactos"} component={Contactos} />
       <Route path="/reserva" component={Reserva} />
+      <Route path="/orcamento" component={Orcamento} />
        <Route path="/testemunhos" component={Testemunhos} />
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:slug" component={BlogArticle} />

@@ -526,3 +526,15 @@
 - [x] Créer rapport détaillé de toutes les modifications ✅
 - [x] Vérifier déploiement norte-reparos (READY ✅)
 - [x] Vérifier déploiement staff-seekers (READY ✅)
+
+## Phase Actuelle: Formulaire de Demande de Devis
+
+- [x] Créer le schéma de base de données pour les demandes de devis
+- [x] Créer les routes API tRPC pour gérer les demandes de devis
+- [x] Développer le composant formulaire de devis avec validation
+- [x] Intégrer upload de photos (support ajouté, fonctionnalité optionnelle)
+- [x] Ajouter sélection type de service et urgence
+- [x] Intégrer le formulaire dans les pages du site
+- [x] Créer tests unitaires pour les routes API (6 tests passés)
+- [x] Tester le formulaire complet (validation, envoi, notifications)
+- [x] Sauvegarder checkpoint et déployer

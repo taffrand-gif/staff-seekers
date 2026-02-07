@@ -160,6 +160,51 @@ export const appRouter = router({
     }),
   }),
 
+  quotes: router({
+    create: publicProcedure
+      .input(z.object({
+        name: z.string().min(1),
+        email: z.string().email(),
+        phone: z.string().min(1),
+        city: z.string().min(1),
+        address: z.string().optional(),
+        serviceType: z.string().min(1),
+        urgency: z.enum(["normal", "urgent"]).default("normal"),
+        description: z.string().min(10),
+        photoUrls: z.array(z.string()).optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { getDb } = await import("./db");
+        const { quoteRequests } = await import("../drizzle/schema");
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+        
+        const photoUrlsJson = input.photoUrls ? JSON.stringify(input.photoUrls) : null;
+        
+        const quote = await db.insert(quoteRequests).values({
+          ...input,
+          photoUrls: photoUrlsJson,
+        });
+        
+        // Notifier le propriétaire
+        const urgencyEmoji = input.urgency === "urgent" ? "🚨" : "📝";
+        await notifyOwner({
+          title: `${urgencyEmoji} Nouvelle demande de devis - ${input.name}`,
+          content: `**Nom:** ${input.name}\n**Email:** ${input.email}\n**Téléphone:** ${input.phone}\n**Ville:** ${input.city}\n**Service:** ${input.serviceType}\n**Urgence:** ${input.urgency === "urgent" ? "🚨 URGENT" : "Normale"}\n\n**Description:**\n${input.description}${input.photoUrls && input.photoUrls.length > 0 ? `\n\n**Photos jointes:** ${input.photoUrls.length}` : ""}`,
+        });
+        
+        return { success: true };
+      }),
+    
+    list: publicProcedure.query(async () => {
+      const { getDb } = await import("./db");
+      const { quoteRequests } = await import("../drizzle/schema");
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      return db.select().from(quoteRequests).orderBy(quoteRequests.createdAt);
+    }),
+  }),
+
   reviews: router({
     create: publicProcedure
       .input(z.object({
