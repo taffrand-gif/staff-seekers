@@ -45,7 +45,7 @@ export function TestimonialsSection() {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-red-50 to-orange-50">
+    <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">
       {/* Schema.org markup */}
       <script
         type="application/ld+json"
@@ -73,7 +73,7 @@ export function TestimonialsSection() {
           {visibleTestimonials.map((testimonial: Testimonial, idx: number) => (
             <div
               key={idx}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600"
+              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-t-4"
             >
               {/* Stars */}
               <div className="flex gap-1 mb-4">
