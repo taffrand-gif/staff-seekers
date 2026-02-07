@@ -903,3 +903,42 @@
 - [ ] Tester avec Google Rich Results Test
 - [ ] Vérifier sitemap
 - [ ] Checkpoint final
+
+
+## Phase 8 - Amélioration SEO Local (Best Practices Concurrent)
+
+### Template Page Locale Optimisée
+- [ ] Créer template avec 8 sections H2
+- [ ] Tripler contenu (500 → 1500 mots)
+- [ ] Ajouter technologie (câmaras termográficas, CCTV, acústicos)
+- [ ] Répéter CTA téléphone 4-5 fois
+- [ ] Liste 15+ services détaillés
+
+### Génération Pages Locales
+- [ ] Générer 98 pages Norte-Reparos optimisées
+- [ ] Checkpoint Norte-Reparos SEO Local
+- [ ] Générer 98 pages Staff-Seekers optimisées
+- [ ] Checkpoint Staff-Seekers Final
+
+
+## Phase 9 - Amélioration Formulaire Contact
+
+### Nouveaux Champs
+- [ ] Ajouter champ NIF (Número de Identificação Fiscal)
+- [ ] Ajouter champ Rua/Avenida
+- [ ] Ajouter champ Número
+- [ ] Ajouter champ Código Postal
+- [ ] Ajouter champ Cidade (auto-rempli ou sélection)
+- [ ] Ajouter champ Complemento (andar, porta, etc.)
+
+### Intégration Maps
+- [ ] Intégrer Google Maps Autocomplete pour adresse
+- [ ] Géolocalisation automatique
+- [ ] Validation adresse Portugal
+- [ ] Sauvegarder coordonnées GPS dans base de données
+
+### Base de Données
+- [ ] Modifier schéma quotes pour ajouter champs adresse
+- [ ] Ajouter champ NIF
+- [ ] Ajouter champs GPS (latitude, longitude)
+- [ ] Migration base de données

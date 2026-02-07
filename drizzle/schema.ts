@@ -85,8 +85,17 @@ export const quoteRequests = mysqlTable("quote_requests", {
   name: varchar("name", { length: 255 }).notNull(),
   email: varchar("email", { length: 320 }).notNull(),
   phone: varchar("phone", { length: 20 }).notNull(),
+  nif: varchar("nif", { length: 9 }), // Número de Identificação Fiscal
+  // Adresse complète
+  street: varchar("street", { length: 255 }), // Rua/Avenida
+  streetNumber: varchar("streetNumber", { length: 20 }), // Número
+  complement: varchar("complement", { length: 100 }), // Andar, Porta, etc.
+  postalCode: varchar("postalCode", { length: 10 }), // Código Postal
   city: varchar("city", { length: 100 }).notNull(),
-  address: text("address"),
+  address: text("address"), // Adresse complète formatée (legacy)
+  // Géolocalisation
+  latitude: varchar("latitude", { length: 20 }), // Coordonnées GPS
+  longitude: varchar("longitude", { length: 20 }),
   serviceType: varchar("serviceType", { length: 100 }).notNull(),
   urgency: mysqlEnum("urgency", ["normal", "urgent"]).default("normal").notNull(),
   description: text("description").notNull(),
