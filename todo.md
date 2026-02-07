@@ -340,7 +340,17 @@
 - [ ] Vérifier indexation Google
 
 ### Déploiement SEO
-- [ ] Créer checkpoint avec optimisations SEO
-- [ ] Redéployer norte-reparos.com
-- [ ] Redéployer staff-seekers.com
-- [ ] Soumettre sitemaps à Google Search Console
+- [x] Créer checkpoint avec optimisations SEO (version a3422ada)
+- [x] Redéployer norte-reparos.com (automatique via GitHub)
+- [x] Redéployer staff-seekers.com (automatique via GitHub)
+- [ ] Soumettre sitemaps à Google Search Console (action utilisateur)
+
+## Phase 34: Correction Bug Staff Seekers
+
+### Problème de Déploiement
+- [ ] Diagnostiquer pourquoi staff-seekers.com affiche le code source JavaScript brut
+- [ ] Vérifier la configuration DNS de staff-seekers.com
+- [ ] Vérifier la configuration Vercel pour staff-seekers.com
+- [ ] Déployer correctement staff-seekers.com
+- [ ] Tester que le site fonctionne correctement
+- [ ] Vérifier que le SEO fonctionne sur staff-seekers.com
