@@ -135,27 +135,8 @@ export const electriciteConfig: ServiceConfig = {
   ],
 };
 
-// Sélectionner la configuration active automatiquement selon le domaine
-// Détection côté serveur via process.env et côté client via window.location
-function getActiveConfig(): ServiceConfig {
-  // Côté serveur (build time ou SSR)
-  if (typeof window === 'undefined') {
-    const domain = process.env.VITE_DOMAIN || process.env.DOMAIN || '';
-    if (domain.includes('staff-seekers')) {
-      return electriciteConfig;
-    }
-    return plumberieConfig;
-  }
-  
-  // Côté client (runtime)
-  const hostname = window.location.hostname;
-  if (hostname.includes('staff-seekers')) {
-    return electriciteConfig;
-  }
-  return plumberieConfig;
-}
-
-export const ACTIVE_CONFIG = getActiveConfig();
+// Configuration fixe pour Staff-Seekers (Électricité)
+export const ACTIVE_CONFIG = electriciteConfig;
 
 // Liste des 12 villes prioritaires
 export const CITIES = [
