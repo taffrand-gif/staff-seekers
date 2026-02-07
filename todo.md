@@ -225,5 +225,23 @@
 ## Phase 22: Déploiement Final
 
 - [x] Tester toutes les nouvelles fonctionnalités (8 tests passés)
+- [x] Créer un checkpoint (version 1aa8deda)
+- [x] Redéployer sur GitHub et Vercel (norte-reparos + staff-seekers)
+
+## Phase 23: Amélioration Chat Widget
+
+- [x] Ajouter champs téléphone, ville, type de service, description au chat
+- [x] Corriger le responsive du chat widget (plein écran mobile, responsive desktop)
+- [x] Mettre à jour l'API pour accepter les nouveaux champs (message complet envoyé)
+- [x] Tester le nouveau chat
+
+## Phase 24: Vérification Responsive Global
+
+- [x] Vérifier le responsive de toutes les pages
+- [x] Corriger les problèmes responsive identifiés (Header menu mobile + Footer)
+- [x] Tester sur mobile, tablette, desktop
+
+## Phase 25: Déploiement
+
 - [ ] Créer un checkpoint
 - [ ] Redéployer sur GitHub et Vercel
