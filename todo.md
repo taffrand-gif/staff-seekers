@@ -174,5 +174,14 @@
 - [x] Corriger les failles identifiées (remplacement "Orçamentos Gratuitos" par "Preços Competitivos")
 - [x] Ajouter 86 nouvelles villes et villages (98 pages locales au total)
 - [x] Mettre à jour le sitemap.xml (111 URLs au total)
+- [x] Redéployer les sites (GitHub pushé, Vercel déploiera automatiquement)
+- [x] Vérifier que tout fonctionne correctement (tests locaux OK)
+
+## Phase 17: Formulaire Contact et Google
+
+- [x] Ajouter route API pour envoi d'emails
+- [x] Connecter le formulaire de contact à l'API
+- [x] Tester l'envoi d'emails (fonctionnel via notifyOwner)
+- [x] Soumettre sitemap à Google Search Console (norte-reparos.com et staff-seekers.com)
+- [x] Analyser Google My Business (1 profil suspendu, 1 validé - voir GMB_STATUS.md pour recommandations)
 - [ ] Redéployer les sites
-- [ ] Vérifier que tout fonctionne correctement

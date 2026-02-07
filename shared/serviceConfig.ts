@@ -137,7 +137,7 @@ export const electriciteConfig: ServiceConfig = {
 
 // Sélectionner la configuration active (à modifier selon le site)
 // Pour plomberie: export const ACTIVE_CONFIG = plumberieConfig;
-// Pour électricité: export const ACTIVE_CONFIG = electriciteConfig;
+// Pour électricité: export const ACTIVE_CONFIG = plumberieConfig;
 export const ACTIVE_CONFIG = plumberieConfig;
 
 // Liste des 12 villes prioritaires

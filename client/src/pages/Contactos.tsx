@@ -5,6 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 import { toast } from "sonner";
+import { trpc } from "@/lib/trpc";
 
 export default function Contactos() {
   const config = ACTIVE_CONFIG;
@@ -36,10 +37,19 @@ export default function Contactos() {
     }
   };
 
+  const sendMessage = trpc.contact.sendMessage.useMutation({
+    onSuccess: () => {
+      toast.success("Mensagem enviada com sucesso! Entraremos em contacto em breve.");
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    },
+    onError: () => {
+      toast.error("Erro ao enviar mensagem. Por favor, ligue-nos diretamente.");
+    },
+  });
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Mensagem enviada com sucesso! Entraremos em contacto em breve.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    sendMessage.mutate(formData);
   };
 
   return (
@@ -219,9 +229,10 @@ export default function Contactos() {
 
                   <button
                     type="submit"
-                    className="w-full bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
+                    disabled={sendMessage.isPending}
+                    className="w-full bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Enviar Mensagem
+                    {sendMessage.isPending ? "A enviar..." : "Enviar Mensagem"}
                   </button>
 
                   <p className="text-sm text-gray-600 text-center">
