@@ -10,6 +10,7 @@ interface Message {
 }
 
 export default function ChatWidget() {
+  const { gradient } = ACTIVE_CONFIG;
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputText, setInputText] = useState("");
@@ -108,7 +109,7 @@ export default function ChatWidget() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-red-600 hover:bg-red-700 text-white rounded-full p-3 sm:p-4 shadow-lg transition-all duration-300 hover:scale-110 z-[9999]"
+          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 hover:opacity-90 text-white rounded-full p-3 sm:p-4 shadow-lg transition-all duration-300 hover:scale-110 z-[9999]" style={{backgroundColor: gradient.from}}
           aria-label="Abrir chat"
         >
           <svg
@@ -132,9 +133,9 @@ export default function ChatWidget() {
       {isOpen && (
         <div className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 w-full sm:w-96 h-[100vh] sm:h-[600px] bg-white sm:rounded-lg shadow-2xl flex flex-col z-[9999] border-t sm:border border-gray-200">
           {/* Header */}
-          <div className="bg-red-600 text-white p-4 sm:rounded-t-lg flex justify-between items-center">
+          <div className=" text-white p-4 sm:rounded-t-lg flex justify-between items-center" style={{backgroundColor: gradient.from}}>
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center text-red-600 font-bold text-sm sm:text-base">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center font-bold text-sm sm:text-base" style={{color: gradient.from}}>
                 {config.businessName.charAt(0)}
               </div>
               <div>
@@ -167,7 +168,7 @@ export default function ChatWidget() {
           {/* Contact Form */}
           {showForm && (
             <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-gray-50">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-red-600 rounded-full flex items-center justify-center text-white text-xl sm:text-2xl mb-4 mx-auto">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-white text-xl sm:text-2xl mb-4 mx-auto" style={{backgroundColor: gradient.from}}>
                 👋
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 text-center">Bem-vindo!</h3>
@@ -184,7 +185,7 @@ export default function ChatWidget() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     placeholder="O seu nome"
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                     required
                     autoFocus
                   />
@@ -199,7 +200,7 @@ export default function ChatWidget() {
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     placeholder="928 484 451"
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                     required
                   />
                 </div>
@@ -213,7 +214,7 @@ export default function ChatWidget() {
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                     placeholder="Bragança"
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                     required
                   />
                 </div>
@@ -225,7 +226,7 @@ export default function ChatWidget() {
                   <select
                     value={formData.serviceType}
                     onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                   >
                     <option value="">Selecione...</option>
                     {config.services.map((service) => (
@@ -245,14 +246,14 @@ export default function ChatWidget() {
                     onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                     placeholder="Descreva brevemente o problema..."
                     rows={3}
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base resize-none"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base resize-none"
                   />
                 </div>
 
                 <button
                   type="submit"
                   disabled={!formData.name.trim() || !formData.phone.trim() || !formData.city.trim()}
-                  className="w-full bg-red-600 hover:bg-red-700 text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
+                  className="w-full hover:opacity-90 text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base" style={{backgroundColor: gradient.from}}
                 >
                   Iniciar Conversa
                 </button>
@@ -272,7 +273,7 @@ export default function ChatWidget() {
                     <div
                       className={`max-w-[85%] sm:max-w-[80%] rounded-lg p-2 sm:p-3 ${
                         message.sender === "user"
-                          ? "bg-red-600 text-white"
+                          ? `${isActive ? "text-white" : ""}`
                           : "bg-white text-gray-900 border border-gray-200"
                       }`}
                     >
@@ -302,12 +303,12 @@ export default function ChatWidget() {
                     onChange={(e) => setInputText(e.target.value)}
                     onKeyPress={handleKeyPress}
                     placeholder="Escreva a sua mensagem..."
-                    className="flex-1 px-3 sm:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
+                    className="flex-1 px-3 sm:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                   />
                   <button
                     type="submit"
                     disabled={!inputText.trim() || sendMessage.isPending}
-                    className="bg-red-600 hover:bg-red-700 text-white px-3 sm:px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    className=" hover:opacity-90 text-white px-3 sm:px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed" style={{backgroundColor: gradient.from}}
                   >
                     {sendMessage.isPending ? (
                       <svg

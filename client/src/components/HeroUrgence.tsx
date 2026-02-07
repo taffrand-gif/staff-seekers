@@ -6,6 +6,7 @@ interface HeroUrgenceProps {
 }
 
 export default function HeroUrgence({ ville, interventionsCount = 480 }: HeroUrgenceProps) {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const phoneLink = `tel:+${config.whatsappNumber}`;
   const whatsappLink = `https://wa.me/${config.whatsappNumber}?text=Olá%2C%20tenho%20uma%20urgência%20${ville ? `em%20${ville}` : ''}`;
@@ -24,7 +25,7 @@ export default function HeroUrgence({ ville, interventionsCount = 480 }: HeroUrg
       </h1>
 
       {/* Sous-titre urgence */}
-      <p className="text-red-600 text-lg md:text-xl font-bold mb-6">
+      <p className=" text-lg md:text-xl font-bold mb-6" style={{color: gradient.from}}>
         {config.heroSubtitle}
         <br />
         <strong>Atendo já e chego em 30-40min</strong>

@@ -19,6 +19,7 @@ import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { NORTE_REPAROS_FAQ, STAFF_SEEKERS_FAQ, FAQ_CATEGORIES, type FAQItem } from "@/data/faqData";
 
 export default function FAQSection() {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const isStaffSeekers = config.type === 'electricite';
   const allFAQs = isStaffSeekers ? STAFF_SEEKERS_FAQ : NORTE_REPAROS_FAQ;
@@ -106,7 +107,7 @@ export default function FAQSection() {
                 >
                   <AccordionTrigger className="text-left font-semibold hover:no-underline py-4">
                     <div className="flex items-start gap-3 pr-4">
-                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center font-bold text-xs">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center font-bold text-xs" style={{color: gradient.from}}>
                         {faq.id}
                       </span>
                       <div>

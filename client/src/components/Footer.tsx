@@ -1,6 +1,7 @@
 import { ACTIVE_CONFIG } from "@shared/serviceConfig";
 
 export default function Footer() {
+  const { gradient } = ACTIVE_CONFIG;
   const { businessName, phone, name } = ACTIVE_CONFIG;
   const currentYear = new Date().getFullYear();
   
@@ -12,21 +13,21 @@ export default function Footer() {
         {/* Top Section with Icons */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12">
           {/* Service 24/7 */}
-          <div className="bg-red-600 p-4 sm:p-8 rounded-lg text-center">
+          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
             <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">🏠</div>
             <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Assistência 24H</h3>
             <p className="text-xs sm:text-sm opacity-90">Disponível todos os dias do ano</p>
           </div>
 
           {/* Professional Team */}
-          <div className="bg-red-600 p-4 sm:p-8 rounded-lg text-center">
+          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
             <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">👨‍🔧</div>
             <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Equipa Qualificada</h3>
             <p className="text-xs sm:text-sm opacity-90">Técnicos certificados e experientes</p>
           </div>
 
           {/* Best Prices */}
-          <div className="bg-red-600 p-4 sm:p-8 rounded-lg text-center">
+          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
             <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">💶</div>
             <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Preços Competitivos</h3>
             <p className="text-xs sm:text-sm opacity-90">Sem compromisso e totalmente transparentes</p>

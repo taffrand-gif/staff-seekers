@@ -3,6 +3,7 @@ import { ACTIVE_CONFIG } from "@shared/serviceConfig";
 import { useState } from "react";
 
 export default function Header() {
+  const { gradient } = ACTIVE_CONFIG;
   const { phone, accentColor, businessName } = ACTIVE_CONFIG;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
@@ -35,7 +36,7 @@ export default function Header() {
   return (
     <>
       {/* Top Bar with Phone */}
-      <div className="bg-red-600 text-white py-2 sm:py-3 px-4">
+      <div className=" text-white py-2 sm:py-3 px-4" style={{backgroundColor: gradient.from}}>
         <div className="container flex items-center justify-between">
           <button
             onClick={handlePhoneClick}
@@ -54,7 +55,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-14 sm:h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-lg sm:text-2xl font-bold text-red-600">{businessName}</span>
+              <span className="text-lg sm:text-2xl font-bold " style={{color: gradient.from}}>{businessName}</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -63,7 +64,7 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-gray-700 hover:text-red-600 font-medium transition-colors text-sm lg:text-base"
+                  className="text-gray-700 hover: font-medium transition-colors text-sm lg:text-base" style={{color: gradient.from}}
                 >
                   {item.label}
                 </Link>
@@ -73,7 +74,7 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 text-gray-700 hover:text-red-600 transition-colors"
+              className="md:hidden p-2 text-gray-700 hover: transition-colors" style={{color: gradient.from}}
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -97,7 +98,7 @@ export default function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="text-gray-700 hover:text-red-600 font-medium transition-colors px-4 py-2 hover:bg-red-50 rounded"
+                    className="text-gray-700 hover: font-medium transition-colors px-4 py-2 hover:bg-red-50 rounded" style={{color: gradient.from}}
                   >
                     {item.label}
                   </Link>

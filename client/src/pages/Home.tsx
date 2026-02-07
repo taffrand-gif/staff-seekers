@@ -8,6 +8,7 @@ import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO, generateSEOTitle, generateMetaDescription, generateLocalBusinessSchema, generateKeywords, generateOrganizationSchema } from "@/hooks/useSEO";
 
 export default function Home() {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
 
@@ -59,15 +60,15 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             {/* Badges */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-red-600 text-white p-6 rounded-lg">
+              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
                 <div className="text-3xl mb-2">🏠</div>
                 <h3 className="font-bold text-lg">ASSISTÊNCIA TÉCNICA 24H</h3>
               </div>
-              <div className="bg-red-600 text-white p-6 rounded-lg">
+              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
                 <div className="text-3xl mb-2">👨‍🔧</div>
                 <h3 className="font-bold text-lg">EQUIPA QUALIFICADA</h3>
               </div>
-              <div className="bg-red-600 text-white p-6 rounded-lg">
+              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
                 <div className="text-3xl mb-2">💶</div>
                 <h3 className="font-bold text-lg">PREÇOS COMPETITIVOS</h3>
               </div>
@@ -85,7 +86,7 @@ export default function Home() {
             {/* CTA Button */}
             <button
               onClick={handlePhoneClick}
-              className="bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors inline-flex items-center gap-3"
+              className=" hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors inline-flex items-center gap-3" style={{backgroundColor: gradient.from}}
             >
               <span>📞</span>
               <span>LIGUE AGORA: {formattedPhone}</span>
@@ -129,7 +130,7 @@ export default function Home() {
             <div className="text-center my-12">
               <button
                 onClick={handlePhoneClick}
-                className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-3 rounded-lg transition-colors"
+                className=" hover:bg-red-700 text-white text-xl font-bold px-10 py-3 rounded-lg transition-colors" style={{backgroundColor: gradient.from}}
               >
                 LIGUE AGORA: {formattedPhone}
               </button>
@@ -184,7 +185,7 @@ export default function Home() {
             <div className="text-center my-12">
               <button
                 onClick={handlePhoneClick}
-                className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-3 rounded-lg transition-colors"
+                className=" hover:bg-red-700 text-white text-xl font-bold px-10 py-3 rounded-lg transition-colors" style={{backgroundColor: gradient.from}}
               >
                 LIGUE AGORA: {formattedPhone}
               </button>
