@@ -538,3 +538,71 @@
 - [x] Créer tests unitaires pour les routes API (6 tests passés)
 - [x] Tester le formulaire complet (validation, envoi, notifications)
 - [x] Sauvegarder checkpoint et déployer
+
+## 🚨 PLAN D'ACTION URGENT - Optimisation SEO et Conversion
+
+### Phase 1: Quick Wins (PRIORITÉ CRITIQUE - 0-1 mois)
+
+#### Action 1.1: Google Business Profile (MANUEL - Instructions fournies)
+- [ ] Créer/revendiquer fiches Google Business pour les 2 entreprises
+- [ ] Remplir tous les champs (nom, adresse, téléphone, horaires 24/7)
+- [ ] Ajouter minimum 10 photos par fiche (logo, véhicules, équipe, avant/après)
+- [ ] Publier 1-2 posts par semaine
+- [ ] Activer la messagerie Google
+- [ ] Objectif: Apparaître dans le Local Pack Google
+
+#### Action 1.2: Éléments de Preuve Sociale
+- [ ] Ajouter section témoignages visible sur page d'accueil (minimum 3)
+- [ ] Ajouter compteurs de confiance ("500+ clients satisfaits", "10 ans d'expérience")
+- [ ] Intégrer widget avis Google (note moyenne + nombre total)
+- [ ] Ajouter logos certifications/assurances
+
+#### Action 1.3: Garanties et Certifications
+- [ ] Créer section "Garanties" sur page d'accueil avec icônes
+- [ ] Créer page dédiée "Garanties et Assurances"
+- [ ] Ajouter badges de confiance (paiement sécurisé, données protégées, NIF)
+- [ ] Mettre en avant "Intervention sous 60 minutes"
+
+### Phase 2: Court Terme (1-3 mois)
+
+#### Action 2.1: Différenciation Visuelle des Sites
+- [ ] Modifier couleurs: staff-seekers (rouge + bleu électrique), norte-reparos (bordeaux + bleu aqua)
+- [ ] Changer typographies (polices différentes)
+- [ ] Modifier mise en page (ordre sections, styles cartes)
+- [ ] Créer logos distincts (éclair vs goutte d'eau)
+- [ ] Personnaliser images (styles différents)
+
+#### Action 2.2: Contenu Local Unique
+- [ ] Créer calendrier éditorial (2 articles/mois par site)
+- [ ] Écrire 5 articles électricité (staff-seekers)
+- [ ] Écrire 5 articles plomberie (norte-reparos)
+- [ ] Optimiser chaque article pour SEO
+- [ ] Créer pages destination par ville prioritaire
+
+#### Action 2.3: Campagne d'Avis Clients
+- [ ] Créer processus systématique (SMS/email après intervention)
+- [ ] Créer lien court + QR code pour avis Google
+- [ ] Mettre en place incitation (5€ réduction prochaine intervention)
+- [ ] Répondre à tous les avis
+- [ ] Objectif: 20 avis avec 4.5+ étoiles en 3 mois
+
+### Phase 3: Moyen Terme (3-9 mois)
+
+#### Action 3.1: Migration Domaines Optimisés
+- [ ] Rechercher et enregistrer nouveaux domaines (.pt)
+- [ ] Créer plan migration SEO (redirections 301)
+- [ ] Planifier communication changement
+- [ ] Timing: après 50+ avis Google et 20+ articles
+
+#### Action 3.2: Backlinks Locaux
+- [ ] Inscrire dans annuaires locaux (Páginas Amarelas, Yelp, etc.)
+- [ ] Créer partenariats locaux (magasins bricolage)
+- [ ] Obtenir mentions presse locale
+- [ ] Créer contenu partageable (infographies, guides)
+- [ ] Objectif: 10 backlinks qualité (DA 20+) en 6 mois
+
+### Métriques de Suivi
+- [ ] Configurer Google Analytics
+- [ ] Configurer Google Search Console
+- [ ] Mettre en place tracking appels téléphoniques
+- [ ] Suivre taux de conversion (appels/visiteurs)
