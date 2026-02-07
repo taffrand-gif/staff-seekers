@@ -55,42 +55,119 @@ export default function Home() {
       <WhatsAppButton />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-50 to-red-100 py-20">
+      <section className="bg-gradient-to-r from-gray-50 to-gray-100 py-20">
         <div className="container">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Badges */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
-                <div className="text-3xl mb-2">🏠</div>
-                <h3 className="font-bold text-lg">ASSISTÊNCIA TÉCNICA 24H</h3>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Left: Content */}
+              <div>
+                {/* Badge Disponible 24/7 */}
+                <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full mb-6 animate-pulse">
+                  <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                  <span className="font-bold">DISPONÍVEL 24H/7</span>
+                </div>
+
+                {/* Main Title */}
+                <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                  {config.name} 24H
+                </h1>
+                
+                <p className="text-2xl text-gray-700 mb-8">
+                  Precisa de um {config.name.toLowerCase()} profissional ainda hoje? Contacte-nos.
+                </p>
+
+                {/* Statistiques économies */}
+                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
+                  <p className="text-lg font-semibold text-gray-800">💰 Economize até 120€/ano</p>
+                  <p className="text-sm text-gray-600">com manutenção regular e reparações imediatas</p>
+                </div>
+
+                {/* TÉLÉPHONE GÉANT */}
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 mb-2">LIGUE JÁ - ORÇAMENTO GRÁTIS</p>
+                  <button
+                    onClick={handlePhoneClick}
+                    className="text-5xl md:text-6xl font-black hover:opacity-90 transition-opacity flex items-center gap-4"
+                    style={{color: gradient.from}}
+                  >
+                    <span>📞</span>
+                    <span>{formattedPhone}</span>
+                  </button>
+                </div>
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button
+                    onClick={handlePhoneClick}
+                    className="text-white text-xl font-bold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-3"
+                    style={{backgroundColor: gradient.from}}
+                  >
+                    <span>📞</span>
+                    <span>LIGAR AGORA</span>
+                  </button>
+                  <a
+                    href={`https://wa.me/${config.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-500 hover:bg-green-600 text-white text-xl font-bold px-8 py-4 rounded-lg transition-colors inline-flex items-center justify-center gap-3"
+                  >
+                    <span>💬</span>
+                    <span>WHATSAPP</span>
+                  </a>
+                </div>
               </div>
-              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
-                <div className="text-3xl mb-2">👨‍🔧</div>
-                <h3 className="font-bold text-lg">EQUIPA QUALIFICADA</h3>
-              </div>
-              <div className=" text-white p-6 rounded-lg" style={{backgroundColor: gradient.from}}>
-                <div className="text-3xl mb-2">💶</div>
-                <h3 className="font-bold text-lg">PREÇOS COMPETITIVOS</h3>
+
+              {/* Right: Image + Badges */}
+              <div className="relative">
+                <img
+                  src="/photos/electrician-hero.jpg"
+                  alt="Eletricista profissional"
+                  className="rounded-lg shadow-2xl w-full"
+                />
+                
+                {/* Badges overlay */}
+                <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl">
+                  <div className="flex items-center gap-4">
+                    <div className="text-4xl">🛡️</div>
+                    <div>
+                      <p className="font-bold text-lg" style={{color: gradient.from}}>1 ANO DE GARANTIA</p>
+                      <p className="text-sm text-gray-600">Em todos os serviços</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-xl">
+                  <div className="text-center">
+                    <p className="text-4xl font-black" style={{color: gradient.from}}>+15</p>
+                    <p className="text-sm font-semibold text-gray-700">Anos de<br/>Experiência</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Main Title */}
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              {config.name} 24H
-            </h1>
-            
-            <p className="text-xl text-gray-700 mb-8">
-              Precisa de um {config.name.toLowerCase()} profissional ainda hoje? Contacte-nos.
-            </p>
-
-            {/* CTA Button */}
-            <button
-              onClick={handlePhoneClick}
-              className=" hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors inline-flex items-center gap-3" style={{backgroundColor: gradient.from}}
-            >
-              <span>📞</span>
-              <span>LIGUE AGORA: {formattedPhone}</span>
-            </button>
+            {/* Bottom Stats */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16">
+              <div className="text-center p-6 bg-white rounded-lg shadow-md">
+                <div className="text-3xl mb-2">⚡</div>
+                <p className="text-2xl font-bold" style={{color: gradient.from}}>< 30min</p>
+                <p className="text-sm text-gray-600">Tempo de resposta</p>
+              </div>
+              <div className="text-center p-6 bg-white rounded-lg shadow-md">
+                <div className="text-3xl mb-2">👨‍🔧</div>
+                <p className="text-2xl font-bold" style={{color: gradient.from}}>100%</p>
+                <p className="text-sm text-gray-600">Equipa qualificada</p>
+              </div>
+              <div className="text-center p-6 bg-white rounded-lg shadow-md">
+                <div className="text-3xl mb-2">⭐</div>
+                <p className="text-2xl font-bold" style={{color: gradient.from}}>4.9/5</p>
+                <p className="text-sm text-gray-600">Avaliação clientes</p>
+              </div>
+              <div className="text-center p-6 bg-white rounded-lg shadow-md">
+                <div className="text-3xl mb-2">🛡️</div>
+                <p className="text-2xl font-bold" style={{color: gradient.from}}>1 Ano</p>
+                <p className="text-sm text-gray-600">Garantia</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
