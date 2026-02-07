@@ -860,3 +860,12 @@
 - [x] Tester corrections
 - [x] Tester géolocalisation
 - [ ] Checkpoint final
+
+
+## 🚨 BUG URGENT - Redirection Géolocalisation
+
+- [x] Diagnostiquer pourquoi le site switch entre versions (conflit React/HTML statique)
+- [x] Corriger logique de redirection (désactivée temporairement)
+- [x] Désactiver temporairement géolocalisation (redirection off, titre dynamique on)
+- [x] Tester correction (site stable)
+- [ ] Checkpoint

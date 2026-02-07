@@ -25,8 +25,8 @@ import { NewsletterPopup } from "@/components/NewsletterPopup";
 import { useLocalRedirect, useDynamicTitle } from "@/hooks/useGeolocation";
 
 function Router() {
-  // Géolocalisation automatique
-  useLocalRedirect();
+  // Géolocalisation automatique (redirection désactivée temporairement)
+  // useLocalRedirect(); // Désactivé car conflit avec pages HTML statiques
   useDynamicTitle();
   // make sure to consider if you need authentication for certain routes
   return (
