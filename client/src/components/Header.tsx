@@ -40,7 +40,7 @@ export default function Header() {
         <div className="container flex items-center justify-between">
           <button
             onClick={handlePhoneClick}
-            className="flex items-center gap-1 sm:gap-2 text-sm sm:text-lg font-bold hover:opacity-90 transition-opacity"
+            className="flex items-center gap-1 sm:gap-2 text-sm sm:text-lg font-bold hover:opacity-90 transition-opacity min-h-[48px] min-w-[48px] py-2 px-3"
           >
             <span className="hidden sm:inline">📞 LIGUE AGORA:</span>
             <span className="sm:hidden">📞</span>

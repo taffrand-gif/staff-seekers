@@ -54,6 +54,7 @@ export default function Home() {
       <Header />
       <WhatsAppButton />
 
+      <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-gray-50 to-gray-100 py-20">
         <div className="container">
@@ -343,6 +344,7 @@ export default function Home() {
         </div>
       </section>
 
+      </main>
       <Footer />
       <CookieConsent />
     </>
