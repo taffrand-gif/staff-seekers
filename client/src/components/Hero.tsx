@@ -5,8 +5,9 @@
 // - Three value badges with thick borders
 
 import { useSite } from '@/contexts/SiteContext';
-import { Phone, Home, Wrench, Euro } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { Button } from './ui/button';
+import { ServicesSlider } from './ServicesSlider';
 
 export default function Hero() {
   const { config } = useSite();
@@ -20,22 +21,9 @@ export default function Hero() {
       }}
     >
       <div className="container py-20 text-center text-white">
-        {/* Value badges */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {[
-            { icon: Home, text: 'ASSISTÊNCIA TÉCNICA 24H' },
-            { icon: Wrench, text: 'EQUIPA QUALIFICADA' },
-            { icon: Euro, text: 'PREÇOS COMPETITIVOS' },
-          ].map((badge, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center gap-2 px-6 py-4 border-4 border-white bg-black/30 backdrop-blur-sm"
-              style={{ borderRadius: '0.25rem' }}
-            >
-              <badge.icon className="w-8 h-8" />
-              <span className="text-xs font-bold tracking-wide">{badge.text}</span>
-            </div>
-          ))}
+        {/* Services Slider */}
+        <div className="mb-12">
+          <ServicesSlider />
         </div>
 
         {/* Main title - Brutalist massive heading */}
