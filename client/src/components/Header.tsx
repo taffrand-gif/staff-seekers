@@ -1,113 +1,84 @@
-import { Link } from "wouter";
-import { ACTIVE_CONFIG } from "@shared/serviceConfig";
-import { useState } from "react";
+// Design Philosophy: Brutalisme Numérique Fonctionnel
+// - Bold typography with thick borders
+// - Sticky header with hard shadow
+// - Direct, unambiguous navigation
+// - Prominent phone CTA
+
+import { useSite } from '@/contexts/SiteContext';
+import { Phone } from 'lucide-react';
+import { Button } from './ui/button';
 
 export default function Header() {
-  const { gradient } = ACTIVE_CONFIG;
-  const { phone, accentColor, businessName } = ACTIVE_CONFIG;
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
-  const formattedPhone = `${phone.slice(0, 3)} ${phone.slice(3, 6)} ${phone.slice(6)}`;
-  
-  const handlePhoneClick = () => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': `${ACTIVE_CONFIG.googleAdsId}/${ACTIVE_CONFIG.googleAdsConversionLabel}`,
-        'event_callback': () => {
-          window.location.href = `tel:${phone}`;
-        }
-      });
-    } else {
-      window.location.href = `tel:${phone}`;
+  const { config } = useSite();
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
-  const menuItems = [
-    { href: "/", label: "HOME" },
-    { href: "/servicos", label: "SERVIÇOS" },
-    { href: "/faq", label: "FAQ" },
-    { href: "/trabalhos", label: "TRABALHOS" },
-    { href: "/equipa", label: "EQUIPA" },
-    { href: "/testemunhos", label: "TESTEMUNHOS" },
-    { href: "/blog", label: "BLOG" },
-    { href: "/contactos", label: "CONTACTOS" },
-  ];
-
   return (
-    <>
-      {/* Top Bar with Phone */}
-      <div className=" text-white py-2 sm:py-3 px-4" style={{backgroundColor: gradient.from}}>
-        <div className="container flex items-center justify-between">
-          <button
-            onClick={handlePhoneClick}
-            className="flex items-center gap-1 sm:gap-2 text-sm sm:text-lg font-bold hover:opacity-90 transition-opacity min-h-[48px] min-w-[48px] py-2 px-3"
-          >
-            <span className="hidden sm:inline">📞 LIGUE AGORA:</span>
-            <span className="sm:hidden">📞</span>
-            <span className="text-base sm:text-xl">{formattedPhone}</span>
-          </button>
+    <header 
+      className="sticky top-0 z-50 bg-white border-b-4 shadow-[0_4px_0_0_rgba(0,0,0,0.1)]"
+      style={{ borderBottomColor: config.colors.primary }}
+    >
+      {/* Top bar with phone */}
+      <div 
+        className="text-white py-2"
+        style={{ backgroundColor: config.colors.primary }}
+      >
+        <div className="container flex items-center justify-center gap-2 text-sm font-semibold">
+          <Phone className="w-4 h-4" />
+          <a href={`tel:${config.phone.replace(/\s/g, '')}`} className="hover:underline">
+            LIGUE AGORA: {config.phone}
+          </a>
         </div>
       </div>
 
-      {/* Navigation */}
-      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-        <div className="container">
-          <div className="flex items-center justify-between h-14 sm:h-16">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
-              <span className="text-lg sm:text-2xl font-bold " style={{color: gradient.from}}>{businessName}</span>
-            </Link>
+      {/* Main navigation */}
+      <div className="container py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <button 
+            onClick={() => scrollToSection('home')}
+            className="text-xl font-black tracking-tight hover:opacity-80 transition-opacity"
+            style={{ color: config.colors.primary }}
+          >
+            {config.name}
+          </button>
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-6 lg:gap-8">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-gray-700 hover: font-medium transition-colors text-sm lg:text-base" style={{color: gradient.from}}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-6">
+            {[
+              { id: 'home', label: 'HOME' },
+              { id: 'servicos', label: 'SERVIÇOS' },
+              { id: 'faq', label: 'FAQ' },
+              { id: 'trabalhos', label: 'TRABALHOS' },
+              { id: 'equipa', label: 'EQUIPA' },
+              { id: 'testemunhos', label: 'TESTEMUNHOS' },
+              { id: 'blog', label: 'BLOG' },
+              { id: 'contactos', label: 'CONTACTOS' },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="text-sm font-semibold hover:opacity-60 transition-opacity"
+              >
+                {item.label}
+              </button>
+            ))}
+          </nav>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 text-gray-700 hover: transition-colors" style={{color: gradient.from}}
-              aria-label="Toggle menu"
-            >
-              {mobileMenuOpen ? (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              )}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden border-t border-gray-200 py-4 bg-white">
-              <div className="flex flex-col space-y-3">
-                {menuItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="text-gray-700 hover: font-medium transition-colors px-4 py-2 hover:bg-opacity-5 rounded" style={{color: gradient.from}}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
+          {/* WhatsApp button */}
+          <Button
+            onClick={() => window.open(`https://wa.me/${config.whatsapp}`, '_blank')}
+            className="hidden md:flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold shadow-[2px_2px_0_0_rgba(0,0,0,0.2)]"
+          >
+            Fale connosco no WhatsApp
+          </Button>
         </div>
-      </nav>
-    </>
+      </div>
+    </header>
   );
 }

@@ -1,15 +1,22 @@
-# Robots.txt optimisé pour Norte-Reparos.com / Staff-Seekers.com
+# robots.txt pour norte-reparos.com et staff-seekers.com
+# Permet l'indexation complète par les moteurs de recherche
+
 User-agent: *
 Allow: /
 
-# Priorités SEO
+# Sitemap
 Sitemap: https://norte-reparos.com/sitemap.xml
 Sitemap: https://staff-seekers.com/sitemap.xml
 
-# Crawl-delay pour éviter surcharge
+# Crawl-delay pour éviter la surcharge du serveur
 Crawl-delay: 1
 
-# Bloquer ressources inutiles
-Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
+# Bloquer les bots indésirables
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

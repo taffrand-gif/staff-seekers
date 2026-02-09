@@ -1,90 +1,103 @@
-import { ACTIVE_CONFIG } from "@shared/serviceConfig";
+// Design Philosophy: Brutalisme Numérique Fonctionnel
+// - Clear sectioned layout with thick dividers
+// - Bold headings
+// - Accessible contact information
+// - Copyright notice
+
+import { useSite } from '@/contexts/SiteContext';
+import { Phone, Clock, MapPin } from 'lucide-react';
 
 export default function Footer() {
-  const { gradient } = ACTIVE_CONFIG;
-  const { businessName, phone, name } = ACTIVE_CONFIG;
-  const currentYear = new Date().getFullYear();
-  
-  const formattedPhone = `${phone.slice(0, 3)} ${phone.slice(3, 6)} ${phone.slice(6)}`;
+  const { config } = useSite();
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
-    <footer className="bg-gray-900 text-white py-8 sm:py-12">
+    <footer 
+      className="text-white py-16"
+      style={{ backgroundColor: config.colors.primaryDark }}
+    >
       <div className="container">
-        {/* Top Section with Icons */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12">
-          {/* Service 24/7 */}
-          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
-            <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">🏠</div>
-            <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Assistência 24H</h3>
-            <p className="text-xs sm:text-sm opacity-90">Disponível todos os dias do ano</p>
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
+          {/* Company info */}
+          <div>
+            <h3 className="text-2xl font-black mb-4">{config.name}</h3>
+            <p className="text-gray-200 mb-4">
+              {config.company.shortDescription}
+            </p>
+            <p className="text-gray-300 text-sm">
+              Cobertura em todo o {config.company.coverage}.
+            </p>
           </div>
 
-          {/* Professional Team */}
-          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
-            <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">👨‍🔧</div>
-            <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Equipa Qualificada</h3>
-            <p className="text-xs sm:text-sm opacity-90">Técnicos certificados e experientes</p>
+          {/* Quick links */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Links Rápidos</h4>
+            <ul className="space-y-2">
+              {[
+                { id: 'home', label: 'Home' },
+                { id: 'servicos', label: 'Serviços' },
+                { id: 'trabalhos', label: 'Trabalhos' },
+                { id: 'equipa', label: 'Equipa' },
+                { id: 'faq', label: 'FAQ' },
+                { id: 'testemunhos', label: 'Testemunhos' },
+                { id: 'blog', label: 'Blog' },
+                { id: 'contactos', label: 'Contactos' },
+              ].map((link) => (
+                <li key={link.id}>
+                  <button
+                    onClick={() => scrollToSection(link.id)}
+                    className="text-gray-200 hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Best Prices */}
-          <div className=" p-4 sm:p-8 rounded-lg text-center" style={{backgroundColor: gradient.from}}>
-            <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">💶</div>
-            <h3 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Preços Competitivos</h3>
-            <p className="text-xs sm:text-sm opacity-90">Sem compromisso e totalmente transparentes</p>
+          {/* Contact */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Contacto</h4>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-bold">Telefone:</p>
+                  <a 
+                    href={`tel:${config.phone.replace(/\s/g, '')}`}
+                    className="text-gray-200 hover:text-white transition-colors"
+                  >
+                    {config.phone}
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Clock className="w-5 h-5 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-bold">Horário:</p>
+                  <p className="text-gray-200">24 horas por dia, 7 dias por semana</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
+                <div>
+                  <p className="font-bold">Zona de Cobertura:</p>
+                  <p className="text-gray-200">{config.company.coverage}</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-gray-700 pt-6 sm:pt-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {/* Company Info */}
-            <div>
-              <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{businessName}</h4>
-              <p className="text-gray-400 text-xs sm:text-sm mb-2">
-                {name} profissional ao seu serviço 24 horas por dia.
-              </p>
-              <p className="text-gray-400 text-xs sm:text-sm">
-                Cobertura em todo o distrito de Bragança.
-              </p>
-            </div>
-
-            {/* Quick Links */}
-            <div>
-              <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Links Rápidos</h4>
-              <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
-                <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                <li><a href="/servicos" className="text-gray-400 hover:text-white transition-colors">Serviços</a></li>
-                <li><a href="/trabalhos" className="text-gray-400 hover:text-white transition-colors">Trabalhos</a></li>
-                <li><a href="/equipa" className="text-gray-400 hover:text-white transition-colors">Equipa</a></li>
-                <li><a href="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-                <li><a href="/testemunhos" className="text-gray-400 hover:text-white transition-colors">Testemunhos</a></li>
-                <li><a href="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
-                <li><a href="/contactos" className="text-gray-400 hover:text-white transition-colors">Contactos</a></li>
-              </ul>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Contacto</h4>
-              <p className="text-gray-400 text-xs sm:text-sm mb-2">
-                <strong className="text-white">Telefone:</strong><br />
-                {formattedPhone}
-              </p>
-              <p className="text-gray-400 text-xs sm:text-sm mb-2">
-                <strong className="text-white">Horário:</strong><br />
-                24 horas por dia, 7 dias por semana
-              </p>
-              <p className="text-gray-400 text-xs sm:text-sm">
-                <strong className="text-white">Zona de Cobertura:</strong><br />
-                Distrito de Bragança
-              </p>
-            </div>
-          </div>
-
-          {/* Copyright */}
-          <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-700 text-center text-gray-400 text-xs sm:text-sm">
-            <p>© {currentYear} {businessName}. Todos os direitos reservados.</p>
-          </div>
+        {/* Copyright */}
+        <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
+          © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
         </div>
       </div>
     </footer>
