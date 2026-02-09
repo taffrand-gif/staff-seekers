@@ -22,6 +22,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 
@@ -77,6 +78,7 @@ export default function Home() {
         </main>
         <Footer />
         <FloatingButtons />
+        <ScrollToTop />
       </div>
     </>
   );
