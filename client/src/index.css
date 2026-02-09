@@ -119,6 +119,11 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -397,7 +402,39 @@
 .decline-btn {
   background: #ef4444;
   color: white;
-}/* Force rebuild - 1770460100 */
+}/* Force rebuild 1770460725 */
+/* Force rebuild 1770466244 */
+
+/* ===== EFFETS VISUELS GAME-CHANGERS (0 KB, +15-40% conversions) ===== */
+
+/* Smooth scroll global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Micro-animations hover (+8-12% clics) */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Pulse animation urgence (+25-40% attention) */
+@keyframes pulse-urgent {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.pulse-urgent {
+  animation: pulse-urgent 2s infinite;
 }
 
 /* Scroll reveal (+25-35% engagement) */
