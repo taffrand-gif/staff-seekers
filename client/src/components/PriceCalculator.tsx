@@ -5,6 +5,7 @@ import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { Loader2, CheckCircle2, Calculator } from "lucide-react";
 
 export function PriceCalculator() {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const [service, setService] = useState("");
   const [urgency, setUrgency] = useState("normal");
@@ -46,7 +47,7 @@ export function PriceCalculator() {
   return (
     <Card className="p-6 shadow-lg">
       <div className="flex items-center gap-3 mb-4">
-        <Calculator className="h-8 w-8" style={{color: ACTIVE_CONFIG.gradient.from}} />
+        <Calculator className="h-8 w-8 " style={{color: gradient.from}} />
         <h3 className="text-2xl font-bold">Calculador de Preços</h3>
       </div>
       <p className="text-gray-600 mb-6">Obtenha uma estimativa rápida do custo do serviço.</p>
@@ -61,7 +62,7 @@ export function PriceCalculator() {
               setEstimate(null);
               setShowConfirmation(false);
             }}
-            className="w-full p-3 border rounded-lg transition-all focus:ring-2 focus:ring-red-500 focus:border-red-500"
+            className="w-full p-3 border rounded-lg transition-all focus:ring-2 focus:ring-primary focus:border-red-500"
             disabled={isCalculating}
           >
             <option value="">Selecione...</option>
@@ -85,7 +86,7 @@ export function PriceCalculator() {
                   setShowConfirmation(false);
                 }}
                 disabled={isCalculating}
-                className="w-4 h-4 text-primary focus:ring-red-500"
+                className="w-4 h-4  focus:ring-primary" style={{color: gradient.from}}
               />
               <span>Normal</span>
             </label>
@@ -100,7 +101,7 @@ export function PriceCalculator() {
                   setShowConfirmation(false);
                 }}
                 disabled={isCalculating}
-                className="w-4 h-4 text-primary focus:ring-red-500"
+                className="w-4 h-4  focus:ring-primary" style={{color: gradient.from}}
               />
               <span>Urgente (+30%)</span>
             </label>
@@ -110,7 +111,7 @@ export function PriceCalculator() {
         <Button 
           onClick={calculate}
           disabled={!service || isCalculating}
-          className="w-full bg-red-600 hover:bg-red-700 text-lg py-6 transition-all"
+          className="w-full  hover: text-lg py-6 transition-all" style={{backgroundColor: gradient.from}}
         >
           {isCalculating ? (
             <>
@@ -151,7 +152,8 @@ export function PriceCalculator() {
         </p>
         <a 
           href={`tel:${config.phone}`}
-          className="block w-full bg-red-600 text-white text-center py-3 rounded-lg font-bold hover:bg-red-700 transition-all hover:scale-105 transform"
+          className="block w-full text-white text-center py-3 rounded-lg font-bold hover:opacity-90 transition-all hover:scale-105 transform" 
+          style={{backgroundColor: gradient.from}}
         >
           📞 Ligue: {config.phone.slice(0, 3)} {config.phone.slice(3, 6)} {config.phone.slice(6)}
         </a>

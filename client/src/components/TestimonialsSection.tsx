@@ -3,6 +3,7 @@ import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useState, useEffect } from "react";
 
 export function TestimonialsSection() {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const testimonials: Testimonial[] = config.type === 'plomberie' ? NORTE_REPAROS_TESTIMONIALS : STAFF_SEEKERS_TESTIMONIALS;
   const featured = testimonials.slice(0, 6); // Top 6 témoignages
@@ -45,7 +46,7 @@ export function TestimonialsSection() {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">
+    <section className="py-16 bg-gradient-to-br from-red-50 to-orange-50">
       {/* Schema.org markup */}
       <script
         type="application/ld+json"
@@ -54,7 +55,7 @@ export function TestimonialsSection() {
       
       <div className="container">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} text-white px-6 py-3 rounded-full mb-4">
+          <div className="inline-flex items-center gap-2  text-white px-6 py-3 rounded-full mb-4" style={{backgroundColor: gradient.from}}>
             <span className="text-3xl">⭐⭐⭐⭐⭐</span>
             <span className="font-bold text-xl">5.0/5</span>
           </div>
@@ -73,7 +74,7 @@ export function TestimonialsSection() {
           {visibleTestimonials.map((testimonial: Testimonial, idx: number) => (
             <div
               key={idx}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-t-4"
+              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-red-600"
             >
               {/* Stars */}
               <div className="flex gap-1 mb-4">
@@ -89,7 +90,7 @@ export function TestimonialsSection() {
 
               {/* Author */}
               <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
-                <div className="w-12 h-12" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} rounded-full flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12  rounded-full flex items-center justify-center text-white font-bold text-xl" style={{backgroundColor: gradient.from}}>
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>
@@ -110,8 +111,9 @@ export function TestimonialsSection() {
               key={idx}
               onClick={() => setCurrentIndex(idx)}
               className={`w-3 h-3 rounded-full transition-all ${
-                idx === currentIndex ? 'w-8' style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} : 'bg-gray-300'
+                idx === currentIndex ? 'w-8' : 'bg-gray-300'
               }`}
+              style={idx === currentIndex ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
               aria-label={`Go to slide ${idx + 1}`}
             />
           ))}
@@ -121,7 +123,7 @@ export function TestimonialsSection() {
         <div className="text-center mt-12">
           <a
             href="/testemunhos"
-            className="inline-block dynamic-bg hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
+            className="inline-block  hover: text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.from}}
           >
             Ver Todos os Testemunhos →
           </a>

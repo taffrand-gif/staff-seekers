@@ -149,7 +149,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16">
               <div className="text-center p-6 bg-white rounded-lg shadow-md">
                 <div className="text-3xl mb-2">⚡</div>
-                <p className="text-2xl font-bold" style={{color: gradient.from}}>< 30min</p>
+                <p className="text-2xl font-bold" style={{color: gradient.from}}>&lt; 30min</p>
                 <p className="text-sm text-gray-600">Tempo de resposta</p>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-md">
