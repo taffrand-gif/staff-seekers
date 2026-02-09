@@ -1,15 +1,26 @@
 // SEO Head component - Manages all meta tags, Open Graph, Twitter Cards, and tracking
 // Preserves all existing SEO work from the original sites
 
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { useUserLocation } from '@/hooks/useUserLocation';
 
 export default function SEOHead() {
   const { config } = useSite();
+  const { city, loading } = useUserLocation();
+  
+  // Créer un titre dynamique basé sur la localisation
+  const dynamicTitle = useMemo(() => {
+    if (loading) return config.title; // Titre par défaut pendant le chargement
+    
+    // Remplacer "Bragança" par la ville détectée
+    const serviceType = config.serviceType; // "Canalizador" ou "Eletricista"
+    return `${serviceType} 24h ${city} | Urgências Trás-os-Montes`;
+  }, [config, city, loading]);
 
   useEffect(() => {
-    // Update document title
-    document.title = config.title;
+    // Update document title with dynamic location
+    document.title = dynamicTitle;
 
     // Helper function to update or create meta tag
     const updateMetaTag = (selector: string, attribute: string, value: string) => {
@@ -39,14 +50,14 @@ export default function SEOHead() {
     updateMetaTag('meta[property="og:type"]', 'content', 'website');
     updateMetaTag('meta[property="og:locale"]', 'content', 'pt_PT');
     updateMetaTag('meta[property="og:site_name"]', 'content', config.name);
-    updateMetaTag('meta[property="og:title"]', 'content', config.title);
+    updateMetaTag('meta[property="og:title"]', 'content', dynamicTitle);
     updateMetaTag('meta[property="og:description"]', 'content', config.description);
     updateMetaTag('meta[property="og:image"]', 'content', config.seo.ogImage);
     updateMetaTag('meta[property="og:url"]', 'content', `https://${config.domain}`);
 
     // Twitter Card
     updateMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
-    updateMetaTag('meta[name="twitter:title"]', 'content', config.title);
+    updateMetaTag('meta[name="twitter:title"]', 'content', dynamicTitle);
     updateMetaTag('meta[name="twitter:description"]', 'content', config.description);
     updateMetaTag('meta[name="twitter:image"]', 'content', config.seo.ogImage);
 
@@ -89,7 +100,7 @@ export default function SEOHead() {
         });
       };
     }
-  }, [config]);
+  }, [config, dynamicTitle]);
 
   return null; // This component doesn't render anything
 }

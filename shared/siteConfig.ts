@@ -71,7 +71,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
     name: 'Canalizador de Trás-os-Montes',
-    title: 'Canalizador 24h | Canalizador de Trás-os-Montes | Urgências Bragança',
+    title: 'Canalizador 24h Bragança | Urgências Trás-os-Montes',
     description: 'Serviços de canalizador 24h em Trás-os-Montes. Reparação de fugas, desentupimentos, instalação de esquentadores. Equipa qualificada disponível 24/7.',
     phone: '928 484 451',
     whatsapp: '928484451',
@@ -143,7 +143,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'staff-seekers': {
     id: 'staff-seekers',
     name: 'Eletricista de Trás-os-Montes',
-    title: 'Eletricista 24h | Eletricista de Trás-os-Montes | Urgências Bragança',
+    title: 'Eletricista 24h Bragança | Urgências Trás-os-Montes',
     description: 'Serviços de eletricista 24h em Trás-os-Montes. Reparação de curto-circuitos, instalação de quadros elétricos, certificações DGEG. Equipa qualificada disponível 24/7.',
     phone: '932 321 892',
     whatsapp: '932321892',
