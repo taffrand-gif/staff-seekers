@@ -71,8 +71,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
     name: 'Canalizador de Trás-os-Montes',
-    title: 'Canalizador 24h Bragança | Urgências Trás-os-Montes',
-    description: 'Serviços de canalizador 24h em Trás-os-Montes. Reparação de fugas, desentupimentos, instalação de esquentadores. Equipa qualificada disponível 24/7.',
+    title: 'Plomberie Urgence Porto | Norte Reparos - Dépannage & Installation 24/7',
+    description: 'Plombier urgentiste à Porto. Fuites, chauffe-eau, canalisation. Intervention rapide 30min, garantie 2 ans, prix transparent.',
     phone: '928 484 451',
     whatsapp: '928484451',
     email: 'info@norte-reparos.com',
@@ -87,8 +87,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Canalizador 24H',
-      subtitle: 'Precisa de um canalizador profissional ainda hoje? Contacte-nos.',
+    title: 'Plomberie Urgence Porto | Norte Reparos - Dépannage & Installation 24/7',
+    title: 'Plomberie Urgence Porto | Norte Reparos - Dépannage & Installation 24/7',
       backgroundImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Izku0oEj2BefVqflrj5wPT-img-1_1770602182000_na1fn_cGx1bWJlci1oZXJvLXByb2Zlc3Npb25hbA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L0l6a3Uwb0VqMkJlZlZxZmxyajV3UFQtaW1nLTFfMTc3MDYwMjE4MjAwMF9uYTFmbl9jR3gxYldKbGNpMW9aWEp2TFhCeWIyWmxjM05wYjI1aGJBLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=vV8Oha9xbxKqQybnE68jpC15Ef3ciQJtqs2JA~K1ggoLpCF~Sd4sdNEXYOIjYqtq83~p0-cFNzUdgQr4i3dJiifwlV8wSPjkweevNXmKxW3WrP4gv-SgVVh7nwI1xwhHTu0S0mBLozkIbCHB9mHoKpsZrgAywle2G~RzNI~FgxWgtR~QEmRkelPFzoxkgH~7MhZ70kOkaMI-U-mZ9wQupTneUI8Ej39XGFpdMnQoxyQxP4GR1BvT2H6LRg6ujC1PudT3olsxqLjh00Lt-mrUWgvv79bdBmJelrJft7PxZQxM6JvD2MAn3nhdQ3YkW27zZYKyurblXCG5N2aedm85Kg__',
     },
     
@@ -143,8 +143,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'staff-seekers': {
     id: 'staff-seekers',
     name: 'Eletricista de Trás-os-Montes',
-    title: 'Eletricista 24h Bragança | Urgências Trás-os-Montes',
-    description: 'Serviços de eletricista 24h em Trás-os-Montes. Reparação de curto-circuitos, instalação de quadros elétricos, certificações DGEG. Equipa qualificada disponível 24/7.',
+    title: 'Électricité Professionnelle Porto | Staff Seekers - Installation & Dépannage 24/7',
+    description: 'Électricien professionnel à Porto. Interventions urgentes 24h/24, installations neuves, rénovations. Certifié, devis gratuit.',
     phone: '932 321 892',
     whatsapp: '932321892',
     email: 'info@staff-seekers.com',
@@ -159,8 +159,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Eletricista 24H',
-      subtitle: 'Precisa de um eletricista profissional ainda hoje? Contacte-nos.',
+    title: 'Électricité Professionnelle Porto | Staff Seekers - Installation & Dépannage 24/7',
+    title: 'Électricité Professionnelle Porto | Staff Seekers - Installation & Dépannage 24/7',
       backgroundImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Izku0oEj2BefVqflrj5wPT-img-2_1770602176000_na1fn_ZWxlY3RyaWNpYW4taGVyby1wcm9mZXNzaW9uYWw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L0l6a3Uwb0VqMkJlZlZxZmxyajV3UFQtaW1nLTJfMTc3MDYwMjE3NjAwMF9uYTFmbl9aV3hsWTNSeWFXTnBZVzR0YUdWeWJ5MXdjbTltWlhOemFXOXVZV3cuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RdqWRDvRLZW7LF2HY4jZAMf5ABpAcnVcMPdr-ZyFJOxdPFq9wbo~vUcCQFfjPD7nL17yHaOHpij6FlwEOgoQatRvVPf2JcIyGjs223YrHEFvBS9hXbtk6Wt2~yd~7gXfzqnc~E6S6jXupt97mg5rBH-KIA5-zZzTJ0DKGeOWe~52eU-RueX8fU5Eh-i-HBErkGVB0o6ITBsCD~1Tvz3SHqHcrtbSaPJDCOibthv~OHRZhIixKsYlgqw~gTwv4m-BY4-OsfBkK8X9MZRt-E3yOdt-w3-b1-OpU1UoWdZOtRhG4D2c5x~-qUN6cQc81bKC89EAGVFbsQ1JcCH8WBuppQ__',
     },
     
