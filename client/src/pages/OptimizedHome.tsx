@@ -1,27 +1,34 @@
 // Página principal otimizada para SEO e conversões
 // Estrutura otimizada:
 // 1. Hero com CTA
-// 2. Serviços com imagens
-// 3. Tabela de preços
-// 4. Equipa
-// 5. Trabalhos realizados
-// 6. FAQ
-// 7. Testemunhos
-// 8. Blog
-// 9. Contactos
+// 2. Badge Orçamento Gratuito
+// 3. Serviços com imagens
+// 4. Tabela de preços
+// 5. Zona de Intervenção
+// 6. Equipa
+// 7. Trabalhos realizados
+// 8. FAQ + FAQ Local
+// 9. Testemunhos
+// 10. Blog
+// 11. Contactos
+// 12. Mobile Call Button
 
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
+import OrcamentoGratuitoBadge from '@/components/OrcamentoGratuitoBadge';
 import OptimizedServices from '@/components/OptimizedServices';
 import PriceTable from '@/components/PriceTable';
+import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Equipa from '@/components/Equipa';
 import Trabalhos from '@/components/Trabalhos';
 import FAQ from '@/components/FAQ';
+import FAQLocal from '@/components/FAQLocal';
 import Testimonials from '@/components/Testimonials';
 import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
+import MobileCallButton from '@/components/MobileCallButton';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
@@ -40,10 +47,14 @@ export default function OptimizedHome() {
       
       <Header />
       <InnovativeHero />
+      <OrcamentoGratuitoBadge />
       <OptimizedServices />
       
       {/* Secção tabela de preços */}
       <PriceTable />
+      
+      {/* Secção Zona de Intervenção */}
+      <ZonaIntervencao />
       
       {/* Secção Equipa */}
       <Equipa />
@@ -69,6 +80,9 @@ export default function OptimizedHome() {
         </div>
       </section>
       
+      {/* FAQ Local SEO */}
+      <FAQLocal />
+      
       {/* Secção testemunhos */}
       <Testimonials />
       
@@ -80,6 +94,7 @@ export default function OptimizedHome() {
       
       <Footer />
       <FloatingButtons />
+      <MobileCallButton />
       <ScrollToTop />
     </>
   );

@@ -60,14 +60,15 @@ export default function SEOHead() {
     updateMetaTag('meta[name="twitter:description"]', 'content', config.description);
     updateMetaTag('meta[name="twitter:image"]', 'content', `https://${config.domain}${config.seo.ogImage}`);
 
-    // Canonical URL
+    // Canonical URL (dynamique basé sur le path)
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
     if (!canonical) {
       canonical = document.createElement('link');
       canonical.rel = 'canonical';
       document.head.appendChild(canonical);
     }
-    canonical.href = `https://${config.domain}`;
+    const currentPath = window.location.pathname;
+    canonical.href = `https://${config.domain}${currentPath === '/' ? '' : currentPath}`;
 
     // Alternate hreflang
     let hreflang = document.querySelector('link[hreflang="pt-PT"]') as HTMLLinkElement;

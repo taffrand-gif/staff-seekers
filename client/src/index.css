@@ -184,3 +184,75 @@
     }
   }
 }
+
+/* ============================================
+   MICRO-ANIMATIONS CTA — Hover effects subtils
+   ============================================ */
+
+/* Animation pulse pour les boutons CTA principaux */
+@keyframes subtle-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(234, 88, 12, 0); }
+}
+
+/* Hover scale + shadow pour tous les boutons CTA */
+a[href^="tel:"],
+a[href^="https://wa.me"] {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a[href^="tel:"]:hover,
+a[href^="https://wa.me"]:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+a[href^="tel:"]:active,
+a[href^="https://wa.me"]:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Pulse dot animation pour indicateur de disponibilité */
+.pulse-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  animation: pulse-dot-anim 2s infinite;
+}
+
+@keyframes pulse-dot-anim {
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+/* ============================================
+   PERFORMANCE — Lazy loading et optimisations
+   ============================================ */
+
+/* Optimisation du rendu des images */
+img {
+  content-visibility: auto;
+}
+
+/* Smooth scroll natif */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Padding bottom pour le bouton mobile fixe */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 60px;
+  }
+}
+
+/* ============================================
+   FONT DISPLAY — Éviter le FOIT
+   ============================================ */
+@font-face {
+  font-display: swap;
+}

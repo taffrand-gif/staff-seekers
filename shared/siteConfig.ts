@@ -86,8 +86,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     hero: {
       title: 'Canalizador Profissional em Trás-os-Montes',
       subtitle: 'Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido em Bragança, Macedo de Cavaleiros e toda a região.',
-      backgroundImage: '/images-optimized/hero/hero-plumber-portugal.png',
-      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
+      backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     },
     
     services: [
@@ -134,7 +134,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     
     seo: {
       keywords: ['canalizador', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'desentupimento', 'fuga água', 'esquentador', 'canalizador urgente', 'reparação canalização'],
-      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     },
   },
   
@@ -159,8 +159,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     hero: {
       title: 'Eletricista Certificado em Trás-os-Montes',
       subtitle: 'Instalações, reparações elétricas e certificação CERTIEL. Segurança garantida em Bragança, Macedo de Cavaleiros e toda a região.',
-      backgroundImage: '/images-optimized/hero/hero-electrician-portugal.png',
-      ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
+      backgroundImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
+      ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
     
     services: [
@@ -207,7 +207,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     
     seo: {
       keywords: ['eletricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'eletricista urgente', 'instalação elétrica'],
-      ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
+      ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
   },
 };
@@ -226,6 +226,10 @@ export function getCurrentSiteConfig(): SiteConfig {
     return siteConfigs['staff-seekers'];
   }
   
-  // Default to norte-reparos
-  return siteConfigs['norte-reparos'];
+  if (hostname.includes('norte-reparos')) {
+    return siteConfigs['norte-reparos'];
+  }
+  
+  // Default to staff-seekers (primary domain)
+  return siteConfigs['staff-seekers'];
 }

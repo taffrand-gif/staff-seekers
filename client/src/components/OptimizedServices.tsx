@@ -164,6 +164,7 @@ const OptimizedServices: React.FC = () => {
                     alt={`Serviço de ${service.toLowerCase()} em Trás-os-Montes`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
+                    decoding="async"
                     width="400"
                     height="300"
                   />
@@ -190,7 +191,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(`Olá, gostaria de mais informações sobre o serviço de ${service}.`)}`}
+                    href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(`Olá, gostaria de mais informações sobre o serviço de ${service}.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`mt-6 inline-flex items-center justify-center gap-2 ${btnBg} text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300`}

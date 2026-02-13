@@ -175,7 +175,7 @@ export default function StructuredData() {
         }
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp}`
+        `https://wa.me/${config.whatsapp || '351932321892'}`
       ]
     };
 
