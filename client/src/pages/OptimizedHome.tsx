@@ -17,7 +17,7 @@ import Testimonials from '@/components/Testimonials';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
-import FloatingCTA from '@/components/FloatingCTA';
+// import FloatingCTA from '@/components/FloatingCTA'; // Temporarily disabled for debugging
 import LiveVisitors from '@/components/LiveVisitors';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
@@ -121,7 +121,7 @@ export default function OptimizedHome() {
       <Footer />
       <FloatingButtons />
       <ScrollToTop />
-      <FloatingCTA />
+      {/* <FloatingCTA /> */} {/* Temporarily disabled for debugging */}
       <LiveVisitors />
     </>
   );
