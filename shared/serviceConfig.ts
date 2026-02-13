@@ -39,31 +39,32 @@ export interface ServiceConfig {
 export const plumberieConfig: ServiceConfig = {
   type: 'plomberie',
   name: 'Canalizador',
-  businessName: 'Canalizador de Trás-os-Montes',
-  phone: '928484451',
-  whatsappNumber: '351928484451',
+  businessName: 'Norte Reparos — Canalizador Profissional',
+  phone: '[TÉLÉPHONE]',
+  whatsappNumber: '[WHATSAPP]',
   domain: 'norte-reparos.com',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
+  // Couleurs: BLEU (#1E88E5) + blanc + ORANGE (#FF6D00 pour CTA)
   gradient: {
-    from: '#667eea',
-    to: '#764ba2',
+    from: '#1E88E5',  // Bleu principal
+    to: '#0d47a1',    // Bleu foncé
   },
-  accentColor: '#22c55e',
+  accentColor: '#FF6D00',  // Orange pour CTA
   
-  heroTitle: 'Canalizador Urgência',
-  heroSubtitle: 'Fuga de água? Entupimento? Emergência?',
-  heroEmoji: '🚨',
+  heroTitle: 'O Seu Canalizador de Confiança em Trás-os-Montes',
+  heroSubtitle: 'Reparações, instalações e manutenção — serviço rápido e profissional',
+  heroEmoji: '💧',
   serviceEmoji: '🔧',
   
   services: [
-    'Reparação de fugas de água',
-    'Desentupimento de canalizações',
-    'Instalação de torneiras e autoclismos',
-    'Reparação de caldeiras',
-    'Instalação de esquentadores',
-    'Manutenção preventiva',
+    'Desentupimentos',
+    'Reparação de Fugas de Água',
+    'Instalação Sanitários',
+    'Aquecimento Central',
+    'Canalização Nova',
+    'Urgências 24h',
   ],
   
   commonProblems: [
@@ -89,31 +90,32 @@ export const plumberieConfig: ServiceConfig = {
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',
-  businessName: 'Eletricista de Trás-os-Montes',
-  phone: '932321892',
-  whatsappNumber: '351932321892',
+  businessName: 'Staff Seekers — Eletricista Profissional',
+  phone: '[TÉLÉPHONE]',
+  whatsappNumber: '[WHATSAPP]',
   domain: 'staff-seekers.com',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
+  // Couleurs: AMBRE (#FFA000) + bleu foncé (#1A237E) + blanc
   gradient: {
-    from: '#f97316',
-    to: '#ea580c',
+    from: '#FFA000',  // Ambre principal
+    to: '#FF8F00',    // Ambre foncé
   },
-  accentColor: '#22c55e',
+  accentColor: '#1A237E',  // Bleu foncé pour contrastes
   
-  heroTitle: 'Eletricista Urgência',
-  heroSubtitle: 'Curto-circuito? Disjuntor a saltar? Emergência?',
-  heroEmoji: '🚨',
+  heroTitle: 'Eletricista Profissional em Trás-os-Montes',
+  heroSubtitle: 'Instalações, reparações e certificação elétrica — segurança garantida',
+  heroEmoji: '⚡',
   serviceEmoji: '🔌',
   
   services: [
-    'Reparação de curto-circuitos',
-    'Instalação de quadros elétricos',
-    'Reparação de disjuntores',
-    'Instalação de tomadas e interruptores',
-    'Deteção de avarias elétricas',
-    'Certificação elétrica',
+    'Instalação Elétrica Completa',
+    'Reparação de Avarias Elétricas',
+    'Quadros Elétricos Modernos',
+    'Iluminação Interior/Exterior',
+    'Certificação Elétrica',
+    'Urgências 24h',
   ],
   
   commonProblems: [
