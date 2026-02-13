@@ -1,6 +1,7 @@
 // Hero innovant avec effets modernes : parallax, gradients animés, particules
 import React, { useEffect, useRef } from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const InnovativeHero: React.FC = () => {
   const { config } = useSite();
@@ -107,7 +108,7 @@ const InnovativeHero: React.FC = () => {
           <div className="relative mb-8">
             <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight drop-shadow-2xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-amber-200">
-                {config.heroTitle}
+                {ACTIVE_CONFIG.heroTitle}
               </span>
             </h1>
             <div className="absolute -inset-1 bg-gradient-to-r from-amber-500/20 to-blue-500/20 blur-2xl -z-10" />
@@ -115,7 +116,7 @@ const InnovativeHero: React.FC = () => {
           
           {/* Sous-titre avec animation de frappe */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            {config.heroSubtitle}
+            {ACTIVE_CONFIG.heroSubtitle}
           </p>
           
           {/* Boutons CTA avec effets hover avancés */}
@@ -132,7 +133,7 @@ const InnovativeHero: React.FC = () => {
             </a>
             
             <a
-              href={`https://wa.me/${config.whatsappNumber}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden bg-white hover:bg-gray-50 text-blue-900 font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 min-w-[280px] border-2 border-amber-500"
