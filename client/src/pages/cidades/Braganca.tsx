@@ -6,7 +6,9 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function Braganca() {
@@ -243,6 +245,31 @@ export default function Braganca() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* FAQ Section with Schema.org - Bragança Specific */}
+        <section className="py-16 bg-gray-50">
+          <FAQSection
+            title="Perguntas Frequentes sobre Eletricista em Bragança"
+            faqs={[
+              {
+                question: "Atendem zonas rurais e aldeias remotas do concelho de Bragança?",
+                answer: "Sim, atendemos todo o concelho de Bragança, incluindo aldeias remotas e propriedades rurais. Temos experiência com as particularidades elétricas das zonas rurais da região."
+              },
+              {
+                question: "Como lidam com o clima frio de Bragança nos sistemas de aquecimento elétrico?",
+                answer: "Conhecemos bem as exigências do clima de Bragança. Instalamos e reparamos sistemas de aquecimento elétrico dimensionados para temperaturas negativas, com isolamento adequado e proteções contra gelo."
+              },
+              {
+                question: "Trabalham em edifícios históricos do centro de Bragança?",
+                answer: "Sim, temos experiência em trabalhar em edifícios históricos e protegidos do centro de Bragança. Respeitamos as características arquitetónicas e utilizamos técnicas que preservam o património."
+              },
+              {
+                question: "Qual o tempo de resposta para urgências em Bragança?",
+                answer: "No centro da cidade: 15-30 minutos. Para aldeias circundantes: 45-60 minutos. Mantemos uma equipa sempre disponível para toda a região."
+              }
+            ]}
+          />
         </section>
 
         {/* CTA final */}

@@ -11,6 +11,8 @@ import VilaReal from "./pages/cidades/VilaReal";
 import Braganca from "./pages/cidades/Braganca";
 import Chaves from "./pages/cidades/Chaves";
 import Mirandela from "./pages/cidades/Mirandela";
+import BlogIndex from "./pages/blog/BlogIndex";
+import ComoInstalarCandeeiroTeto from "./pages/blog/ComoInstalarCandeeiroTeto";
 
 
 function Router() {
@@ -22,6 +24,8 @@ function Router() {
       <Route path={"/eletricista-braganca"} component={Braganca} />
       <Route path={"/eletricista-chaves"} component={Chaves} />
       <Route path={"/eletricista-mirandela"} component={Mirandela} />
+      <Route path={"/blog"} component={BlogIndex} />
+      <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

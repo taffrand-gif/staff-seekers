@@ -6,7 +6,9 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function Servicos() {
@@ -178,45 +180,37 @@ export default function Servicos() {
           </div>
         </section>
 
-        {/* FAQ Section */}
+        {/* FAQ Section with Schema.org */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas Frequentes sobre <span className="text-amber-600">Serviços Elétricos</span>
-            </h2>
-            
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Quanto tempo demora uma instalação elétrica completa?
-                </h3>
-                <p className="text-gray-600">
-                  Depende do tamanho do imóvel. Para uma casa média (T3), demora entre 2 a 4 dias. 
-                  Fazemos um planeamento detalhado para minimizar inconvenientes.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  A certificação elétrica é obrigatória?
-                </h3>
-                <p className="text-gray-600">
-                  Sim, para venda ou arrendamento de imóveis em Portugal é obrigatório ter 
-                  certificação elétrica válida. O certificado tem validade de 8 anos.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Oferecem garantia nos serviços?
-                </h3>
-                <p className="text-gray-600">
-                  Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra e 
-                  1 ano nos materiais fornecidos por nós.
-                </p>
-              </div>
-            </div>
-          </div>
+          <FAQSection
+            title="Perguntas Frequentes sobre Serviços Elétricos"
+            faqs={[
+              {
+                question: "Quanto tempo demora uma instalação elétrica completa?",
+                answer: "Depende do tamanho do imóvel. Para uma casa média (T3), demora entre 2 a 4 dias. Fazemos um planeamento detalhado para minimizar inconvenientes."
+              },
+              {
+                question: "A certificação elétrica é obrigatória?",
+                answer: "Sim, para venda ou arrendamento de imóveis em Portugal é obrigatório ter certificação elétrica válida. O certificado tem validade de 8 anos."
+              },
+              {
+                question: "Oferecem garantia nos serviços?",
+                answer: "Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra e 1 ano nos materiais fornecidos por nós."
+              },
+              {
+                question: "Trabalham com urgências 24 horas?",
+                answer: "Sim, temos serviço de urgência 24 horas para situações críticas como falta total de energia, curtos-circuitos ou perigo iminente."
+              },
+              {
+                question: "Quais são os documentos necessários para certificação elétrica?",
+                answer: "Necessita do projeto elétrico aprovado, boletins de ensaio dos materiais utilizados e memorial descritivo da instalação. Nós tratamos de toda a burocracia."
+              },
+              {
+                question: "O orçamento é gratuito?",
+                answer: "Sim, todos os nossos orçamentos são gratuitos e sem compromisso. Incluem análise técnica no local e proposta detalhada por escrito."
+              }
+            ]}
+          />
         </section>
 
         {/* CTA Final */}

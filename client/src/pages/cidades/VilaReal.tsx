@@ -6,7 +6,9 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function VilaReal() {
@@ -215,48 +217,37 @@ export default function VilaReal() {
           </div>
         </section>
 
-        {/* FAQ spécifique à Vila Real */}
+        {/* FAQ Section with Schema.org - Vila Real Specific */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas Frequentes sobre <span className="text-amber-600">Eletricista em Vila Real</span>
-            </h2>
-            
-            <div className="max-w-3xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Qual o tempo médio de resposta para urgências em Vila Real?
-                </h3>
-                <p className="text-gray-600">
-                  Em média, atendemos urgências no centro de Vila Real em 15-30 minutos. 
-                  Para os bairros periféricos, o tempo é de 30-45 minutos. 
-                  Mantemos uma equipa sempre disponível para a região.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Trabalham em edifícios históricos do centro de Vila Real?
-                </h3>
-                <p className="text-gray-600">
-                  Sim, temos experiência em trabalhar em edifícios históricos e protegidos. 
-                  Conhecemos as regulamentações específicas e utilizamos técnicas que 
-                  preservam a integridade dos imóveis históricos de Vila Real.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Oferecem serviço para empresas na Zona Industrial de Vila Real?
-                </h3>
-                <p className="text-gray-600">
-                  Sim, atendemos empresas na Zona Industrial e em todo o concelho. 
-                  Serviços industriais, comerciais e residenciais. 
-                  Trabalhamos com horários flexíveis para minimizar impactos na produção.
-                </p>
-              </div>
-            </div>
-          </div>
+          <FAQSection
+            title="Perguntas Frequentes sobre Eletricista em Vila Real"
+            faqs={[
+              {
+                question: "Qual o tempo médio de resposta para urgências em Vila Real?",
+                answer: "Em média, atendemos urgências no centro de Vila Real em 15-30 minutos. Para os bairros periféricos, o tempo é de 30-45 minutos. Mantemos uma equipa sempre disponível para a região."
+              },
+              {
+                question: "Trabalham em edifícios históricos do centro de Vila Real?",
+                answer: "Sim, temos experiência em trabalhar em edifícios históricos e protegidos. Conhecemos as regulamentações específicas e utilizamos técnicas que preservam a integridade dos imóveis históricos de Vila Real."
+              },
+              {
+                question: "Oferecem serviço para empresas na Zona Industrial de Vila Real?",
+                answer: "Sim, atendemos empresas na Zona Industrial e em todo o concelho. Serviços industriais, comerciais e residenciais. Trabalhamos com horários flexíveis para minimizar impactos na produção."
+              },
+              {
+                question: "Atendem bairros como Corgo, Mateus ou Lordelo?",
+                answer: "Sim, atendemos todos os bairros e freguesias de Vila Real, incluindo Corgo, Mateus, Lordelo, Vila Marim, Arroios e toda a área metropolitana."
+              },
+              {
+                question: "Preciso de certificação elétrica para vender minha casa em Vila Real?",
+                answer: "Sim, é obrigatório ter certificação elétrica válida (boletim DGEG) para venda ou arrendamento de imóveis em Portugal. O certificado tem validade de 8 anos."
+              },
+              {
+                question: "Fazem manutenção preventiva para condomínios em Vila Real?",
+                answer: "Sim, oferecemos contratos de manutenção preventiva para condomínios, incluindo inspeção periódica de quadros elétricos, iluminação comum e sistemas de emergência."
+              }
+            ]}
+          />
         </section>
 
         {/* CTA final avec localisation */}
