@@ -41,7 +41,6 @@ export default function SEOHead() {
 
     // Basic meta tags
     updateMetaTag('meta[name="description"]', 'content', config.description);
-    updateMetaTag('meta[name="keywords"]', 'content', config.seo.keywords.join(', '));
     updateMetaTag('meta[name="author"]', 'content', config.name);
     updateMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
     updateMetaTag('meta[name="googlebot"]', 'content', 'index, follow');
