@@ -100,13 +100,13 @@ export default function Servicos() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 Ligue Agora: {config.phone}
+                📞 Ligue Agora: {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -157,13 +157,13 @@ export default function Servicos() {
                     
                     <div className="flex flex-col sm:flex-row gap-4">
                       <a
-                        href={`tel:${config.phone}`}
+                        href={`tel:${ACTIVE_CONFIG.phone}`}
                         className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-6 py-3 rounded-lg text-center transition-colors"
                       >
                         Pedir Serviço
                       </a>
                       <a
-                        href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre ${service.title}`}
+                        href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, gostaria de mais informações sobre ${service.title}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold px-6 py-3 rounded-lg text-center transition-colors border border-gray-300"
@@ -231,13 +231,13 @@ export default function Servicos() {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone}
+                📞 {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

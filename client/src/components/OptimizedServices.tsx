@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const serviceImages = {
   'Instalação Elétrica Completa': 'service-quadro-eletrico.jpg',
@@ -38,8 +39,8 @@ const OptimizedServices: React.FC = () => {
         {/* Grille de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {config.services.map((service, index) => {
-            const imageName = serviceImages[service as keyof typeof serviceImages] || 'service-quadro-eletrico.png';
-            const description = serviceDescriptions[service as keyof typeof serviceDescriptions] || 'Serviço profissional de qualidade.';
+            const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-quadro-eletrico.png';
+            const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
 
             return (
               <div
@@ -85,7 +86,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service.label}`}
+                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300"

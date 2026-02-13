@@ -55,7 +55,7 @@ export default function VilaReal() {
         "latitude": "41.3000",
         "longitude": "-7.7441"
       },
-      "telephone": config.phone,
+      "telephone": ACTIVE_CONFIG.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -63,7 +63,7 @@ export default function VilaReal() {
         "name": "Vila Real"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -102,13 +102,13 @@ export default function VilaReal() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Vila Real: {config.phone}
+                  📞 Eletricista Vila Real: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -272,13 +272,13 @@ export default function VilaReal() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone} (Vila Real)
+                📞 {ACTIVE_CONFIG.phone} (Vila Real)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
