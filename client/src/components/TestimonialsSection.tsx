@@ -65,7 +65,7 @@ export function TestimonialsSection() {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Mais de {testimonials.length} clientes satisfeitos confiam nos nossos serviços
+            Mais de 200 clientes satisfeitos confiam nos nossos serviços
           </p>
         </div>
 

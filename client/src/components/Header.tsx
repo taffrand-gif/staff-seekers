@@ -56,15 +56,13 @@ export default function Header() {
               { id: 'home', label: 'HOME' },
               { id: 'servicos', label: 'SERVIÇOS' },
               { id: 'faq', label: 'FAQ' },
-              { id: 'trabalhos', label: 'TRABALHOS' },
-              { id: 'equipa', label: 'EQUIPA' },
               { id: 'testemunhos', label: 'TESTEMUNHOS' },
               { id: 'blog', label: 'BLOG' },
               { id: 'contactos', label: 'CONTACTOS' },
             ].map((item) => (
               <button
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                onClick={() => item.id === 'blog' ? window.location.href = '/blog' : scrollToSection(item.id)}
                 className="text-sm font-semibold hover:opacity-60 transition-opacity"
               >
                 {item.label}
@@ -99,8 +97,6 @@ export default function Header() {
               { id: 'home', label: 'HOME' },
               { id: 'servicos', label: 'SERVIÇOS' },
               { id: 'faq', label: 'FAQ' },
-              { id: 'trabalhos', label: 'TRABALHOS' },
-              { id: 'equipa', label: 'EQUIPA' },
               { id: 'testemunhos', label: 'TESTEMUNHOS' },
               { id: 'blog', label: 'BLOG' },
               { id: 'contactos', label: 'CONTACTOS' },
@@ -108,7 +104,11 @@ export default function Header() {
               <button
                 key={item.id}
                 onClick={() => {
-                  scrollToSection(item.id);
+                  if (item.id === 'blog') {
+                    window.location.href = '/blog';
+                  } else {
+                    scrollToSection(item.id);
+                  }
                   setMobileMenuOpen(false);
                 }}
                 className="text-left text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors"

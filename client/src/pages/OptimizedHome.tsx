@@ -24,36 +24,7 @@ import { useEffect } from 'react';
 export default function OptimizedHome() {
   const { config } = useSite();
 
-  // Update document title and meta tags
-  useEffect(() => {
-    document.title = "Eletricista em Trás-os-Montes | Instalação e Reparação Elétrica | Staff Seekers";
-    
-    // Update meta description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Trás-os-Montes. Instalação elétrica, quadros elétricos, iluminação, certificação. Segurança garantida. Contacte-nos!');
-
-
-    // Update Open Graph tags
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
-      ogTitle.setAttribute('content', 'Eletricista Profissional em Trás-os-Montes | Staff Seekers');
-    }
-
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) {
-      ogDescription.setAttribute('content', 'Instalações, reparações e certificação elétrica — segurança garantida em toda a região de Trás-os-Montes.');
-    }
-
-    const ogImage = document.querySelector('meta[property="og:image"]');
-    if (ogImage) {
-      ogImage.setAttribute('content', '/images/hero/hero-electrician-portugal.png');
-    }
-  }, [config]);
+  // Meta tags are handled by SEOHead component
 
   return (
     <>
