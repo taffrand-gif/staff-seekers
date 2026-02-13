@@ -50,7 +50,7 @@ const OptimizedServices: React.FC = () => {
                 {/* Image du service */}
                 <div className="h-48 overflow-hidden">
                   <img
-                    src={`/images/services/${imageName.replace('.jpg', '.png')}`}
+                    src={`/images-optimized/services/${imageName}`}
                     alt={`Serviço de ${(typeof service === 'string' ? service : service.label).toLowerCase()} em Trás-os-Montes`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
