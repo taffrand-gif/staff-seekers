@@ -3,12 +3,12 @@ import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const serviceImages = {
-  'Instalação Elétrica Completa': 'service-quadro-eletrico.jpg',
-  'Reparação de Avarias Elétricas': 'service-certificacao.jpg',
-  'Quadros Elétricos Modernos': 'service-quadro-eletrico.jpg',
-  'Iluminação Interior/Exterior': 'service-iluminacao.jpg',
-  'Certificação Elétrica': 'service-certificacao.jpg',
-  'Urgências 24h': 'service-instalacao.jpg',
+  'Instalação Elétrica Completa': 'service-quadro-eletrico.png',
+  'Reparação de Avarias Elétricas': 'service-certificacao.png',
+  'Quadros Elétricos Modernos': 'service-quadro-eletrico.png',
+  'Iluminação Interior/Exterior': 'service-iluminacao.png',
+  'Certificação Elétrica': 'service-certificacao.png',
+  'Urgências 24h': 'service-instalacao.png',
 };
 
 const serviceDescriptions = {
@@ -71,7 +71,7 @@ const OptimizedServices: React.FC = () => {
 
         {/* Grille de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {config.services.map((service, index) => {
+          {ACTIVE_CONFIG.services.map((service, index) => {
             const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-quadro-eletrico.png';
             const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
 

@@ -144,8 +144,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'staff-seekers': {
     id: 'staff-seekers',
     name: 'Eletricista de Trás-os-Montes',
-    title: 'Électricité Professionnelle Porto | Staff Seekers - Installation & Dépannage 24/7',
-    description: 'Électricien professionnel à Porto. Interventions urgentes 24h/24, installations neuves, rénovations. Certifié, devis gratuit.',
+    title: 'Eletricista Certificado em Trás-os-Montes | Instalação & Reparação Elétrica 24/7',
+    description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas urgentes 24h, instalação de quadros elétricos, iluminação e certificação DGEG. Orçamento grátis.',
     phone: '932 321 892',
     whatsapp: '932321892',
     email: 'info@staff-seekers.com',

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const OptimizedHero: React.FC = () => {
   const { config } = useSite();
@@ -27,12 +28,12 @@ const OptimizedHero: React.FC = () => {
           
           {/* Titre principal */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            {config.heroTitle}
+            {ACTIVE_CONFIG.heroTitle}
           </h1>
           
           {/* Sous-titre */}
           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
-            {config.heroSubtitle}
+            {ACTIVE_CONFIG.heroSubtitle}
           </p>
           
           {/* Boutons CTA */}
@@ -46,7 +47,7 @@ const OptimizedHero: React.FC = () => {
             </a>
             
             <a
-              href={`https://wa.me/${config.whatsappNumber}`}
+              href={`https://wa.me/${config.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-100 text-blue-900 font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 min-w-[250px]"

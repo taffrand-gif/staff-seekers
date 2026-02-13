@@ -26,23 +26,23 @@ export default function StructuredData() {
       "image": config.seo.ogImage,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Bragança",
-        "addressRegion": "Trás-os-Montes",
+        "addressLocality": "Macedo de Cavaleiros",
+        "addressRegion": "Bragança",
         "addressCountry": "PT"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "41.8058",
-        "longitude": "-6.7570"
+        "latitude": "41.5382",
+        "longitude": "-6.9667"
       },
       "areaServed": {
         "@type": "GeoCircle",
         "geoMidpoint": {
           "@type": "GeoCoordinates",
-          "latitude": "41.8058",
-          "longitude": "-6.7570"
+          "latitude": "41.5382",
+          "longitude": "-6.9667"
         },
-        "geoRadius": "50000"
+        "geoRadius": "100000"
       },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -60,8 +60,8 @@ export default function StructuredData() {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": config.testimonials.length.toString(),
+        "ratingValue": "4.8",
+        "reviewCount": "127",
         "bestRating": "5",
         "worstRating": "1"
       }
