@@ -209,7 +209,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     
     seo: {
       keywords: ['eletricista', 'bragança', 'trás-os-montes', 'urgências', '24h', 'quadro elétrico', 'curto-circuito', 'certificação DGEG'],
-      ogImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Zd5MIfeKcoQdjH54bmsaCu-img-4_1770593735000_na1fn_ZWxlY3RyaWNhbC1zZXJ2aWNlLWRldGFpbA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L1pkNU1JZmVLY29RZGpINTRibXNhQ3UtaW1nLTRfMTc3MDU5MzczNTAwMF9uYTFmbl9aV3hsWTNSeWFXTmhiQzF6WlhKMmFXTmxMV1JsZEdGcGJBLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=IXv9867bBLpvhRqgE6FZlzZjaDVpWaLhMHn86iDiwnqZx6ux-08L2aMxTGdGvdVLIGu0arnxSVoGGK5B-SErOWbjS-yfbEiBzjRjWcvBek3qX7Y6iUrILKRq8ExuG1dlQbI11m5bRFQA74Y87awrhLwmsz4BtNG8whuzowLosbHyNVIWHNGbJkKr9rJPMFVunsooCW9Xxq2d7rzm~utLlLoOlpPSOdbcKatHXeYXKuIKRTd2ddK~zGFQmHBIYk363ZVhiJh7~C9c47k4JvLhMHhgKKvUcY-h-fjXvU23tMJEtHscLx41DbZI8HgpZrrtzB60ePmaD0FrEx-dUiY3sA__',
+      ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
     },
   },
 };
