@@ -95,11 +95,11 @@ const InnovativeHero: React.FC = () => {
       {/* Contenu principal */}
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge animé */}
-          <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-lg border border-white/30 rounded-full px-8 py-4 mb-10 animate-pulse shadow-2xl">
-            <span className="text-3xl animate-bounce">⚡</span>
+          {/* Badge professionnel */}
+          <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-lg border border-white/30 rounded-full px-8 py-4 mb-10 shadow-2xl">
+            <span className="text-3xl">⚡</span>
             <span className="text-white font-bold text-xl tracking-wide">
-              URGÊNCIA ELÉTRICA 24H
+              ELETRICISTA CERTIFICADO EM TRÁS-OS-MONTES
             </span>
           </div>
           
