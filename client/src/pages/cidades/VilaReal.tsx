@@ -41,7 +41,7 @@ export default function VilaReal() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Staff Seekers — Eletricista em Vila Real",
-      "image": "https://staff-seekers.com/images-optimized/hero/hero-electrician-portugal.jpg",
+      "image": "/images/hero/hero-electrician-portugal.png",
       "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
         "@type": "PostalAddress",

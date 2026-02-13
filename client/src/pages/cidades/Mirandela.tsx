@@ -41,7 +41,7 @@ export default function Mirandela() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Staff Seekers — Eletricista em Mirandela",
-      "image": "https://staff-seekers.com/images-optimized/hero/hero-electrician-portugal.jpg",
+      "image": "/images/hero/hero-electrician-portugal.png",
       "description": "Eletricista profissional em Mirandela, Trás-os-Montes. Instalação, reparação e certificação elétrica para agricultura e indústria.",
       "address": {
         "@type": "PostalAddress",

@@ -80,7 +80,7 @@ const InnovativeHero: React.FC = () => {
         ref={heroRef}
         className="absolute inset-0 bg-gradient-to-br from-amber-600 via-amber-700 to-blue-900 transition-all duration-1000"
         style={{
-          backgroundImage: `url('/images-optimized/background/background-energy.jpg')`,
+          backgroundImage: `url('/images/background/background-energy.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay',

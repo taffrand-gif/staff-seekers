@@ -36,7 +36,7 @@ export default function Servicos() {
         'Cumprimento das normas de segurança',
         'Garantia no material e mão de obra'
       ],
-      image: '/images-optimized/services/service-quadro-eletrico.jpg',
+      image: '/images/services/service-quadro-eletrico.png',
       priceRange: 'A partir de €200'
     },
     {
@@ -49,7 +49,7 @@ export default function Servicos() {
         'Correção de falhas de aterramento',
         'Serviço de urgência 24h'
       ],
-      image: '/images-optimized/services/service-certificacao.jpg',
+      image: '/images/services/service-certificacao.png',
       priceRange: 'A partir de €80'
     },
     {
@@ -62,7 +62,7 @@ export default function Servicos() {
         'Registo no sistema nacional',
         'Validade legal garantida'
       ],
-      image: '/images-optimized/services/service-certificacao.jpg',
+      image: '/images/services/service-certificacao.png',
       priceRange: 'A partir de €150'
     },
     {
@@ -75,7 +75,7 @@ export default function Servicos() {
         'Sensores de movimento e presença',
         'Automatização e controlo remoto'
       ],
-      image: '/images-optimized/services/service-iluminacao.jpg',
+      image: '/images/services/service-iluminacao.png',
       priceRange: 'A partir de €120'
     }
   ];

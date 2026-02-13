@@ -41,7 +41,7 @@ export default function Braganca() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Staff Seekers — Eletricista em Bragança",
-      "image": "https://staff-seekers.com/images-optimized/hero/hero-electrician-portugal.jpg",
+      "image": "/images/hero/hero-electrician-portugal.png",
       "description": "Eletricista profissional em Bragança, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
         "@type": "PostalAddress",
