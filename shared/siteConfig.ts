@@ -72,7 +72,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
     name: 'Canalizador de Trás-os-Montes',
-    title: 'Plomberie Urgence Porto | Norte Reparos - Dépannage & Installation 24/7',
+    title: 'Canalizador Urgente em Trás-os-Montes | Norte Reparos - Desentupimento & Reparação 24/7',
     description: 'Plombier urgentiste à Porto. Fuites, chauffe-eau, canalisation. Intervention rapide 30min, garantie 2 ans, prix transparent.',
     phone: '928 484 451',
     whatsapp: '928484451',

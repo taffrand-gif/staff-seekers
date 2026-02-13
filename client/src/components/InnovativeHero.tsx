@@ -148,8 +148,8 @@ const InnovativeHero: React.FC = () => {
           {/* Stats animées */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
-              { icon: '🏆', value: '15+', label: 'Anos Experiência' },
-              { icon: '👨‍🔧', value: '500+', label: 'Clientes Satisfeitos' },
+              { icon: '🏆', value: '10+', label: 'Anos Experiência' },
+              { icon: '👨‍🔧', value: '100+', label: 'Clientes Satisfeitos' },
               { icon: '🚨', value: '24h', label: 'Urgências' },
               { icon: '💰', value: '0€', label: 'Orçamento Grátis' }
             ].map((stat, index) => (

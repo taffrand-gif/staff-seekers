@@ -20,6 +20,39 @@ const serviceDescriptions = {
   'Urgências 24h': 'Atendimento de urgências elétricas 24 horas por dia, 7 dias por semana, para situações de perigo ou falta de energia.',
 };
 
+const serviceFeatures = {
+  'Instalação Elétrica Completa': [
+    'Materiais certificados (Schneider, Legrand)',
+    'Cumprimento normativo RCCTE',
+    'Garantia 5 anos na instalação'
+  ],
+  'Reparação de Avarias Elétricas': [
+    'Diagnóstico gratuito no local',
+    'Reparação em 2 horas (média)',
+    'Peças originais com garantia'
+  ],
+  'Quadros Elétricos Modernos': [
+    'Quadros modulares com disjuntores diferenciais',
+    'Identificação clara dos circuitos',
+    'Certificação DGEG incluída'
+  ],
+  'Iluminação Interior/Exterior': [
+    'Projeto luminotécnico gratuito',
+    'LED de alta eficiência (A+++)',
+    'Automação com sensores e temporizadores'
+  ],
+  'Certificação Elétrica': [
+    'Inspeção completa com relatório detalhado',
+    'Certificado válido para venda/arrendamento',
+    'Registo na plataforma nacional'
+  ],
+  'Urgências 24h': [
+    'Resposta em menos de 30 minutos',
+    'Técnicos equipados para qualquer emergência',
+    'Orçamento gratuito no local'
+  ]
+};
+
 const OptimizedServices: React.FC = () => {
   const { config } = useSite();
 
@@ -71,18 +104,16 @@ const OptimizedServices: React.FC = () => {
                   </p>
 
                   <div className="space-y-3">
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Materiais de primeira qualidade</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Técnicos certificados</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Garantia no serviço</span>
-                    </div>
+                    {(serviceFeatures[service as keyof typeof serviceFeatures] || [
+                      'Materiais de primeira qualidade',
+                      'Técnicos certificados',
+                      'Garantia no serviço'
+                    ]).map((feature, idx) => (
+                      <div key={idx} className="flex items-center gap-2 text-gray-700">
+                        <span className="text-green-500">✓</span>
+                        <span>{feature}</span>
+                      </div>
+                    ))}
                   </div>
 
                   <a
