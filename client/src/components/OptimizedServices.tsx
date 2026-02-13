@@ -50,7 +50,7 @@ const OptimizedServices: React.FC = () => {
                 <div className="h-48 overflow-hidden">
                   <img
                     src={`/images-optimized/services/${imageName}`}
-                    alt={`Serviço de ${(typeof service === 'string' ? service : String(service)).toLowerCase()} em Trás-os-Montes`}
+                    alt={`Serviço de ${(typeof service === 'string' ? service : service.label).toLowerCase()} em Trás-os-Montes`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     width="400"
@@ -62,7 +62,7 @@ const OptimizedServices: React.FC = () => {
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="text-2xl text-amber-600">⚡</div>
-                    <h3 className="text-xl font-bold text-gray-900">{service}</h3>
+                    <h3 className="text-xl font-bold text-gray-900">{service.label}</h3>
                   </div>
 
                   <p className="text-gray-600 mb-6">
@@ -85,7 +85,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service}`}
+                    href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service.label}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300"

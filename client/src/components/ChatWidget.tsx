@@ -230,8 +230,8 @@ export default function ChatWidget() {
                   >
                     <option value="">Selecione...</option>
                     {config.services.map((service) => (
-                      <option key={service} value={service}>
-                        {service}
+                      <option key={service.id} value={service.label}>
+                        {service.label}
                       </option>
                     ))}
                   </select>

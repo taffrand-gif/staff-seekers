@@ -295,8 +295,8 @@ export default function QuoteFormEnhanced() {
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
           >
             {config.services.map((service) => (
-              <option key={service} value={service}>
-                {service}
+              <option key={service.id} value={service.label}>
+                {service.label}
               </option>
             ))}
           </select>
