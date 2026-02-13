@@ -9,6 +9,7 @@
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
+import PriceTable from '@/components/PriceTable';
 import FAQ from '@/components/FAQ';
 import Testimonials from '@/components/Testimonials';
 import Contactos from '@/components/Contactos';
@@ -63,6 +64,9 @@ export default function OptimizedHome() {
       {/* <UrgencyBar /> */} {/* Temporarily disabled for debugging */}
       <InnovativeHero />
       <OptimizedServices />
+      
+      {/* Section tarifs transparents */}
+      <PriceTable />
       
       {/* Section FAQ optimisée */}
       <section className="py-20 bg-gray-50">
