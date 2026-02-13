@@ -170,6 +170,11 @@ const OptimizedServices: React.FC = () => {
               <p className="mt-4 text-gray-600 text-sm">
                 Servimos toda a região de Trás-os-Montes e arredores.
               </p>
+              <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <p className="text-blue-800 font-semibold">
+                  ⚠️ Precisa de um canalizador? Recomendamos: <a href="https://norte-reparos.com" className="underline">norte-reparos.com</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -54,15 +54,7 @@ export default function FAQ() {
     <section id="faq" className="py-20 bg-gray-50">
       <div className="container">
         <div className="max-w-4xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Perguntas Frequentes
-            </h2>
-            <p className="text-lg text-gray-600">
-              Respostas às dúvidas mais comuns sobre os nossos serviços
-            </p>
-          </div>
+          {/* Header - Removed duplicate H2 (already in OptimizedHome.tsx) */}
 
           {/* Accordion */}
           <Accordion type="single" collapsible className="space-y-4">

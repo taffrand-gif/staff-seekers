@@ -98,6 +98,13 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
           © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
+          <div className="mt-2 text-xs text-gray-400">
+            NIF: [NIF] | Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
+            <span className="mx-2">•</span>
+            <a href="/politica-privacidade" className="hover:text-white">Política de Privacidade</a>
+            <span className="mx-2">•</span>
+            <a href="/termos-condicoes" className="hover:text-white">Termos e Condições</a>
+          </div>
         </div>
       </div>
     </footer>

@@ -121,7 +121,7 @@ const InnovativeHero: React.FC = () => {
           {/* Boutons CTA avec effets hover avancés */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-16">
             <a
-              href={`tel:${ACTIVE_CONFIG.phone}`}
+              href={`tel:${ACTIVE_CONFIG.phone.replace(/\s/g, '')}`}
               className="group relative overflow-hidden bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-white font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 min-w-[280px]"
             >
               <span className="relative z-10 flex items-center justify-center gap-4">

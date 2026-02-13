@@ -60,10 +60,6 @@ export function TestimonialsSection() {
             <span className="font-bold text-xl">5.0/5</span>
           </div>
           
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            O Que Dizem os Nossos Clientes
-          </h2>
-          
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Mais de 200 clientes satisfeitos confiam nos nossos serviços
           </p>
