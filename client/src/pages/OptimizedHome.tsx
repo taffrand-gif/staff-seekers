@@ -7,6 +7,7 @@
 // 5. Contact simple et efficace
 
 import Header from '@/components/Header';
+import UrgencyBar from '@/components/UrgencyBar';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
 import FAQ from '@/components/FAQ';
@@ -68,6 +69,7 @@ export default function OptimizedHome() {
       <StructuredData />
       
       <Header />
+      <UrgencyBar />
       <InnovativeHero />
       <OptimizedServices />
       
