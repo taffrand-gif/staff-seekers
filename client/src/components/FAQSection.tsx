@@ -29,10 +29,11 @@ export default function FAQSection() {
   
   // Filtrer les FAQs
   const faqs = allFAQs.filter((faq) => {
+    const safeToLowerCase = (str: any) => typeof str === 'string' ? str.toLowerCase() : String(str).toLowerCase();
     const matchesSearch =
       searchQuery === "" ||
-      faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      faq.answer.toLowerCase().includes(searchQuery.toLowerCase());
+      safeToLowerCase(faq.question).includes(safeToLowerCase(searchQuery)) ||
+      safeToLowerCase(faq.answer).includes(safeToLowerCase(searchQuery));
     
     const matchesCategory =
       selectedCategory === "Todos" || faq.category === selectedCategory;
@@ -47,7 +48,7 @@ export default function FAQSection() {
           Perguntas Frequentes
         </h2>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-          Tire suas dúvidas sobre nossos serviços de {config.name.toLowerCase()} de urgência
+          Tire suas dúvidas sobre nossos serviços de {(typeof config.name === 'string' ? config.name : String(config.name)).toLowerCase()} de urgência
         </p>
 
         {/* Search and Filters */}

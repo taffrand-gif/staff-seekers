@@ -7,11 +7,10 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
 import OptimizedHome from "./pages/OptimizedHome";
 import Servicos from "./pages/Servicos";
-// Temporarily disabled city pages to debug
-// import VilaReal from "./pages/cidades/VilaReal";
-// import Braganca from "./pages/cidades/Braganca";
-// import Chaves from "./pages/cidades/Chaves";
-// import Mirandela from "./pages/cidades/Mirandela";
+import VilaReal from "./pages/cidades/VilaReal";
+import Braganca from "./pages/cidades/Braganca";
+import Chaves from "./pages/cidades/Chaves";
+import Mirandela from "./pages/cidades/Mirandela";
 
 
 function Router() {
@@ -19,11 +18,10 @@ function Router() {
     <Switch>
       <Route path={"/"} component={OptimizedHome} />
       <Route path={"/servicos"} component={Servicos} />
-      {/* Temporarily disabled city pages to debug */}
-      {/* <Route path={"/eletricista-vila-real"} component={VilaReal} /> */}
-      {/* <Route path={"/eletricista-braganca"} component={Braganca} /> */}
-      {/* <Route path={"/eletricista-chaves"} component={Chaves} /> */}
-      {/* <Route path={"/eletricista-mirandela"} component={Mirandela} /> */}
+      <Route path={"/eletricista-vila-real"} component={VilaReal} />
+      <Route path={"/eletricista-braganca"} component={Braganca} />
+      <Route path={"/eletricista-chaves"} component={Chaves} />
+      <Route path={"/eletricista-mirandela"} component={Mirandela} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

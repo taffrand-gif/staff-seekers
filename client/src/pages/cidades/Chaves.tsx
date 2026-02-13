@@ -24,14 +24,6 @@ export default function Chaves() {
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Chaves, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para termas e turismo.');
     
-    // Meta keywords específicos de Chaves
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'eletricista Chaves, eletricista em Chaves, instalação elétrica Chaves, reparação elétrica Chaves, eletricista urgência Chaves, certificação elétrica Chaves');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

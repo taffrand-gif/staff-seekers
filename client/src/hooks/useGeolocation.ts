@@ -17,7 +17,7 @@ const COVERED_CITIES = [
 // Normaliser nom de ville pour URL
 function normalizeCity(city: string): string {
   if (!city) return '';
-  return city
+  return (typeof city === 'string' ? city : String(city))
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '') // Remove accents
@@ -28,7 +28,7 @@ function normalizeCity(city: string): string {
 function findClosestCity(detectedCity: string | undefined | null): string | null {
   if (!detectedCity) return 'Bragança';
   
-  const normalized = detectedCity.toLowerCase();
+  const normalized = typeof detectedCity === 'string' ? detectedCity.toLowerCase() : String(detectedCity).toLowerCase();
   
   // Recherche exacte
   const exact = COVERED_CITIES.find(city => 

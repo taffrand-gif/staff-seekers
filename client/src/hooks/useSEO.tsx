@@ -327,7 +327,7 @@ function getCityCoordinates(ville: string): { lat: number; lng: number } {
 
 // Fonction helper pour obtenir le slug d'une ville
 function getCitySlug(ville: string): string {
-  return ville
+  return (typeof ville === 'string' ? ville : String(ville))
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")

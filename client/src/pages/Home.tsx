@@ -42,14 +42,6 @@ export default function Home() {
     }
     metaDescription.setAttribute('content', config.description);
 
-    // Update meta keywords
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', config.seo.keywords.join(', '));
 
     // Update CSS custom properties for dynamic theming
     document.documentElement.style.setProperty('--site-primary', config.colors.primary);

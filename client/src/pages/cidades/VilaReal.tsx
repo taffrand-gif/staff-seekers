@@ -24,14 +24,6 @@ export default function VilaReal() {
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Vila Real, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords spécifiques à Vila Real
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'eletricista Vila Real, eletricista em Vila Real, instalação elétrica Vila Real, reparação elétrica Vila Real, eletricista urgência Vila Real, certificação elétrica Vila Real');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

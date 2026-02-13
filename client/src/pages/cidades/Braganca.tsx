@@ -24,14 +24,6 @@ export default function Braganca() {
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Bragança, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords spécifiques à Bragança
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'eletricista Bragança, eletricista em Bragança, instalação elétrica Bragança, reparação elétrica Bragança, eletricista urgência Bragança, certificação elétrica Bragança');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

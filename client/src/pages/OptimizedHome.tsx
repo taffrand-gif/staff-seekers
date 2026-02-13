@@ -41,14 +41,6 @@ export default function OptimizedHome() {
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Trás-os-Montes. Instalação elétrica, quadros elétricos, iluminação, certificação. Segurança garantida. Contacte-nos!');
 
-    // Update meta keywords
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'eletricista, eletricista Trás-os-Montes, eletricista Vila Real, eletricista Bragança, instalação elétrica, reparação elétrica, certificação elétrica, urgência elétrica');
 
     // Update Open Graph tags
     const ogTitle = document.querySelector('meta[property="og:title"]');
