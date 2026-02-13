@@ -229,9 +229,9 @@ export default function ChatWidget() {
                     className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                   >
                     <option value="">Selecione...</option>
-                    {config.services.map((service) => (
-                      <option key={service.id} value={service.label}>
-                        {service.label}
+                    {config.services.map((service, index) => (
+                      <option key={index} value={service}>
+                        {service}
                       </option>
                     ))}
                   </select>

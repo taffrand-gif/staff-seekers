@@ -232,7 +232,8 @@ export default function QuoteFormEnhanced() {
               <button
                 type="button"
                 onClick={() => setShowMap(!showMap)}
-                className="px-4 py-3" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-4 py-3 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
               >
                 📍 Mapa
               </button>
@@ -313,9 +314,10 @@ export default function QuoteFormEnhanced() {
               onClick={() => setFormData({ ...formData, urgency: "normal" })}
               className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
                 formData.urgency === "normal"
-                  ? "text-white" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
+                  ? "text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
+              style={formData.urgency === "normal" ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
             >
               📅 Normal
             </button>
@@ -324,9 +326,10 @@ export default function QuoteFormEnhanced() {
               onClick={() => setFormData({ ...formData, urgency: "urgent" })}
               className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
                 formData.urgency === "urgent"
-                  ? "text-white" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
+                  ? "text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
+              style={formData.urgency === "urgent" ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
             >
               🚨 Urgente
             </button>
