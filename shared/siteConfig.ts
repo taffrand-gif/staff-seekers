@@ -217,7 +217,12 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
 // Helper function to get current site config based on environment or URL
 export function getCurrentSiteConfig(): SiteConfig {
   // Detect site based on hostname
-  const hostname = typeof window !== 'undefined' ? window.location.hostname : '';
+  if (typeof window === 'undefined') {
+    // Server-side rendering or build time - return default
+    return siteConfigs['staff-seekers'];
+  }
+  
+  const hostname = window.location.hostname;
   
   if (hostname.includes('staff-seekers')) {
     return siteConfigs['staff-seekers'];
