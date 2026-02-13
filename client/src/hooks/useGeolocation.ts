@@ -16,6 +16,7 @@ const COVERED_CITIES = [
 
 // Normaliser nom de ville pour URL
 function normalizeCity(city: string): string {
+  if (!city) return '';
   return city
     .toLowerCase()
     .normalize('NFD')
@@ -24,7 +25,9 @@ function normalizeCity(city: string): string {
 }
 
 // Trouver ville la plus proche dans la liste
-function findClosestCity(detectedCity: string): string | null {
+function findClosestCity(detectedCity: string | undefined | null): string | null {
+  if (!detectedCity) return 'Bragança';
+  
   const normalized = detectedCity.toLowerCase();
   
   // Recherche exacte
