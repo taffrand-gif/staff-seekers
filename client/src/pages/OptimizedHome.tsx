@@ -11,6 +11,7 @@ import UrgencyBar from '@/components/UrgencyBar';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
 import GuaranteesSection from '@/components/GuaranteesSection';
+import ValueStack from '@/components/ValueStack';
 import FAQ from '@/components/FAQ';
 import Testimonials from '@/components/Testimonials';
 import Contactos from '@/components/Contactos';
@@ -76,6 +77,8 @@ export default function OptimizedHome() {
       <OptimizedServices />
       
       <GuaranteesSection />
+      
+      <ValueStack />
       
       {/* Section FAQ optimisée */}
       <section className="py-20 bg-gray-50">
