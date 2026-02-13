@@ -19,6 +19,24 @@
       defer
       src="%VITE_ANALYTICS_ENDPOINT%/umami"
       data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+    <script>
+      // Global error handler for debugging
+      window.addEventListener('error', function(event) {
+        console.error('Global error caught:', event.error);
+        // Store last error in localStorage for debugging
+        try {
+          localStorage.setItem('last_js_error', JSON.stringify({
+            message: event.error.message,
+            stack: event.error.stack,
+            timestamp: new Date().toISOString()
+          }));
+        } catch (e) {}
+      });
+      // Log unhandled promise rejections
+      window.addEventListener('unhandledrejection', function(event) {
+        console.error('Unhandled rejection:', event.reason);
+      });
+    </script>
   </body>
 
 </html>
