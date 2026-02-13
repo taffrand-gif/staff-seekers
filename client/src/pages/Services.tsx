@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { Button } from '../components/ui/button';
 import { Phone, MessageCircle, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 export default function Services() {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
@@ -15,6 +16,10 @@ export default function Services() {
         service.description.toLowerCase().includes(selectedCategory.toLowerCase())
       );
 
+  const phoneDisplay = ACTIVE_CONFIG.phone.replace('+351', '');
+  const phoneLink = ACTIVE_CONFIG.phone;
+  const whatsappLink = `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`;
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -24,17 +29,17 @@ export default function Services() {
             Nossos Serviços
           </h1>
           <p className="text-xl text-red-100 max-w-3xl mx-auto mb-8">
-            Soluções completas de canalização em Trás-os-Montes. Equipa qualificada, equipamento profissional e garantia de qualidade.
+            Soluções completas em Trás-os-Montes. Equipa qualificada, equipamento profissional e garantia de qualidade.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:928484451">
+            <a href={`tel:${phoneLink}`}>
               <Button size="lg" className="bg-white text-red-600 hover:bg-red-50">
                 <Phone className="mr-2 h-5 w-5" />
-                928 484 451
+                {phoneDisplay}
               </Button>
             </a>
             <a 
-              href="https://wa.me/351928484451?text=Olá!%20Preciso%20de%20um%20orçamento"
+              href={`${whatsappLink}?text=Olá!%20Preciso%20de%20um%20orçamento`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -104,14 +109,14 @@ export default function Services() {
                       </Button>
                     </Link>
                     <div className="flex gap-2">
-                      <a href="tel:928484451" className="flex-1">
+                      <a href={`tel:${phoneLink}`} className="flex-1">
                         <Button variant="outline" className="w-full">
                           <Phone className="mr-2 h-4 w-4" />
                           Ligar
                         </Button>
                       </a>
                       <a 
-                        href={`https://wa.me/351928484451?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
+                        href={`${whatsappLink}?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1"
@@ -145,10 +150,10 @@ export default function Services() {
             Não encontrou o que procura?
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Contacte-nos! Temos soluções personalizadas para qualquer problema de canalização.
+            Contacte-nos! Temos soluções personalizadas para qualquer problema.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:928484451">
+            <a href={`tel:${phoneLink}`}>
               <Button size="lg" className="bg-red-600 hover:bg-red-700">
                 <Phone className="mr-2 h-5 w-5" />
                 Ligar Agora

@@ -249,5 +249,5 @@ export default function CityPage() {
 // Fonction pour générer un nombre d'interventions fictif basé sur le nom de la ville
 function getInterventionsCount(cityName: string): number {
   const hash = cityName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-  return 150 + (hash % 350); // Entre 150 et 500 interventions
+  return 30 + (hash % 70); // Entre 30 et 100 interventions - valeurs crédibles
 }

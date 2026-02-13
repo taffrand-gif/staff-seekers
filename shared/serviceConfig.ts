@@ -1,6 +1,6 @@
 /**
- * Configuration du service (Plomberie ou Électricité)
- * Modifier ces variables pour personnaliser le site
+ * Configuração do serviço (Canalização ou Eletricidade)
+ * Modificar estas variáveis para personalizar o site
  */
 
 export type ServiceType = 'plomberie' | 'electricite';
@@ -15,46 +15,46 @@ export interface ServiceConfig {
   googleAdsId: string;
   googleAdsConversionLabel: string;
   
-  // Couleurs et design
+  // Cores e design
   gradient: {
     from: string;
     to: string;
   };
   accentColor: string;
   
-  // Contenu
+  // Conteúdo
   heroTitle: string;
   heroSubtitle: string;
   heroEmoji: string;
   serviceEmoji: string;
   
-  // Services offerts
+  // Serviços oferecidos
   services: string[];
   
-  // Problèmes typiques (pour génération dynamique)
+  // Problemas típicos (para geração dinâmica)
   commonProblems: string[];
 }
 
-// Configuration Plomberie (Norte Reparos)
+// Configuração Canalização (Norte Reparos)
 export const plumberieConfig: ServiceConfig = {
   type: 'plomberie',
   name: 'Canalizador',
   businessName: 'Norte Reparos — Canalizador Profissional',
   phone: '+351928484451',
-  whatsappNumber: '+351928484451',
+  whatsappNumber: '351928484451',
   domain: 'norte-reparos.com',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
-  // Couleurs: BLEU (#1E88E5) + blanc + ORANGE (#FF6D00 pour CTA)
+  // Cores: AZUL (#1E88E5) + branco + LARANJA (#FF6D00 para CTA)
   gradient: {
-    from: '#1E88E5',  // Bleu principal
-    to: '#0d47a1',    // Bleu foncé
+    from: '#1E88E5',
+    to: '#0d47a1',
   },
-  accentColor: '#FF6D00',  // Orange pour CTA
+  accentColor: '#FF6D00',
   
-  heroTitle: 'O Seu Canalizador de Confiança em Trás-os-Montes',
-  heroSubtitle: 'Reparações, instalações e manutenção — serviço rápido e profissional',
+  heroTitle: 'Canalizador Profissional em Trás-os-Montes',
+  heroSubtitle: 'Desentupimentos, reparação de fugas, instalação de esquentadores — serviço rápido e profissional em Bragança e região',
   heroEmoji: '💧',
   serviceEmoji: '🔧',
   
@@ -86,26 +86,26 @@ export const plumberieConfig: ServiceConfig = {
   ],
 };
 
-// Configuration Électricité (Staff Seekers)
+// Configuração Eletricidade (Staff Seekers)
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',
   businessName: 'Staff Seekers — Eletricista Profissional',
   phone: '+351932321892',
-  whatsappNumber: '+351932321892',
+  whatsappNumber: '351932321892',
   domain: 'staff-seekers.com',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
-  // Couleurs: AMBRE (#FFA000) + bleu foncé (#1A237E) + blanc
+  // Cores: ÂMBAR (#FFA000) + azul escuro (#1A237E) + branco
   gradient: {
-    from: '#FFA000',  // Ambre principal
-    to: '#FF8F00',    // Ambre foncé
+    from: '#FFA000',
+    to: '#FF8F00',
   },
-  accentColor: '#1A237E',  // Bleu foncé pour contrastes
+  accentColor: '#1A237E',
   
-  heroTitle: 'Eletricista em Bragança? Resposta Rápida e Serviço Profissional',
-  heroSubtitle: 'Instalações, reparações e certificação elétrica — segurança garantida',
+  heroTitle: 'Eletricista Certificado em Trás-os-Montes',
+  heroSubtitle: 'Instalações, reparações elétricas e certificação CERTIEL — segurança garantida em Bragança e região',
   heroEmoji: '⚡',
   serviceEmoji: '🔌',
   
@@ -114,7 +114,7 @@ export const electriciteConfig: ServiceConfig = {
     'Reparação de Avarias Elétricas',
     'Quadros Elétricos Modernos',
     'Iluminação Interior/Exterior',
-    'Certificação Elétrica',
+    'Certificação CERTIEL',
     'Urgências 24h',
   ],
   
@@ -137,10 +137,10 @@ export const electriciteConfig: ServiceConfig = {
   ],
 };
 
-// Configuration fixe pour Staff-Seekers (Électricité)
+// Configuração fixa para Staff-Seekers (Eletricidade)
 export const ACTIVE_CONFIG = electriciteConfig;
 
-// Liste des 12 villes prioritaires
+// Lista das cidades prioritárias
 export const CITIES = [
   {
     name: 'Alfândega da Fé',
@@ -279,7 +279,7 @@ export const CITIES = [
   { name: 'Linhares', slug: 'linhares', district: 'Bragança', parentCity: 'Carrazeda de Ansiães' },
   { name: 'Parambos', slug: 'parambos', district: 'Bragança', parentCity: 'Carrazeda de Ansiães' },
   { name: 'Seixo de Ansiães', slug: 'seixo-de-ansiaes', district: 'Bragança', parentCity: 'Carrazeda de Ansiães' },
-  // Nouvelles villes principales
+  // Novas cidades principais
   { name: 'Valpaços', slug: 'valpacos', district: 'Vila Real' },
   { name: 'Murça', slug: 'murca', district: 'Vila Real' },
   { name: 'Vila Nova de Foz Côa', slug: 'vila-nova-de-foz-coa', district: 'Guarda' },

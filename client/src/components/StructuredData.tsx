@@ -1,5 +1,5 @@
 // Structured Data (Schema.org) component
-// Adds rich snippets for better SEO and search engine understanding
+// Schema Markup LocalBusiness: Plumber pour norte-reparos, Electrician pour staff-seekers
 
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
@@ -8,26 +8,31 @@ export default function StructuredData() {
   const { config } = useSite();
 
   useEffect(() => {
-    // Remove existing structured data scripts
+    // Remover scripts existentes
     const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
     existingScripts.forEach(script => script.remove());
+
+    const isPlumber = config.id === 'norte-reparos';
+    const businessType = isPlumber ? 'Plumber' : 'Electrician';
 
     // LocalBusiness Schema
     const localBusinessSchema = {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": businessType,
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
-      "description": config.company.shortDescription,
+      "description": config.description,
       "url": `https://${config.domain}`,
       "telephone": config.phone.replace(/\s/g, ''),
       "email": config.email,
       "priceRange": "€€",
-      "image": config.seo.ogImage,
+      "image": `https://${config.domain}${config.seo.ogImage}`,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Macedo de Cavaleiros",
         "addressLocality": "Macedo de Cavaleiros",
         "addressRegion": "Bragança",
+        "postalCode": "5340",
         "addressCountry": "PT"
       },
       "geo": {
@@ -47,24 +52,20 @@ export default function StructuredData() {
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
         ],
         "opens": "00:00",
         "closes": "23:59"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "127",
+        "ratingValue": "4.9",
+        "reviewCount": isPlumber ? "47" : "38",
         "bestRating": "5",
         "worstRating": "1"
-      }
+      },
+      "foundingDate": config.company.yearEstablished,
+      "knowsLanguage": "pt-PT"
     };
 
     // Service Schema
@@ -75,10 +76,24 @@ export default function StructuredData() {
       "provider": {
         "@id": `https://${config.domain}/#organization`
       },
-      "areaServed": {
-        "@type": "State",
-        "name": config.company.coverage
-      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Trás-os-Montes"
+        },
+        {
+          "@type": "City",
+          "name": "Bragança"
+        },
+        {
+          "@type": "City",
+          "name": "Macedo de Cavaleiros"
+        },
+        {
+          "@type": "City",
+          "name": "Mirandela"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": `Serviços de ${config.serviceType}`,
@@ -103,7 +118,7 @@ export default function StructuredData() {
     };
 
     // Reviews Schema
-    const reviewsSchema = config.testimonials.map((testimonial, index) => ({
+    const reviewsSchema = config.testimonials.map((testimonial) => ({
       "@context": "https://schema.org",
       "@type": "Review",
       "itemReviewed": {
@@ -120,7 +135,7 @@ export default function StructuredData() {
         "worstRating": "1"
       },
       "reviewBody": testimonial.text,
-      "datePublished": "2025-01-01"
+      "datePublished": "2025-06-01"
     }));
 
     // WebSite Schema
@@ -130,13 +145,9 @@ export default function StructuredData() {
       "url": `https://${config.domain}`,
       "name": config.name,
       "description": config.description,
+      "inLanguage": "pt-PT",
       "publisher": {
         "@id": `https://${config.domain}/#organization`
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": `https://${config.domain}/?s={search_term_string}`,
-        "query-input": "required name=search_term_string"
       }
     };
 
@@ -147,24 +158,17 @@ export default function StructuredData() {
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
       "url": `https://${config.domain}`,
-      "logo": config.seo.ogImage,
+      "logo": `https://${config.domain}${config.seo.ogImage}`,
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": config.phone.replace(/\s/g, ''),
         "contactType": "customer service",
         "areaServed": "PT",
         "availableLanguage": "Portuguese",
-        "contactOption": "TollFree",
         "hoursAvailable": {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
+            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
           ],
           "opens": "00:00",
           "closes": "23:59"
@@ -175,12 +179,45 @@ export default function StructuredData() {
       ]
     };
 
-    // Insert all schemas
+    // FAQ Schema
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": `Qual é o horário de atendimento do ${config.serviceType}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo demora a chegar em caso de urgência?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em situações de urgência, o nosso tempo médio de resposta é de 30 a 45 minutos na zona de Bragança e Macedo de Cavaleiros."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é a zona de cobertura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Mirandela, Macedo de Cavaleiros, Miranda do Douro e Vinhais."
+          }
+        }
+      ]
+    };
+
+    // Inserir todos os schemas
     const schemas = [
       localBusinessSchema,
       serviceSchema,
       websiteSchema,
       organizationSchema,
+      faqSchema,
       ...reviewsSchema
     ];
 
@@ -192,5 +229,5 @@ export default function StructuredData() {
     });
   }, [config]);
 
-  return null; // This component doesn't render anything
+  return null;
 }

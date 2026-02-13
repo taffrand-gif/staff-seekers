@@ -1,11 +1,6 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
-// - Fixed position buttons with hard shadows
-// - WhatsApp (green) on bottom left
-// - Chat (theme color) on bottom right
-// - Bold, unmissable presence
-
+// Botões flutuantes - WhatsApp e Telefone
 import { useSite } from '@/contexts/SiteContext';
-import { MessageCircle } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { Button } from './ui/button';
 
 export default function FloatingButtons() {
@@ -13,10 +8,10 @@ export default function FloatingButtons() {
 
   return (
     <>
-      {/* WhatsApp button - bottom left */}
+      {/* Botão WhatsApp - canto inferior esquerdo */}
       <Button
         onClick={() => window.open(`https://wa.me/${config.whatsapp}`, '_blank')}
-        className="fixed bottom-6 left-6 w-14 h-14 rounded-full bg-green-600 hover:bg-green-700 text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all z-40"
+        className="fixed bottom-6 left-6 w-14 h-14 rounded-full bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all z-40"
         aria-label="Contactar via WhatsApp"
       >
         <svg
@@ -28,17 +23,14 @@ export default function FloatingButtons() {
         </svg>
       </Button>
 
-      {/* Chat button - bottom right */}
+      {/* Botão Telefone - canto inferior direito */}
       <Button
-        onClick={() => {
-          // Placeholder for chat functionality
-          alert('Funcionalidade de chat em breve!');
-        }}
-        className="fixed bottom-6 right-6 w-14 h-14 rounded-full text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all z-40"
+        onClick={() => window.location.href = `tel:${config.phone.replace(/\s/g, '')}`}
+        className="fixed bottom-6 right-6 w-14 h-14 rounded-full text-white shadow-lg hover:shadow-xl transition-all z-40"
         style={{ backgroundColor: config.colors.primary }}
-        aria-label="Abrir chat"
+        aria-label="Ligar agora"
       >
-        <MessageCircle className="w-7 h-7" />
+        <Phone className="w-7 h-7" />
       </Button>
     </>
   );

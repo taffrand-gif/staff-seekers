@@ -1,17 +1,24 @@
-// Page d'accueil optimisée pour SEO et conversions
-// Structure optimisée selon les meilleures pratiques:
-// 1. Hero section avec CTA forts
-// 2. Services avec images générées
-// 3. FAQ optimisée pour featured snippets
-// 4. Témoignages réels
-// 5. Contact simple et efficace
+// Página principal otimizada para SEO e conversões
+// Estrutura otimizada:
+// 1. Hero com CTA
+// 2. Serviços com imagens
+// 3. Tabela de preços
+// 4. Equipa
+// 5. Trabalhos realizados
+// 6. FAQ
+// 7. Testemunhos
+// 8. Blog
+// 9. Contactos
 
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
 import PriceTable from '@/components/PriceTable';
+import Equipa from '@/components/Equipa';
+import Trabalhos from '@/components/Trabalhos';
 import FAQ from '@/components/FAQ';
 import Testimonials from '@/components/Testimonials';
+import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -19,12 +26,12 @@ import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
-import { useEffect } from 'react';
 
 export default function OptimizedHome() {
   const { config } = useSite();
-
-  // Meta tags are handled by SEOHead component
+  const isPlumber = config.id === 'norte-reparos';
+  const accentColor = isPlumber ? 'text-blue-600' : 'text-amber-600';
+  const serviceLabel = isPlumber ? 'Canalização' : 'Serviços Elétricos';
 
   return (
     <>
@@ -32,22 +39,27 @@ export default function OptimizedHome() {
       <StructuredData />
       
       <Header />
-      {/* <UrgencyBar /> */} {/* Temporarily disabled for debugging */}
       <InnovativeHero />
       <OptimizedServices />
       
-      {/* Section tarifs transparents */}
+      {/* Secção tabela de preços */}
       <PriceTable />
       
-      {/* Section FAQ optimisée */}
+      {/* Secção Equipa */}
+      <Equipa />
+      
+      {/* Secção Trabalhos */}
+      <Trabalhos />
+      
+      {/* Secção FAQ */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Perguntas Frequentes sobre <span className="text-amber-600">Serviços Elétricos</span>
+              Perguntas Frequentes sobre <span className={accentColor}>{serviceLabel}</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Tire suas dúvidas sobre nossos serviços elétricos
+              Tire as suas dúvidas sobre os nossos serviços
             </p>
           </div>
           
@@ -57,23 +69,13 @@ export default function OptimizedHome() {
         </div>
       </section>
       
-      {/* Section témoignages */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              O que dizem nossos <span className="text-amber-600">clientes</span>
-            </h2>
-            <p className="text-xl text-gray-600">
-              Avaliações reais de quem já contratou nossos serviços
-            </p>
-          </div>
-          
-          <Testimonials />
-        </div>
-      </section>
+      {/* Secção testemunhos */}
+      <Testimonials />
       
-      {/* Section contact */}
+      {/* Secção Blog */}
+      <Blog />
+      
+      {/* Secção contactos */}
       <Contactos />
       
       <Footer />

@@ -3,6 +3,7 @@ import { getServiceBySlug } from '../data/servicesData';
 import { Phone, MessageCircle, ArrowLeft, CheckCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 export default function Service() {
   const params = useParams();
@@ -26,6 +27,10 @@ export default function Service() {
       </div>
     );
   }
+
+  const phoneDisplay = ACTIVE_CONFIG.phone.replace('+351', '');
+  const phoneLink = ACTIVE_CONFIG.phone;
+  const whatsappLink = `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`;
 
   return (
     <div className="min-h-screen">
@@ -61,15 +66,15 @@ export default function Service() {
             </Card>
 
             <div className="flex gap-3">
-              <a href="tel:928484451">
+              <a href={`tel:${phoneLink}`}>
                 <Button size="lg" className="bg-white text-red-600 hover:bg-red-50">
                   <Phone className="mr-2 h-5 w-5" />
-                  928 484 451
+                  {phoneDisplay}
                 </Button>
               </a>
               
               <a 
-                href={`https://wa.me/351928484451?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
+                href={`${whatsappLink}?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -120,7 +125,7 @@ export default function Service() {
                 {service.content.cta.replace(/\*\*/g, '')}
               </h3>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="tel:928484451">
+                <a href={`tel:${phoneLink}`}>
                   <Button size="lg" className="bg-red-600 hover:bg-red-700">
                     <Phone className="mr-2 h-5 w-5" />
                     Ligar Agora
@@ -128,7 +133,7 @@ export default function Service() {
                 </a>
                 
                 <a 
-                  href={`https://wa.me/351928484451?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
+                  href={`${whatsappLink}?text=${encodeURIComponent(`Olá! Preciso de ${service.title}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -1,69 +1,105 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
-// Portfolio section showcasing completed work
-// - Grid layout with project cards
-// - Before/after comparisons
-// - Bold project titles
-
+// Secção Trabalhos Realizados - portfolio adaptado ao site ativo
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
 
 export default function Trabalhos() {
   const { config } = useSite();
+  const isPlumber = config.id === 'norte-reparos';
 
-  // Placeholder projects - will be replaced with real images
-  const projects = [
+  const plumbProjects = [
     {
       title: 'Remodelação Completa de Casa de Banho',
       location: 'Bragança',
-      description: 'Substituição completa de canalizações, instalação de novos sanitários e acabamentos modernos.',
-      image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&h=600&fit=crop',
-    },
-    {
-      title: 'Instalação de Sistema de Aquecimento Central',
-      location: 'Mirandela',
-      description: 'Instalação de caldeira de condensação e radiadores em moradia de 3 pisos.',
-      image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&h=600&fit=crop',
-    },
-    {
-      title: 'Reparação de Fuga em Condomínio',
-      location: 'Macedo de Cavaleiros',
-      description: 'Deteção e reparação de fuga de água em canalização enterrada sem danificar estruturas.',
-      image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&h=600&fit=crop',
+      description: 'Substituição completa de canalizações, instalação de novos sanitários e acabamentos modernos numa moradia familiar.',
+      image: '/images-optimized/services/service-sala-banho.jpg',
     },
     {
       title: 'Instalação de Esquentador a Gás',
-      location: 'Miranda do Douro',
-      description: 'Substituição de esquentador antigo por modelo eficiente com certificação.',
-      image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&h=600&fit=crop',
+      location: 'Macedo de Cavaleiros',
+      description: 'Substituição de esquentador antigo por modelo eficiente com certificação e ligação de gás completa.',
+      image: '/images-optimized/services/service-aquecimento.jpg',
     },
     {
       title: 'Desentupimento de Rede de Esgotos',
-      location: 'Vinhais',
-      description: 'Limpeza profunda de rede de esgotos com equipamento especializado.',
-      image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=600&fit=crop',
+      location: 'Mirandela',
+      description: 'Limpeza profunda de rede de esgotos com equipamento especializado num condomínio residencial.',
+      image: '/images-optimized/services/service-desentupimentos.jpg',
     },
     {
-      title: 'Modernização de Instalações Comerciais',
+      title: 'Reparação de Fuga em Condomínio',
+      location: 'Miranda do Douro',
+      description: 'Deteção e reparação de fuga de água em canalização enterrada sem danificar estruturas existentes.',
+      image: '/images-optimized/services/service-urgencia.jpg',
+    },
+    {
+      title: 'Instalação de Sistema de Aquecimento',
+      location: 'Vinhais',
+      description: 'Instalação de caldeira de condensação e radiadores em moradia, com sistema de água quente centralizado.',
+      image: '/images-optimized/services/service-aquecimento.jpg',
+    },
+    {
+      title: 'Renovação de Instalações Comerciais',
       location: 'Bragança',
-      description: 'Renovação completa das instalações sanitárias de restaurante.',
-      image: 'https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?w=800&h=600&fit=crop',
+      description: 'Renovação completa das instalações sanitárias de restaurante, incluindo canalização nova e equipamentos.',
+      image: '/images-optimized/services/service-instalacao.jpg',
     },
   ];
+
+  const electricProjects = [
+    {
+      title: 'Substituição de Quadro Elétrico',
+      location: 'Bragança',
+      description: 'Substituição de quadro elétrico antigo com fusíveis por quadro moderno com disjuntores diferenciais e certificação.',
+      image: '/images-optimized/services/service-quadro-eletrico.jpg',
+    },
+    {
+      title: 'Instalação Elétrica Completa',
+      location: 'Macedo de Cavaleiros',
+      description: 'Instalação elétrica completa numa moradia nova, desde o quadro principal até às tomadas e iluminação.',
+      image: '/images-optimized/services/service-instalacao.jpg',
+    },
+    {
+      title: 'Certificação CERTIEL para Venda',
+      location: 'Mirandela',
+      description: 'Inspeção completa, correção de anomalias e emissão de certificado elétrico para venda de imóvel.',
+      image: '/images-optimized/services/service-certificacao.jpg',
+    },
+    {
+      title: 'Iluminação LED Residencial',
+      location: 'Miranda do Douro',
+      description: 'Projeto e instalação de iluminação LED em toda a casa, com redução significativa no consumo energético.',
+      image: '/images-optimized/services/service-iluminacao.jpg',
+    },
+    {
+      title: 'Reparação de Curto-Circuito',
+      location: 'Vinhais',
+      description: 'Diagnóstico e reparação de curto-circuito que causava disparo frequente do disjuntor principal.',
+      image: '/images-optimized/services/service-urgencia.jpg',
+    },
+    {
+      title: 'Instalação Elétrica Comercial',
+      location: 'Bragança',
+      description: 'Instalação elétrica completa para novo espaço comercial, com quadro trifásico e iluminação profissional.',
+      image: '/images-optimized/services/service-quadro-eletrico.jpg',
+    },
+  ];
+
+  const projects = isPlumber ? plumbProjects : electricProjects;
 
   return (
     <section id="trabalhos" className="py-20 bg-white">
       <div className="container">
-        {/* Header */}
+        {/* Cabeçalho */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4">
             Trabalhos Realizados
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Veja alguns dos nossos projetos concluídos com sucesso. Cada trabalho é realizado com o máximo rigor e profissionalismo.
+            Veja alguns dos nossos projetos concluídos com sucesso em Trás-os-Montes. Cada trabalho é realizado com o máximo rigor e profissionalismo.
           </p>
         </div>
 
-        {/* Projects grid */}
+        {/* Grelha de projetos */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
@@ -71,16 +107,19 @@ export default function Trabalhos() {
               className="bg-white border-4 overflow-hidden shadow-[6px_6px_0_0_rgba(0,0,0,0.1)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ borderColor: config.colors.primary }}
             >
-              {/* Image */}
+              {/* Imagem */}
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} em ${project.location}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  width="400"
+                  height="300"
                 />
               </div>
 
-              {/* Content */}
+              {/* Conteúdo */}
               <div className="p-6">
                 <div className="flex items-start gap-2 mb-3">
                   <CheckCircle 
@@ -93,7 +132,7 @@ export default function Trabalhos() {
                 </div>
                 
                 <p className="text-sm font-bold mb-2" style={{ color: config.colors.primary }}>
-                  📍 {project.location}
+                  {project.location}
                 </p>
                 
                 <p className="text-gray-700 leading-relaxed">
@@ -104,7 +143,7 @@ export default function Trabalhos() {
           ))}
         </div>
 
-        {/* Bottom CTA */}
+        {/* CTA */}
         <div className="mt-16 text-center">
           <div className="inline-block p-8 border-4 bg-gray-50" style={{ borderColor: config.colors.primary }}>
             <p className="text-xl font-black mb-4">
@@ -118,7 +157,7 @@ export default function Trabalhos() {
               className="inline-flex items-center gap-2 px-8 py-4 font-bold text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ backgroundColor: config.colors.primary }}
             >
-              📞 LIGUE AGORA: {config.phone}
+              LIGUE AGORA: {config.phone}
             </a>
           </div>
         </div>

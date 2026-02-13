@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const faqItems = [
   {
     question: "Quanto custa uma instalação elétrica completa?",
-    answer: "O custo varia conforme a dimensão do projeto. Fazemos orçamento gratuito e sem compromisso após visita ao local. Para uma casa média, o valor pode variar entre €800 e €2.500, dependendo da complexidade e materiais necessários."
+    answer: "O custo varia conforme a dimensão do projeto. Fazemos orçamento gratuito e sem compromisso após visita ao local. Para uma casa média, o valor pode variar entre 800€ e 2.500€ (sem IVA), dependendo da complexidade e materiais necessários."
   },
   {
-    question: "Fazem certificação elétrica para venda de imóvel?",
-    answer: "Sim, realizamos inspeções e emitimos certificações elétricas obrigatórias para venda e arrendamento de imóveis. O certificado é válido e registado, cumprindo todas as normas de segurança portuguesas."
+    question: "Fazem certificação elétrica CERTIEL para venda de imóvel?",
+    answer: "Sim, realizamos inspeções e emitimos certificações elétricas CERTIEL obrigatórias para venda e arrendamento de imóveis. O certificado é válido e registado, cumprindo todas as normas de segurança portuguesas. O preço varia entre 150€ e 300€ (sem IVA)."
   },
   {
     question: "Como sei se o meu quadro elétrico precisa de ser substituído?",
     answer: "Se tem disjuntores que disparam frequentemente, fusíveis antigos, o quadro tem mais de 20 anos, ou apresenta sinais de sobreaquecimento, é aconselhável uma inspeção. Podemos avaliar e recomendar a substituição se necessário."
   },
   {
-    question: "Fazem urgências elétricas?",
-    answer: "Sim, estamos disponíveis para urgências elétricas 24 horas por dia, 7 dias por semana, em toda a região de Trás-os-Montes. Atendemos curtos-circuitos, falta de energia, disjuntores que não armam e outras emergências."
+    question: "Fazem urgências elétricas em Trás-os-Montes?",
+    answer: "Sim, estamos disponíveis para urgências elétricas 24 horas por dia, 7 dias por semana, em toda a região de Trás-os-Montes. Atendemos curtos-circuitos, falta de energia, disjuntores que não armam e outras emergências em Bragança, Macedo de Cavaleiros, Mirandela e região."
   },
   {
     question: "Quais são as zonas que servem?",
-    answer: "Servimos toda a região de Trás-os-Montes: Vila Real, Bragança, Chaves, Mirandela, Macedo de Cavaleiros, Lamego, Régua, Montalegre, Valpaços, Mogadouro, Torre de Moncorvo, Alfândega da Fé e arredores."
+    answer: "Servimos toda a região de Trás-os-Montes num raio de 100 km: Bragança, Macedo de Cavaleiros, Mirandela, Miranda do Douro, Vinhais, Mogadouro, Vila Flor, Valpaços, Torre de Moncorvo, Alfândega da Fé e arredores."
   }
 ];
 
@@ -69,11 +70,10 @@ const OptimizedFAQ: React.FC = () => {
                 {item.answer}
               </div>
               
-              {/* Informations supplémentaires */}
               {index === 0 && (
                 <div className="mt-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
                   <p className="text-sm text-amber-800">
-                    <strong>💡 Dica:</strong> Para orçamento preciso, agende uma visita gratuita. Trabalhamos com marcas como Schneider, Legrand e Siemens.
+                    <strong>Dica:</strong> Para orçamento preciso, agende uma visita gratuita. Trabalhamos com marcas como Schneider, Legrand e Siemens.
                   </p>
                 </div>
               )}
@@ -81,7 +81,7 @@ const OptimizedFAQ: React.FC = () => {
               {index === 3 && (
                 <div className="mt-4 p-4 bg-red-50 rounded-lg border border-red-200">
                   <p className="text-sm text-red-800">
-                    <strong>⚠️ Emergência:</strong> Em caso de cheiro a queimado, faíscas ou choques elétricos, desligue o quadro geral e ligue-nos imediatamente.
+                    <strong>Emergência:</strong> Em caso de cheiro a queimado, faíscas ou choques elétricos, desligue o quadro geral e ligue-nos imediatamente.
                   </p>
                 </div>
               )}
@@ -109,29 +109,27 @@ const OptimizedFAQ: React.FC = () => {
         }}
       />
       
-      {/* Section contact supplémentaire */}
+      {/* Secção de contacto */}
       <div className="mt-8 p-6 bg-gradient-to-r from-amber-50 to-white rounded-2xl border border-amber-200">
         <h3 className="text-xl font-bold text-gray-900 mb-4">
-          Não encontrou resposta para sua dúvida?
+          Não encontrou resposta para a sua dúvida?
         </h3>
         <p className="text-gray-600 mb-4">
           Entre em contacto connosco. Respondemos em menos de 30 minutos durante o horário comercial.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="tel:[TÉLÉPHONE]"
+            href={`tel:${ACTIVE_CONFIG.phone}`}
             className="inline-flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
           >
-            <span>📞</span>
             <span>Ligar Agora</span>
           </a>
           <a
-            href="https://wa.me/[WHATSAPP]"
+            href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
           >
-            <span>💬</span>
             <span>WhatsApp</span>
           </a>
         </div>

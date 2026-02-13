@@ -1,10 +1,6 @@
 // Configuration for both sites (Norte-Reparos and Staff-Seekers)
-// Design Philosophy: Brutalisme Numérique Fonctionnel
-// - Bold typography with Poppins ExtraBold for headings
-// - Saturated primary colors (blue for plumbing, orange for electrical)
-// - Asymmetric grid layouts with intentional negative space
-// - Hard shadows and thick borders
-// - Fast, direct interactions (<200ms)
+// Zone d'intervention : rayon de 100 km autour de Macedo de Cavaleiros, district de Bragança, Portugal
+// Sites en portugais uniquement — Tarifs sem IVA
 
 export type SiteId = 'norte-reparos' | 'staff-seekers';
 
@@ -71,11 +67,11 @@ export interface SiteConfig {
 export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
-    name: 'Canalizador de Trás-os-Montes',
-    title: 'Canalizador Urgente em Trás-os-Montes | Norte Reparos - Desentupimento & Reparação 24/7',
-    description: 'Plombier urgentiste à Porto. Fuites, chauffe-eau, canalisation. Intervention rapide 30min, garantie 2 ans, prix transparent.',
+    name: 'Norte Reparos',
+    title: 'Canalizador Profissional em Trás-os-Montes | Norte Reparos — Desentupimentos & Reparações 24h',
+    description: 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região.',
     phone: '928 484 451',
-    whatsapp: '928484451',
+    whatsapp: '351928484451',
     email: 'info@norte-reparos.com',
     serviceType: 'Canalizador',
     domain: 'norte-reparos.com',
@@ -88,7 +84,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Canalizador Urgente em Trás-os-Montes | Norte Reparos - Desentupimento & Reparação 24/7',
+      title: 'Canalizador Profissional em Trás-os-Montes',
+      subtitle: 'Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido em Bragança, Macedo de Cavaleiros e toda a região.',
       backgroundImage: '/images-optimized/hero/hero-plumber-portugal.png',
       ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
     },
@@ -128,26 +125,26 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Canalizador de Trás-os-Montes',
-      shortDescription: 'Canalizador profissional ao seu serviço 24 horas por dia.',
-      longDescription: 'A empresa Canalizador de Trás-os-Montes, reconhecida nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de canalizações, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.',
-      coverage: 'Distrito de Bragança',
+      fullName: 'Norte Reparos — Canalizador Profissional',
+      shortDescription: 'Canalizador profissional ao seu serviço em Trás-os-Montes.',
+      longDescription: 'A Norte Reparos presta serviços de canalização profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de canalizações, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },
     
     seo: {
-      keywords: ['canalizador', 'bragança', 'trás-os-montes', 'urgências', '24h', 'fuga água', 'desentupimento', 'esquentador'],
-      ogImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Zd5MIfeKcoQdjH54bmsaCu-img-3_1770593723000_na1fn_cGx1bWJpbmctc2VydmljZS1kZXRhaWw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L1pkNU1JZmVLY29RZGpINTRibXNhQ3UtaW1nLTNfMTc3MDU5MzcyMzAwMF9uYTFmbl9jR3gxYldKcGJtY3RjMlZ5ZG1salpTMWtaWFJoYVd3LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=qqEqPeBj3ETSegRpgvowHSLBgHks-NWOTpyVTJJ0n-eXP4KxCAagMKqf~wFAXnhze9wr-FcCRuaUoJtrVEecQzex0eLk5NA8HTxlD81nQ~ix8Uxvw~VxeQYGbEETVebcO38Z2U8GyBUFfb19dfJ7E8xxNOYQKlYaqQFPLhHrBL1MoKKrBIhrl-QD8slv~ow82pbE98GyZmKBxkfB2DMBaRZ9-MoO81sdhGCcuuskRFoQMccLVUs3S3eIs5SF3VsJHtq6LrbG5zhUs1G644lbceB7l4tB0CD56rnFiPPl3lahQkyKezqG~p0Z~pKcTbkrJrWVAPiXehRd~S4r4w__',
+      keywords: ['canalizador', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'desentupimento', 'fuga água', 'esquentador', 'canalizador urgente', 'reparação canalização'],
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
     },
   },
   
   'staff-seekers': {
     id: 'staff-seekers',
-    name: 'Eletricista de Trás-os-Montes',
-    title: 'Eletricista Certificado em Trás-os-Montes | Instalação & Reparação Elétrica 24/7',
-    description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas urgentes 24h, instalação de quadros elétricos, iluminação e certificação DGEG. Orçamento grátis.',
+    name: 'Staff Seekers',
+    title: 'Eletricista Certificado em Trás-os-Montes | Staff Seekers — Instalação & Reparação Elétrica 24h',
+    description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
     phone: '932 321 892',
-    whatsapp: '932321892',
+    whatsapp: '351932321892',
     email: 'info@staff-seekers.com',
     serviceType: 'Eletricista',
     domain: 'staff-seekers.com',
@@ -160,7 +157,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Eletricista Profissional em Trás-os-Montes | Staff Seekers - Instalação & Reparação 24/7',
+      title: 'Eletricista Certificado em Trás-os-Montes',
+      subtitle: 'Instalações, reparações elétricas e certificação CERTIEL. Segurança garantida em Bragança, Macedo de Cavaleiros e toda a região.',
       backgroundImage: '/images-optimized/hero/hero-electrician-portugal.png',
       ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
     },
@@ -169,7 +167,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
       { id: 'quadro-eletrico', label: 'Substituição Quadro Elétrico', basePrice: 200 },
       { id: 'tomadas', label: 'Instalação Tomadas', basePrice: 50 },
       { id: 'curto-circuito', label: 'Reparação Curto-Circuito', basePrice: 90 },
-      { id: 'certificacao', label: 'Certificação DGEG', basePrice: 180 },
+      { id: 'certificacao', label: 'Certificação CERTIEL', basePrice: 180 },
     ],
     
     testimonials: [
@@ -185,7 +183,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
         id: '2',
         name: 'Sandra Nunes',
         location: 'Mirandela',
-        service: 'Certificação Elétrica DGEG',
+        service: 'Certificação Elétrica CERTIEL',
         text: 'Precisava de certificação para vender a casa. Fizeram inspeção completa, corrigiram pequenos problemas e emitiram certificado em 4 dias. Processo super rápido!',
         rating: 5,
       },
@@ -200,15 +198,15 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Eletricista de Trás-os-Montes',
-      shortDescription: 'Eletricista profissional ao seu serviço 24 horas por dia.',
-      longDescription: 'A empresa Eletricista de Trás-os-Montes, reconhecida nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de sistemas elétricos, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.',
-      coverage: 'Distrito de Bragança',
+      fullName: 'Staff Seekers — Eletricista Profissional',
+      shortDescription: 'Eletricista certificado ao seu serviço em Trás-os-Montes.',
+      longDescription: 'A Staff Seekers presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },
     
     seo: {
-      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'urgências', '24h', 'quadro elétrico', 'curto-circuito', 'certificação DGEG'],
+      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'eletricista urgente', 'instalação elétrica'],
       ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
     },
   },

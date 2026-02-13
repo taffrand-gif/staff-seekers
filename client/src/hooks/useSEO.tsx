@@ -145,8 +145,8 @@ export function generateKeywords(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   const baseKeywords = config.type === 'plomberie' 
-    ? ['canalizador', 'plombier', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete']
-    : ['eletricista', 'électricien', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
+    ? ['canalizador', 'canalizador profissional', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'trás-os-montes']
+    : ['eletricista', 'eletricista certificado', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação CERTIEL'];
   
   if (ville) {
     return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');

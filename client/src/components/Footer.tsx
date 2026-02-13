@@ -1,9 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
-// - Clear sectioned layout with thick dividers
-// - Bold headings
-// - Accessible contact information
-// - Copyright notice
-
+// Footer com navegação funcional e informações de contacto
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, MapPin } from 'lucide-react';
 
@@ -11,6 +6,10 @@ export default function Footer() {
   const { config } = useSite();
 
   const scrollToSection = (id: string) => {
+    if (window.location.pathname !== '/') {
+      window.location.href = `/#${id}`;
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -24,26 +23,27 @@ export default function Footer() {
     >
       <div className="container">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
-          {/* Company info */}
+          {/* Informação da empresa */}
           <div>
             <h3 className="text-2xl font-black mb-4">{config.name}</h3>
             <p className="text-gray-200 mb-4">
               {config.company.shortDescription}
             </p>
             <p className="text-gray-300 text-sm">
-              Cobertura em todo o {config.company.coverage}.
+              Cobertura em toda a região de {config.company.coverage}.
             </p>
           </div>
 
-          {/* Quick links */}
+          {/* Links rápidos */}
           <div>
             <h4 className="text-lg font-black mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               {[
                 { id: 'home', label: 'Home' },
                 { id: 'servicos', label: 'Serviços' },
-                { id: 'trabalhos', label: 'Trabalhos' },
+                { id: 'precos', label: 'Preços' },
                 { id: 'equipa', label: 'Equipa' },
+                { id: 'trabalhos', label: 'Trabalhos' },
                 { id: 'faq', label: 'FAQ' },
                 { id: 'testemunhos', label: 'Testemunhos' },
                 { id: 'blog', label: 'Blog' },
@@ -61,7 +61,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contacto */}
           <div>
             <h4 className="text-lg font-black mb-4">Contacto</h4>
             <ul className="space-y-4">
@@ -88,7 +88,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-bold">Zona de Cobertura:</p>
-                  <p className="text-gray-200">{config.company.coverage}</p>
+                  <p className="text-gray-200">Trás-os-Montes — Bragança, Macedo de Cavaleiros, Mirandela e região</p>
                 </div>
               </li>
             </ul>
@@ -99,11 +99,7 @@ export default function Footer() {
         <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
           © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
           <div className="mt-2 text-xs text-gray-400">
-            NIF: [NIF] | Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
-            <span className="mx-2">•</span>
-            <a href="/politica-privacidade" className="hover:text-white">Política de Privacidade</a>
-            <span className="mx-2">•</span>
-            <a href="/termos-condicoes" className="hover:text-white">Termos e Condições</a>
+            Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
         </div>
       </div>
