@@ -204,8 +204,8 @@ export function generateLocalBusinessSchema(ville?: string) {
       "worstRating": "1"
     },
     "sameAs": [
-      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
-      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+      `https://www.facebook.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`
     ]
   };
 }
@@ -228,8 +228,8 @@ export function generateOrganizationSchema() {
       "availableLanguage": ["Portuguese"]
     },
     "sameAs": [
-      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
-      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+      `https://www.facebook.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`
     ]
   };
 }

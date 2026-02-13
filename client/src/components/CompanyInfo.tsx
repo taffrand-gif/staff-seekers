@@ -39,7 +39,7 @@ export default function CompanyInfo() {
             {config.company.longDescription}
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
-            Temos ao seu dispor uma vasta equipa de {config.serviceType.toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
+            Temos ao seu dispor uma vasta equipa de {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
           </p>
         </div>
 
