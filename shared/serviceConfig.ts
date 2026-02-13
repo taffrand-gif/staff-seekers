@@ -104,7 +104,7 @@ export const electriciteConfig: ServiceConfig = {
   },
   accentColor: '#1A237E',  // Bleu foncé pour contrastes
   
-  heroTitle: 'Eletricista Profissional em Trás-os-Montes',
+  heroTitle: 'Eletricista em Bragança? Resposta Rápida e Serviço Profissional',
   heroSubtitle: 'Instalações, reparações e certificação elétrica — segurança garantida',
   heroEmoji: '⚡',
   serviceEmoji: '🔌',
