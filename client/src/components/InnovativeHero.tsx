@@ -126,7 +126,7 @@ const InnovativeHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-2xl group-hover:animate-ring">📞</span>
-                <span className="text-xl">LIGUE AGORA</span>
+                <span className="text-xl">PEDIR ORÇAMENTO</span>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
             </a>
@@ -139,7 +139,7 @@ const InnovativeHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-2xl group-hover:animate-bounce">💬</span>
-                <span className="text-xl">WHATSAPP RÁPIDO</span>
+                <span className="text-xl">CONTACTAR TÉCNICO</span>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/10 to-amber-500/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
             </a>
