@@ -295,9 +295,9 @@ export default function QuoteFormEnhanced() {
             onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
           >
-            {config.services.map((service) => (
-              <option key={service.id} value={service.label}>
-                {service.label}
+            {config.services.map((service, index) => (
+              <option key={index} value={service}>
+                {service}
               </option>
             ))}
           </select>
