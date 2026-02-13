@@ -18,6 +18,7 @@ import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import FloatingCTA from '@/components/FloatingCTA';
+import LiveVisitors from '@/components/LiveVisitors';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
@@ -121,6 +122,7 @@ export default function OptimizedHome() {
       <FloatingButtons />
       <ScrollToTop />
       <FloatingCTA />
+      <LiveVisitors />
     </>
   );
 }
