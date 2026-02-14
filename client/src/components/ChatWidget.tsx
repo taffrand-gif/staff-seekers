@@ -273,7 +273,7 @@ export default function ChatWidget() {
                     <div
                       className={`max-w-[85%] sm:max-w-[80%] rounded-lg p-2 sm:p-3 ${
                         message.sender === "user"
-                          ? `${isActive ? "text-white" : ""}`
+                          ? "text-white"
                           : "bg-white text-gray-900 border border-gray-200"
                       }`}
                     >
