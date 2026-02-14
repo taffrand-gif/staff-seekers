@@ -43,7 +43,13 @@ const InnovativeHero: React.FC = () => {
   const statBorderHover = isPlumber ? 'hover:border-blue-400' : 'hover:border-amber-400';
 
   return (
-    <section id="home" className={`relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br ${gradientFrom} ${gradientVia} ${gradientTo}`}>
+    <section 
+      id="home" 
+      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images-optimized/hero/hero-electrician-portugal.jpg')`,
+      }}
+    >
       {/* Background overlay */}
       <div className={`absolute inset-0 bg-gradient-to-br ${overlayFrom} via-transparent ${overlayTo}`} />
       

@@ -41,7 +41,7 @@ export default function Chaves() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Staff Seekers — Eletricista em Chaves",
-      "image": "/images/hero/hero-electrician-portugal.png",
+      "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Chaves, Trás-os-Montes. Instalação, reparação e certificação elétrica para termas e turismo.",
       "address": {
         "@type": "PostalAddress",

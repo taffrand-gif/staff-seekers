@@ -36,7 +36,7 @@ export const SERVICES: Service[] = [
     icon: '⚡',
     price: 'Desde 150€',
     priceDetails: 'Preço varia conforme complexidade',
-    image: '/images/services/instalacao-eletrica.jpg',
+    image: '/images-optimized/services/service-instalacao.jpg',
     content: {
       intro: 'A Staff Seekers realiza **instalações elétricas completas** em Trás-os-Montes, cumprindo rigorosamente as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**. Trabalhamos com materiais certificados (Legrand, Schneider Electric, Siemens) e garantimos instalações seguras com **certificado CERTIEL** incluído.',
       sections: [
@@ -100,7 +100,7 @@ export const SERVICES: Service[] = [
     icon: '🔧',
     price: 'Desde 60€',
     priceDetails: 'Diagnóstico incluído',
-    image: '/images/services/reparacao-avarias.jpg',
+    image: '/images-optimized/services/service-urgencia.jpg',
     content: {
       intro: 'Avarias elétricas podem ser perigosas e causar incêndios. A Staff Seekers dispõe de **equipamento de diagnóstico profissional** (multímetros, testadores de isolamento, detetores de cabos) para identificar rapidamente a origem do problema e repará-lo com segurança.',
       sections: [
@@ -158,7 +158,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     icon: '📊',
     price: 'Desde 250€',
     priceDetails: 'Inclui materiais certificados',
-    image: '/images/services/quadros-eletricos.jpg',
+    image: '/images-optimized/services/service-quadro-eletrico.jpg',
     content: {
       intro: 'O quadro elétrico é o coração da instalação. Protege contra sobrecargas, curto-circuitos e choques elétricos. Quadros antigos (fusíveis, sem diferencial) são perigosos e ilegais.',
       sections: [
@@ -193,7 +193,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     icon: '💡',
     price: 'Desde 25€',
     priceDetails: 'Por ponto de luz',
-    image: '/images/services/iluminacao-led.jpg',
+    image: '/images-optimized/services/service-iluminacao.jpg',
     content: {
       intro: 'Lâmpadas LED consomem 80% menos energia que incandescentes e duram 25x mais. Investimento recuperado em 1-2 anos através da poupança na fatura.',
       sections: [
@@ -228,7 +228,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     icon: '🚨',
     price: 'Desde 100€',
     priceDetails: 'Acréscimo 50€ horário noturno',
-    image: '/images/services/urgencias.jpg',
+    image: '/images-optimized/services/service-urgencia.jpg',
     content: {
       intro: 'Urgências elétricas requerem intervenção imediata para evitar incêndios, choques elétricos e danos em equipamentos. Staff Seekers disponível 24h/dia, 365 dias/ano.',
       sections: [
@@ -263,7 +263,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     icon: '🔍',
     price: 'Desde 150€',
     priceDetails: 'Inclui relatório técnico',
-    image: '/images/services/inspecao-eletrica.jpg',
+    image: '/images-optimized/services/service-certificacao.jpg',
     content: {
       intro: 'Inspeção elétrica identifica problemas antes de se tornarem perigosos. Recomendada para casas com +20 anos, compra/venda de imóveis, após remodelações.',
       sections: [
@@ -298,7 +298,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     icon: '📜',
     price: 'Desde 200€',
     priceDetails: 'Inclui inspeção e certificado',
-    image: '/images/services/certificacao.jpg',
+    image: '/images-optimized/services/service-certificacao.jpg',
     content: {
       intro: 'Certificação CERTIEL é obrigatória por lei (DL 226/2005) para venda, arrendamento e seguros de imóveis. Staff Seekers é instalador certificado CERTIEL.',
       sections: [
