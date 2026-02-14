@@ -13,6 +13,8 @@ import Chaves from "./pages/cidades/Chaves";
 import Mirandela from "./pages/cidades/Mirandela";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoInstalarCandeeiroTeto from "./pages/blog/ComoInstalarCandeeiroTeto";
+import PouparEnergiaEletricaDicas from "./pages/blog/PouparEnergiaEletricaDicas";
+import QuandoTrocarInstalacaoEletrica from "./pages/blog/QuandoTrocarInstalacaoEletrica";
 
 
 function Router() {
@@ -26,6 +28,8 @@ function Router() {
       <Route path={"/eletricista-mirandela"} component={Mirandela} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
+      <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />
+      <Route path={"/blog/quando-trocar-instalacao-eletrica"} component={QuandoTrocarInstalacaoEletrica} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

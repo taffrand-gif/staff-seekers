@@ -22,6 +22,24 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/instalar-candeeiro.jpg'
     },
     {
+      slug: 'poupar-energia-eletrica-dicas',
+      title: 'Como Poupar Energia Elétrica em Casa — 10 Dicas Práticas',
+      excerpt: 'Descubra 10 dicas práticas para poupar energia elétrica em casa e reduzir a fatura da luz. Guia completo de eficiência energética para Trás-os-Montes.',
+      category: 'Eficiência Energética',
+      readTime: '10',
+      date: '14 Fev 2026',
+      imageUrl: '/images-optimized/blog/poupar-energia.jpg'
+    },
+    {
+      slug: 'quando-trocar-instalacao-eletrica',
+      title: 'Quando Trocar a Instalação Elétrica? Sinais de Alerta',
+      excerpt: 'Descubra os sinais de alerta que indicam que a sua instalação elétrica precisa de ser renovada. Guia completo sobre segurança elétrica em casas antigas.',
+      category: 'Segurança Elétrica',
+      readTime: '9',
+      date: '14 Fev 2026',
+      imageUrl: '/images-optimized/blog/instalacao-eletrica.jpg'
+    },
+    {
       slug: 'quadro-eletrico-disparar-causas',
       title: 'Quadro Elétrico a Disparar Constantemente? 7 Causas Comuns',
       excerpt: 'Descubra as 7 causas mais comuns para um quadro elétrico que dispara constantemente e saiba quando chamar um eletricista profissional.',
