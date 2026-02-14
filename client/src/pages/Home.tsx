@@ -15,6 +15,7 @@ import Testimonials from '@/components/Testimonials';
 import CompanyInfo from '@/components/CompanyInfo';
 import FAQ from '@/components/FAQ';
 import Trabalhos from '@/components/Trabalhos';
+import RealStories from '@/components/RealStories';
 import Equipa from '@/components/Equipa';
 import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
@@ -63,6 +64,7 @@ export default function Home() {
           <PriceCalculator />
           <FAQ />
           <Trabalhos />
+          <RealStories />
           <Equipa />
           <Testimonials />
           <Blog />

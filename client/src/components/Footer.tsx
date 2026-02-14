@@ -29,8 +29,11 @@ export default function Footer() {
             <p className="text-gray-200 mb-4">
               {config.company.shortDescription}
             </p>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300 text-sm mb-4">
               Cobertura em toda a região de {config.company.coverage}.
+            </p>
+            <p className="text-white text-sm font-bold italic border-l-2 border-white pl-3">
+              "Orgulho Transmontano. Aqui para servir o Norte."
             </p>
           </div>
 
