@@ -1,30 +1,37 @@
-# robots.txt — staff-seekers.com & norte-reparos.com
-# Otimizado para SEO
+# robots.txt pour staff-seekers.com
+# Eletricista Profissional em Trás-os-Montes
 
 User-agent: *
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
-# Sitemaps
-Sitemap: https://staff-seekers.com/sitemap.xml
-Sitemap: https://norte-reparos.com/sitemap-norte-reparos.com.xml
-
-# Crawl delay
-Crawl-delay: 1
-
-# Googlebot
+# Motores de busca principais
 User-agent: Googlebot
 Allow: /
-Disallow: /api/
 
-# Bingbot
 User-agent: Bingbot
 Allow: /
-Disallow: /api/
 
-# Yandex
 User-agent: Yandex
 Allow: /
-Disallow: /api/
+
+# Bots de IA - Permitidos para melhor visibilidade
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://staff-seekers.com/sitemap.xml
