@@ -9,7 +9,7 @@ export default function HeroUrgence({ ville, interventionsCount = 480 }: HeroUrg
   const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const phoneLink = `tel:+${config.whatsappNumber}`;
-  const whatsappLink = `https://wa.me/${config.whatsappNumber}?text=Olá%2C%20tenho%20uma%20urgência%20${ville ? `em%20${ville}` : ''}`;
+  const whatsappLink = `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`;
 
   return (
     <div className="urgency-card">

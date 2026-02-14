@@ -72,7 +72,7 @@ export default function Chaves() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);

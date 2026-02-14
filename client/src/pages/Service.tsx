@@ -30,7 +30,7 @@ export default function Service() {
 
   const phoneDisplay = ACTIVE_CONFIG.phone.replace('+351', '');
   const phoneLink = ACTIVE_CONFIG.phone;
-  const whatsappLink = `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`;
+  const whatsappLink = `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`;
 
   return (
     <div className="min-h-screen">

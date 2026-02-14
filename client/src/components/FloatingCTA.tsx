@@ -11,8 +11,7 @@ export default function FloatingCTA() {
   const [isMinimized, setIsMinimized] = useState(false);
 
   // WhatsApp message pré-rempli
-  const whatsappMessage = `Olá! Estou no site e preciso de um eletricista. Podem ajudar?`;
-  const whatsappUrl = `https://wa.me/${config.phone.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`;
 
   if (!isVisible) return null;
 

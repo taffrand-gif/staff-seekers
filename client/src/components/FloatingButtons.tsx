@@ -10,7 +10,7 @@ export default function FloatingButtons() {
     <>
       {/* Botão WhatsApp - canto inferior esquerdo */}
       <Button
-        onClick={() => window.open(`https://wa.me/${config.whatsapp || '351932321892'}`, '_blank')}
+        onClick={() => window.open(`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`, '_blank')}
         className="fixed bottom-6 left-6 w-14 h-14 rounded-full bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all z-40"
         aria-label="Contactar via WhatsApp"
       >

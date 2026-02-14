@@ -65,7 +65,7 @@ export default function Braganca() {
         "name": "Bragança"
       },
       "sameAs": [
-        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);

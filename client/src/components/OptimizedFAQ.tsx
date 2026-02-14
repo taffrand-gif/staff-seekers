@@ -125,7 +125,7 @@ const OptimizedFAQ: React.FC = () => {
             <span>Ligar Agora</span>
           </a>
           <a
-            href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
+            href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"

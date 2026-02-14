@@ -76,7 +76,7 @@ export default function ZonaIntervencao() {
                 📞 Ligar: {config.phone}
               </a>
               <a
-                href={`https://wa.me/${config.whatsapp || '351932321892'}`}
+                href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 font-bold text-white bg-green-600 hover:bg-green-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"

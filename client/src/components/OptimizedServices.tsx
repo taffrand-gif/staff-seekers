@@ -191,7 +191,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(`Olá, gostaria de mais informações sobre o serviço de ${service}.`)}`}
+                    href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`mt-6 inline-flex items-center justify-center gap-2 ${btnBg} text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300`}

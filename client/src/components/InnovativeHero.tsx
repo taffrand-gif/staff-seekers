@@ -91,7 +91,7 @@ const InnovativeHero: React.FC = () => {
             </a>
             
             <a
-              href={`https://wa.me/${config.whatsapp || '351932321892'}`}
+              href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={`group relative overflow-hidden bg-white hover:bg-gray-50 ${ctaSecondaryText} font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 min-w-[280px] border-2 ${ctaSecondaryBorder}`}

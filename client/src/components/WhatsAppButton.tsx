@@ -4,8 +4,7 @@ export default function WhatsAppButton() {
   const { whatsappNumber } = ACTIVE_CONFIG;
   
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Olá! Preciso de assistência urgente.");
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Olá! Preciso de assistência urgente.")}`;
     
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'conversion', {
