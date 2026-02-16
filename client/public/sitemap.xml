@@ -6,43 +6,148 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-macedo-cavaleiros.html</loc>
+    <loc>https://staff-seekers.com/aquecimento-eletrico-braganca</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-braganca.html</loc>
+    <loc>https://staff-seekers.com/aquecimento-eletrico-mirandela</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-mirandela.html</loc>
+    <loc>https://staff-seekers.com/aquecimento-eletrico-vila-real</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-vila-real.html</loc>
+    <loc>https://staff-seekers.com/certificacao-eletrica-braganca</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-chaves.html</loc>
+    <loc>https://staff-seekers.com/certificacao-eletrica-mirandela</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-vinhais.html</loc>
+    <loc>https://staff-seekers.com/certificacao-eletrica-vila-real</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-torre-moncorvo.html</loc>
+    <loc>https://staff-seekers.com/eletricista-braganca</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://staff-seekers.com/eletricista-mogadouro.html</loc>
+    <loc>https://staff-seekers.com/eletricista-chaves</loc>
     <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-macedo-cavaleiros</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-mirandela</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-mogadouro</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-torre-moncorvo</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-vila-real</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/eletricista-vinhais</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/galeria</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/iluminacao-led-braganca</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/iluminacao-led-mirandela</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/iluminacao-led-vila-real</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/instalacao-eletrica-mirandela</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/quadros-eletricos-braganca</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/quadros-eletricos-mirandela</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/quadros-eletricos-vila-real</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/blog-problemas-eletricos-inverno</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/eletricista-urgente-24-horas-braganca</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/quanto-custa-instalacao-eletrica-completa</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/como-instalar-candeeiro-teto-seguranca</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/poupar-energia-eletrica-dicas</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/quando-trocar-instalacao-eletrica</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

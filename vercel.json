@@ -6,11 +6,19 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/blog/:path*",
-      "destination": "/blog/:path*"
+      "source": "/blog/eletricista-urgente-24-horas-braganca",
+      "destination": "/blog/eletricista-urgente-24-horas-braganca.html"
     },
     {
-      "source": "/((?!blog/).*)",
+      "source": "/blog/quanto-custa-instalacao-eletrica-completa",
+      "destination": "/blog/quanto-custa-instalacao-eletrica-completa.html"
+    },
+    {
+      "source": "/blog/blog-problemas-eletricos-inverno",
+      "destination": "/blog/blog-problemas-eletricos-inverno.html"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
