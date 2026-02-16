@@ -6,9 +6,9 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5" />
-    <title>Eletricista Profissional em Trás-os-Montes | Staff Seekers 24h</title>
-    <meta name="description" content="Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região." />
-    <meta name="theme-color" content="#ea580c" />
+    <title>Eletricista 24h em Macedo, Bragança, Mirandela, Vila Real | Staff Seekers</title>
+    <meta name="description" content="Eletricista certificado 24h/7d em Macedo de Cavaleiros, Bragança, Mirandela, Vila Real. Reparações urgentes, quadros elétricos, certificação. Intervenção < 1h. Tel: +351 932 321 892" />
+    <meta name="theme-color" content="#FF6B35" />
     <link rel="canonical" href="https://staff-seekers.com" />
     
     <!-- Preconnect pour ressources externes -->
@@ -24,21 +24,77 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_PT" />
     <meta property="og:site_name" content="Staff Seekers - Eletricista Profissional" />
-    <meta property="og:title" content="Eletricista Profissional em Trás-os-Montes | Staff Seekers 24h" />
-    <meta property="og:description" content="Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região." />
+    <meta property="og:title" content="Eletricista 24h em Macedo, Bragança, Mirandela, Vila Real" />
+    <meta property="og:description" content="Eletricista certificado 24h/7d. Intervenção rápida em Macedo de Cavaleiros, Bragança, Mirandela, Vila Real, Chaves. Tel: +351 932 321 892" />
     <meta property="og:url" content="https://staff-seekers.com" />
     <meta property="og:image" content="https://staff-seekers.com/images-optimized/hero/og-electrician-portugal.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Eletricista Profissional em Trás-os-Montes | Staff Seekers 24h" />
-    <meta name="twitter:description" content="Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região." />
+    <meta name="twitter:title" content="Eletricista 24h em Macedo, Bragança, Mirandela, Vila Real" />
+    <meta name="twitter:description" content="Eletricista certificado 24h/7d. Intervenção < 1h. Tel: +351 932 321 892" />
     <meta name="twitter:image" content="https://staff-seekers.com/images-optimized/hero/og-electrician-portugal.jpg" />
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+      .floating-call-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+        color: white;
+        padding: 18px 25px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 6px 20px rgba(255,107,53,0.4);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        animation: pulse 2s infinite;
+        font-family: 'Poppins', sans-serif;
+      }
+      .zone-banner {
+        background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
   </head>
 
   <body>
+    <!-- Bannière Zone d'Intervention -->
+    <div class="zone-banner">
+      <div style="font-size: 24px; margin-bottom: 10px;">
+        📞 URGÊNCIA 24H? LIGUE JÁ: <a href="tel:+351932321892" style="color: white; text-decoration: none;">+351 932 321 892</a>
+      </div>
+      <div style="font-size: 16px; margin-top: 10px;">
+        🚗 ZONA DE INTERVENÇÃO (Raio 100km):
+      </div>
+      <div style="font-size: 14px; margin-top: 5px;">
+        Macedo • Bragança • Mirandela • Vila Real • Chaves • Vinhais • Torre de Moncorvo • Mogadouro
+      </div>
+      <div style="font-size: 12px; margin-top: 8px;">
+        ✅ Intervenção &lt; 1h | ✅ 24h/7d | ✅ Orçamento gratuito
+      </div>
+    </div>
+
     <div id="root"></div>
+
+    <!-- Bouton Flottant -->
+    <a href="tel:+351932321892" class="floating-call-btn">
+      <span style="font-size: 24px;">📞</span>
+      <span>LIGAR AGORA</span>
+    </a>
+
     <script type="module" src="/src/main.tsx"></script>
     <script
       defer
