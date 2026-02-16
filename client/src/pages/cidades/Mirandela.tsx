@@ -23,6 +23,14 @@ export default function Mirandela() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Mirandela, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para agricultura e indústria.');
+    // Meta keywords SEO
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta');
+      metaKeywords.setAttribute('name', 'keywords');
+      document.head.appendChild(metaKeywords);
+    }
+    metaKeywords.setAttribute('content', 'eletricista urgente mirandela, eletricista 24 horas mirandela, eletricista mirandela, eletricista profissional mirandela, instalação elétrica mirandela, quadro elétrico mirandela, certificação elétrica mirandela, reparação elétrica mirandela, eletricista trás-os-montes');
     
     
     // Canonical URL
