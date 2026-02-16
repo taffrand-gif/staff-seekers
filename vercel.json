@@ -6,7 +6,11 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/blog/:path*",
+      "destination": "/blog/:path*"
+    },
+    {
+      "source": "/((?!blog/).*)",
       "destination": "/index.html"
     }
   ],
