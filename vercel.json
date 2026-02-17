@@ -17,28 +17,38 @@
       "source": "/blog/blog-problemas-eletricos-inverno",
       "destination": "/blog/blog-problemas-eletricos-inverno.html"
     },
-    // Pages de ville - servir les fichiers HTML statiques
     {
-      "source": "/eletricista-braganca",
-      "destination": "/eletricista-braganca.html"
-    },
-    {
-      "source": "/eletricista-vila-real",
-      "destination": "/eletricista-vila-real.html"
+      "source": "/eletricista-torre-moncorvo",
+      "destination": "/eletricista-torre-moncorvo.html"
     },
     {
       "source": "/eletricista-chaves",
       "destination": "/eletricista-chaves.html"
     },
     {
+      "source": "/eletricista-braganca",
+      "destination": "/eletricista-braganca.html"
+    },
+    {
+      "source": "/eletricista-vinhais",
+      "destination": "/eletricista-vinhais.html"
+    },
+    {
+      "source": "/eletricista-vila-real",
+      "destination": "/eletricista-vila-real.html"
+    },
+    {
+      "source": "/eletricista-macedo-cavaleiros",
+      "destination": "/eletricista-macedo-cavaleiros.html"
+    },
+    {
       "source": "/eletricista-mirandela",
       "destination": "/eletricista-mirandela.html"
     },
     {
-      "source": "/eletricista-macedo",
-      "destination": "/eletricista-macedo.html"
+      "source": "/eletricista-mogadouro",
+      "destination": "/eletricista-mogadouro.html"
     },
-    // Catch-all pour SPA React
     {
       "source": "/(.*)",
       "destination": "/index.html"
@@ -101,9 +111,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "VITE_ANALYTICS_ENDPOINT": "",
-    "VITE_ANALYTICS_WEBSITE_ID": ""
-  }
+  ]
 }
