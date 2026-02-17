@@ -12,6 +12,10 @@ import VilaReal from "./pages/cidades/VilaReal";
 import Braganca from "./pages/cidades/Braganca";
 import Chaves from "./pages/cidades/Chaves";
 import Mirandela from "./pages/cidades/Mirandela";
+import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
+import Vinhais from "./pages/cidades/Vinhais";
+import MirandaDouro from "./pages/cidades/MirandaDouro";
+import Mogadouro from "./pages/cidades/Mogadouro";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoInstalarCandeeiroTeto from "./pages/blog/ComoInstalarCandeeiroTeto";
 import PouparEnergiaEletricaDicas from "./pages/blog/PouparEnergiaEletricaDicas";
@@ -27,6 +31,10 @@ function Router() {
       <Route path={"/eletricista-braganca"} component={Braganca} />
       <Route path={"/eletricista-chaves"} component={Chaves} />
       <Route path={"/eletricista-mirandela"} component={Mirandela} />
+      <Route path={"/eletricista-macedo-cavaleiros"} component={MacedoCavaleiros} />
+      <Route path={"/eletricista-vinhais"} component={Vinhais} />
+      <Route path={"/eletricista-miranda-douro"} component={MirandaDouro} />
+      <Route path={"/eletricista-mogadouro"} component={Mogadouro} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
       <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />

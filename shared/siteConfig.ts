@@ -128,49 +128,49 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
 
     stories: [
       {
-        title: "La Fuite Silencieuse",
+        title: "A Fuga Silenciosa",
         location: "Chaves",
-        situation: "Tache d'humidité qui grandit au plafond du salon.",
-        emotion: "Stress des dégâts, peur du coût des travaux.",
-        solution: "Détection thermique sans casser le mur. Réparation localisée."
+        situation: "Mancha de humidade a crescer no teto da sala.",
+        emotion: "Stress com os danos, medo do custo das obras.",
+        solution: "Deteção térmica sem partir a parede. Reparação localizada."
       },
       {
-        title: "L'Eau Glacée",
-        location: "Miranda do Douro - Hiver",
-        situation: "-4°C dehors, la chaudière ne démarre plus. Pas d'eau chaude pour la douche des enfants.",
-        emotion: "Urgence vitale, inconfort, culpabilité pour les enfants.",
-        solution: "Remplacement thermocouple ou débouchage injecteur pilote. Intervention prioritaire."
+        title: "A Água Gelada",
+        location: "Miranda do Douro - Inverno",
+        situation: "-4°C lá fora, o esquentador não arranca. Sem água quente para o banho dos miúdos.",
+        emotion: "Urgência vital, desconforto, culpa pelos filhos.",
+        solution: "Substituição do termopar ou desentupimento do injetor piloto. Intervenção prioritária."
       },
       {
-        title: "L'Évier Bouché de la Grand-Mère",
+        title: "O Lava-Loiça Entupido da Avó",
         location: "Valpaços",
-        situation: "L'eau ne s'écoule plus du tout, odeur nauséabonde.",
-        emotion: "Honte, impuissance.",
-        solution: "\"Dona Maria, ça arrive à tout le monde. On passe le furet, on nettoie, et c'est fini en 15 min.\""
+        situation: "A água não escoa de todo, cheiro nauseabundo.",
+        emotion: "Vergonha, impotência.",
+        solution: "\"Dona Maria, acontece a toda a gente. Passamos o furet, limpamos, e fica resolvido em 15 min.\""
       },
       {
-        title: "Le Robinet qui Goutte la Nuit",
+        title: "A Torneira que Pinga à Noite",
         location: "Mogadouro",
-        situation: "Ploc... ploc... ploc... impossible de dormir.",
-        emotion: "Irritation, fatigue nerveuse.",
-        solution: "Changement des joints céramiques. Silence rétabli."
+        situation: "Ploc... ploc... ploc... impossível dormir.",
+        emotion: "Irritação, cansaço nervoso.",
+        solution: "Troca das juntas cerâmicas. Silêncio restabelecido."
       }
     ],
 
     team: [
       {
         name: "João 'O Salvador'",
-        role: "Chef d'Équipe Plomberie",
+        role: "Chefe de Equipa Canalização",
         location: "Miranda do Douro",
-        bio: "45 ans. Conduit un 4x4 pour accéder aux fermes isolées. Costaud, rassurant, ne craint pas de se salir. Spécialiste fuites majeures.",
+        bio: "45 anos. Conduz um 4x4 para chegar às quintas isoladas. Forte, tranquilizador, não tem medo de se sujar. Especialista em fugas graves.",
         quote: "\"Não se preocupe dona Maria, a água para já.\"",
         image: "/images/team/joao-plumber.jpg"
       },
       {
         name: "Rui",
-        role: "Technicien Chauffage",
+        role: "Técnico de Aquecimento",
         location: "Chaves",
-        bio: "34 ans. Spécialiste chauffage et chaudières. Calme, pédagogue, explique tout avant de facturer.",
+        bio: "34 anos. Especialista em aquecimento e caldeiras. Calmo, pedagógico, explica tudo antes de faturar.",
         quote: "\"Primeiro vemos o que é, depois falamos do preço.\"",
         image: "/images/team/rui-heating.jpg"
       }
@@ -259,49 +259,49 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
 
     stories: [
       {
-        title: "La Peur du Feu",
+        title: "O Medo do Fogo",
         location: "Macedo de Cavaleiros",
-        situation: "Une prise dans la cuisine fait \"Bzzzt\" et une étincelle quand on branche le grille-pain.",
-        emotion: "Peur que la maison brûle la nuit.",
-        solution: "On change la prise et on vérifie les fils derrière. 20 minutes, 35€ tout inclus."
+        situation: "Uma tomada na cozinha faz \"Bzzzt\" e solta faísca quando se liga a torradeira.",
+        emotion: "Medo de que a casa pegue fogo à noite.",
+        solution: "Trocamos a tomada e verificamos os fios por trás. 20 minutos, 35€ tudo incluído."
       },
       {
-        title: "Le Four qui Saute",
+        title: "O Forno que Dispara",
         location: "Vila Real",
-        situation: "Noël approche, Sr. António veut rôtir le chevreau, mais le disjoncteur saute dès que le four chauffe.",
-        emotion: "Frustration, peur de gâcher le repas de fête.",
-        solution: "Diagnostic puissance compteur vs consommation four. Rééquilibrage du tableau."
+        situation: "O Natal aproxima-se, o Sr. António quer assar o cabrito, mas o disjuntor dispara assim que o forno aquece.",
+        emotion: "Frustração, medo de estragar a ceia de Natal.",
+        solution: "Diagnóstico potência contador vs consumo forno. Reequilíbrio do quadro."
       },
       {
-        title: "L'Interrupteur Chaud",
-        location: "Bragança - Centre Historique",
-        situation: "Vieux bâtiment. L'interrupteur du couloir est chaud au toucher.",
-        emotion: "Inquiétude diffuse, danger invisible.",
-        solution: "Remplacement immédiat du mécanisme défectueux (risque d'incendie réel)."
+        title: "O Interruptor Quente",
+        location: "Bragança - Centro Histórico",
+        situation: "Edifício antigo. O interruptor do corredor está quente ao toque.",
+        emotion: "Preocupação difusa, perigo invisível.",
+        solution: "Substituição imediata do mecanismo defeituoso (risco real de incêndio)."
       },
       {
-        title: "Le Noir Total",
-        location: "Village isolé près de Vinhais",
-        situation: "Orage, tout le village a du courant sauf la maison de Sr. José.",
-        emotion: "Isolement total, congélateur plein de viande qui va se perdre.",
-        solution: "Intervention 4x4, réparation du disjoncteur différentiel qui a \"grillé\" avec la foudre."
+        title: "O Apagão Total",
+        location: "Aldeia isolada perto de Vinhais",
+        situation: "Trovoada, toda a aldeia tem luz menos a casa do Sr. José.",
+        emotion: "Isolamento total, arca cheia de carne que se vai estragar.",
+        solution: "Intervenção 4x4, reparação do disjuntor diferencial que \"queimou\" com o raio."
       }
     ],
 
     team: [
       {
-        name: "Sr. Carlos 'L'Ancien'",
-        role: "Maître Électricien",
+        name: "Sr. Carlos 'O Mestre'",
+        role: "Mestre Eletricista",
         location: "Bragança",
-        bio: "58 ans. 35 ans de métier. Visage buriné par le froid transmontano. Spécialité : mises aux normes, tableaux anciens.",
+        bio: "58 anos. 35 anos de profissão. Rosto marcado pelo frio transmontano. Especialidade: colocação às normas, quadros antigos.",
         quote: "\"O quadro é antigo, mas a gente resolve sem partir a parede toda.\"",
         image: "/images/team/carlos-electrician.jpg"
       },
       {
-        name: "Miguel 'Le Jeune Pro'",
-        role: "Technicien Domotique",
+        name: "Miguel 'O Jovem Pro'",
+        role: "Técnico Domótica",
         location: "Macedo de Cavaleiros",
-        bio: "29 ans. Rapide, connecté, propre. Idéal pour les jeunes couples et les installations modernes.",
+        bio: "29 anos. Rápido, conectado, limpo. Ideal para casais jovens e instalações modernas.",
         quote: "\"Vou deixar isto seguro para os miúdos.\"",
         image: "/images/team/miguel-electrician.jpg"
       }
