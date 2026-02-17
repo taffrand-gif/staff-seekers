@@ -112,7 +112,7 @@ export const NORTE_REPAROS_FAQ: FAQItem[] = [
   {
     id: 17,
     question: "Preciso de certificação para instalação de gás?",
-    answer: "Sim, qualquer instalação ou alteração de gás (canalizado ou botija) requer obrigatoriamente técnico certificado e emissão de certificado de conformidade. Isto inclui: instalação de esquentador a gás, caldeira, fogão, ou alteração de tubagens de gás. O certificado deve ser enviado à entidade distribuidora (se gás canalizado) ou guardado para inspeções. Instalações sem certificação são ilegais, perigosas, e invalidam seguros. Todos os o meu serviço são certificados e emitimos certificação incluída no preço do serviço. Penalizações por instalação ilegal: multas de 250€ a 3.740€ + responsabilidade civil em caso de acidente. Regularizamos instalações antigas sem certificação.",
+    answer: "Sim, qualquer instalação ou alteração de gás (canalizado ou botija) requer obrigatoriamente técnico certificado e emissão de certificado de conformidade. Isto inclui: instalação de esquentador a gás, caldeira, fogão, ou alteração de tubagens de gás. O certificado deve ser enviado à entidade distribuidora (se gás canalizado) ou guardado para inspeções. Instalações sem certificação são ilegais, perigosas, e invalidam seguros. Todos os nossos técnicos são certificados e emitimos certificação incluída no preço do serviço. Penalizações por instalação ilegal: multas de 250€ a 3.740€ + responsabilidade civil em caso de acidente. Regularizamos instalações antigas sem certificação.",
     category: "Legislação"
   },
   {
@@ -145,7 +145,7 @@ export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   {
     id: 2,
     question: "Quanto tempo demora uma certificação elétrica?",
-    answer: "Uma certificação elétrica DGEG demora entre 3 a 10 dias úteis, dependendo da complexidade da instalação. O processo inclui: inspeção técnica da instalação (2-3 horas), elaboração do termo de responsabilidade e esquemas elétricos (1-2 dias), submissão na plataforma DGEG (imediato), e emissão do certificado pela DGEG (2-5 dias úteis). Para instalações simples (apartamentos T1-T2), conseguimos certificação em 3-4 dias. Instalações complexas (moradias, comércio) podem demorar 7-10 dias. Urgências: mediante disponibilidade, podemos acelerar para 48 horas com acréscimo de 50%. Todos os o meu serviço são certificados DGEG.",
+    answer: "Uma certificação elétrica DGEG demora entre 3 a 10 dias úteis, dependendo da complexidade da instalação. O processo inclui: inspeção técnica da instalação (2-3 horas), elaboração do termo de responsabilidade e esquemas elétricos (1-2 dias), submissão na plataforma DGEG (imediato), e emissão do certificado pela DGEG (2-5 dias úteis). Para instalações simples (apartamentos T1-T2), conseguimos certificação em 3-4 dias. Instalações complexas (moradias, comércio) podem demorar 7-10 dias. Urgências: mediante disponibilidade, podemos acelerar para 48 horas com acréscimo de 50%. Todos os nossos técnicos são certificados DGEG.",
     category: "Certificações"
   },
   {

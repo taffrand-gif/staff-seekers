@@ -14,7 +14,7 @@ export default function CompanyInfo() {
   const reasons = [
     {
       title: 'Confiança Local',
-      description: 'Os o meu serviço são da terra. Identificados, educados e discretos. Trato a sua casa como a minha.',
+      description: 'Os nossos técnicos são da terra. Identificados, educados e discretos. Tratamos a sua casa como se fosse nossa.',
     },
     {
       title: 'Preço Justo e Afixado',

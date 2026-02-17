@@ -60,7 +60,7 @@ const BlogIndex: React.FC = () => {
     {
       slug: 'eletricista-24h-macedo-cavaleiros',
       title: 'Eletricista 24h em Macedo de Cavaleiros: Como Atuamos em Caso de Urgência',
-      excerpt: 'Conheça o meu serviço de eletricista 24 horas em Macedo de Cavaleiros e saiba como atuamos em situações de urgência elétrica.',
+      excerpt: 'Conheça o nosso serviço de eletricista 24 horas em Macedo de Cavaleiros e saiba como atuamos em situações de urgência elétrica.',
       category: 'Local',
       readTime: '5',
       date: '10 Fev 2026',

@@ -493,7 +493,7 @@ A **Norte Reparos** oferece serviços de manutenção certificada de esquentador
     content: `
 # Como Escolher um Canalizador Profissional de Confiança
 
-Escolher o canalizador certo pode fazer toda a diferença entre um trabalho bem feito e um pesadelo de reparações mal executadas. Neste guia, vamos ajudá-lo a identificar profissional qualificado e evitar fraudes.
+Escolher o canalizador certo pode fazer toda a diferença entre um trabalho bem feito e um pesadelo de reparações mal executadas. Neste guia, vamos ajudá-lo a identificar profissionais qualificados e evitar fraudes.
 
 ## Critérios Essenciais
 
@@ -1326,7 +1326,7 @@ Sim, fica associado ao imóvel.
 
 ## Conclusão
 
-A certificação elétrica é um documento essencial que garante a segurança da sua instalação elétrica. Não deixe para a última hora - se precisa de certificação, contacte um profissional qualificado o quanto antes.
+A certificação elétrica é um documento essencial que garante a segurança da sua instalação elétrica. Não deixe para a última hora - se precisa de certificação, contacte um profissionais qualificados o quanto antes.
 
 A **Eletricista Profissional** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
 

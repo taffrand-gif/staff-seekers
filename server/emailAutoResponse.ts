@@ -79,7 +79,7 @@ A sua solicitação foi registada com prioridade máxima:
 
 ⏰ TEMPO DE RESPOSTA: 15-30 MINUTOS
 
-Um dos o meu serviço irá contactá-lo brevemente para:
+Um dos o nosso serviço irá contactá-lo brevemente para:
 ✅ Avaliar a situação
 ✅ Fornecer um orçamento
 ✅ Agendar intervenção imediata
@@ -130,7 +130,7 @@ A sua solicitação foi registada:
 
 ⏰ TEMPO DE RESPOSTA: 2-4 HORAS
 
-Um dos o meu serviço irá contactá-lo em breve para:
+Um dos o nosso serviço irá contactá-lo em breve para:
 ✅ Discutir os detalhes
 ✅ Fornecer um orçamento gratuito
 ✅ Agendar a intervenção

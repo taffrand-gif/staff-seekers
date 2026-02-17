@@ -43,7 +43,7 @@ export default function RealStories() {
         </div>
         
         <div className="text-center mt-12">
-           <p className="text-gray-500 text-sm">Estas histórias são exemplos reais de intervenções realizadas pela meu trabalho.</p>
+           <p className="text-gray-500 text-sm">Estas histórias são exemplos reais de intervenções realizadas pela nosso trabalho.</p>
         </div>
       </div>
     </section>
