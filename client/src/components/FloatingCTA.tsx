@@ -56,9 +56,6 @@ export default function FloatingCTA() {
 
           {/* Corps */}
           <div className="p-4">
-            <p className="font-bold text-gray-900 mb-3 text-center">
-              Emergência elétrica?
-            </p>
             
             <div className="space-y-3">
               {/* Botão telefone */}
