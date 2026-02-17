@@ -103,6 +103,9 @@ export default function Footer() {
           <div className="mt-2 text-xs text-gray-400">
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
+          <div className="mt-3 text-xs text-gray-500">
+            Precisa de canalizador? <a href="https://norte-reparos.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Canalizador 24h Trás-os-Montes</a>
+          </div>
         </div>
       </div>
     </footer>
