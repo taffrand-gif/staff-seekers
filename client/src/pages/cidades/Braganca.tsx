@@ -15,7 +15,7 @@ export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Braganca - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Bragança - Staff Seekers - +351 932 321 892";
     
     // Meta description optimisée
     let metaDescription = document.querySelector('meta[name="description"]');
