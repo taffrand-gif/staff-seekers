@@ -15,7 +15,7 @@ export default function VilaReal() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -50,7 +50,7 @@ export default function VilaReal() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Staff Seekers — Eletricista em Vila Real",
+      "name": "Eletricista Profissional — Eletricista em Vila Real",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
@@ -96,7 +96,7 @@ export default function VilaReal() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Staff Seekers</a> &gt; 
+                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Vila Real</span>
               </nav>
@@ -136,7 +136,7 @@ export default function VilaReal() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Porque escolher um eletricista em Vila Real da Staff Seekers?
+                  Porque escolher um eletricista em Vila Real da Eletricista Profissional?
                 </h2>
                 
                 <div className="space-y-6">

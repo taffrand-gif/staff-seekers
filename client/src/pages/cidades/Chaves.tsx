@@ -13,7 +13,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Chaves, Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Chaves, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -48,7 +48,7 @@ export default function Chaves() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Staff Seekers — Eletricista em Chaves",
+      "name": "Eletricista Profissional — Eletricista em Chaves",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Chaves, Trás-os-Montes. Instalação, reparação e certificação elétrica para termas e turismo.",
       "address": {
@@ -103,7 +103,7 @@ export default function Chaves() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Staff Seekers</a> &gt; 
+                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Chaves</span>
               </nav>

@@ -128,7 +128,7 @@ export function generateSEOTitle(ville?: string): string {
   }
   
   // Page d'accueil
-  // Exemple: "Eletricista Certificado 24h em Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892"
+  // Exemple: "Eletricista Certificado 24h em Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892"
   return `${config.name} Certificado 24h em Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
 }
 

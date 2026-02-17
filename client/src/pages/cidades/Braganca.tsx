@@ -15,7 +15,7 @@ export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Bragança, Macedo, Mirandela - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Bragança, Macedo, Mirandela - Eletricista Profissional - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -50,7 +50,7 @@ export default function Braganca() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Staff Seekers — Eletricista em Bragança",
+      "name": "Eletricista Profissional — Eletricista em Bragança",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Bragança, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
@@ -96,7 +96,7 @@ export default function Braganca() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Staff Seekers</a> &gt; 
+                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Bragança</span>
               </nav>

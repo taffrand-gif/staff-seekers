@@ -13,7 +13,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Mirandela, Macedo, Bragança - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Mirandela, Macedo, Bragança - Eletricista Profissional - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -48,7 +48,7 @@ export default function Mirandela() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Staff Seekers — Eletricista em Mirandela",
+      "name": "Eletricista Profissional — Eletricista em Mirandela",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Mirandela, Trás-os-Montes. Instalação, reparação e certificação elétrica para agricultura e indústria.",
       "address": {
@@ -103,7 +103,7 @@ export default function Mirandela() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Staff Seekers</a> &gt; 
+                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Mirandela</span>
               </nav>

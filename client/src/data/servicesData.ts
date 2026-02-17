@@ -1,4 +1,4 @@
-// Services data for Staff Seekers (Electricidade)
+// Services data for Eletricista Profissional (Electricidade)
 
 export interface Service {
   id: string;
@@ -38,7 +38,7 @@ export const SERVICES: Service[] = [
     priceDetails: 'Preço varia conforme complexidade',
     image: '/images-optimized/services/service-instalacao.jpg',
     content: {
-      intro: 'A Staff Seekers realiza **instalações elétricas completas** em Trás-os-Montes, cumprindo rigorosamente as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**. Trabalhamos com materiais certificados (Legrand, Schneider Electric, Siemens) e garantimos instalações seguras com **certificado CERTIEL** incluído.',
+      intro: 'A Eletricista Profissional realiza **instalações elétricas completas** em Trás-os-Montes, cumprindo rigorosamente as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**. Trabalhamos com materiais certificados (Legrand, Schneider Electric, Siemens) e garantimos instalações seguras com **certificado CERTIEL** incluído.',
       sections: [
         {
           title: 'Tipos de Instalações',
@@ -84,7 +84,7 @@ export const SERVICES: Service[] = [
       cta: 'Precisa de instalação elétrica? **Ligue já 928 484 451** para orçamento gratuito!'
     },
     seo: {
-      metaTitle: 'Instalação Elétrica Bragança | Certificada CERTIEL | Staff Seekers',
+      metaTitle: 'Instalação Elétrica Bragança | Certificada CERTIEL | Eletricista Profissional',
       metaDescription: 'Instalação elétrica completa em Bragança. Quadros, tomadas, iluminação. Certificação CERTIEL incluída. Garantia 5 anos. Desde 150€. Ligue 928 484 451!',
       keywords: ['instalação elétrica bragança', 'eletricista bragança', 'certificação certiel', 'quadro elétrico']
     }
@@ -102,7 +102,7 @@ export const SERVICES: Service[] = [
     priceDetails: 'Diagnóstico incluído',
     image: '/images-optimized/services/service-urgencia.jpg',
     content: {
-      intro: 'Avarias elétricas podem ser perigosas e causar incêndios. A Staff Seekers dispõe de **equipamento de diagnóstico profissional** (multímetros, testadores de isolamento, detetores de cabos) para identificar rapidamente a origem do problema e repará-lo com segurança.',
+      intro: 'Avarias elétricas podem ser perigosas e causar incêndios. A Eletricista Profissional dispõe de **equipamento de diagnóstico profissional** (multímetros, testadores de isolamento, detetores de cabos) para identificar rapidamente a origem do problema e repará-lo com segurança.',
       sections: [
         {
           title: 'Avarias Mais Comuns',
@@ -142,7 +142,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Avaria elétrica? **Ligue já 928 484 451** - Diagnóstico rápido!'
     },
     seo: {
-      metaTitle: 'Reparação Avarias Elétricas Bragança | Urgências 24h | Staff Seekers',
+      metaTitle: 'Reparação Avarias Elétricas Bragança | Urgências 24h | Eletricista Profissional',
       metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 60€. Ligue 928 484 451!',
       keywords: ['reparação avaria elétrica', 'eletricista urgência bragança', 'disjuntor salta', 'curto-circuito']
     }
@@ -178,7 +178,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Quadro elétrico antigo? **Ligue 928 484 451** para modernizar!'
     },
     seo: {
-      metaTitle: 'Quadros Elétricos Bragança | Modernização | Staff Seekers',
+      metaTitle: 'Quadros Elétricos Bragança | Modernização | Eletricista Profissional',
       metaDescription: 'Quadros elétricos novos e modernização em Bragança. Monofásicos, trifásicos. Certificação CERTIEL. Desde 250€. Ligue 928 484 451!',
       keywords: ['quadro elétrico bragança', 'modernização quadro', 'disjuntores', 'diferencial']
     }
@@ -213,7 +213,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Quer poupar na fatura? **Ligue 928 484 451** para orçamento LED!'
     },
     seo: {
-      metaTitle: 'Iluminação LED Bragança | Poupança 80% | Staff Seekers',
+      metaTitle: 'Iluminação LED Bragança | Poupança 80% | Eletricista Profissional',
       metaDescription: 'Iluminação LED em Bragança. Substituição lâmpadas, spots, fitas LED. Poupança 80% energia. Desde 25€. Ligue 928 484 451!',
       keywords: ['iluminação led bragança', 'poupar eletricidade', 'lâmpadas led', 'spots led']
     }
@@ -230,7 +230,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     priceDetails: 'Acréscimo 50€ horário noturno',
     image: '/images-optimized/services/service-urgencia.jpg',
     content: {
-      intro: 'Urgências elétricas requerem intervenção imediata para evitar incêndios, choques elétricos e danos em equipamentos. Staff Seekers disponível 24h/dia, 365 dias/ano.',
+      intro: 'Urgências elétricas requerem intervenção imediata para evitar incêndios, choques elétricos e danos em equipamentos. Eletricista Profissional disponível 24h/dia, 365 dias/ano.',
       sections: [
         {
           title: 'Situações de Urgência',
@@ -248,7 +248,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Urgência elétrica? **Ligue já 928 484 451** - Atendimento 24h!'
     },
     seo: {
-      metaTitle: 'Eletricista Urgência 24h Bragança | Avarias | Staff Seekers',
+      metaTitle: 'Eletricista Urgência 24h Bragança | Avarias | Eletricista Profissional',
       metaDescription: 'Urgências elétricas 24h em Bragança. Curto-circuitos, avarias, sem corrente. Chegamos em 15-90 min. Desde 100€. Ligue 928 484 451!',
       keywords: ['eletricista urgência bragança', 'urgência 24h', 'avaria elétrica urgente', 'sem corrente']
     }
@@ -283,7 +283,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Precisa de inspeção? **Ligue 928 484 451** para agendar!'
     },
     seo: {
-      metaTitle: 'Inspeção Elétrica Bragança | Diagnóstico | Staff Seekers',
+      metaTitle: 'Inspeção Elétrica Bragança | Diagnóstico | Eletricista Profissional',
       metaDescription: 'Inspeção elétrica completa em Bragança. Testes, relatório técnico. Identifica problemas de segurança. Desde 150€. Ligue 928 484 451!',
       keywords: ['inspeção elétrica bragança', 'diagnóstico elétrico', 'teste isolamento', 'certificado elétrico']
     }
@@ -300,7 +300,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     priceDetails: 'Inclui inspeção e certificado',
     image: '/images-optimized/services/service-certificacao.jpg',
     content: {
-      intro: 'Certificação CERTIEL é obrigatória por lei (DL 226/2005) para venda, arrendamento e seguros de imóveis. Staff Seekers é instalador certificado CERTIEL.',
+      intro: 'Certificação CERTIEL é obrigatória por lei (DL 226/2005) para venda, arrendamento e seguros de imóveis. Eletricista Profissional é instalador certificado CERTIEL.',
       sections: [
         {
           title: 'Quando é Obrigatória',
@@ -318,7 +318,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
       cta: 'Precisa de certificação? **Ligue 928 484 451** para agendar!'
     },
     seo: {
-      metaTitle: 'Certificação CERTIEL Bragança | Certificado Elétrico | Staff Seekers',
+      metaTitle: 'Certificação CERTIEL Bragança | Certificado Elétrico | Eletricista Profissional',
       metaDescription: 'Certificação CERTIEL em Bragança. Obrigatória para venda e arrendamento. Processo rápido. Desde 200€. Ligue 928 484 451!',
       keywords: ['certificação certiel bragança', 'certificado elétrico', 'certiel obrigatório', 'venda imóvel']
     }

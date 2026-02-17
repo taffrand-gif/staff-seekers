@@ -226,8 +226,8 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   
   'staff-seekers': {
     id: 'staff-seekers',
-    name: 'Staff Seekers',
-    title: 'Eletricista Certificado em Trás-os-Montes | Staff Seekers — Instalação & Reparação Elétrica 24h',
+    name: 'Eletricista Profissional',
+    title: 'Eletricista Certificado em Trás-os-Montes | Eletricista Profissional — Instalação & Reparação Elétrica 24h',
     description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
     phone: '932 321 892',
     whatsapp: '351932321892',
@@ -342,9 +342,9 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Staff Seekers — Eletricista Profissional',
+      fullName: 'Eletricista Profissional — Eletricista Profissional',
       shortDescription: 'Eletricista certificado ao seu serviço em Trás-os-Montes.',
-      longDescription: 'A Staff Seekers presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      longDescription: 'A Eletricista Profissional presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
       coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },

@@ -665,7 +665,7 @@ export const electriciteArticles: BlogArticle[] = [
     excerpt: "Identifique os sinais de alerta de problemas elétricos antes que se tornem perigosos. Guia de segurança essencial.",
     image: "https://cdn.manus.space/webdev-assets/electrical-warning.jpg",
     date: "2026-01-15",
-    author: "Staff Seekers",
+    author: "Eletricista Profissional",
     readTime: "6 min",
     category: "Segurança",
     tags: ["segurança", "problemas", "prevenção"],
@@ -838,7 +838,7 @@ Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
 
 A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um eletricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
 
-A **Staff Seekers** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
+A **Eletricista Profissional** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
 
 **Ligue agora: 932 321 892**
 `
@@ -849,7 +849,7 @@ A **Staff Seekers** está disponível 24 horas para emergências elétricas em B
     excerpt: "Reduza a sua conta de eletricidade com estas dicas práticas e eficazes. Poupe dinheiro e ajude o ambiente.",
     image: "https://cdn.manus.space/webdev-assets/energy-saving.jpg",
     date: "2026-01-10",
-    author: "Staff Seekers",
+    author: "Eletricista Profissional",
     readTime: "7 min",
     category: "Poupança",
     tags: ["poupança", "energia", "eficiência"],
@@ -1071,7 +1071,7 @@ Implementando todas estas medidas:
 
 Poupar energia não significa sacrificar conforto. Com pequenas mudanças de hábitos e investimentos inteligentes, pode reduzir significativamente a fatura elétrica enquanto contribui para um futuro mais sustentável.
 
-A **Staff Seekers** pode ajudá-lo a otimizar a sua instalação elétrica, instalar iluminação LED e preparar a casa para painéis solares. Contacte-nos para uma avaliação gratuita.
+A **Eletricista Profissional** pode ajudá-lo a otimizar a sua instalação elétrica, instalar iluminação LED e preparar a casa para painéis solares. Contacte-nos para uma avaliação gratuita.
 
 **Ligue agora: 932 321 892**
 `
@@ -1082,7 +1082,7 @@ A **Staff Seekers** pode ajudá-lo a otimizar a sua instalação elétrica, inst
     excerpt: "Tudo o que precisa saber sobre certificação elétrica: quando é obrigatória, como obter e quanto custa.",
     image: "https://cdn.manus.space/webdev-assets/electrical-certificate.jpg",
     date: "2026-01-05",
-    author: "Staff Seekers",
+    author: "Eletricista Profissional",
     readTime: "8 min",
     category: "Certificação",
     tags: ["certificação", "legislação", "obrigações"],
@@ -1328,7 +1328,7 @@ Sim, fica associado ao imóvel.
 
 A certificação elétrica é um documento essencial que garante a segurança da sua instalação elétrica. Não deixe para a última hora - se precisa de certificação, contacte um profissional qualificado o quanto antes.
 
-A **Staff Seekers** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
+A **Eletricista Profissional** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
 
 **Agende a sua certificação: 932 321 892**
 `
@@ -1339,7 +1339,7 @@ A **Staff Seekers** tem técnicos certificados pela DGEG prontos para inspeciona
     excerpt: "Tudo o que precisa saber antes de instalar painéis solares: custos, poupança, processo e incentivos disponíveis.",
     image: "https://cdn.manus.space/webdev-assets/solar-panels.jpg",
     date: "2025-12-28",
-    author: "Staff Seekers",
+    author: "Eletricista Profissional",
     readTime: "10 min",
     category: "Energia Solar",
     tags: ["painéis solares", "poupança", "sustentabilidade"],
@@ -1640,7 +1640,7 @@ Painéis valorizam o imóvel. Pode vender com eles ou removê-los.
 
 Instalar painéis solares é um investimento inteligente que se paga a si próprio em poucos anos, enquanto contribui para um futuro mais sustentável. Com os incentivos disponíveis em Portugal, nunca houve melhor altura para fazer a transição para energia solar.
 
-A **Staff Seekers** é especialista em instalação de painéis solares em Bragança. Fazemos todo o processo desde o projeto até à ativação, incluindo certificação e registo na DGEG. Contacte-nos para uma avaliação gratuita.
+A **Eletricista Profissional** é especialista em instalação de painéis solares em Bragança. Fazemos todo o processo desde o projeto até à ativação, incluindo certificação e registo na DGEG. Contacte-nos para uma avaliação gratuita.
 
 **Ligue agora: 932 321 892**
 `
@@ -1651,7 +1651,7 @@ A **Staff Seekers** é especialista em instalação de painéis solares em Braga
     excerpt: "Guia essencial para proteger as crianças de acidentes elétricos. Dicas práticas e produtos de segurança.",
     image: "https://cdn.manus.space/webdev-assets/child-safety.jpg",
     date: "2025-12-20",
-    author: "Staff Seekers",
+    author: "Eletricista Profissional",
     readTime: "7 min",
     category: "Segurança",
     tags: ["segurança", "crianças", "prevenção"],
@@ -1939,7 +1939,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 A segurança elétrica em casas com crianças não é negociável. Com as medidas certas, pode proteger os seus filhos de acidentes graves enquanto lhes ensina bons hábitos de segurança que levarão para a vida.
 
-A **Staff Seekers** pode ajudá-lo a tornar a sua casa mais segura para crianças. Fazemos inspeções de segurança, instalamos proteções e damos conselhos personalizados. Não arrisque - proteja a sua família hoje.
+A **Eletricista Profissional** pode ajudá-lo a tornar a sua casa mais segura para crianças. Fazemos inspeções de segurança, instalamos proteções e damos conselhos personalizados. Não arrisque - proteja a sua família hoje.
 
 **Agende uma inspeção de segurança: 932 321 892**
 `

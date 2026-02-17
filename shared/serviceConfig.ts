@@ -86,11 +86,11 @@ export const plumberieConfig: ServiceConfig = {
   ],
 };
 
-// Configuração Eletricidade (Staff Seekers)
+// Configuração Eletricidade (Eletricista Profissional)
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',
-  businessName: 'Staff Seekers — Eletricista Profissional',
+  businessName: 'Eletricista Profissional — Eletricista Profissional',
   phone: '+351932321892',
   whatsappNumber: '351932321892',
   domain: 'staff-seekers.com',

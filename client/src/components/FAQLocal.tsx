@@ -41,7 +41,7 @@ export default function FAQLocal() {
   ] : [
     {
       question: 'Existe eletricista disponível em Mirandela ao fim de semana?',
-      answer: 'Sim, a Staff Seekers disponibiliza eletricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O meu serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
+      answer: 'Sim, a Eletricista Profissional disponibiliza eletricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O meu serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
     },
     {
       question: 'Quanto custa um eletricista em Bragança?',
@@ -61,7 +61,7 @@ export default function FAQLocal() {
     },
     {
       question: 'Qual o eletricista mais perto de Mogadouro?',
-      answer: 'A Staff Seekers é o eletricista certificado mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
+      answer: 'A Eletricista Profissional é o eletricista certificado mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
     },
   ];
 
