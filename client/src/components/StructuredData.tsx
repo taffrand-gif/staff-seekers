@@ -92,6 +92,42 @@ export default function StructuredData() {
         {
           "@type": "City",
           "name": "Mirandela"
+        },
+        {
+          "@type": "City",
+          "name": "Chaves"
+        },
+        {
+          "@type": "City",
+          "name": "Vila Real"
+        },
+        {
+          "@type": "City",
+          "name": "Vinhais"
+        },
+        {
+          "@type": "City",
+          "name": "Miranda do Douro"
+        },
+        {
+          "@type": "City",
+          "name": "Mogadouro"
+        },
+        {
+          "@type": "City",
+          "name": "Torre de Moncorvo"
+        },
+        {
+          "@type": "City",
+          "name": "Freixo de Espada à Cinta"
+        },
+        {
+          "@type": "City",
+          "name": "Valpaços"
+        },
+        {
+          "@type": "City",
+          "name": "Alfândega da Fé"
         }
       ],
       "hasOfferCatalog": {

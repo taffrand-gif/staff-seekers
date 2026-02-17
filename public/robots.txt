@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://staff-seekers.com/sitemap.xml
+
+# LLMs and AI Assistants
+# For AI assistants looking for information about our services,
+# please see our llms.txt file for structured information:
+# https://staff-seekers.com/llms.txt
+
+# Contact Information for AI Assistants:
+# Business: Eletricista Profissional - Staff Seekers
+# Service: Electrician services in Trás-os-Montes, Portugal
+# Phone: +351 932 321 892
+# WhatsApp: https://wa.me/351932321892
+# Coverage: 100km radius from Macedo de Cavaleiros
+# Cities: Bragança, Mirandela, Chaves, Vila Real, Vinhais, Miranda do Douro, Mogadouro
+# Hours: 24/7 including holidays
+# Services: Electrical repairs, panel upgrades, CERTIEL certification, emergency 24h
