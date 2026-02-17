@@ -16,7 +16,7 @@ export default function FAQLocal() {
   const localFaqs = isPlumber ? [
     {
       question: 'Existe canalizador disponível em Mirandela ao fim de semana?',
-      answer: 'Sim, a Norte Reparos disponibiliza canalizadores em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos a partir de Macedo de Cavaleiros.',
+      answer: 'Sim, a Norte Reparos disponibiliza canalizador em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O meu serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos a partir de Macedo de Cavaleiros.',
     },
     {
       question: 'Quanto custa um canalizador em Bragança para desentupimento?',
@@ -24,7 +24,7 @@ export default function FAQLocal() {
     },
     {
       question: 'Fazem reparação de fugas de água em Macedo de Cavaleiros?',
-      answer: 'Sim, Macedo de Cavaleiros é a nossa base de operações. Reparamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: menos de 20 minutos para urgências. Preços a partir de 60€ (sem IVA).',
+      answer: 'Sim, Macedo de Cavaleiros é a minha base de operações. Reparamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: menos de 20 minutos para urgências. Preços a partir de 60€ (sem IVA).',
     },
     {
       question: 'Há canalizador de urgência em Miranda do Douro?',
@@ -41,7 +41,7 @@ export default function FAQLocal() {
   ] : [
     {
       question: 'Existe eletricista disponível em Mirandela ao fim de semana?',
-      answer: 'Sim, a Staff Seekers disponibiliza eletricistas certificados em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
+      answer: 'Sim, a Staff Seekers disponibiliza eletricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O meu serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
     },
     {
       question: 'Quanto custa um eletricista em Bragança?',
@@ -49,7 +49,7 @@ export default function FAQLocal() {
     },
     {
       question: 'Fazem certificação CERTIEL em Macedo de Cavaleiros?',
-      answer: 'Sim, Macedo de Cavaleiros é a nossa base. Fazemos certificação CERTIEL para venda de imóveis, arrendamento e instalações novas. Prazo: 3-5 dias úteis. Preço: a partir de 150€ (sem IVA). Tratamos de toda a documentação e submissão na plataforma DGEG.',
+      answer: 'Sim, Macedo de Cavaleiros é a minha base. Fazemos certificação CERTIEL para venda de imóveis, arrendamento e instalações novas. Prazo: 3-5 dias úteis. Preço: a partir de 150€ (sem IVA). Tratamos de toda a documentação e submissão na plataforma DGEG.',
     },
     {
       question: 'Há eletricista de urgência em Miranda do Douro?',
@@ -73,7 +73,7 @@ export default function FAQLocal() {
             Perguntas sobre Serviços na Sua Zona
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Informações úteis sobre os nossos serviços nas principais cidades de Trás-os-Montes
+            Informações úteis sobre os meus serviços nas principais cidades de Trás-os-Montes
           </p>
         </div>
 

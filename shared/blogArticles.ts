@@ -493,7 +493,7 @@ A **Norte Reparos** oferece serviços de manutenção certificada de esquentador
     content: `
 # Como Escolher um Canalizador Profissional de Confiança
 
-Escolher o canalizador certo pode fazer toda a diferença entre um trabalho bem feito e um pesadelo de reparações mal executadas. Neste guia, vamos ajudá-lo a identificar profissionais qualificados e evitar fraudes.
+Escolher o canalizador certo pode fazer toda a diferença entre um trabalho bem feito e um pesadelo de reparações mal executadas. Neste guia, vamos ajudá-lo a identificar profissional qualificado e evitar fraudes.
 
 ## Critérios Essenciais
 

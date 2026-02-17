@@ -14,7 +14,7 @@ export default function CompanyInfo() {
   const reasons = [
     {
       title: 'Confiança Local',
-      description: 'Os nossos técnicos são da terra. Identificados, educados e discretos. Tratamos a sua casa como a nossa.',
+      description: 'Os o meu serviço são da terra. Identificados, educados e discretos. Trato a sua casa como a minha.',
     },
     {
       title: 'Preço Justo e Afixado',
@@ -39,7 +39,7 @@ export default function CompanyInfo() {
             {config.company.longDescription}
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
-            Temos ao seu dispor uma vasta equipa de {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
+            Tenho ao seu dispor anos de experiência como {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
           </p>
         </div>
 

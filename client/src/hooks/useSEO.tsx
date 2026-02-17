@@ -81,7 +81,7 @@ export function useSEO({
     setMetaTag('twitter:description', description);
     setMetaTag('twitter:image', finalImage);
 
-    // Canonical URL
+    // URL canónica
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');

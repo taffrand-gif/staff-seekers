@@ -1,5 +1,5 @@
-// Page SEO optimisée pour "Eletricista Bragança"
-// Contenu 100% unique, conforme aux politiques Google
+// Página SEO otimizada para "Eletricista Bragança"
+// Conteúdo 100% único, conforme aux politiques Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -17,7 +17,7 @@ export default function Braganca() {
   useEffect(() => {
     document.title = "Eletricista em Bragança, Macedo, Mirandela - Staff Seekers - +351 932 321 892";
     
-    // Meta description optimisée
+    // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -35,7 +35,7 @@ export default function Braganca() {
     metaKeywords.setAttribute('content', 'eletricista urgente bragança, eletricista 24 horas bragança, eletricista bragança, eletricista profissional bragança, instalação elétrica bragança, quadro elétrico bragança, certificação elétrica bragança, reparação elétrica bragança, eletricista trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

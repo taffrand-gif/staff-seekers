@@ -1,5 +1,5 @@
-// Page SEO optimisée pour "Eletricista Vila Real"
-// Contenu 100% unique, conforme aux politiques Google
+// Página SEO otimizada para "Eletricista Vila Real"
+// Conteúdo 100% único, conforme aux politiques Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -17,7 +17,7 @@ export default function VilaReal() {
   useEffect(() => {
     document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892";
     
-    // Meta description optimisée
+    // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -35,7 +35,7 @@ export default function VilaReal() {
     metaKeywords.setAttribute('content', 'eletricista urgente vila real, eletricista 24 horas vila real, eletricista vila real, eletricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, reparação elétrica vila real, eletricista trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
