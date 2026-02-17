@@ -78,7 +78,7 @@ const InnovativeHero: React.FC = () => {
             {config.hero.subtitle}
           </p>
           
-          {/* Boutons CTA */}
+          {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-16">
             <a
               href={`tel:${config.phone.replace(/\s/g, '')}`}

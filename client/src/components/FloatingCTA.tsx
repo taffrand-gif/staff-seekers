@@ -18,7 +18,7 @@ export default function FloatingCTA() {
   return (
     <div className={`fixed bottom-4 right-4 z-50 transition-all duration-300 ${isMinimized ? 'w-12 h-12' : 'w-auto'}`}>
       {isMinimized ? (
-        // Bouton minimisé
+        // Botão minimizado
         <button
           onClick={() => setIsMinimized(false)}
           className="w-12 h-12 flex items-center justify-center rounded-full shadow-2xl animate-bounce"
@@ -61,7 +61,7 @@ export default function FloatingCTA() {
             </p>
             
             <div className="space-y-3">
-              {/* Bouton téléphone */}
+              {/* Botão telefone */}
               <a
                 href={`tel:${config.phone.replace(/\s/g, '')}`}
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
@@ -71,7 +71,7 @@ export default function FloatingCTA() {
                 <span>LIGAR AGORA</span>
               </a>
 
-              {/* Bouton WhatsApp */}
+              {/* Botão WhatsApp */}
               <a
                 href={whatsappUrl}
                 target="_blank"

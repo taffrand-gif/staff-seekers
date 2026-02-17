@@ -53,7 +53,7 @@ export function FacebookPixel({ pixelId }: FacebookPixelProps) {
 
 // Helper functions pour tracker les événements
 export const trackEvent = {
-  // Lead: Formulaire de devis soumis
+  // Lead: Formulário de orçamento submetido
   lead: (value?: number, currency = 'EUR') => {
     if (window.fbq) {
       window.fbq('track', 'Lead', {

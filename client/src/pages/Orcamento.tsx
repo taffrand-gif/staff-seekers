@@ -30,7 +30,7 @@ export default function Orcamento() {
         </div>
       </section>
 
-      {/* Formulaire */}
+      {/* Formulário */}
       <section className="py-12">
         <div className="container">
           <QuoteForm />

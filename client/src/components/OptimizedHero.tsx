@@ -36,7 +36,7 @@ const OptimizedHero: React.FC = () => {
             {ACTIVE_CONFIG.heroSubtitle}
           </p>
           
-          {/* Boutons CTA */}
+          {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
               href={`tel:${config.phone}`}

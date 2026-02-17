@@ -105,7 +105,7 @@ export default function PriceTable() {
 
         <div className="grid md:grid-cols-2 gap-12">
             
-            {/* Intervention Grid */}
+            {/* Grelha de intervenções */}
             <div>
                  <h3 className="text-2xl font-bold mb-6 flex items-center">
                     <Euro className="w-6 h-6 mr-2 text-[var(--site-primary)]" />

@@ -36,7 +36,7 @@ export default function HeroUrgence({ ville, interventionsCount = 480 }: HeroUrg
         📞 {formatPhone(config.phone)}
       </a>
 
-      {/* Bouton WhatsApp */}
+      {/* Botão WhatsApp */}
       <a href={whatsappLink} className="btn-whatsapp" onClick={() => trackWhatsAppClick()}>
         💬 WhatsApp Urgência
       </a>

@@ -215,7 +215,7 @@ export default function QuoteForm() {
             </div>
           </div>
 
-          {/* Bouton de soumission */}
+          {/* Botão de submissão */}
           <Button
             type="submit"
             disabled={isSubmitting}
