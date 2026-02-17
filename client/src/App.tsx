@@ -16,10 +16,15 @@ import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
 import Vinhais from "./pages/cidades/Vinhais";
 import MirandaDouro from "./pages/cidades/MirandaDouro";
 import Mogadouro from "./pages/cidades/Mogadouro";
+import TorreMoncorvo from "./pages/cidades/TorreMoncorvo";
+import FreixoEspadaCinta from "./pages/cidades/FreixoEspadaCinta";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoInstalarCandeeiroTeto from "./pages/blog/ComoInstalarCandeeiroTeto";
 import PouparEnergiaEletricaDicas from "./pages/blog/PouparEnergiaEletricaDicas";
 import QuandoTrocarInstalacaoEletrica from "./pages/blog/QuandoTrocarInstalacaoEletrica";
+import SinaisProblemasEletricos from "./pages/blog/SinaisProblemasEletricos";
+import QuadroEletricoAntigo from "./pages/blog/QuadroEletricoAntigo";
+import CertificacaoEletricaCertiel from "./pages/blog/CertificacaoEletricaCertiel";
 
 
 function Router() {
@@ -35,10 +40,15 @@ function Router() {
       <Route path={"/eletricista-vinhais"} component={Vinhais} />
       <Route path={"/eletricista-miranda-douro"} component={MirandaDouro} />
       <Route path={"/eletricista-mogadouro"} component={Mogadouro} />
+      <Route path={"/eletricista-torre-moncorvo"} component={TorreMoncorvo} />
+      <Route path={"/eletricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
       <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />
       <Route path={"/blog/quando-trocar-instalacao-eletrica"} component={QuandoTrocarInstalacaoEletrica} />
+      <Route path={"/blog/sinais-problemas-eletricos-casa"} component={SinaisProblemasEletricos} />
+      <Route path={"/blog/quadro-eletrico-antigo-fusiveis-trocar"} component={QuadroEletricoAntigo} />
+      <Route path={"/blog/certificacao-eletrica-certiel-guia"} component={CertificacaoEletricaCertiel} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
