@@ -27,7 +27,7 @@ import Testimonials from '@/components/Testimonials';
 import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
+
 import MobileCallButton from '@/components/MobileCallButton';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
@@ -93,7 +93,7 @@ export default function OptimizedHome() {
       <Contactos />
       
       <Footer />
-      <FloatingButtons />
+      
       <MobileCallButton />
       <ScrollToTop />
     </>

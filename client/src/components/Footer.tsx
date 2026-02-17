@@ -45,7 +45,6 @@ export default function Footer() {
                 { id: 'home', label: 'Home' },
                 { id: 'servicos', label: 'Serviços' },
                 { id: 'precos', label: 'Preços' },
-                { id: 'equipa', label: 'Equipa' },
                 { id: 'trabalhos', label: 'Trabalhos' },
                 { id: 'faq', label: 'FAQ' },
                 { id: 'testemunhos', label: 'Testemunhos' },
