@@ -1,7 +1,6 @@
 import { useRoute } from "wouter";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
@@ -100,7 +99,6 @@ export default function BlogArticle() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
-    </div>
+</div>
   );
 }

@@ -3,7 +3,6 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
@@ -316,7 +315,6 @@ export default function Braganca() {
       </main>
       
       <Footer />
-      <FloatingButtons />
-    </>
+</>
   );
 }

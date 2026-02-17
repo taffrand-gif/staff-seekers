@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 import { Card } from "@/components/ui/card";
@@ -70,7 +69,6 @@ export default function Trabalhos() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
-    </div>
+</div>
   );
 }

@@ -1,7 +1,6 @@
 import { useRoute } from "wouter";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import { ACTIVE_CONFIG, CITIES } from "../../../shared/serviceConfig";
 import { IMAGES } from "../../../shared/images";
@@ -69,9 +68,7 @@ export default function CityPage() {
   return (
     <>
       <Header />
-      <WhatsAppButton />
-
-      {/* Hero Section with Image */}
+{/* Hero Section with Image */}
       <section className="relative bg-gray-900 py-20">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-40"

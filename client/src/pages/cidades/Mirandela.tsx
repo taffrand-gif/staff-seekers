@@ -3,7 +3,6 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
@@ -312,7 +311,6 @@ export default function Mirandela() {
       </main>
       
       <Footer />
-      <FloatingButtons />
-    </>
+</>
   );
 }

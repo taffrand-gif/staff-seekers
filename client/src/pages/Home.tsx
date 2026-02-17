@@ -20,7 +20,6 @@ import Equipa from '@/components/Equipa';
 import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
@@ -71,8 +70,7 @@ export default function Home() {
           <Contactos />
         </main>
         <Footer />
-        <FloatingButtons />
-        <ScrollToTop />
+<ScrollToTop />
       </div>
     </>
   );

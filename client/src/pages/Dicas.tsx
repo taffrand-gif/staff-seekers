@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 
@@ -23,9 +22,7 @@ export default function Dicas() {
   return (
     <>
       <Header />
-      <WhatsAppButton />
-
-      {/* Hero Section */}
+{/* Hero Section */}
       <section className="bg-gradient-to-r from-red-50 to-red-100 py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
