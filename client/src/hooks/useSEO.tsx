@@ -112,9 +112,19 @@ export function generateSEOTitle(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    // Format: [Service] em [Ville], Macedo, Mirandela, Bragança - [Entreprise] - [Phone]
-    // Exemple: "Eletricista em Bragança, Macedo, Mirandela - Staff Seekers - +351 932 321 892"
-    return `${config.name} em ${ville}, Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
+    // Liste des 3 villes principales
+    const villesPrincipales = ["Macedo", "Mirandela", "Bragança"];
+    
+    // Si la ville est déjà dans la liste, on ne l'ajoute pas en double
+    const villeNormalisee = ville.replace(/[^a-zA-Zàáâãçéêíóôõú]/g, '');
+    const villesAInclure = villesPrincipales.filter(v => 
+      !v.toLowerCase().includes(villeNormalisee.toLowerCase()) && 
+      !villeNormalisee.toLowerCase().includes(v.toLowerCase())
+    );
+    
+    // Format: [Service] em [Ville], [autres villes] - [Entreprise] - [Phone]
+    const autresVilles = villesAInclure.length > 0 ? `, ${villesAInclure.join(', ')}` : '';
+    return `${config.name} em ${ville}${autresVilles} - ${config.businessName} - ${config.phone}`;
   }
   
   // Page d'accueil

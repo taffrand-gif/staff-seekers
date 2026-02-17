@@ -13,7 +13,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Mirandela, Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Mirandela, Macedo, Bragança - Staff Seekers - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
