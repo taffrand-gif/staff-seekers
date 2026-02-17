@@ -350,7 +350,16 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     seo: {
-      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'eletricista urgente', 'instalação elétrica'],
+      keywords: [
+        'eletricista bragança', 'eletricista mirandela', 'eletricista macedo de cavaleiros',
+        'eletricista urgente bragança', 'eletricista 24 horas mirandela', 'eletricista chaves',
+        'eletricista vila real', 'eletricista vinhais', 'eletricista miranda do douro',
+        'eletricista mogadouro', 'eletricista torre de moncorvo', 'eletricista trás-os-montes',
+        'quadro elétrico bragança', 'quadro elétrico mirandela', 'certificação certiel bragança',
+        'certificação certiel mirandela', 'curto circuito bragança', 'avaria elétrica mirandela',
+        'disjuntor a disparar', 'tomada não funciona', 'eletricista urgente 24h',
+        'eletricista profissional', 'certificação elétrica trás-os-montes'
+      ],
       ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
   },
