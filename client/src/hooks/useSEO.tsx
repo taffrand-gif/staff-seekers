@@ -112,14 +112,14 @@ export function generateSEOTitle(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    // Format: [Service] em [Ville] - [Entreprise] - [Phone]
-    // Exemple: "Eletricista em Bragança - Staff Seekers - +351 932 321 892"
-    return `${config.name} em ${ville} - ${config.businessName} - ${config.phone}`;
+    // Format: [Service] em [Ville], Macedo, Mirandela, Bragança - [Entreprise] - [Phone]
+    // Exemple: "Eletricista em Bragança, Macedo, Mirandela - Staff Seekers - +351 932 321 892"
+    return `${config.name} em ${ville}, Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
   }
   
   // Page d'accueil
-  // Exemple: "Eletricista Certificado 24h - Staff Seekers - +351 932 321 892"
-  return `${config.name} Certificado 24h - ${config.businessName} - ${config.phone}`;
+  // Exemple: "Eletricista Certificado 24h em Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892"
+  return `${config.name} Certificado 24h em Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
 }
 
 // Fonction helper pour générer la meta description

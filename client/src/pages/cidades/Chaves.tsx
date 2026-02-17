@@ -13,7 +13,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Chaves - Staff Seekers - +351 932 321 892";
+    document.title = "Eletricista em Chaves, Macedo, Mirandela, Bragança - Staff Seekers - +351 932 321 892";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
