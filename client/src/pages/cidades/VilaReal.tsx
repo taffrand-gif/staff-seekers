@@ -15,7 +15,7 @@ export default function VilaReal() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Vila Real | Instalação e Reparação Elétrica | Staff Seekers";
+    document.title = "Eletricista em VilaReal - Staff Seekers - +351 932 321 892";
     
     // Meta description optimisée
     let metaDescription = document.querySelector('meta[name="description"]');
