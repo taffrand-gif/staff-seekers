@@ -1,5 +1,5 @@
-// Página SEO otimizada para "Eletricista Vila Real"
-// Conteúdo 100% único, conforme aux politiques Google
+// SEO optimized page for "Eletricista Vila Real"
+// 100% unique content, conforme aux politiques Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -17,7 +17,7 @@ export default function VilaReal() {
   useEffect(() => {
     document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
     
-    // Meta description otimizada
+    // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -25,7 +25,7 @@ export default function VilaReal() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Vila Real, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
-    // Meta keywords SEO
+    // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
       metaKeywords = document.createElement('meta');
@@ -35,7 +35,7 @@ export default function VilaReal() {
     metaKeywords.setAttribute('content', 'eletricista urgente vila real, eletricista 24 horas vila real, eletricista vila real, eletricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, reparação elétrica vila real, eletricista trás-os-montes');
     
     
-    // URL canónica
+    // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
@@ -44,7 +44,7 @@ export default function VilaReal() {
     }
     canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vila-real');
     
-    // Schema.org LocalBusiness pour Vila Real
+    // Schema.org LocalBusiness for Vila Real
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.text = JSON.stringify({

@@ -64,7 +64,7 @@ export default function HeroUrgence({ ville, interventionsCount = 480 }: HeroUrg
   );
 }
 
-// Fonction pour formater le numéro de téléphone
+// Format phone number
 function formatPhone(phone: string): string {
   // Format: 928 484 451
   return phone.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');

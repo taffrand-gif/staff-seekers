@@ -32,7 +32,7 @@ export default function RecentCalls() {
   );
 }
 
-// Fonction pour générer des appels récents aléatoires
+// Generate random recent calls
 function generateRecentCalls(count: number): RecentCall[] {
   const config = ACTIVE_CONFIG;
   const calls: RecentCall[] = [];
@@ -57,12 +57,12 @@ function generateRecentCalls(count: number): RecentCall[] {
   return calls;
 }
 
-// Fonction pour obtenir un élément aléatoire d'un tableau
+// Get random element from array
 function getRandomElement<T>(array: T[]): T {
   return array[Math.floor(Math.random() * array.length)];
 }
 
-// Fonction pour générer un timestamp aléatoire réaliste
+// Generate realistic random timestamp
 function getRandomTime(): string {
   const timeOptions = [
     'há alguns minutos',

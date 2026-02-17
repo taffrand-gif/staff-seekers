@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // Contact section with form and map
 // - Bold form with thick borders
 // - Direct contact information

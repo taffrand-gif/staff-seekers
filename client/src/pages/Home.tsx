@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // Main landing page assembling all components
 // - Header with sticky navigation
 // - Hero with massive title and CTA

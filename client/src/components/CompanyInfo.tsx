@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Asymmetric layout with text and image
 // - Thick borders and bold headings
 // - Clear value propositions with checkmarks
@@ -39,7 +39,7 @@ export default function CompanyInfo() {
             {config.company.longDescription}
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
-            Tenho ao seu dispor anos de experiência como {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
+            Temos ao seu dispor uma equipa experiente de {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // This context provides site-specific configuration to all components
 
 import React, { createContext, useContext, ReactNode } from 'react';

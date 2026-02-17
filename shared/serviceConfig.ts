@@ -39,7 +39,7 @@ export interface ServiceConfig {
 export const plumberieConfig: ServiceConfig = {
   type: 'plomberie',
   name: 'Canalizador',
-  businessName: 'Norte Reparos — Canalizador Profissional',
+  businessName: 'Canalizador Profissional 24h',
   phone: '+351928484451',
   whatsappNumber: '351928484451',
   domain: 'norte-reparos.com',
@@ -90,7 +90,7 @@ export const plumberieConfig: ServiceConfig = {
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',
-  businessName: 'Eletricista Profissional — Eletricista Profissional',
+  businessName: 'Eletricista Profissional 24h',
   phone: '+351932321892',
   whatsappNumber: '351932321892',
   domain: 'staff-seekers.com',

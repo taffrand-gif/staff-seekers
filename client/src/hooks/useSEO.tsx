@@ -81,7 +81,7 @@ export function useSEO({
     setMetaTag('twitter:description', description);
     setMetaTag('twitter:image', finalImage);
 
-    // URL canónica
+    // Canonical URL
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');
@@ -107,29 +107,28 @@ export function useSEO({
   }, [title, description, canonical, schema, image, keywords, ogType, author, publishedTime, modifiedTime]);
 }
 
-// Fonction helper pour générer le titre SEO selon le format requis
+// SEO Title generator - Dynamic based on city
 export function generateSEOTitle(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    // Liste des 3 villes principales
+    // Main cities list
     const villesPrincipales = ["Macedo", "Mirandela", "Bragança"];
     
-    // Si la ville est déjà dans la liste, on ne l'ajoute pas en double
+    // Avoid duplicates
     const villeNormalisee = ville.replace(/[^a-zA-Zàáâãçéêíóôõú]/g, '');
     const villesAInclure = villesPrincipales.filter(v => 
       !v.toLowerCase().includes(villeNormalisee.toLowerCase()) && 
       !villeNormalisee.toLowerCase().includes(v.toLowerCase())
     );
     
-    // Format: [Service] em [Ville], [autres villes] - [Entreprise] - [Phone]
+    // Format: [Service] em [City], [other cities] - [Phone]
     const autresVilles = villesAInclure.length > 0 ? `, ${villesAInclure.join(', ')}` : '';
-    return `${config.name} em ${ville}${autresVilles} - ${config.businessName} - ${config.phone}`;
+    return `${config.name} em ${ville}${autresVilles} - ${config.phone}`;
   }
   
-  // Page d'accueil
-  // Exemple: "Eletricista Certificado 24h em Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892"
-  return `${config.name} Certificado 24h em Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
+  // Homepage: [Service] 24h em Macedo, Mirandela, Bragança - [Phone]
+  return `${config.name} 24h em Macedo, Mirandela, Bragança - ${config.phone}`;
 }
 
 // Fonction helper pour générer la meta description

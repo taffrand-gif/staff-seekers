@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Thick borders on form elements
 // - Clear visual hierarchy
 // - Instant price calculation

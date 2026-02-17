@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Massive title with ExtraBold Poppins
 // - Full-width hero with overlay
 // - Oversized CTA button with hard shadow

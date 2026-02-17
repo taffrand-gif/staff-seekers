@@ -1,5 +1,5 @@
 // Page SEO optimizada para "Eletricista Mirandela"
-// Conteúdo 100% único, conforme políticas Google
+// 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,7 +15,7 @@ export default function Mirandela() {
   useEffect(() => {
     document.title = "Eletricista em Mirandela, Macedo, Bragança - Eletricista Profissional - +351 932 321 892";
     
-    // Meta description otimizada
+    // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -23,7 +23,7 @@ export default function Mirandela() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Eletricista certificado em Mirandela, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para agricultura e indústria.');
-    // Meta keywords SEO
+    // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
       metaKeywords = document.createElement('meta');
@@ -33,7 +33,7 @@ export default function Mirandela() {
     metaKeywords.setAttribute('content', 'eletricista urgente mirandela, eletricista 24 horas mirandela, eletricista mirandela, eletricista profissional mirandela, instalação elétrica mirandela, quadro elétrico mirandela, certificação elétrica mirandela, reparação elétrica mirandela, eletricista trás-os-montes');
     
     
-    // URL canónica
+    // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
