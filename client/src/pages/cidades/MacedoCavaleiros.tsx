@@ -3,6 +3,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
@@ -253,6 +254,12 @@ export default function MacedoCavaleiros() {
             </a>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Macedo de Cavaleiros" 
+          currentCitySlug="eletricista-macedocavaleiros" 
+        />
       </main>
 
       <Footer />

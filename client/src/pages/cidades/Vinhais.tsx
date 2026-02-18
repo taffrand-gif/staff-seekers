@@ -1,6 +1,7 @@
 // SEO optimized page for "Eletricista Vinhais"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
@@ -125,6 +126,12 @@ export default function Vinhais() {
             </a>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Vinhais" 
+          currentCitySlug="eletricista-vinhais" 
+        />
       </main>
       <Footer />
     </div>

@@ -3,6 +3,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
@@ -308,6 +309,12 @@ export default function Mirandela() {
             </div>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Mirandela" 
+          currentCitySlug="eletricista-mirandela" 
+        />
       </main>
       
       <Footer />
