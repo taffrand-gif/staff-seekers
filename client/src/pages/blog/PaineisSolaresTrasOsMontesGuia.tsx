@@ -1,5 +1,5 @@
-import React from
-import { Link } from 'wouter'; 'react';
+import React from 'react';
+import { Link } from 'wouter';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
