@@ -20,7 +20,7 @@ import Equipa from '@/components/Equipa';
 import Blog from '@/components/Blog';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
-import SEOHead from '@/components/SEOHead';
+import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       {/* SEO Components - Don't render visible content */}
-      <SEOHead />
+      <SEOHeadEnhanced pageType="home" />
       <StructuredData />
       
       <div className="min-h-screen flex flex-col">

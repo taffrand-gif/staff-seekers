@@ -3,7 +3,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import SEOHead from '@/components/SEOHead';
+import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
@@ -83,7 +83,7 @@ export default function Servicos() {
 
   return (
     <>
-      <SEOHead />
+      <SEOHeadEnhanced pageType="service" />
       <StructuredData />
       
       <Header />
