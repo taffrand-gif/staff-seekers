@@ -33,5 +33,11 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+# Arquivos para indexação por IA
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /ai-plugin.json
+Allow: /.well-known/ai-plugin.json
+
 # Sitemap
 Sitemap: https://staff-seekers.com/sitemap.xml

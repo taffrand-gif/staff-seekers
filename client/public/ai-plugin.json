@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Staff Seekers - Eletricista Profissional",
+  "name_for_model": "staff_seekers_eletricista",
+  "description_for_human": "Eletricista certificado 24h em Trás-os-Montes. Serviços de reparação elétrica, quadros elétricos, certificação CERTIEL, painéis solares.",
+  "description_for_model": "Plugin para acessar informações sobre serviços de eletricista profissional em Trás-os-Montes, Portugal. Inclui instalação elétrica, reparação de avarias, certificação CERTIEL, painéis solares, urgências 24h. Cobre 10 cidades na região.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://staff-seekers.com/.well-known/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://staff-seekers.com/logo.png",
+  "contact_email": "contacto@staff-seekers.com",
+  "legal_info_url": "https://staff-seekers.com/terms",
+  "human_url": "https://staff-seekers.com"
+}
