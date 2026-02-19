@@ -13,6 +13,60 @@ const BlogIndex: React.FC = () => {
   // Articles data - à remplacer par API/database plus tard
   const articles = [
     {
+      slug: 'automacao-residencial-casa-inteligente',
+      title: 'Automação Residencial em Trás-os-Montes: Guia Completo para Casa Inteligente',
+      excerpt: 'Transforme a sua casa numa casa inteligente. Guia completo sobre domótica, iluminação inteligente, segurança e climatização automatizada.',
+      category: 'Automação',
+      readTime: '12',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/automacao-residencial.jpg'
+    },
+    {
+      slug: 'protecao-sobrecargas-eletricas-casa',
+      title: 'Como Proteger a Sua Casa de Sobrecargas Elétricas',
+      excerpt: 'Aprenda a proteger a sua casa de sobrecargas elétricas. Disjuntores, DPS, réguas com proteção e dicas práticas para evitar danos.',
+      category: 'Segurança Elétrica',
+      readTime: '10',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/protecao-sobrecargas.jpg'
+    },
+    {
+      slug: 'iluminacao-exterior-jardim-guia',
+      title: 'Iluminação Exterior e de Jardim: Guia Completo 2026',
+      excerpt: 'Guia completo de iluminação exterior: LED, IP65, segurança, ambiance e economia de energia. Transforme o exterior da sua casa.',
+      category: 'Iluminação',
+      readTime: '11',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/iluminacao-exterior.jpg'
+    },
+    {
+      slug: 'instalacao-eletrica-casa-antiga-renovacao',
+      title: 'Renovação Elétrica em Casas Antigas de Trás-os-Montes',
+      excerpt: 'Guia completo para renovar a instalação elétrica em casas antigas de pedra e granito. Normas, custos e soluções práticas.',
+      category: 'Renovação',
+      readTime: '13',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/casa-antiga.jpg'
+    },
+    {
+      slug: 'carregador-veiculo-eletrico-casa',
+      title: 'Instalar Carregador de Veículo Elétrico em Casa: Guia 2026',
+      excerpt: 'Guia completo para instalar wallbox em casa. Tipos de carregadores, potência, custos, incentivos e instalação profissional.',
+      category: 'Veículos Elétricos',
+      readTime: '14',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/carregador-ev.jpg'
+    },
+    {
+      slug: 'poupanca-energia-inverno-tras-os-montes',
+      title: 'Poupar Energia no Inverno em Trás-os-Montes: 10 Dicas Práticas',
+      excerpt: '10 dicas práticas para poupar energia no inverno transmontano. Aquecimento, iluminação, isolamento e soluções elétricas eficientes.',
+      category: 'Eficiência Energética',
+      readTime: '12',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/inverno.jpg'
+    },
+    {
       slug: 'como-instalar-candeeiro-teto-seguranca',
       title: 'Como Instalar um Candeeiro de Teto com Segurança: Guia para Iniciantes',
       excerpt: 'Aprenda a instalar um candeeiro de teto de forma segura e correta, seguindo as normas de segurança elétrica. Guia passo a passo para projetos DIY.',
@@ -40,31 +94,58 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/instalacao-eletrica.jpg'
     },
     {
-      slug: 'quadro-eletrico-disparar-causas',
-      title: 'Quadro Elétrico a Disparar Constantemente? 7 Causas Comuns',
-      excerpt: 'Descubra as 7 causas mais comuns para um quadro elétrico que dispara constantemente e saiba quando chamar um electricista profissional.',
-      category: 'Problemas/Soluções',
-      readTime: '6',
-      date: '12 Fev 2026',
-      imageUrl: '/images-optimized/blog/quadro-eletrico.jpg'
+      slug: 'sinais-problemas-eletricos-casa',
+      title: '7 Sinais de Problemas Elétricos em Casa - Quando Chamar Electricista',
+      excerpt: 'Aprenda a identificar os 7 sinais de alerta de problemas elétricos em casa. Saiba quando é urgente chamar um electricista profissional.',
+      category: 'Segurança Elétrica',
+      readTime: '9',
+      date: '15 Fev 2026',
+      imageUrl: '/images-optimized/blog/sinais-problemas.jpg'
     },
     {
-      slug: 'certificacao-energetica-obrigatoria',
-      title: 'Certificação Energética em Portugal: É Obrigatório para a sua Casa?',
-      excerpt: 'Tudo sobre a certificação energética obrigatória em Portugal: quando é necessária, como obter e quais as penalizações por não cumprir.',
-      category: 'Legislação',
+      slug: 'quadro-eletrico-antigo-fusiveis-trocar',
+      title: 'Quadro Elétrico Antigo com Fusíveis: Quando e Como Trocar',
+      excerpt: 'Guia completo sobre quadros elétricos antigos com fusíveis cerâmicos. Saiba quando trocar, custos e benefícios da modernização.',
+      category: 'Modernização',
       readTime: '10',
-      date: '11 Fev 2026',
-      imageUrl: '/images-optimized/blog/certificacao-energetica.jpg'
+      date: '16 Fev 2026',
+      imageUrl: '/images-optimized/blog/quadro-antigo.jpg'
     },
     {
-      slug: 'electricista-24h-macedo-cavaleiros',
-      title: 'Electricista 24h em Macedo de Cavaleiros: Como Atuamos em Caso de Urgência',
-      excerpt: 'Conheça o nosso serviço de electricista 24 horas em Macedo de Cavaleiros e saiba como atuamos em situações de urgência elétrica.',
-      category: 'Local',
-      readTime: '5',
-      date: '10 Fev 2026',
-      imageUrl: '/images-optimized/blog/electricista-24h.jpg'
+      slug: 'certificacao-eletrica-certiel-guia',
+      title: 'Certificação Elétrica CERTIEL: Guia Completo 2026',
+      excerpt: 'Tudo sobre a certificação elétrica CERTIEL em Portugal: quando é obrigatória, como obter, custos e validade.',
+      category: 'Legislação',
+      readTime: '11',
+      date: '17 Fev 2026',
+      imageUrl: '/images-optimized/blog/certiel.jpg'
+    },
+    {
+      slug: 'como-escolher-electricista-certificado',
+      title: 'Como Escolher um Electricista Certificado: 7 Critérios Essenciais',
+      excerpt: 'Guia completo para escolher um electricista certificado de confiança. 7 critérios essenciais para não errar na escolha.',
+      category: 'Dicas',
+      readTime: '8',
+      date: '18 Fev 2026',
+      imageUrl: '/images-optimized/blog/escolher-electricista.jpg'
+    },
+    {
+      slug: 'custo-electricista-tras-os-montes-precos',
+      title: 'Quanto Custa um Electricista em Trás-os-Montes? Tabela de Preços 2026',
+      excerpt: 'Tabela completa de preços de electricista em Trás-os-Montes. Valores por serviço, urgências e fatores que influenciam o custo.',
+      category: 'Preços',
+      readTime: '9',
+      date: '18 Fev 2026',
+      imageUrl: '/images-optimized/blog/precos.jpg'
+    },
+    {
+      slug: 'paineis-solares-tras-os-montes-guia',
+      title: 'Painéis Solares em Trás-os-Montes: Guia Completo 2026',
+      excerpt: 'Guia completo sobre painéis solares em Trás-os-Montes: custos, incentivos, instalação e retorno do investimento.',
+      category: 'Energia Solar',
+      readTime: '15',
+      date: '18 Fev 2026',
+      imageUrl: '/images-optimized/blog/paineis-solares.jpg'
     }
   ];
 

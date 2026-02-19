@@ -314,6 +314,30 @@
       "destination": "/blog/paineis-solares-tras-os-montes-guia.html"
     },
     {
+      "source": "/blog/automacao-residencial-casa-inteligente",
+      "destination": "/blog/automacao-residencial-casa-inteligente.html"
+    },
+    {
+      "source": "/blog/protecao-sobrecargas-eletricas-casa",
+      "destination": "/blog/protecao-sobrecargas-eletricas-casa.html"
+    },
+    {
+      "source": "/blog/iluminacao-exterior-jardim-guia",
+      "destination": "/blog/iluminacao-exterior-jardim-guia.html"
+    },
+    {
+      "source": "/blog/instalacao-eletrica-casa-antiga-renovacao",
+      "destination": "/blog/instalacao-eletrica-casa-antiga-renovacao.html"
+    },
+    {
+      "source": "/blog/carregador-veiculo-eletrico-casa",
+      "destination": "/blog/carregador-veiculo-eletrico-casa.html"
+    },
+    {
+      "source": "/blog/poupanca-energia-inverno-tras-os-montes",
+      "destination": "/blog/poupanca-energia-inverno-tras-os-montes.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

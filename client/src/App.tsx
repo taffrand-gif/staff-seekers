@@ -61,6 +61,12 @@ const CertificacaoEletricaCertiel = lazy(() => import("@/pages/blog/Certificacao
 const ComoEscolherElectricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherElectricistaCertificado"));
 const CustoElectricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoElectricistaTrasOsMontesPrecos"));
 const PaineisSolaresTrasOsMontesGuia = lazy(() => import("@/pages/blog/PaineisSolaresTrasOsMontesGuia"));
+const AutomacaoResidencialGuia = lazy(() => import("@/pages/blog/AutomacaoResidencialGuia"));
+const ProtecaoSobrecargas = lazy(() => import("@/pages/blog/ProtecaoSobrecargas"));
+const IluminacaoExteriorJardim = lazy(() => import("@/pages/blog/IluminacaoExteriorJardim"));
+const InstalacaoEletricaCasaAntiga = lazy(() => import("@/pages/blog/InstalacaoEletricaCasaAntiga"));
+const CarregadorVeiculoEletrico = lazy(() => import("@/pages/blog/CarregadorVeiculoEletrico"));
+const PoupancaEnergiaInverno = lazy(() => import("@/pages/blog/PoupancaEnergiaInverno"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 
 // Simple loading fallback component
@@ -124,6 +130,12 @@ function Router() {
         <Route path={"/blog/como-escolher-electricista-certificado"} component={ComoEscolherElectricistaCertificado} />
         <Route path={"/blog/custo-electricista-tras-os-montes-precos"} component={CustoElectricistaTrasOsMontesPrecos} />
         <Route path={"/blog/paineis-solares-tras-os-montes-guia"} component={PaineisSolaresTrasOsMontesGuia} />
+        <Route path={"/blog/automacao-residencial-casa-inteligente"} component={AutomacaoResidencialGuia} />
+        <Route path={"/blog/protecao-sobrecargas-eletricas-casa"} component={ProtecaoSobrecargas} />
+        <Route path={"/blog/iluminacao-exterior-jardim-guia"} component={IluminacaoExteriorJardim} />
+        <Route path={"/blog/instalacao-eletrica-casa-antiga-renovacao"} component={InstalacaoEletricaCasaAntiga} />
+        <Route path={"/blog/carregador-veiculo-eletrico-casa"} component={CarregadorVeiculoEletrico} />
+        <Route path={"/blog/poupanca-energia-inverno-tras-os-montes"} component={PoupancaEnergiaInverno} />
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
