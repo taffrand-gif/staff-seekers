@@ -102,6 +102,18 @@
       "destination": "/faq.html"
     },
     {
+      "source": "/blog/como-escolher-eletricista-certificado",
+      "destination": "/blog/como-escolher-eletricista-certificado.html"
+    },
+    {
+      "source": "/blog/custo-eletricista-tras-os-montes-precos",
+      "destination": "/blog/custo-eletricista-tras-os-montes-precos.html"
+    },
+    {
+      "source": "/blog/paineis-solares-tras-os-montes-guia",
+      "destination": "/blog/paineis-solares-tras-os-montes-guia.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

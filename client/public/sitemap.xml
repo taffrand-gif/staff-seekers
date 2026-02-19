@@ -131,4 +131,23 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://staff-seekers.com/blog/como-escolher-eletricista-certificado</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/custo-eletricista-tras-os-montes-precos</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/blog/paineis-solares-tras-os-montes-guia</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
