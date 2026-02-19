@@ -9,23 +9,47 @@ interface RelatedCitiesProps {
 export default function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
   // Liste des villes avec leurs slugs et régions
   const allCities = [
-    { name: 'Bragança', slug: 'electricista-braganca', region: 'Norte' },
-    { name: 'Chaves', slug: 'electricista-chaves', region: 'Norte' },
-    { name: 'Mirandela', slug: 'electricista-mirandela', region: 'Norte' },
-    { name: 'Vila Real', slug: 'electricista-vila-real', region: 'Norte' },
-    { name: 'Macedo de Cavaleiros', slug: 'electricista-macedo-cavaleiros', region: 'Centro' },
-    { name: 'Valpaços', slug: 'electricista-valpacos', region: 'Norte' },
-    { name: 'Mogadouro', slug: 'electricista-mogadouro', region: 'Norte' },
-    { name: 'Torre de Moncorvo', slug: 'electricista-torre-moncorvo', region: 'Norte' },
-    { name: 'Freixo de Espada à Cinta', slug: 'electricista-freixo-espada-cinta', region: 'Norte' },
-    { name: 'Miranda do Douro', slug: 'electricista-miranda-douro', region: 'Norte' },
-    { name: 'Vinhais', slug: 'electricista-vinhais', region: 'Norte' },
+    { name: 'Bragança', slug: 'electricista-braganca', region: 'Bragança' },
+    { name: 'Chaves', slug: 'electricista-chaves', region: 'Vila Real' },
+    { name: 'Mirandela', slug: 'electricista-mirandela', region: 'Bragança' },
+    { name: 'Vila Real', slug: 'electricista-vila-real', region: 'Vila Real' },
+    { name: 'Macedo de Cavaleiros', slug: 'electricista-macedo-cavaleiros', region: 'Bragança' },
+    { name: 'Valpaços', slug: 'electricista-valpacos', region: 'Vila Real' },
+    { name: 'Mogadouro', slug: 'electricista-mogadouro', region: 'Bragança' },
+    { name: 'Torre de Moncorvo', slug: 'electricista-torre-moncorvo', region: 'Bragança' },
+    { name: 'Freixo de Espada à Cinta', slug: 'electricista-freixo-espada-cinta', region: 'Bragança' },
+    { name: 'Miranda do Douro', slug: 'electricista-miranda-douro', region: 'Bragança' },
+    { name: 'Vinhais', slug: 'electricista-vinhais', region: 'Bragança' },
+    { name: 'Alfândega da Fé', slug: 'electricista-alfandega-da-fe', region: 'Bragança' },
+    { name: 'Vila Flor', slug: 'electricista-vila-flor', region: 'Bragança' },
+    { name: 'Carrazeda de Ansiães', slug: 'electricista-carrazeda-de-ansiaes', region: 'Bragança' },
+    { name: 'Vimioso', slug: 'electricista-vimioso', region: 'Bragança' },
+    { name: 'Montalegre', slug: 'electricista-montalegre', region: 'Vila Real' },
+    { name: 'Boticas', slug: 'electricista-boticas', region: 'Vila Real' },
+    { name: 'Murça', slug: 'electricista-murca', region: 'Vila Real' },
+    { name: 'Alijó', slug: 'electricista-alijo', region: 'Vila Real' },
+    { name: 'Sabrosa', slug: 'electricista-sabrosa', region: 'Vila Real' },
+    { name: 'Vila Pouca de Aguiar', slug: 'electricista-vila-pouca-de-aguiar', region: 'Vila Real' },
+    { name: 'Ribeira de Pena', slug: 'electricista-ribeira-de-pena', region: 'Vila Real' },
+    { name: 'Mondim de Basto', slug: 'electricista-mondim-de-basto', region: 'Vila Real' },
+    { name: 'Peso da Régua', slug: 'electricista-peso-da-regua', region: 'Vila Real' },
+    { name: 'Lamego', slug: 'electricista-lamego', region: 'Viseu' },
+    { name: 'Moimenta da Beira', slug: 'electricista-moimenta-da-beira', region: 'Viseu' },
+    { name: 'Vila Nova de Foz Côa', slug: 'electricista-vila-nova-foz-coa', region: 'Guarda' },
+    { name: 'Sernancelhe', slug: 'electricista-sernancelhe', region: 'Viseu' },
+    { name: 'Penedono', slug: 'electricista-penedono', region: 'Viseu' },
+    { name: 'São João da Pesqueira', slug: 'electricista-sao-joao-da-pesqueira', region: 'Viseu' },
+    { name: 'Tabuaço', slug: 'electricista-tabuaco', region: 'Viseu' },
+    { name: 'Armamar', slug: 'electricista-armamar', region: 'Viseu' },
+    { name: 'Santa Marta de Penaguião', slug: 'electricista-santa-marta-de-penaguiao', region: 'Vila Real' },
+    { name: 'Mesão Frio', slug: 'electricista-mesao-frio', region: 'Vila Real' },
   ];
 
   // Filtrer pour exclure la ville actuelle
   const relatedCities = allCities
     .filter(city => city.slug !== currentCitySlug)
-    .slice(0, 5); // Prendre 5 villes maximum
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 6);
 
   if (relatedCities.length === 0) return null;
 

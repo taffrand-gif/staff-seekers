@@ -78,6 +78,26 @@
     <changefreq>monthly</changefreq>
   </url>
   
+  <!-- Pages urgence -->
+  <url>
+    <loc>https://staff-seekers.com/electricista-urgente-braganca</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.95</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/electricista-urgente-mirandela</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.95</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://staff-seekers.com/electricista-urgente-macedo</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.95</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
   <!-- Blog -->
   <url>
     <loc>https://staff-seekers.com/blog</loc>

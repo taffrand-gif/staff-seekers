@@ -27,6 +27,30 @@ const MirandaDouro = lazy(() => import("@/pages/cidades/MirandaDouro"));
 const Mogadouro = lazy(() => import("@/pages/cidades/Mogadouro"));
 const TorreMoncorvo = lazy(() => import("@/pages/cidades/TorreMoncorvo"));
 const FreixoEspadaCinta = lazy(() => import("@/pages/cidades/FreixoEspadaCinta"));
+const Valpacos = lazy(() => import("@/pages/cidades/Valpacos"));
+const AlfandegaDaFe = lazy(() => import("@/pages/cidades/AlfandegaDaFe"));
+const VilaFlor = lazy(() => import("@/pages/cidades/VilaFlor"));
+const CarrazedaDeAnsiaes = lazy(() => import("@/pages/cidades/CarrazedaDeAnsiaes"));
+const Vimioso = lazy(() => import("@/pages/cidades/Vimioso"));
+const Montalegre = lazy(() => import("@/pages/cidades/Montalegre"));
+const Boticas = lazy(() => import("@/pages/cidades/Boticas"));
+const Murca = lazy(() => import("@/pages/cidades/Murca"));
+const Alijo = lazy(() => import("@/pages/cidades/Alijo"));
+const Sabrosa = lazy(() => import("@/pages/cidades/Sabrosa"));
+const VilaPoucaDeAguiar = lazy(() => import("@/pages/cidades/VilaRealCity"));
+const RibeiraDePena = lazy(() => import("@/pages/cidades/RibeiraDePena"));
+const MondimDeBasto = lazy(() => import("@/pages/cidades/MondimDeBasto"));
+const PesoDaRegua = lazy(() => import("@/pages/cidades/PesoDaRegua"));
+const Lamego = lazy(() => import("@/pages/cidades/Lamego"));
+const MoimentaDaBeira = lazy(() => import("@/pages/cidades/MoimentaDaBeira"));
+const VilaNovaFozCoa = lazy(() => import("@/pages/cidades/VilaNovaFozCoa"));
+const Sernancelhe = lazy(() => import("@/pages/cidades/Sernancelhe"));
+const Penedono = lazy(() => import("@/pages/cidades/Penedono"));
+const SaoJoaoDaPesqueira = lazy(() => import("@/pages/cidades/SaoJoaoDaPesqueira"));
+const Tabuaco = lazy(() => import("@/pages/cidades/Tabuaco"));
+const Armamar = lazy(() => import("@/pages/cidades/Armamar"));
+const SantaMartaDePenaguiao = lazy(() => import("@/pages/cidades/SantaMartaDePenaguiao"));
+const MesaoFrio = lazy(() => import("@/pages/cidades/MesaoFrio"));
 const BlogIndex = lazy(() => import("@/pages/blog/BlogIndex"));
 const ComoInstalarCandeeiroTeto = lazy(() => import("@/pages/blog/ComoInstalarCandeeiroTeto"));
 const PouparEnergiaEletricaDicas = lazy(() => import("@/pages/blog/PouparEnergiaEletricaDicas"));
@@ -65,6 +89,30 @@ function Router() {
         <Route path={"/electricista-mogadouro"} component={Mogadouro} />
         <Route path={"/electricista-torre-moncorvo"} component={TorreMoncorvo} />
         <Route path={"/electricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
+        <Route path={"/electricista-valpacos"} component={Valpacos} />
+        <Route path={"/electricista-alfandega-da-fe"} component={AlfandegaDaFe} />
+        <Route path={"/electricista-vila-flor"} component={VilaFlor} />
+        <Route path={"/electricista-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
+        <Route path={"/electricista-vimioso"} component={Vimioso} />
+        <Route path={"/electricista-montalegre"} component={Montalegre} />
+        <Route path={"/electricista-boticas"} component={Boticas} />
+        <Route path={"/electricista-murca"} component={Murca} />
+        <Route path={"/electricista-alijo"} component={Alijo} />
+        <Route path={"/electricista-sabrosa"} component={Sabrosa} />
+        <Route path={"/electricista-vila-pouca-de-aguiar"} component={VilaPoucaDeAguiar} />
+        <Route path={"/electricista-ribeira-de-pena"} component={RibeiraDePena} />
+        <Route path={"/electricista-mondim-de-basto"} component={MondimDeBasto} />
+        <Route path={"/electricista-peso-da-regua"} component={PesoDaRegua} />
+        <Route path={"/electricista-lamego"} component={Lamego} />
+        <Route path={"/electricista-moimenta-da-beira"} component={MoimentaDaBeira} />
+        <Route path={"/electricista-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
+        <Route path={"/electricista-sernancelhe"} component={Sernancelhe} />
+        <Route path={"/electricista-penedono"} component={Penedono} />
+        <Route path={"/electricista-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
+        <Route path={"/electricista-tabuaco"} component={Tabuaco} />
+        <Route path={"/electricista-armamar"} component={Armamar} />
+        <Route path={"/electricista-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
+        <Route path={"/electricista-mesao-frio"} component={MesaoFrio} />
         <Route path={"/blog"} component={BlogIndex} />
         <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
         <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />
