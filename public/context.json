@@ -1,0 +1,251 @@
+{
+  "business": {
+    "name": "Staff Seekers - Electricista Profissional",
+    "type": "Electrician Services",
+    "region": "Trás-os-Montes, Portugal",
+    "headquarters": "Macedo de Cavaleiros",
+    "coverage_radius_km": 100
+  },
+  "contact": {
+    "phone": "+351 932 321 892",
+    "whatsapp": "https://wa.me/351932321892",
+    "website": "https://staff-seekers.com",
+    "email": null,
+    "hours": "24/7 including holidays",
+    "response_time": "Less than 1 hour for emergencies"
+  },
+  "cities_served": [
+    {
+      "name": "Bragança",
+      "type": "main",
+      "url": "https://staff-seekers.com/electricista-braganca"
+    },
+    {
+      "name": "Mirandela",
+      "type": "main",
+      "url": "https://staff-seekers.com/electricista-mirandela"
+    },
+    {
+      "name": "Macedo de Cavaleiros",
+      "type": "headquarters",
+      "url": "https://staff-seekers.com/electricista-macedo-de-cavaleiros"
+    },
+    {
+      "name": "Chaves",
+      "type": "main",
+      "url": "https://staff-seekers.com/electricista-chaves"
+    },
+    {
+      "name": "Vila Real",
+      "type": "main",
+      "url": "https://staff-seekers.com/electricista-vila-real"
+    },
+    {
+      "name": "Vinhais",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-vinhais"
+    },
+    {
+      "name": "Miranda do Douro",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-miranda-do-douro"
+    },
+    {
+      "name": "Mogadouro",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-mogadouro"
+    },
+    {
+      "name": "Torre de Moncorvo",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-torre-de-moncorvo"
+    },
+    {
+      "name": "Freixo de Espada à Cinta",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-freixo-de-espada-a-cinta"
+    },
+    {
+      "name": "Valpaços",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-valpacos"
+    },
+    {
+      "name": "Alfândega da Fé",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-alfandega-da-fe"
+    },
+    {
+      "name": "Vila Flor",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-vila-flor"
+    },
+    {
+      "name": "Carrazeda de Ansiães",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-carrazeda-de-ansiaes"
+    },
+    {
+      "name": "Vimioso",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-vimioso"
+    },
+    {
+      "name": "Montalegre",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-montalegre"
+    },
+    {
+      "name": "Boticas",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-boticas"
+    },
+    {
+      "name": "Murça",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-murca"
+    },
+    {
+      "name": "Alijó",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-alijo"
+    },
+    {
+      "name": "Sabrosa",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-sabrosa"
+    },
+    {
+      "name": "Vila Pouca de Aguiar",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-vila-pouca-de-aguiar"
+    },
+    {
+      "name": "Ribeira de Pena",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-ribeira-de-pena"
+    },
+    {
+      "name": "Mondim de Basto",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-mondim-de-basto"
+    },
+    {
+      "name": "Peso da Régua",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-peso-da-regua"
+    },
+    {
+      "name": "Lamego",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-lamego"
+    },
+    {
+      "name": "Moimenta da Beira",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-moimenta-da-beira"
+    },
+    {
+      "name": "Vila Nova de Foz Côa",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-vila-nova-foz-coa"
+    },
+    {
+      "name": "Sernancelhe",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-sernancelhe"
+    },
+    {
+      "name": "Penedono",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-penedono"
+    },
+    {
+      "name": "São João da Pesqueira",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-sao-joao-da-pesqueira"
+    },
+    {
+      "name": "Tabuaço",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-tabuaco"
+    },
+    {
+      "name": "Armamar",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-armamar"
+    },
+    {
+      "name": "Santa Marta de Penaguião",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-santa-marta-de-penaguiao"
+    },
+    {
+      "name": "Mesão Frio",
+      "type": "secondary",
+      "url": "https://staff-seekers.com/electricista-mesao-frio"
+    }
+  ],
+  "services": [
+    {
+      "category": "Emergency 24h",
+      "items": [
+        "Short circuit repair",
+        "Circuit breaker tripping",
+        "Total or partial power outage",
+        "Overheating outlets",
+        "Burning smell in installation",
+        "Sparking outlets"
+      ]
+    },
+    {
+      "category": "Electrical Panels",
+      "items": [
+        "Electrical panel replacement",
+        "Old fuse box upgrade",
+        "Circuit breaker installation",
+        "Power capacity increase"
+      ]
+    },
+    {
+      "category": "CERTIEL Certification",
+      "items": [
+        "Property sale certification",
+        "Rental certification",
+        "Airbnb/local accommodation certification"
+      ]
+    },
+    {
+      "category": "Electrical Installations",
+      "items": [
+        "New electrical installation",
+        "Renovation of existing installation",
+        "LED lighting",
+        "Outlets and switches"
+      ]
+    }
+  ],
+  "pricing_2026": {
+    "travel_macedo_local": "10€",
+    "travel_braganca_mirandela": "20€",
+    "travel_chaves_vinhais_miranda": "30€",
+    "panel_replacement": "200€ - 400€",
+    "certiel_certification": "150€ - 250€",
+    "short_circuit_repair": "50€ - 120€",
+    "outlet_switch_installation": "30€ - 50€",
+    "note": "Prices without VAT. Free quote."
+  },
+  "keywords": [
+    "electricista urgente bragança",
+    "electricista 24 horas mirandela",
+    "electricista perto de mim trás-os-montes",
+    "quanto custa electricista bragança",
+    "melhor electricista trás-os-montes",
+    "electricista barato mirandela",
+    "electricista de confiança bragança",
+    "avaria elétrica bragança",
+    "certificação elétrica bragança",
+    "certificação certiel mirandela"
+  ],
+  "last_updated": "2026-02-19"
+}

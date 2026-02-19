@@ -63,51 +63,139 @@
     },
     {
       "source": "/eletricista-miranda-douro",
-      "destination": "/eletricista-miranda-douro.html"
+      "destination": "/electricista-miranda-douro.html"
     },
     {
       "source": "/eletricista-freixo-espada-cinta",
-      "destination": "/eletricista-freixo-espada-cinta.html"
+      "destination": "/electricista-freixo-espada-cinta.html"
     },
     {
-      "source": "/electricista-vila-real",
-      "destination": "/eletricista-vila-real.html"
+      "source": "/eletricista-vila-real",
+      "destination": "/electricista-vila-real.html"
     },
     {
-      "source": "/electricista-braganca",
-      "destination": "/eletricista-braganca.html"
+      "source": "/eletricista-braganca",
+      "destination": "/electricista-braganca.html"
     },
     {
-      "source": "/electricista-chaves",
-      "destination": "/eletricista-chaves.html"
+      "source": "/eletricista-chaves",
+      "destination": "/electricista-chaves.html"
     },
     {
-      "source": "/electricista-mirandela",
-      "destination": "/eletricista-mirandela.html"
+      "source": "/eletricista-mirandela",
+      "destination": "/electricista-mirandela.html"
     },
     {
-      "source": "/electricista-macedo-cavaleiros",
-      "destination": "/eletricista-macedo-cavaleiros.html"
+      "source": "/eletricista-macedo-cavaleiros",
+      "destination": "/electricista-macedo-cavaleiros.html"
     },
     {
-      "source": "/electricista-vinhais",
-      "destination": "/eletricista-vinhais.html"
+      "source": "/eletricista-vinhais",
+      "destination": "/electricista-vinhais.html"
     },
     {
-      "source": "/electricista-miranda-douro",
-      "destination": "/eletricista-miranda-douro.html"
+      "source": "/eletricista-mogadouro",
+      "destination": "/electricista-mogadouro.html"
     },
     {
-      "source": "/electricista-mogadouro",
-      "destination": "/eletricista-mogadouro.html"
+      "source": "/eletricista-torre-moncorvo",
+      "destination": "/electricista-torre-moncorvo.html"
     },
     {
-      "source": "/electricista-torre-moncorvo",
-      "destination": "/eletricista-torre-moncorvo.html"
+      "source": "/eletricista-valpacos",
+      "destination": "/electricista-valpacos.html"
     },
     {
-      "source": "/electricista-freixo-espada-cinta",
-      "destination": "/eletricista-freixo-espada-cinta.html"
+      "source": "/eletricista-alfandega-da-fe",
+      "destination": "/electricista-alfandega-da-fe.html"
+    },
+    {
+      "source": "/eletricista-vila-flor",
+      "destination": "/electricista-vila-flor.html"
+    },
+    {
+      "source": "/eletricista-carrazeda-de-ansiaes",
+      "destination": "/electricista-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/eletricista-vimioso",
+      "destination": "/electricista-vimioso.html"
+    },
+    {
+      "source": "/eletricista-montalegre",
+      "destination": "/electricista-montalegre.html"
+    },
+    {
+      "source": "/eletricista-boticas",
+      "destination": "/electricista-boticas.html"
+    },
+    {
+      "source": "/eletricista-murca",
+      "destination": "/electricista-murca.html"
+    },
+    {
+      "source": "/eletricista-alijo",
+      "destination": "/electricista-alijo.html"
+    },
+    {
+      "source": "/eletricista-sabrosa",
+      "destination": "/electricista-sabrosa.html"
+    },
+    {
+      "source": "/eletricista-vila-pouca-de-aguiar",
+      "destination": "/electricista-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/eletricista-ribeira-de-pena",
+      "destination": "/electricista-ribeira-de-pena.html"
+    },
+    {
+      "source": "/eletricista-mondim-de-basto",
+      "destination": "/electricista-mondim-de-basto.html"
+    },
+    {
+      "source": "/eletricista-peso-da-regua",
+      "destination": "/electricista-peso-da-regua.html"
+    },
+    {
+      "source": "/eletricista-lamego",
+      "destination": "/electricista-lamego.html"
+    },
+    {
+      "source": "/eletricista-moimenta-da-beira",
+      "destination": "/electricista-moimenta-da-beira.html"
+    },
+    {
+      "source": "/eletricista-vila-nova-foz-coa",
+      "destination": "/electricista-vila-nova-foz-coa.html"
+    },
+    {
+      "source": "/eletricista-sernancelhe",
+      "destination": "/electricista-sernancelhe.html"
+    },
+    {
+      "source": "/eletricista-penedono",
+      "destination": "/electricista-penedono.html"
+    },
+    {
+      "source": "/eletricista-sao-joao-da-pesqueira",
+      "destination": "/electricista-sao-joao-da-pesqueira.html"
+    },
+    {
+      "source": "/eletricista-tabuaco",
+      "destination": "/electricista-tabuaco.html"
+    },
+    {
+      "source": "/eletricista-armamar",
+      "destination": "/electricista-armamar.html"
+    },
+    {
+      "source": "/eletricista-santa-marta-de-penaguiao",
+      "destination": "/electricista-santa-marta-de-penaguiao.html"
+    },
+    {
+      "source": "/eletricista-mesao-frio",
+      "destination": "/electricista-mesao-frio.html"
     },
     {
       "source": "/electricista-valpacos",
@@ -208,6 +296,10 @@
     {
       "source": "/faq",
       "destination": "/faq.html"
+    },
+    {
+      "source": "/zonas",
+      "destination": "/zonas.html"
     },
     {
       "source": "/blog/como-escolher-eletricista-certificado",
