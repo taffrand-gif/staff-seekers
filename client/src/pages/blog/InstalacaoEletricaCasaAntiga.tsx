@@ -112,9 +112,9 @@ export default function InstalacaoEletricaCasaAntiga() {
                 são património valioso, mas muitas têm instalações elétricas perigosamente desatualizadas.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/chaves" className="text-orange-500 hover:underline">Chaves</a>, 
-                <a href="/braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/vilareal" className="text-orange-500 hover:underline"> Vila Real</a>, 
+                Seja em <a href="/electricista-chaves" className="text-orange-500 hover:underline">Chaves</a>, 
+                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/electricista-vila-real" className="text-orange-500 hover:underline"> Vila Real</a>, 
                 renovar a instalação elétrica é essencial para segurança, conforto e valorização do imóvel.
               </p>
             </div>
@@ -402,11 +402,11 @@ export default function InstalacaoEletricaCasaAntiga() {
                 <h3 className="font-bold text-orange-500 mb-1">Quando Trocar a Instalação</h3>
                 <p className="text-sm text-gray-600">Sinais de que precisa renovar a instalação elétrica.</p>
               </a>
-              <a href="/blog/quadro-eletrico-antigo" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/blog/quadro-eletrico-antigo-fusiveis-trocar" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-orange-500 mb-1">Quadro Elétrico Antigo</h3>
                 <p className="text-sm text-gray-600">Modernize o quadro elétrico da sua casa.</p>
               </a>
-              <a href="/blog/certificacao-eletrica-certiel" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/blog/certificacao-eletrica-certiel-guia" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-orange-500 mb-1">Certificação Elétrica CERTIEL</h3>
                 <p className="text-sm text-gray-600">Tudo sobre o certificado elétrico obrigatório.</p>
               </a>

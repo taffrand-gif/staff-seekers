@@ -324,7 +324,7 @@ export default function PaineisSolares() {
               Energia Solar em Toda a Região
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              <a href="/electricista-macedo-de-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-macedo-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Macedo de Cavaleiros</div>
                 <div className="text-sm text-gray-600">Painéis solares</div>
               </a>

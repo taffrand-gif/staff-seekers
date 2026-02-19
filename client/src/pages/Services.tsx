@@ -159,7 +159,7 @@ export default function Services() {
                 Ligar Agora
               </Button>
             </a>
-            <Link href="/contactos">
+            <Link href="/#contactos">
               <Button size="lg" variant="outline">
                 Formulário de Contacto
               </Button>

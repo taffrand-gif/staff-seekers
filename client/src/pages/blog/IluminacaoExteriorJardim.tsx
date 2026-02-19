@@ -123,9 +123,9 @@ export default function IluminacaoExteriorJardim() {
                 A <strong>iluminação exterior</strong> é muito mais do que funcionalidade. É segurança, estética e valorização do imóvel.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/vilareal" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/chaves" className="text-orange-500 hover:underline"> Chaves</a> ou 
-                <a href="/braganca" className="text-orange-500 hover:underline"> Bragança</a>, 
+                Seja em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> ou 
+                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a>, 
                 um projeto bem executado transforma completamente o exterior da sua casa, 
                 tornando-o mais seguro e acolhedor.
               </p>
@@ -446,7 +446,7 @@ export default function IluminacaoExteriorJardim() {
                 <h3 className="font-bold text-orange-500 mb-1">Poupar Energia no Inverno</h3>
                 <p className="text-sm text-gray-600">Dicas para reduzir custos no inverno transmontano.</p>
               </a>
-              <a href="/blog/como-instalar-candeeiro-teto" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/blog/como-instalar-candeeiro-teto-seguranca" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-orange-500 mb-1">Instalar Candeeiro de Teto</h3>
                 <p className="text-sm text-gray-600">Guia passo a passo para instalação segura.</p>
               </a>

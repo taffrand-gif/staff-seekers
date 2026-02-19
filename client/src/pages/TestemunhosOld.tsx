@@ -187,7 +187,7 @@ export default function Testemunhos() {
               Contacte-nos agora e experimente o mesmo serviço de excelência
             </p>
             <a
-              href="/contactos"
+              href="/#contactos"
               className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-4 rounded-lg transition-colors inline-block"
             >
               Contacte-nos Agora

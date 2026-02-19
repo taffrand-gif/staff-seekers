@@ -192,7 +192,7 @@ const BlogIndex: React.FC = () => {
                 Ignorar estes sinais pode levar a situações perigosas ou danos caros.
               </p>
               <a
-                href="/blog/10-sinais-electricista-urgente"
+                href="/blog/sinais-problemas-eletricos-casa"
                 className="inline-flex items-center gap-2 bg-amber-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors"
               >
                 Ler Artigo Completo

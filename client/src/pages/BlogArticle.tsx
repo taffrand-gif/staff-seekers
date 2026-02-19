@@ -87,7 +87,7 @@ export default function BlogArticle() {
                 <a href={`tel:${config.phone}`} className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 text-center">
                   📞 {config.phone}
                 </a>
-                <Link href="/orcamento">
+                <Link href="/#contactos">
                   <a className="bg-white text-red-600 border-2 border-red-600 px-6 py-3 rounded-lg font-bold hover:bg-red-50 text-center">
                     Pedir Orçamento
                   </a>

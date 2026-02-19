@@ -118,7 +118,7 @@ export function TestimonialsSection() {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="/testemunhos"
+            href="/#testemunhos"
             className="inline-block  hover: text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.from}}
           >
             Ver Todos os Testemunhos →

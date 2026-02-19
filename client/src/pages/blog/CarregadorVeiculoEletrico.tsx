@@ -115,9 +115,9 @@ export default function CarregadorVeiculoEletrico() {
                 para carregar de forma conveniente e económica.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/vilareal" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/chaves" className="text-orange-500 hover:underline"> Chaves</a>, 
+                Seja em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a>, 
                 instalar uma <strong>wallbox</strong> é mais simples do que pensa — e pode ter incentivos do Estado.
               </p>
             </div>
@@ -463,7 +463,7 @@ export default function CarregadorVeiculoEletrico() {
                 <h3 className="font-bold text-orange-500 mb-1">Proteção Contra Sobrecargas</h3>
                 <p className="text-sm text-gray-600">Como proteger a sua casa de sobrecargas elétricas.</p>
               </a>
-              <a href="/blog/quadro-eletrico-antigo" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/blog/quadro-eletrico-antigo-fusiveis-trocar" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-orange-500 mb-1">Quadro Elétrico Antigo</h3>
                 <p className="text-sm text-gray-600">Modernize o quadro elétrico da sua casa.</p>
               </a>

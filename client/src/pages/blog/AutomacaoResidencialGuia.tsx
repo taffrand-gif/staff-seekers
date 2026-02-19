@@ -108,9 +108,9 @@ export default function AutomacaoResidencialGuia() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed">
                 A <strong>automação residencial</strong> (ou domótica) deixou de ser ficção científica. 
-                Hoje, qualquer casa em <a href="/vilareal" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/chaves" className="text-orange-500 hover:underline"> Chaves</a> pode tornar-se inteligente 
+                Hoje, qualquer casa em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> pode tornar-se inteligente 
                 com um investimento acessível.
               </p>
               <p className="text-gray-700">
