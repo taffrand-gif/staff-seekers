@@ -1,0 +1,11 @@
+/* TEAM */
+Eletricista: Staff Seekers
+Localização: Macedo de Cavaleiros, Trás-os-Montes, Portugal
+Contacto: +351 932 321 892
+Site: https://staff-seekers.com
+
+/* SITE */
+Última atualização: 2026-02-19
+Linguagem: Português (pt-PT)
+Tecnologia: React, Vite, Vercel
+Standards: HTML5, CSS3, Schema.org
