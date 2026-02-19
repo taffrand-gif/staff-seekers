@@ -98,6 +98,10 @@
       "destination": "/eletricista-freixo-espada-cinta.html"
     },
     {
+      "source": "/faq",
+      "destination": "/faq.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

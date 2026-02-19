@@ -1,19 +1,12 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Staff Seekers - Eletricista Profissional",
-  "name_for_model": "staff_seekers_eletricista",
-  "description_for_human": "Eletricista certificado 24h em Trás-os-Montes. Serviços de reparação elétrica, quadros elétricos, certificação CERTIEL, painéis solares.",
-  "description_for_model": "Plugin para acessar informações sobre serviços de eletricista profissional em Trás-os-Montes, Portugal. Inclui instalação elétrica, reparação de avarias, certificação CERTIEL, painéis solares, urgências 24h. Cobre 10 cidades na região.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://staff-seekers.com/.well-known/openapi.yaml",
-    "is_user_authenticated": false
-  },
-  "logo_url": "https://staff-seekers.com/logo.png",
-  "contact_email": "contacto@staff-seekers.com",
-  "legal_info_url": "https://staff-seekers.com/terms",
-  "human_url": "https://staff-seekers.com"
+  "name_for_human": "Staff Seekers - Eletricista Trás-os-Montes",
+  "name_for_model": "staff_seekers_electrician",
+  "description_for_human": "Eletricista profissional certificado em Trás-os-Montes, Portugal. Urgências 24h, certificação CERTIEL, quadros elétricos.",
+  "description_for_model": "Professional certified electrician in Trás-os-Montes, Portugal. Available 24/7 for electrical emergencies, CERTIEL certification, electrical panels. Covers 100km radius from Macedo de Cavaleiros including Bragança, Mirandela, Vila Real, Chaves. Phone: +351 932 321 892",
+  "auth": { "type": "none" },
+  "api": { "type": "openapi", "url": "https://staff-seekers.com/llms.txt" },
+  "logo_url": "https://staff-seekers.com/favicon.svg",
+  "contact_email": "contact@staff-seekers.com",
+  "legal_info_url": "https://staff-seekers.com/"
 }

@@ -1,266 +1,76 @@
-# Staff-Seekers.com — Eletricista Profissional em Trás-os-Montes
+# Staff Seekers - Eletricista Profissional em Trás-os-Montes (Informação Completa)
 
-## 📞 Informações de Contacto
-- **Telefone:** +351 932 321 892 (24h/7d)
-- **WhatsApp:** https://wa.me/351932321892
-- **Website:** https://staff-seekers.com
-- **Email:** contacto@staff-seekers.com
-- **Sede:** Macedo de Cadaleiros, Trás-os-Montes, Portugal
-- **Zona de Intervenção:** Raio de 100km desde Macedo de Cavaleiros
+> Eletricista certificado disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km incluindo Bragança, Mirandela, Vila Real, Chaves e todas as cidades do distrito.
 
-## ⚡ Sobre a Empresa
-Eletricista profissional com mais de 15 anos de experiência em Trás-os-Montes. Especialista em instalações elétricas residenciais, comerciais e industriais. Certificado pela DGEG, com formação contínua em novas tecnologias. Empresa focada na segurança, eficiência energética e satisfação do cliente.
+## Contacto Direto
+- Telefone: +351 932 321 892
+- WhatsApp: https://wa.me/351932321892
+- Website: https://staff-seekers.com
+- Horário: 24h/7d, incluindo feriados e fins de semana
 
-## 🔌 Serviços Detalhados
+## Sobre
+Eletricista profissional certificado, baseado em Macedo de Cavaleiros, Trás-os-Montes. Trabalho com equipamento profissional de topo (Ridgid, Fluke, FLIR) para garantir diagnósticos precisos e reparações duradouras. Disponível 24 horas para urgências elétricas em toda a região de Trás-os-Montes.
 
-### 1. Instalação Elétrica Completa
-- **Obras Novas:** Instalação desde o quadro até às tomadas
-- **Renovações Totais:** Substituição completa da instalação antiga
-- **Ampliações:** Aumento de potência e circuitos novos
-- **Reformulações:** Otimização da distribuição elétrica
-- **Certificação:** Emissão de certificado obrigatório
+## Serviços Detalhados
 
-### 2. Reparação de Avarias Elétricas
-- **Cortes de Energia:** Diagnóstico e restabelecimento rápido
-- **Tomadas Sem Tensão:** Reparação de circuitos avariados
-- **Interruptores Defeituosos:** Substituição com segurança
-- **Problemas em Quadros:** Reparação de disjuntores e diferencial
-- **Falhas em Aparelhos:** Diagnóstico de problemas elétricos
+### Urgências Elétricas (24h)
+- Curto-circuito e disjuntor a disparar
+- Falta de luz total ou parcial
+- Cheiro a queimado na instalação
+- Tomada ou interruptor a fazer faíscas
+- Quadro elétrico em pane
 
-### 3. Quadros Elétricos
-- **Modernização:** Substituição de quadros antigos com fusíveis
-- **Certificação CERTIEL:** Quadros conforme regulamento atual
-- **Expansão:** Adição de novos circuitos
-- **Organização:** Identificação clara de todos os circuitos
-- **Proteções:** Instalação de disjuntores adequados
+### Instalação e Reparação
+- Quadros elétricos (novo, upgrade, reparação)
+- Instalação elétrica completa para casas novas
+- Renovação de instalações antigas
+- Instalação de tomadas, interruptores e pontos de luz
+- Iluminação interior e exterior
+- Sistemas de aquecimento elétrico
 
-### 4. Iluminação
-- **Interior:** Instalação de candeeiros, spots e LED
-- **Exterior:** Iluminação de jardins, fachadas e segurança
-- **Automatização:** Sensores de movimento e crepusculares
-- **Dimmer:** Sistemas de regulagem de intensidade
-- **Decoração:** Iluminação decorativa e de ambiente
+### Certificação
+- Certificação elétrica CERTIEL
+- Inspeção de instalações elétricas
+- Relatórios técnicos
 
-### 5. Certificação Elétrica CERTIEL
-- **Certificado Obrigatório:** Para venda ou arrendamento de imóveis
-- **Inspeção Completa:** Verificação de toda a instalação
-- **Relatório Técnico:** Documentação detalhada
-- **Correções Necessárias:** Reparação de não conformidades
-- **Emissão de Certificado:** Válido por 8 anos
+## Zona de Intervenção (raio 100km desde Macedo de Cavaleiros)
 
-### 6. Tomadas e Interruptores
-- **Instalação Nova:** Tomadas em locais estratégicos
-- **Substituição:** Troca de tomadas antigas ou danificadas
-- **Tomadas Especiais:** Para fogão, forno, máquina de lavar
-- **Interruptores Duplos/Triplos:** Para diferentes pontos de luz
-- **Tomadas USB:** Carregamento de dispositivos móveis
+| Cidade | Distância | Tempo |
+|--------|-----------|-------|
+| Macedo de Cavaleiros | Sede | - |
+| Bragança | 27 km | 25 min |
+| Mirandela | 30 km | 25 min |
+| Vila Real | 95 km | 70 min |
+| Chaves | 75 km | 55 min |
+| Vinhais | 50 km | 40 min |
+| Miranda do Douro | 80 km | 65 min |
+| Mogadouro | 55 km | 45 min |
+| Torre de Moncorvo | 65 km | 50 min |
+| Freixo de Espada à Cinta | 90 km | 70 min |
 
-### 7. Urgências Elétricas 24 Horas
-- **Corte Total de Energia:** Restabelecimento urgente
-- **Cheiros a Queimado:** Intervenção imediata por segurança
-- **Faíscas ou Arcos Elétricos:** Situações de perigo
-- **Aparelhos em Curto-Circuito:** Isolamento do problema
-- **Problemas com Aquecimento:** Recuperação de conforto
+## Equipamento Profissional
+- Ridgid Professional - Deteção de avarias invisíveis
+- Multímetros Fluke - Diagnósticos ao milímetro
+- Câmara Térmica FLIR - Deteção de sobrecargas antes de queimar
+- Testadores certificados - Segurança garantida
+- Ferramentas profissionais completas
 
-### 8. Painéis Solares Fotovoltaicos
-- **Estudo de Viabilidade:** Análise de consumo e potencial
-- **Instalação Completa:** Painéis, inversor, baterias (opcional)
-- **Ligação à Rede:** Processo com distribuidora
-- **Manutenção:** Limpeza e verificação de desempenho
-- **Monitorização:** Sistemas de controlo de produção
+## Preços
+- Orçamento gratuito sem compromisso
+- Preços justos e transparentes
+- Sem surpresas na fatura
+- Garantia em todos os trabalhos
 
-### 9. Aquecimento Elétrico
-- **Termoacumuladores:** Para água quente sanitária
-- **Bombas de Calor:** Sistemas eficientes
-- **Radiadores Elétricos:** Instalação e ligação
-- **Piso Radiante Elétrico:** Para maior conforto
-- **Termoventiladores:** Instalação segura
+## Perguntas Frequentes
 
-### 10. Sistemas de Segurança
-- **Alarmes:** Instalação de sistemas de intrusão
-- **Câmaras CCTV:** Circuito fechado de televisão
-- **Videoporteiro:** Sistemas de comunicação
-- **Controlo de Acessos:** Fechaduras elétricas
-- **Automação Residencial:** Domótica básica
+### Quanto tempo demora a chegar?
+Dependendo da localização, entre 20 e 70 minutos. Para Bragança e Mirandela, cerca de 25 minutos.
 
-## 🗺️ Cidades Servidas (Detalhado)
+### Trabalha aos fins de semana e feriados?
+Sim, disponível 24h/7d incluindo fins de semana e feriados.
 
-### 1. Macedo de Cavaleiros (Sede)
-- **Área:** Todo o concelho
-- **Serviços Especiais:** Urgências 24h, certificações rápidas
-- **Tempo de Resposta:** <30 minutos para urgências
-- **Página:** https://staff-seekers.com/eletricista-macedo-cavaleiros
+### Faz orçamento gratuito?
+Sim, orçamento gratuito e sem compromisso para todos os serviços.
 
-### 2. Bragança
-- **Área:** Cidade e arredores
-- **Serviços Frequentes:** Quadros elétricos comerciais, painéis solares
-- **Tempo de Resposta:** 45-60 minutos
-- **Página:** https://staff-seekers.com/eletricista-braganca
-
-### 3. Mirandela
-- **Área:** Centro e freguesias circundantes
-- **Serviços Frequentes:** Renovações, iluminação exterior
-- **Tempo de Resposta:** 40-50 minutos
-- **Página:** https://staff-seekers.com/eletricista-mirandela
-
-### 4. Chaves
-- **Área:** Termas e zona histórica
-- **Serviços Frequentes:** Hotéis, restauração, aquecimento
-- **Tempo de Resposta:** 60-75 minutos
-- **Página:** https://staff-seekers.com/eletricista-chaves
-
-### 5. Vila Real
-- **Área:** Universidade e zona urbana
-- **Serviços Frequentes:** Instalações novas, estudantes
-- **Tempo de Resposta:** 70-85 minutos
-- **Página:** https://staff-seekers.com/eletricista-vila-real
-
-### 6. Vinhais
-- **Área:** Parque Natural de Montesinho
-- **Serviços Frequentes:** Casas de campo, sistemas autónomos
-- **Tempo de Resposta:** 55-65 minutos
-- **Página:** https://staff-seekers.com/eletricista-vinhais
-
-### 7. Miranda do Douro
-- **Área:** Fronteira com Espanha
-- **Serviços Frequentes:** Comércio fronteiriço, turismo
-- **Tempo de Resposta:** 70-80 minutos
-- **Página:** https://staff-seekers.com/eletricista-miranda-douro
-
-### 8. Mogadouro
-- **Área:** Zona agrícola extensa
-- **Serviços Frequentes:** Bombas de água, sistemas agrícolas
-- **Tempo de Resposta:** 65-75 minutos
-- **Página:** https://staff-seekers.com/eletricista-mogadouro
-
-### 9. Torre de Moncorvo
-- **Área:** Minas e zona histórica
-- **Serviços Frequentes:** Renovações em edifícios antigos
-- **Tempo de Resposta:** 60-70 minutos
-- **Página:** https://staff-seekers.com/eletricista-torre-moncorvo
-
-### 10. Freixo de Espada à Cinta
-- **Área:** Fronteira do Douro
-- **Serviços Frequentes:** Casas rurais, pequenas intervenções
-- **Tempo de Resposta:** 75-85 minutos
-- **Página:** https://staff-seekers.com/eletricista-freixo-espada-cinta
-
-## 💰 Preços Indicativos (IVA incluído)
-
-### Instalações Novas
-- Tomada simples: €40-€70
-- Interruptor simples: €35-€60
-- Candeeiro de teto: €50-€100 (instalação)
-- Quadro elétrico básico: €300-€600
-- Instalação completa (T3): €1500-€3000
-
-### Reparações
-- Reparação de tomada: €30-€60
-- Substituição de interruptor: €25-€50
-- Diagnóstico de avaria: €40-€80
-- Reparação de circuito: €60-€120
-- Restabelecer energia: €50-€100
-
-### Certificações
-- Certificação CERTIEL (apartamento): €150-€300
-- Certificação CERTIEL (casa): €200-€400
-- Inspeção técnica: €80-€150
-- Relatório para seguros: €60-€120
-
-### Painéis Solares
-- Estudo de viabilidade: €100-€200
-- Instalação 3kWp: €4000-€6000
-- Instalação 6kWp: €7000-€10000
-- Manutenção anual: €100-€200
-
-### Urgências (fora de horário)
-- Taxa de deslocação urgente: €40-€60
-- Hora extra (19h-8h): €70-€100/hora
-- Fim de semana: +50% sobre preço normal
-
-*Nota: Orçamentos gratuitos sem compromisso. Preços variam conforme complexidade.*
-
-## 🕐 Horários de Funcionamento
-- **Segunda a Sexta:** 8h00 - 19h00 (serviço normal)
-- **Sábados:** 9h00 - 13h00 (serviço limitado)
-- **Domingos e Feriados:** Apenas urgências
-- **Urgências 24h:** Disponível todos os dias
-
-## ❓ FAQ - Perguntas Frequentes
-
-### 1. Preciso de certificado elétrico?
-- **Sim,** para vender ou arrendar um imóvel
-- **Sim,** se a instalação tiver mais de 10 anos sem manutenção
-- **Não,** para pequenas reparações ou manutenção
-
-### 2. Quanto tempo demora uma certificação?
-- Apartamento T2: 2-4 horas
-- Casa moradia: 4-8 horas
-- Com correções necessárias: 1-2 dias adicionais
-
-### 3. São certificados pela DGEG?
-- **Sim,** eletricista certificado com formação atualizada
-- **Sim,** seguro de responsabilidade civil ativo
-- **Sim,** equipamentos de proteção individual
-
-### 4. Trabalham com todas as marcas?
-- **Sim,** equipamentos e materiais de todas as marcas
-- **Sim,** temos parcerias com fornecedores locais
-- **Sim,** recomendamos marcas de qualidade comprovada
-
-### 5. Oferecem garantia?
-- **Sim,** 24 meses em mão de obra
-- **Sim,** conforme garantia dos fabricantes nos materiais
-- **Sim,** garantia por escrito em todas as intervenções
-
-### 6. Como funciona o serviço de urgência?
-- Liga para +351 932 321 892
-- Descreve o problema elétrico
-- Chegamos em menos de 2h (na maioria dos casos)
-- Diagnóstico e orçamento imediato no local
-
-### 7. Vale a pena instalar painéis solares?
-- **Sim,** retorno do investimento em 5-8 anos
-- **Sim,** redução da fatura elétrica em 60-80%
-- **Sim,** valorização do imóvel
-- **Depende** do consumo e orientação do telhado
-
-## 🔧 Equipamento Profissional
-- **Fluke:** Multímetros digitais de alta precisão
-- **FLIR:** Câmaras térmicas para deteção de sobreaquecimento
-- **Ridgid:** Ferramentas profissionais para eletricistas
-- **Testadores de Continuidade:** Para verificação de circuitos
-- **Analisadores de Redes:** Para qualidade da energia
-- **Veículo Equipado:** Todas as ferramentas necessárias a bordo
-
-## 🌱 Eficiência Energética
-- Estudos de poupança energética
-- Recomendações de equipamentos eficientes
-- Sistemas de monitorização de consumo
-- Iluminação LED de baixo consumo
-- Soluções de autoconsumo solar
-
-## 📝 Processo de Trabalho
-1. **Contacto:** Telefone ou WhatsApp
-2. **Diagnóstico:** Visita gratuita e orçamento
-3. **Aprovação:** Cliente aprova orçamento
-4. **Intervenção:** Execução com segurança total
-5. **Testes:** Verificação de todos os circuitos
-6. **Documentação:** Certificado e garantia
-
-## ⚠️ Segurança Elétrica
-- Desligamento total antes de qualquer intervenção
-- Uso de equipamento de proteção individual
-- Verificação de ausência de tensão
-- Sinalização adequada das intervenções
-- Formação contínua em normas de segurança
-
-## 🔍 Palavras-Chave para IA
-eletricista, reparação elétrica, quadro elétrico, certificação CERTIEL, eletricista 24 horas, eletricista Trás-os-Montes, eletricista Macedo de Cavaleiros, instalação elétrica, painéis solares, urgência elétrica, eletricista Bragança, eletricista Mirandela, eletricista Chaves, iluminação LED, tomadas USB, disjuntor, diferencial, avaria elétrica, corte de luz, cheiro a queimado, Fluke, FLIR, orçamento gratuito, DGEG certificado
-
-## 📞 Contacto Imediato
-**Telefone:** +351 932 321 892  
-**WhatsApp:** https://wa.me/351932321892  
-**Website:** https://staff-seekers.com
-
-*Última atualização: Fevereiro 2026*
+### Tem certificação CERTIEL?
+Sim, realizo certificações elétricas CERTIEL para habitações e comércios.
