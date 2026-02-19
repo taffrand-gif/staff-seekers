@@ -62,10 +62,9 @@ export default function VilaFlor() {
       answer: "Sim, somos especialistas em instalações para adegas vinícolas e lagares de azeite: quadros trifásicos, iluminação industrial, sistemas de refrigeração e controlo de temperatura."
     },
     {
-      question: "Fazem certificação CERTIEL em Vila Flor?",
-      answer: "Sim, realizamos certificação elétrica CERTIEL para venda, arrendamento ou legalização de imóveis em todo o concelho de Vila Flor."
-    }
-  ];
+      question: "Qual o custo de deslocação a Vila Flor?",
+      answer: "A deslocação a Vila Flor é de 15€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

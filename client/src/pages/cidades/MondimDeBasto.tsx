@@ -62,10 +62,9 @@ export default function MondimDeBasto() {
       answer: "Sim, instalamos sistemas elétricos para casas de montanha, refúgios, parques de campismo e alojamentos turísticos na Serra do Alvão e arredores."
     },
     {
-      question: "Instalam proteção contra raios em Mondim de Basto?",
-      answer: "Sim, dada a altitude da Serra do Alvão, instalamos sistemas de proteção contra descargas atmosféricas (para-raios) e descarregadores de sobretensão."
-    }
-  ];
+      question: "Qual o custo de deslocação a Mondim de Basto?",
+      answer: "A deslocação a Mondim de Basto é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

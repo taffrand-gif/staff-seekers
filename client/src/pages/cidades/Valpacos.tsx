@@ -62,10 +62,9 @@ export default function Valpacos() {
       answer: "Sim, somos especialistas em instalações elétricas agrícolas: quadros para bombas de rega, iluminação de lagares de azeite, armazéns e estufas."
     },
     {
-      question: "Qual o custo de uma instalação elétrica para um lagar em Valpaços?",
-      answer: "O custo depende da dimensão do lagar. Fazemos orçamento gratuito no local. Instalamos quadros trifásicos, iluminação industrial e sistemas de proteção."
-    }
-  ];
+      question: "Qual o custo de deslocação a Valpaços?",
+      answer: "A deslocação a Valpaços é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

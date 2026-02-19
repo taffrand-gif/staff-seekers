@@ -62,10 +62,9 @@ export default function SaoJoaoDaPesqueira() {
       answer: "Sim, somos especialistas em instalações para quintas: adegas de vinificação, caves de estágio, sistemas de climatização, bombas e linhas de engarrafamento."
     },
     {
-      question: "Instalam sistemas para miradouros e turismo no Douro?",
-      answer: "Sim, instalamos iluminação para miradouros, percursos pedestres, espaços de eventos ao ar livre e infraestruturas turísticas no vale do Douro."
-    }
-  ];
+      question: "Qual o custo de deslocação a São João da Pesqueira?",
+      answer: "A deslocação a São João da Pesqueira é de 30€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

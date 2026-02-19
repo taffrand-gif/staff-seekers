@@ -62,10 +62,9 @@ export default function Vimioso() {
       answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as mais próximas da fronteira espanhola. Temos veículo preparado para acessos rurais."
     },
     {
-      question: "Fazem instalações para casas recuperadas em Vimioso?",
-      answer: "Sim, temos experiência em remodelação elétrica de casas tradicionais transmontanas, respeitando a arquitetura original com instalações modernas e seguras."
-    }
-  ];
+      question: "Qual o custo de deslocação a Vimioso?",
+      answer: "A deslocação a Vimioso é de 25€. Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

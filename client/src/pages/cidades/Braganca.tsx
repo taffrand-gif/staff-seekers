@@ -77,6 +77,21 @@ export default function Braganca() {
       ]
     });
     document.head.appendChild(schemaScript);
+  const faqs = [
+    {
+      question: "Qual o custo de deslocação a Bragança?",
+      answer: "A deslocação a Bragança é de 25€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+    },
+    {
+      question: "Fazem urgências 24 horas em Bragança?",
+      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Bragança. Ligue +351 932 321 892 para assistência imediata."
+    },
+    {
+      question: "Fornecem certificação elétrica em Bragança?",
+      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Bragança e todo o concelho."
+    }
+  ];
+
     
     return () => {
       document.head.removeChild(schemaScript);
@@ -315,6 +330,14 @@ export default function Braganca() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        
+        <section className="py-16">
+          <div className="container max-w-4xl">
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Bragança</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
+
         <RelatedCities 
           currentCity="Braganca" 
           currentCitySlug="electricista-braganca" 

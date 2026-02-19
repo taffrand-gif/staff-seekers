@@ -62,10 +62,9 @@ export default function MesaoFrio() {
       answer: "Sim, instalamos sistemas elétricos para cais, marinas fluviais, restaurantes ribeirinhos e espaços de embarque no rio Douro."
     },
     {
-      question: "Trabalham em solares e casas senhoriais em Mesão Frio?",
-      answer: "Sim, temos experiência em instalações elétricas para solares e casas senhoriais, com cablagem discreta e iluminação que valoriza a arquitetura histórica."
-    }
-  ];
+      question: "Qual o custo de deslocação a Mesão Frio?",
+      answer: "A deslocação a Mesão Frio é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

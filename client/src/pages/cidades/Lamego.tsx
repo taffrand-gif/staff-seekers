@@ -62,10 +62,9 @@ export default function Lamego() {
       answer: "Sim, somos especialistas em instalações para caves: climatização controlada, iluminação técnica, sistemas de refrigeração e quadros de potência para linhas de engarrafamento."
     },
     {
-      question: "Trabalham em edifícios históricos e patrimônio religioso?",
-      answer: "Sim, temos experiência em instalações elétricas respeitando o patrimônio arquitetónico, com cablagem discreta e iluminação adequada para igrejas e edifícios classificados."
-    }
-  ];
+      question: "Qual o custo de deslocação a Lamego?",
+      answer: "A deslocação a Lamego é de 35€. Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

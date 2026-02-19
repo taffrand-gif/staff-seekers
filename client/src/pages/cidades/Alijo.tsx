@@ -62,10 +62,9 @@ export default function Alijo() {
       answer: "Sim, temos ampla experiência em instalações para quintas do Douro: adegas de vinificação, caves de estágio, sistemas de irrigação por gotejamento e alojamento turístico."
     },
     {
-      question: "Instalam sistemas para enoturismo em Alijó?",
-      answer: "Sim, instalamos iluminação decorativa, sistemas de som, climatização e quadros elétricos para espaços de enoturismo, salas de provas e restaurantes nas quintas."
-    }
-  ];
+      question: "Qual o custo de deslocação a Alijó?",
+      answer: "A deslocação a Alijó é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

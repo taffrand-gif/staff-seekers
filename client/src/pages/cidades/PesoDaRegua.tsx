@@ -62,10 +62,9 @@ export default function PesoDaRegua() {
       answer: "Sim, somos especialistas em instalações para caves: climatização, iluminação técnica, sistemas de segurança e quadros de potência para equipamentos de vinificação."
     },
     {
-      question: "Trabalham em espaços comerciais na Régua?",
-      answer: "Sim, instalamos sistemas elétricos para lojas, restaurantes, hotéis e espaços de enoturismo no centro da Régua e arredores."
-    }
-  ];
+      question: "Qual o custo de deslocação a Peso da Régua?",
+      answer: "A deslocação a Peso da Régua é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

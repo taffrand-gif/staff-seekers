@@ -62,10 +62,9 @@ export default function MoimentaDaBeira() {
       answer: "Sim, instalamos quadros trifásicos de potência para câmaras frigoríficas, sistemas de refrigeração e armazéns de fruta com controlo de temperatura."
     },
     {
-      question: "Trabalham em pedreiras e indústria de granito?",
-      answer: "Sim, temos experiência em instalações elétricas industriais para pedreiras: quadros de potência, iluminação de estaleiros e sistemas para maquinaria pesada."
-    }
-  ];
+      question: "Qual o custo de deslocação a Moimenta da Beira?",
+      answer: "A deslocação a Moimenta da Beira é de 40€, sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

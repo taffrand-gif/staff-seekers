@@ -62,10 +62,9 @@ export default function Armamar() {
       answer: "Sim, instalamos quadros trifásicos para câmaras frigoríficas de fruta, sistemas de refrigeração e armazéns de processamento de cereja."
     },
     {
-      question: "Trabalham nas quintas do Douro em Armamar?",
-      answer: "Sim, servimos todas as quintas vinícolas do concelho, com instalações para adegas, caves e espaços de enoturismo junto ao rio Douro."
-    }
-  ];
+      question: "Qual o custo de deslocação a Armamar?",
+      answer: "A deslocação a Armamar é de 35€. Chegamos em aproximadamente 75-85 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

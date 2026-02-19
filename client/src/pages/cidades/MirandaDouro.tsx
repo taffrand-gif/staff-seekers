@@ -50,7 +50,10 @@ export default function MirandaDouro() {
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Miranda do Douro?", answer: "Chegamos a Miranda do Douro em aproximadamente 45-60 minutos. Cobrimos todo o concelho incluindo Sendim e Duas Igrejas." },
-    { question: "Qual o custo de deslocação a Miranda do Douro?", answer: "A deslocação a Miranda do Douro é de 30€. Inclui todas as freguesias do concelho." },
+    {
+      question: "Qual o custo de deslocação a Miranda do Douro?",
+      answer: "A deslocação a Miranda do Douro é de 30€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    },
     { question: "Falam mirandês?", answer: "Entendemos mirandês! Muitos dos nossos clientes na Terra de Miranda preferem falar na sua língua." }
   ];
 

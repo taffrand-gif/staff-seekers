@@ -62,10 +62,9 @@ export default function Murca() {
       answer: "Sim, somos especialistas em instalações para lagares: quadros trifásicos para prensas, iluminação industrial, sistemas de aquecimento e bombas de transferência."
     },
     {
-      question: "Fazem manutenção elétrica preventiva em Murça?",
-      answer: "Sim, oferecemos contratos de manutenção preventiva para lagares, adegas e explorações agrícolas, evitando paragens durante as campanhas de colheita."
-    }
-  ];
+      question: "Qual o custo de deslocação a Murça?",
+      answer: "A deslocação a Murça é de 30€. Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

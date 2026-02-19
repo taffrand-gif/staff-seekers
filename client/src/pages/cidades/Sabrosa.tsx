@@ -62,10 +62,9 @@ export default function Sabrosa() {
       answer: "Sim, temos experiência em instalações elétricas para espaços culturais, museus e centros interpretativos, com iluminação técnica e sistemas de segurança."
     },
     {
-      question: "Trabalham nas quintas do Douro perto de Sabrosa?",
-      answer: "Sim, servimos todas as quintas vinhateiras do concelho de Sabrosa, incluindo instalações para adegas, alojamento turístico e espaços de eventos."
-    }
-  ];
+      question: "Qual o custo de deslocação a Sabrosa?",
+      answer: "A deslocação a Sabrosa é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

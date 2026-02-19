@@ -62,10 +62,9 @@ export default function Montalegre() {
       answer: "Sim, servimos todas as zonas do concelho incluindo as áreas próximas das barragens do Alto Rabagão e Paradela. Instalações para turismo e habitações."
     },
     {
-      question: "Fazem instalações para explorações pecuárias no Barroso?",
-      answer: "Sim, instalamos sistemas elétricos para estábulos, ordenha mecânica, iluminação de pastagens e armazéns de feno na região do Barroso."
-    }
-  ];
+      question: "Qual o custo de deslocação a Montalegre?",
+      answer: "A deslocação a Montalegre é de 40€, sob marcação prévia. Estamos a cerca de 110km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

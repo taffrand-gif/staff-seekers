@@ -62,10 +62,9 @@ export default function Sernancelhe() {
       answer: "Sim, instalamos sistemas elétricos para secadores industriais de castanha, câmaras de fumeiro e armazéns de processamento com quadros trifásicos."
     },
     {
-      question: "Trabalham em igrejas e patrimônio religioso?",
-      answer: "Sim, temos experiência em instalações elétricas para igrejas, capelas e santuários, com cablagem discreta e iluminação respeitando o patrimônio."
-    }
-  ];
+      question: "Qual o custo de deslocação a Sernancelhe?",
+      answer: "A deslocação a Sernancelhe é de 40€, sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

@@ -63,7 +63,7 @@ export default function Boticas() {
     },
     {
       question: "Qual o custo de deslocação a Boticas?",
-      answer: "A deslocação a Boticas é de 40€ devido à distância. Inclui todas as freguesias do concelho. Orçamento da intervenção é gratuito."
+      answer: "A deslocação a Boticas é de 40€, sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
     }
   ];
 

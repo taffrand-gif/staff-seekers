@@ -62,10 +62,9 @@ export default function SantaMartaDePenaguiao() {
       answer: "Sim, instalamos sistemas elétricos para adegas de vinho verde e Douro: climatização, refrigeração, quadros trifásicos e linhas de engarrafamento."
     },
     {
-      question: "Trabalham em quintas com vista para o Douro?",
-      answer: "Sim, servimos todas as quintas do concelho, incluindo as encostas do Douro, com instalações para turismo, adegas e espaços de eventos."
-    }
-  ];
+      question: "Qual o custo de deslocação a Santa Marta de Penaguião?",
+      answer: "A deslocação a Santa Marta de Penaguião é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

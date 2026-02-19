@@ -77,6 +77,21 @@ export default function VilaReal() {
       ]
     });
     document.head.appendChild(schemaScript);
+  const faqs = [
+    {
+      question: "Qual o custo de deslocação a Vila Real?",
+      answer: "A deslocação a Vila Real é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    },
+    {
+      question: "Fazem urgências 24 horas em Vila Real?",
+      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Vila Real. Ligue +351 932 321 892 para assistência imediata."
+    },
+    {
+      question: "Fornecem certificação elétrica em Vila Real?",
+      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Vila Real e todo o concelho."
+    }
+  ];
+
     
     return () => {
       document.head.removeChild(schemaScript);
@@ -293,6 +308,14 @@ export default function VilaReal() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        
+        <section className="py-16">
+          <div className="container max-w-4xl">
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Real</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
+
         <RelatedCities 
           currentCity="Vila Real" 
           currentCitySlug="electricista-vilareal" 

@@ -62,10 +62,9 @@ export default function VilaNovaFozCoa() {
       answer: "Sim, temos experiência em instalações para museus e centros interpretativos: iluminação técnica, sistemas de segurança, climatização e quadros de emergência."
     },
     {
-      question: "Trabalham nas quintas vinícolas do vale do Côa?",
-      answer: "Sim, servimos todas as quintas do vale do Côa e Douro Superior, com instalações para adegas, alojamento turístico e sistemas de irrigação."
-    }
-  ];
+      question: "Qual o custo de deslocação a Vila Nova de Foz Côa?",
+      answer: "A deslocação a Vila Nova de Foz Côa é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

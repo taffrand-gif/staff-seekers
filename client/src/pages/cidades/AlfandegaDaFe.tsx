@@ -63,7 +63,7 @@ export default function AlfandegaDaFe() {
     },
     {
       question: "Qual o custo de deslocação a Alfândega da Fé?",
-      answer: "A deslocação a Alfândega da Fé é de apenas 20€ dada a proximidade. Inclui todas as freguesias do concelho."
+      answer: "A deslocação a Alfândega da Fé é de 15€. Chegamos em aproximadamente 25-30 minutos. Inclui todo o concelho."
     }
   ];
 

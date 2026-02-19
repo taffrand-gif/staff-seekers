@@ -62,10 +62,9 @@ export default function VilaRealCity() {
       answer: "Sim, temos experiência em instalações elétricas para termas e spas: sistemas de aquecimento de água, bombas de circulação, iluminação ambiente e quadros de potência."
     },
     {
-      question: "Trabalham em hotéis e alojamento turístico em Vila Pouca?",
-      answer: "Sim, instalamos sistemas elétricos completos para hotéis, pousadas e casas de turismo rural, incluindo sistemas de emergência e iluminação decorativa."
-    }
-  ];
+      question: "Qual o custo de deslocação a Vila Real?",
+      answer: "A deslocação a Vila Real é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

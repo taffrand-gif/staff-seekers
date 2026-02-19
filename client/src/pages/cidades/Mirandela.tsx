@@ -8,6 +8,7 @@ import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
+import FAQSection from '@/components/FAQSection';
 
 export default function Mirandela() {
   const { config } = useSite();
@@ -84,6 +85,21 @@ export default function Mirandela() {
       ]
     });
     document.head.appendChild(schemaScript);
+  const faqs = [
+    {
+      question: "Qual o custo de deslocação a Mirandela?",
+      answer: "A deslocação a Mirandela é de 15€. Chegamos em aproximadamente 30-35 minutos. Inclui todo o concelho."
+    },
+    {
+      question: "Fazem urgências 24 horas em Mirandela?",
+      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Mirandela. Ligue +351 932 321 892 para assistência imediata."
+    },
+    {
+      question: "Fornecem certificação elétrica em Mirandela?",
+      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Mirandela e todo o concelho."
+    }
+  ];
+
     
     return () => {
       document.head.removeChild(schemaScript);
@@ -311,6 +327,14 @@ export default function Mirandela() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        
+        <section className="py-16">
+          <div className="container max-w-4xl">
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Mirandela</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
+
         <RelatedCities 
           currentCity="Mirandela" 
           currentCitySlug="electricista-mirandela" 

@@ -62,10 +62,9 @@ export default function Penedono() {
       answer: "Sim, somos especialistas em remodelação elétrica de casas tradicionais em granito, com cablagem embutida na pedra e soluções que respeitam a arquitetura original."
     },
     {
-      question: "Instalam iluminação para monumentos e castelos?",
-      answer: "Sim, temos experiência em iluminação monumental e decorativa para castelos, muralhas e edifícios históricos, com sistemas LED de baixo consumo."
-    }
-  ];
+      question: "Qual o custo de deslocação a Penedono?",
+      answer: "A deslocação a Penedono é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

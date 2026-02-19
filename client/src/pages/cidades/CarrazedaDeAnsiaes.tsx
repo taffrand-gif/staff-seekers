@@ -62,10 +62,9 @@ export default function CarrazedaDeAnsiaes() {
       answer: "Sim, temos vasta experiência em instalações elétricas para quintas vinícolas do Douro: adegas, armazéns, sistemas de irrigação e alojamento turístico rural."
     },
     {
-      question: "Fazem instalações para turismo rural em Carrazeda de Ansiães?",
-      answer: "Sim, instalamos sistemas elétricos completos para casas de turismo rural, incluindo iluminação decorativa, aquecimento elétrico e quadros modernos."
-    }
-  ];
+      question: "Qual o custo de deslocação a Carrazeda de Ansiães?",
+      answer: "A deslocação a Carrazeda de Ansiães é de 15€. Chegamos em aproximadamente 35-40 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

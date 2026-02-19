@@ -62,10 +62,9 @@ export default function RibeiraDePena() {
       answer: "Sim, instalamos sistemas elétricos para casas de férias e turismo rural junto à barragem, incluindo proteção contra humidade e sistemas de emergência."
     },
     {
-      question: "Instalam painéis solares em Ribeira de Pena?",
-      answer: "Sim, instalamos painéis fotovoltaicos para autoconsumo, ideais para casas rurais e alojamentos turísticos em zonas mais remotas do concelho."
-    }
-  ];
+      question: "Qual o custo de deslocação a Ribeira de Pena?",
+      answer: "A deslocação a Ribeira de Pena é de 40€, sob marcação prévia. Estamos a cerca de 85km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

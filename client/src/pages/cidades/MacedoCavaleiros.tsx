@@ -86,7 +86,7 @@ export default function MacedoCavaleiros() {
     },
     {
       question: "Qual o custo de deslocação a Macedo de Cavaleiros?",
-      answer: "Para Macedo de Cavaleiros e arredores (Azibo, Podence, Morais), a deslocação é de apenas 10€. É a nossa zona local."
+      answer: "A deslocação a Macedo de Cavaleiros é de 10€, pois é a nossa sede. Atendemos em menos de 30 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem certificação elétrica em Macedo?",
