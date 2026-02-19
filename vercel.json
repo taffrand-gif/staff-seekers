@@ -50,6 +50,54 @@
       "destination": "/eletricista-mogadouro.html"
     },
     {
+      "source": "/eletricista-miranda-douro",
+      "destination": "/eletricista-miranda-douro.html"
+    },
+    {
+      "source": "/eletricista-freixo-espada-cinta",
+      "destination": "/eletricista-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/electricista-vila-real",
+      "destination": "/eletricista-vila-real.html"
+    },
+    {
+      "source": "/electricista-braganca",
+      "destination": "/eletricista-braganca.html"
+    },
+    {
+      "source": "/electricista-chaves",
+      "destination": "/eletricista-chaves.html"
+    },
+    {
+      "source": "/electricista-mirandela",
+      "destination": "/eletricista-mirandela.html"
+    },
+    {
+      "source": "/electricista-macedo-cavaleiros",
+      "destination": "/eletricista-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/electricista-vinhais",
+      "destination": "/eletricista-vinhais.html"
+    },
+    {
+      "source": "/electricista-miranda-douro",
+      "destination": "/eletricista-miranda-douro.html"
+    },
+    {
+      "source": "/electricista-mogadouro",
+      "destination": "/eletricista-mogadouro.html"
+    },
+    {
+      "source": "/electricista-torre-moncorvo",
+      "destination": "/eletricista-torre-moncorvo.html"
+    },
+    {
+      "source": "/electricista-freixo-espada-cinta",
+      "destination": "/eletricista-freixo-espada-cinta.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
