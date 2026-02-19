@@ -35,7 +35,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
             </div>
             <div>
               <p className="font-semibold text-gray-900">João Silva</p>
-              <p className="text-gray-600">Eletricista Certificado com 15+ anos de experiência</p>
+              <p className="text-gray-600">Electricista Certificado com 15+ anos de experiência</p>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
         <div className="prose prose-lg max-w-none">
           <section id="sinais" className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">1. ⚠️ Os 8 Sinais de Alerta Principais</h2>
-            <p>Se reconhece algum destes sinais na sua casa, é hora de contactar um eletricista:</p>
+            <p>Se reconhece algum destes sinais na sua casa, é hora de contactar um electricista:</p>
             <div className="space-y-4 my-6">
               <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-gray-200">
                 <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</span>
@@ -105,7 +105,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
                 <span className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</span>
                 <div>
                   <p className="font-semibold">Cheiro a queimado sem causa visível</p>
-                  <p className="text-gray-600">Um cheiro a plástico queimado perto de tomadas ou interruptores é sinal de sobreaquecimento — desligue imediatamente e chame um eletricista.</p>
+                  <p className="text-gray-600">Um cheiro a plástico queimado perto de tomadas ou interruptores é sinal de sobreaquecimento — desligue imediatamente e chame um electricista.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-gray-200">
@@ -209,7 +209,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
           </section>
 
           <section id="profissional" className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Porquê Contratar um Eletricista Certificado</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Porquê Contratar um Electricista Certificado</h2>
             <div className="bg-amber-50 border border-amber-200 rounded-2xl p-8">
               <p className="text-lg text-gray-700 mb-6">A renovação de uma instalação elétrica não é um projeto DIY. Requer conhecimentos técnicos, certificação e cumprimento das normas RTIEBT (Regras Técnicas das Instalações Elétricas de Baixa Tensão).</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -235,7 +235,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
               <div className="mt-8 text-center">
                 <p className="text-xl text-gray-900 mb-6">Precisa de uma avaliação da sua instalação elétrica?</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors">📞 Ligar para Eletricista</a>
+                  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors">📞 Ligar para Electricista</a>
                   <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de uma avaliação da instalação elétrica`} target="_blank" rel="noopener noreferrer" className="bg-white text-amber-700 font-bold text-lg px-8 py-4 rounded-xl border-2 border-amber-600 hover:bg-amber-50 transition-colors">💬 WhatsApp Rápido</a>
                 </div>
               </div>
@@ -283,7 +283,7 @@ const QuandoTrocarInstalacaoEletrica: React.FC = () => {
             <div className="md:w-3/4">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
               <p className="text-gray-700 mb-4">
-                <strong>João Silva</strong> é eletricista certificado com mais de 15 anos de experiência em Trás-os-Montes. Especialista em renovação de instalações elétricas e certificação DGEG, já modernizou mais de 300 instalações na região.
+                <strong>João Silva</strong> é electricista certificado com mais de 15 anos de experiência em Trás-os-Montes. Especialista em renovação de instalações elétricas e certificação DGEG, já modernizou mais de 300 instalações na região.
               </p>
               <p className="text-gray-600">Para questões técnicas ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
             </div>

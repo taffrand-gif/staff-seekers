@@ -1,4 +1,4 @@
-// SEO optimized page for "Eletricista Macedo de Cavaleiros"
+// SEO optimized page for "Electricista Macedo de Cavaleiros"
 // 100% unique content, conforme às políticas Google
 
 import Header from '@/components/Header';
@@ -13,7 +13,7 @@ export default function MacedoCavaleiros() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista Macedo de Cavaleiros 24h - Urgências Elétricas - +351 932 321 892";
+    document.title = "Electricista Macedo de Cavaleiros 24h - Urgências Elétricas - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -21,7 +21,7 @@ export default function MacedoCavaleiros() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Macedo de Cavaleiros disponível 24h. Reparação de avarias elétricas, quadros elétricos, curto-circuitos. Intervenção rápida em menos de 30 minutos. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Electricista em Macedo de Cavaleiros disponível 24h. Reparação de avarias elétricas, quadros elétricos, curto-circuitos. Intervenção rápida em menos de 30 minutos. Orçamento gratuito.');
 
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -29,7 +29,7 @@ export default function MacedoCavaleiros() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista macedo de cavaleiros, eletricista urgente macedo, eletricista 24 horas macedo cavaleiros, avaria elétrica macedo, quadro elétrico macedo cavaleiros, curto circuito macedo');
+    metaKeywords.setAttribute('content', 'electricista macedo de cavaleiros, electricista urgente macedo, electricista 24 horas macedo cavaleiros, avaria elétrica macedo, quadro elétrico macedo cavaleiros, curto circuito macedo');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -37,7 +37,7 @@ export default function MacedoCavaleiros() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-macedo-cavaleiros');
+    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-macedo-cavaleiros');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -45,8 +45,8 @@ export default function MacedoCavaleiros() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Eletricista Profissional Macedo de Cavaleiros",
-      "description": "Eletricista profissional em Macedo de Cavaleiros. Serviço 24h, urgências elétricas, quadros elétricos.",
+      "name": "Electricista Profissional Macedo de Cavaleiros",
+      "description": "Electricista profissional em Macedo de Cavaleiros. Serviço 24h, urgências elétricas, quadros elétricos.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Macedo de Cavaleiros",
@@ -111,7 +111,7 @@ export default function MacedoCavaleiros() {
               ⚡ SEDE EM MACEDO DE CAVALEIROS
             </span>
             <h1 className="text-4xl md:text-6xl font-black mb-6">
-              Eletricista em Macedo de Cavaleiros
+              Electricista em Macedo de Cavaleiros
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               A nossa base é aqui. Chegamos em menos de 30 minutos. Serviço 24h para urgências elétricas.
@@ -240,7 +240,7 @@ export default function MacedoCavaleiros() {
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">
-              Precisa de Eletricista em Macedo de Cavaleiros?
+              Precisa de Electricista em Macedo de Cavaleiros?
             </h2>
             <p className="text-xl mb-8 opacity-90">
               Ligue agora. Estamos a menos de 30 minutos de si.
@@ -258,7 +258,7 @@ export default function MacedoCavaleiros() {
         {/* Related Cities - Maillage interno SEO */}
         <RelatedCities 
           currentCity="Macedo de Cavaleiros" 
-          currentCitySlug="eletricista-macedocavaleiros" 
+          currentCitySlug="electricista-macedocavaleiros" 
         />
       </main>
 

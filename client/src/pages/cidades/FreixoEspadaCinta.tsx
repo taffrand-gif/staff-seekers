@@ -1,4 +1,4 @@
-// SEO optimized page for "Eletricista Freixo de Espada à Cinta"
+// SEO optimized page for "Electricista Freixo de Espada à Cinta"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -8,7 +8,7 @@ import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
 export default function FreixoEspadaCinta() {
   useEffect(() => {
-    document.title = "Eletricista Freixo de Espada à Cinta 24h - Urgências - +351 932 321 892";
+    document.title = "Electricista Freixo de Espada à Cinta 24h - Urgências - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function FreixoEspadaCinta() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Freixo de Espada à Cinta disponível 24h. Reparação de avarias elétricas, quadros elétricos. Servimos todo o concelho. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Electricista em Freixo de Espada à Cinta disponível 24h. Reparação de avarias elétricas, quadros elétricos. Servimos todo o concelho. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -24,7 +24,7 @@ export default function FreixoEspadaCinta() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-freixo-espada-cinta');
+    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-freixo-espada-cinta');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -32,7 +32,7 @@ export default function FreixoEspadaCinta() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Eletricista Profissional Freixo de Espada à Cinta",
+      "name": "Electricista Profissional Freixo de Espada à Cinta",
       "address": { "@type": "PostalAddress", "addressLocality": "Freixo de Espada à Cinta", "addressRegion": "Bragança", "addressCountry": "PT" },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.0833", "longitude": "-6.8167" },
       "telephone": "+351932321892",
@@ -58,7 +58,7 @@ export default function FreixoEspadaCinta() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ FREIXO DE ESPADA À CINTA</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Freixo de Espada à Cinta</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em Freixo de Espada à Cinta</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho. Chegamos às aldeias mais remotas com veículo 4x4.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"><Phone className="w-6 h-6" />932 321 892</a>
@@ -90,7 +90,7 @@ export default function FreixoEspadaCinta() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Freixo?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em Freixo?</h2>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />932 321 892</a>
           </div>
         </section>
@@ -98,7 +98,7 @@ export default function FreixoEspadaCinta() {
         {/* Related Cities - Maillage interno SEO */}
         <RelatedCities 
           currentCity="Freixo de Espada à Cinta" 
-          currentCitySlug="eletricista-freixoespadacinta" 
+          currentCitySlug="electricista-freixoespadacinta" 
         />
       </main>
       <Footer />

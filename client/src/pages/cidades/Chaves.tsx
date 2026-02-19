@@ -1,4 +1,4 @@
-// Page SEO optimisée para "Eletricista Chaves"
+// Page SEO optimisée para "Electricista Chaves"
 // 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
@@ -13,7 +13,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Chaves, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
+    document.title = "Electricista em Chaves, Macedo, Mirandela, Bragança - Electricista Profissional - +351 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -22,7 +22,7 @@ export default function Chaves() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Chaves, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para termas e turismo.');
+    metaDescription.setAttribute('content', 'Electricista certificado em Chaves, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para termas e turismo.');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -30,7 +30,7 @@ export default function Chaves() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente chaves, eletricista 24 horas chaves, eletricista chaves, eletricista profissional chaves, instalação elétrica chaves, quadro elétrico chaves, certificação elétrica chaves, reparação elétrica chaves, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'electricista urgente chaves, electricista 24 horas chaves, electricista chaves, electricista profissional chaves, instalação elétrica chaves, quadro elétrico chaves, certificação elétrica chaves, reparação elétrica chaves, electricista trás-os-montes');
     
     
     // Canonical URL
@@ -40,7 +40,7 @@ export default function Chaves() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-chaves');
+    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-chaves');
     
     // Schema.org LocalBusiness para Chaves
     const schemaScript = document.createElement('script');
@@ -48,9 +48,9 @@ export default function Chaves() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Eletricista Profissional — Eletricista em Chaves",
+      "name": "Electricista Profissional — Electricista em Chaves",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Chaves, Trás-os-Montes. Instalação, reparação e certificação elétrica para termas e turismo.",
+      "description": "Electricista profissional em Chaves, Trás-os-Montes. Instalação, reparação e certificação elétrica para termas e turismo.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Chaves",
@@ -80,7 +80,7 @@ export default function Chaves() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -103,17 +103,17 @@ export default function Chaves() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
+                <a href="/" className="hover:text-white">Electricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Chaves</span>
               </nav>
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Eletricista Profissional em <span className="text-blue-900">Chaves</span>
+                Electricista Profissional em <span className="text-blue-900">Chaves</span>
               </h1>
               
               <p className="text-xl mb-8">
-                Serviços de eletricista certificado em Chaves e arredores. 
+                Serviços de electricista certificado em Chaves e arredores. 
                 Especialistas em instalações para termas, hotéis e turismo termal.
               </p>
               
@@ -122,10 +122,10 @@ export default function Chaves() {
                   href={`tel:${config.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Chaves: {config.phone}
+                  📞 Electricista Chaves: {config.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Chaves`}
+                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um electricista em Chaves`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -224,7 +224,7 @@ export default function Chaves() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas sobre <span className="text-amber-600">Eletricista em Chaves</span>
+              Perguntas sobre <span className="text-amber-600">Electricista em Chaves</span>
             </h2>
             
             <div className="max-w-3xl mx-auto space-y-6">
@@ -271,7 +271,7 @@ export default function Chaves() {
         <section className="py-16 bg-gradient-to-r from-blue-900 to-amber-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Eletricista em <span className="text-amber-300">Chaves</span> - Especialista em Turismo
+              Electricista em <span className="text-amber-300">Chaves</span> - Especialista em Turismo
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Conhecemos as necessidades elétricas do turismo termal de Chaves.
@@ -286,7 +286,7 @@ export default function Chaves() {
                 📞 {config.phone} (Chaves)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Chaves`}
+                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um electricista em Chaves`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -314,7 +314,7 @@ export default function Chaves() {
         {/* Related Cities - Maillage interno SEO */}
         <RelatedCities 
           currentCity="Chaves" 
-          currentCitySlug="eletricista-chaves" 
+          currentCitySlug="electricista-chaves" 
         />
       </main>
       

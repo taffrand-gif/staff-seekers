@@ -14,9 +14,8 @@ export default function StructuredData() {
     const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
     existingScripts.forEach(script => script.remove());
 
-    const isPlumber = config.id === 'norte-reparos';
-    const businessType = isPlumber ? 'Plumber' : 'Electrician';
-    const serviceName = isPlumber ? 'Canalizador' : 'Eletricista';
+    const businessType = 'Electrician';
+    const serviceName = 'Electricista';
     
     // Liste des 10 villes servies
     const citiesServed = [
@@ -72,8 +71,8 @@ export default function StructuredData() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "ratingCount": isPlumber ? "52" : "48",
-        "reviewCount": isPlumber ? "52" : "48",
+        "ratingCount": "48",
+        "reviewCount": "48",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -149,16 +148,16 @@ export default function StructuredData() {
     // Service Schema spécifique pour les pages ville
     const getCityServiceSchema = () => {
       const cityPages = [
-        { path: '/eletricista-chaves', city: 'Chaves' },
-        { path: '/eletricista-braganca', city: 'Bragança' },
-        { path: '/eletricista-mirandela', city: 'Mirandela' },
-        { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-        { path: '/eletricista-valpacos', city: 'Valpaços' },
-        { path: '/eletricista-vinhais', city: 'Vinhais' },
-        { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
-        { path: '/eletricista-mogadouro', city: 'Mogadouro' },
-        { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
-        { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+        { path: '/electricista-chaves', city: 'Chaves' },
+        { path: '/electricista-braganca', city: 'Bragança' },
+        { path: '/electricista-mirandela', city: 'Mirandela' },
+        { path: '/electricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+        { path: '/electricista-valpacos', city: 'Valpaços' },
+        { path: '/electricista-vinhais', city: 'Vinhais' },
+        { path: '/electricista-miranda-douro', city: 'Miranda do Douro' },
+        { path: '/electricista-mogadouro', city: 'Mogadouro' },
+        { path: '/electricista-torre-moncorvo', city: 'Torre de Moncorvo' },
+        { path: '/electricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
       ];
 
       const currentCity = cityPages.find(page => location === page.path);
@@ -310,7 +309,7 @@ export default function StructuredData() {
           "name": "Têm certificação profissional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim, somos eletricistas certificados com anos de experiência na região. Trabalhamos com equipamento profissional Fluke e FLIR, e emitimos certificação CERTIEL."
+            "text": "Sim, somos electricistas certificados com anos de experiência na região. Trabalhamos com equipamento profissional Fluke e FLIR, e emitimos certificação CERTIEL."
           }
         }
       ]
@@ -338,16 +337,16 @@ export default function StructuredData() {
 
     // Ajouter la ville actuelle au breadcrumb si on est sur une page ville
     const cityPages = [
-      { path: '/eletricista-chaves', city: 'Chaves' },
-      { path: '/eletricista-braganca', city: 'Bragança' },
-      { path: '/eletricista-mirandela', city: 'Mirandela' },
-      { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-      { path: '/eletricista-valpacos', city: 'Valpaços' },
-      { path: '/eletricista-vinhais', city: 'Vinhais' },
-      { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
-      { path: '/eletricista-mogadouro', city: 'Mogadouro' },
-      { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
-      { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+      { path: '/electricista-chaves', city: 'Chaves' },
+      { path: '/electricista-braganca', city: 'Bragança' },
+      { path: '/electricista-mirandela', city: 'Mirandela' },
+      { path: '/electricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+      { path: '/electricista-valpacos', city: 'Valpaços' },
+      { path: '/electricista-vinhais', city: 'Vinhais' },
+      { path: '/electricista-miranda-douro', city: 'Miranda do Douro' },
+      { path: '/electricista-mogadouro', city: 'Mogadouro' },
+      { path: '/electricista-torre-moncorvo', city: 'Torre de Moncorvo' },
+      { path: '/electricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
     ];
 
     const currentCity = cityPages.find(page => location === page.path);

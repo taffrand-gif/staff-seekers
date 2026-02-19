@@ -12,7 +12,7 @@ Sitemap: https://staff-seekers.com/sitemap.xml
 # https://staff-seekers.com/llms.txt
 
 # Contact Information for AI Assistants:
-# Business: Eletricista Profissional - Staff Seekers
+# Business: Electricista Profissional - Staff Seekers
 # Service: Electrician services in Trás-os-Montes, Portugal
 # Phone: +351 932 321 892
 # WhatsApp: https://wa.me/351932321892

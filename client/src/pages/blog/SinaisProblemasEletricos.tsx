@@ -6,7 +6,7 @@ import { Phone, AlertTriangle, CheckCircle, Zap } from 'lucide-react';
 
 export default function SinaisProblemasEletricos() {
   useEffect(() => {
-    document.title = "7 Sinais de Problemas Elétricos em Casa - Quando Chamar Eletricista | Staff Seekers";
+    document.title = "7 Sinais de Problemas Elétricos em Casa - Quando Chamar Electricista | Staff Seekers";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -14,7 +14,7 @@ export default function SinaisProblemasEletricos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Aprenda a identificar os 7 sinais de alerta de problemas elétricos em casa. Saiba quando é urgente chamar um eletricista profissional. Guia completo de segurança elétrica.');
+    metaDescription.setAttribute('content', 'Aprenda a identificar os 7 sinais de alerta de problemas elétricos em casa. Saiba quando é urgente chamar um electricista profissional. Guia completo de segurança elétrica.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -30,7 +30,7 @@ export default function SinaisProblemasEletricos() {
       titulo: "1. Disjuntor que Dispara Frequentemente",
       descricao: "Se o disjuntor dispara mais de uma vez por semana, pode indicar sobrecarga no circuito ou curto-circuito.",
       urgencia: "alta",
-      acao: "Não force o disjuntor. Desligue aparelhos e chame um eletricista."
+      acao: "Não force o disjuntor. Desligue aparelhos e chame um electricista."
     },
     {
       titulo: "2. Cheiro a Queimado sem Origem Visível",
@@ -48,7 +48,7 @@ export default function SinaisProblemasEletricos() {
       titulo: "4. Luzes que Tremem ou Piscam",
       descricao: "Pode ser lâmpada a falhar, mas se acontece em várias divisões, o problema é na instalação.",
       urgencia: "media",
-      acao: "Teste com lâmpadas novas. Se persistir, chame eletricista."
+      acao: "Teste com lâmpadas novas. Se persistir, chame electricista."
     },
     {
       titulo: "5. Faíscas ao Ligar Aparelhos",

@@ -7,7 +7,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
   useSEO({
     title: 'Como Instalar um Candeeiro de Teto com Segurança: Guia Completo 2026',
     description: 'Guia passo a passo para instalar um candeeiro de teto de forma segura. Aprenda as normas de segurança, ferramentas necessárias e quando chamar um profissional.',
-    keywords: 'instalar candeeiro teto, como ligar fios, eletricista DIY, segurança elétrica, instalação luminária'
+    keywords: 'instalar candeeiro teto, como ligar fios, electricista DIY, segurança elétrica, instalação luminária'
   });
 
   return (
@@ -37,7 +37,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
             </div>
             <div>
               <p className="font-semibold text-gray-900">João Silva</p>
-              <p className="text-gray-600">Eletricista Certificado com 15+ anos de experiência</p>
+              <p className="text-gray-600">Electricista Certificado com 15+ anos de experiência</p>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
             <p className="text-blue-800 font-semibold text-lg">
               ⚠️ Aviso Importante: Este guia é para projetos DIY simples. Para instalações complexas, 
-              quadros elétricos antigos ou qualquer dúvida sobre segurança, contate sempre um eletricista certificado.
+              quadros elétricos antigos ou qualquer dúvida sobre segurança, contate sempre um electricista certificado.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
                 <h3 className="font-bold text-gray-900 mb-3">Ferramentas Básicas</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">✅ Chave de fendas isolada</li>
-                  <li className="flex items-center gap-2">✅ Alicate de eletricista</li>
+                  <li className="flex items-center gap-2">✅ Alicate de electricista</li>
                   <li className="flex items-center gap-2">✅ Detetor de tensão</li>
                   <li className="flex items-center gap-2">✅ Fita isoladora</li>
                   <li className="flex items-center gap-2">✅ Escada estável</li>
@@ -158,7 +158,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
           {/* Continue with other sections... */}
 
           <section id="quando-profissional" className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Quando Chamar um Eletricista Profissional</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Quando Chamar um Electricista Profissional</h2>
             
             <div className="bg-amber-50 border border-amber-200 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Situações que Requerem um Profissional:</h3>
@@ -187,14 +187,14 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
 
               <div className="mt-8 text-center">
                 <p className="text-xl text-gray-900 mb-6">
-                  Na dúvida, é sempre mais seguro chamar um eletricista certificado.
+                  Na dúvida, é sempre mais seguro chamar um electricista certificado.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
                     href={`tel:${ACTIVE_CONFIG.phone}`}
                     className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors"
                   >
-                    📞 Ligar para Eletricista
+                    📞 Ligar para Electricista
                   </a>
                   <a
                     href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de ajuda com instalação elétrica`}
@@ -224,7 +224,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
               </div>
               
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Quanto custa a instalação por um eletricista?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Quanto custa a instalação por um electricista?</h3>
                 <p className="text-gray-700">
                   Em Trás-os-Montes, o preço médio para instalação de um candeeiro simples varia entre 25€ e 50€, 
                   dependendo da complexidade e deslocação. Para instalações múltiplas ou sistemas complexos, 
@@ -246,7 +246,7 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
             <div className="md:w-3/4">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
               <p className="text-gray-700 mb-4">
-                <strong>João Silva</strong> é eletricista certificado com mais de 15 anos de experiência em Trás-os-Montes. 
+                <strong>João Silva</strong> é electricista certificado com mais de 15 anos de experiência em Trás-os-Montes. 
                 Especialista em instalações residenciais e comerciais, já realizou mais de 500 intervenções na região. 
                 Acredita na importância da educação sobre segurança elétrica para prevenir acidentes domésticos.
               </p>

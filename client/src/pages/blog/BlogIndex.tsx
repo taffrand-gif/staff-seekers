@@ -5,9 +5,9 @@ import { useSEO } from '@/hooks/useSEO';
 
 const BlogIndex: React.FC = () => {
   useSEO({
-    title: 'Blog do Eletricista - Dicas e Guias para Eletricidade em Trás-os-Montes',
+    title: 'Blog do Electricista - Dicas e Guias para Eletricidade em Trás-os-Montes',
     description: 'Artigos informativos sobre eletricidade, segurança elétrica, manutenção e legislação para residências e empresas na região de Trás-os-Montes.',
-    keywords: 'blog eletricista, dicas eletricidade, segurança elétrica, manutenção elétrica, Trás-os-Montes'
+    keywords: 'blog electricista, dicas eletricidade, segurança elétrica, manutenção elétrica, Trás-os-Montes'
   });
 
   // Articles data - à remplacer par API/database plus tard
@@ -42,7 +42,7 @@ const BlogIndex: React.FC = () => {
     {
       slug: 'quadro-eletrico-disparar-causas',
       title: 'Quadro Elétrico a Disparar Constantemente? 7 Causas Comuns',
-      excerpt: 'Descubra as 7 causas mais comuns para um quadro elétrico que dispara constantemente e saiba quando chamar um eletricista profissional.',
+      excerpt: 'Descubra as 7 causas mais comuns para um quadro elétrico que dispara constantemente e saiba quando chamar um electricista profissional.',
       category: 'Problemas/Soluções',
       readTime: '6',
       date: '12 Fev 2026',
@@ -58,19 +58,19 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/certificacao-energetica.jpg'
     },
     {
-      slug: 'eletricista-24h-macedo-cavaleiros',
-      title: 'Eletricista 24h em Macedo de Cavaleiros: Como Atuamos em Caso de Urgência',
-      excerpt: 'Conheça o nosso serviço de eletricista 24 horas em Macedo de Cavaleiros e saiba como atuamos em situações de urgência elétrica.',
+      slug: 'electricista-24h-macedo-cavaleiros',
+      title: 'Electricista 24h em Macedo de Cavaleiros: Como Atuamos em Caso de Urgência',
+      excerpt: 'Conheça o nosso serviço de electricista 24 horas em Macedo de Cavaleiros e saiba como atuamos em situações de urgência elétrica.',
       category: 'Local',
       readTime: '5',
       date: '10 Fev 2026',
-      imageUrl: '/images-optimized/blog/eletricista-24h.jpg'
+      imageUrl: '/images-optimized/blog/electricista-24h.jpg'
     }
   ];
 
   return (
     <BlogLayout
-      title="Blog do Eletricista Profissional"
+      title="Blog do Electricista Profissional"
       description="Dicas, guias e informações úteis sobre eletricidade para residências e empresas em Trás-os-Montes"
     >
       {/* Hero section */}
@@ -79,7 +79,7 @@ const BlogIndex: React.FC = () => {
           Conhecimento que <span className="text-amber-600">Ilumina</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Artigos escritos por eletricistas certificados para ajudar proprietários e empresas a entenderem melhor a eletricidade e tomarem decisões informadas.
+          Artigos escritos por electricistas certificados para ajudar proprietários e empresas a entenderem melhor a eletricidade e tomarem decisões informadas.
         </p>
       </div>
 
@@ -91,7 +91,7 @@ const BlogIndex: React.FC = () => {
               <div className="rounded-xl overflow-hidden">
                 <img
                   src="/images-optimized/blog/featured.jpg"
-                  alt="Eletricista profissional a trabalhar"
+                  alt="Electricista profissional a trabalhar"
                   className="w-full h-64 object-cover"
                   loading="lazy"
                   width={400}
@@ -104,14 +104,14 @@ const BlogIndex: React.FC = () => {
                 Artigo em Destaque
               </span>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                10 Sinais de que Precisa de um Eletricista Urgente
+                10 Sinais de que Precisa de um Electricista Urgente
               </h2>
               <p className="text-gray-700 mb-6 text-lg">
                 Descubra os sinais de alerta que indicam problemas elétricos sérios na sua casa ou empresa. 
                 Ignorar estes sinais pode levar a situações perigosas ou danos caros.
               </p>
               <a
-                href="/blog/10-sinais-eletricista-urgente"
+                href="/blog/10-sinais-electricista-urgente"
                 className="inline-flex items-center gap-2 bg-amber-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors"
               >
                 Ler Artigo Completo

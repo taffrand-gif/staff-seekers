@@ -1,4 +1,4 @@
-// SEO Keywords configuration for Staff-Seekers (Eletricista)
+// SEO Keywords configuration for Staff-Seekers (Electricista)
 // Mots-clés longue traîne en portugais PT-PT pour 10 villes
 
 export interface CitySEOConfig {
@@ -14,163 +14,163 @@ export interface CitySEOConfig {
 export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
   'macedo-de-cavaleiros': {
     cityName: 'Macedo de Cavaleiros',
-    title: 'Eletricista em Macedo de Cavaleiros | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Macedo de Cavaleiros. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Macedo de Cavaleiros | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Macedo de Cavaleiros. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista macedo de cavaleiros',
-      'eletricista urgente macedo de cavaleiros',
+      'electricista macedo de cavaleiros',
+      'electricista urgente macedo de cavaleiros',
       'instalação elétrica macedo de cavaleiros',
       'quadro elétrico macedo de cavaleiros',
       'certificação CERTIEL macedo de cavaleiros',
-      'eletricista 24 horas macedo de cavaleiros',
-      'preço eletricista macedo de cavaleiros',
+      'electricista 24 horas macedo de cavaleiros',
+      'preço electricista macedo de cavaleiros',
       'reparação elétrica macedo de cavaleiros'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-macedo-de-cavaleiros'
+    canonicalUrl: 'https://staff-seekers.com/electricista-macedo-de-cavaleiros'
   },
   'braganca': {
     cityName: 'Bragança',
-    title: 'Eletricista em Bragança | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Bragança. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Bragança | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Bragança. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista bragança',
-      'eletricista urgente bragança',
+      'electricista bragança',
+      'electricista urgente bragança',
       'instalação elétrica bragança',
       'quadro elétrico bragança',
       'certificação CERTIEL bragança',
-      'eletricista 24 horas bragança',
-      'preço eletricista bragança',
+      'electricista 24 horas bragança',
+      'preço electricista bragança',
       'reparação elétrica bragança'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-braganca'
+    canonicalUrl: 'https://staff-seekers.com/electricista-braganca'
   },
   'mirandela': {
     cityName: 'Mirandela',
-    title: 'Eletricista em Mirandela | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Mirandela. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Mirandela | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Mirandela. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista mirandela',
-      'eletricista urgente mirandela',
+      'electricista mirandela',
+      'electricista urgente mirandela',
       'instalação elétrica mirandela',
       'quadro elétrico mirandela',
       'certificação CERTIEL mirandela',
-      'eletricista 24 horas mirandela',
-      'preço eletricista mirandela',
+      'electricista 24 horas mirandela',
+      'preço electricista mirandela',
       'reparação elétrica mirandela'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-mirandela'
+    canonicalUrl: 'https://staff-seekers.com/electricista-mirandela'
   },
   'chaves': {
     cityName: 'Chaves',
-    title: 'Eletricista em Chaves | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Chaves. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Chaves | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Chaves. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista chaves',
-      'eletricista urgente chaves',
+      'electricista chaves',
+      'electricista urgente chaves',
       'instalação elétrica chaves',
       'quadro elétrico chaves',
       'certificação CERTIEL chaves',
-      'eletricista 24 horas chaves',
-      'preço eletricista chaves',
+      'electricista 24 horas chaves',
+      'preço electricista chaves',
       'reparação elétrica chaves'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-chaves'
+    canonicalUrl: 'https://staff-seekers.com/electricista-chaves'
   },
   'valpacos': {
     cityName: 'Valpaços',
-    title: 'Eletricista em Valpaços | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Valpaços. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Valpaços | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Valpaços. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista valpaços',
-      'eletricista urgente valpaços',
+      'electricista valpaços',
+      'electricista urgente valpaços',
       'instalação elétrica valpaços',
       'quadro elétrico valpaços',
       'certificação CERTIEL valpaços',
-      'eletricista 24 horas valpaços',
-      'preço eletricista valpaços',
+      'electricista 24 horas valpaços',
+      'preço electricista valpaços',
       'reparação elétrica valpaços'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-valpacos'
+    canonicalUrl: 'https://staff-seekers.com/electricista-valpacos'
   },
   'vinhais': {
     cityName: 'Vinhais',
-    title: 'Eletricista em Vinhais | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Vinhais. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Vinhais | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Vinhais. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista vinhais',
-      'eletricista urgente vinhais',
+      'electricista vinhais',
+      'electricista urgente vinhais',
       'instalação elétrica vinhais',
       'quadro elétrico vinhais',
       'certificação CERTIEL vinhais',
-      'eletricista 24 horas vinhais',
-      'preço eletricista vinhais',
+      'electricista 24 horas vinhais',
+      'preço electricista vinhais',
       'reparação elétrica vinhais'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-vinhais'
+    canonicalUrl: 'https://staff-seekers.com/electricista-vinhais'
   },
   'miranda-do-douro': {
     cityName: 'Miranda do Douro',
-    title: 'Eletricista em Miranda do Douro | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Miranda do Douro. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Miranda do Douro | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Miranda do Douro. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista miranda do douro',
-      'eletricista urgente miranda do douro',
+      'electricista miranda do douro',
+      'electricista urgente miranda do douro',
       'instalação elétrica miranda do douro',
       'quadro elétrico miranda do douro',
       'certificação CERTIEL miranda do douro',
-      'eletricista 24 horas miranda do douro',
-      'preço eletricista miranda do douro',
+      'electricista 24 horas miranda do douro',
+      'preço electricista miranda do douro',
       'reparação elétrica miranda do douro'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-miranda-do-douro'
+    canonicalUrl: 'https://staff-seekers.com/electricista-miranda-do-douro'
   },
   'mogadouro': {
     cityName: 'Mogadouro',
-    title: 'Eletricista em Mogadouro | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Mogadouro. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Mogadouro | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Mogadouro. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista mogadouro',
-      'eletricista urgente mogadouro',
+      'electricista mogadouro',
+      'electricista urgente mogadouro',
       'instalação elétrica mogadouro',
       'quadro elétrico mogadouro',
       'certificação CERTIEL mogadouro',
-      'eletricista 24 horas mogadouro',
-      'preço eletricista mogadouro',
+      'electricista 24 horas mogadouro',
+      'preço electricista mogadouro',
       'reparação elétrica mogadouro'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-mogadouro'
+    canonicalUrl: 'https://staff-seekers.com/electricista-mogadouro'
   },
   'torre-de-moncorvo': {
     cityName: 'Torre de Moncorvo',
-    title: 'Eletricista em Torre de Moncorvo | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Torre de Moncorvo. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Torre de Moncorvo | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Torre de Moncorvo. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista torre de moncorvo',
-      'eletricista urgente torre de moncorvo',
+      'electricista torre de moncorvo',
+      'electricista urgente torre de moncorvo',
       'instalação elétrica torre de moncorvo',
       'quadro elétrico torre de moncorvo',
       'certificação CERTIEL torre de moncorvo',
-      'eletricista 24 horas torre de moncorvo',
-      'preço eletricista torre de moncorvo',
+      'electricista 24 horas torre de moncorvo',
+      'preço electricista torre de moncorvo',
       'reparação elétrica torre de moncorvo'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-torre-de-moncorvo'
+    canonicalUrl: 'https://staff-seekers.com/electricista-torre-de-moncorvo'
   },
   'freixo-de-espada-a-cinta': {
     cityName: 'Freixo de Espada à Cinta',
-    title: 'Eletricista em Freixo de Espada à Cinta | Staff Seekers | 24h Urgências',
-    description: 'Eletricista certificado em Freixo de Espada à Cinta. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
+    title: 'Electricista em Freixo de Espada à Cinta | Staff Seekers | 24h Urgências',
+    description: 'Electricista certificado em Freixo de Espada à Cinta. Instalação elétrica, quadro elétrico, certificação CERTIEL. Urgências 24h. Orçamento gratuito: 932 321 892',
     keywords: [
-      'eletricista freixo de espada à cinta',
-      'eletricista urgente freixo de espada à cinta',
+      'electricista freixo de espada à cinta',
+      'electricista urgente freixo de espada à cinta',
       'instalação elétrica freixo de espada à cinta',
       'quadro elétrico freixo de espada à cinta',
       'certificação CERTIEL freixo de espada à cinta',
-      'eletricista 24 horas freixo de espada à cinta',
-      'preço eletricista freixo de espada à cinta',
+      'electricista 24 horas freixo de espada à cinta',
+      'preço electricista freixo de espada à cinta',
       'reparação elétrica freixo de espada à cinta'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-freixo-de-espada-a-cinta'
+    canonicalUrl: 'https://staff-seekers.com/electricista-freixo-de-espada-a-cinta'
   }
 };
 

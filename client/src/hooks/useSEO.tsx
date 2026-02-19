@@ -136,28 +136,18 @@ export function generateMetaDescription(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    if (config.type === 'plomberie') {
-      return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h. Ligue ${config.phone}`;
-    } else {
-      return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue ${config.phone}`;
-    }
+    return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue ${config.phone}`;
   }
   
   // Page d'accueil
-  if (config.type === 'plomberie') {
-    return `${config.name} 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados. Ligue ${config.phone}`;
-  } else {
-    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de eletricistas profissionais certificados. Ligue ${config.phone}`;
-  }
+  return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de electricistas profissionais certificados. Ligue ${config.phone}`;
 }
 
 // Fonction pour générer les mots-clés SEO
 export function generateKeywords(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
-  const baseKeywords = config.type === 'plomberie' 
-    ? ['canalizador', 'canalizador profissional', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'trás-os-montes']
-    : ['eletricista', 'eletricista certificado', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação CERTIEL'];
+  const baseKeywords = ['electricista', 'electricista certificado', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação CERTIEL'];
   
   if (ville) {
     return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');

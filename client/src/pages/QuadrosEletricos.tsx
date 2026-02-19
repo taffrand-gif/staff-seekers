@@ -14,7 +14,7 @@ export default function QuadrosEletricos() {
     document.title = "Quadros Elétricos: Instalação e Modernização em Trás-os-Montes | Staff Seekers";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
-    meta.setAttribute('content', 'Instalação e modernização de quadros elétricos em Trás-os-Montes. Disjuntores, diferenciais, certificação CERTIEL. Eletricista certificado 24h. Ligue +351 932 321 892.');
+    meta.setAttribute('content', 'Instalação e modernização de quadros elétricos em Trás-os-Montes. Disjuntores, diferenciais, certificação CERTIEL. Electricista certificado 24h. Ligue +351 932 321 892.');
   }, []);
 
   const serviceSchema = {
@@ -36,7 +36,7 @@ export default function QuadrosEletricos() {
       <section className="bg-gradient-to-br from-orange-500 to-orange-700 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Quadros Elétricos: Instalação e Modernização</h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">Modernize o seu quadro elétrico para maior segurança e eficiência. Eletricista certificado em Trás-os-Montes.</p>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">Modernize o seu quadro elétrico para maior segurança e eficiência. Electricista certificado em Trás-os-Montes.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-orange-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
             <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
@@ -121,7 +121,7 @@ export default function QuadrosEletricos() {
       <section className="py-16 px-4 bg-gradient-to-r from-orange-500 to-orange-700 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Precisa de Modernizar o Quadro Elétrico?</h2>
-          <p className="text-xl mb-8">Orçamento gratuito e sem compromisso. Eletricista certificado.</p>
+          <p className="text-xl mb-8">Orçamento gratuito e sem compromisso. Electricista certificado.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-orange-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
             <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
@@ -134,11 +134,11 @@ export default function QuadrosEletricos() {
           <h3 className="text-xl font-bold text-center mb-6 text-gray-900">Também servimos:</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
-              { name: "Bragança", href: "/eletricista-braganca" },
-              { name: "Mirandela", href: "/eletricista-mirandela" },
-              { name: "Chaves", href: "/eletricista-chaves" },
-              { name: "Vila Real", href: "/eletricista-vila-real" },
-              { name: "Mogadouro", href: "/eletricista-mogadouro" }
+              { name: "Bragança", href: "/electricista-braganca" },
+              { name: "Mirandela", href: "/electricista-mirandela" },
+              { name: "Chaves", href: "/electricista-chaves" },
+              { name: "Vila Real", href: "/electricista-vila-real" },
+              { name: "Mogadouro", href: "/electricista-mogadouro" }
             ].map((city, i) => (
               <a key={i} href={city.href} className="p-3 bg-gray-50 rounded-lg text-center text-orange-600 hover:bg-orange-50 font-medium transition-colors">{city.name}</a>
             ))}

@@ -11,661 +11,14 @@ export interface BlogArticle {
   tags: string[];
 }
 
-export const plomberieArticles: BlogArticle[] = [
-  {
-    slug: "5-sinais-precisa-canalizador-urgente",
-    title: "5 Sinais de que Precisa de um Canalizador Urgente",
-    excerpt: "Descubra os sinais de alerta que indicam que deve contactar um canalizador profissional imediatamente para evitar danos maiores.",
-    image: "https://cdn.manus.space/webdev-assets/plumber-emergency.jpg",
-    date: "2026-01-15",
-    author: "Norte Reparos",
-    readTime: "5 min",
-    category: "Urgências",
-    tags: ["urgência", "fugas", "reparações"],
-    content: `
-# 5 Sinais de que Precisa de um Canalizador Urgente
-
-Problemas de canalização podem surgir a qualquer momento e, se não forem tratados rapidamente, podem causar danos significativos à sua propriedade. Neste artigo, vamos explorar os cinco sinais mais comuns de que precisa de contactar um canalizador profissional urgentemente.
-
-## 1. Fugas de Água Visíveis
-
-Uma fuga de água é um dos problemas mais óbvios e urgentes. Se notar água a escorrer de canos, torneiras ou autoclismos, é essencial agir rapidamente. Mesmo uma pequena fuga pode desperdiçar centenas de litros de água por dia e causar danos estruturais graves.
-
-**O que fazer:** Feche a válvula de água principal e contacte imediatamente um canalizador profissional. Não tente reparar fugas graves sozinho, pois pode agravar o problema.
-
-## 2. Pressão de Água Baixa ou Inexistente
-
-Se a pressão da água diminuiu significativamente ou se não tem água de todo, pode haver um problema grave na canalização. Isto pode indicar uma fuga escondida, canos entupidos ou problemas com o sistema de abastecimento.
-
-**Causas comuns:**
-- Fugas escondidas nas paredes ou sob o chão
-- Acumulação de calcário nos canos
-- Problemas com a válvula de água principal
-- Canos corroídos ou danificados
-
-## 3. Cheiros Desagradáveis
-
-Odores fétidos vindos dos ralos ou sanitas são um sinal claro de que algo está errado. Isto pode indicar um entupimento grave, problemas com o sistema de esgoto ou até mesmo canos partidos.
-
-**Atenção:** Cheiros de esgoto podem ser perigosos para a saúde. Se detetar odores persistentes, contacte um canalizador imediatamente.
-
-## 4. Ruídos Estranhos na Canalização
-
-Ruídos como gorgolejos, assobios ou batidas vindos dos canos não são normais. Estes sons podem indicar ar preso no sistema, pressão excessiva, canos soltos ou problemas com o sistema de drenagem.
-
-**Tipos de ruídos e o que significam:**
-- **Gorgolejos:** Entupimento parcial ou problemas de ventilação
-- **Assobios:** Pressão excessiva ou válvulas defeituosas
-- **Batidas:** Canos soltos ou pressão de água irregular
-
-## 5. Água com Cor ou Sabor Estranho
-
-Se a água da torneira estiver com cor amarelada, acastanhada ou com sabor metálico, pode haver corrosão nos canos ou contaminação. Este é um problema sério que requer atenção imediata.
-
-**Não ignore este sinal:** Água contaminada pode ser prejudicial à saúde. Pare de consumir a água e contacte um canalizador certificado para inspeção.
-
-## Conclusão
-
-Não espere que pequenos problemas se transformem em emergências caras. Se notar qualquer um destes sinais, contacte imediatamente um canalizador profissional. A **Norte Reparos** está disponível 24 horas por dia para resolver qualquer urgência de canalização em Bragança e arredores.
-
-**Ligue agora: 928 484 451**
-`
-  },
-  {
-    slug: "como-prevenir-entupimentos-canalizacao",
-    title: "Como Prevenir Entupimentos na Canalização",
-    excerpt: "Guia completo com dicas práticas para evitar entupimentos e manter a sua canalização em perfeito estado.",
-    image: "https://cdn.manus.space/webdev-assets/plumber-maintenance.jpg",
-    date: "2026-01-10",
-    author: "Norte Reparos",
-    readTime: "6 min",
-    category: "Manutenção",
-    tags: ["prevenção", "entupimentos", "dicas"],
-    content: `
-# Como Prevenir Entupimentos na Canalização
-
-Os entupimentos são um dos problemas mais comuns e frustrantes em qualquer casa ou negócio. Felizmente, a maioria pode ser evitada com cuidados simples e manutenção preventiva. Neste guia, vamos partilhar as melhores práticas para manter a sua canalização livre de obstruções.
-
-## Cuidados na Cozinha
-
-A cozinha é um dos locais onde mais entupimentos ocorrem. Restos de comida, gordura e óleo são os principais culpados.
-
-### O que NUNCA deve deitar no ralo:
-- **Gordura e óleo:** Solidificam nos canos e criam bloqueios
-- **Restos de comida:** Mesmo pequenos pedaços podem acumular-se
-- **Cascas de ovo:** Criam uma pasta que entope os canos
-- **Café em pó:** Acumula-se e forma bloqueios densos
-- **Arroz e massa:** Expandem com a água e entopem
-
-### Dicas práticas:
-1. Use um filtro de pia para apanhar resíduos
-2. Deite gordura em recipientes e coloque no lixo
-3. Limpe os pratos antes de os lavar
-4. Passe água quente após cada utilização
-
-## Cuidados na Casa de Banho
-
-A casa de banho é outro ponto crítico para entupimentos, especialmente devido a cabelos e produtos de higiene.
-
-### Boas práticas:
-- **Instale redes de proteção** nos ralos do duche e lavatório
-- **Remova cabelos regularmente** das redes de proteção
-- **Nunca deite toalhitas** na sanita (mesmo as "biodegradáveis")
-- **Evite produtos químicos agressivos** que danificam os canos
-- **Use apenas papel higiénico** na sanita
-
-### O que NUNCA deve deitar na sanita:
-- Toalhitas húmidas
-- Cotonetes
-- Fio dental
-- Pensos higiénicos
-- Preservativos
-- Medicamentos
-- Lixo em geral
-
-## Manutenção Preventiva Regular
-
-A prevenção é sempre melhor (e mais barata) que a reparação. Siga estas dicas de manutenção:
-
-### Semanalmente:
-- Passe água quente pelos ralos durante 30 segundos
-- Limpe as redes de proteção e filtros
-- Verifique se há fugas visíveis
-
-### Mensalmente:
-- Use uma mistura de bicarbonato de sódio e vinagre para limpar ralos
-- Verifique o funcionamento dos autoclismos
-- Inspecione os sifões
-
-### Anualmente:
-- Contrate um canalizador para inspeção profissional
-- Limpe o sistema de esgoto
-- Verifique o estado dos canos
-
-## Sinais de Alerta de Entupimento
-
-Esteja atento a estes sinais que indicam um entupimento em formação:
-
-1. **Drenagem lenta:** A água demora a escoar
-2. **Gorgolejos:** Ruídos estranhos ao usar a água
-3. **Maus cheiros:** Odores vindos dos ralos
-4. **Água que volta:** Água que sobe em vez de descer
-5. **Múltiplos ralos afetados:** Problema no sistema principal
-
-## Quando Chamar um Profissional
-
-Alguns entupimentos podem ser resolvidos com métodos caseiros, mas outros requerem intervenção profissional:
-
-### Chame um canalizador se:
-- O entupimento persiste após tentativas de desobstrução
-- Múltiplos ralos estão entupidos simultaneamente
-- Há maus cheiros persistentes
-- Água volta pelos ralos
-- Suspeita de problema no sistema de esgoto principal
-
-## Conclusão
-
-A prevenção de entupimentos é simples e económica. Com cuidados básicos e manutenção regular, pode evitar a maioria dos problemas de canalização. No entanto, se enfrentar um entupimento persistente, não hesite em contactar um profissional.
-
-A **Norte Reparos** oferece serviços de desentupimento 24 horas em Bragança e arredores. Contacte-nos para manutenção preventiva ou resolução de emergências.
-
-**Ligue agora: 928 484 451**
-`
-  },
-  {
-    slug: "quanto-custa-reparacao-canalizacao",
-    title: "Quanto Custa uma Reparação de Canalização em Portugal?",
-    excerpt: "Guia completo de preços para reparações de canalização, desde pequenas fugas até substituição de canos.",
-    image: "https://cdn.manus.space/webdev-assets/plumber-cost.jpg",
-    date: "2026-01-05",
-    author: "Norte Reparos",
-    readTime: "7 min",
-    category: "Preços",
-    tags: ["preços", "orçamento", "custos"],
-    content: `
-# Quanto Custa uma Reparação de Canalização em Portugal?
-
-Compreender os custos de reparação de canalização ajuda-o a planear o orçamento e a evitar surpresas. Neste guia, vamos explorar os preços típicos de diferentes serviços de canalização em Portugal, especificamente na região de Bragança.
-
-## Fatores que Influenciam o Preço
-
-Antes de apresentar valores, é importante entender o que afeta o custo final:
-
-### 1. Tipo de Intervenção
-- Reparações simples são mais baratas
-- Substituições completas custam mais
-- Urgências têm acréscimo de preço
-
-### 2. Horário
-- **Horário normal:** Preço base
-- **Noite/fim de semana:** Acréscimo de 30-50%
-- **Feriados:** Acréscimo de 50-100%
-
-### 3. Materiais Necessários
-- Qualidade dos materiais
-- Quantidade de peças
-- Disponibilidade
-
-### 4. Complexidade
-- Acessibilidade ao problema
-- Tempo estimado de trabalho
-- Necessidade de equipamento especial
-
-## Tabela de Preços Médios
-
-### Reparações Básicas
-
-| Serviço | Preço Médio |
-|---------|-------------|
-| Reparação de torneira a pingar | 40€ - 80€ |
-| Substituição de torneira | 60€ - 120€ |
-| Reparação de autoclismo | 50€ - 100€ |
-| Substituição de autoclismo | 100€ - 200€ |
-| Desentupimento de ralo | 50€ - 150€ |
-
-### Fugas e Reparações Urgentes
-
-| Serviço | Preço Médio |
-|---------|-------------|
-| Reparação de fuga simples | 60€ - 120€ |
-| Reparação de fuga em parede | 100€ - 250€ |
-| Reparação de fuga no chão | 150€ - 400€ |
-| Substituição de cano pequeno | 80€ - 200€ |
-| Substituição de cano grande | 200€ - 600€ |
-
-### Instalações
-
-| Serviço | Preço Médio |
-|---------|-------------|
-| Instalação de lavatório | 80€ - 150€ |
-| Instalação de sanita | 100€ - 200€ |
-| Instalação de duche | 150€ - 350€ |
-| Instalação de banheira | 200€ - 500€ |
-| Instalação de esquentador | 150€ - 300€ |
-
-### Desentupimentos
-
-| Serviço | Preço Médio |
-|---------|-------------|
-| Desentupimento de sanita | 60€ - 120€ |
-| Desentupimento de ralo | 50€ - 100€ |
-| Desentupimento de canalização | 100€ - 250€ |
-| Limpeza de fossa séptica | 150€ - 400€ |
-| Desentupimento com máquina | 150€ - 350€ |
-
-## Como Economizar em Reparações
-
-### 1. Manutenção Preventiva
-Investir em manutenção regular evita reparações caras no futuro. Uma inspeção anual custa entre 50€-100€ mas pode poupar centenas em emergências.
-
-### 2. Aja Rapidamente
-Pequenos problemas tornam-se grandes (e caros) se ignorados. Uma torneira a pingar pode parecer inofensiva, mas desperdiça água e pode causar danos maiores.
-
-### 3. Peça Orçamentos
-Contacte sempre vários profissionais e compare orçamentos. Mas lembre-se: o mais barato nem sempre é o melhor.
-
-### 4. Evite Urgências
-Se possível, agende reparações durante o horário normal. Urgências noturnas ou em feriados podem custar o dobro.
-
-### 5. Materiais de Qualidade
-Investir em materiais de qualidade pode custar mais inicialmente, mas dura mais tempo e evita reparações frequentes.
-
-## Sinais de Orçamento Suspeito
-
-Tenha cuidado com:
-- Preços extremamente baixos (podem indicar trabalho de má qualidade)
-- Falta de orçamento escrito
-- Pressão para decidir imediatamente
-- Pedido de pagamento total antecipado
-- Falta de garantia do trabalho
-
-## O que Deve Estar Incluído no Orçamento
-
-Um orçamento profissional deve incluir:
-1. **Descrição detalhada** do trabalho
-2. **Lista de materiais** necessários
-3. **Custo da mão de obra**
-4. **Prazo de execução**
-5. **Garantia** do trabalho
-6. **Forma de pagamento**
-7. **Validade do orçamento**
-
-## Conclusão
-
-Os preços de reparação de canalização variam bastante dependendo do tipo de trabalho e da urgência. É sempre recomendável pedir um orçamento detalhado antes de autorizar qualquer trabalho.
-
-A **Norte Reparos** oferece orçamentos gratuitos e transparentes para todos os serviços de canalização em Bragança. Contacte-nos para uma avaliação sem compromisso.
-
-**Ligue agora: 928 484 451**
-`
-  },
-  {
-    slug: "manutencao-esquentador-caldeira",
-    title: "Manutenção de Esquentador e Caldeira: Guia Completo",
-    excerpt: "Tudo o que precisa saber sobre manutenção de esquentadores e caldeiras para garantir segurança e eficiência.",
-    image: "https://cdn.manus.space/webdev-assets/water-heater.jpg",
-    date: "2025-12-28",
-    author: "Norte Reparos",
-    readTime: "8 min",
-    category: "Manutenção",
-    tags: ["esquentador", "caldeira", "manutenção"],
-    content: `
-# Manutenção de Esquentador e Caldeira: Guia Completo
-
-A manutenção regular de esquentadores e caldeiras é essencial para garantir segurança, eficiência energética e prolongar a vida útil do equipamento. Neste guia completo, vamos explorar tudo o que precisa saber sobre manutenção destes aparelhos.
-
-## Importância da Manutenção Regular
-
-### Segurança
-Esquentadores e caldeiras mal mantidos podem:
-- Produzir monóxido de carbono (gás mortal)
-- Causar fugas de gás
-- Provocar incêndios
-- Explodir em casos extremos
-
-### Eficiência Energética
-Um aparelho bem mantido:
-- Consome menos energia (poupança de 10-30%)
-- Aquece água mais rapidamente
-- Tem melhor desempenho
-- Dura mais tempo
-
-### Economia
-A manutenção preventiva:
-- Evita avarias caras
-- Prolonga a vida útil do equipamento
-- Reduz consumos
-- Previne substituições prematuras
-
-## Frequência de Manutenção
-
-### Esquentadores a Gás
-- **Inspeção anual obrigatória** por técnico certificado
-- **Limpeza semestral** do queimador e permutador
-- **Verificação mensal** de fugas e funcionamento
-
-### Caldeiras
-- **Manutenção anual obrigatória** por técnico certificado
-- **Limpeza anual** do sistema
-- **Verificação trimestral** da pressão e funcionamento
-
-### Esquentadores Elétricos
-- **Inspeção anual** recomendada
-- **Limpeza bianual** do depósito
-- **Verificação mensal** da resistência e termostato
-
-## Checklist de Manutenção
-
-### Manutenção que Pode Fazer
-
-#### Mensalmente:
-- ✓ Verificar se há fugas de água
-- ✓ Testar o funcionamento normal
-- ✓ Verificar a chama (deve ser azul, não amarela)
-- ✓ Limpar o exterior do aparelho
-- ✓ Verificar a ventilação
-
-#### Trimestralmente:
-- ✓ Verificar a pressão da caldeira (deve estar entre 1-2 bar)
-- ✓ Purgar radiadores (se aplicável)
-- ✓ Verificar o estado das tubagens
-- ✓ Testar a válvula de segurança
-
-### Manutenção Profissional
-
-#### Anualmente (obrigatório):
-- ✓ Limpeza completa do queimador
-- ✓ Verificação do permutador de calor
-- ✓ Teste de emissões de gases
-- ✓ Verificação de fugas de gás
-- ✓ Calibração dos controlos
-- ✓ Verificação da ventilação
-- ✓ Teste de segurança completo
-- ✓ Emissão de certificado de manutenção
-
-## Sinais de que Precisa de Manutenção
-
-### Sinais de Alerta Urgentes:
-1. **Cheiro a gás** - Desligue imediatamente e chame um técnico
-2. **Chama amarela** em vez de azul - Indica combustão incompleta
-3. **Ruídos estranhos** - Batidas, assobios ou explosões
-4. **Fugas de água** - Mesmo pequenas
-5. **Falta de água quente** ou temperatura irregular
-
-### Sinais de Manutenção Necessária:
-- Aumento no consumo de gás/eletricidade
-- Tempo mais longo para aquecer água
-- Água com temperatura inconsistente
-- Aparelho desliga-se frequentemente
-- Pressão baixa na caldeira
-
-## Problemas Comuns e Soluções
-
-### Esquentador Não Liga
-
-**Causas possíveis:**
-- Falta de gás ou eletricidade
-- Pilhas gastas (em modelos a pilhas)
-- Filtro de água entupido
-- Sensor de fluxo defeituoso
-
-**Solução:** Verifique o fornecimento de gás/eletricidade e substitua as pilhas. Se o problema persistir, contacte um técnico.
-
-### Água Não Aquece Suficientemente
-
-**Causas possíveis:**
-- Calcário acumulado no permutador
-- Queimador sujo
-- Pressão de água baixa
-- Termostato descalibrado
-
-**Solução:** Limpeza profissional do sistema e calibração do termostato.
-
-### Caldeira Perde Pressão
-
-**Causas possíveis:**
-- Pequenas fugas no sistema
-- Válvula de segurança a libertar pressão
-- Ar nos radiadores
-- Vaso de expansão defeituoso
-
-**Solução:** Purgar radiadores e verificar fugas. Se persistir, contacte um técnico.
-
-## Dicas de Segurança
-
-### Nunca:
-- ❌ Tente reparar esquentadores a gás sozinho
-- ❌ Bloqueie a ventilação do aparelho
-- ❌ Ignore cheiros a gás
-- ❌ Use o aparelho se notar anomalias
-- ❌ Adie a manutenção obrigatória
-
-### Sempre:
-- ✓ Contrate técnicos certificados
-- ✓ Mantenha a área ao redor ventilada
-- ✓ Instale detetores de monóxido de carbono
-- ✓ Guarde os certificados de manutenção
-- ✓ Siga as recomendações do fabricante
-
-## Legislação em Portugal
-
-### Obrigações Legais:
-- Manutenção anual obrigatória por técnico certificado
-- Certificado de manutenção deve ser guardado
-- Inspeções periódicas em edifícios comerciais
-- Instalação apenas por profissionais certificados
-
-### Penalizações:
-A falta de manutenção pode resultar em:
-- Multas
-- Invalidação de seguros
-- Responsabilidade em caso de acidente
-
-## Quanto Custa a Manutenção?
-
-### Preços Médios em Portugal:
-- **Manutenção de esquentador:** 50€ - 100€
-- **Manutenção de caldeira:** 80€ - 150€
-- **Limpeza completa:** 100€ - 200€
-- **Reparações:** Variável conforme o problema
-
-**Nota:** Manutenção preventiva é sempre mais barata que reparações de emergência.
-
-## Conclusão
-
-A manutenção regular de esquentadores e caldeiras não é apenas uma obrigação legal, mas uma questão de segurança e economia. Não arrisque a sua segurança e a da sua família - agende hoje a manutenção do seu equipamento.
-
-A **Norte Reparos** oferece serviços de manutenção certificada de esquentadores e caldeiras em Bragança. Técnicos qualificados, preços justos e certificados válidos.
-
-**Agende a sua manutenção: 928 484 451**
-`
-  },
-  {
-    slug: "escolher-canalizador-profissional",
-    title: "Como Escolher um Canalizador Profissional de Confiança",
-    excerpt: "Guia prático para escolher o canalizador certo e evitar problemas. Saiba o que procurar antes de contratar.",
-    image: "https://cdn.manus.space/webdev-assets/plumber-professional.jpg",
-    date: "2025-12-20",
-    author: "Norte Reparos",
-    readTime: "6 min",
-    category: "Dicas",
-    tags: ["profissional", "escolha", "confiança"],
-    content: `
-# Como Escolher um Canalizador Profissional de Confiança
-
-Escolher o canalizador certo pode fazer toda a diferença entre um trabalho bem feito e um pesadelo de reparações mal executadas. Neste guia, vamos ajudá-lo a identificar profissionais qualificados e evitar fraudes.
-
-## Critérios Essenciais
-
-### 1. Certificação e Qualificações
-
-Um canalizador profissional deve ter:
-- **Certificação profissional** válida
-- **Formação técnica** comprovada
-- **Seguro de responsabilidade civil**
-- **Licença para trabalhar** com gás (se aplicável)
-
-**Como verificar:** Peça para ver os certificados e verifique a validade. Profissionais legítimos não têm problema em mostrar as suas credenciais.
-
-### 2. Experiência Comprovada
-
-Procure por:
-- **Anos de experiência** no setor
-- **Especialização** no tipo de trabalho necessário
-- **Portfólio** de trabalhos anteriores
-- **Referências** de clientes anteriores
-
-**Dica:** Canalizadores com 5+ anos de experiência geralmente têm mais conhecimento para resolver problemas complexos.
-
-### 3. Reputação e Avaliações
-
-Verifique:
-- **Avaliações online** (Google, Facebook, etc.)
-- **Testemunhos** de clientes
-- **Recomendações** de amigos e familiares
-- **Reclamações** registadas
-
-**Atenção:** Desconfie de empresas sem avaliações ou apenas com avaliações extremamente positivas (podem ser falsas).
-
-## Sinais de Alerta (Red Flags)
-
-### Evite Canalizadores que:
-
-❌ **Não fornecem orçamento escrito**
-- Profissionais sérios sempre dão orçamentos detalhados por escrito
-
-❌ **Pedem pagamento total antecipado**
-- É normal pedir um sinal (20-30%), mas nunca o valor total antes do trabalho
-
-❌ **Não têm contacto fixo ou morada**
-- Empresas legítimas têm endereço físico e contactos verificáveis
-
-❌ **Pressionam para decisão imediata**
-- Táticas de pressão são sinal de falta de profissionalismo
-
-❌ **Oferecem preços muito abaixo do mercado**
-- Preços irrealistas podem indicar trabalho de má qualidade ou fraude
-
-❌ **Não oferecem garantia do trabalho**
-- Profissionais confiantes no seu trabalho sempre dão garantia
-
-## Perguntas a Fazer Antes de Contratar
-
-### Sobre Qualificações:
-1. Está certificado para este tipo de trabalho?
-2. Tem seguro de responsabilidade civil?
-3. Há quanto tempo trabalha como canalizador?
-4. Tem experiência com este problema específico?
-
-### Sobre o Trabalho:
-5. Pode fornecer um orçamento detalhado por escrito?
-6. Quanto tempo vai demorar o trabalho?
-7. Que materiais vai usar?
-8. O orçamento inclui materiais e mão de obra?
-
-### Sobre Garantias:
-9. Oferece garantia do trabalho? Por quanto tempo?
-10. O que está coberto pela garantia?
-11. Tem referências de trabalhos anteriores?
-12. Pode fornecer contactos de clientes anteriores?
-
-## Como Obter Orçamentos
-
-### Processo Recomendado:
-
-1. **Contacte 3-5 canalizadores**
-   - Compare preços e serviços
-   - Não escolha apenas pelo preço mais baixo
-
-2. **Descreva o problema detalhadamente**
-   - Seja específico sobre os sintomas
-   - Envie fotos se possível
-   - Mencione urgência (se aplicável)
-
-3. **Peça orçamento por escrito**
-   - Deve incluir todos os custos
-   - Especificar materiais e mão de obra
-   - Indicar prazo de validade
-
-4. **Compare os orçamentos**
-   - Preço total
-   - Materiais incluídos
-   - Prazo de execução
-   - Garantias oferecidas
-
-## O que Deve Estar no Contrato
-
-Um contrato profissional deve incluir:
-
-✓ **Identificação completa** das partes
-✓ **Descrição detalhada** do trabalho
-✓ **Lista de materiais** a usar
-✓ **Preço total** e forma de pagamento
-✓ **Prazo de execução**
-✓ **Garantias** oferecidas
-✓ **Condições de rescisão**
-✓ **Assinaturas** de ambas as partes
-
-## Formas de Pagamento Seguras
-
-### Recomendado:
-- ✓ Sinal de 20-30% no início
-- ✓ Pagamento parcial durante o trabalho
-- ✓ Pagamento final após conclusão e verificação
-- ✓ Transferência bancária ou multibanco
-- ✓ Sempre peça recibo
-
-### Evite:
-- ❌ Pagamento 100% antecipado
-- ❌ Apenas dinheiro (sem recibo)
-- ❌ Pagamento a terceiros
-- ❌ Cartões pré-pagos ou criptomoedas
-
-## Direitos do Consumidor
-
-### Tem Direito a:
-- Orçamento gratuito e sem compromisso
-- Trabalho executado conforme acordado
-- Materiais de qualidade
-- Garantia do trabalho realizado
-- Recibo de todos os pagamentos
-- Reclamar se o trabalho for mal feito
-
-### Em Caso de Problema:
-1. Contacte o canalizador primeiro
-2. Documente o problema (fotos, vídeos)
-3. Envie reclamação por escrito
-4. Se não resolver, contacte a DECO ou ASAE
-5. Considere ação legal se necessário
-
-## Manutenção da Relação
-
-### Quando Encontrar um Bom Canalizador:
-- Guarde o contacto
-- Peça manutenção preventiva regular
-- Recomende a amigos e familiares
-- Deixe uma avaliação positiva online
-- Mantenha o contacto para emergências
-
-## Conclusão
-
-Escolher um canalizador profissional de confiança requer pesquisa e diligência, mas vale a pena o esforço. Um bom profissional não só resolve o problema atual, mas também pode ser um parceiro de longa data para todas as suas necessidades de canalização.
-
-A **Norte Reparos** orgulha-se de ser uma empresa certificada, transparente e com anos de experiência em Bragança. Oferecemos orçamentos gratuitos, garantia de todos os trabalhos e estamos disponíveis 24 horas para emergências.
-
-**Contacte-nos para um orçamento sem compromisso: 928 484 451**
-`
-  }
-];
-
-export const electriciteArticles: BlogArticle[] = [
+export const blogArticles: BlogArticle[] = [
   {
     slug: "sinais-problemas-eletricos-casa",
     title: "7 Sinais de Problemas Elétricos na Sua Casa",
     excerpt: "Identifique os sinais de alerta de problemas elétricos antes que se tornem perigosos. Guia de segurança essencial.",
     image: "https://cdn.manus.space/webdev-assets/electrical-warning.jpg",
     date: "2026-01-15",
-    author: "Eletricista Profissional",
+    author: "Electricista Profissional",
     readTime: "6 min",
     category: "Segurança",
     tags: ["segurança", "problemas", "prevenção"],
@@ -687,7 +40,7 @@ Se os disjuntores da sua casa saltam regularmente, é um sinal claro de problema
 ### O que Fazer:
 1. Identifique qual o disjuntor que salta
 2. Desligue aparelhos desse circuito
-3. Se continuar a saltar, contacte um eletricista
+3. Se continuar a saltar, contacte um electricista
 4. **Nunca** substitua por um disjuntor de maior capacidade
 
 **Atenção:** Disjuntores são dispositivos de segurança. Se saltam, há um motivo que deve ser investigado.
@@ -724,7 +77,7 @@ Tomadas e interruptores nunca devem estar quentes ao toque.
 - Fiação inadequada
 - Componentes defeituosos
 
-**Ação Imediata:** Pare de usar a tomada/interruptor e contacte um eletricista urgentemente.
+**Ação Imediata:** Pare de usar a tomada/interruptor e contacte um electricista urgentemente.
 
 ## 4. Choques Elétricos Leves
 
@@ -754,7 +107,7 @@ Cheiro a queimado é sempre um sinal de alarme.
 3. **Não use água** em incêndios elétricos
 4. **Evacue** se houver fumo
 5. **Ligue 112** se houver fogo
-6. **Contacte eletricista** após garantir segurança
+6. **Contacte electricista** após garantir segurança
 
 ### Causas Comuns:
 - Sobrecarga de circuitos
@@ -797,7 +150,7 @@ Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
 - Maior risco de incêndio
 - Falta de proteções essenciais
 
-## Quando Chamar um Eletricista
+## Quando Chamar um Electricista
 
 ### Urgente (24h):
 - Choques elétricos
@@ -836,9 +189,9 @@ Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
 
 ## Conclusão
 
-A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um eletricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
+A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um electricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
 
-A **Eletricista Profissional** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
+A **Electricista Profissional** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
 
 **Ligue agora: 932 321 892**
 `
@@ -849,7 +202,7 @@ A **Eletricista Profissional** está disponível 24 horas para emergências elé
     excerpt: "Reduza a sua conta de eletricidade com estas dicas práticas e eficazes. Poupe dinheiro e ajude o ambiente.",
     image: "https://cdn.manus.space/webdev-assets/energy-saving.jpg",
     date: "2026-01-10",
-    author: "Eletricista Profissional",
+    author: "Electricista Profissional",
     readTime: "7 min",
     category: "Poupança",
     tags: ["poupança", "energia", "eficiência"],
@@ -1071,7 +424,7 @@ Implementando todas estas medidas:
 
 Poupar energia não significa sacrificar conforto. Com pequenas mudanças de hábitos e investimentos inteligentes, pode reduzir significativamente a fatura elétrica enquanto contribui para um futuro mais sustentável.
 
-A **Eletricista Profissional** pode ajudá-lo a otimizar a sua instalação elétrica, instalar iluminação LED e preparar a casa para painéis solares. Contacte-nos para uma avaliação gratuita.
+A **Electricista Profissional** pode ajudá-lo a otimizar a sua instalação elétrica, instalar iluminação LED e preparar a casa para painéis solares. Contacte-nos para uma avaliação gratuita.
 
 **Ligue agora: 932 321 892**
 `
@@ -1082,7 +435,7 @@ A **Eletricista Profissional** pode ajudá-lo a otimizar a sua instalação elé
     excerpt: "Tudo o que precisa saber sobre certificação elétrica: quando é obrigatória, como obter e quanto custa.",
     image: "https://cdn.manus.space/webdev-assets/electrical-certificate.jpg",
     date: "2026-01-05",
-    author: "Eletricista Profissional",
+    author: "Electricista Profissional",
     readTime: "8 min",
     category: "Certificação",
     tags: ["certificação", "legislação", "obrigações"],
@@ -1139,12 +492,12 @@ Apenas **técnicos certificados** pela DGEG (Direção-Geral de Energia e Geolog
 ## Processo de Certificação
 
 ### Passo 1: Contratação
-- Contacte um eletricista certificado
+- Contacte um electricista certificado
 - Explique o tipo de trabalho necessário
 - Peça orçamento incluindo certificação
 
 ### Passo 2: Execução
-- O eletricista executa o trabalho
+- O electricista executa o trabalho
 - Deve seguir todas as normas técnicas
 - Usa materiais certificados
 
@@ -1328,7 +681,7 @@ Sim, fica associado ao imóvel.
 
 A certificação elétrica é um documento essencial que garante a segurança da sua instalação elétrica. Não deixe para a última hora - se precisa de certificação, contacte um profissionais qualificados o quanto antes.
 
-A **Eletricista Profissional** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
+A **Electricista Profissional** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
 
 **Agende a sua certificação: 932 321 892**
 `
@@ -1339,7 +692,7 @@ A **Eletricista Profissional** tem técnicos certificados pela DGEG prontos para
     excerpt: "Tudo o que precisa saber antes de instalar painéis solares: custos, poupança, processo e incentivos disponíveis.",
     image: "https://cdn.manus.space/webdev-assets/solar-panels.jpg",
     date: "2025-12-28",
-    author: "Eletricista Profissional",
+    author: "Electricista Profissional",
     readTime: "10 min",
     category: "Energia Solar",
     tags: ["painéis solares", "poupança", "sustentabilidade"],
@@ -1640,7 +993,7 @@ Painéis valorizam o imóvel. Pode vender com eles ou removê-los.
 
 Instalar painéis solares é um investimento inteligente que se paga a si próprio em poucos anos, enquanto contribui para um futuro mais sustentável. Com os incentivos disponíveis em Portugal, nunca houve melhor altura para fazer a transição para energia solar.
 
-A **Eletricista Profissional** é especialista em instalação de painéis solares em Bragança. Fazemos todo o processo desde o projeto até à ativação, incluindo certificação e registo na DGEG. Contacte-nos para uma avaliação gratuita.
+A **Electricista Profissional** é especialista em instalação de painéis solares em Bragança. Fazemos todo o processo desde o projeto até à ativação, incluindo certificação e registo na DGEG. Contacte-nos para uma avaliação gratuita.
 
 **Ligue agora: 932 321 892**
 `
@@ -1651,7 +1004,7 @@ A **Eletricista Profissional** é especialista em instalação de painéis solar
     excerpt: "Guia essencial para proteger as crianças de acidentes elétricos. Dicas práticas e produtos de segurança.",
     image: "https://cdn.manus.space/webdev-assets/child-safety.jpg",
     date: "2025-12-20",
-    author: "Eletricista Profissional",
+    author: "Electricista Profissional",
     readTime: "7 min",
     category: "Segurança",
     tags: ["segurança", "crianças", "prevenção"],
@@ -1898,7 +1251,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 ### Checklist Anual:
 
-- ☐ Inspeção por eletricista
+- ☐ Inspeção por electricista
 - ☐ Teste de disjuntor diferencial
 - ☐ Verificação de ligação à terra
 - ☐ Atualização de proteções
@@ -1906,7 +1259,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 ## Sinais de Alerta
 
-### Contacte Eletricista se:
+### Contacte Electricista se:
 
 - ⚠️ Tomadas quentes
 - ⚠️ Cheiro a queimado
@@ -1939,7 +1292,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 A segurança elétrica em casas com crianças não é negociável. Com as medidas certas, pode proteger os seus filhos de acidentes graves enquanto lhes ensina bons hábitos de segurança que levarão para a vida.
 
-A **Eletricista Profissional** pode ajudá-lo a tornar a sua casa mais segura para crianças. Fazemos inspeções de segurança, instalamos proteções e damos conselhos personalizados. Não arrisque - proteja a sua família hoje.
+A **Electricista Profissional** pode ajudá-lo a tornar a sua casa mais segura para crianças. Fazemos inspeções de segurança, instalamos proteções e damos conselhos personalizados. Não arrisque - proteja a sua família hoje.
 
 **Agende uma inspeção de segurança: 932 321 892**
 `

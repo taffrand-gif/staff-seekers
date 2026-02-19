@@ -34,7 +34,7 @@ export default function PaineisSolares() {
     "description": "Serviço profissional de instalação de painéis solares fotovoltaicos para produção de energia elétrica em Trás-os-Montes.",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Staff Seekers - Eletricista Profissional",
+      "name": "Staff Seekers - Electricista Profissional",
       "telephone": ACTIVE_CONFIG.phone,
       "address": {
         "@type": "PostalAddress",
@@ -324,23 +324,23 @@ export default function PaineisSolares() {
               Energia Solar em Toda a Região
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              <a href="/eletricista-macedo-de-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-macedo-de-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Macedo de Cavaleiros</div>
                 <div className="text-sm text-gray-600">Painéis solares</div>
               </a>
-              <a href="/eletricista-braganca" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-braganca" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Bragança</div>
                 <div className="text-sm text-gray-600">Energia solar</div>
               </a>
-              <a href="/eletricista-mirandela" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-mirandela" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Mirandela</div>
                 <div className="text-sm text-gray-600">Fotovoltaico</div>
               </a>
-              <a href="/eletricista-chaves" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-chaves" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Chaves</div>
                 <div className="text-sm text-gray-600">Autoconsumo</div>
               </a>
-              <a href="/eletricista-valpacos" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-valpacos" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Valpaços</div>
                 <div className="text-sm text-gray-600">Redução fatura</div>
               </a>

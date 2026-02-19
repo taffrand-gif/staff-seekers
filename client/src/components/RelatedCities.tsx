@@ -9,17 +9,17 @@ interface RelatedCitiesProps {
 export default function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
   // Liste des villes avec leurs slugs et régions
   const allCities = [
-    { name: 'Bragança', slug: 'eletricista-braganca', region: 'Norte' },
-    { name: 'Chaves', slug: 'eletricista-chaves', region: 'Norte' },
-    { name: 'Mirandela', slug: 'eletricista-mirandela', region: 'Norte' },
-    { name: 'Vila Real', slug: 'eletricista-vila-real', region: 'Norte' },
-    { name: 'Macedo de Cavaleiros', slug: 'eletricista-macedo-cavaleiros', region: 'Centro' },
-    { name: 'Valpaços', slug: 'eletricista-valpacos', region: 'Norte' },
-    { name: 'Mogadouro', slug: 'eletricista-mogadouro', region: 'Norte' },
-    { name: 'Torre de Moncorvo', slug: 'eletricista-torre-moncorvo', region: 'Norte' },
-    { name: 'Freixo de Espada à Cinta', slug: 'eletricista-freixo-espada-cinta', region: 'Norte' },
-    { name: 'Miranda do Douro', slug: 'eletricista-miranda-douro', region: 'Norte' },
-    { name: 'Vinhais', slug: 'eletricista-vinhais', region: 'Norte' },
+    { name: 'Bragança', slug: 'electricista-braganca', region: 'Norte' },
+    { name: 'Chaves', slug: 'electricista-chaves', region: 'Norte' },
+    { name: 'Mirandela', slug: 'electricista-mirandela', region: 'Norte' },
+    { name: 'Vila Real', slug: 'electricista-vila-real', region: 'Norte' },
+    { name: 'Macedo de Cavaleiros', slug: 'electricista-macedo-cavaleiros', region: 'Centro' },
+    { name: 'Valpaços', slug: 'electricista-valpacos', region: 'Norte' },
+    { name: 'Mogadouro', slug: 'electricista-mogadouro', region: 'Norte' },
+    { name: 'Torre de Moncorvo', slug: 'electricista-torre-moncorvo', region: 'Norte' },
+    { name: 'Freixo de Espada à Cinta', slug: 'electricista-freixo-espada-cinta', region: 'Norte' },
+    { name: 'Miranda do Douro', slug: 'electricista-miranda-douro', region: 'Norte' },
+    { name: 'Vinhais', slug: 'electricista-vinhais', region: 'Norte' },
   ];
 
   // Filtrer pour exclure la ville actuelle
@@ -37,7 +37,7 @@ export default function RelatedCities({ currentCity, currentCitySlug }: RelatedC
             Também servimos:
           </h2>
           <p className="text-gray-600">
-            Eletricista profissional em outras cidades de Trás-os-Montes
+            Electricista profissional em outras cidades de Trás-os-Montes
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function RelatedCities({ currentCity, currentCitySlug }: RelatedC
                   {city.name}
                 </h3>
                 <p className="text-gray-500 text-sm">
-                  Eletricista em {city.name}
+                  Electricista em {city.name}
                 </p>
                 <div className="mt-4">
                   <span className="inline-block px-3 py-1 bg-orange-50 text-orange-700 text-xs font-medium rounded-full">

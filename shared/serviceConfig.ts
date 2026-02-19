@@ -1,9 +1,9 @@
 /**
- * Configuração do serviço (Canalização ou Eletricidade)
+ * Configuração do serviço (Eletricidade)
  * Modificar estas variáveis para personalizar o site
  */
 
-export type ServiceType = 'plomberie' | 'electricite';
+export type ServiceType = 'electricite';
 
 export interface ServiceConfig {
   type: ServiceType;
@@ -35,58 +35,7 @@ export interface ServiceConfig {
   commonProblems: string[];
 }
 
-// Configuração Canalização (Norte Reparos)
-export const plumberieConfig: ServiceConfig = {
-  type: 'plomberie',
-  name: 'Canalizador',
-  businessName: 'Canalizador Profissional 24h',
-  phone: '+351928484451',
-  whatsappNumber: '351928484451',
-  domain: 'norte-reparos.com',
-  googleAdsId: 'AW-17915870228',
-  googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
-  
-  // Cores: AZUL (#1E88E5) + branco + LARANJA (#FF6D00 para CTA)
-  gradient: {
-    from: '#1E88E5',
-    to: '#0d47a1',
-  },
-  accentColor: '#FF6D00',
-  
-  heroTitle: 'Canalizador Profissional em Trás-os-Montes',
-  heroSubtitle: 'Desentupimentos, reparação de fugas, instalação de esquentadores — serviço rápido e profissional em Bragança e região',
-  heroEmoji: '💧',
-  serviceEmoji: '🔧',
-  
-  services: [
-    'Desentupimentos',
-    'Reparação de Fugas de Água',
-    'Instalação Sanitários',
-    'Aquecimento Central',
-    'Canalização Nova',
-    'Urgências 24h',
-  ],
-  
-  commonProblems: [
-    'fuga de água',
-    'entupimento WC',
-    'torneira quebrada',
-    'cano rebentado',
-    'autoclismo avariado',
-    'fuga cozinha',
-    'entupimento pia',
-    'caldeira sem água quente',
-    'fuga casa de banho',
-    'canalização entupida',
-    'torneira a pingar',
-    'fuga no teto',
-    'entupimento ralo',
-    'esquentador avariado',
-    'fuga tubagem',
-  ],
-};
-
-// Configuração Eletricidade (Eletricista Profissional)
+// Configuração Eletricidade (Electricista Profissional)
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',

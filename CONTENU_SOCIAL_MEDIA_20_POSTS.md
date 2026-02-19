@@ -310,7 +310,7 @@ Nunca sabe quando vai precisar 😉
 
 ---
 
-## STAFF-SEEKERS (Eletricista) - 10 Posts
+## STAFF-SEEKERS (Electricista) - 10 Posts
 
 ### POST 1: Apresentação
 
@@ -318,7 +318,7 @@ Nunca sabe quando vai precisar 😉
 ```
 ⚡ Olá Bragança! Somos o Staff-Seekers!
 
-Eletricistas certificados disponíveis 24 horas por dia, 7 dias por semana.
+Electricistas certificados disponíveis 24 horas por dia, 7 dias por semana.
 
 ✅ Urgências elétricas
 ✅ Curto-circuitos
@@ -331,7 +331,7 @@ Atendemos todo o distrito de Bragança em 30-40 minutos!
 📞 Ligue AGORA: 932 321 892
 💬 WhatsApp disponível
 
-#Bragança #Eletricista #Urgências #StaffSeekers
+#Bragança #Electricista #Urgências #StaffSeekers
 ```
 
 **Imagem sugerida:** Equipa junto à camionnette com branding
@@ -364,7 +364,7 @@ Bragança | Macedo de Cavaleiros | Mirandela | Toda a região
 
 SEGURANÇA EM PRIMEIRO LUGAR!
 
-#Urgência24h #Eletricista #Bragança
+#Urgência24h #Electricista #Bragança
 ```
 
 **Imagem sugerida:** Técnico a trabalhar em quadro elétrico
@@ -394,7 +394,7 @@ Instalações antigas são responsáveis por 25% dos incêndios domésticos!
 
 Não arrisque. Chame profissionais certificados.
 
-#SegurançaElétrica #Bragança #Eletricista
+#SegurançaElétrica #Bragança #Electricista
 ```
 
 **Imagem sugerida:** Quadro elétrico com sinais de queimadura
@@ -428,7 +428,7 @@ Agende já:
 📞 932 321 892
 🌐 staff-seekers.com
 
-#CertificaçãoDGEG #Bragança #Eletricista
+#CertificaçãoDGEG #Bragança #Electricista
 ```
 
 **Imagem sugerida:** Certificado DGEG (exemplo)
@@ -452,7 +452,7 @@ Centenas de clientes satisfeitos!
 Próxima instalação elétrica?
 📞 932 321 892 (24h)
 
-#Testemunhos #ClientesSatisfeitos #Bragança #Eletricista
+#Testemunhos #ClientesSatisfeitos #Bragança #Electricista
 ```
 
 **Imagem sugerida:** Cliente satisfeito ou quadro novo instalado
@@ -527,7 +527,7 @@ Orçamento gratuito:
 
 **Texto:**
 ```
-✅ ELETRICISTA CERTIFICADO DGEG
+✅ ELECTRICISTA CERTIFICADO DGEG
 
 Porque escolher Staff-Seekers?
 
@@ -539,7 +539,7 @@ Porque escolher Staff-Seekers?
 🚀 Resposta rápida (30-40 min)
 📞 Disponível 24/7
 
-Não arrisque com "eletricistas" sem certificação!
+Não arrisque com "electricistas" sem certificação!
 
 Trabalhos não certificados:
 ❌ Não têm garantia legal
@@ -581,7 +581,7 @@ Urgência elétrica em qualquer ponto do distrito?
 
 📞 932 321 892 (24 horas)
 
-#Bragança #TrásOsMontes #Eletricista #Urgências
+#Bragança #TrásOsMontes #Electricista #Urgências
 ```
 
 **Imagem sugerida:** Mapa do distrito de Bragança
@@ -614,7 +614,7 @@ RESOLVA HOJE:
 GUARDE ESTE NÚMERO!
 Emergências elétricas não avisam 😉
 
-#Eletricista #Bragança #Urgências #StaffSeekers
+#Electricista #Bragança #Urgências #StaffSeekers
 ```
 
 **Imagem sugerida:** Cartão de visita digital ou logo
@@ -654,7 +654,7 @@ Emergências elétricas não avisam 😉
 
 **Sempre incluir:**
 - #Bragança (localização)
-- #Canalizador ou #Eletricista (serviço)
+- #Canalizador ou #Electricista (serviço)
 - Nome do negócio (#NorteReparos ou #StaffSeekers)
 
 **Opcionais:**

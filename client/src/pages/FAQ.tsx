@@ -1,4 +1,4 @@
-// Page FAQ dédiée - Staff Seekers (Eletricista)
+// Page FAQ dédiée - Staff Seekers (Electricista)
 // 18-20 questions en portugais PT-PT avec Schema.org FAQPage JSON-LD
 // Design accordéon avec useState pour open/close
 
@@ -18,10 +18,10 @@ export default function FAQPage() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  // 20 questions para eletricista (Staff-Seekers)
+  // 20 questions para electricista (Staff-Seekers)
   const faqs = [
     {
-      question: "Quanto custa um eletricista em Trás-os-Montes?",
+      question: "Quanto custa um electricista em Trás-os-Montes?",
       answer: "Os preços variam conforme o serviço: instalação de tomada a partir de 35€, reparação de avaria elétrica a partir de 60€, quadro elétrico novo a partir de 450€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
     },
     {
@@ -29,7 +29,7 @@ export default function FAQPage() {
       answer: "Contacte-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente para avaliar o problema, apresentamos um orçamento detalhado com preços transparentes e só avançamos após sua aprovação. Sem surpresas."
     },
     {
-      question: "Tem eletricista urgente disponível 24h?",
+      question: "Tem electricista urgente disponível 24h?",
       answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de falta de luz, curto-circuito ou avaria elétrica perigosa, ligue +351 932 321 892 para intervenção imediata."
     },
     {
@@ -46,7 +46,7 @@ export default function FAQPage() {
     },
     {
       question: "Fazem certificação elétrica CERTIEL?",
-      answer: "Sim, somos eletricistas certificados para emitir certificados CERTIEL obrigatórios para venda/arrendamento de imóveis. Fazemos a vistoria completa, emissão do certificado e registo no sistema oficial."
+      answer: "Sim, somos electricistas certificados para emitir certificados CERTIEL obrigatórios para venda/arrendamento de imóveis. Fazemos a vistoria completa, emissão do certificado e registo no sistema oficial."
     },
     {
       question: "Instalam painéis solares na região?",
@@ -81,7 +81,7 @@ export default function FAQPage() {
       answer: "Cheiro a queimado, disjuntores que saltam frequentemente, tomadas/interruptores quentes, luzes que piscam, faíscas nas tomadas, choques leves ao tocar em eletrodomésticos, fusíveis queimados repetidamente."
     },
     {
-      question: "Quando devo chamar um eletricista?",
+      question: "Quando devo chamar um electricista?",
       answer: "Ao primeiro sinal de problema: falta de luz parcial/total, disjuntores que saltam, cheiro a queimado, tomadas quentes. Não tente reparar sozinho - riscos de eletrocussão e incêndio são reais."
     },
     {
@@ -89,8 +89,8 @@ export default function FAQPage() {
       answer: "Sim, trabalhamos com equipamento de última geração: analisadores de redes Fluke, detetores de cabos, câmaras térmicas FLIR, ferramentas isoladas 1000V, testadores de continuidade, máquinas de furar profissionais."
     },
     {
-      question: "São eletricistas certificados?",
-      answer: "Sim, temos certificação profissional (curso de eletricista de instalações) e formação contínua. Trabalhamos de acordo com as normas NP EN 60364 (instalações elétricas) e legislação portuguesa. Todos os técnicos têm habilitações legais."
+      question: "São electricistas certificados?",
+      answer: "Sim, temos certificação profissional (curso de electricista de instalações) e formação contínua. Trabalhamos de acordo com as normas NP EN 60364 (instalações elétricas) e legislação portuguesa. Todos os técnicos têm habilitações legais."
     },
     {
       question: "Fazem serviços para empresas e indústrias?",
@@ -119,8 +119,8 @@ export default function FAQPage() {
   return (
     <>
       <SEOHead 
-        title="Perguntas Frequentes | Staff Seekers | Eletricista Trás-os-Montes"
-        description="Respostas às 20 perguntas mais comuns sobre serviços elétricos: preços, urgências 24h, certificação CERTIEL, painéis solares, zonas servidas. Eletricista certificado em Bragança."
+        title="Perguntas Frequentes | Staff Seekers | Electricista Trás-os-Montes"
+        description="Respostas às 20 perguntas mais comuns sobre serviços elétricos: preços, urgências 24h, certificação CERTIEL, painéis solares, zonas servidas. Electricista certificado em Bragança."
         canonical="/faq"
       />
       
@@ -144,7 +144,7 @@ export default function FAQPage() {
                 Perguntas Frequentes sobre <span className="text-yellow-300">Serviços Elétricos</span>
               </h1>
               <p className="text-xl mb-8">
-                Encontre respostas para as 20 dúvidas mais comuns sobre os nossos serviços de eletricista em Trás-os-Montes
+                Encontre respostas para as 20 dúvidas mais comuns sobre os nossos serviços de electricista em Trás-os-Montes
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -177,7 +177,7 @@ export default function FAQPage() {
                 <p className="font-bold text-yellow-800">⚠️ Segurança Elétrica Primeiro!</p>
                 <p className="text-yellow-700">
                   Nunca tente reparar problemas elétricos sozinho. Risco de eletrocussão e incêndio. 
-                  Contacte sempre um eletricista certificado para qualquer intervenção.
+                  Contacte sempre um electricista certificado para qualquer intervenção.
                 </p>
               </div>
             </div>
@@ -242,18 +242,18 @@ export default function FAQPage() {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">📍 Serviços por Cidade</h4>
                     <ul className="space-y-2">
-                      <li><Link href="/eletricista-vila-real" className="text-orange-600 hover:underline">Eletricista Vila Real</Link></li>
-                      <li><Link href="/eletricista-braganca" className="text-orange-600 hover:underline">Eletricista Bragança</Link></li>
-                      <li><Link href="/eletricista-mirandela" className="text-orange-600 hover:underline">Eletricista Mirandela</Link></li>
-                      <li><Link href="/eletricista-macedo-cavaleiros" className="text-orange-600 hover:underline">Eletricista Macedo de Cavaleiros</Link></li>
-                      <li><Link href="/eletricista-chaves" className="text-orange-600 hover:underline">Eletricista Chaves</Link></li>
+                      <li><Link href="/electricista-vila-real" className="text-orange-600 hover:underline">Electricista Vila Real</Link></li>
+                      <li><Link href="/electricista-braganca" className="text-orange-600 hover:underline">Electricista Bragança</Link></li>
+                      <li><Link href="/electricista-mirandela" className="text-orange-600 hover:underline">Electricista Mirandela</Link></li>
+                      <li><Link href="/electricista-macedo-cavaleiros" className="text-orange-600 hover:underline">Electricista Macedo de Cavaleiros</Link></li>
+                      <li><Link href="/electricista-chaves" className="text-orange-600 hover:underline">Electricista Chaves</Link></li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">⚡ Nossos Serviços</h4>
                     <ul className="space-y-2">
                       <li><Link href="/servicos" className="text-orange-600 hover:underline">Todos os Serviços</Link></li>
-                      <li><Link href="/blog/custo-eletricista-tras-os-montes-precos" className="text-orange-600 hover:underline">Preços Eletricista</Link></li>
+                      <li><Link href="/blog/custo-electricista-tras-os-montes-precos" className="text-orange-600 hover:underline">Preços Electricista</Link></li>
                       <li><Link href="/blog/certificacao-eletrica-certiel-guia" className="text-orange-600 hover:underline">Certificação CERTIEL</Link></li>
                       <li><Link href="/blog/paineis-solares-tras-os-montes-guia" className="text-orange-600 hover:underline">Painéis Solares</Link></li>
                       <li><Link href="/blog" className="text-orange-600 hover:underline">Blog com Dicas</Link></li>
@@ -292,7 +292,7 @@ export default function FAQPage() {
                   </a>
                 </div>
                 <p className="mt-6 text-sm text-orange-200">
-                  Resposta em menos de 5 minutos durante o dia • Urgências 24/7 • Eletricista Certificado
+                  Resposta em menos de 5 minutos durante o dia • Urgências 24/7 • Electricista Certificado
                 </p>
               </div>
             </div>

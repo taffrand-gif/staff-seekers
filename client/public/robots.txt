@@ -1,5 +1,5 @@
-# robots.txt pour staff-seekers.com
-# Eletricista Profissional em Trás-os-Montes
+# robots.txt para staff-seekers.com
+# Electricista Profissional em Trás-os-Montes
 
 User-agent: *
 Allow: /

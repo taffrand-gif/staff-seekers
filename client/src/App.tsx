@@ -34,8 +34,8 @@ const QuandoTrocarInstalacaoEletrica = lazy(() => import("@/pages/blog/QuandoTro
 const SinaisProblemasEletricos = lazy(() => import("@/pages/blog/SinaisProblemasEletricos"));
 const QuadroEletricoAntigo = lazy(() => import("@/pages/blog/QuadroEletricoAntigo"));
 const CertificacaoEletricaCertiel = lazy(() => import("@/pages/blog/CertificacaoEletricaCertiel"));
-const ComoEscolherEletricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherEletricistaCertificado"));
-const CustoEletricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoEletricistaTrasOsMontesPrecos"));
+const ComoEscolherElectricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherElectricistaCertificado"));
+const CustoElectricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoElectricistaTrasOsMontesPrecos"));
 const PaineisSolaresTrasOsMontesGuia = lazy(() => import("@/pages/blog/PaineisSolaresTrasOsMontesGuia"));
 
 // Simple loading fallback component
@@ -55,16 +55,16 @@ function Router() {
         <Route path={"/certificacao-eletrica"} component={CertificacaoEletrica} />
         <Route path={"/instalacao-eletrica"} component={InstalacaoEletrica} />
         <Route path={"/paineis-solares"} component={PaineisSolares} />
-        <Route path={"/eletricista-vila-real"} component={VilaReal} />
-        <Route path={"/eletricista-braganca"} component={Braganca} />
-        <Route path={"/eletricista-chaves"} component={Chaves} />
-        <Route path={"/eletricista-mirandela"} component={Mirandela} />
-        <Route path={"/eletricista-macedo-cavaleiros"} component={MacedoCavaleiros} />
-        <Route path={"/eletricista-vinhais"} component={Vinhais} />
-        <Route path={"/eletricista-miranda-douro"} component={MirandaDouro} />
-        <Route path={"/eletricista-mogadouro"} component={Mogadouro} />
-        <Route path={"/eletricista-torre-moncorvo"} component={TorreMoncorvo} />
-        <Route path={"/eletricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
+        <Route path={"/electricista-vila-real"} component={VilaReal} />
+        <Route path={"/electricista-braganca"} component={Braganca} />
+        <Route path={"/electricista-chaves"} component={Chaves} />
+        <Route path={"/electricista-mirandela"} component={Mirandela} />
+        <Route path={"/electricista-macedo-cavaleiros"} component={MacedoCavaleiros} />
+        <Route path={"/electricista-vinhais"} component={Vinhais} />
+        <Route path={"/electricista-miranda-douro"} component={MirandaDouro} />
+        <Route path={"/electricista-mogadouro"} component={Mogadouro} />
+        <Route path={"/electricista-torre-moncorvo"} component={TorreMoncorvo} />
+        <Route path={"/electricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
         <Route path={"/blog"} component={BlogIndex} />
         <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
         <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />
@@ -72,8 +72,8 @@ function Router() {
         <Route path={"/blog/sinais-problemas-eletricos-casa"} component={SinaisProblemasEletricos} />
         <Route path={"/blog/quadro-eletrico-antigo-fusiveis-trocar"} component={QuadroEletricoAntigo} />
         <Route path={"/blog/certificacao-eletrica-certiel-guia"} component={CertificacaoEletricaCertiel} />
-        <Route path={"/blog/como-escolher-eletricista-certificado"} component={ComoEscolherEletricistaCertificado} />
-        <Route path={"/blog/custo-eletricista-tras-os-montes-precos"} component={CustoEletricistaTrasOsMontesPrecos} />
+        <Route path={"/blog/como-escolher-electricista-certificado"} component={ComoEscolherElectricistaCertificado} />
+        <Route path={"/blog/custo-electricista-tras-os-montes-precos"} component={CustoElectricistaTrasOsMontesPrecos} />
         <Route path={"/blog/paineis-solares-tras-os-montes-guia"} component={PaineisSolaresTrasOsMontesGuia} />
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/404"} component={NotFound} />

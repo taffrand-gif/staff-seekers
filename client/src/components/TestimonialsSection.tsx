@@ -1,11 +1,11 @@
-import { NORTE_REPAROS_TESTIMONIALS, STAFF_SEEKERS_TESTIMONIALS, Testimonial } from "@/data/testimonialsData";
+import { TESTIMONIALS, Testimonial } from "@/data/testimonialsData";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useState, useEffect } from "react";
 
 export function TestimonialsSection() {
   const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
-  const testimonials: Testimonial[] = config.type === 'plomberie' ? NORTE_REPAROS_TESTIMONIALS : STAFF_SEEKERS_TESTIMONIALS;
+  const testimonials: Testimonial[] = TESTIMONIALS;
   const featured = testimonials.slice(0, 6); // Top 6 témoignages
   
   const [currentIndex, setCurrentIndex] = useState(0);

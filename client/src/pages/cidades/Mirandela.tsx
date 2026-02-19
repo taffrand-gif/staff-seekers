@@ -1,4 +1,4 @@
-// Page SEO optimizada para "Eletricista Mirandela"
+// Page SEO optimizada para "Electricista Mirandela"
 // 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
@@ -13,7 +13,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Mirandela, Macedo, Bragança - Eletricista Profissional - +351 932 321 892";
+    document.title = "Electricista em Mirandela, Macedo, Bragança - Electricista Profissional - +351 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -22,7 +22,7 @@ export default function Mirandela() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Mirandela, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para agricultura e indústria.');
+    metaDescription.setAttribute('content', 'Electricista certificado em Mirandela, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para agricultura e indústria.');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -30,7 +30,7 @@ export default function Mirandela() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente mirandela, eletricista 24 horas mirandela, eletricista mirandela, eletricista profissional mirandela, instalação elétrica mirandela, quadro elétrico mirandela, certificação elétrica mirandela, reparação elétrica mirandela, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'electricista urgente mirandela, electricista 24 horas mirandela, electricista mirandela, electricista profissional mirandela, instalação elétrica mirandela, quadro elétrico mirandela, certificação elétrica mirandela, reparação elétrica mirandela, electricista trás-os-montes');
     
     
     // Canonical URL
@@ -40,7 +40,7 @@ export default function Mirandela() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mirandela');
+    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-mirandela');
     
     // Schema.org LocalBusiness para Mirandela
     const schemaScript = document.createElement('script');
@@ -48,9 +48,9 @@ export default function Mirandela() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Eletricista Profissional — Eletricista em Mirandela",
+      "name": "Electricista Profissional — Electricista em Mirandela",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Mirandela, Trás-os-Montes. Instalação, reparação e certificação elétrica para agricultura e indústria.",
+      "description": "Electricista profissional em Mirandela, Trás-os-Montes. Instalação, reparação e certificação elétrica para agricultura e indústria.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Mirandela",
@@ -80,7 +80,7 @@ export default function Mirandela() {
         "geoRadius": "15000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -103,17 +103,17 @@ export default function Mirandela() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
+                <a href="/" className="hover:text-white">Electricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Mirandela</span>
               </nav>
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Eletricista Profissional em <span className="text-blue-900">Mirandela</span>
+                Electricista Profissional em <span className="text-blue-900">Mirandela</span>
               </h1>
               
               <p className="text-xl mb-8">
-                Serviços de eletricista certificado em Mirandela e arredores. 
+                Serviços de electricista certificado em Mirandela e arredores. 
                 Especialistas em instalações para agricultura, indústria alimentar e olivicultura.
               </p>
               
@@ -122,10 +122,10 @@ export default function Mirandela() {
                   href={`tel:${config.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Mirandela: {config.phone}
+                  📞 Electricista Mirandela: {config.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Mirandela`}
+                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um electricista em Mirandela`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -223,7 +223,7 @@ export default function Mirandela() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas sobre <span className="text-amber-600">Eletricista em Mirandela</span>
+              Perguntas sobre <span className="text-amber-600">Electricista em Mirandela</span>
             </h2>
             
             <div className="max-w-3xl mx-auto space-y-6">
@@ -270,7 +270,7 @@ export default function Mirandela() {
         <section className="py-16 bg-gradient-to-r from-blue-900 to-amber-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Eletricista em <span className="text-amber-300">Mirandela</span> - Conhecemos a Região
+              Electricista em <span className="text-amber-300">Mirandela</span> - Conhecemos a Região
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Conhecemos as necessidades elétricas da economia local de Mirandela.
@@ -285,7 +285,7 @@ export default function Mirandela() {
                 📞 {config.phone} (Mirandela)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Mirandela`}
+                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um electricista em Mirandela`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -313,7 +313,7 @@ export default function Mirandela() {
         {/* Related Cities - Maillage interno SEO */}
         <RelatedCities 
           currentCity="Mirandela" 
-          currentCitySlug="eletricista-mirandela" 
+          currentCitySlug="electricista-mirandela" 
         />
       </main>
       

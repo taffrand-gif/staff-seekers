@@ -1,6 +1,6 @@
 # 10 Sinais Que Precisa Trocar o Quadro Elétrico (Guia Bragança 2026)
 
-**Autor:** Eletricista de Trás-os-Montes  
+**Autor:** Electricista de Trás-os-Montes  
 **Data:** 7 de fevereiro de 2026  
 **Tempo de leitura:** 8 minutos  
 **Categoria:** Segurança Elétrica
@@ -84,7 +84,7 @@ O aquecimento indica mau contacto nas ligações elétricas, sobrecarga ou compo
 
 **Caso real em Macedo de Cavaleiros:** Fomos chamados às 23h por um cliente que sentiu o quadro "muito quente" e cheiro a queimado. Ao abrir o quadro, encontramos ligações oxidadas e um disjuntor parcialmente derretido. Desligamos a alimentação geral e fizemos reparação de emergência. O cliente evitou um incêndio por poucas horas.
 
-**Ação imediata:** Desligue o disjuntor geral e contacte um eletricista certificado urgentemente. Não utilize a instalação até resolução do problema.
+**Ação imediata:** Desligue o disjuntor geral e contacte um electricista certificado urgentemente. Não utilize a instalação até resolução do problema.
 
 ---
 
@@ -167,7 +167,7 @@ Ligações elétricas devem ser feitas com terminais apropriados, bem apertadas 
 
 **Caso real em Bragança:** Durante manutenção preventiva, encontramos um quadro onde o proprietário tinha "adicionado" circuitos ligando fios diretamente aos barramentos com fita isoladora. Risco de incêndio extremo. Refizemos todas as ligações com terminais certificados.
 
-**Ação:** Nunca faça intervenções no quadro sem conhecimentos técnicos. Contrate sempre eletricista certificado.
+**Ação:** Nunca faça intervenções no quadro sem conhecimentos técnicos. Contrate sempre electricista certificado.
 
 ---
 
@@ -347,7 +347,7 @@ Em Bragança e todo o distrito de Trás-os-Montes, estamos disponíveis 24 horas
 📍 **Área de atuação:** Todo o distrito de Bragança  
 ⏱️ **Tempo de chegada:** 30-40 minutos desde Macedo de Cavaleiros
 
-**Certificação:** Eletricista certificado DGEG | Cumprimento RTIEBT | Garantia 12 meses
+**Certificação:** Electricista certificado DGEG | Cumprimento RTIEBT | Garantia 12 meses
 
 ---
 
@@ -362,5 +362,5 @@ Em Bragança e todo o distrito de Trás-os-Montes, estamos disponíveis 24 horas
 ---
 
 *Última atualização: 7 de fevereiro de 2026*  
-*Autor: Equipa Técnica Eletricista de Trás-os-Montes*  
+*Autor: Equipa Técnica Electricista de Trás-os-Montes*  
 *Certificação DGEG: Válida e atualizada*

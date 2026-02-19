@@ -14,7 +14,7 @@ export default function Servicos() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Serviços de Eletricista em Trás-os-Montes | Instalação, Reparação, Certificação";
+    document.title = "Serviços de Electricista em Trás-os-Montes | Instalação, Reparação, Certificação";
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Servicos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Serviços completos de eletricista em Trás-os-Montes: instalação elétrica, reparação de avarias, quadros elétricos, iluminação, certificação DGEG. Profissionais certificados, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Serviços completos de electricista em Trás-os-Montes: instalação elétrica, reparação de avarias, quadros elétricos, iluminação, certificação DGEG. Profissionais certificados, orçamento gratuito.');
   }, [config]);
 
   const servicesDetails = [
@@ -93,7 +93,7 @@ export default function Servicos() {
         <section className="bg-gradient-to-r from-amber-600 to-amber-800 text-white py-16">
           <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Serviços de <span className="text-blue-900">Eletricista</span> em Trás-os-Montes
+              Serviços de <span className="text-blue-900">Electricista</span> em Trás-os-Montes
             </h1>
             <p className="text-xl mb-8 max-w-3xl">
               Serviços elétricos completos para residências, comércios e indústrias. 
@@ -107,7 +107,7 @@ export default function Servicos() {
                 📞 Ligue Agora: {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -216,7 +216,7 @@ export default function Servicos() {
         <section className="py-16 bg-gradient-to-r from-blue-900 to-amber-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Precisa de um Eletricista em Trás-os-Montes?
+              Precisa de um Electricista em Trás-os-Montes?
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Contacte-nos agora para um orçamento gratuito e sem compromisso. 
@@ -230,7 +230,7 @@ export default function Servicos() {
                 📞 {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

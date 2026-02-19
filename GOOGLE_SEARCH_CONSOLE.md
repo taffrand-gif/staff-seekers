@@ -102,7 +102,7 @@ https://staff-seekers.com/servicos/braganca
 https://staff-seekers.com/servicos/mirandela
 https://staff-seekers.com/servicos/macedo-de-cavaleiros
 https://staff-seekers.com/blog
-https://staff-seekers.com/blog/5-sinais-precisa-eletricista-urgente
+https://staff-seekers.com/blog/5-sinais-precisa-electricista-urgente
 ```
 
 ---

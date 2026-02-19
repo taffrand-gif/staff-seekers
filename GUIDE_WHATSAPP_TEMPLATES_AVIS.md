@@ -29,8 +29,8 @@ Este guia fornece:
 
 ### Configurar Perfil (15 min)
 
-**Nome:** Canalizador/Eletricista Trás-os-Montes  
-**Categoria:** Canalizador / Eletricista  
+**Nome:** Canalizador/Electricista Trás-os-Montes  
+**Categoria:** Canalizador / Electricista  
 **Descrição:** Serviço 24h | Urgências | Certificado | Bragança  
 **Horário:** 24/7  
 **Website:** [seu-site.com]

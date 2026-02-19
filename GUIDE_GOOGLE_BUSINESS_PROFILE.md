@@ -1,4 +1,4 @@
-# Guia Completo: Google Business Profile para Canalizadores e Eletricistas em Bragança
+# Guia Completo: Google Business Profile para Canalizadores e Electricistas em Bragança
 
 **Objetivo:** Criar e otimizar perfil Google Business para maximizar visibilidade local  
 **Tempo estimado:** 45-60 minutos (criação inicial)  
@@ -9,7 +9,7 @@
 
 ## Porquê Google Business Profile é CRÍTICO
 
-Google Business Profile (anteriormente Google My Business) é a ferramenta mais poderosa para negócios locais. Quando alguém em Bragança pesquisa "canalizador urgência" ou "eletricista Mirandela", o Google mostra 3 resultados no topo (Local Pack) ANTES dos resultados orgânicos.
+Google Business Profile (anteriormente Google My Business) é a ferramenta mais poderosa para negócios locais. Quando alguém em Bragança pesquisa "canalizador urgência" ou "electricista Mirandela", o Google mostra 3 resultados no topo (Local Pack) ANTES dos resultados orgânicos.
 
 **Estatísticas:**
 - 76% das pesquisas locais resultam em contacto em 24h
@@ -45,13 +45,13 @@ Google Business Profile (anteriormente Google My Business) é a ferramenta mais 
 1. Clique em "Adicionar negócio" ou "Add business"
 2. Digite o nome do negócio:
    - **Norte-Reparos:** "Canalizador de Trás-os-Montes - Norte Reparos"
-   - **Staff-Seekers:** "Eletricista de Trás-os-Montes - Staff Seekers"
+   - **Staff-Seekers:** "Electricista de Trás-os-Montes - Staff Seekers"
 
-**IMPORTANTE:** Inclua a palavra-chave principal no nome (Canalizador/Eletricista) + localização (Trás-os-Montes). Melhora SEO local.
+**IMPORTANTE:** Inclua a palavra-chave principal no nome (Canalizador/Electricista) + localização (Trás-os-Montes). Melhora SEO local.
 
 3. Escolha categoria:
    - **Norte-Reparos:** "Canalizador" (categoria principal)
-   - **Staff-Seekers:** "Eletricista" (categoria principal)
+   - **Staff-Seekers:** "Electricista" (categoria principal)
 
 4. Adicione categorias secundárias (máximo 10):
    - **Norte-Reparos:** Serviço de desentupimento, Serviço de reparação de caldeiras, Instalador de aquecimento
@@ -65,7 +65,7 @@ Google Business Profile (anteriormente Google My Business) é a ferramenta mais 
 - Exemplo: Restaurante, loja, escritório
 
 **Tipo B - Negócio de serviços** (você visita clientes)
-- Exemplo: Canalizador, eletricista, jardineiro
+- Exemplo: Canalizador, electricista, jardineiro
 
 **Para Norte-Reparos e Staff-Seekers:** Escolha **Tipo B** (Negócio de serviços)
 
@@ -172,7 +172,7 @@ Urgência de canalização? Ligue agora: 928 484 451 (disponível 24h/dia, 7 dia
 
 **Template Staff-Seekers:**
 ```
-Eletricista certificado disponível 24 horas em Bragança e todo o distrito de Trás-os-Montes. Especialistas em urgências elétricas: curto-circuitos, substituição de quadros elétricos, certificação DGEG, instalações elétricas completas.
+Electricista certificado disponível 24 horas em Bragança e todo o distrito de Trás-os-Montes. Especialistas em urgências elétricas: curto-circuitos, substituição de quadros elétricos, certificação DGEG, instalações elétricas completas.
 
 Atendemos Bragança, Macedo de Cavaleiros, Mirandela, Vinhais, Miranda do Douro, Mogadouro e todas as vilas da região. Chegamos em 30-40 minutos para urgências.
 
@@ -183,7 +183,7 @@ Urgência elétrica? Ligue agora: 932 321 892 (disponível 24h/dia, 7 dias/seman
 
 **Palavras-chave incluídas:**
 - Localização (Bragança, Trás-os-Montes, concelhos)
-- Serviço (canalizador/eletricista)
+- Serviço (canalizador/electricista)
 - Urgência/24h (diferencial competitivo)
 - Certificação/garantia (confiança)
 - Tempo de chegada (valor concreto)
@@ -352,7 +352,7 @@ Link direto (demora 1 minuto):
 
 Muito obrigado!
 [Seu Nome]
-Canalizador/Eletricista de Trás-os-Montes
+Canalizador/Electricista de Trás-os-Montes
 ```
 
 **Método 2: QR Code**
@@ -524,7 +524,7 @@ Adicione perguntas frequentes preventivamente. Aparecem nos resultados.
 - "Atendem urgências de curto-circuito?"
 - "Quanto custa substituir quadro elétrico?"
 - "Quanto tempo demora certificação?"
-- "São eletricistas certificados?"
+- "São electricistas certificados?"
 
 ### 6.2 Produtos/Serviços
 

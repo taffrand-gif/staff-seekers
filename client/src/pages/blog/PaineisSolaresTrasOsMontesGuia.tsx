@@ -125,19 +125,19 @@ const PaineisSolaresTrasOsMontesGuia: React.FC = () => {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center gap-2">
                     <span className="text-amber-600">★</span>
-                    <span><strong><a href="/eletricista-braganca" className="underline">Bragança</a>:</strong> 1.650 kWh/m²/ano (melhor)</span>
+                    <span><strong><a href="/electricista-braganca" className="underline">Bragança</a>:</strong> 1.650 kWh/m²/ano (melhor)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="text-amber-600">★</span>
-                    <span><strong><a href="/eletricista-vila-real" className="underline">Vila Real</a>:</strong> 1.600 kWh/m²/ano</span>
+                    <span><strong><a href="/electricista-vila-real" className="underline">Vila Real</a>:</strong> 1.600 kWh/m²/ano</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="text-amber-600">★</span>
-                    <span><strong><a href="/eletricista-chaves" className="underline">Chaves</a>:</strong> 1.580 kWh/m²/ano</span>
+                    <span><strong><a href="/electricista-chaves" className="underline">Chaves</a>:</strong> 1.580 kWh/m²/ano</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="text-amber-600">★</span>
-                    <span><strong><a href="/eletricista-mirandela" className="underline">Mirandela</a>:</strong> 1.620 kWh/m²/ano</span>
+                    <span><strong><a href="/electricista-mirandela" className="underline">Mirandela</a>:</strong> 1.620 kWh/m²/ano</span>
                   </li>
                 </ul>
               </div>
@@ -583,19 +583,19 @@ const PaineisSolaresTrasOsMontesGuia: React.FC = () => {
             Instalações adaptadas às condições específicas de cada município:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <a href="/eletricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/electricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Bragança</span>
               <p className="text-sm text-gray-600 mt-1">Maior irradiação</p>
             </a>
-            <a href="/eletricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/electricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Vila Real</span>
               <p className="text-sm text-gray-600 mt-1">+50 instalações</p>
             </a>
-            <a href="/eletricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/electricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Chaves</span>
               <p className="text-sm text-gray-600 mt-1">Especialista em telhados lousa</p>
             </a>
-            <a href="/eletricista-mirandela" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/electricista-mirandela" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Mirandela</span>
               <p className="text-sm text-gray-600 mt-1">Comunidades energéticas</p>
             </a>
@@ -604,21 +604,21 @@ const PaineisSolaresTrasOsMontesGuia: React.FC = () => {
       
         {/* Contextual links for SEO */}
         <div className="mt-12 bg-orange-50 rounded-xl p-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Eletricista na Sua Zona</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Electricista na Sua Zona</h3>
           <p className="text-gray-700 mb-4">
             Servimos toda a região de <Link to="/servicos">Trás-os-Montes</Link>:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link to="/eletricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/electricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Bragança</span>
             </Link>
-            <Link to="/eletricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/electricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Mirandela</span>
             </Link>
-            <Link to="/eletricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/electricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Chaves</span>
             </Link>
-            <Link to="/eletricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/electricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Macedo de Cavaleiros</span>
             </Link>
           </div>

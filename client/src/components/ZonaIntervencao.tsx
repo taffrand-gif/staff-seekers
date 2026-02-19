@@ -24,7 +24,7 @@ const CIDADES_PRINCIPAIS = [
 export default function ZonaIntervencao() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
-  const serviceLabel = isPlumber ? 'canalizador' : 'eletricista';
+  const serviceLabel = isPlumber ? 'canalizador' : 'electricista';
   const accentColor = isPlumber ? 'text-blue-600' : 'text-amber-600';
   const accentBg = isPlumber ? 'bg-blue-50' : 'bg-amber-50';
   const accentBorder = isPlumber ? 'border-blue-200' : 'border-amber-200';

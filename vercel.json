@@ -6,8 +6,8 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/blog/eletricista-urgente-24-horas-braganca",
-      "destination": "/blog/eletricista-urgente-24-horas-braganca.html"
+      "source": "/blog/electricista-urgente-24-horas-braganca",
+      "destination": "/blog/electricista-urgente-24-horas-braganca.html"
     },
     {
       "source": "/blog/quanto-custa-instalacao-eletrica-completa",
@@ -18,36 +18,36 @@
       "destination": "/blog/blog-problemas-eletricos-inverno.html"
     },
     {
-      "source": "/eletricista-torre-moncorvo",
-      "destination": "/eletricista-torre-moncorvo.html"
+      "source": "/electricista-torre-moncorvo",
+      "destination": "/electricista-torre-moncorvo.html"
     },
     {
-      "source": "/eletricista-chaves",
-      "destination": "/eletricista-chaves.html"
+      "source": "/electricista-chaves",
+      "destination": "/electricista-chaves.html"
     },
     {
-      "source": "/eletricista-braganca",
-      "destination": "/eletricista-braganca.html"
+      "source": "/electricista-braganca",
+      "destination": "/electricista-braganca.html"
     },
     {
-      "source": "/eletricista-vinhais",
-      "destination": "/eletricista-vinhais.html"
+      "source": "/electricista-vinhais",
+      "destination": "/electricista-vinhais.html"
     },
     {
-      "source": "/eletricista-vila-real",
-      "destination": "/eletricista-vila-real.html"
+      "source": "/electricista-vila-real",
+      "destination": "/electricista-vila-real.html"
     },
     {
-      "source": "/eletricista-macedo-cavaleiros",
-      "destination": "/eletricista-macedo-cavaleiros.html"
+      "source": "/electricista-macedo-cavaleiros",
+      "destination": "/electricista-macedo-cavaleiros.html"
     },
     {
-      "source": "/eletricista-mirandela",
-      "destination": "/eletricista-mirandela.html"
+      "source": "/electricista-mirandela",
+      "destination": "/electricista-mirandela.html"
     },
     {
-      "source": "/eletricista-mogadouro",
-      "destination": "/eletricista-mogadouro.html"
+      "source": "/electricista-mogadouro",
+      "destination": "/electricista-mogadouro.html"
     },
     {
       "source": "/eletricista-miranda-douro",

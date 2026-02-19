@@ -137,7 +137,7 @@ Les titres suivent le format : `[Service] [Ville] 24h | [Entreprise]`
 
 Exemples :
 - `Canalizador Bragança 24h | Norte Reparos`
-- `Eletricista Mirandela 24h | Staff Seekers`
+- `Electricista Mirandela 24h | Staff Seekers`
 
 ### Meta Descriptions
 

@@ -1,5 +1,5 @@
 // Page Service Dédié: Instalação Elétrica Completa em Trás-os-Montes
-// Optimizada para SEO com keywords: instalação elétrica, eletricista instalação
+// Optimizada para SEO com keywords: instalação elétrica, electricista instalação
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -14,7 +14,7 @@ export default function InstalacaoEletrica() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Instalação Elétrica Completa em Trás-os-Montes | Eletricista Profissional";
+    document.title = "Instalação Elétrica Completa em Trás-os-Montes | Electricista Profissional";
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function InstalacaoEletrica() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Instalação elétrica completa em Trás-os-Montes: obra nova, remodelação, certificação. Eletricista profissional, materiais de qualidade, garantia no serviço. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Instalação elétrica completa em Trás-os-Montes: obra nova, remodelação, certificação. Electricista profissional, materiais de qualidade, garantia no serviço. Orçamento gratuito.');
   }, [config]);
 
   // Schema.org Service JSON-LD
@@ -34,7 +34,7 @@ export default function InstalacaoEletrica() {
     "description": "Serviço profissional de instalação elétrica completa para residências, comércios e indústrias em Trás-os-Montes.",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Staff Seekers - Eletricista Profissional",
+      "name": "Staff Seekers - Electricista Profissional",
       "telephone": ACTIVE_CONFIG.phone,
       "address": {
         "@type": "PostalAddress",
@@ -130,12 +130,12 @@ export default function InstalacaoEletrica() {
               {/* Left column: Service description */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Eletricista Profissional para Instalação Completa
+                  Electricista Profissional para Instalação Completa
                 </h2>
                 
                 <div className="space-y-6 text-lg text-gray-700">
                   <p>
-                    Especializados em <strong>instalação elétrica</strong> e serviço de <strong>eletricista instalação</strong> em toda a região de Trás-os-Montes. 
+                    Especializados em <strong>instalação elétrica</strong> e serviço de <strong>electricista instalação</strong> em toda a região de Trás-os-Montes. 
                     Trabalhamos em obras novas, remodelações completas e expansões elétricas.
                   </p>
                   
@@ -321,23 +321,23 @@ export default function InstalacaoEletrica() {
               Instalação Elétrica em Toda a Região
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              <a href="/eletricista-macedo-de-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-macedo-de-cavaleiros" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Macedo de Cavaleiros</div>
                 <div className="text-sm text-gray-600">Obra nova</div>
               </a>
-              <a href="/eletricista-braganca" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-braganca" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Bragança</div>
                 <div className="text-sm text-gray-600">Remodelação</div>
               </a>
-              <a href="/eletricista-mirandela" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-mirandela" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Mirandela</div>
                 <div className="text-sm text-gray-600">Instalação completa</div>
               </a>
-              <a href="/eletricista-chaves" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-chaves" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Chaves</div>
                 <div className="text-sm text-gray-600">Certificação</div>
               </a>
-              <a href="/eletricista-valpacos" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
+              <a href="/electricista-valpacos" className="bg-white hover:bg-amber-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
                 <div className="text-amber-600 font-bold">Valpaços</div>
                 <div className="text-sm text-gray-600">Materiais qualidade</div>
               </a>

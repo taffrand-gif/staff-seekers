@@ -20,7 +20,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                {title || 'Blog do Eletricista'}
+                {title || 'Blog do Electricista'}
               </h1>
               <p className="text-xl text-amber-100 max-w-3xl">
                 {description || 'Dicas, guias e informações sobre eletricidade para residências e empresas em Trás-os-Montes'}
@@ -68,7 +68,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
       {/* CTA footer */}
       <section className="bg-gradient-to-r from-amber-700 to-amber-900 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Precisa de um eletricista?</h2>
+          <h2 className="text-3xl font-bold mb-6">Precisa de um electricista?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Contacte-nos para uma intervenção rápida e profissional em toda a região de Trás-os-Montes.
           </p>
@@ -80,7 +80,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
               📞 Ligar Agora
             </a>
             <a
-              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors"
@@ -95,7 +95,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} {config.name} - Eletricista Profissional em Trás-os-Montes
+            © {new Date().getFullYear()} {config.name} - Electricista Profissional em Trás-os-Montes
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Todos os artigos são informativos. Para intervenções elétricas, consulte sempre um profissional certificado.

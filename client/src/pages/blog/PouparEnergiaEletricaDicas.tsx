@@ -35,7 +35,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
             </div>
             <div>
               <p className="font-semibold text-gray-900">João Silva</p>
-              <p className="text-gray-600">Eletricista Certificado com 15+ anos de experiência</p>
+              <p className="text-gray-600">Electricista Certificado com 15+ anos de experiência</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
             <li><a href="#aquecimento" className="text-amber-600 hover:text-amber-700">4. Otimizar o Aquecimento</a></li>
             <li><a href="#horarios" className="text-amber-600 hover:text-amber-700">5. Aproveitar as Tarifas Bi-Horárias</a></li>
             <li><a href="#isolamento" className="text-amber-600 hover:text-amber-700">6-10. Mais Dicas Essenciais</a></li>
-            <li><a href="#profissional" className="text-amber-600 hover:text-amber-700">Quando Chamar um Eletricista</a></li>
+            <li><a href="#profissional" className="text-amber-600 hover:text-amber-700">Quando Chamar um Electricista</a></li>
           </ul>
         </div>
         {/* Content sections */}
@@ -204,7 +204,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
               </div>
               <div className="bg-white p-6 rounded-xl border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">8. Rever a Potência Contratada</h3>
-                <p className="text-gray-700">Muitas famílias pagam por potência que não usam. Um eletricista pode avaliar se pode reduzir a potência contratada e poupar no termo fixo.</p>
+                <p className="text-gray-700">Muitas famílias pagam por potência que não usam. Um electricista pode avaliar se pode reduzir a potência contratada e poupar no termo fixo.</p>
               </div>
               <div className="bg-white p-6 rounded-xl border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">9. Manter a Instalação Elétrica em Bom Estado</h3>
@@ -218,9 +218,9 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
           </section>
 
           <section id="profissional" className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">👨‍🔧 Quando Chamar um Eletricista</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">👨‍🔧 Quando Chamar um Electricista</h2>
             <div className="bg-amber-50 border border-amber-200 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Um eletricista pode ajudar a poupar energia:</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Um electricista pode ajudar a poupar energia:</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl">
                   <h4 className="font-bold text-gray-900 mb-3">🔍 Auditoria Energética</h4>
@@ -244,7 +244,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
               <div className="mt-8 text-center">
                 <p className="text-xl text-gray-900 mb-6">Quer uma avaliação energética da sua casa?</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors">📞 Ligar para Eletricista</a>
+                  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors">📞 Ligar para Electricista</a>
                   <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, gostaria de uma avaliação energética da minha casa`} target="_blank" rel="noopener noreferrer" className="bg-white text-amber-700 font-bold text-lg px-8 py-4 rounded-xl border-2 border-amber-600 hover:bg-amber-50 transition-colors">💬 WhatsApp Rápido</a>
                 </div>
               </div>
@@ -265,7 +265,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-xl border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">Como sei se a minha potência contratada é adequada?</h3>
-              <p className="text-gray-700">Se o disjuntor nunca dispara por excesso de consumo, provavelmente tem potência a mais. Um eletricista pode medir o consumo real e recomendar a potência ideal, poupando no termo fixo da fatura.</p>
+              <p className="text-gray-700">Se o disjuntor nunca dispara por excesso de consumo, provavelmente tem potência a mais. Um electricista pode medir o consumo real e recomendar a potência ideal, poupando no termo fixo da fatura.</p>
             </div>
           </div>
           <script type="application/ld+json">
@@ -275,7 +275,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
               "mainEntity": [
                 { "@type": "Question", "name": "Quanto posso poupar por mês com estas dicas?", "acceptedAnswer": { "@type": "Answer", "text": "Aplicando todas as dicas, é realista poupar entre 20€ e 50€ por mês, dependendo do consumo atual e do tamanho da casa. As maiores poupanças vêm da iluminação LED, eliminação do standby e otimização do aquecimento." } },
                 { "@type": "Question", "name": "Vale a pena investir em painéis solares em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Trás-os-Montes tem entre 2.400 e 2.600 horas de sol por ano, o que torna o investimento em painéis solares muito rentável. O retorno do investimento situa-se entre 5 e 7 anos, e existem apoios do Estado que podem cobrir até 50% do custo." } },
-                { "@type": "Question", "name": "Como sei se a minha potência contratada é adequada?", "acceptedAnswer": { "@type": "Answer", "text": "Se o disjuntor nunca dispara por excesso de consumo, provavelmente tem potência a mais. Um eletricista pode medir o consumo real e recomendar a potência ideal, poupando no termo fixo da fatura." } }
+                { "@type": "Question", "name": "Como sei se a minha potência contratada é adequada?", "acceptedAnswer": { "@type": "Answer", "text": "Se o disjuntor nunca dispara por excesso de consumo, provavelmente tem potência a mais. Um electricista pode medir o consumo real e recomendar a potência ideal, poupando no termo fixo da fatura." } }
               ]
             })}
           </script>
@@ -292,7 +292,7 @@ const PouparEnergiaEletricaDicas: React.FC = () => {
             <div className="md:w-3/4">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
               <p className="text-gray-700 mb-4">
-                <strong>João Silva</strong> é eletricista certificado com mais de 15 anos de experiência em Trás-os-Montes. Especialista em eficiência energética e instalações residenciais, ajuda famílias a reduzir o consumo elétrico e a modernizar as suas instalações.
+                <strong>João Silva</strong> é electricista certificado com mais de 15 anos de experiência em Trás-os-Montes. Especialista em eficiência energética e instalações residenciais, ajuda famílias a reduzir o consumo elétrico e a modernizar as suas instalações.
               </p>
               <p className="text-gray-600">Para questões técnicas ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
             </div>

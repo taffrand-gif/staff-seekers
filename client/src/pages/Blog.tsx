@@ -11,20 +11,10 @@ export default function Blog() {
   
   useSEO({
     title: `Blog - ${config.name}`,
-    description: `Dicas, guias e artigos sobre ${config.type === 'plomberie' ? 'canalização' : 'eletricidade'} em Bragança e Trás-os-Montes.`,
+    description: `Dicas, guias e artigos sobre eletricidade em Bragança e Trás-os-Montes.`,
   });
 
-  const articles = config.type === 'plomberie' ? [
-    {
-      id: 'fuga-agua-escondida',
-      title: 'Como Detetar Fuga de Água Escondida: Método Termográfico',
-      excerpt: 'Fugas escondidas desperdiçam centenas de litros por dia e aumentam a fatura em 100-300€/mês. Aprenda a detetar com termografia sem partir paredes.',
-      date: '7 de fevereiro de 2026',
-      readTime: '8 min',
-      image: '/blog/fuga-agua.jpg',
-      category: 'Deteção de Fugas'
-    }
-  ] : [
+  const articles = [
     {
       id: 'quadro-eletrico',
       title: '10 Sinais Que Precisa Trocar o Quadro Elétrico',

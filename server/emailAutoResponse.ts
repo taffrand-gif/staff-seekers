@@ -21,9 +21,9 @@ export async function sendAutoResponse(params: AutoResponseParams): Promise<bool
   const { clientName, clientEmail, serviceType, urgency, phone, city } = params;
 
   // Déterminer le nom de l'entreprise selon le domaine
-  const isStaffSeekers = process.env.VITE_APP_TITLE?.includes('Eletricista');
+  const isStaffSeekers = process.env.VITE_APP_TITLE?.includes('Electricista');
   const companyName = isStaffSeekers 
-    ? 'Eletricista de Trás-os-Montes' 
+    ? 'Electricista de Trás-os-Montes' 
     : 'Canalizador de Trás-os-Montes';
   const companyPhone = isStaffSeekers ? '932 321 892' : '928 484 451';
   const whatsappNumber = isStaffSeekers ? '351932321892' : '351928484451';
@@ -89,7 +89,7 @@ Um dos o nosso serviço irá contactá-lo brevemente para:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📞 Ligue agora: ${companyPhone}
-💬 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+eletricista+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
+💬 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+electricista+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
 Estamos disponíveis 24/7 para emergências.
 
@@ -148,7 +148,7 @@ Um dos o nosso serviço irá contactá-lo em breve para:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Telefone: ${companyPhone}
-WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+eletricista+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
+WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+electricista+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
 Horário: Segunda a Sexta, 8h-19h
 Urgências 24/7: Sempre disponível

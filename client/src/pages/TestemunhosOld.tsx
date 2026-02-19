@@ -293,7 +293,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         rating: 5,
         date: "Dezembro 2025",
         service: "Instalação de quadro elétrico",
-        text: "Instalaram um quadro elétrico novo na minha casa. Trabalho impecável, tudo certificado e explicado ao pormenor. Eletricistas muito competentes!"
+        text: "Instalaram um quadro elétrico novo na minha casa. Trabalho impecável, tudo certificado e explicado ao pormenor. Electricistas muito competentes!"
       },
       {
         name: "Francisco Lopes",
@@ -309,7 +309,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         rating: 5,
         date: "Outubro 2025",
         service: "Instalação de tomadas",
-        text: "Instalaram várias tomadas novas em casa. Trabalho limpo, rápido e bem feito. O eletricista foi muito cuidadoso e deixou tudo arrumado. Recomendo!"
+        text: "Instalaram várias tomadas novas em casa. Trabalho limpo, rápido e bem feito. O electricista foi muito cuidadoso e deixou tudo arrumado. Recomendo!"
       },
       {
         name: "José Carvalho",

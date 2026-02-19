@@ -36,7 +36,7 @@ export default function Blog() {
   const electricArticles = [
     {
       title: 'Como Instalar um Candeeiro de Teto em Segurança',
-      excerpt: 'Guia completo sobre a instalação segura de candeeiros de teto, com dicas de um eletricista certificado em Trás-os-Montes.',
+      excerpt: 'Guia completo sobre a instalação segura de candeeiros de teto, com dicas de um electricista certificado em Trás-os-Montes.',
       date: '15 Jan 2026',
       readTime: '5 min',
       image: '/images-optimized/blog/installing-ceiling-light.jpg',
@@ -52,7 +52,7 @@ export default function Blog() {
     },
     {
       title: 'Sinais de Problemas Elétricos em Casa',
-      excerpt: 'Conheça os sinais de alerta que indicam problemas na instalação elétrica e saiba quando chamar um eletricista urgente.',
+      excerpt: 'Conheça os sinais de alerta que indicam problemas na instalação elétrica e saiba quando chamar um electricista urgente.',
       date: '5 Jan 2026',
       readTime: '6 min',
       image: '/images-optimized/blog/featured-electrician.jpg',

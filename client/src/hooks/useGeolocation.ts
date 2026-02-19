@@ -149,7 +149,7 @@ export function useLocalRedirect() {
 
     // Construire URL de la page locale
     const normalizedCity = normalizeCity(city);
-    const serviceName = config.type === 'plomberie' ? 'canalizador' : 'eletricista';
+    const serviceName = config.type === 'plomberie' ? 'canalizador' : 'electricista';
     const localPageUrl = `/servicos/${serviceName}-${normalizedCity}.html`;
 
     // Vérifier si la page existe (éviter 404)

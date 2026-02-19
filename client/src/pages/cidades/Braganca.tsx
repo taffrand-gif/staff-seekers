@@ -1,4 +1,4 @@
-// SEO optimized page for "Eletricista Bragança"
+// SEO optimized page for "Electricista Bragança"
 // 100% unique content, conforme aux politiques Google
 
 import Header from '@/components/Header';
@@ -15,7 +15,7 @@ export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Bragança, Macedo, Mirandela - Eletricista Profissional - +351 932 321 892";
+    document.title = "Electricista em Bragança, Macedo, Mirandela - Electricista Profissional - +351 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -24,7 +24,7 @@ export default function Braganca() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Bragança, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Electricista certificado em Bragança, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -32,7 +32,7 @@ export default function Braganca() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente bragança, eletricista 24 horas bragança, eletricista bragança, eletricista profissional bragança, instalação elétrica bragança, quadro elétrico bragança, certificação elétrica bragança, reparação elétrica bragança, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'electricista urgente bragança, electricista 24 horas bragança, electricista bragança, electricista profissional bragança, instalação elétrica bragança, quadro elétrico bragança, certificação elétrica bragança, reparação elétrica bragança, electricista trás-os-montes');
     
     
     // Canonical URL
@@ -42,7 +42,7 @@ export default function Braganca() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-braganca');
+    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-braganca');
     
     // Schema.org LocalBusiness for Bragança
     const schemaScript = document.createElement('script');
@@ -50,9 +50,9 @@ export default function Braganca() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Eletricista Profissional — Eletricista em Bragança",
+      "name": "Electricista Profissional — Electricista em Bragança",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Bragança, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
+      "description": "Electricista profissional em Bragança, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Bragança",
@@ -73,7 +73,7 @@ export default function Braganca() {
         "name": "Bragança"
       },
       "sameAs": [
-        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -96,17 +96,17 @@ export default function Braganca() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
+                <a href="/" className="hover:text-white">Electricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Bragança</span>
               </nav>
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Eletricista Profissional em <span className="text-blue-900">Bragança</span>
+                Electricista Profissional em <span className="text-blue-900">Bragança</span>
               </h1>
               
               <p className="text-xl mb-8">
-                Serviços de eletricista certificado em Bragança e arredores. 
+                Serviços de electricista certificado em Bragança e arredores. 
                 Especialistas em instalações elétricas para o clima frio da região.
               </p>
               
@@ -115,10 +115,10 @@ export default function Braganca() {
                   href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Bragança: {ACTIVE_CONFIG.phone}
+                  📞 Electricista Bragança: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Bragança`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um electricista em Bragança`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -214,7 +214,7 @@ export default function Braganca() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas sobre <span className="text-amber-600">Eletricista em Bragança</span>
+              Perguntas sobre <span className="text-amber-600">Electricista em Bragança</span>
             </h2>
             
             <div className="max-w-3xl mx-auto space-y-6">
@@ -258,7 +258,7 @@ export default function Braganca() {
         {/* FAQ Section with Schema.org - Bragança Specific */}
         <section className="py-16 bg-gray-50">
           <FAQSection
-            title="Perguntas Frequentes sobre Eletricista em Bragança"
+            title="Perguntas Frequentes sobre Electricista em Bragança"
             faqs={[
               {
                 question: "Atendem zonas rurais e aldeias remotas do concelho de Bragança?",
@@ -284,7 +284,7 @@ export default function Braganca() {
         <section className="py-16 bg-gradient-to-r from-blue-900 to-amber-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Eletricista em <span className="text-amber-300">Bragança</span> - Serviço Confiável
+              Electricista em <span className="text-amber-300">Bragança</span> - Serviço Confiável
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Conhecemos as particularidades elétricas de Bragança. 
@@ -299,7 +299,7 @@ export default function Braganca() {
                 📞 {ACTIVE_CONFIG.phone} (Bragança)
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Bragança`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um electricista em Bragança`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -317,7 +317,7 @@ export default function Braganca() {
         {/* Related Cities - Maillage interno SEO */}
         <RelatedCities 
           currentCity="Braganca" 
-          currentCitySlug="eletricista-braganca" 
+          currentCitySlug="electricista-braganca" 
         />
       </main>
       
