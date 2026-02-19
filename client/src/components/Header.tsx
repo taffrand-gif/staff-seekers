@@ -201,7 +201,7 @@ export default function Header() {
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className="lg:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors"
             aria-label="Abrir menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -223,7 +223,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t-2 bg-white" style={{ borderTopColor: config.colors.primary }}>
+        <div className="lg:hidden border-t-2 bg-white max-h-[70vh] overflow-y-auto" style={{ borderTopColor: config.colors.primary }}>
           <nav className="container py-4 flex flex-col gap-1" role="navigation" aria-label="Menu mobile">
             <a href="/" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">HOME</a>
             <a href="/servicos" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">SERVIÇOS</a>
