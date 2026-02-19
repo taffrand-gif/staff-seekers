@@ -61,6 +61,7 @@ const CertificacaoEletricaCertiel = lazy(() => import("@/pages/blog/Certificacao
 const ComoEscolherElectricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherElectricistaCertificado"));
 const CustoElectricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoElectricistaTrasOsMontesPrecos"));
 const PaineisSolaresTrasOsMontesGuia = lazy(() => import("@/pages/blog/PaineisSolaresTrasOsMontesGuia"));
+const Zonas = lazy(() => import("@/pages/Zonas"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -124,6 +125,7 @@ function Router() {
         <Route path={"/blog/custo-electricista-tras-os-montes-precos"} component={CustoElectricistaTrasOsMontesPrecos} />
         <Route path={"/blog/paineis-solares-tras-os-montes-guia"} component={PaineisSolaresTrasOsMontesGuia} />
         <Route path={"/faq"} component={FAQPage} />
+        <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />
