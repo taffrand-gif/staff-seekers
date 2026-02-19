@@ -176,10 +176,12 @@ export const siteConfig: SiteConfig = {
   ],
 
   pricingZones: [
-    { name: "Zone 1 (Locale)", cities: "Macedo de Cavaleiros, Azibo", price: "10€", time: "< 30 min" },
-    { name: "Zone 2 (Voisins)", cities: "Mirandela, Bragança, Valpaços", price: "20€", time: "< 45 min" },
-    { name: "Zone 3 (Frontière)", cities: "Miranda do Douro, Chaves, Vinhais", price: "30€", time: "< 60 min" },
-    { name: "Zone 4 (Lointaine)", cities: "Vila Real, Mogadouro, Torre de Moncorvo", price: "35-40€", time: "Sur RDV" }
+    { name: "Zona 1 (Sede)", cities: "Macedo de Cavaleiros e concelho", price: "10€", time: "< 30 min" },
+    { name: "Zona 2 (Próximo)", cities: "Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães", price: "15€", time: "< 40 min" },
+    { name: "Zona 3 (Distrito Bragança)", cities: "Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta", price: "25€", time: "< 60 min" },
+    { name: "Zona 4 (Miranda / Douro)", cities: "Miranda do Douro, Vila Nova de Foz Côa, São João da Pesqueira, Murça, Valpaços", price: "30€", time: "45-75 min" },
+    { name: "Zona 5 (Vila Real / Douro)", cities: "Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego, Santa Marta de Penaguião, Mesão Frio", price: "35€", time: "60-90 min" },
+    { name: "Zona 6 (Limite 100km)", cities: "Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono", price: "40€", time: "Sob marcação" },
   ],
   
   testimonials: [
