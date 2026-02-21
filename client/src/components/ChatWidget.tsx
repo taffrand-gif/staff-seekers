@@ -199,7 +199,7 @@ export default function ChatWidget() {
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="928 484 451"
+                    placeholder="932 321 892"
                     className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base"
                     required
                   />

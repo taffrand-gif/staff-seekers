@@ -81,11 +81,11 @@ export const SERVICES: Service[] = [
 **Todos os preços incluem**: Materiais certificados, mão de obra, certificação CERTIEL, garantia 5 anos. Deslocação gratuita em Bragança e arredores.`
         }
       ],
-      cta: 'Precisa de instalação elétrica? **Ligue já 928 484 451** para orçamento gratuito!'
+      cta: 'Precisa de instalação elétrica? **Ligue já 932 321 892** para orçamento gratuito!'
     },
     seo: {
       metaTitle: 'Instalação Elétrica Bragança | Certificada CERTIEL | Electricista Profissional',
-      metaDescription: 'Instalação elétrica completa em Bragança. Quadros, tomadas, iluminação. Certificação CERTIEL incluída. Garantia 5 anos. Desde 150€. Ligue 928 484 451!',
+      metaDescription: 'Instalação elétrica completa em Bragança. Quadros, tomadas, iluminação. Certificação CERTIEL incluída. Garantia 5 anos. Desde 150€. Ligue 932 321 892!',
       keywords: ['instalação elétrica bragança', 'electricista bragança', 'certificação certiel', 'quadro elétrico']
     }
   },
@@ -139,11 +139,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
 **Garantia**: 12 meses em todas as reparações. Se o problema voltar, reparamos gratuitamente.`
         }
       ],
-      cta: 'Avaria elétrica? **Ligue já 928 484 451** - Diagnóstico rápido!'
+      cta: 'Avaria elétrica? **Ligue já 932 321 892** - Diagnóstico rápido!'
     },
     seo: {
       metaTitle: 'Reparação Avarias Elétricas Bragança | Urgências 24h | Electricista Profissional',
-      metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 60€. Ligue 928 484 451!',
+      metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 60€. Ligue 932 321 892!',
       keywords: ['reparação avaria elétrica', 'electricista urgência bragança', 'disjuntor salta', 'curto-circuito']
     }
   },
@@ -175,11 +175,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
           content: `Monofásico básico 250€, Monofásico completo 400€, Trifásico 600€, Ampliação (adicionar circuitos) 150€. Inclui materiais, instalação, certificação, garantia 5 anos.`
         }
       ],
-      cta: 'Quadro elétrico antigo? **Ligue 928 484 451** para modernizar!'
+      cta: 'Quadro elétrico antigo? **Ligue 932 321 892** para modernizar!'
     },
     seo: {
       metaTitle: 'Quadros Elétricos Bragança | Modernização | Electricista Profissional',
-      metaDescription: 'Quadros elétricos novos e modernização em Bragança. Monofásicos, trifásicos. Certificação CERTIEL. Desde 250€. Ligue 928 484 451!',
+      metaDescription: 'Quadros elétricos novos e modernização em Bragança. Monofásicos, trifásicos. Certificação CERTIEL. Desde 250€. Ligue 932 321 892!',
       keywords: ['quadro elétrico bragança', 'modernização quadro', 'disjuntores', 'diferencial']
     }
   },
@@ -210,11 +210,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
           content: `Substituição lâmpada 25€, Spot LED embutido 35€, Fita LED (por metro) 15€, Projetor LED exterior 80€. **Exemplo poupança**: Casa T3 (20 lâmpadas) gasta 600€/ano. Com LED: 120€/ano. Poupança: 480€/ano! Investimento recuperado em 18 meses.`
         }
       ],
-      cta: 'Quer poupar na fatura? **Ligue 928 484 451** para orçamento LED!'
+      cta: 'Quer poupar na fatura? **Ligue 932 321 892** para orçamento LED!'
     },
     seo: {
       metaTitle: 'Iluminação LED Bragança | Poupança 80% | Electricista Profissional',
-      metaDescription: 'Iluminação LED em Bragança. Substituição lâmpadas, spots, fitas LED. Poupança 80% energia. Desde 25€. Ligue 928 484 451!',
+      metaDescription: 'Iluminação LED em Bragança. Substituição lâmpadas, spots, fitas LED. Poupança 80% energia. Desde 25€. Ligue 932 321 892!',
       keywords: ['iluminação led bragança', 'poupar eletricidade', 'lâmpadas led', 'spots led']
     }
   },
@@ -245,11 +245,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
           content: `Horário normal (8h-20h dias úteis): Desde 100€. Horário noturno (20h-8h + fins de semana + feriados): +50€. Deslocação gratuita. Orçamento telefónico antes de sair. Pagamento: dinheiro, MB Way, Multibanco.`
         }
       ],
-      cta: 'Urgência elétrica? **Ligue já 928 484 451** - Atendimento 24h!'
+      cta: 'Urgência elétrica? **Ligue já 932 321 892** - Atendimento 24h!'
     },
     seo: {
       metaTitle: 'Electricista Urgência 24h Bragança | Avarias | Electricista Profissional',
-      metaDescription: 'Urgências elétricas 24h em Bragança. Curto-circuitos, avarias, sem corrente. Chegamos em 15-90 min. Desde 100€. Ligue 928 484 451!',
+      metaDescription: 'Urgências elétricas 24h em Bragança. Curto-circuitos, avarias, sem corrente. Chegamos em 15-90 min. Desde 100€. Ligue 932 321 892!',
       keywords: ['electricista urgência bragança', 'urgência 24h', 'avaria elétrica urgente', 'sem corrente']
     }
   },
@@ -280,11 +280,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
           content: `Apartamento T1-T2: 150€, Casa T3-T4: 200€, Casa T4+: 280€, Comércio/Indústria: desde 350€. Inclui inspeção completa, testes, relatório técnico. 10% desconto para clientes com contrato manutenção.`
         }
       ],
-      cta: 'Precisa de inspeção? **Ligue 928 484 451** para agendar!'
+      cta: 'Precisa de inspeção? **Ligue 932 321 892** para agendar!'
     },
     seo: {
       metaTitle: 'Inspeção Elétrica Bragança | Diagnóstico | Electricista Profissional',
-      metaDescription: 'Inspeção elétrica completa em Bragança. Testes, relatório técnico. Identifica problemas de segurança. Desde 150€. Ligue 928 484 451!',
+      metaDescription: 'Inspeção elétrica completa em Bragança. Testes, relatório técnico. Identifica problemas de segurança. Desde 150€. Ligue 932 321 892!',
       keywords: ['inspeção elétrica bragança', 'diagnóstico elétrico', 'teste isolamento', 'certificado elétrico']
     }
   },
@@ -315,11 +315,11 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
           content: `Apartamento T1-T2: 200€, Casa T3-T4: 280€, Casa T4+: 350€, Comércio: desde 400€. Inclui inspeção, testes, correções menores, certificado, registo CERTIEL. Se instalação não conforme: orçamento separado para correções.`
         }
       ],
-      cta: 'Precisa de certificação? **Ligue 928 484 451** para agendar!'
+      cta: 'Precisa de certificação? **Ligue 932 321 892** para agendar!'
     },
     seo: {
       metaTitle: 'Certificação CERTIEL Bragança | Certificado Elétrico | Electricista Profissional',
-      metaDescription: 'Certificação CERTIEL em Bragança. Obrigatória para venda e arrendamento. Processo rápido. Desde 200€. Ligue 928 484 451!',
+      metaDescription: 'Certificação CERTIEL em Bragança. Obrigatória para venda e arrendamento. Processo rápido. Desde 200€. Ligue 932 321 892!',
       keywords: ['certificação certiel bragança', 'certificado elétrico', 'certiel obrigatório', 'venda imóvel']
     }
   }
