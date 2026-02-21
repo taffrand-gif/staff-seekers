@@ -6,6 +6,10 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/contactos",
+      "destination": "/contactos.html"
+    },
+    {
       "source": "/blog/como-instalar-candeeiro-teto-seguranca",
       "destination": "/blog/como-instalar-candeeiro-teto-seguranca.html"
     },
