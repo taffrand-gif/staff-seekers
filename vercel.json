@@ -344,10 +344,6 @@
     {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ],
   "headers": [
@@ -434,5 +430,6 @@
         }
       ]
     }
-  ]
+  ],
+  "cleanUrls": true
 }
