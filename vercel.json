@@ -402,6 +402,10 @@
       "destination": "/eletricista-urgente-lamego.html"
     },
     {
+      "source": "/tecnologia-premium",
+      "destination": "/tecnologia-premium.html"
+    },
+    {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
     }
