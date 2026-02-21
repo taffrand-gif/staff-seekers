@@ -114,18 +114,18 @@ export default function PriceTable() {
                     <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
                         <h4 className="font-bold text-blue-900 mb-2">"Moro em Macedo e preciso trocar um disjuntor."</h4>
                         <ul className="space-y-1 text-blue-800 text-sm">
-                            <li className="flex justify-between"><span>Deslocação (Zone 1):</span> <span>10€</span></li>
+                            <li className="flex justify-between"><span>Deslocação (Zona 1):</span> <span>15€</span></li>
                             <li className="flex justify-between"><span>Mão de Obra (30min):</span> <span>30€</span></li>
-                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>40€</span></li>
+                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>45€</span></li>
                         </ul>
                     </div>
 
                     <div className="bg-amber-50 p-6 rounded-lg border border-amber-100">
                         <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
                         <ul className="space-y-1 text-amber-800 text-sm">
-                            <li className="flex justify-between"><span>Deslocação (Zone 2):</span> <span>20€</span></li>
+                            <li className="flex justify-between"><span>Deslocação (Zona 3):</span> <span>30€</span></li>
                             <li className="flex justify-between"><span>Intervenção Urgência:</span> <span>90€</span></li>
-                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>110€</span></li>
+                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>120€</span></li>
                         </ul>
                          <p className="text-xs text-amber-700 mt-2 italic">Preço anunciado ao telefone ANTES de sair.</p>
                     </div>

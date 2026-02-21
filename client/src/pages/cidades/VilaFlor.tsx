@@ -63,7 +63,7 @@ export default function VilaFlor() {
     },
     {
       question: "Qual o custo de deslocação a Vila Flor?",
-      answer: "A deslocação a Vila Flor é de 15€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Vila Flor é de 20€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
     }];
 
   return (

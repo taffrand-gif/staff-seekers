@@ -63,7 +63,7 @@ export default function CarrazedaDeAnsiaes() {
     },
     {
       question: "Qual o custo de deslocação a Carrazeda de Ansiães?",
-      answer: "A deslocação a Carrazeda de Ansiães é de 15€. Chegamos em aproximadamente 35-40 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Carrazeda de Ansiães é de 20€. Chegamos em aproximadamente 35-40 minutos. Inclui todo o concelho."
     }];
 
   return (
