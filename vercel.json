@@ -444,6 +444,26 @@
     {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
+    },
+    {
+      "source": "/sobre-mim",
+      "destination": "/sobre-mim.html"
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html"
+    },
+    {
+      "source": "/galeria",
+      "destination": "/galeria.html"
+    },
+    {
+      "source": "/certificacao-eletrica-tras-os-montes",
+      "destination": "/certificacao-eletrica-tras-os-montes.html"
+    },
+    {
+      "source": "/quadros-eletricos-modernizacao",
+      "destination": "/quadros-eletricos-modernizacao.html"
     }
   ],
   "headers": [
