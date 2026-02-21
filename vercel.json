@@ -464,6 +464,10 @@
     {
       "source": "/quadros-eletricos-modernizacao",
       "destination": "/quadros-eletricos-modernizacao.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
