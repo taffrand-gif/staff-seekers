@@ -366,6 +366,42 @@
       "destination": "/eletricista-freixo-espada-cinta.html"
     },
     {
+      "source": "/instalacao-eletrica-completa",
+      "destination": "/instalacao-eletrica-completa.html"
+    },
+    {
+      "source": "/reparacao-avarias-eletricas",
+      "destination": "/reparacao-avarias-eletricas.html"
+    },
+    {
+      "source": "/automacao-residencial-domotica",
+      "destination": "/automacao-residencial-domotica.html"
+    },
+    {
+      "source": "/protecao-contra-raios",
+      "destination": "/protecao-contra-raios.html"
+    },
+    {
+      "source": "/manutencao-preventiva-eletrica",
+      "destination": "/manutencao-preventiva-eletrica.html"
+    },
+    {
+      "source": "/eficiencia-energetica-poupanca",
+      "destination": "/eficiencia-energetica-poupanca.html"
+    },
+    {
+      "source": "/eletricista-urgente-vila-real",
+      "destination": "/eletricista-urgente-vila-real.html"
+    },
+    {
+      "source": "/eletricista-urgente-chaves",
+      "destination": "/eletricista-urgente-chaves.html"
+    },
+    {
+      "source": "/eletricista-urgente-lamego",
+      "destination": "/eletricista-urgente-lamego.html"
+    },
+    {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
     }
