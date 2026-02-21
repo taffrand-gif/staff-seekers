@@ -406,6 +406,22 @@
       "destination": "/tecnologia-premium.html"
     },
     {
+      "source": "/domotica-casa-inteligente",
+      "destination": "/automacao-residencial-domotica.html"
+    },
+    {
+      "source": "/instalacao-carregador-veiculo-eletrico",
+      "destination": "/instalacao-eletrica-completa.html"
+    },
+    {
+      "source": "/eletricista-macedo",
+      "destination": "/eletricista-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/blog/electricista-urgente-24-horas-braganca.html",
+      "destination": "/blog/eletricista-urgente-24-horas-braganca.html"
+    },
+    {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
     }
