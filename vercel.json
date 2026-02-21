@@ -6,6 +6,30 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/blog/como-instalar-candeeiro-teto-seguranca",
+      "destination": "/blog/como-instalar-candeeiro-teto-seguranca.html"
+    },
+    {
+      "source": "/blog/poupar-energia-eletrica-dicas",
+      "destination": "/blog/poupar-energia-eletrica-dicas.html"
+    },
+    {
+      "source": "/blog/quando-trocar-instalacao-eletrica",
+      "destination": "/blog/quando-trocar-instalacao-eletrica.html"
+    },
+    {
+      "source": "/blog/sinais-problemas-eletricos-casa",
+      "destination": "/blog/sinais-problemas-eletricos-casa.html"
+    },
+    {
+      "source": "/blog/quadro-eletrico-antigo-fusiveis-trocar",
+      "destination": "/blog/quadro-eletrico-antigo-fusiveis-trocar.html"
+    },
+    {
+      "source": "/blog/certificacao-eletrica-certiel-guia",
+      "destination": "/blog/certificacao-eletrica-certiel-guia.html"
+    },
+    {
       "source": "/blog/electricista-urgente-24-horas-braganca",
       "destination": "/blog/eletricista-urgente-24-horas-braganca.html"
     },
