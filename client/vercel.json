@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/eletricista-:city",
+      "destination": "/eletricista-:city.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html"
+    },
+    {
+      "source": "/galeria",
+      "destination": "/galeria.html"
+    }
+  ]
+}
