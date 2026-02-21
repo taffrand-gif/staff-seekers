@@ -22,14 +22,38 @@ export default function Contactos() {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // For now, just show a toast (in production, this would send to backend)
-    toast.success('Mensagem enviada com sucesso! Entraremos em contacto em breve.');
-    
-    // Reset form
-    setFormData({ name: '', phone: '', email: '', message: '' });
+    setIsSubmitting(true);
+
+    try {
+      const res = await fetch("https://formsubmit.co/ajax/taff.rand@gmail.com", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          message: formData.message,
+          _subject: "Novo contacto Staff-Seekers",
+          _template: "table",
+          _captcha: "false",
+        }),
+      });
+
+      if (res.ok) {
+        toast.success('Mensagem enviada com sucesso! Entraremos em contacto em breve.');
+        setFormData({ name: '', phone: '', email: '', message: '' });
+      } else {
+        throw new Error("Erro");
+      }
+    } catch {
+      toast.error('Erro ao enviar mensagem. Por favor, ligue-nos diretamente.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -125,10 +149,11 @@ export default function Contactos() {
 
               <Button
                 type="submit"
-                className="w-full h-14 text-lg font-bold shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
+                disabled={isSubmitting}
+                className="w-full h-14 text-lg font-bold shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all disabled:opacity-50"
                 style={{ backgroundColor: config.colors.primary }}
               >
-                Enviar Mensagem
+                {isSubmitting ? "A enviar..." : "Enviar Mensagem"}
               </Button>
             </form>
           </div>
