@@ -314,6 +314,7 @@
       "destination": "/blog/paineis-solares-tras-os-montes-guia.html"
     },
     {
+<<<<<<< HEAD
       "source": "/blog/automacao-residencial-casa-inteligente",
       "destination": "/blog/automacao-residencial-casa-inteligente.html"
     },
@@ -344,6 +345,54 @@
     {
       "source": "/electricista-miranda-douro",
       "destination": "/eletricista-miranda-douro.html"
+=======
+      "source": "/blog/iluminacao-led-vantagens-poupanca",
+      "destination": "/blog/iluminacao-led-vantagens-poupanca.html"
+    },
+    {
+      "source": "/blog/protecao-contra-raios-para-raios",
+      "destination": "/blog/protecao-contra-raios-para-raios.html"
+    },
+    {
+      "source": "/blog/tomadas-e-interruptores-quando-substituir",
+      "destination": "/blog/tomadas-e-interruptores-quando-substituir.html"
+    },
+    {
+      "source": "/eletricista-lamego",
+      "destination": "/eletricista-lamego.html"
+    },
+    {
+      "source": "/eletricista-alijo",
+      "destination": "/eletricista-alijo.html"
+    },
+    {
+      "source": "/eletricista-valpacos",
+      "destination": "/eletricista-valpacos.html"
+    },
+    {
+      "source": "/eletricista-vila-flor",
+      "destination": "/eletricista-vila-flor.html"
+    },
+    {
+      "source": "/eletricista-montalegre",
+      "destination": "/eletricista-montalegre.html"
+    },
+    {
+      "source": "/eletricista-urgente-braganca",
+      "destination": "/eletricista-urgente-braganca.html"
+    },
+    {
+      "source": "/eletricista-urgente-macedo",
+      "destination": "/eletricista-urgente-macedo.html"
+    },
+    {
+      "source": "/eletricista-urgente-mirandela",
+      "destination": "/eletricista-urgente-mirandela.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+>>>>>>> 5a89221 (SEO: add 5 missing city pages, 3 urgency pages, 3 blog articles, WhatsApp floating buttons, breadcrumbs)
     }
   ],
   "headers": [
