@@ -340,6 +340,14 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/electricista-freixo-espada-cinta",
+      "destination": "/eletricista-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/electricista-miranda-douro",
+      "destination": "/eletricista-miranda-douro.html"
     }
   ],
   "headers": [
