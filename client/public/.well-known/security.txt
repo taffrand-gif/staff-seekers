@@ -1,0 +1,9 @@
+# Security Policy for Staff Seekers
+# https://staff-seekers.com
+
+Contact: mailto:Xpvqvmmwp4@privaterelay.appleid.com
+Contact: https://wa.me/351932321892
+Expires: 2027-02-22T18:00:00.000Z
+Preferred-Languages: pt, en
+Canonical: https://staff-seekers.com/.well-known/security.txt
+Policy: https://staff-seekers.com/politica-privacidade
