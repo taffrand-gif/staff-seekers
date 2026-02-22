@@ -502,6 +502,30 @@
       "destination": "/quadros-eletricos-modernizacao.html"
     },
     {
+      "source": "/garantias-e-seguros",
+      "destination": "/garantias-e-seguros.html"
+    },
+    {
+      "source": "/glossario-tecnico",
+      "destination": "/glossario-tecnico.html"
+    },
+    {
+      "source": "/parcerias",
+      "destination": "/parcerias.html"
+    },
+    {
+      "source": "/distrito-braganca",
+      "destination": "/distrito-braganca.html"
+    },
+    {
+      "source": "/distrito-vila-real",
+      "destination": "/distrito-vila-real.html"
+    },
+    {
+      "source": "/distrito-viseu-guarda",
+      "destination": "/distrito-viseu-guarda.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
