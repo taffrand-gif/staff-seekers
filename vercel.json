@@ -528,6 +528,14 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/404",
+      "destination": "/public/404.html"
+    },
+    {
+      "source": "/todas-perguntas-frequentes",
+      "destination": "/public/todas-perguntas-frequentes.html"
     }
   ],
   "headers": [
