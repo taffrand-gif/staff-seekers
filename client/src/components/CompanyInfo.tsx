@@ -79,7 +79,8 @@ export default function CompanyInfo() {
             >
               <img
                 src={EMERGENCY_SERVICE_IMAGE}
-                alt="Serviço de urgência 24h"
+                alt="Eletricista profissional em serviço de urgência 24h em Trás-os-Montes"
+                loading="lazy"
                 className="w-full h-auto"
               />
             </div>

@@ -18,6 +18,7 @@ import Trabalhos from '@/components/Trabalhos';
 import RealStories from '@/components/RealStories';
 import Equipa from '@/components/Equipa';
 import Blog from '@/components/Blog';
+import HomepageLinks from '@/components/HomepageLinks';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
@@ -67,6 +68,7 @@ export default function Home() {
           <Equipa />
           <Testimonials />
           <Blog />
+          <HomepageLinks />
           <Contactos />
         </main>
         <Footer />
