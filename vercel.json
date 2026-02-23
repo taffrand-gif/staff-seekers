@@ -548,6 +548,730 @@
     {
       "source": "/equipa-certificacoes",
       "destination": "/equipa-certificacoes.html"
+    },
+    {
+      "source": "/iluminacao-led-lamego",
+      "destination": "/public/iluminacao-led-lamego.html"
+    },
+    {
+      "source": "/zona-intervencao",
+      "destination": "/public/zona-intervencao.html"
+    },
+    {
+      "source": "/eletricista-vila-chã",
+      "destination": "/public/eletricista-vila-chã.html"
+    },
+    {
+      "source": "/eletricista-urgente-penedono",
+      "destination": "/public/eletricista-urgente-penedono.html"
+    },
+    {
+      "source": "/eletricista-vilar-de-ossos",
+      "destination": "/public/eletricista-vilar-de-ossos.html"
+    },
+    {
+      "source": "/eletricista-pedras-salgadas",
+      "destination": "/public/eletricista-pedras-salgadas.html"
+    },
+    {
+      "source": "/guia-precos-eletricista",
+      "destination": "/public/guia-precos-eletricista.html"
+    },
+    {
+      "source": "/eletricista-mondim-da-beira",
+      "destination": "/public/eletricista-mondim-da-beira.html"
+    },
+    {
+      "source": "/eletricista-quintanilha",
+      "destination": "/public/eletricista-quintanilha.html"
+    },
+    {
+      "source": "/eletricista-urgente-mirandela",
+      "destination": "/public/eletricista-urgente-mirandela.html"
+    },
+    {
+      "source": "/eletricista-ucanha",
+      "destination": "/public/eletricista-ucanha.html"
+    },
+    {
+      "source": "/eletricista-urgente-alijo",
+      "destination": "/public/eletricista-urgente-alijo.html"
+    },
+    {
+      "source": "/quadros-eletricos-braganca",
+      "destination": "/public/quadros-eletricos-braganca.html"
+    },
+    {
+      "source": "/eletricista-urgente-alfandega-da-fe",
+      "destination": "/public/eletricista-urgente-alfandega-da-fe.html"
+    },
+    {
+      "source": "/eletricista-vs-fazer-sozinho",
+      "destination": "/public/eletricista-vs-fazer-sozinho.html"
+    },
+    {
+      "source": "/certificacao-eletrica-braganca",
+      "destination": "/public/certificacao-eletrica-braganca.html"
+    },
+    {
+      "source": "/eletricista-urgente-vimioso",
+      "destination": "/public/eletricista-urgente-vimioso.html"
+    },
+    {
+      "source": "/eletricista-urgente-macedo",
+      "destination": "/public/eletricista-urgente-macedo.html"
+    },
+    {
+      "source": "/eletricista-grijó-de-parada",
+      "destination": "/public/eletricista-grijó-de-parada.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-chaves",
+      "destination": "/public/aquecimento-eletrico-chaves.html"
+    },
+    {
+      "source": "/eletricista-urgente-peso-da-regua",
+      "destination": "/public/eletricista-urgente-peso-da-regua.html"
+    },
+    {
+      "source": "/eletricista-ervededo",
+      "destination": "/public/eletricista-ervededo.html"
+    },
+    {
+      "source": "/eletricista-urgente-ribeira-de-pena",
+      "destination": "/public/eletricista-urgente-ribeira-de-pena.html"
+    },
+    {
+      "source": "/eletricista-lagoa",
+      "destination": "/public/eletricista-lagoa.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-macedo",
+      "destination": "/public/aquecimento-eletrico-macedo.html"
+    },
+    {
+      "source": "/eletricista-frechas",
+      "destination": "/public/eletricista-frechas.html"
+    },
+    {
+      "source": "/faq-eletricista-vila-real",
+      "destination": "/public/faq-eletricista-vila-real.html"
+    },
+    {
+      "source": "/eletricista-romeu",
+      "destination": "/public/eletricista-romeu.html"
+    },
+    {
+      "source": "/quadros-eletricos-lamego",
+      "destination": "/public/quadros-eletricos-lamego.html"
+    },
+    {
+      "source": "/certificacao-eletrica-vila-real",
+      "destination": "/public/certificacao-eletrica-vila-real.html"
+    },
+    {
+      "source": "/iluminacao-led-torre-moncorvo",
+      "destination": "/public/iluminacao-led-torre-moncorvo.html"
+    },
+    {
+      "source": "/eletricista-urgente-braganca",
+      "destination": "/public/eletricista-urgente-braganca.html"
+    },
+    {
+      "source": "/eletricista-urgente-boticas",
+      "destination": "/public/eletricista-urgente-boticas.html"
+    },
+    {
+      "source": "/eletricista-vila-verde-da-raia",
+      "destination": "/public/eletricista-vila-verde-da-raia.html"
+    },
+    {
+      "source": "/quadros-eletricos-alfandega",
+      "destination": "/public/quadros-eletricos-alfandega.html"
+    },
+    {
+      "source": "/instalacao-eletrica-valpacos",
+      "destination": "/public/instalacao-eletrica-valpacos.html"
+    },
+    {
+      "source": "/testemunhos",
+      "destination": "/public/testemunhos.html"
+    },
+    {
+      "source": "/eletricista-urgente-torre-moncorvo",
+      "destination": "/public/eletricista-urgente-torre-moncorvo.html"
+    },
+    {
+      "source": "/instalacao-eletrica-torre-moncorvo",
+      "destination": "/public/instalacao-eletrica-torre-moncorvo.html"
+    },
+    {
+      "source": "/eletricista-cortiços",
+      "destination": "/public/eletricista-cortiços.html"
+    },
+    {
+      "source": "/iluminacao-led-vinhais",
+      "destination": "/public/iluminacao-led-vinhais.html"
+    },
+    {
+      "source": "/certificacao-eletrica-alfandega",
+      "destination": "/public/certificacao-eletrica-alfandega.html"
+    },
+    {
+      "source": "/eletricista-urgente-mogadouro",
+      "destination": "/public/eletricista-urgente-mogadouro.html"
+    },
+    {
+      "source": "/quadros-eletricos-vila-real",
+      "destination": "/public/quadros-eletricos-vila-real.html"
+    },
+    {
+      "source": "/eletricista-urgente-macedo-cavaleiros",
+      "destination": "/public/eletricista-urgente-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/eletricista-atenor",
+      "destination": "/public/eletricista-atenor.html"
+    },
+    {
+      "source": "/certificacao-eletrica-lamego",
+      "destination": "/public/certificacao-eletrica-lamego.html"
+    },
+    {
+      "source": "/eletricista-urgente-sao-joao-da-pesqueira",
+      "destination": "/public/eletricista-urgente-sao-joao-da-pesqueira.html"
+    },
+    {
+      "source": "/iluminacao-led-alfandega",
+      "destination": "/public/iluminacao-led-alfandega.html"
+    },
+    {
+      "source": "/instalacao-paineis-solares-tras-os-montes",
+      "destination": "/public/instalacao-paineis-solares-tras-os-montes.html"
+    },
+    {
+      "source": "/eletricista-urgente-sabrosa",
+      "destination": "/public/eletricista-urgente-sabrosa.html"
+    },
+    {
+      "source": "/paineis-solares-mirandela",
+      "destination": "/public/paineis-solares-mirandela.html"
+    },
+    {
+      "source": "/quadros-eletricos-valpacos",
+      "destination": "/public/quadros-eletricos-valpacos.html"
+    },
+    {
+      "source": "/eletricista-urgente-sernancelhe",
+      "destination": "/public/eletricista-urgente-sernancelhe.html"
+    },
+    {
+      "source": "/eletricista-urgente-armamar",
+      "destination": "/public/eletricista-urgente-armamar.html"
+    },
+    {
+      "source": "/eletricista-tarouca",
+      "destination": "/public/eletricista-tarouca.html"
+    },
+    {
+      "source": "/instalacao-eletrica-vila-real",
+      "destination": "/public/instalacao-eletrica-vila-real.html"
+    },
+    {
+      "source": "/eletricista-urgente-vinhais",
+      "destination": "/public/eletricista-urgente-vinhais.html"
+    },
+    {
+      "source": "/eletricista-vilarelho-da-raia",
+      "destination": "/public/eletricista-vilarelho-da-raia.html"
+    },
+    {
+      "source": "/quadros-eletricos-vinhais",
+      "destination": "/public/quadros-eletricos-vinhais.html"
+    },
+    {
+      "source": "/eletricista-favaios",
+      "destination": "/public/eletricista-favaios.html"
+    },
+    {
+      "source": "/eletricista-ferreiros-de-avões",
+      "destination": "/public/eletricista-ferreiros-de-avões.html"
+    },
+    {
+      "source": "/eletricista-sendas",
+      "destination": "/public/eletricista-sendas.html"
+    },
+    {
+      "source": "/eletricista-morais",
+      "destination": "/public/eletricista-morais.html"
+    },
+    {
+      "source": "/instalacao-eletrica-alfandega",
+      "destination": "/public/instalacao-eletrica-alfandega.html"
+    },
+    {
+      "source": "/eletricista-deilão",
+      "destination": "/public/eletricista-deilão.html"
+    },
+    {
+      "source": "/certificacao-eletrica-valpacos",
+      "destination": "/public/certificacao-eletrica-valpacos.html"
+    },
+    {
+      "source": "/eletricista-palaçoulo",
+      "destination": "/public/eletricista-palaçoulo.html"
+    },
+    {
+      "source": "/iluminacao-led-vila-real",
+      "destination": "/public/iluminacao-led-vila-real.html"
+    },
+    {
+      "source": "/eletricista-urgente-valpacos",
+      "destination": "/public/eletricista-urgente-valpacos.html"
+    },
+    {
+      "source": "/eletricista-abreiro",
+      "destination": "/public/eletricista-abreiro.html"
+    },
+    {
+      "source": "/instalacao-eletrica-braganca",
+      "destination": "/public/instalacao-eletrica-braganca.html"
+    },
+    {
+      "source": "/eletricista-torre-dona-chama",
+      "destination": "/public/eletricista-torre-dona-chama.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-alfandega",
+      "destination": "/public/aquecimento-eletrico-alfandega.html"
+    },
+    {
+      "source": "/eletricista-penajóia",
+      "destination": "/public/eletricista-penajóia.html"
+    },
+    {
+      "source": "/paineis-solares-braganca",
+      "destination": "/public/paineis-solares-braganca.html"
+    },
+    {
+      "source": "/eletricista-moncorvo",
+      "destination": "/public/eletricista-moncorvo.html"
+    },
+    {
+      "source": "/instalacao-eletrica-lamego",
+      "destination": "/public/instalacao-eletrica-lamego.html"
+    },
+    {
+      "source": "/eletricista-urgente-miranda-douro",
+      "destination": "/public/eletricista-urgente-miranda-douro.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-vila-real",
+      "destination": "/public/aquecimento-eletrico-vila-real.html"
+    },
+    {
+      "source": "/iluminacao-led-miranda-douro",
+      "destination": "/public/iluminacao-led-miranda-douro.html"
+    },
+    {
+      "source": "/quadros-eletricos-miranda-douro",
+      "destination": "/public/quadros-eletricos-miranda-douro.html"
+    },
+    {
+      "source": "/eletricista-genísio",
+      "destination": "/public/eletricista-genísio.html"
+    },
+    {
+      "source": "/eletricista-duas-igrejas",
+      "destination": "/public/eletricista-duas-igrejas.html"
+    },
+    {
+      "source": "/eletricista-urgente-murca",
+      "destination": "/public/eletricista-urgente-murca.html"
+    },
+    {
+      "source": "/iluminacao-led-macedo",
+      "destination": "/public/iluminacao-led-macedo.html"
+    },
+    {
+      "source": "/eletricista-urgente-alfandega",
+      "destination": "/public/eletricista-urgente-alfandega.html"
+    },
+    {
+      "source": "/eletricista-sanfins-do-douro",
+      "destination": "/public/eletricista-sanfins-do-douro.html"
+    },
+    {
+      "source": "/eletricista-rebordelo",
+      "destination": "/public/eletricista-rebordelo.html"
+    },
+    {
+      "source": "/certificacao-eletrica-mogadouro",
+      "destination": "/public/certificacao-eletrica-mogadouro.html"
+    },
+    {
+      "source": "/certificacao-eletrica-chaves",
+      "destination": "/public/certificacao-eletrica-chaves.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-torre-moncorvo",
+      "destination": "/public/aquecimento-eletrico-torre-moncorvo.html"
+    },
+    {
+      "source": "/eletricista-alijó-centro",
+      "destination": "/public/eletricista-alijó-centro.html"
+    },
+    {
+      "source": "/eletricista-talhas",
+      "destination": "/public/eletricista-talhas.html"
+    },
+    {
+      "source": "/eletricista-urgente-santa-marta-de-penaguiao",
+      "destination": "/public/eletricista-urgente-santa-marta-de-penaguiao.html"
+    },
+    {
+      "source": "/eletricista-lamas-de-orelhão",
+      "destination": "/public/eletricista-lamas-de-orelhão.html"
+    },
+    {
+      "source": "/certificacao-eletrica-miranda-douro",
+      "destination": "/public/certificacao-eletrica-miranda-douro.html"
+    },
+    {
+      "source": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "destination": "/public/eletricista-urgente-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/quadros-eletricos-mogadouro",
+      "destination": "/public/quadros-eletricos-mogadouro.html"
+    },
+    {
+      "source": "/eletricista-vale-de-prados",
+      "destination": "/public/eletricista-vale-de-prados.html"
+    },
+    {
+      "source": "/quadros-eletricos-chaves",
+      "destination": "/public/quadros-eletricos-chaves.html"
+    },
+    {
+      "source": "/faq-eletricista-braganca",
+      "destination": "/public/faq-eletricista-braganca.html"
+    },
+    {
+      "source": "/quadros-eletricos-macedo",
+      "destination": "/public/quadros-eletricos-macedo.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-valpacos",
+      "destination": "/public/aquecimento-eletrico-valpacos.html"
+    },
+    {
+      "source": "/eletricista-cambres",
+      "destination": "/public/eletricista-cambres.html"
+    },
+    {
+      "source": "/quadros-eletricos-mirandela",
+      "destination": "/public/quadros-eletricos-mirandela.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-lamego",
+      "destination": "/public/aquecimento-eletrico-lamego.html"
+    },
+    {
+      "source": "/eletricista-lebução",
+      "destination": "/public/eletricista-lebução.html"
+    },
+    {
+      "source": "/certificacao-eletrica-torre-moncorvo",
+      "destination": "/public/certificacao-eletrica-torre-moncorvo.html"
+    },
+    {
+      "source": "/eletricista-felgar",
+      "destination": "/public/eletricista-felgar.html"
+    },
+    {
+      "source": "/eletricista-urgente-montalegre",
+      "destination": "/public/eletricista-urgente-montalegre.html"
+    },
+    {
+      "source": "/faq-eletricista-mirandela",
+      "destination": "/public/faq-eletricista-mirandela.html"
+    },
+    {
+      "source": "/quanto-custa-eletricista-2026",
+      "destination": "/public/quanto-custa-eletricista-2026.html"
+    },
+    {
+      "source": "/quadros-eletricos-torre-moncorvo",
+      "destination": "/public/quadros-eletricos-torre-moncorvo.html"
+    },
+    {
+      "source": "/iluminacao-led-valpacos",
+      "destination": "/public/iluminacao-led-valpacos.html"
+    },
+    {
+      "source": "/eletricista-urgente-mesao-frio",
+      "destination": "/public/eletricista-urgente-mesao-frio.html"
+    },
+    {
+      "source": "/certificacao-eletrica-macedo",
+      "destination": "/public/certificacao-eletrica-macedo.html"
+    },
+    {
+      "source": "/eletricista-urgente-freixo-espada-cinta",
+      "destination": "/public/eletricista-urgente-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/certificacao-eletrica-mirandela",
+      "destination": "/public/certificacao-eletrica-mirandela.html"
+    },
+    {
+      "source": "/iluminacao-led-chaves",
+      "destination": "/public/iluminacao-led-chaves.html"
+    },
+    {
+      "source": "/eletricista-urgente-tabuaco",
+      "destination": "/public/eletricista-urgente-tabuaco.html"
+    },
+    {
+      "source": "/eletricista-rio-de-onor",
+      "destination": "/public/eletricista-rio-de-onor.html"
+    },
+    {
+      "source": "/eletricista-urgente-vila-pouca-de-aguiar",
+      "destination": "/public/eletricista-urgente-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/eletricista-larinho",
+      "destination": "/public/eletricista-larinho.html"
+    },
+    {
+      "source": "/eletricista-izeda",
+      "destination": "/public/eletricista-izeda.html"
+    },
+    {
+      "source": "/eletricista-vinhas",
+      "destination": "/public/eletricista-vinhas.html"
+    },
+    {
+      "source": "/eletricista-urgente-vila-flor",
+      "destination": "/public/eletricista-urgente-vila-flor.html"
+    },
+    {
+      "source": "/equipamento-recomendado",
+      "destination": "/public/equipamento-recomendado.html"
+    },
+    {
+      "source": "/eletricista-salzedas",
+      "destination": "/public/eletricista-salzedas.html"
+    },
+    {
+      "source": "/iluminacao-led-mirandela",
+      "destination": "/public/iluminacao-led-mirandela.html"
+    },
+    {
+      "source": "/eletricista-gimonde",
+      "destination": "/public/eletricista-gimonde.html"
+    },
+    {
+      "source": "/paineis-solares-vila-real",
+      "destination": "/public/paineis-solares-vila-real.html"
+    },
+    {
+      "source": "/politica-privacidade",
+      "destination": "/public/politica-privacidade.html"
+    },
+    {
+      "source": "/instalacao-eletrica-miranda-douro",
+      "destination": "/public/instalacao-eletrica-miranda-douro.html"
+    },
+    {
+      "source": "/instalacao-eletrica-chaves",
+      "destination": "/public/instalacao-eletrica-chaves.html"
+    },
+    {
+      "source": "/eletricista-urgente-moimenta-da-beira",
+      "destination": "/public/eletricista-urgente-moimenta-da-beira.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-vinhais",
+      "destination": "/public/aquecimento-eletrico-vinhais.html"
+    },
+    {
+      "source": "/instalacao-eletrica-mirandela",
+      "destination": "/public/instalacao-eletrica-mirandela.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-mogadouro",
+      "destination": "/public/aquecimento-eletrico-mogadouro.html"
+    },
+    {
+      "source": "/eletricista-urgente-mondim-de-basto",
+      "destination": "/public/eletricista-urgente-mondim-de-basto.html"
+    },
+    {
+      "source": "/instalacao-eletrica-mogadouro",
+      "destination": "/public/instalacao-eletrica-mogadouro.html"
+    },
+    {
+      "source": "/eletricista-vilarandelo",
+      "destination": "/public/eletricista-vilarandelo.html"
+    },
+    {
+      "source": "/eletricista-podence",
+      "destination": "/public/eletricista-podence.html"
+    },
+    {
+      "source": "/eletricista-sendim",
+      "destination": "/public/eletricista-sendim.html"
+    },
+    {
+      "source": "/eletricista-britiande",
+      "destination": "/public/eletricista-britiande.html"
+    },
+    {
+      "source": "/eletricista-nozelos",
+      "destination": "/public/eletricista-nozelos.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-mirandela",
+      "destination": "/public/aquecimento-eletrico-mirandela.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-braganca",
+      "destination": "/public/aquecimento-eletrico-braganca.html"
+    },
+    {
+      "source": "/instalacao-eletrica-macedo",
+      "destination": "/public/instalacao-eletrica-macedo.html"
+    },
+    {
+      "source": "/aquecimento-eletrico-miranda-douro",
+      "destination": "/public/aquecimento-eletrico-miranda-douro.html"
+    },
+    {
+      "source": "/eletricista-vidago",
+      "destination": "/public/eletricista-vidago.html"
+    },
+    {
+      "source": "/certificacao-eletrica-vinhais",
+      "destination": "/public/certificacao-eletrica-vinhais.html"
+    },
+    {
+      "source": "/eletricista-faiões",
+      "destination": "/public/eletricista-faiões.html"
+    },
+    {
+      "source": "/eletricista-urgente-vila-nova-foz-coa",
+      "destination": "/public/eletricista-urgente-vila-nova-foz-coa.html"
+    },
+    {
+      "source": "/iluminacao-led-mogadouro",
+      "destination": "/public/iluminacao-led-mogadouro.html"
+    },
+    {
+      "source": "/instalacao-eletrica-vinhais",
+      "destination": "/public/instalacao-eletrica-vinhais.html"
+    },
+    {
+      "source": "/iluminacao-led-profissional",
+      "destination": "/public/iluminacao-led-profissional.html"
+    },
+    {
+      "source": "/iluminacao-led-braganca",
+      "destination": "/public/iluminacao-led-braganca.html"
+    },
+    {
+      "source": "/blog/como-verificar-quadro-eletrico",
+      "destination": "/public/blog/como-verificar-quadro-eletrico.html"
+    },
+    {
+      "source": "/blog/quanto-custa-mudar-quadro-eletrico",
+      "destination": "/public/blog/quanto-custa-mudar-quadro-eletrico.html"
+    },
+    {
+      "source": "/blog/index",
+      "destination": "/public/blog/index.html"
+    },
+    {
+      "source": "/blog/como-testar-diferencial-eletrico",
+      "destination": "/public/blog/como-testar-diferencial-eletrico.html"
+    },
+    {
+      "source": "/blog/iluminacao-led-vantagens-poupanca",
+      "destination": "/public/blog/iluminacao-led-vantagens-poupanca.html"
+    },
+    {
+      "source": "/blog/eletricista-certificado-vs-nao-certificado",
+      "destination": "/public/blog/eletricista-certificado-vs-nao-certificado.html"
+    },
+    {
+      "source": "/blog/manutencao-eletrica-primavera-guia",
+      "destination": "/public/blog/manutencao-eletrica-primavera-guia.html"
+    },
+    {
+      "source": "/blog/dps-descarregador-sobretensao-guia",
+      "destination": "/public/blog/dps-descarregador-sobretensao-guia.html"
+    },
+    {
+      "source": "/blog/como-proteger-casa-trovoada",
+      "destination": "/public/blog/como-proteger-casa-trovoada.html"
+    },
+    {
+      "source": "/blog/como-saber-instalacao-eletrica-antiga",
+      "destination": "/public/blog/como-saber-instalacao-eletrica-antiga.html"
+    },
+    {
+      "source": "/blog/tomadas-e-interruptores-quando-substituir",
+      "destination": "/public/blog/tomadas-e-interruptores-quando-substituir.html"
+    },
+    {
+      "source": "/blog/como-proteger-casa-raios-para-raios",
+      "destination": "/public/blog/como-proteger-casa-raios-para-raios.html"
+    },
+    {
+      "source": "/blog/como-escolher-disjuntor-certo",
+      "destination": "/public/blog/como-escolher-disjuntor-certo.html"
+    },
+    {
+      "source": "/blog/preparar-instalacao-eletrica-inverno",
+      "destination": "/public/blog/preparar-instalacao-eletrica-inverno.html"
+    },
+    {
+      "source": "/blog/como-instalar-candeeiro-teto",
+      "destination": "/public/blog/como-instalar-candeeiro-teto.html"
+    },
+    {
+      "source": "/blog/paineis-solares-instalacao-eletrica-guia",
+      "destination": "/public/blog/paineis-solares-instalacao-eletrica-guia.html"
+    },
+    {
+      "source": "/blog/eletricista-urgente-24-horas-braganca",
+      "destination": "/public/blog/eletricista-urgente-24-horas-braganca.html"
+    },
+    {
+      "source": "/blog/protecao-contra-raios-para-raios",
+      "destination": "/public/blog/protecao-contra-raios-para-raios.html"
+    },
+    {
+      "source": "/blog/certificacao-certiel-obrigatoria-quando",
+      "destination": "/public/blog/certificacao-certiel-obrigatoria-quando.html"
+    },
+    {
+      "source": "/blog/como-instalar-sensor-movimento",
+      "destination": "/public/blog/como-instalar-sensor-movimento.html"
+    },
+    {
+      "source": "/blog/como-poupar-eletricidade-casa",
+      "destination": "/public/blog/como-poupar-eletricidade-casa.html"
+    },
+    {
+      "source": "/blog/como-mudar-tomada-eletrica",
+      "destination": "/public/blog/como-mudar-tomada-eletrica.html"
+    },
+    {
+      "source": "/blog/como-instalar-interruptor",
+      "destination": "/public/blog/como-instalar-interruptor.html"
     }
   ],
   "headers": [
