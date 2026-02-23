@@ -734,6 +734,22 @@
       "destination": "/public/blog/como-verificar-terra-instalacao.html"
     },
     {
+      "source": "/blog/5-sinais-falha-eletrica-urgente",
+      "destination": "/public/blog/5-sinais-falha-eletrica-urgente.html"
+    },
+    {
+      "source": "/blog/checklist-manutencao-eletrica-casa-campo",
+      "destination": "/public/blog/checklist-manutencao-eletrica-casa-campo.html"
+    },
+    {
+      "source": "/blog/como-instalar-wallbox-casa",
+      "destination": "/public/blog/como-instalar-wallbox-casa.html"
+    },
+    {
+      "source": "/blog/quanto-custa-certificacao-eletrica",
+      "destination": "/public/blog/quanto-custa-certificacao-eletrica.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
