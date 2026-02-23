@@ -1250,6 +1250,126 @@
       "destination": "/public/wallbox-vinhais.html"
     },
     {
+      "source": "/eletricista-algoso",
+      "destination": "/public/eletricista-algoso.html"
+    },
+    {
+      "source": "/eletricista-figueira-castelo-rodrigo",
+      "destination": "/public/eletricista-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/eletricista-lagoaca",
+      "destination": "/public/eletricista-lagoaca.html"
+    },
+    {
+      "source": "/eletricista-meda",
+      "destination": "/public/eletricista-meda.html"
+    },
+    {
+      "source": "/eletricista-miranda-do-douro",
+      "destination": "/public/eletricista-miranda-do-douro.html"
+    },
+    {
+      "source": "/eletricista-monforte-de-rio-livre",
+      "destination": "/public/eletricista-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/eletricista-santa-marta-penaguiao",
+      "destination": "/public/eletricista-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/empresa-de-eletricidade",
+      "destination": "/public/empresa-de-eletricidade.html"
+    },
+    {
+      "source": "/tecnico-eletricista",
+      "destination": "/public/tecnico-eletricista.html"
+    },
+    {
+      "source": "/urgencia-eletricista-algoso",
+      "destination": "/public/urgencia-eletricista-algoso.html"
+    },
+    {
+      "source": "/urgencia-eletricista-armamar",
+      "destination": "/public/urgencia-eletricista-armamar.html"
+    },
+    {
+      "source": "/urgencia-eletricista-boticas",
+      "destination": "/public/urgencia-eletricista-boticas.html"
+    },
+    {
+      "source": "/urgencia-eletricista-duas-igrejas",
+      "destination": "/public/urgencia-eletricista-duas-igrejas.html"
+    },
+    {
+      "source": "/urgencia-eletricista-figueira-castelo-rodrigo",
+      "destination": "/public/urgencia-eletricista-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/urgencia-eletricista-lagoaca",
+      "destination": "/public/urgencia-eletricista-lagoaca.html"
+    },
+    {
+      "source": "/urgencia-eletricista-meda",
+      "destination": "/public/urgencia-eletricista-meda.html"
+    },
+    {
+      "source": "/urgencia-eletricista-mesao-frio",
+      "destination": "/public/urgencia-eletricista-mesao-frio.html"
+    },
+    {
+      "source": "/urgencia-eletricista-miranda-do-douro",
+      "destination": "/public/urgencia-eletricista-miranda-do-douro.html"
+    },
+    {
+      "source": "/urgencia-eletricista-moncorvo",
+      "destination": "/public/urgencia-eletricista-moncorvo.html"
+    },
+    {
+      "source": "/urgencia-eletricista-mondim-de-basto",
+      "destination": "/public/urgencia-eletricista-mondim-de-basto.html"
+    },
+    {
+      "source": "/urgencia-eletricista-monforte-de-rio-livre",
+      "destination": "/public/urgencia-eletricista-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/urgencia-eletricista-montalegre",
+      "destination": "/public/urgencia-eletricista-montalegre.html"
+    },
+    {
+      "source": "/urgencia-eletricista-penedono",
+      "destination": "/public/urgencia-eletricista-penedono.html"
+    },
+    {
+      "source": "/urgencia-eletricista-rebordelo",
+      "destination": "/public/urgencia-eletricista-rebordelo.html"
+    },
+    {
+      "source": "/urgencia-eletricista-ribeira-de-pena",
+      "destination": "/public/urgencia-eletricista-ribeira-de-pena.html"
+    },
+    {
+      "source": "/urgencia-eletricista-santa-marta-penaguiao",
+      "destination": "/public/urgencia-eletricista-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/urgencia-eletricista-sendim",
+      "destination": "/public/urgencia-eletricista-sendim.html"
+    },
+    {
+      "source": "/urgencia-eletricista-sernancelhe",
+      "destination": "/public/urgencia-eletricista-sernancelhe.html"
+    },
+    {
+      "source": "/urgencia-eletricista-tabuaco",
+      "destination": "/public/urgencia-eletricista-tabuaco.html"
+    },
+    {
+      "source": "/urgencia-eletricista-vila-pouca-de-aguiar",
+      "destination": "/public/urgencia-eletricista-vila-pouca-de-aguiar.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
