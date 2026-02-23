@@ -6,6 +6,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
+Disallow: /maintenance.html
+Disallow: /google123xyz789.html
 
 # Motores de busca principais
 User-agent: Googlebot
@@ -41,6 +43,7 @@ Allow: /.well-known/ai-plugin.json
 
 # Sitemap
 Sitemap: https://staff-seekers.com/sitemap.xml
+Sitemap: https://staff-seekers.com/sitemap-index.xml
 
 # IndexNow - Instant indexing for Bing/Yandex
 # Key: 1496b3dde3ef3db681478bc980689cb2
