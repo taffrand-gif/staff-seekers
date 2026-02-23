@@ -526,6 +526,214 @@
       "destination": "/distrito-viseu-guarda.html"
     },
     {
+      "source": "/google123xyz789",
+      "destination": "/public/google123xyz789.html"
+    },
+    {
+      "source": "/maintenance",
+      "destination": "/public/maintenance.html"
+    },
+    {
+      "source": "/melhores-alicates-eletricista",
+      "destination": "/public/melhores-alicates-eletricista.html"
+    },
+    {
+      "source": "/melhores-brocas-betao-eletricista",
+      "destination": "/public/melhores-brocas-betao-eletricista.html"
+    },
+    {
+      "source": "/melhores-cabos-eletricos-instalacao",
+      "destination": "/public/melhores-cabos-eletricos-instalacao.html"
+    },
+    {
+      "source": "/melhores-caixas-ferramentas-eletricista",
+      "destination": "/public/melhores-caixas-ferramentas-eletricista.html"
+    },
+    {
+      "source": "/melhores-cameras-termicas",
+      "destination": "/public/melhores-cameras-termicas.html"
+    },
+    {
+      "source": "/melhores-chaves-fendas-isoladas",
+      "destination": "/public/melhores-chaves-fendas-isoladas.html"
+    },
+    {
+      "source": "/melhores-detetores-tensao",
+      "destination": "/public/melhores-detetores-tensao.html"
+    },
+    {
+      "source": "/melhores-disjuntores-casa",
+      "destination": "/public/melhores-disjuntores-casa.html"
+    },
+    {
+      "source": "/melhores-extensoes-eletricas-profissionais",
+      "destination": "/public/melhores-extensoes-eletricas-profissionais.html"
+    },
+    {
+      "source": "/melhores-fitas-isoladoras",
+      "destination": "/public/melhores-fitas-isoladoras.html"
+    },
+    {
+      "source": "/melhores-interruptores-inteligentes",
+      "destination": "/public/melhores-interruptores-inteligentes.html"
+    },
+    {
+      "source": "/melhores-lampadas-led-casa",
+      "destination": "/public/melhores-lampadas-led-casa.html"
+    },
+    {
+      "source": "/melhores-lanternas-trabalho",
+      "destination": "/public/melhores-lanternas-trabalho.html"
+    },
+    {
+      "source": "/melhores-multimetros-eletricista",
+      "destination": "/public/melhores-multimetros-eletricista.html"
+    },
+    {
+      "source": "/melhores-paineis-solares-varanda",
+      "destination": "/public/melhores-paineis-solares-varanda.html"
+    },
+    {
+      "source": "/melhores-passa-cabos-guias",
+      "destination": "/public/melhores-passa-cabos-guias.html"
+    },
+    {
+      "source": "/melhores-protetores-sobretensao",
+      "destination": "/public/melhores-protetores-sobretensao.html"
+    },
+    {
+      "source": "/melhores-quadros-eletricos-residenciais",
+      "destination": "/public/melhores-quadros-eletricos-residenciais.html"
+    },
+    {
+      "source": "/melhores-testadores-tomadas",
+      "destination": "/public/melhores-testadores-tomadas.html"
+    },
+    {
+      "source": "/melhores-ups-protetor-computador",
+      "destination": "/public/melhores-ups-protetor-computador.html"
+    },
+    {
+      "source": "/blog/como-instalar-alarme-casa",
+      "destination": "/public/blog/como-instalar-alarme-casa.html"
+    },
+    {
+      "source": "/blog/como-instalar-aquecedor-toalhas-eletrico",
+      "destination": "/public/blog/como-instalar-aquecedor-toalhas-eletrico.html"
+    },
+    {
+      "source": "/blog/como-instalar-campainha-sem-fios",
+      "destination": "/public/blog/como-instalar-campainha-sem-fios.html"
+    },
+    {
+      "source": "/blog/como-instalar-carregador-carro-eletrico",
+      "destination": "/public/blog/como-instalar-carregador-carro-eletrico.html"
+    },
+    {
+      "source": "/blog/como-instalar-detetor-fumo",
+      "destination": "/public/blog/como-instalar-detetor-fumo.html"
+    },
+    {
+      "source": "/blog/como-instalar-extrator-casa-banho",
+      "destination": "/public/blog/como-instalar-extrator-casa-banho.html"
+    },
+    {
+      "source": "/blog/como-instalar-fechadura-eletrica",
+      "destination": "/public/blog/como-instalar-fechadura-eletrica.html"
+    },
+    {
+      "source": "/blog/como-instalar-fita-led",
+      "destination": "/public/blog/como-instalar-fita-led.html"
+    },
+    {
+      "source": "/blog/como-instalar-iluminacao-jardim",
+      "destination": "/public/blog/como-instalar-iluminacao-jardim.html"
+    },
+    {
+      "source": "/blog/como-instalar-luz-emergencia",
+      "destination": "/public/blog/como-instalar-luz-emergencia.html"
+    },
+    {
+      "source": "/blog/como-instalar-motor-portao-eletrico",
+      "destination": "/public/blog/como-instalar-motor-portao-eletrico.html"
+    },
+    {
+      "source": "/blog/como-instalar-painel-solar-varanda",
+      "destination": "/public/blog/como-instalar-painel-solar-varanda.html"
+    },
+    {
+      "source": "/blog/como-instalar-projetor-exterior",
+      "destination": "/public/blog/como-instalar-projetor-exterior.html"
+    },
+    {
+      "source": "/blog/como-instalar-quadro-eletrico-garagem",
+      "destination": "/public/blog/como-instalar-quadro-eletrico-garagem.html"
+    },
+    {
+      "source": "/blog/como-instalar-regulador-intensidade-luz",
+      "destination": "/public/blog/como-instalar-regulador-intensidade-luz.html"
+    },
+    {
+      "source": "/blog/como-instalar-relogio-programador",
+      "destination": "/public/blog/como-instalar-relogio-programador.html"
+    },
+    {
+      "source": "/blog/como-instalar-sistema-videovigilancia",
+      "destination": "/public/blog/como-instalar-sistema-videovigilancia.html"
+    },
+    {
+      "source": "/blog/como-instalar-temporizador-luz-escadas",
+      "destination": "/public/blog/como-instalar-temporizador-luz-escadas.html"
+    },
+    {
+      "source": "/blog/como-instalar-termostato-inteligente",
+      "destination": "/public/blog/como-instalar-termostato-inteligente.html"
+    },
+    {
+      "source": "/blog/como-instalar-tomada-exterior",
+      "destination": "/public/blog/como-instalar-tomada-exterior.html"
+    },
+    {
+      "source": "/blog/como-instalar-tomada-inteligente-wifi",
+      "destination": "/public/blog/como-instalar-tomada-inteligente-wifi.html"
+    },
+    {
+      "source": "/blog/como-instalar-tomada-usb",
+      "destination": "/public/blog/como-instalar-tomada-usb.html"
+    },
+    {
+      "source": "/blog/como-instalar-ups-protetor-computador",
+      "destination": "/public/blog/como-instalar-ups-protetor-computador.html"
+    },
+    {
+      "source": "/blog/como-instalar-ventilador-teto",
+      "destination": "/public/blog/como-instalar-ventilador-teto.html"
+    },
+    {
+      "source": "/blog/como-instalar-videoporteiro",
+      "destination": "/public/blog/como-instalar-videoporteiro.html"
+    },
+    {
+      "source": "/blog/como-ligar-interruptor-duplo",
+      "destination": "/public/blog/como-ligar-interruptor-duplo.html"
+    },
+    {
+      "source": "/blog/como-proteger-eletrodomesticos-trovoada",
+      "destination": "/public/blog/como-proteger-eletrodomesticos-trovoada.html"
+    },
+    {
+      "source": "/blog/como-reduzir-conta-eletricidade",
+      "destination": "/public/blog/como-reduzir-conta-eletricidade.html"
+    },
+    {
+      "source": "/blog/como-testar-tomada-multimetro",
+      "destination": "/public/blog/como-testar-tomada-multimetro.html"
+    },
+    {
+      "source": "/blog/como-verificar-terra-instalacao",
+      "destination": "/public/blog/como-verificar-terra-instalacao.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
