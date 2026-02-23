@@ -536,6 +536,18 @@
     {
       "source": "/todas-perguntas-frequentes",
       "destination": "/public/todas-perguntas-frequentes.html"
+    },
+    {
+      "source": "/areas-atuacao",
+      "destination": "/areas-atuacao.html"
+    },
+    {
+      "source": "/orcamento",
+      "destination": "/orcamento.html"
+    },
+    {
+      "source": "/equipa-certificacoes",
+      "destination": "/equipa-certificacoes.html"
     }
   ],
   "headers": [

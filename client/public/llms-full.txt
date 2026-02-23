@@ -74,3 +74,8 @@ Sim, orçamento gratuito e sem compromisso para todos os serviços.
 
 ### Tem certificação CERTIEL?
 Sim, realizo certificações elétricas CERTIEL para habitações e comércios.
+
+## Novas Páginas (fevereiro 2026)
+- Áreas de Atuação (mapa SVG interativo + tarifas por zona): https://staff-seekers.com/areas-atuacao
+- Pedir Orçamento (formulário WhatsApp pré-preenchido): https://staff-seekers.com/orcamento
+- Equipa e Certificações (E-E-A-T, certificações, equipamento): https://staff-seekers.com/equipa-certificacoes
