@@ -1370,6 +1370,626 @@
       "destination": "/public/urgencia-eletricista-vila-pouca-de-aguiar.html"
     },
     {
+      "source": "/alarme-algoso",
+      "destination": "/public/alarme-algoso.html"
+    },
+    {
+      "source": "/alarme-armamar",
+      "destination": "/public/alarme-armamar.html"
+    },
+    {
+      "source": "/alarme-boticas",
+      "destination": "/public/alarme-boticas.html"
+    },
+    {
+      "source": "/alarme-duas-igrejas",
+      "destination": "/public/alarme-duas-igrejas.html"
+    },
+    {
+      "source": "/alarme-figueira-castelo-rodrigo",
+      "destination": "/public/alarme-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/alarme-lagoaca",
+      "destination": "/public/alarme-lagoaca.html"
+    },
+    {
+      "source": "/alarme-meda",
+      "destination": "/public/alarme-meda.html"
+    },
+    {
+      "source": "/alarme-mesao-frio",
+      "destination": "/public/alarme-mesao-frio.html"
+    },
+    {
+      "source": "/alarme-miranda-do-douro",
+      "destination": "/public/alarme-miranda-do-douro.html"
+    },
+    {
+      "source": "/alarme-moncorvo",
+      "destination": "/public/alarme-moncorvo.html"
+    },
+    {
+      "source": "/alarme-mondim-de-basto",
+      "destination": "/public/alarme-mondim-de-basto.html"
+    },
+    {
+      "source": "/alarme-monforte-de-rio-livre",
+      "destination": "/public/alarme-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/alarme-montalegre",
+      "destination": "/public/alarme-montalegre.html"
+    },
+    {
+      "source": "/alarme-penedono",
+      "destination": "/public/alarme-penedono.html"
+    },
+    {
+      "source": "/alarme-rebordelo",
+      "destination": "/public/alarme-rebordelo.html"
+    },
+    {
+      "source": "/alarme-ribeira-de-pena",
+      "destination": "/public/alarme-ribeira-de-pena.html"
+    },
+    {
+      "source": "/alarme-santa-marta-penaguiao",
+      "destination": "/public/alarme-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/alarme-sendim",
+      "destination": "/public/alarme-sendim.html"
+    },
+    {
+      "source": "/alarme-sernancelhe",
+      "destination": "/public/alarme-sernancelhe.html"
+    },
+    {
+      "source": "/alarme-tabuaco",
+      "destination": "/public/alarme-tabuaco.html"
+    },
+    {
+      "source": "/alarme-vila-pouca-de-aguiar",
+      "destination": "/public/alarme-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/ar-condicionado-algoso",
+      "destination": "/public/ar-condicionado-algoso.html"
+    },
+    {
+      "source": "/ar-condicionado-armamar",
+      "destination": "/public/ar-condicionado-armamar.html"
+    },
+    {
+      "source": "/ar-condicionado-boticas",
+      "destination": "/public/ar-condicionado-boticas.html"
+    },
+    {
+      "source": "/ar-condicionado-duas-igrejas",
+      "destination": "/public/ar-condicionado-duas-igrejas.html"
+    },
+    {
+      "source": "/ar-condicionado-figueira-castelo-rodrigo",
+      "destination": "/public/ar-condicionado-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/ar-condicionado-lagoaca",
+      "destination": "/public/ar-condicionado-lagoaca.html"
+    },
+    {
+      "source": "/ar-condicionado-meda",
+      "destination": "/public/ar-condicionado-meda.html"
+    },
+    {
+      "source": "/ar-condicionado-mesao-frio",
+      "destination": "/public/ar-condicionado-mesao-frio.html"
+    },
+    {
+      "source": "/ar-condicionado-miranda-do-douro",
+      "destination": "/public/ar-condicionado-miranda-do-douro.html"
+    },
+    {
+      "source": "/ar-condicionado-moncorvo",
+      "destination": "/public/ar-condicionado-moncorvo.html"
+    },
+    {
+      "source": "/ar-condicionado-mondim-de-basto",
+      "destination": "/public/ar-condicionado-mondim-de-basto.html"
+    },
+    {
+      "source": "/ar-condicionado-monforte-de-rio-livre",
+      "destination": "/public/ar-condicionado-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/ar-condicionado-montalegre",
+      "destination": "/public/ar-condicionado-montalegre.html"
+    },
+    {
+      "source": "/ar-condicionado-penedono",
+      "destination": "/public/ar-condicionado-penedono.html"
+    },
+    {
+      "source": "/ar-condicionado-rebordelo",
+      "destination": "/public/ar-condicionado-rebordelo.html"
+    },
+    {
+      "source": "/ar-condicionado-ribeira-de-pena",
+      "destination": "/public/ar-condicionado-ribeira-de-pena.html"
+    },
+    {
+      "source": "/ar-condicionado-santa-marta-penaguiao",
+      "destination": "/public/ar-condicionado-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/ar-condicionado-sendim",
+      "destination": "/public/ar-condicionado-sendim.html"
+    },
+    {
+      "source": "/ar-condicionado-sernancelhe",
+      "destination": "/public/ar-condicionado-sernancelhe.html"
+    },
+    {
+      "source": "/ar-condicionado-tabuaco",
+      "destination": "/public/ar-condicionado-tabuaco.html"
+    },
+    {
+      "source": "/ar-condicionado-vila-pouca-de-aguiar",
+      "destination": "/public/ar-condicionado-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/certificacao-eletrica-algoso",
+      "destination": "/public/certificacao-eletrica-algoso.html"
+    },
+    {
+      "source": "/certificacao-eletrica-armamar",
+      "destination": "/public/certificacao-eletrica-armamar.html"
+    },
+    {
+      "source": "/certificacao-eletrica-boticas",
+      "destination": "/public/certificacao-eletrica-boticas.html"
+    },
+    {
+      "source": "/certificacao-eletrica-duas-igrejas",
+      "destination": "/public/certificacao-eletrica-duas-igrejas.html"
+    },
+    {
+      "source": "/certificacao-eletrica-figueira-castelo-rodrigo",
+      "destination": "/public/certificacao-eletrica-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/certificacao-eletrica-lagoaca",
+      "destination": "/public/certificacao-eletrica-lagoaca.html"
+    },
+    {
+      "source": "/certificacao-eletrica-meda",
+      "destination": "/public/certificacao-eletrica-meda.html"
+    },
+    {
+      "source": "/certificacao-eletrica-mesao-frio",
+      "destination": "/public/certificacao-eletrica-mesao-frio.html"
+    },
+    {
+      "source": "/certificacao-eletrica-miranda-do-douro",
+      "destination": "/public/certificacao-eletrica-miranda-do-douro.html"
+    },
+    {
+      "source": "/certificacao-eletrica-moncorvo",
+      "destination": "/public/certificacao-eletrica-moncorvo.html"
+    },
+    {
+      "source": "/certificacao-eletrica-mondim-de-basto",
+      "destination": "/public/certificacao-eletrica-mondim-de-basto.html"
+    },
+    {
+      "source": "/certificacao-eletrica-monforte-de-rio-livre",
+      "destination": "/public/certificacao-eletrica-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/certificacao-eletrica-montalegre",
+      "destination": "/public/certificacao-eletrica-montalegre.html"
+    },
+    {
+      "source": "/certificacao-eletrica-penedono",
+      "destination": "/public/certificacao-eletrica-penedono.html"
+    },
+    {
+      "source": "/certificacao-eletrica-rebordelo",
+      "destination": "/public/certificacao-eletrica-rebordelo.html"
+    },
+    {
+      "source": "/certificacao-eletrica-ribeira-de-pena",
+      "destination": "/public/certificacao-eletrica-ribeira-de-pena.html"
+    },
+    {
+      "source": "/certificacao-eletrica-santa-marta-penaguiao",
+      "destination": "/public/certificacao-eletrica-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/certificacao-eletrica-sendim",
+      "destination": "/public/certificacao-eletrica-sendim.html"
+    },
+    {
+      "source": "/certificacao-eletrica-sernancelhe",
+      "destination": "/public/certificacao-eletrica-sernancelhe.html"
+    },
+    {
+      "source": "/certificacao-eletrica-tabuaco",
+      "destination": "/public/certificacao-eletrica-tabuaco.html"
+    },
+    {
+      "source": "/certificacao-eletrica-vila-pouca-de-aguiar",
+      "destination": "/public/certificacao-eletrica-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/domotica-algoso",
+      "destination": "/public/domotica-algoso.html"
+    },
+    {
+      "source": "/domotica-armamar",
+      "destination": "/public/domotica-armamar.html"
+    },
+    {
+      "source": "/domotica-boticas",
+      "destination": "/public/domotica-boticas.html"
+    },
+    {
+      "source": "/domotica-duas-igrejas",
+      "destination": "/public/domotica-duas-igrejas.html"
+    },
+    {
+      "source": "/domotica-figueira-castelo-rodrigo",
+      "destination": "/public/domotica-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/domotica-lagoaca",
+      "destination": "/public/domotica-lagoaca.html"
+    },
+    {
+      "source": "/domotica-meda",
+      "destination": "/public/domotica-meda.html"
+    },
+    {
+      "source": "/domotica-mesao-frio",
+      "destination": "/public/domotica-mesao-frio.html"
+    },
+    {
+      "source": "/domotica-miranda-do-douro",
+      "destination": "/public/domotica-miranda-do-douro.html"
+    },
+    {
+      "source": "/domotica-moncorvo",
+      "destination": "/public/domotica-moncorvo.html"
+    },
+    {
+      "source": "/domotica-mondim-de-basto",
+      "destination": "/public/domotica-mondim-de-basto.html"
+    },
+    {
+      "source": "/domotica-monforte-de-rio-livre",
+      "destination": "/public/domotica-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/domotica-montalegre",
+      "destination": "/public/domotica-montalegre.html"
+    },
+    {
+      "source": "/domotica-penedono",
+      "destination": "/public/domotica-penedono.html"
+    },
+    {
+      "source": "/domotica-rebordelo",
+      "destination": "/public/domotica-rebordelo.html"
+    },
+    {
+      "source": "/domotica-ribeira-de-pena",
+      "destination": "/public/domotica-ribeira-de-pena.html"
+    },
+    {
+      "source": "/domotica-santa-marta-penaguiao",
+      "destination": "/public/domotica-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/domotica-sendim",
+      "destination": "/public/domotica-sendim.html"
+    },
+    {
+      "source": "/domotica-sernancelhe",
+      "destination": "/public/domotica-sernancelhe.html"
+    },
+    {
+      "source": "/domotica-tabuaco",
+      "destination": "/public/domotica-tabuaco.html"
+    },
+    {
+      "source": "/domotica-vila-pouca-de-aguiar",
+      "destination": "/public/domotica-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-algoso",
+      "destination": "/public/paineis-fotovoltaicos-algoso.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-armamar",
+      "destination": "/public/paineis-fotovoltaicos-armamar.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-boticas",
+      "destination": "/public/paineis-fotovoltaicos-boticas.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-duas-igrejas",
+      "destination": "/public/paineis-fotovoltaicos-duas-igrejas.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-figueira-castelo-rodrigo",
+      "destination": "/public/paineis-fotovoltaicos-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-lagoaca",
+      "destination": "/public/paineis-fotovoltaicos-lagoaca.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-meda",
+      "destination": "/public/paineis-fotovoltaicos-meda.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-mesao-frio",
+      "destination": "/public/paineis-fotovoltaicos-mesao-frio.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-miranda-do-douro",
+      "destination": "/public/paineis-fotovoltaicos-miranda-do-douro.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-moncorvo",
+      "destination": "/public/paineis-fotovoltaicos-moncorvo.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-mondim-de-basto",
+      "destination": "/public/paineis-fotovoltaicos-mondim-de-basto.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-monforte-de-rio-livre",
+      "destination": "/public/paineis-fotovoltaicos-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-montalegre",
+      "destination": "/public/paineis-fotovoltaicos-montalegre.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-penedono",
+      "destination": "/public/paineis-fotovoltaicos-penedono.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-rebordelo",
+      "destination": "/public/paineis-fotovoltaicos-rebordelo.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-ribeira-de-pena",
+      "destination": "/public/paineis-fotovoltaicos-ribeira-de-pena.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-santa-marta-penaguiao",
+      "destination": "/public/paineis-fotovoltaicos-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-sendim",
+      "destination": "/public/paineis-fotovoltaicos-sendim.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-sernancelhe",
+      "destination": "/public/paineis-fotovoltaicos-sernancelhe.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-tabuaco",
+      "destination": "/public/paineis-fotovoltaicos-tabuaco.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-vila-pouca-de-aguiar",
+      "destination": "/public/paineis-fotovoltaicos-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/quadros-eletricos-algoso",
+      "destination": "/public/quadros-eletricos-algoso.html"
+    },
+    {
+      "source": "/quadros-eletricos-armamar",
+      "destination": "/public/quadros-eletricos-armamar.html"
+    },
+    {
+      "source": "/quadros-eletricos-boticas",
+      "destination": "/public/quadros-eletricos-boticas.html"
+    },
+    {
+      "source": "/quadros-eletricos-duas-igrejas",
+      "destination": "/public/quadros-eletricos-duas-igrejas.html"
+    },
+    {
+      "source": "/quadros-eletricos-figueira-castelo-rodrigo",
+      "destination": "/public/quadros-eletricos-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/quadros-eletricos-lagoaca",
+      "destination": "/public/quadros-eletricos-lagoaca.html"
+    },
+    {
+      "source": "/quadros-eletricos-meda",
+      "destination": "/public/quadros-eletricos-meda.html"
+    },
+    {
+      "source": "/quadros-eletricos-mesao-frio",
+      "destination": "/public/quadros-eletricos-mesao-frio.html"
+    },
+    {
+      "source": "/quadros-eletricos-miranda-do-douro",
+      "destination": "/public/quadros-eletricos-miranda-do-douro.html"
+    },
+    {
+      "source": "/quadros-eletricos-moncorvo",
+      "destination": "/public/quadros-eletricos-moncorvo.html"
+    },
+    {
+      "source": "/quadros-eletricos-mondim-de-basto",
+      "destination": "/public/quadros-eletricos-mondim-de-basto.html"
+    },
+    {
+      "source": "/quadros-eletricos-monforte-de-rio-livre",
+      "destination": "/public/quadros-eletricos-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/quadros-eletricos-montalegre",
+      "destination": "/public/quadros-eletricos-montalegre.html"
+    },
+    {
+      "source": "/quadros-eletricos-penedono",
+      "destination": "/public/quadros-eletricos-penedono.html"
+    },
+    {
+      "source": "/quadros-eletricos-rebordelo",
+      "destination": "/public/quadros-eletricos-rebordelo.html"
+    },
+    {
+      "source": "/quadros-eletricos-ribeira-de-pena",
+      "destination": "/public/quadros-eletricos-ribeira-de-pena.html"
+    },
+    {
+      "source": "/quadros-eletricos-santa-marta-penaguiao",
+      "destination": "/public/quadros-eletricos-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/quadros-eletricos-sendim",
+      "destination": "/public/quadros-eletricos-sendim.html"
+    },
+    {
+      "source": "/quadros-eletricos-sernancelhe",
+      "destination": "/public/quadros-eletricos-sernancelhe.html"
+    },
+    {
+      "source": "/quadros-eletricos-tabuaco",
+      "destination": "/public/quadros-eletricos-tabuaco.html"
+    },
+    {
+      "source": "/quadros-eletricos-vila-pouca-de-aguiar",
+      "destination": "/public/quadros-eletricos-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/wallbox-algoso",
+      "destination": "/public/wallbox-algoso.html"
+    },
+    {
+      "source": "/wallbox-armamar",
+      "destination": "/public/wallbox-armamar.html"
+    },
+    {
+      "source": "/wallbox-boticas",
+      "destination": "/public/wallbox-boticas.html"
+    },
+    {
+      "source": "/wallbox-duas-igrejas",
+      "destination": "/public/wallbox-duas-igrejas.html"
+    },
+    {
+      "source": "/wallbox-figueira-castelo-rodrigo",
+      "destination": "/public/wallbox-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/wallbox-lagoaca",
+      "destination": "/public/wallbox-lagoaca.html"
+    },
+    {
+      "source": "/wallbox-meda",
+      "destination": "/public/wallbox-meda.html"
+    },
+    {
+      "source": "/wallbox-mesao-frio",
+      "destination": "/public/wallbox-mesao-frio.html"
+    },
+    {
+      "source": "/wallbox-miranda-do-douro",
+      "destination": "/public/wallbox-miranda-do-douro.html"
+    },
+    {
+      "source": "/wallbox-moncorvo",
+      "destination": "/public/wallbox-moncorvo.html"
+    },
+    {
+      "source": "/wallbox-mondim-de-basto",
+      "destination": "/public/wallbox-mondim-de-basto.html"
+    },
+    {
+      "source": "/wallbox-monforte-de-rio-livre",
+      "destination": "/public/wallbox-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/wallbox-montalegre",
+      "destination": "/public/wallbox-montalegre.html"
+    },
+    {
+      "source": "/wallbox-penedono",
+      "destination": "/public/wallbox-penedono.html"
+    },
+    {
+      "source": "/wallbox-rebordelo",
+      "destination": "/public/wallbox-rebordelo.html"
+    },
+    {
+      "source": "/wallbox-ribeira-de-pena",
+      "destination": "/public/wallbox-ribeira-de-pena.html"
+    },
+    {
+      "source": "/wallbox-santa-marta-penaguiao",
+      "destination": "/public/wallbox-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/wallbox-sendim",
+      "destination": "/public/wallbox-sendim.html"
+    },
+    {
+      "source": "/wallbox-sernancelhe",
+      "destination": "/public/wallbox-sernancelhe.html"
+    },
+    {
+      "source": "/wallbox-tabuaco",
+      "destination": "/public/wallbox-tabuaco.html"
+    },
+    {
+      "source": "/wallbox-vila-pouca-de-aguiar",
+      "destination": "/public/wallbox-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/blog/como-escolher-alarme-casa",
+      "destination": "/public/blog/como-escolher-alarme-casa.html"
+    },
+    {
+      "source": "/blog/como-escolher-ar-condicionado",
+      "destination": "/public/blog/como-escolher-ar-condicionado.html"
+    },
+    {
+      "source": "/blog/como-escolher-domotica-casa",
+      "destination": "/public/blog/como-escolher-domotica-casa.html"
+    },
+    {
+      "source": "/blog/como-escolher-painel-solar-casa",
+      "destination": "/public/blog/como-escolher-painel-solar-casa.html"
+    },
+    {
+      "source": "/blog/instalacao-eletrica-casa-nova-guia",
+      "destination": "/public/blog/instalacao-eletrica-casa-nova-guia.html"
+    },
+    {
+      "source": "/blog/manutencao-preventiva-eletrica-guia",
+      "destination": "/public/blog/manutencao-preventiva-eletrica-guia.html"
+    },
+    {
+      "source": "/blog/preco-eletricista-portugal",
+      "destination": "/public/blog/preco-eletricista-portugal.html"
+    },
+    {
+      "source": "/blog/wallbox-7kw-vs-22kw",
+      "destination": "/public/blog/wallbox-7kw-vs-22kw.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
