@@ -750,6 +750,506 @@
       "destination": "/public/blog/quanto-custa-certificacao-eletrica.html"
     },
     {
+      "source": "/alarme-alfandega-da-fe",
+      "destination": "/public/alarme-alfandega-da-fe.html"
+    },
+    {
+      "source": "/alarme-braganca",
+      "destination": "/public/alarme-braganca.html"
+    },
+    {
+      "source": "/alarme-carrazeda-de-ansiaes",
+      "destination": "/public/alarme-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/alarme-chaves",
+      "destination": "/public/alarme-chaves.html"
+    },
+    {
+      "source": "/alarme-freixo-de-espada-a-cinta",
+      "destination": "/public/alarme-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/alarme-macedo-de-cavaleiros",
+      "destination": "/public/alarme-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/alarme-mirandela",
+      "destination": "/public/alarme-mirandela.html"
+    },
+    {
+      "source": "/alarme-mogadouro",
+      "destination": "/public/alarme-mogadouro.html"
+    },
+    {
+      "source": "/alarme-murca",
+      "destination": "/public/alarme-murca.html"
+    },
+    {
+      "source": "/alarme-torre-de-moncorvo",
+      "destination": "/public/alarme-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/alarme-valpacos",
+      "destination": "/public/alarme-valpacos.html"
+    },
+    {
+      "source": "/alarme-vila-flor",
+      "destination": "/public/alarme-vila-flor.html"
+    },
+    {
+      "source": "/alarme-vila-real",
+      "destination": "/public/alarme-vila-real.html"
+    },
+    {
+      "source": "/alarme-vimioso",
+      "destination": "/public/alarme-vimioso.html"
+    },
+    {
+      "source": "/alarme-vinhais",
+      "destination": "/public/alarme-vinhais.html"
+    },
+    {
+      "source": "/ar-condicionado-alfandega-da-fe",
+      "destination": "/public/ar-condicionado-alfandega-da-fe.html"
+    },
+    {
+      "source": "/ar-condicionado-braganca",
+      "destination": "/public/ar-condicionado-braganca.html"
+    },
+    {
+      "source": "/ar-condicionado-carrazeda-de-ansiaes",
+      "destination": "/public/ar-condicionado-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/ar-condicionado-chaves",
+      "destination": "/public/ar-condicionado-chaves.html"
+    },
+    {
+      "source": "/ar-condicionado-freixo-de-espada-a-cinta",
+      "destination": "/public/ar-condicionado-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/ar-condicionado-macedo-de-cavaleiros",
+      "destination": "/public/ar-condicionado-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/ar-condicionado-mirandela",
+      "destination": "/public/ar-condicionado-mirandela.html"
+    },
+    {
+      "source": "/ar-condicionado-mogadouro",
+      "destination": "/public/ar-condicionado-mogadouro.html"
+    },
+    {
+      "source": "/ar-condicionado-murca",
+      "destination": "/public/ar-condicionado-murca.html"
+    },
+    {
+      "source": "/ar-condicionado-torre-de-moncorvo",
+      "destination": "/public/ar-condicionado-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/ar-condicionado-valpacos",
+      "destination": "/public/ar-condicionado-valpacos.html"
+    },
+    {
+      "source": "/ar-condicionado-vila-flor",
+      "destination": "/public/ar-condicionado-vila-flor.html"
+    },
+    {
+      "source": "/ar-condicionado-vila-real",
+      "destination": "/public/ar-condicionado-vila-real.html"
+    },
+    {
+      "source": "/ar-condicionado-vimioso",
+      "destination": "/public/ar-condicionado-vimioso.html"
+    },
+    {
+      "source": "/ar-condicionado-vinhais",
+      "destination": "/public/ar-condicionado-vinhais.html"
+    },
+    {
+      "source": "/domotica-alfandega-da-fe",
+      "destination": "/public/domotica-alfandega-da-fe.html"
+    },
+    {
+      "source": "/domotica-braganca",
+      "destination": "/public/domotica-braganca.html"
+    },
+    {
+      "source": "/domotica-carrazeda-de-ansiaes",
+      "destination": "/public/domotica-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/domotica-chaves",
+      "destination": "/public/domotica-chaves.html"
+    },
+    {
+      "source": "/domotica-freixo-de-espada-a-cinta",
+      "destination": "/public/domotica-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/domotica-macedo-de-cavaleiros",
+      "destination": "/public/domotica-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/domotica-mirandela",
+      "destination": "/public/domotica-mirandela.html"
+    },
+    {
+      "source": "/domotica-mogadouro",
+      "destination": "/public/domotica-mogadouro.html"
+    },
+    {
+      "source": "/domotica-murca",
+      "destination": "/public/domotica-murca.html"
+    },
+    {
+      "source": "/domotica-torre-de-moncorvo",
+      "destination": "/public/domotica-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/domotica-valpacos",
+      "destination": "/public/domotica-valpacos.html"
+    },
+    {
+      "source": "/domotica-vila-flor",
+      "destination": "/public/domotica-vila-flor.html"
+    },
+    {
+      "source": "/domotica-vila-real",
+      "destination": "/public/domotica-vila-real.html"
+    },
+    {
+      "source": "/domotica-vimioso",
+      "destination": "/public/domotica-vimioso.html"
+    },
+    {
+      "source": "/domotica-vinhais",
+      "destination": "/public/domotica-vinhais.html"
+    },
+    {
+      "source": "/eletricista-ao-domicilio",
+      "destination": "/public/eletricista-ao-domicilio.html"
+    },
+    {
+      "source": "/eletricista-braganca-distrito",
+      "destination": "/public/eletricista-braganca-distrito.html"
+    },
+    {
+      "source": "/eletricista-disponivel-hoje",
+      "destination": "/public/eletricista-disponivel-hoje.html"
+    },
+    {
+      "source": "/eletricista-nordeste-portugal",
+      "destination": "/public/eletricista-nordeste-portugal.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim",
+      "destination": "/public/eletricista-perto-de-mim.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-alfandega-da-fe",
+      "destination": "/public/paineis-fotovoltaicos-alfandega-da-fe.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-braganca",
+      "destination": "/public/paineis-fotovoltaicos-braganca.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-carrazeda-de-ansiaes",
+      "destination": "/public/paineis-fotovoltaicos-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-chaves",
+      "destination": "/public/paineis-fotovoltaicos-chaves.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-freixo-de-espada-a-cinta",
+      "destination": "/public/paineis-fotovoltaicos-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-macedo-de-cavaleiros",
+      "destination": "/public/paineis-fotovoltaicos-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-mirandela",
+      "destination": "/public/paineis-fotovoltaicos-mirandela.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-mogadouro",
+      "destination": "/public/paineis-fotovoltaicos-mogadouro.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-murca",
+      "destination": "/public/paineis-fotovoltaicos-murca.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-torre-de-moncorvo",
+      "destination": "/public/paineis-fotovoltaicos-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-valpacos",
+      "destination": "/public/paineis-fotovoltaicos-valpacos.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-vila-flor",
+      "destination": "/public/paineis-fotovoltaicos-vila-flor.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-vila-real",
+      "destination": "/public/paineis-fotovoltaicos-vila-real.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-vimioso",
+      "destination": "/public/paineis-fotovoltaicos-vimioso.html"
+    },
+    {
+      "source": "/paineis-fotovoltaicos-vinhais",
+      "destination": "/public/paineis-fotovoltaicos-vinhais.html"
+    },
+    {
+      "source": "/urgencia-eletricista-alfandega-da-fe",
+      "destination": "/public/urgencia-eletricista-alfandega-da-fe.html"
+    },
+    {
+      "source": "/urgencia-eletricista-braganca",
+      "destination": "/public/urgencia-eletricista-braganca.html"
+    },
+    {
+      "source": "/urgencia-eletricista-carrazeda-de-ansiaes",
+      "destination": "/public/urgencia-eletricista-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/urgencia-eletricista-chaves",
+      "destination": "/public/urgencia-eletricista-chaves.html"
+    },
+    {
+      "source": "/urgencia-eletricista-freixo-de-espada-a-cinta",
+      "destination": "/public/urgencia-eletricista-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/urgencia-eletricista-macedo-de-cavaleiros",
+      "destination": "/public/urgencia-eletricista-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/urgencia-eletricista-mirandela",
+      "destination": "/public/urgencia-eletricista-mirandela.html"
+    },
+    {
+      "source": "/urgencia-eletricista-mogadouro",
+      "destination": "/public/urgencia-eletricista-mogadouro.html"
+    },
+    {
+      "source": "/urgencia-eletricista-murca",
+      "destination": "/public/urgencia-eletricista-murca.html"
+    },
+    {
+      "source": "/urgencia-eletricista-torre-de-moncorvo",
+      "destination": "/public/urgencia-eletricista-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/urgencia-eletricista-valpacos",
+      "destination": "/public/urgencia-eletricista-valpacos.html"
+    },
+    {
+      "source": "/urgencia-eletricista-vila-flor",
+      "destination": "/public/urgencia-eletricista-vila-flor.html"
+    },
+    {
+      "source": "/urgencia-eletricista-vila-real",
+      "destination": "/public/urgencia-eletricista-vila-real.html"
+    },
+    {
+      "source": "/urgencia-eletricista-vimioso",
+      "destination": "/public/urgencia-eletricista-vimioso.html"
+    },
+    {
+      "source": "/urgencia-eletricista-vinhais",
+      "destination": "/public/urgencia-eletricista-vinhais.html"
+    },
+    {
+      "source": "/videoporteiro-alfandega-da-fe",
+      "destination": "/public/videoporteiro-alfandega-da-fe.html"
+    },
+    {
+      "source": "/videoporteiro-braganca",
+      "destination": "/public/videoporteiro-braganca.html"
+    },
+    {
+      "source": "/videoporteiro-carrazeda-de-ansiaes",
+      "destination": "/public/videoporteiro-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/videoporteiro-chaves",
+      "destination": "/public/videoporteiro-chaves.html"
+    },
+    {
+      "source": "/videoporteiro-freixo-de-espada-a-cinta",
+      "destination": "/public/videoporteiro-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/videoporteiro-macedo-de-cavaleiros",
+      "destination": "/public/videoporteiro-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/videoporteiro-mirandela",
+      "destination": "/public/videoporteiro-mirandela.html"
+    },
+    {
+      "source": "/videoporteiro-mogadouro",
+      "destination": "/public/videoporteiro-mogadouro.html"
+    },
+    {
+      "source": "/videoporteiro-murca",
+      "destination": "/public/videoporteiro-murca.html"
+    },
+    {
+      "source": "/videoporteiro-torre-de-moncorvo",
+      "destination": "/public/videoporteiro-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/videoporteiro-valpacos",
+      "destination": "/public/videoporteiro-valpacos.html"
+    },
+    {
+      "source": "/videoporteiro-vila-flor",
+      "destination": "/public/videoporteiro-vila-flor.html"
+    },
+    {
+      "source": "/videoporteiro-vila-real",
+      "destination": "/public/videoporteiro-vila-real.html"
+    },
+    {
+      "source": "/videoporteiro-vimioso",
+      "destination": "/public/videoporteiro-vimioso.html"
+    },
+    {
+      "source": "/videoporteiro-vinhais",
+      "destination": "/public/videoporteiro-vinhais.html"
+    },
+    {
+      "source": "/vmc-alfandega-da-fe",
+      "destination": "/public/vmc-alfandega-da-fe.html"
+    },
+    {
+      "source": "/vmc-braganca",
+      "destination": "/public/vmc-braganca.html"
+    },
+    {
+      "source": "/vmc-carrazeda-de-ansiaes",
+      "destination": "/public/vmc-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/vmc-chaves",
+      "destination": "/public/vmc-chaves.html"
+    },
+    {
+      "source": "/vmc-freixo-de-espada-a-cinta",
+      "destination": "/public/vmc-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/vmc-macedo-de-cavaleiros",
+      "destination": "/public/vmc-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/vmc-mirandela",
+      "destination": "/public/vmc-mirandela.html"
+    },
+    {
+      "source": "/vmc-mogadouro",
+      "destination": "/public/vmc-mogadouro.html"
+    },
+    {
+      "source": "/vmc-murca",
+      "destination": "/public/vmc-murca.html"
+    },
+    {
+      "source": "/vmc-torre-de-moncorvo",
+      "destination": "/public/vmc-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/vmc-valpacos",
+      "destination": "/public/vmc-valpacos.html"
+    },
+    {
+      "source": "/vmc-vila-flor",
+      "destination": "/public/vmc-vila-flor.html"
+    },
+    {
+      "source": "/vmc-vila-real",
+      "destination": "/public/vmc-vila-real.html"
+    },
+    {
+      "source": "/vmc-vimioso",
+      "destination": "/public/vmc-vimioso.html"
+    },
+    {
+      "source": "/vmc-vinhais",
+      "destination": "/public/vmc-vinhais.html"
+    },
+    {
+      "source": "/wallbox-alfandega-da-fe",
+      "destination": "/public/wallbox-alfandega-da-fe.html"
+    },
+    {
+      "source": "/wallbox-braganca",
+      "destination": "/public/wallbox-braganca.html"
+    },
+    {
+      "source": "/wallbox-carrazeda-de-ansiaes",
+      "destination": "/public/wallbox-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/wallbox-chaves",
+      "destination": "/public/wallbox-chaves.html"
+    },
+    {
+      "source": "/wallbox-freixo-de-espada-a-cinta",
+      "destination": "/public/wallbox-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/wallbox-macedo-de-cavaleiros",
+      "destination": "/public/wallbox-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/wallbox-mirandela",
+      "destination": "/public/wallbox-mirandela.html"
+    },
+    {
+      "source": "/wallbox-mogadouro",
+      "destination": "/public/wallbox-mogadouro.html"
+    },
+    {
+      "source": "/wallbox-murca",
+      "destination": "/public/wallbox-murca.html"
+    },
+    {
+      "source": "/wallbox-torre-de-moncorvo",
+      "destination": "/public/wallbox-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/wallbox-valpacos",
+      "destination": "/public/wallbox-valpacos.html"
+    },
+    {
+      "source": "/wallbox-vila-flor",
+      "destination": "/public/wallbox-vila-flor.html"
+    },
+    {
+      "source": "/wallbox-vila-real",
+      "destination": "/public/wallbox-vila-real.html"
+    },
+    {
+      "source": "/wallbox-vimioso",
+      "destination": "/public/wallbox-vimioso.html"
+    },
+    {
+      "source": "/wallbox-vinhais",
+      "destination": "/public/wallbox-vinhais.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
