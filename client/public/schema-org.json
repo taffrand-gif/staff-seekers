@@ -2,9 +2,9 @@
   "@context": "https://schema.org",
   "@type": "Electrician",
   "@id": "https://staff-seekers.com/#organization",
-  "name": "Electricista Profissional — Electricista Profissional",
+  "name": "Eletricista Profissional — Eletricista Profissional",
   "image": "https://staff-seekers.com/images-optimized/hero/hero-electrician-portugal.jpg",
-  "description": "Serviços de electricista profissional",
+  "description": "Serviços de eletricista profissional",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Macedo de Cavaleiros, Trás-os-Montes, Portugal",
