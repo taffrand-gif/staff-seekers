@@ -3556,6 +3556,142 @@
     {
       "source": "/reparacao-eletrica",
       "destination": "/reparacao-eletrica.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-alfandega-fe",
+      "destination": "/eletricista-perto-de-mim-alfandega-fe.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-alijo",
+      "destination": "/eletricista-perto-de-mim-alijo.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-armamar",
+      "destination": "/eletricista-perto-de-mim-armamar.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-boticas",
+      "destination": "/eletricista-perto-de-mim-boticas.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-braganca",
+      "destination": "/eletricista-perto-de-mim-braganca.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-carrazeda-ansiaes",
+      "destination": "/eletricista-perto-de-mim-carrazeda-ansiaes.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-chaves",
+      "destination": "/eletricista-perto-de-mim-chaves.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-foz-coa",
+      "destination": "/eletricista-perto-de-mim-foz-coa.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-freixo-espada-cinta",
+      "destination": "/eletricista-perto-de-mim-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-lamego",
+      "destination": "/eletricista-perto-de-mim-lamego.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-macedo-cavaleiros",
+      "destination": "/eletricista-perto-de-mim-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-mesao-frio",
+      "destination": "/eletricista-perto-de-mim-mesao-frio.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-miranda-douro",
+      "destination": "/eletricista-perto-de-mim-miranda-douro.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-mirandela",
+      "destination": "/eletricista-perto-de-mim-mirandela.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-mogadouro",
+      "destination": "/eletricista-perto-de-mim-mogadouro.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-moimenta-beira",
+      "destination": "/eletricista-perto-de-mim-moimenta-beira.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-mondim-basto",
+      "destination": "/eletricista-perto-de-mim-mondim-basto.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-montalegre",
+      "destination": "/eletricista-perto-de-mim-montalegre.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-murca",
+      "destination": "/eletricista-perto-de-mim-murca.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-penedono",
+      "destination": "/eletricista-perto-de-mim-penedono.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-regua",
+      "destination": "/eletricista-perto-de-mim-regua.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-ribeira-pena",
+      "destination": "/eletricista-perto-de-mim-ribeira-pena.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-sabrosa",
+      "destination": "/eletricista-perto-de-mim-sabrosa.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-santa-marta-penaguiao",
+      "destination": "/eletricista-perto-de-mim-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-sao-joao-pesqueira",
+      "destination": "/eletricista-perto-de-mim-sao-joao-pesqueira.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-sernancelhe",
+      "destination": "/eletricista-perto-de-mim-sernancelhe.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-tabuaco",
+      "destination": "/eletricista-perto-de-mim-tabuaco.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-torre-moncorvo",
+      "destination": "/eletricista-perto-de-mim-torre-moncorvo.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-valpacos",
+      "destination": "/eletricista-perto-de-mim-valpacos.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-vila-flor",
+      "destination": "/eletricista-perto-de-mim-vila-flor.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-vila-pouca-aguiar",
+      "destination": "/eletricista-perto-de-mim-vila-pouca-aguiar.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-vila-real",
+      "destination": "/eletricista-perto-de-mim-vila-real.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-vimioso",
+      "destination": "/eletricista-perto-de-mim-vimioso.html"
+    },
+    {
+      "source": "/eletricista-perto-de-mim-vinhais",
+      "destination": "/eletricista-perto-de-mim-vinhais.html"
     }
   ],
   "headers": [
