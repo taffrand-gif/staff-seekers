@@ -2827,4 +2827,133 @@
       "statusCode": 301
     }
   ]
+}    {
+      "source": "/melhores-aquecedores-eletricos",
+      "destination": "/public/melhores-aquecedores-eletricos.html"
+    },
+    {
+      "source": "/melhores-ar-condicionado-casa",
+      "destination": "/public/melhores-ar-condicionado-casa.html"
+    },
+    {
+      "source": "/melhores-convectores-eletricos",
+      "destination": "/public/melhores-convectores-eletricos.html"
+    },
+    {
+      "source": "/melhores-radiadores-oleo",
+      "destination": "/public/melhores-radiadores-oleo.html"
+    },
+    {
+      "source": "/melhores-ventiladores-teto",
+      "destination": "/public/melhores-ventiladores-teto.html"
+    },
+    {
+      "source": "/melhores-desumidificadores",
+      "destination": "/public/melhores-desumidificadores.html"
+    },
+    {
+      "source": "/melhores-humidificadores",
+      "destination": "/public/melhores-humidificadores.html"
+    },
+    {
+      "source": "/melhores-purificadores-ar",
+      "destination": "/public/melhores-purificadores-ar.html"
+    },
+    {
+      "source": "/melhores-estores-eletricos",
+      "destination": "/public/melhores-estores-eletricos.html"
+    },
+    {
+      "source": "/melhores-motores-portao",
+      "destination": "/public/melhores-motores-portao.html"
+    },
+    {
+      "source": "/melhores-videoporteiros",
+      "destination": "/public/melhores-videoporteiros.html"
+    },
+    {
+      "source": "/melhores-fechaduras-eletricas",
+      "destination": "/public/melhores-fechaduras-eletricas.html"
+    },
+    {
+      "source": "/melhores-alarmes-casa",
+      "destination": "/public/melhores-alarmes-casa.html"
+    },
+    {
+      "source": "/melhores-camaras-vigilancia",
+      "destination": "/public/melhores-camaras-vigilancia.html"
+    },
+    {
+      "source": "/melhores-sensores-movimento",
+      "destination": "/public/melhores-sensores-movimento.html"
+    },
+    {
+      "source": "/melhores-detetores-fumo",
+      "destination": "/public/melhores-detetores-fumo.html"
+    },
+    {
+      "source": "/melhores-detetores-monoxido",
+      "destination": "/public/melhores-detetores-monoxido.html"
+    },
+    {
+      "source": "/melhores-tomadas-inteligentes",
+      "destination": "/public/melhores-tomadas-inteligentes.html"
+    },
+    {
+      "source": "/melhores-lampadas-inteligentes",
+      "destination": "/public/melhores-lampadas-inteligentes.html"
+    },
+    {
+      "source": "/melhores-interruptores-wifi",
+      "destination": "/public/melhores-interruptores-wifi.html"
+    },
+    {
+      "source": "/melhores-fitas-led",
+      "destination": "/public/melhores-fitas-led.html"
+    },
+    {
+      "source": "/melhores-projetores-exterior",
+      "destination": "/public/melhores-projetores-exterior.html"
+    },
+    {
+      "source": "/melhores-apliques-parede",
+      "destination": "/public/melhores-apliques-parede.html"
+    },
+    {
+      "source": "/melhores-candeeiros-teto",
+      "destination": "/public/melhores-candeeiros-teto.html"
+    },
+    {
+      "source": "/melhores-downlights-encastrar",
+      "destination": "/public/melhores-downlights-encastrar.html"
+    },
+    {
+      "source": "/melhores-focos-led-exterior",
+      "destination": "/public/melhores-focos-led-exterior.html"
+    },
+    {
+      "source": "/melhores-geradores-eletricos",
+      "destination": "/public/melhores-geradores-eletricos.html"
+    },
+    {
+      "source": "/melhores-luzes-emergencia",
+      "destination": "/public/melhores-luzes-emergencia.html"
+    },
+    {
+      "source": "/melhores-termostatos-inteligentes",
+      "destination": "/public/melhores-termostatos-inteligentes.html"
+    },
+    {
+      "source": "/melhores-inversores-solares",
+      "destination": "/public/melhores-inversores-solares.html"
+    },
+    {
+      "source": "/melhores-baterias-solares",
+      "destination": "/public/melhores-baterias-solares.html"
+    },
+    {
+      "source": "/melhores-carregadores-ev-wallbox",
+      "destination": "/public/melhores-carregadores-ev-wallbox.html"
+    }
+  ]
 }
