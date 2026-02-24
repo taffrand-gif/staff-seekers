@@ -15,7 +15,7 @@ export default function StructuredData() {
     existingScripts.forEach(script => script.remove());
 
     const businessType = 'Electrician';
-    const serviceName = 'Electricista';
+    const serviceName = 'Eletricista';
     
     // Liste des 10 villes servies
     const citiesServed = [
@@ -148,16 +148,16 @@ export default function StructuredData() {
     // Service Schema spécifique pour les pages ville
     const getCityServiceSchema = () => {
       const cityPages = [
-        { path: '/electricista-chaves', city: 'Chaves' },
-        { path: '/electricista-braganca', city: 'Bragança' },
-        { path: '/electricista-mirandela', city: 'Mirandela' },
-        { path: '/electricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-        { path: '/electricista-valpacos', city: 'Valpaços' },
-        { path: '/electricista-vinhais', city: 'Vinhais' },
-        { path: '/electricista-miranda-douro', city: 'Miranda do Douro' },
-        { path: '/electricista-mogadouro', city: 'Mogadouro' },
-        { path: '/electricista-torre-moncorvo', city: 'Torre de Moncorvo' },
-        { path: '/electricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+        { path: '/eletricista-chaves', city: 'Chaves' },
+        { path: '/eletricista-braganca', city: 'Bragança' },
+        { path: '/eletricista-mirandela', city: 'Mirandela' },
+        { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+        { path: '/eletricista-valpacos', city: 'Valpaços' },
+        { path: '/eletricista-vinhais', city: 'Vinhais' },
+        { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
+        { path: '/eletricista-mogadouro', city: 'Mogadouro' },
+        { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
+        { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
       ];
 
       const currentCity = cityPages.find(page => location === page.path);
@@ -309,7 +309,7 @@ export default function StructuredData() {
           "name": "Têm certificação profissional?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim, somos electricistas certificados com anos de experiência na região. Trabalhamos com equipamento profissional Fluke e FLIR, e emitimos certificação CERTIEL."
+            "text": "Sim, somos eletricistas certificados com anos de experiência na região. Trabalhamos com equipamento profissional Fluke e FLIR, e emitimos certificação CERTIEL."
           }
         }
       ]
@@ -337,16 +337,16 @@ export default function StructuredData() {
 
     // Ajouter la ville actuelle au breadcrumb si on est sur une page ville
     const cityPages = [
-      { path: '/electricista-chaves', city: 'Chaves' },
-      { path: '/electricista-braganca', city: 'Bragança' },
-      { path: '/electricista-mirandela', city: 'Mirandela' },
-      { path: '/electricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-      { path: '/electricista-valpacos', city: 'Valpaços' },
-      { path: '/electricista-vinhais', city: 'Vinhais' },
-      { path: '/electricista-miranda-douro', city: 'Miranda do Douro' },
-      { path: '/electricista-mogadouro', city: 'Mogadouro' },
-      { path: '/electricista-torre-moncorvo', city: 'Torre de Moncorvo' },
-      { path: '/electricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+      { path: '/eletricista-chaves', city: 'Chaves' },
+      { path: '/eletricista-braganca', city: 'Bragança' },
+      { path: '/eletricista-mirandela', city: 'Mirandela' },
+      { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+      { path: '/eletricista-valpacos', city: 'Valpaços' },
+      { path: '/eletricista-vinhais', city: 'Vinhais' },
+      { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
+      { path: '/eletricista-mogadouro', city: 'Mogadouro' },
+      { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
+      { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
     ];
 
     const currentCity = cityPages.find(page => location === page.path);

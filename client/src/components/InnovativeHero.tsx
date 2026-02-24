@@ -23,7 +23,7 @@ const InnovativeHero: React.FC = () => {
 
   const badgeText = isPlumber
     ? 'CANALIZADOR PROFISSIONAL EM TRÁS-OS-MONTES'
-    : 'ELECTRICISTA CERTIFICADO EM TRÁS-OS-MONTES';
+    : 'ELETRICISTA CERTIFICADO EM TRÁS-OS-MONTES';
 
   const badgeEmoji = isPlumber ? '💧' : '⚡';
 

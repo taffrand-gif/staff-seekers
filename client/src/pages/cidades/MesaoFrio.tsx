@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function MesaoFrio() {
   useEffect(() => {
-    document.title = "Electricista Mesão Frio 24h - Douro e Turismo Fluvial - +351 932 321 892";
+    document.title = "Eletricista Mesão Frio 24h - Douro e Turismo Fluvial - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function MesaoFrio() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista em Mesão Frio, porta do Douro. Instalações para turismo fluvial, quintas vinícolas e habitações. Quadros elétricos, certificação. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista em Mesão Frio, porta do Douro. Instalações para turismo fluvial, quintas vinícolas e habitações. Quadros elétricos, certificação. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -23,7 +23,7 @@ export default function MesaoFrio() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-mesao-frio');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mesao-frio');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -31,8 +31,8 @@ export default function MesaoFrio() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Electricista Profissional Mesão Frio",
-      "description": "Electricista profissional em Mesão Frio. Porta do Douro, turismo fluvial e quintas.",
+      "name": "Eletricista Profissional Mesão Frio",
+      "description": "Eletricista profissional em Mesão Frio. Porta do Douro, turismo fluvial e quintas.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Mesão Frio",
@@ -73,7 +73,7 @@ export default function MesaoFrio() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ MESÃO FRIO - PORTA DO DOURO</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em Mesão Frio</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Mesão Frio</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho de Mesão Frio, porta de entrada do Douro. Instalações para turismo fluvial, quintas vinícolas, solares e habitações ribeirinhas.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
@@ -117,7 +117,7 @@ export default function MesaoFrio() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em Mesão Frio?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Mesão Frio?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos turismo, quintas e habitações em todo o concelho.</p>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
@@ -125,7 +125,7 @@ export default function MesaoFrio() {
           </div>
         </section>
 
-        <RelatedCities currentCity="Mesão Frio" currentCitySlug="electricista-mesao-frio" />
+        <RelatedCities currentCity="Mesão Frio" currentCitySlug="eletricista-mesao-frio" />
       </main>
       <Footer />
     </div>

@@ -49,7 +49,7 @@ const reviews: Review[] = [
     initial: 'J',
     city: 'Macedo de Cavaleiros',
     rating: 5,
-    text: 'O melhor electricista da região. Sempre disponível e preços honestos.',
+    text: 'O melhor eletricista da região. Sempre disponível e preços honestos.',
     date: 'há 1 mês',
   },
   {

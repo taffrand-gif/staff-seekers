@@ -51,7 +51,7 @@ export function ServicesSlider() {
     },
     {
       icon: '👷',
-      title: 'Electricistas Certificados',
+      title: 'Eletricistas Certificados',
       description: 'Profissionais qualificados com certificação DGEG',
       image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80'
     },

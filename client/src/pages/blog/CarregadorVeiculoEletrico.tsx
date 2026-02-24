@@ -115,9 +115,9 @@ export default function CarregadorVeiculoEletrico() {
                 para carregar de forma conveniente e económica.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a>, 
+                Seja em <a href="/eletricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/eletricista-chaves" className="text-orange-500 hover:underline"> Chaves</a>, 
                 instalar uma <strong>wallbox</strong> é mais simples do que pensa — e pode ter incentivos do Estado.
               </p>
             </div>
@@ -316,7 +316,7 @@ export default function CarregadorVeiculoEletrico() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-700">Instalação por electricista certificado</span>
+                  <span className="text-gray-700">Instalação por eletricista certificado</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />

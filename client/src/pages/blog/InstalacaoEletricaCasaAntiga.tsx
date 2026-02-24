@@ -112,9 +112,9 @@ export default function InstalacaoEletricaCasaAntiga() {
                 são património valioso, mas muitas têm instalações elétricas perigosamente desatualizadas.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/electricista-chaves" className="text-orange-500 hover:underline">Chaves</a>, 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/electricista-vila-real" className="text-orange-500 hover:underline"> Vila Real</a>, 
+                Seja em <a href="/eletricista-chaves" className="text-orange-500 hover:underline">Chaves</a>, 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/eletricista-vila-real" className="text-orange-500 hover:underline"> Vila Real</a>, 
                 renovar a instalação elétrica é essencial para segurança, conforto e valorização do imóvel.
               </p>
             </div>
@@ -297,7 +297,7 @@ export default function InstalacaoEletricaCasaAntiga() {
               <div className="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-500 mb-4">
                 <p className="text-sm text-gray-700">
                   <strong>Certificação CERTIEL:</strong> Após a renovação, é obrigatório obter o certificado 
-                  emitido por electricista certificado. Sem ele, não pode vender ou arrendar o imóvel.
+                  emitido por eletricista certificado. Sem ele, não pode vender ou arrendar o imóvel.
                 </p>
               </div>
               <p className="text-gray-700 mb-3"><strong>Requisitos mínimos:</strong></p>

@@ -57,8 +57,8 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
       category: 'Segurança'
     },
     { 
-      slug: 'custo-electricista-precos-regiao', 
-      title: 'Custo de Electricista - Preços na Região', 
+      slug: 'custo-eletricista-precos-regiao', 
+      title: 'Custo de Eletricista - Preços na Região', 
       excerpt: 'Tabela de preços atualizada para serviços elétricos em Trás-os-Montes.',
       category: 'Preços'
     },

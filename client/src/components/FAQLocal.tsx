@@ -40,19 +40,19 @@ export default function FAQLocal() {
     },
   ] : [
     {
-      question: 'Existe electricista disponível em Mirandela ao fim de semana?',
-      answer: 'Sim, a Electricista Profissional disponibiliza electricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
+      question: 'Existe eletricista disponível em Mirandela ao fim de semana?',
+      answer: 'Sim, a Eletricista Profissional disponibiliza eletricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
     },
     {
-      question: 'Quanto custa um electricista em Bragança?',
-      answer: 'O preço de um electricista em Bragança varia conforme o serviço: diagnóstico (40-55€), reparação de curto-circuito (70-120€), substituição de quadro elétrico (250-450€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
+      question: 'Quanto custa um eletricista em Bragança?',
+      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (40-55€), reparação de curto-circuito (70-120€), substituição de quadro elétrico (250-450€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
     },
     {
       question: 'Fazem certificação CERTIEL em Macedo de Cavaleiros?',
       answer: 'Sim, Macedo de Cavaleiros é a nossa base. Fazemos certificação CERTIEL para venda de imóveis, arrendamento e instalações novas. Prazo: 3-5 dias úteis. Preço: a partir de 150€ (sem IVA). Tratamos de toda a documentação e submissão na plataforma DGEG.',
     },
     {
-      question: 'Há electricista de urgência em Miranda do Douro?',
+      question: 'Há eletricista de urgência em Miranda do Douro?',
       answer: 'Sim, prestamos serviço de eletricidade de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como curtos-circuitos, falhas de energia ou situações de perigo. Ligue 932 321 892.',
     },
     {
@@ -60,8 +60,8 @@ export default function FAQLocal() {
       answer: 'Sim, fazemos substituição e modernização de quadros elétricos em Vila Flor, Torre de Moncorvo e todas as localidades do distrito de Bragança. Preço: 250-450€ (sem IVA). Inclui quadro novo, disjuntores diferenciais, instalação completa e certificação.',
     },
     {
-      question: 'Qual o electricista mais perto de Mogadouro?',
-      answer: 'A Electricista Profissional é o electricista certificado mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
+      question: 'Qual o eletricista mais perto de Mogadouro?',
+      answer: 'A Eletricista Profissional é o eletricista certificado mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
     },
   ];
 

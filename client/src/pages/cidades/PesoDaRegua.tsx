@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function PesoDaRegua() {
   useEffect(() => {
-    document.title = "Electricista Peso da Régua 24h - Capital do Douro - +351 932 321 892";
+    document.title = "Eletricista Peso da Régua 24h - Capital do Douro - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function PesoDaRegua() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista em Peso da Régua, capital do Douro. Instalações para caves de vinho, museus, hotéis e comércio. Quadros elétricos, certificação. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista em Peso da Régua, capital do Douro. Instalações para caves de vinho, museus, hotéis e comércio. Quadros elétricos, certificação. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -23,7 +23,7 @@ export default function PesoDaRegua() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-peso-da-regua');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-peso-da-regua');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -31,8 +31,8 @@ export default function PesoDaRegua() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Electricista Profissional Peso da Régua",
-      "description": "Electricista profissional em Peso da Régua. Capital do Douro, caves de vinho e turismo.",
+      "name": "Eletricista Profissional Peso da Régua",
+      "description": "Eletricista profissional em Peso da Régua. Capital do Douro, caves de vinho e turismo.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Peso da Régua",
@@ -73,7 +73,7 @@ export default function PesoDaRegua() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ PESO DA RÉGUA - CAPITAL DO DOURO</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em Peso da Régua</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Peso da Régua</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Instalações elétricas na capital do Douro. Caves de vinho, museus, hotéis e comércio. Especialistas em climatização de caves e sistemas de potência.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
@@ -117,7 +117,7 @@ export default function PesoDaRegua() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em Peso da Régua?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Peso da Régua?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos caves, hotéis e comércio em toda a Régua.</p>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
@@ -125,7 +125,7 @@ export default function PesoDaRegua() {
           </div>
         </section>
 
-        <RelatedCities currentCity="Peso da Régua" currentCitySlug="electricista-peso-da-regua" />
+        <RelatedCities currentCity="Peso da Régua" currentCitySlug="eletricista-peso-da-regua" />
       </main>
       <Footer />
     </div>

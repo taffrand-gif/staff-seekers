@@ -1,5 +1,5 @@
 /**
- * Témoignages Clients Réalistes - Staff-Seekers (Electricista)
+ * Témoignages Clients Réalistes - Staff-Seekers (Eletricista)
  * 
  * 15 témoignages crédibles
  * Détails crédibles : nom, ville, service, note, date

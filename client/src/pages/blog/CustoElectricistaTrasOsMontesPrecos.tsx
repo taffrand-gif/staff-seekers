@@ -5,16 +5,16 @@ import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import RelatedArticles from '@/components/RelatedArticles';
 
-const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
+const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
   useSEO({
-    title: 'Quanto Custa um Electricista em Trás-os-Montes? Guia de Preços 2026',
+    title: 'Quanto Custa um Eletricista em Trás-os-Montes? Guia de Preços 2026',
     description: 'Tabela completa de preços para serviços elétricos em Trás-os-Montes. Instalações, reparações, certificação e custos por hora.',
-    keywords: 'preço electricista, custo instalação elétrica, preços electricista Trás-os-Montes, quanto custa electricista, orçamento instalação elétrica'
+    keywords: 'preço eletricista, custo instalação elétrica, preços eletricista Trás-os-Montes, quanto custa eletricista, orçamento instalação elétrica'
   });
 
   return (
     <BlogLayout
-      title="Quanto Custa um Electricista em Trás-os-Montes? Guia de Preços 2026"
+      title="Quanto Custa um Eletricista em Trás-os-Montes? Guia de Preços 2026"
       description="Tabela detalhada e transparente de preços para todos os serviços elétricos na região de Trás-os-Montes"
     >
       <article className="max-w-4xl mx-auto">
@@ -30,7 +30,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Quanto Custa um Electricista em Trás-os-Montes? Guia de Preços 2026
+            Quanto Custa um Eletricista em Trás-os-Montes? Guia de Preços 2026
           </h1>
           
           <div className="flex items-center gap-4">
@@ -47,7 +47,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
         {/* Featured image */}
         <div className="mb-10 rounded-2xl overflow-hidden">
           <img
-            src="/images-optimized/blog/precos-electricista-guia.jpg"
+            src="/images-optimized/blog/precos-eletricista-guia.jpg"
             alt="Tabela de preços de serviços elétricos profissionais"
             className="w-full h-96 object-cover"
             loading="lazy"
@@ -70,7 +70,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
           </div>
 
           <p className="text-xl text-gray-700 mb-6">
-            Contratar um electricista em <Link to="/servicos">Trás-os-Montes</Link> envolve variáveis únicas da região: distâncias grandes, 
+            Contratar um eletricista em <Link to="/servicos">Trás-os-Montes</Link> envolve variáveis únicas da região: distâncias grandes, 
             casas com décadas (ou séculos) de idade, condições climáticas rigorosas e menor disponibilidade 
             de profissionais especializados. Neste guia completo, apresento uma tabela detalhada de preços 
             médios para 2026, fatores específicos da região que influenciam os custos, e como garantir 
@@ -195,8 +195,8 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                 <h3 className="font-bold text-gray-900 mb-3">🏠 Tipo de Construção</h3>
                 <p className="text-gray-700">
                   Casas de granito ou pedra (comuns em 
-                  <a href="/electricista-braganca" className="text-amber-600 underline mx-1">Bragança</a> e 
-                  <a href="/electricista-mirandela" className="text-amber-600 underline mx-1">Mirandela</a>) 
+                  <a href="/eletricista-braganca" className="text-amber-600 underline mx-1">Bragança</a> e 
+                  <a href="/eletricista-mirandela" className="text-amber-600 underline mx-1">Mirandela</a>) 
                   exigem ferramentas especiais e mais tempo. Paredes grossas dificultam passagem de tubos.
                 </p>
                 <p className="text-amber-700 font-semibold mt-2">Acréscimo: 25-50%</p>
@@ -206,8 +206,8 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                 <h3 className="font-bold text-gray-900 mb-3">🗺️ Distância e Acesso</h3>
                 <p className="text-gray-700">
                   Aldeias remotas (ex: 
-                  <a href="/electricista-vinhais" className="text-amber-600 underline mx-1">Vinhais</a>, 
-                  <a href="/electricista-mogadouro" className="text-amber-600 underline mx-1">Mogadouro</a>) 
+                  <a href="/eletricista-vinhais" className="text-amber-600 underline mx-1">Vinhais</a>, 
+                  <a href="/eletricista-mogadouro" className="text-amber-600 underline mx-1">Mogadouro</a>) 
                   têm custos de deslocação significativos. Estradas estreitas limitam veículos e equipamentos grandes.
                 </p>
                 <p className="text-amber-700 font-semibold mt-2">Acréscimo: 15-35%</p>
@@ -369,7 +369,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-2">Agrupar pequenos trabalhos</h4>
                     <p className="text-gray-700">
-                      Em vez de chamar o electricista para cada tomada avariada, faça uma lista de 
+                      Em vez de chamar o eletricista para cada tomada avariada, faça uma lista de 
                       tudo o que precisa e marque uma intervenção única. Reduz custos de deslocação 
                       e muitas vezes obtém desconto por volume.
                     </p>
@@ -381,7 +381,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-2">Comprar os materiais você mesmo</h4>
                     <p className="text-gray-700">
-                      Peça lista de materiais ao electricista e compre você em grandes superfícies 
+                      Peça lista de materiais ao eletricista e compre você em grandes superfícies 
                       (Leroy Merlin, AKI) ou online. Economiza 15-30% na margem do profissional. 
                       Mas <strong>compre exatamente o especificado</strong> - não troque marcas.
                     </p>
@@ -406,7 +406,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                     <h4 className="font-bold text-gray-900 mb-2">Negociar pacotes com vizinhos</h4>
                     <p className="text-gray-700">
                       Em aldeias, combine com 2-3 vizinhos para terem trabalhos no mesmo dia. 
-                      O electricista faz deslocação única e pode dar desconto de 10-20% a todos.
+                      O eletricista faz deslocação única e pode dar desconto de 10-20% a todos.
                     </p>
                   </div>
                 </div>
@@ -441,17 +441,17 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
 
           {/* FAQ Section with JSON-LD Schema */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Preços de Electricista</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Preços de Eletricista</h2>
             
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Porque é que os electricistas em Trás-os-Montes são mais caros que no Porto?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Porque é que os eletricistas em Trás-os-Montes são mais caros que no Porto?</h3>
                 <p className="text-gray-700">
                   Vários fatores justificam a diferença:
                   <ul className="mt-2 space-y-1">
                     <li>• <strong>Menor densidade de clientes:</strong> Menos trabalhos por km² significa custos fixos distribuídos por menos faturas</li>
                     <li>• <strong>Deslocações longas:</strong> Média de 50-100km entre clientes vs 5-10km em áreas urbanas</li>
-                    <li>• <strong>Especialização necessária:</strong> Conhecimento específico para casas antigas que electricistas urbanos não têm</li>
+                    <li>• <strong>Especialização necessária:</strong> Conhecimento específico para casas antigas que eletricistas urbanos não têm</li>
                     <li>• <strong>Menor concorrência:</strong> Poucos profissionais qualificados dispostos a trabalhar em zonas rurais</li>
                     <li>• <strong>Custos operacionais:</strong> Veículos 4x4, equipamento para condições adversas, stock maior de peças</li>
                   </ul>
@@ -501,7 +501,7 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "Porque é que os electricistas em Trás-os-Montes são mais caros que no Porto?",
+                    "name": "Porque é que os eletricistas em Trás-os-Montes são mais caros que no Porto?",
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Menor densidade de clientes distribui custos fixos por menos faturas; Deslocações longas (50-100km vs 5-10km); Especialização necessária para casas antigas; Menor concorrência de profissionais qualificados; Custos operacionais com veículos 4x4 e equipamento para condições adversas. A qualidade e atenção são frequentemente superiores."
@@ -559,19 +559,19 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
             Consultoria gratuita sobre preços específicos para a sua zona:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <a href="/electricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Vila Real</span>
               <p className="text-sm text-gray-600 mt-1">Desde 35€/hora</p>
             </a>
-            <a href="/electricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Bragança</span>
               <p className="text-sm text-gray-600 mt-1">Desde 40€/hora</p>
             </a>
-            <a href="/electricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Chaves</span>
               <p className="text-sm text-gray-600 mt-1">Desde 45€/hora</p>
             </a>
-            <a href="/electricista-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Macedo de Cavaleiros</span>
               <p className="text-sm text-gray-600 mt-1">Desde 42€/hora</p>
             </a>
@@ -580,21 +580,21 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
       
         {/* Contextual links for SEO */}
         <div className="mt-12 bg-orange-50 rounded-xl p-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Electricista na Sua Zona</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Eletricista na Sua Zona</h3>
           <p className="text-gray-700 mb-4">
             Servimos toda a região de <Link to="/servicos">Trás-os-Montes</Link>:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link to="/electricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Bragança</span>
             </Link>
-            <Link to="/electricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Mirandela</span>
             </Link>
-            <Link to="/electricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Chaves</span>
             </Link>
-            <Link to="/electricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Macedo de Cavaleiros</span>
             </Link>
           </div>
@@ -617,4 +617,4 @@ const CustoElectricistaTrasOsMontesPrecos: React.FC = () => {
   );
 };
 
-export default CustoElectricistaTrasOsMontesPrecos;
+export default CustoEletricistaTrasOsMontesPrecos;

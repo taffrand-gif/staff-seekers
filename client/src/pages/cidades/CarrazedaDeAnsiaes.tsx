@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function CarrazedaDeAnsiaes() {
   useEffect(() => {
-    document.title = "Electricista Carrazeda de Ansiães 24h - Quintas do Douro - +351 932 321 892";
+    document.title = "Eletricista Carrazeda de Ansiães 24h - Quintas do Douro - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function CarrazedaDeAnsiaes() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista em Carrazeda de Ansiães. Instalações elétricas para quintas do Douro, produção de Vinho do Porto. Quadros elétricos, iluminação. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista em Carrazeda de Ansiães. Instalações elétricas para quintas do Douro, produção de Vinho do Porto. Quadros elétricos, iluminação. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -23,7 +23,7 @@ export default function CarrazedaDeAnsiaes() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-carrazeda-de-ansiaes');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-carrazeda-de-ansiaes');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -31,8 +31,8 @@ export default function CarrazedaDeAnsiaes() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Electricista Profissional Carrazeda de Ansiães",
-      "description": "Electricista profissional em Carrazeda de Ansiães. Especialista em quintas do Douro e Vinho do Porto.",
+      "name": "Eletricista Profissional Carrazeda de Ansiães",
+      "description": "Eletricista profissional em Carrazeda de Ansiães. Especialista em quintas do Douro e Vinho do Porto.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Carrazeda de Ansiães",
@@ -73,7 +73,7 @@ export default function CarrazedaDeAnsiaes() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ CARRAZEDA DE ANSIÃES - QUINTAS DO DOURO</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em Carrazeda de Ansiães</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Carrazeda de Ansiães</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Especialistas em instalações elétricas para quintas do Douro e produção de Vinho do Porto. Servimos todo o concelho de Carrazeda de Ansiães.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
@@ -117,7 +117,7 @@ export default function CarrazedaDeAnsiaes() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em Carrazeda de Ansiães?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Carrazeda de Ansiães?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos todas as quintas e aldeias do concelho.</p>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
@@ -125,7 +125,7 @@ export default function CarrazedaDeAnsiaes() {
           </div>
         </section>
 
-        <RelatedCities currentCity="Carrazeda de Ansiães" currentCitySlug="electricista-carrazeda-de-ansiaes" />
+        <RelatedCities currentCity="Carrazeda de Ansiães" currentCitySlug="eletricista-carrazeda-de-ansiaes" />
       </main>
       <Footer />
     </div>

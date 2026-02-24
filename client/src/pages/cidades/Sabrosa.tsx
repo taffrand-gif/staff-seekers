@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Sabrosa() {
   useEffect(() => {
-    document.title = "Electricista Sabrosa 24h - Douro e Fernão de Magalhães - +351 932 321 892";
+    document.title = "Eletricista Sabrosa 24h - Douro e Fernão de Magalhães - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function Sabrosa() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista em Sabrosa, terra de Fernão de Magalhães no Douro. Instalações para quintas, museus e turismo. Quadros elétricos, certificação. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista em Sabrosa, terra de Fernão de Magalhães no Douro. Instalações para quintas, museus e turismo. Quadros elétricos, certificação. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -23,7 +23,7 @@ export default function Sabrosa() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-sabrosa');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-sabrosa');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -31,8 +31,8 @@ export default function Sabrosa() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Electricista Profissional Sabrosa",
-      "description": "Electricista profissional em Sabrosa. Instalações para quintas do Douro e espaços culturais.",
+      "name": "Eletricista Profissional Sabrosa",
+      "description": "Eletricista profissional em Sabrosa. Instalações para quintas do Douro e espaços culturais.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Sabrosa",
@@ -73,7 +73,7 @@ export default function Sabrosa() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ SABROSA - TERRA DE FERNÃO DE MAGALHÃES</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em Sabrosa</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Sabrosa</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho de Sabrosa, terra natal de Fernão de Magalhães. Instalações para quintas do Douro, espaços culturais e turismo de qualidade.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
@@ -117,7 +117,7 @@ export default function Sabrosa() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em Sabrosa?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Sabrosa?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos quintas, museus e habitações em todo o concelho.</p>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
@@ -125,7 +125,7 @@ export default function Sabrosa() {
           </div>
         </section>
 
-        <RelatedCities currentCity="Sabrosa" currentCitySlug="electricista-sabrosa" />
+        <RelatedCities currentCity="Sabrosa" currentCitySlug="eletricista-sabrosa" />
       </main>
       <Footer />
     </div>

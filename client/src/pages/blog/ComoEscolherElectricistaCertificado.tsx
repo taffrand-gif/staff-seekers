@@ -5,17 +5,17 @@ import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import RelatedArticles from '@/components/RelatedArticles';
 
-const ComoEscolherElectricistaCertificado: React.FC = () => {
+const ComoEscolherEletricistaCertificado: React.FC = () => {
   useSEO({
-    title: 'Como Escolher um Electricista Certificado em Trás-os-Montes - Guia 2026',
-    description: 'Guia completo para escolher o electricista certo em Trás-os-Montes. Critérios de seleção, perguntas essenciais e sinais de alerta.',
-    keywords: 'electricista certificado, escolher electricista, electricista de confiança, certificação electricista, electricista Trás-os-Montes'
+    title: 'Como Escolher um Eletricista Certificado em Trás-os-Montes - Guia 2026',
+    description: 'Guia completo para escolher o eletricista certo em Trás-os-Montes. Critérios de seleção, perguntas essenciais e sinais de alerta.',
+    keywords: 'eletricista certificado, escolher eletricista, eletricista de confiança, certificação eletricista, eletricista Trás-os-Montes'
   });
 
   return (
     <BlogLayout
-      title="Como Escolher um Electricista Certificado em Trás-os-Montes"
-      description="Guia completo com critérios essenciais para selecionar um electricista qualificado e de confiança na região de Trás-os-Montes"
+      title="Como Escolher um Eletricista Certificado em Trás-os-Montes"
+      description="Guia completo com critérios essenciais para selecionar um eletricista qualificado e de confiança na região de Trás-os-Montes"
     >
       <article className="max-w-4xl mx-auto">
         {/* Meta info */}
@@ -30,7 +30,7 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Como Escolher um Electricista Certificado em Trás-os-Montes
+            Como Escolher um Eletricista Certificado em Trás-os-Montes
           </h1>
           
           <div className="flex items-center gap-4">
@@ -47,8 +47,8 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
         {/* Featured image */}
         <div className="mb-10 rounded-2xl overflow-hidden">
           <img
-            src="/images-optimized/blog/escolher-electricista-certificado.jpg"
-            alt="Electricista certificado a trabalhar com segurança"
+            src="/images-optimized/blog/escolher-eletricista-certificado.jpg"
+            alt="Eletricista certificado a trabalhar com segurança"
             className="w-full h-96 object-cover"
             loading="lazy"
             width={800}
@@ -64,13 +64,13 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-lg mb-8">
             <p className="text-amber-800 font-semibold text-lg">
               ⚠️ Atenção: Em <Link to="/servicos">Trás-os-Montes</Link>, 35% dos acidentes elétricos domésticos são causados por 
-              intervenções de electricistas não qualificados. Escolher mal pode custar muito mais 
+              intervenções de eletricistas não qualificados. Escolher mal pode custar muito mais 
               do que o preço do serviço - pode custar vidas ou danos patrimoniais irreparáveis.
             </p>
           </div>
 
           <p className="text-xl text-gray-700 mb-6">
-            Contratar um electricista em <Link to="/servicos">Trás-os-Montes</Link> não é como contratar qualquer outro prestador de serviços. 
+            Contratar um eletricista em <Link to="/servicos">Trás-os-Montes</Link> não é como contratar qualquer outro prestador de serviços. 
             A eletricidade não perdoa erros, e as especificidades da região - casas antigas, condições climáticas 
             rigorosas, distâncias grandes - exigem profissionais com conhecimento local específico. 
             Neste guia completo, partilho os 7 critérios essenciais para fazer a escolha certa.
@@ -147,7 +147,7 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
               <p className="text-red-700">
                 Peça para ver os <strong>certificados originais</strong>, não fotocópias. Verifique validade e 
                 se o nome coincide com o do profissional. Em <Link to="/servicos">Trás-os-Montes</Link>, infelizmente, ainda circulam 
-                "electricistas" com certificados falsos. Desconfie de preços muito abaixo do mercado.
+                "eletricistas" com certificados falsos. Desconfie de preços muito abaixo do mercado.
               </p>
             </div>
           </section>
@@ -203,8 +203,8 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
             <div className="mt-6 p-6 bg-blue-50 border border-blue-200 rounded-xl">
               <h4 className="font-bold text-blue-800 text-lg mb-2">💡 Dica Local:</h4>
               <p className="text-blue-700">
-                Prefira electricistas com experiência comprovada na sua zona específica. Um profissional de 
-                <a href="/electricista-braganca" className="text-blue-600 underline mx-1">Bragança</a> 
+                Prefira eletricistas com experiência comprovada na sua zona específica. Um profissional de 
+                <a href="/eletricista-braganca" className="text-blue-600 underline mx-1">Bragança</a> 
                 conhece melhor os problemas das casas de granito do que um de Lisboa. Peça referências 
                 de trabalhos em casas similares à sua na mesma região.
               </p>
@@ -348,17 +348,17 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
 
               <div className="mt-8 text-center">
                 <p className="text-xl text-gray-900 mb-6">
-                  Precisa de um electricista certificado e de confiança em <Link to="/servicos">Trás-os-Montes</Link>?
+                  Precisa de um eletricista certificado e de confiança em <Link to="/servicos">Trás-os-Montes</Link>?
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
                     href={`tel:${ACTIVE_CONFIG.phone}`}
                     className="bg-amber-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-amber-700 transition-colors"
                   >
-                    📞 Falar com Electricista Certificado
+                    📞 Falar com Eletricista Certificado
                   </a>
                   <a
-                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de electricista certificado para:`}
+                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de eletricista certificado para:`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-amber-700 font-bold text-lg px-8 py-4 rounded-xl border-2 border-amber-600 hover:bg-amber-50 transition-colors"
@@ -375,16 +375,16 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
 
           {/* FAQ Section with JSON-LD Schema */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Electricistas em Trás-os-Montes</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Eletricistas em Trás-os-Montes</h2>
             
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Qual a diferença entre um electricista "certificado" e "autorizado"?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Qual a diferença entre um eletricista "certificado" e "autorizado"?</h3>
                 <p className="text-gray-700">
                   Em Portugal, a terminologia é importante:
                   <ul className="mt-2 space-y-1">
-                    <li>• <strong>Electricista Certificado:</strong> Possui certificação profissional (nível 4 QNQ ou superior) que comprova formação e competências técnicas.</li>
-                    <li>• <strong>Electricista Autorizado:</strong> Tem autorização da entidade reguladora (ex: ERSE para baixa tensão) para exercer atividade, após verificação de requisitos.</li>
+                    <li>• <strong>Eletricista Certificado:</strong> Possui certificação profissional (nível 4 QNQ ou superior) que comprova formação e competências técnicas.</li>
+                    <li>• <strong>Eletricista Autorizado:</strong> Tem autorização da entidade reguladora (ex: ERSE para baixa tensão) para exercer atividade, após verificação de requisitos.</li>
                     <li>• <strong>Empresa Instaladora Autorizada:</strong> Empresa com alvará para realizar instalações elétricas, obrigatória para obras novas ou renovações totais.</li>
                   </ul>
                   O ideal é um profissional que seja <strong>certificado E autorizado</strong>, preferencialmente integrado em empresa instaladora autorizada.
@@ -392,7 +392,7 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
               </div>
               
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Um electricista do Porto ou Lisboa pode trabalhar em Trás-os-Montes?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Um eletricista do Porto ou Lisboa pode trabalhar em Trás-os-Montes?</h3>
                 <p className="text-gray-700">
                   Legalmente sim, mas na prática apresenta desafios:
                   <ul className="mt-2 space-y-1">
@@ -401,12 +401,12 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
                     <li>• <strong>Dificuldade em garantias:</strong> Se houver problemas pós-obra, a deslocação é complicada</li>
                     <li>• <strong>Falta de rede local:</strong> Não tem parcerias com fornecedores locais para materiais urgentes</li>
                   </ul>
-                  Para trabalhos complexos ou em casas antigas, recomenda-se sempre electricistas com experiência comprovada na região.
+                  Para trabalhos complexos ou em casas antigas, recomenda-se sempre eletricistas com experiência comprovada na região.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Quanto custa em média uma consultoria para avaliação de electricista?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Quanto custa em média uma consultoria para avaliação de eletricista?</h3>
                 <p className="text-gray-700">
                   Em <Link to="/servicos">Trás-os-Montes</Link>, os preços variam:
                   <ul className="mt-2 space-y-1">
@@ -415,7 +415,7 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
                     <li>• <strong>Inspeção a obra em curso:</strong> 120-250€ (para quem já contratou e quer segunda opinião)</li>
                     <li>• <strong>Avaliação pós-obra:</strong> 150-300€ (verificação conformidade com normas)</li>
                   </ul>
-                  Muitos electricistas sérios oferecem verificação documental gratuita como prova de transparência.
+                  Muitos eletricistas sérios oferecem verificação documental gratuita como prova de transparência.
                 </p>
               </div>
             </div>
@@ -428,26 +428,26 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "Qual a diferença entre um electricista 'certificado' e 'autorizado'?",
+                    "name": "Qual a diferença entre um eletricista 'certificado' e 'autorizado'?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Electricista Certificado possui certificação profissional (nível 4 QNQ) que comprova formação. Electricista Autorizado tem autorização da entidade reguladora para exercer atividade. Empresa Instaladora Autorizada tem alvará para realizar instalações. O ideal é profissional certificado E autorizado, preferencialmente em empresa instaladora autorizada."
+                      "text": "Eletricista Certificado possui certificação profissional (nível 4 QNQ) que comprova formação. Eletricista Autorizado tem autorização da entidade reguladora para exercer atividade. Empresa Instaladora Autorizada tem alvará para realizar instalações. O ideal é profissional certificado E autorizado, preferencialmente em empresa instaladora autorizada."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Um electricista do Porto ou Lisboa pode trabalhar em Trás-os-Montes?",
+                    "name": "Um eletricista do Porto ou Lisboa pode trabalhar em Trás-os-Montes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Legalmente sim, mas apresenta desafios: conhecimento local limitado das casas antigas, deslocações caras repassadas ao cliente, dificuldade em garantias pós-obra, falta de rede local para materiais urgentes. Para trabalhos complexos em casas antigas, recomenda-se electricistas com experiência comprovada na região."
+                      "text": "Legalmente sim, mas apresenta desafios: conhecimento local limitado das casas antigas, deslocações caras repassadas ao cliente, dificuldade em garantias pós-obra, falta de rede local para materiais urgentes. Para trabalhos complexos em casas antigas, recomenda-se eletricistas com experiência comprovada na região."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Quanto custa em média uma consultoria para avaliação de electricista?",
+                    "name": "Quanto custa em média uma consultoria para avaliação de eletricista?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Avaliação básica: Grátis a 50€; Verificação documental completa: 80-150€; Inspeção a obra em curso: 120-250€; Avaliação pós-obra: 150-300€. Muitos electricistas sérios oferecem verificação documental gratuita como prova de transparência."
+                      "text": "Avaliação básica: Grátis a 50€; Verificação documental completa: 80-150€; Inspeção a obra em curso: 120-250€; Avaliação pós-obra: 150-300€. Muitos eletricistas sérios oferecem verificação documental gratuita como prova de transparência."
                     }
                   }
                 ]
@@ -473,7 +473,7 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
                 Ministra formação sobre seleção de prestadores de serviços elétricos para associações de moradores.
               </p>
               <p className="text-gray-600">
-                Para avaliação de electricistas ou dúvidas sobre certificações, contacte através do telefone ou WhatsApp acima.
+                Para avaliação de eletricistas ou dúvidas sobre certificações, contacte através do telefone ou WhatsApp acima.
               </p>
             </div>
           </div>
@@ -481,24 +481,24 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
 
         {/* Internal links to city pages */}
         <div className="mt-12 bg-gradient-to-r from-amber-50 to-amber-100 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">📍 Electricistas Certificados na Sua Zona</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">📍 Eletricistas Certificados na Sua Zona</h3>
           <p className="text-gray-700 mb-6">
             Trabalhamos em toda a região com profissionais certificados e com experiência local:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <a href="/electricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-vila-real" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Vila Real</span>
               <p className="text-sm text-gray-600 mt-1">Certificação verificada</p>
             </a>
-            <a href="/electricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Bragança</span>
               <p className="text-sm text-gray-600 mt-1">15+ anos experiência</p>
             </a>
-            <a href="/electricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Chaves</span>
               <p className="text-sm text-gray-600 mt-1">Especialista casas antigas</p>
             </a>
-            <a href="/electricista-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
+            <a href="/eletricista-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
               <span className="font-semibold text-amber-700">Macedo de Cavaleiros</span>
               <p className="text-sm text-gray-600 mt-1">Serviço 24h</p>
             </a>
@@ -507,21 +507,21 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
       
         {/* Contextual links for SEO */}
         <div className="mt-12 bg-orange-50 rounded-xl p-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Electricista na Sua Zona</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">⚡ Eletricista na Sua Zona</h3>
           <p className="text-gray-700 mb-4">
             Servimos toda a região de <Link to="/servicos">Trás-os-Montes</Link>:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link to="/electricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-braganca" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Bragança</span>
             </Link>
-            <Link to="/electricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-mirandela" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Mirandela</span>
             </Link>
-            <Link to="/electricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-chaves" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Chaves</span>
             </Link>
-            <Link to="/electricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
+            <Link to="/eletricista-macedo-cavaleiros" className="bg-white p-3 rounded-lg text-center hover:shadow transition-shadow">
               <span className="font-semibold text-orange-700">Macedo de Cavaleiros</span>
             </Link>
           </div>
@@ -544,4 +544,4 @@ const ComoEscolherElectricistaCertificado: React.FC = () => {
   );
 };
 
-export default ComoEscolherElectricistaCertificado;
+export default ComoEscolherEletricistaCertificado;

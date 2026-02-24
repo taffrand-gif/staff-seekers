@@ -58,8 +58,8 @@ const QuandoTrocarInstalacaoEletrica = lazy(() => import("@/pages/blog/QuandoTro
 const SinaisProblemasEletricos = lazy(() => import("@/pages/blog/SinaisProblemasEletricos"));
 const QuadroEletricoAntigo = lazy(() => import("@/pages/blog/QuadroEletricoAntigo"));
 const CertificacaoEletricaCertiel = lazy(() => import("@/pages/blog/CertificacaoEletricaCertiel"));
-const ComoEscolherElectricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherElectricistaCertificado"));
-const CustoElectricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoElectricistaTrasOsMontesPrecos"));
+const ComoEscolherEletricistaCertificado = lazy(() => import("@/pages/blog/ComoEscolherEletricistaCertificado"));
+const CustoEletricistaTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoEletricistaTrasOsMontesPrecos"));
 const PaineisSolaresTrasOsMontesGuia = lazy(() => import("@/pages/blog/PaineisSolaresTrasOsMontesGuia"));
 const AutomacaoResidencialGuia = lazy(() => import("@/pages/blog/AutomacaoResidencialGuia"));
 const ProtecaoSobrecargas = lazy(() => import("@/pages/blog/ProtecaoSobrecargas"));
@@ -86,40 +86,40 @@ function Router() {
         <Route path={"/certificacao-eletrica"} component={CertificacaoEletrica} />
         <Route path={"/instalacao-eletrica"} component={InstalacaoEletrica} />
         <Route path={"/paineis-solares"} component={PaineisSolares} />
-        <Route path={"/electricista-vila-real"} component={VilaReal} />
-        <Route path={"/electricista-braganca"} component={Braganca} />
-        <Route path={"/electricista-chaves"} component={Chaves} />
-        <Route path={"/electricista-mirandela"} component={Mirandela} />
-        <Route path={"/electricista-macedo-cavaleiros"} component={MacedoCavaleiros} />
-        <Route path={"/electricista-vinhais"} component={Vinhais} />
-        <Route path={"/electricista-miranda-douro"} component={MirandaDouro} />
-        <Route path={"/electricista-mogadouro"} component={Mogadouro} />
-        <Route path={"/electricista-torre-moncorvo"} component={TorreMoncorvo} />
-        <Route path={"/electricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
-        <Route path={"/electricista-valpacos"} component={Valpacos} />
-        <Route path={"/electricista-alfandega-da-fe"} component={AlfandegaDaFe} />
-        <Route path={"/electricista-vila-flor"} component={VilaFlor} />
-        <Route path={"/electricista-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
-        <Route path={"/electricista-vimioso"} component={Vimioso} />
-        <Route path={"/electricista-montalegre"} component={Montalegre} />
-        <Route path={"/electricista-boticas"} component={Boticas} />
-        <Route path={"/electricista-murca"} component={Murca} />
-        <Route path={"/electricista-alijo"} component={Alijo} />
-        <Route path={"/electricista-sabrosa"} component={Sabrosa} />
-        <Route path={"/electricista-vila-pouca-de-aguiar"} component={VilaPoucaDeAguiar} />
-        <Route path={"/electricista-ribeira-de-pena"} component={RibeiraDePena} />
-        <Route path={"/electricista-mondim-de-basto"} component={MondimDeBasto} />
-        <Route path={"/electricista-peso-da-regua"} component={PesoDaRegua} />
-        <Route path={"/electricista-lamego"} component={Lamego} />
-        <Route path={"/electricista-moimenta-da-beira"} component={MoimentaDaBeira} />
-        <Route path={"/electricista-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
-        <Route path={"/electricista-sernancelhe"} component={Sernancelhe} />
-        <Route path={"/electricista-penedono"} component={Penedono} />
-        <Route path={"/electricista-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
-        <Route path={"/electricista-tabuaco"} component={Tabuaco} />
-        <Route path={"/electricista-armamar"} component={Armamar} />
-        <Route path={"/electricista-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
-        <Route path={"/electricista-mesao-frio"} component={MesaoFrio} />
+        <Route path={"/eletricista-vila-real"} component={VilaReal} />
+        <Route path={"/eletricista-braganca"} component={Braganca} />
+        <Route path={"/eletricista-chaves"} component={Chaves} />
+        <Route path={"/eletricista-mirandela"} component={Mirandela} />
+        <Route path={"/eletricista-macedo-cavaleiros"} component={MacedoCavaleiros} />
+        <Route path={"/eletricista-vinhais"} component={Vinhais} />
+        <Route path={"/eletricista-miranda-douro"} component={MirandaDouro} />
+        <Route path={"/eletricista-mogadouro"} component={Mogadouro} />
+        <Route path={"/eletricista-torre-moncorvo"} component={TorreMoncorvo} />
+        <Route path={"/eletricista-freixo-espada-cinta"} component={FreixoEspadaCinta} />
+        <Route path={"/eletricista-valpacos"} component={Valpacos} />
+        <Route path={"/eletricista-alfandega-da-fe"} component={AlfandegaDaFe} />
+        <Route path={"/eletricista-vila-flor"} component={VilaFlor} />
+        <Route path={"/eletricista-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
+        <Route path={"/eletricista-vimioso"} component={Vimioso} />
+        <Route path={"/eletricista-montalegre"} component={Montalegre} />
+        <Route path={"/eletricista-boticas"} component={Boticas} />
+        <Route path={"/eletricista-murca"} component={Murca} />
+        <Route path={"/eletricista-alijo"} component={Alijo} />
+        <Route path={"/eletricista-sabrosa"} component={Sabrosa} />
+        <Route path={"/eletricista-vila-pouca-de-aguiar"} component={VilaPoucaDeAguiar} />
+        <Route path={"/eletricista-ribeira-de-pena"} component={RibeiraDePena} />
+        <Route path={"/eletricista-mondim-de-basto"} component={MondimDeBasto} />
+        <Route path={"/eletricista-peso-da-regua"} component={PesoDaRegua} />
+        <Route path={"/eletricista-lamego"} component={Lamego} />
+        <Route path={"/eletricista-moimenta-da-beira"} component={MoimentaDaBeira} />
+        <Route path={"/eletricista-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
+        <Route path={"/eletricista-sernancelhe"} component={Sernancelhe} />
+        <Route path={"/eletricista-penedono"} component={Penedono} />
+        <Route path={"/eletricista-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
+        <Route path={"/eletricista-tabuaco"} component={Tabuaco} />
+        <Route path={"/eletricista-armamar"} component={Armamar} />
+        <Route path={"/eletricista-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
+        <Route path={"/eletricista-mesao-frio"} component={MesaoFrio} />
         <Route path={"/blog"} component={BlogIndex} />
         <Route path={"/blog/como-instalar-candeeiro-teto-seguranca"} component={ComoInstalarCandeeiroTeto} />
         <Route path={"/blog/poupar-energia-eletrica-dicas"} component={PouparEnergiaEletricaDicas} />
@@ -127,8 +127,8 @@ function Router() {
         <Route path={"/blog/sinais-problemas-eletricos-casa"} component={SinaisProblemasEletricos} />
         <Route path={"/blog/quadro-eletrico-antigo-fusiveis-trocar"} component={QuadroEletricoAntigo} />
         <Route path={"/blog/certificacao-eletrica-certiel-guia"} component={CertificacaoEletricaCertiel} />
-        <Route path={"/blog/como-escolher-electricista-certificado"} component={ComoEscolherElectricistaCertificado} />
-        <Route path={"/blog/custo-electricista-tras-os-montes-precos"} component={CustoElectricistaTrasOsMontesPrecos} />
+        <Route path={"/blog/como-escolher-eletricista-certificado"} component={ComoEscolherEletricistaCertificado} />
+        <Route path={"/blog/custo-eletricista-tras-os-montes-precos"} component={CustoEletricistaTrasOsMontesPrecos} />
         <Route path={"/blog/paineis-solares-tras-os-montes-guia"} component={PaineisSolaresTrasOsMontesGuia} />
         <Route path={"/blog/automacao-residencial-casa-inteligente"} component={AutomacaoResidencialGuia} />
         <Route path={"/blog/protecao-sobrecargas-eletricas-casa"} component={ProtecaoSobrecargas} />

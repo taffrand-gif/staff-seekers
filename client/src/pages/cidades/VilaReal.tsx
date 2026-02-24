@@ -1,4 +1,4 @@
-// SEO optimized page for "Electricista Vila Real"
+// SEO optimized page for "Eletricista Vila Real"
 // 100% unique content, conforme aux politiques Google
 
 import Header from '@/components/Header';
@@ -15,7 +15,7 @@ export default function VilaReal() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Electricista em Vila Real, Macedo, Mirandela, Bragança - Electricista Profissional - +351 932 321 892";
+    document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -24,7 +24,7 @@ export default function VilaReal() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista certificado em Vila Real, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista certificado em Vila Real, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -32,7 +32,7 @@ export default function VilaReal() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'electricista urgente vila real, electricista 24 horas vila real, electricista vila real, electricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, reparação elétrica vila real, electricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'eletricista urgente vila real, eletricista 24 horas vila real, eletricista vila real, eletricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, reparação elétrica vila real, eletricista trás-os-montes');
     
     
     // Canonical URL
@@ -42,7 +42,7 @@ export default function VilaReal() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-vila-real');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vila-real');
     
     // Schema.org LocalBusiness for Vila Real
     const schemaScript = document.createElement('script');
@@ -50,9 +50,9 @@ export default function VilaReal() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Electricista Profissional — Electricista em Vila Real",
+      "name": "Eletricista Profissional — Eletricista em Vila Real",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Electricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
+      "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Vila Real",
@@ -73,7 +73,7 @@ export default function VilaReal() {
         "name": "Vila Real"
       },
       "sameAs": [
-        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -111,17 +111,17 @@ export default function VilaReal() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Electricista Profissional</a> &gt; 
+                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Vila Real</span>
               </nav>
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Electricista Profissional em <span className="text-blue-900">Vila Real</span>
+                Eletricista Profissional em <span className="text-blue-900">Vila Real</span>
               </h1>
               
               <p className="text-xl mb-8">
-                Serviços de electricista certificado em Vila Real e arredores. 
+                Serviços de eletricista certificado em Vila Real e arredores. 
                 Mais de 15 anos de experiência a servir a região de Trás-os-Montes.
               </p>
               
@@ -130,10 +130,10 @@ export default function VilaReal() {
                   href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Electricista Vila Real: {ACTIVE_CONFIG.phone}
+                  📞 Eletricista Vila Real: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um electricista em Vila Real`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -151,7 +151,7 @@ export default function VilaReal() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Porque escolher um electricista em Vila Real da Electricista Profissional?
+                  Porque escolher um eletricista em Vila Real da Eletricista Profissional?
                 </h2>
                 
                 <div className="space-y-6">
@@ -243,7 +243,7 @@ export default function VilaReal() {
         {/* FAQ Section with Schema.org - Vila Real Specific */}
         <section className="py-16 bg-gray-50">
           <FAQSection
-            title="Perguntas Frequentes sobre Electricista em Vila Real"
+            title="Perguntas Frequentes sobre Eletricista em Vila Real"
             faqs={[
               {
                 question: "Qual o tempo médio de resposta para urgências em Vila Real?",
@@ -277,7 +277,7 @@ export default function VilaReal() {
         <section className="py-16 bg-gradient-to-r from-blue-900 to-amber-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Precisa de um Electricista em <span className="text-amber-300">Vila Real</span>?
+              Precisa de um Eletricista em <span className="text-amber-300">Vila Real</span>?
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Contacte-nos agora para um orçamento gratuito. 
@@ -292,7 +292,7 @@ export default function VilaReal() {
                 📞 {ACTIVE_CONFIG.phone} (Vila Real)
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um electricista em Vila Real`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -318,7 +318,7 @@ export default function VilaReal() {
 
         <RelatedCities 
           currentCity="Vila Real" 
-          currentCitySlug="electricista-vilareal" 
+          currentCitySlug="eletricista-vilareal" 
         />
       </main>
       

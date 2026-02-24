@@ -1,4 +1,4 @@
-// Configuration for Staff-Seekers (Electricista)
+// Configuration for Staff-Seekers (Eletricista)
 // Zone d'intervention : rayon de 100 km autour de Macedo de Cavaleiros, district de Bragança, Portugal
 // Site en portugais uniquement — Tarifs sem IVA
 
@@ -94,14 +94,14 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   id: 'staff-seekers',
-  name: 'Electricista Profissional',
-  title: 'Electricista Certificado em Trás-os-Montes | Electricista Profissional — Instalação & Reparação Elétrica 24h',
-  description: 'Electricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
+  name: 'Eletricista Profissional',
+  title: 'Eletricista Certificado em Trás-os-Montes | Eletricista Profissional — Instalação & Reparação Elétrica 24h',
+  description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
   phone: '932 321 892',
   whatsapp: '351932321892',
-  whatsappMessage: 'Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?',
+  whatsappMessage: 'Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?',
   email: 'info@staff-seekers.com',
-  serviceType: 'Electricista',
+  serviceType: 'Eletricista',
   domain: 'staff-seekers.com',
   
   colors: {
@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
   },
   
   hero: {
-    title: 'Electricistas de Confiança em Trás-os-Montes.',
+    title: 'Eletricistas de Confiança em Trás-os-Montes.',
     subtitle: 'De Bragança a Vila Real. Chegamos rápido, resolvemos bem, e o preço é justo.',
     backgroundImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
@@ -159,7 +159,7 @@ export const siteConfig: SiteConfig = {
   team: [
     {
       name: "Sr. Carlos 'O Mestre'",
-      role: "Mestre Electricista",
+      role: "Mestre Eletricista",
       location: "Bragança",
       bio: "58 anos. 35 anos de profession. Rosto marcado pelo frio transmontano. Especialidade: colocação às normas, quadros antigos.",
       quote: "\"O quadro é antigo, mas a gente resolve sem partir a parede toda.\"",
@@ -212,23 +212,23 @@ export const siteConfig: SiteConfig = {
   ],
   
   company: {
-    fullName: 'Electricista Profissional — Electricista Profissional',
-    shortDescription: 'Electricista certificado ao seu serviço em Trás-os-Montes.',
-    longDescription: 'A Electricista Profissional presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+    fullName: 'Eletricista Profissional — Eletricista Profissional',
+    shortDescription: 'Eletricista certificado ao seu serviço em Trás-os-Montes.',
+    longDescription: 'A Eletricista Profissional presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
     coverage: 'Trás-os-Montes — Distrito de Bragança e região',
     yearEstablished: '2015',
   },
   
   seo: {
     keywords: [
-      'electricista bragança', 'electricista mirandela', 'electricista macedo de cavaleiros',
-      'electricista urgente bragança', 'electricista 24 horas mirandela', 'electricista chaves',
-      'electricista vila real', 'electricista vinhais', 'electricista miranda do douro',
-      'electricista mogadouro', 'electricista torre de moncorvo', 'electricista trás-os-montes',
+      'eletricista bragança', 'eletricista mirandela', 'eletricista macedo de cavaleiros',
+      'eletricista urgente bragança', 'eletricista 24 horas mirandela', 'eletricista chaves',
+      'eletricista vila real', 'eletricista vinhais', 'eletricista miranda do douro',
+      'eletricista mogadouro', 'eletricista torre de moncorvo', 'eletricista trás-os-montes',
       'quadro elétrico bragança', 'quadro elétrico mirandela', 'certificação certiel bragança',
       'certificação certiel mirandela', 'curto circuito bragança', 'avaria elétrica mirandela',
-      'disjuntor a disparar', 'tomada não funciona', 'electricista urgente 24h',
-      'electricista profissional', 'certificação elétrica trás-os-montes'
+      'disjuntor a disparar', 'tomada não funciona', 'eletricista urgente 24h',
+      'eletricista profissional', 'certificação elétrica trás-os-montes'
     ],
     ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
   },

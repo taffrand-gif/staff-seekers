@@ -123,9 +123,9 @@ export default function IluminacaoExteriorJardim() {
                 A <strong>iluminação exterior</strong> é muito mais do que funcionalidade. É segurança, estética e valorização do imóvel.
               </p>
               <p className="text-gray-700">
-                Seja em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> ou 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a>, 
+                Seja em <a href="/eletricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/eletricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> ou 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a>, 
                 um projeto bem executado transforma completamente o exterior da sua casa, 
                 tornando-o mais seguro e acolhedor.
               </p>

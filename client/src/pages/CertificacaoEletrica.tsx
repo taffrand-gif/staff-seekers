@@ -11,10 +11,10 @@ const faqItems = [
 
 export default function CertificacaoEletrica() {
   useEffect(() => {
-    document.title = "Certificação Elétrica CERTIEL em Trás-os-Montes | Electricista Certificado";
+    document.title = "Certificação Elétrica CERTIEL em Trás-os-Montes | Eletricista Certificado";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
-    meta.setAttribute('content', 'Certificação elétrica CERTIEL em Trás-os-Montes. Inspeção, correção e emissão de certificado. Electricista certificado. Ligue +351 932 321 892.');
+    meta.setAttribute('content', 'Certificação elétrica CERTIEL em Trás-os-Montes. Inspeção, correção e emissão de certificado. Eletricista certificado. Ligue +351 932 321 892.');
   }, []);
 
   const serviceSchema = {
@@ -135,11 +135,11 @@ export default function CertificacaoEletrica() {
           <h3 className="text-xl font-bold text-center mb-6 text-gray-900">Também servimos:</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
-              { name: "Macedo de Cavaleiros", href: "/electricista-macedo-cavaleiros" },
-              { name: "Bragança", href: "/electricista-braganca" },
-              { name: "Chaves", href: "/electricista-chaves" },
-              { name: "Torre de Moncorvo", href: "/electricista-torre-moncorvo" },
-              { name: "Vinhais", href: "/electricista-vinhais" }
+              { name: "Macedo de Cavaleiros", href: "/eletricista-macedo-cavaleiros" },
+              { name: "Bragança", href: "/eletricista-braganca" },
+              { name: "Chaves", href: "/eletricista-chaves" },
+              { name: "Torre de Moncorvo", href: "/eletricista-torre-moncorvo" },
+              { name: "Vinhais", href: "/eletricista-vinhais" }
             ].map((city, i) => (
               <a key={i} href={city.href} className="p-3 bg-gray-50 rounded-lg text-center text-orange-600 hover:bg-orange-50 font-medium transition-colors">{city.name}</a>
             ))}

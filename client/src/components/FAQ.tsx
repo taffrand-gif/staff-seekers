@@ -48,7 +48,7 @@ export default function FAQ() {
 
   const electricFaqs = [
     {
-      question: 'Qual é o horário de atendimento do electricista?',
+      question: 'Qual é o horário de atendimento do eletricista?',
       answer: 'Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Temos piquetes de urgência sempre prontos para intervir em Trás-os-Montes.',
     },
     {
@@ -61,7 +61,7 @@ export default function FAQ() {
     },
     {
       question: 'Os técnicos são certificados?',
-      answer: 'Sim, todos os nossos electricistas são certificados e credenciados, com vasta experiência na área. Estamos habilitados para emitir certificados CERTIEL.',
+      answer: 'Sim, todos os nossos eletricistas são certificados e credenciados, com vasta experiência na área. Estamos habilitados para emitir certificados CERTIEL.',
     },
     {
       question: 'Fazem substituição de quadros elétricos?',

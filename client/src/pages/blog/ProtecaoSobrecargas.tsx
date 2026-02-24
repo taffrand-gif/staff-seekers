@@ -95,7 +95,7 @@ export default function ProtecaoSobrecargas() {
     {
       erro: "Ignorar disjuntores que disparam frequentemente",
       risco: "Sinal de sobrecarga crónica ou curto-circuito",
-      solucao: "Chame um electricista para avaliar o circuito"
+      solucao: "Chame um eletricista para avaliar o circuito"
     },
     {
       erro: "Não ter DPS instalado",
@@ -134,9 +134,9 @@ export default function ProtecaoSobrecargas() {
                 Felizmente, com as proteções certas, pode evitar 99% dos problemas.
               </p>
               <p className="text-gray-700">
-                Neste guia, vou explicar-lhe como proteger a sua casa em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/electricista-mirandela" className="text-orange-500 hover:underline"> Mirandela</a> contra sobrecargas, 
+                Neste guia, vou explicar-lhe como proteger a sua casa em <a href="/eletricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/eletricista-mirandela" className="text-orange-500 hover:underline"> Mirandela</a> contra sobrecargas, 
                 picos de tensão e outros perigos elétricos.
               </p>
             </div>
@@ -316,7 +316,7 @@ export default function ProtecaoSobrecargas() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="bg-orange-500 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">10</span>
-                  <p className="text-gray-700">Contrate sempre um electricista certificado para alterações</p>
+                  <p className="text-gray-700">Contrate sempre um eletricista certificado para alterações</p>
                 </li>
               </ol>
             </div>

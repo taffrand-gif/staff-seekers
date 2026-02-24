@@ -1,4 +1,4 @@
-// Página SEO: Zona de Intervenção - Electricista em Trás-os-Montes
+// Página SEO: Zona de Intervenção - Eletricista em Trás-os-Montes
 // Lista completa das 34 cidades servidas com distâncias desde Macedo de Cavaleiros
 
 import Header from '@/components/Header';
@@ -67,7 +67,7 @@ export default function Zonas() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = 'Zona de Intervenção - Electricista em Trás-os-Montes | 34 Cidades Servidas';
+    document.title = 'Zona de Intervenção - Eletricista em Trás-os-Montes | 34 Cidades Servidas';
 
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -77,7 +77,7 @@ export default function Zonas() {
     }
     metaDescription.setAttribute(
       'content',
-      'Electricista profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde Macedo de Cavaleiros. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
+      'Eletricista profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde Macedo de Cavaleiros. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
     );
 
     let canonical = document.querySelector('link[rel="canonical"]');
@@ -94,7 +94,7 @@ export default function Zonas() {
     schemaScript.text = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Service',
-      name: 'Electricista Profissional em Trás-os-Montes',
+      name: 'Eletricista Profissional em Trás-os-Montes',
       provider: {
         '@type': 'LocalBusiness',
         name: 'Staff Seekers',
@@ -126,7 +126,7 @@ export default function Zonas() {
           },
         })),
       ],
-      serviceType: 'Electricista',
+      serviceType: 'Eletricista',
       description:
         'Serviços de electricidade profissional em 34 cidades de Trás-os-Montes, num raio de 100km desde Macedo de Cavaleiros.',
     });
@@ -141,7 +141,7 @@ export default function Zonas() {
 
   const CityCard = ({ city }: { city: City }) => (
     <a
-      href={`/electricista-${city.slug}`}
+      href={`/eletricista-${city.slug}`}
       className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-md transition-all duration-200"
     >
       <div className="flex items-start justify-between">
@@ -167,7 +167,7 @@ export default function Zonas() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Zona de Intervenção — Electricista em Trás-os-Montes
+                Zona de Intervenção — Eletricista em Trás-os-Montes
               </h1>
               <p className="text-xl text-orange-100 mb-8">
                 Servimos 34 cidades num raio de 100km desde Macedo de Cavaleiros. Intervenção rápida em toda a região de
@@ -244,7 +244,7 @@ export default function Zonas() {
         <section className="bg-white py-16 border-t border-gray-200">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Precisa de um Electricista?</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Precisa de um Eletricista?</h2>
               <p className="text-lg text-gray-600 mb-8">
                 Atendemos toda a região de Trás-os-Montes com rapidez e profissionalismo. Orçamento gratuito e sem
                 compromisso.

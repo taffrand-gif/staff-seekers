@@ -87,7 +87,7 @@ function getDicas(serviceType: 'electricite'): Dica[] {
     {
       icon: '🔧',
       title: 'Não faça reparações sem conhecimento',
-      content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um electricista certificado para reparações.',
+      content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um eletricista certificado para reparações.',
     },
     {
       icon: '🏠',
@@ -112,7 +112,7 @@ function getDicas(serviceType: 'electricite'): Dica[] {
     {
       icon: '📞',
       title: 'Tenha sempre um contacto de emergência',
-      content: 'Guarde o número de um electricista de confiança disponível 24h. Problemas elétricos podem ser perigosos e requerem intervenção imediata.',
+      content: 'Guarde o número de um eletricista de confiança disponível 24h. Problemas elétricos podem ser perigosos e requerem intervenção imediata.',
     },
   ];
 }

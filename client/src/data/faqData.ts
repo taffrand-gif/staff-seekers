@@ -1,5 +1,5 @@
 /**
- * FAQ Data for Staff-Seekers (Electricista)
+ * FAQ Data for Staff-Seekers (Eletricista)
  * 
  * 20 questions optimisées SEO
  * Ciblant les mots-clés longue traîne les plus recherchés
@@ -15,14 +15,14 @@ export interface FAQItem {
 export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   {
     id: 1,
-    question: "Quanto custa chamar um electricista em Bragança?",
-    answer: "O custo de chamar um electricista em Bragança varia consoante o tipo de intervenção. Para uma visita de diagnóstico, o preço médio é de 40€ a 55€. Intervenções simples como substituição de tomadas ou interruptores começam em 45€, enquanto reparações de curtos-circuitos podem variar entre 65€ e 150€ dependendo da complexidade. Substituição de quadros elétricos custa entre 350€ e 800€ (materiais incluídos). Certificação CERTIEL completa varia entre 180€ e 350€. Trabalhamos com orçamentos gratuitos e transparentes - contacte-nos para um orçamento personalizado sem compromisso.",
+    question: "Quanto custa chamar um eletricista em Bragança?",
+    answer: "O custo de chamar um eletricista em Bragança varia consoante o tipo de intervenção. Para uma visita de diagnóstico, o preço médio é de 40€ a 55€. Intervenções simples como substituição de tomadas ou interruptores começam em 45€, enquanto reparações de curtos-circuitos podem variar entre 65€ e 150€ dependendo da complexidade. Substituição de quadros elétricos custa entre 350€ e 800€ (materiais incluídos). Certificação CERTIEL completa varia entre 180€ e 350€. Trabalhamos com orçamentos gratuitos e transparentes - contacte-nos para um orçamento personalizado sem compromisso.",
     category: "Preços"
   },
   {
     id: 2,
     question: "Como identificar um curto-circuito?",
-    answer: "Sinais comuns de curto-circuito incluem: disjuntores que saltam frequentemente, cheiro a queimado nas tomadas ou interruptores, tomadas ou interruptores quentes ao toque, luzes que piscam ou diminuem de intensidade, faíscas visíveis ao ligar aparelhos, ou fusíveis queimados repetidamente. Se detetar algum destes sinais, desligue imediatamente o disjuntor geral e contacte um electricista certificado. Não tente reparar sozinho - a eletricidade mal reparada pode causar incêndios ou choques elétricos graves. Utilizamos equipamento de diagnóstico profissional (multímetros, detetores de tensão) para identificar a origem exata do problema.",
+    answer: "Sinais comuns de curto-circuito incluem: disjuntores que saltam frequentemente, cheiro a queimado nas tomadas ou interruptores, tomadas ou interruptores quentes ao toque, luzes que piscam ou diminuem de intensidade, faíscas visíveis ao ligar aparelhos, ou fusíveis queimados repetidamente. Se detetar algum destes sinais, desligue imediatamente o disjuntor geral e contacte um eletricista certificado. Não tente reparar sozinho - a eletricidade mal reparada pode causar incêndios ou choques elétricos graves. Utilizamos equipamento de diagnóstico profissional (multímetros, detetores de tensão) para identificar a origem exata do problema.",
     category: "Diagnóstico"
   },
   {
@@ -123,5 +123,5 @@ export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   },
   {
     id: 19,
-    question: "Como escolher um electricista certificado?",
-    answer: "Para escolher um electricista certificado, verifique: 1) Certificação CERTIEL ativa (pode verificar
+    question: "Como escolher um eletricista certificado?",
+    answer: "Para escolher um eletricista certificado, verifique: 1) Certificação CERTIEL ativa (pode verificar

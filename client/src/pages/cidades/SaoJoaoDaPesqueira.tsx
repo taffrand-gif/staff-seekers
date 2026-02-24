@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function SaoJoaoDaPesqueira() {
   useEffect(() => {
-    document.title = "Electricista São João da Pesqueira 24h - Douro Vinhateiro - +351 932 321 892";
+    document.title = "Eletricista São João da Pesqueira 24h - Douro Vinhateiro - +351 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function SaoJoaoDaPesqueira() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Electricista em São João da Pesqueira, coração do Douro. Instalações para quintas vinícolas, adegas e turismo. Quadros elétricos, certificação. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Eletricista em São João da Pesqueira, coração do Douro. Instalações para quintas vinícolas, adegas e turismo. Quadros elétricos, certificação. Orçamento gratuito.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -23,7 +23,7 @@ export default function SaoJoaoDaPesqueira() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/electricista-sao-joao-da-pesqueira');
+    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-sao-joao-da-pesqueira');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
@@ -31,8 +31,8 @@ export default function SaoJoaoDaPesqueira() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Electrician",
-      "name": "Electricista Profissional São João da Pesqueira",
-      "description": "Electricista profissional em São João da Pesqueira. Douro vinhateiro, quintas e adegas.",
+      "name": "Eletricista Profissional São João da Pesqueira",
+      "description": "Eletricista profissional em São João da Pesqueira. Douro vinhateiro, quintas e adegas.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "São João da Pesqueira",
@@ -73,7 +73,7 @@ export default function SaoJoaoDaPesqueira() {
         <section className="relative py-20 bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')` }}>
           <div className="container text-center text-white">
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">⚡ SÃO JOÃO DA PESQUEIRA - DOURO VINHATEIRO</span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6">Electricista em São João da Pesqueira</h1>
+            <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em São João da Pesqueira</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho de São João da Pesqueira, no coração do Douro. Instalações para quintas vinícolas, adegas e espaços de enoturismo.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
@@ -117,7 +117,7 @@ export default function SaoJoaoDaPesqueira() {
 
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-black mb-4">Precisa de Electricista em São João da Pesqueira?</h2>
+            <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em São João da Pesqueira?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos quintas, adegas e turismo em todo o Douro.</p>
             <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
@@ -125,7 +125,7 @@ export default function SaoJoaoDaPesqueira() {
           </div>
         </section>
 
-        <RelatedCities currentCity="São João da Pesqueira" currentCitySlug="electricista-sao-joao-da-pesqueira" />
+        <RelatedCities currentCity="São João da Pesqueira" currentCitySlug="eletricista-sao-joao-da-pesqueira" />
       </main>
       <Footer />
     </div>

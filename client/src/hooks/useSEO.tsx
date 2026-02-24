@@ -140,14 +140,14 @@ export function generateMetaDescription(ville?: string): string {
   }
   
   // Page d'accueil
-  return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de electricistas profissionais certificados. Ligue ${config.phone}`;
+  return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de eletricistas profissionais certificados. Ligue ${config.phone}`;
 }
 
 // Fonction pour générer les mots-clés SEO
 export function generateKeywords(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
-  const baseKeywords = ['electricista', 'electricista certificado', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação CERTIEL'];
+  const baseKeywords = ['eletricista', 'eletricista certificado', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação CERTIEL'];
   
   if (ville) {
     return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');

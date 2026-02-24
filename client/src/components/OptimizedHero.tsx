@@ -84,7 +84,7 @@ const OptimizedHero: React.FC = () => {
       <div className="absolute right-0 bottom-0 w-1/3 h-3/4 hidden lg:block">
         <img
           src="/images-optimized/hero/hero-electrician-portugal.jpg"
-          alt="Electricista profissional em Trás-os-Montes com multímetro"
+          alt="Eletricista profissional em Trás-os-Montes com multímetro"
           className="w-full h-full object-cover object-left rounded-l-3xl shadow-2xl"
           loading="eager"
           width="800"

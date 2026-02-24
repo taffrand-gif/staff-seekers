@@ -158,9 +158,9 @@ export default function PoupancaEnergiaInverno() {
               </p>
               <p className="text-gray-700">
                 Mas com as estratégias certas, pode reduzir a conta de luz em 30-50% sem passar frio. 
-                Seja em <a href="/electricista-chaves" className="text-orange-500 hover:underline">Chaves</a>, 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/electricista-montalegre" className="text-orange-500 hover:underline"> Montalegre</a>, 
+                Seja em <a href="/eletricista-chaves" className="text-orange-500 hover:underline">Chaves</a>, 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/eletricista-montalegre" className="text-orange-500 hover:underline"> Montalegre</a>, 
                 estas dicas funcionam.
               </p>
             </div>

@@ -108,9 +108,9 @@ export default function AutomacaoResidencialGuia() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed">
                 A <strong>automação residencial</strong> (ou domótica) deixou de ser ficção científica. 
-                Hoje, qualquer casa em <a href="/electricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
-                <a href="/electricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
-                <a href="/electricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> pode tornar-se inteligente 
+                Hoje, qualquer casa em <a href="/eletricista-vila-real" className="text-orange-500 hover:underline">Vila Real</a>, 
+                <a href="/eletricista-braganca" className="text-orange-500 hover:underline"> Bragança</a> ou 
+                <a href="/eletricista-chaves" className="text-orange-500 hover:underline"> Chaves</a> pode tornar-se inteligente 
                 com um investimento acessível.
               </p>
               <p className="text-gray-700">
@@ -223,7 +223,7 @@ export default function AutomacaoResidencialGuia() {
                 <div>
                   <h3 className="font-bold mb-1">Avaliação Elétrica</h3>
                   <p className="text-sm text-gray-700">
-                    Um electricista profissional avalia a instalação elétrica existente e verifica se suporta os novos dispositivos.
+                    Um eletricista profissional avalia a instalação elétrica existente e verifica se suporta os novos dispositivos.
                   </p>
                 </div>
               </div>
@@ -241,7 +241,7 @@ export default function AutomacaoResidencialGuia() {
                 <div>
                   <h3 className="font-bold mb-1">Instalação Profissional</h3>
                   <p className="text-sm text-gray-700">
-                    A instalação deve ser feita por um electricista certificado para garantir segurança e funcionamento correto.
+                    A instalação deve ser feita por um eletricista certificado para garantir segurança e funcionamento correto.
                   </p>
                 </div>
               </div>

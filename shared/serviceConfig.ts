@@ -35,7 +35,7 @@ export interface ServiceConfig {
   commonProblems: string[];
 }
 
-// Configuração Eletricidade (Electricista Profissional)
+// Configuração Eletricidade (Eletricista Profissional)
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
   name: 'Eletricista',

@@ -5,9 +5,9 @@ import { useSEO } from '@/hooks/useSEO';
 
 const BlogIndex: React.FC = () => {
   useSEO({
-    title: 'Blog do Electricista - Dicas e Guias para Eletricidade em Trás-os-Montes',
+    title: 'Blog do Eletricista - Dicas e Guias para Eletricidade em Trás-os-Montes',
     description: 'Artigos informativos sobre eletricidade, segurança elétrica, manutenção e legislação para residências e empresas na região de Trás-os-Montes.',
-    keywords: 'blog electricista, dicas eletricidade, segurança elétrica, manutenção elétrica, Trás-os-Montes'
+    keywords: 'blog eletricista, dicas eletricidade, segurança elétrica, manutenção elétrica, Trás-os-Montes'
   });
 
   // Articles data - à remplacer par API/database plus tard
@@ -95,8 +95,8 @@ const BlogIndex: React.FC = () => {
     },
     {
       slug: 'sinais-problemas-eletricos-casa',
-      title: '7 Sinais de Problemas Elétricos em Casa - Quando Chamar Electricista',
-      excerpt: 'Aprenda a identificar os 7 sinais de alerta de problemas elétricos em casa. Saiba quando é urgente chamar um electricista profissional.',
+      title: '7 Sinais de Problemas Elétricos em Casa - Quando Chamar Eletricista',
+      excerpt: 'Aprenda a identificar os 7 sinais de alerta de problemas elétricos em casa. Saiba quando é urgente chamar um eletricista profissional.',
       category: 'Segurança Elétrica',
       readTime: '9',
       date: '15 Fev 2026',
@@ -121,18 +121,18 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/certiel.jpg'
     },
     {
-      slug: 'como-escolher-electricista-certificado',
-      title: 'Como Escolher um Electricista Certificado: 7 Critérios Essenciais',
-      excerpt: 'Guia completo para escolher um electricista certificado de confiança. 7 critérios essenciais para não errar na escolha.',
+      slug: 'como-escolher-eletricista-certificado',
+      title: 'Como Escolher um Eletricista Certificado: 7 Critérios Essenciais',
+      excerpt: 'Guia completo para escolher um eletricista certificado de confiança. 7 critérios essenciais para não errar na escolha.',
       category: 'Dicas',
       readTime: '8',
       date: '18 Fev 2026',
-      imageUrl: '/images-optimized/blog/escolher-electricista.jpg'
+      imageUrl: '/images-optimized/blog/escolher-eletricista.jpg'
     },
     {
-      slug: 'custo-electricista-tras-os-montes-precos',
-      title: 'Quanto Custa um Electricista em Trás-os-Montes? Tabela de Preços 2026',
-      excerpt: 'Tabela completa de preços de electricista em Trás-os-Montes. Valores por serviço, urgências e fatores que influenciam o custo.',
+      slug: 'custo-eletricista-tras-os-montes-precos',
+      title: 'Quanto Custa um Eletricista em Trás-os-Montes? Tabela de Preços 2026',
+      excerpt: 'Tabela completa de preços de eletricista em Trás-os-Montes. Valores por serviço, urgências e fatores que influenciam o custo.',
       category: 'Preços',
       readTime: '9',
       date: '18 Fev 2026',
@@ -151,7 +151,7 @@ const BlogIndex: React.FC = () => {
 
   return (
     <BlogLayout
-      title="Blog do Electricista Profissional"
+      title="Blog do Eletricista Profissional"
       description="Dicas, guias e informações úteis sobre eletricidade para residências e empresas em Trás-os-Montes"
     >
       {/* Hero section */}
@@ -160,7 +160,7 @@ const BlogIndex: React.FC = () => {
           Conhecimento que <span className="text-amber-600">Ilumina</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Artigos escritos por electricistas certificados para ajudar proprietários e empresas a entenderem melhor a eletricidade e tomarem decisões informadas.
+          Artigos escritos por eletricistas certificados para ajudar proprietários e empresas a entenderem melhor a eletricidade e tomarem decisões informadas.
         </p>
       </div>
 
@@ -172,7 +172,7 @@ const BlogIndex: React.FC = () => {
               <div className="rounded-xl overflow-hidden">
                 <img
                   src="/images-optimized/blog/featured.jpg"
-                  alt="Electricista profissional a trabalhar"
+                  alt="Eletricista profissional a trabalhar"
                   className="w-full h-64 object-cover"
                   loading="lazy"
                   width={400}
@@ -185,7 +185,7 @@ const BlogIndex: React.FC = () => {
                 Artigo em Destaque
               </span>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                10 Sinais de que Precisa de um Electricista Urgente
+                10 Sinais de que Precisa de um Eletricista Urgente
               </h2>
               <p className="text-gray-700 mb-6 text-lg">
                 Descubra os sinais de alerta que indicam problemas elétricos sérios na sua casa ou empresa. 
