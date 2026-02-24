@@ -3528,6 +3528,34 @@
     {
       "source": "/perguntas-frequentes-eletricista-vinhais",
       "destination": "/perguntas-frequentes-eletricista-vinhais.html"
+    },
+    {
+      "source": "/eletricista-24-horas",
+      "destination": "/eletricista-24-horas.html"
+    },
+    {
+      "source": "/eletricista-barato",
+      "destination": "/eletricista-barato.html"
+    },
+    {
+      "source": "/eletricista-urgente-perto-de-mim",
+      "destination": "/eletricista-urgente-perto-de-mim.html"
+    },
+    {
+      "source": "/falha-energia",
+      "destination": "/falha-energia.html"
+    },
+    {
+      "source": "/inspecao-eletrica",
+      "destination": "/inspecao-eletrica.html"
+    },
+    {
+      "source": "/ponto-carregamento",
+      "destination": "/ponto-carregamento.html"
+    },
+    {
+      "source": "/reparacao-eletrica",
+      "destination": "/reparacao-eletrica.html"
     }
   ],
   "headers": [
