@@ -1990,10 +1990,6 @@
       "destination": "/public/blog/wallbox-7kw-vs-22kw.html"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    },
-    {
       "source": "/404",
       "destination": "/public/404.html"
     },
@@ -2823,5 +2819,12 @@
       ]
     }
   ],
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/eletricista-macedo-de-cavaleiros",
+      "destination": "/eletricista-macedo-cavaleiros",
+      "statusCode": 301
+    }
+  ]
 }
