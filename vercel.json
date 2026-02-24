@@ -3260,6 +3260,274 @@
     {
       "source": "/blog/vistoria-eletrica-compra-casa",
       "destination": "/blog/vistoria-eletrica-compra-casa.html"
+    },
+    {
+      "source": "/blog/alexa-vs-google-home-eletricista",
+      "destination": "/blog/alexa-vs-google-home-eletricista.html"
+    },
+    {
+      "source": "/blog/aquecimento-eletrico-inverno-dicas",
+      "destination": "/blog/aquecimento-eletrico-inverno-dicas.html"
+    },
+    {
+      "source": "/blog/ar-condicionado-eficiente-verao",
+      "destination": "/blog/ar-condicionado-eficiente-verao.html"
+    },
+    {
+      "source": "/blog/autoconsumo-como-funciona",
+      "destination": "/blog/autoconsumo-como-funciona.html"
+    },
+    {
+      "source": "/blog/automacao-aquecimento",
+      "destination": "/blog/automacao-aquecimento.html"
+    },
+    {
+      "source": "/blog/bateria-solar-vale-pena",
+      "destination": "/blog/bateria-solar-vale-pena.html"
+    },
+    {
+      "source": "/blog/carregador-carro-eletrico-garagem",
+      "destination": "/blog/carregador-carro-eletrico-garagem.html"
+    },
+    {
+      "source": "/blog/carregador-carro-eletrico-solar",
+      "destination": "/blog/carregador-carro-eletrico-solar.html"
+    },
+    {
+      "source": "/blog/carregamento-noturno-vantagens",
+      "destination": "/blog/carregamento-noturno-vantagens.html"
+    },
+    {
+      "source": "/blog/casa-inteligente-guia-iniciante",
+      "destination": "/blog/casa-inteligente-guia-iniciante.html"
+    },
+    {
+      "source": "/blog/comunidade-energia-renovavel",
+      "destination": "/blog/comunidade-energia-renovavel.html"
+    },
+    {
+      "source": "/blog/consumo-eletrico-ferias",
+      "destination": "/blog/consumo-eletrico-ferias.html"
+    },
+    {
+      "source": "/blog/contador-inteligente-vantagens",
+      "destination": "/blog/contador-inteligente-vantagens.html"
+    },
+    {
+      "source": "/blog/descarregador-sobretensoes",
+      "destination": "/blog/descarregador-sobretensoes.html"
+    },
+    {
+      "source": "/blog/disjuntor-diferencial-tipos",
+      "destination": "/blog/disjuntor-diferencial-tipos.html"
+    },
+    {
+      "source": "/blog/eficiencia-energetica-classe-a",
+      "destination": "/blog/eficiencia-energetica-classe-a.html"
+    },
+    {
+      "source": "/blog/eletricidade-humidade-perigos",
+      "destination": "/blog/eletricidade-humidade-perigos.html"
+    },
+    {
+      "source": "/blog/estores-automaticos-vantagens",
+      "destination": "/blog/estores-automaticos-vantagens.html"
+    },
+    {
+      "source": "/blog/fechadura-digital-seguranca",
+      "destination": "/blog/fechadura-digital-seguranca.html"
+    },
+    {
+      "source": "/blog/iluminacao-inteligente-guia",
+      "destination": "/blog/iluminacao-inteligente-guia.html"
+    },
+    {
+      "source": "/blog/iluminacao-natal-segura",
+      "destination": "/blog/iluminacao-natal-segura.html"
+    },
+    {
+      "source": "/blog/incendio-eletrico-prevencao",
+      "destination": "/blog/incendio-eletrico-prevencao.html"
+    },
+    {
+      "source": "/blog/instalacao-eletrica-garagem-ev",
+      "destination": "/blog/instalacao-eletrica-garagem-ev.html"
+    },
+    {
+      "source": "/blog/inversor-solar-como-escolher",
+      "destination": "/blog/inversor-solar-como-escolher.html"
+    },
+    {
+      "source": "/blog/manutencao-paineis-solares",
+      "destination": "/blog/manutencao-paineis-solares.html"
+    },
+    {
+      "source": "/blog/net-metering-portugal",
+      "destination": "/blog/net-metering-portugal.html"
+    },
+    {
+      "source": "/blog/paineis-solares-telhado-inclinado",
+      "destination": "/blog/paineis-solares-telhado-inclinado.html"
+    },
+    {
+      "source": "/blog/paineis-solares-tras-os-montes-guia-completo",
+      "destination": "/blog/paineis-solares-tras-os-montes-guia-completo.html"
+    },
+    {
+      "source": "/blog/painel-controlo-casa",
+      "destination": "/blog/painel-controlo-casa.html"
+    },
+    {
+      "source": "/blog/potencia-contratada-carro-eletrico",
+      "destination": "/blog/potencia-contratada-carro-eletrico.html"
+    },
+    {
+      "source": "/blog/poupanca-energia-outono",
+      "destination": "/blog/poupanca-energia-outono.html"
+    },
+    {
+      "source": "/blog/protecao-contra-raios",
+      "destination": "/blog/protecao-contra-raios.html"
+    },
+    {
+      "source": "/blog/protecao-criancas-tomadas",
+      "destination": "/blog/protecao-criancas-tomadas.html"
+    },
+    {
+      "source": "/blog/proteger-aparelhos-trovoada",
+      "destination": "/blog/proteger-aparelhos-trovoada.html"
+    },
+    {
+      "source": "/blog/quanto-custa-carregar-carro-casa",
+      "destination": "/blog/quanto-custa-carregar-carro-casa.html"
+    },
+    {
+      "source": "/blog/quanto-custa-certificacao-certiel",
+      "destination": "/blog/quanto-custa-certificacao-certiel.html"
+    },
+    {
+      "source": "/blog/quanto-custa-iluminacao-led-completa",
+      "destination": "/blog/quanto-custa-iluminacao-led-completa.html"
+    },
+    {
+      "source": "/blog/quanto-custa-instalacao-eletrica-casa-nova",
+      "destination": "/blog/quanto-custa-instalacao-eletrica-casa-nova.html"
+    },
+    {
+      "source": "/blog/quanto-custa-instalar-alarme-casa",
+      "destination": "/blog/quanto-custa-instalar-alarme-casa.html"
+    },
+    {
+      "source": "/blog/quanto-custa-instalar-piso-radiante-eletrico",
+      "destination": "/blog/quanto-custa-instalar-piso-radiante-eletrico.html"
+    },
+    {
+      "source": "/blog/quanto-custa-reparar-curto-circuito",
+      "destination": "/blog/quanto-custa-reparar-curto-circuito.html"
+    },
+    {
+      "source": "/blog/quanto-poupa-paineis-solares",
+      "destination": "/blog/quanto-poupa-paineis-solares.html"
+    },
+    {
+      "source": "/blog/seguranca-eletrica-piscina",
+      "destination": "/blog/seguranca-eletrica-piscina.html"
+    },
+    {
+      "source": "/blog/sensor-movimento-iluminacao",
+      "destination": "/blog/sensor-movimento-iluminacao.html"
+    },
+    {
+      "source": "/blog/subsidio-wallbox-portugal",
+      "destination": "/blog/subsidio-wallbox-portugal.html"
+    },
+    {
+      "source": "/blog/terra-instalacao-importancia",
+      "destination": "/blog/terra-instalacao-importancia.html"
+    },
+    {
+      "source": "/blog/tomadas-wifi-vale-pena",
+      "destination": "/blog/tomadas-wifi-vale-pena.html"
+    },
+    {
+      "source": "/blog/ups-para-casa",
+      "destination": "/blog/ups-para-casa.html"
+    },
+    {
+      "source": "/blog/ventilacao-casa-primavera",
+      "destination": "/blog/ventilacao-casa-primavera.html"
+    },
+    {
+      "source": "/blog/verificacao-anual-instalacao",
+      "destination": "/blog/verificacao-anual-instalacao.html"
+    },
+    {
+      "source": "/blog/videoporteiro-inteligente",
+      "destination": "/blog/videoporteiro-inteligente.html"
+    },
+    {
+      "source": "/blog/wallbox-condominio-regras",
+      "destination": "/blog/wallbox-condominio-regras.html"
+    },
+    {
+      "source": "/blog/wallbox-instalacao-casa",
+      "destination": "/blog/wallbox-instalacao-casa.html"
+    },
+    {
+      "source": "/blog/wallbox-monofasico-vs-trifasico",
+      "destination": "/blog/wallbox-monofasico-vs-trifasico.html"
+    },
+    {
+      "source": "/blog/wallbox-solar-autoconsumo",
+      "destination": "/blog/wallbox-solar-autoconsumo.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-alfandega-fe",
+      "destination": "/perguntas-frequentes-eletricista-alfandega-fe.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-braganca",
+      "destination": "/perguntas-frequentes-eletricista-braganca.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-chaves",
+      "destination": "/perguntas-frequentes-eletricista-chaves.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-lamego",
+      "destination": "/perguntas-frequentes-eletricista-lamego.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-macedo-cavaleiros",
+      "destination": "/perguntas-frequentes-eletricista-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-mirandela",
+      "destination": "/perguntas-frequentes-eletricista-mirandela.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-mogadouro",
+      "destination": "/perguntas-frequentes-eletricista-mogadouro.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-montalegre",
+      "destination": "/perguntas-frequentes-eletricista-montalegre.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-torre-moncorvo",
+      "destination": "/perguntas-frequentes-eletricista-torre-moncorvo.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-valpacos",
+      "destination": "/perguntas-frequentes-eletricista-valpacos.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-vila-real",
+      "destination": "/perguntas-frequentes-eletricista-vila-real.html"
+    },
+    {
+      "source": "/perguntas-frequentes-eletricista-vinhais",
+      "destination": "/perguntas-frequentes-eletricista-vinhais.html"
     }
   ],
   "headers": [
