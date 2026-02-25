@@ -3640,6 +3640,14 @@
     {
       "source": "/amazon/kit-ferramentas-eletricista",
       "destination": "/amazon/kit-ferramentas-eletricista.html"
+    },
+    {
+      "source": "/porque-escolher-nos",
+      "destination": "/porque-escolher-nos.html"
+    },
+    {
+      "source": "/precos-eletricista",
+      "destination": "/precos-eletricista.html"
     }
   ],
   "headers": [
