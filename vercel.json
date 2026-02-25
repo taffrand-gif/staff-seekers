@@ -3760,6 +3760,106 @@
     {
       "source": "/tuto/como-fazer-extensao-segura",
       "destination": "/tuto/como-fazer-extensao-segura.html"
+    },
+    {
+      "source": "/amazon/multimetro-digital-fluke",
+      "destination": "/amazon/multimetro-digital-fluke.html"
+    },
+    {
+      "source": "/amazon/detetor-tensao-sem-contacto",
+      "destination": "/amazon/detetor-tensao-sem-contacto.html"
+    },
+    {
+      "source": "/amazon/alicate-amperimetro",
+      "destination": "/amazon/alicate-amperimetro.html"
+    },
+    {
+      "source": "/amazon/chave-fendas-isolada",
+      "destination": "/amazon/chave-fendas-isolada.html"
+    },
+    {
+      "source": "/amazon/fita-isoladora-profissional",
+      "destination": "/amazon/fita-isoladora-profissional.html"
+    },
+    {
+      "source": "/amazon/lanterna-trabalho-led",
+      "destination": "/amazon/lanterna-trabalho-led.html"
+    },
+    {
+      "source": "/amazon/camera-termica-flir",
+      "destination": "/amazon/camera-termica-flir.html"
+    },
+    {
+      "source": "/amazon/testador-tomadas",
+      "destination": "/amazon/testador-tomadas.html"
+    },
+    {
+      "source": "/amazon/passa-fios-eletricista",
+      "destination": "/amazon/passa-fios-eletricista.html"
+    },
+    {
+      "source": "/amazon/disjuntor-diferencial",
+      "destination": "/amazon/disjuntor-diferencial.html"
+    },
+    {
+      "source": "/amazon/quadro-eletrico-residencial",
+      "destination": "/amazon/quadro-eletrico-residencial.html"
+    },
+    {
+      "source": "/amazon/cabo-eletrico-h07v",
+      "destination": "/amazon/cabo-eletrico-h07v.html"
+    },
+    {
+      "source": "/amazon/tubo-corrugado-eletrico",
+      "destination": "/amazon/tubo-corrugado-eletrico.html"
+    },
+    {
+      "source": "/amazon/tomada-inteligente-wifi",
+      "destination": "/amazon/tomada-inteligente-wifi.html"
+    },
+    {
+      "source": "/amazon/interruptor-inteligente",
+      "destination": "/amazon/interruptor-inteligente.html"
+    },
+    {
+      "source": "/amazon/lampada-led-e27",
+      "destination": "/amazon/lampada-led-e27.html"
+    },
+    {
+      "source": "/amazon/foco-led-exterior",
+      "destination": "/amazon/foco-led-exterior.html"
+    },
+    {
+      "source": "/amazon/painel-solar-portatil",
+      "destination": "/amazon/painel-solar-portatil.html"
+    },
+    {
+      "source": "/amazon/carregador-carro-eletrico-wallbox",
+      "destination": "/amazon/carregador-carro-eletrico-wallbox.html"
+    },
+    {
+      "source": "/amazon/ups-protetor-computador",
+      "destination": "/amazon/ups-protetor-computador.html"
+    },
+    {
+      "source": "/amazon/detetor-fumo-inteligente",
+      "destination": "/amazon/detetor-fumo-inteligente.html"
+    },
+    {
+      "source": "/amazon/campainha-video-wifi",
+      "destination": "/amazon/campainha-video-wifi.html"
+    },
+    {
+      "source": "/amazon/termostato-inteligente",
+      "destination": "/amazon/termostato-inteligente.html"
+    },
+    {
+      "source": "/amazon/extensao-eletrica-profissional",
+      "destination": "/amazon/extensao-eletrica-profissional.html"
+    },
+    {
+      "source": "/amazon/kit-ferramentas-eletricista",
+      "destination": "/amazon/kit-ferramentas-eletricista.html"
     }
   ],
   "headers": [
