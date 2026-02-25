@@ -4538,6 +4538,66 @@
       "source": "/blog/electricista-certificado-vs-nao-certificado",
       "destination": "/blog/eletricista-certificado-vs-nao-certificado",
       "statusCode": 301
+    },
+    {
+      "source": "/tuto/como-trocar-tomada",
+      "destination": "/tuto/como-trocar-tomada.html"
+    },
+    {
+      "source": "/tuto/como-trocar-interruptor",
+      "destination": "/tuto/como-trocar-interruptor.html"
+    },
+    {
+      "source": "/tuto/como-instalar-candeeiro-teto",
+      "destination": "/tuto/como-instalar-candeeiro-teto.html"
+    },
+    {
+      "source": "/tuto/como-verificar-quadro-eletrico",
+      "destination": "/tuto/como-verificar-quadro-eletrico.html"
+    },
+    {
+      "source": "/tuto/como-testar-tomada-multimetro",
+      "destination": "/tuto/como-testar-tomada-multimetro.html"
+    },
+    {
+      "source": "/tuto/como-instalar-campainha",
+      "destination": "/tuto/como-instalar-campainha.html"
+    },
+    {
+      "source": "/tuto/como-poupar-eletricidade-led",
+      "destination": "/tuto/como-poupar-eletricidade-led.html"
+    },
+    {
+      "source": "/tuto/como-instalar-detetor-fumo",
+      "destination": "/tuto/como-instalar-detetor-fumo.html"
+    },
+    {
+      "source": "/tuto/como-proteger-casa-trovoada",
+      "destination": "/tuto/como-proteger-casa-trovoada.html"
+    },
+    {
+      "source": "/tuto/como-instalar-tomada-inteligente",
+      "destination": "/tuto/como-instalar-tomada-inteligente.html"
+    },
+    {
+      "source": "/tuto/como-verificar-terra-eletrica",
+      "destination": "/tuto/como-verificar-terra-eletrica.html"
+    },
+    {
+      "source": "/tuto/como-instalar-foco-led-exterior",
+      "destination": "/tuto/como-instalar-foco-led-exterior.html"
+    },
+    {
+      "source": "/tuto/como-escolher-disjuntor-certo",
+      "destination": "/tuto/como-escolher-disjuntor-certo.html"
+    },
+    {
+      "source": "/tuto/como-instalar-ventilador-teto",
+      "destination": "/tuto/como-instalar-ventilador-teto.html"
+    },
+    {
+      "source": "/tuto/como-fazer-extensao-segura",
+      "destination": "/tuto/como-fazer-extensao-segura.html"
     }
   ]
 }
