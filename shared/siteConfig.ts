@@ -156,24 +156,7 @@ export const siteConfig: SiteConfig = {
     }
   ],
 
-  team: [
-    {
-      name: "Sr. Carlos 'O Mestre'",
-      role: "Mestre Eletricista",
-      location: "Bragança",
-      bio: "58 anos. 35 anos de profession. Rosto marcado pelo frio transmontano. Especialidade: colocação às normas, quadros antigos.",
-      quote: "\"O quadro é antigo, mas a gente resolve sem partir a parede toda.\"",
-      image: "/images/team/carlos-electrician.jpg"
-    },
-    {
-      name: "Miguel 'O Jovem Pro'",
-      role: "Técnico Domótica",
-      location: "Macedo de Cavaleiros",
-      bio: "29 anos. Rápido, conectado, limpo. Ideal para casais jovens e instalações modernas.",
-      quote: "\"Vou deixar isto seguro para os miúdos.\"",
-      image: "/images/team/miguel-electrician.jpg"
-    }
-  ],
+  team: [],
 
   pricingZones: [
     { name: "Zona 1 (Sede)", cities: "Macedo de Cavaleiros e concelho", price: "15€", time: "< 30 min" },
