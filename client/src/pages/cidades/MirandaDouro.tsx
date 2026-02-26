@@ -8,7 +8,7 @@ import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
 export default function MirandaDouro() {
   useEffect(() => {
-    document.title = "Eletricista Miranda do Douro 24h - Urgências Elétricas - +351 932 321 892";
+    document.title = "Eletricista Miranda do Douro ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function MirandaDouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Miranda do Douro disponível 24h. Reparação de avarias elétricas, quadros elétricos. Servimos Miranda, Sendim, Duas Igrejas e todo o concelho. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Sem eletricidade em Miranda do Douro? Estamos aí hoje. Reparação urgente, orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

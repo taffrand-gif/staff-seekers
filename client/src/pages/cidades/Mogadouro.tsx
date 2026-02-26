@@ -8,7 +8,7 @@ import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
 export default function Mogadouro() {
   useEffect(() => {
-    document.title = "Eletricista Mogadouro 24h - Urgências Elétricas - +351 932 321 892";
+    document.title = "Eletricista Urgente Mogadouro ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function Mogadouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Mogadouro disponível 24h. Reparação de avarias elétricas, quadros elétricos, instalações agrícolas. Servimos todo o concelho. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Avaria elétrica em Mogadouro? Respondemos rapidamente. Instalações agrícolas e domésticas, orçamento gratuito. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

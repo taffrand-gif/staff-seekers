@@ -15,7 +15,7 @@ export default function VilaReal() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Vila Real, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
+    document.title = "Eletricista Urgente Vila Real ⚡ 24h | 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -24,7 +24,7 @@ export default function VilaReal() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Vila Real, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Avaria elétrica em Vila Real? A nossa equipa responde em menos de 1h. Certificação CERTIEL, orçamento gratuito. Ligue: 932 321 892');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Lamego() {
   useEffect(() => {
-    document.title = "Eletricista Lamego 24h - Santuário e Espumante - +351 932 321 892";
+    document.title = "Eletricista Urgente Lamego ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function Lamego() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Lamego. Instalações para patrimônio religioso, caves de espumante, hotéis e comércio. Certificação CERTIEL. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Problemas elétricos em Lamego? Instalação e reparação urgente. Certificação CERTIEL, orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

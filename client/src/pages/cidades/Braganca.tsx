@@ -15,7 +15,7 @@ export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Bragança, Macedo, Mirandela - Eletricista Profissional - +351 932 321 892";
+    document.title = "Eletricista Urgente Bragança ⚡ 24h | 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -24,7 +24,7 @@ export default function Braganca() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Bragança, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Problemas elétricos em Bragança? Respondemos em 30 minutos. Diagnóstico rápido, orçamento sem compromisso. Ligue agora: 932 321 892');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

@@ -8,7 +8,7 @@ import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
 export default function TorreMoncorvo() {
   useEffect(() => {
-    document.title = "Eletricista Torre de Moncorvo 24h - Urgências Elétricas - +351 932 321 892";
+    document.title = "Eletricista Torre Moncorvo ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function TorreMoncorvo() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Torre de Moncorvo disponível 24h. Reparação de avarias elétricas, quadros elétricos, certificação. Servimos todo o concelho. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Tomada queimada em Torre de Moncorvo? Reparação no próprio dia. Certificação CERTIEL, orçamento gratuito. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

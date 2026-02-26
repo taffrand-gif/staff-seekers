@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function AlfandegaDaFe() {
   useEffect(() => {
-    document.title = "Eletricista Alfândega da Fé 24h - Serviços Elétricos - +351 932 321 892";
+    document.title = "Eletricista Alfândega da Fé ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function AlfandegaDaFe() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Alfândega da Fé. Instalações elétricas para amendoais, lagares de azeite e habitações. A apenas 30km de Macedo de Cavaleiros. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Problema elétrico em Alfândega da Fé? A 30km de Macedo, chegamos rápido. Orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

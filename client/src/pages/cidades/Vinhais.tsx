@@ -8,7 +8,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Vinhais() {
   useEffect(() => {
-    document.title = "Eletricista Vinhais 24h - Urgências Elétricas Trás-os-Montes - +351 932 321 892";
+    document.title = "Eletricista Urgente Vinhais ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function Vinhais() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Vinhais disponível 24h. Reparação de avarias elétricas, quadros elétricos, curto-circuitos. Servimos todo o concelho de Vinhais e aldeias. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Quadro elétrico a dar problemas em Vinhais? Servimos todo o concelho. Intervenção rápida, orçamento gratuito. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

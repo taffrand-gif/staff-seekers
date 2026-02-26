@@ -14,7 +14,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Chaves, Macedo, Mirandela, Bragança - Eletricista Profissional - +351 932 321 892";
+    document.title = "Eletricista Urgente Chaves ⚡ 24h | 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Chaves() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Chaves, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para termas e turismo.');
+    metaDescription.setAttribute('content', 'Ficou sem luz em Chaves? Resolvemos hoje. Intervenção rápida, orçamento sem compromisso. Ligue agora: 932 321 892');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

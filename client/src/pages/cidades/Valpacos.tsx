@@ -7,7 +7,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Valpacos() {
   useEffect(() => {
-    document.title = "Eletricista Valpaços 24h - Instalações Elétricas Agrícolas - +351 932 321 892";
+    document.title = "Eletricista Urgente Valpaços ⚡ 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -15,7 +15,7 @@ export default function Valpacos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista em Valpaços com experiência em instalações agrícolas e olivicultura. Quadros elétricos para bombas de rega, iluminação de armazéns. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Instalação elétrica em Valpaços? Especialistas em quadros agrícolas e domésticos. Orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

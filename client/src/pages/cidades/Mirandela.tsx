@@ -14,7 +14,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Eletricista em Mirandela, Macedo, Bragança - Eletricista Profissional - +351 932 321 892";
+    document.title = "Eletricista Urgente Mirandela ⚡ 24h | 932 321 892";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Mirandela() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Eletricista certificado em Mirandela, Trás-os-Montes. Serviços de instalação elétrica, reparação de avarias, quadros elétricos e certificação DGEG. Especialistas em sistemas para agricultura e indústria.');
+    metaDescription.setAttribute('content', 'Disjuntor a disparar em Mirandela? Diagnóstico rápido e orçamento sem compromisso. Respondemos em menos de 1h. Ligue: 932 321 892');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
