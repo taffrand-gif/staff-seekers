@@ -180,7 +180,7 @@ export default function Contactos() {
                           const message = encodeURIComponent("Olá! Preciso de assistência.");
                           window.open(`https://wa.me/${config.whatsappNumber}?text=${message}`, '_blank');
                         }}
-                        className="mt-2 bg-green-500 hover:bg-green-600 text-white px-4 sm:px-6 py-2 rounded-lg transition-colors text-sm sm:text-base"
+                        className="mt-2 bg-green-700 hover:bg-green-800 text-white px-4 sm:px-6 py-2 rounded-lg transition-colors text-sm sm:text-base"
                       >
                         Abrir WhatsApp
                       </button>

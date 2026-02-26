@@ -106,7 +106,7 @@ export default function Galeria() {
                           alt={`Depois - ${photo.title}`}
                           className="w-full h-full object-cover"
                         />
-                        <div className="absolute top-2 right-2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        <div className="absolute top-2 right-2 bg-green-700 text-white px-3 py-1 rounded-full text-sm font-semibold">
                           Depois
                         </div>
                       </div>

@@ -158,7 +158,7 @@ export default function FAQPage() {
                   href={`https://wa.me/351932321892`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-green-600 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-700 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-green-700 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-700 transition-colors"
                 >
                   <MessageCircle size={20} />
                   WhatsApp
@@ -285,7 +285,7 @@ export default function FAQPage() {
                     href={`https://wa.me/351932321892`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-green-600 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-700 transition-colors"
+                    className="inline-flex items-center justify-center gap-2 bg-green-700 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-700 transition-colors"
                   >
                     <MessageCircle size={20} />
                     WhatsApp Urgente

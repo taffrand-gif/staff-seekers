@@ -225,7 +225,7 @@ export default function Header() {
                 '_blank'
               )
             }
-            className="hidden lg:flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold shadow-[2px_2px_0_0_rgba(0,0,0,0.2)]"
+            className="hidden lg:flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white font-bold shadow-[2px_2px_0_0_rgba(0,0,0,0.2)]"
           >
             Fale connosco no WhatsApp
           </Button>
@@ -299,7 +299,7 @@ export default function Header() {
                 );
                 setMobileMenuOpen(false);
               }}
-              className="w-full bg-green-600 hover:bg-green-700 text-white font-bold mt-2"
+              className="w-full bg-green-700 hover:bg-green-800 text-white font-bold mt-2"
             >
               Fale connosco no WhatsApp
             </Button>

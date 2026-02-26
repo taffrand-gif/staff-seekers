@@ -386,7 +386,7 @@ export default function InstalacaoEletricaCasaAntiga() {
                 <Phone className="w-6 h-6" />
                 932 321 892
               </a>
-              <a href="https://wa.me/351932321892?text=Olá,%20tenho%20uma%20casa%20antiga%20e%20preciso%20renovar%20a%20instalação%20elétrica." className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351932321892?text=Olá,%20tenho%20uma%20casa%20antiga%20e%20preciso%20renovar%20a%20instalação%20elétrica." className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>

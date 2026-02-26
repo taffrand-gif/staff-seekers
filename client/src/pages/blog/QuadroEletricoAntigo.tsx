@@ -174,7 +174,7 @@ export default function QuadroEletricoAntigo() {
                 <Phone className="w-6 h-6" />
                 932 321 892
               </a>
-              <a href="https://wa.me/351932321892?text=Olá,%20quero%20orçamento%20para%20trocar%20o%20quadro%20elétrico" className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351932321892?text=Olá,%20quero%20orçamento%20para%20trocar%20o%20quadro%20elétrico" className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>

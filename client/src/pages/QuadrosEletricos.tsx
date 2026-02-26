@@ -39,7 +39,7 @@ export default function QuadrosEletricos() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">Modernize o seu quadro elétrico para maior segurança e eficiência. Eletricista certificado em Trás-os-Montes.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-orange-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
-            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
+            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -124,7 +124,7 @@ export default function QuadrosEletricos() {
           <p className="text-xl mb-8">Orçamento gratuito e sem compromisso. Eletricista certificado.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-orange-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
-            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
+            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
           </div>
         </div>
       </section>

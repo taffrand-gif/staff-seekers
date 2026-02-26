@@ -73,7 +73,7 @@ export default function FAQLocal() {
             Perguntas sobre Serviços na Sua Zona
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Informações úteis sobre os meus serviços nas principais cidades de Trás-os-Montes
+            Informações úteis sobre os nossos serviços nas principais cidades de Trás-os-Montes
           </p>
         </div>
 

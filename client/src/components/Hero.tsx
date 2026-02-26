@@ -54,7 +54,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center text-lg md:text-2xl px-8 md:px-12 font-black tracking-wide text-white rounded shadow-[6px_6px_0_0_rgba(0,0,0,0.3)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95"
             style={{
-              backgroundColor: '#25D366',
+              backgroundColor: '#15803d',
               minHeight: '56px',
             }}
           >

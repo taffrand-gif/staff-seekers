@@ -43,7 +43,7 @@ export default function Services() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" variant="outline" className="bg-green-500 text-white border-green-600 hover:bg-green-600">
+              <Button size="lg" variant="outline" className="bg-green-700 text-white border-green-700 hover:bg-green-800">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
               </Button>

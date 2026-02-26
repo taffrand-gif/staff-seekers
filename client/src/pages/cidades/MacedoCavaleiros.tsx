@@ -126,7 +126,7 @@ export default function MacedoCavaleiros() {
               </a>
               <a
                 href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20um%20eletricista%20em%20Macedo%20de%20Cavaleiros"
-                className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"
               >
                 💬 WhatsApp
               </a>
