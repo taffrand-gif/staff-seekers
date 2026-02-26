@@ -8,24 +8,26 @@
 // - Footer with contact info
 // - Floating WhatsApp and Chat buttons
 
+import { lazy, Suspense, useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import PriceCalculator from '@/components/PriceCalculator';
-import Testimonials from '@/components/Testimonials';
-import CompanyInfo from '@/components/CompanyInfo';
-import FAQ from '@/components/FAQ';
-import Trabalhos from '@/components/Trabalhos';
-import RealStories from '@/components/RealStories';
-import Equipa from '@/components/Equipa';
-import Blog from '@/components/Blog';
-import HomepageLinks from '@/components/HomepageLinks';
-import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
-import { useEffect } from 'react';
+
+// Lazy load below-the-fold components
+const CompanyInfo = lazy(() => import('@/components/CompanyInfo'));
+const PriceCalculator = lazy(() => import('@/components/PriceCalculator'));
+const FAQ = lazy(() => import('@/components/FAQ'));
+const Trabalhos = lazy(() => import('@/components/Trabalhos'));
+const RealStories = lazy(() => import('@/components/RealStories'));
+const Equipa = lazy(() => import('@/components/Equipa'));
+const Testimonials = lazy(() => import('@/components/Testimonials'));
+const Blog = lazy(() => import('@/components/Blog'));
+const HomepageLinks = lazy(() => import('@/components/HomepageLinks'));
+const Contactos = lazy(() => import('@/components/Contactos'));
 
 export default function Home() {
   const { config } = useSite();
@@ -60,16 +62,16 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
-          <CompanyInfo />
-          <PriceCalculator />
-          <FAQ />
-          <Trabalhos />
-          <RealStories />
-          <Equipa />
-          <Testimonials />
-          <Blog />
-          <HomepageLinks />
-          <Contactos />
+          <Suspense fallback={null}><CompanyInfo /></Suspense>
+          <Suspense fallback={null}><PriceCalculator /></Suspense>
+          <Suspense fallback={null}><FAQ /></Suspense>
+          <Suspense fallback={null}><Trabalhos /></Suspense>
+          <Suspense fallback={null}><RealStories /></Suspense>
+          <Suspense fallback={null}><Equipa /></Suspense>
+          <Suspense fallback={null}><Testimonials /></Suspense>
+          <Suspense fallback={null}><Blog /></Suspense>
+          <Suspense fallback={null}><HomepageLinks /></Suspense>
+          <Suspense fallback={null}><Contactos /></Suspense>
         </main>
         <Footer />
 <ScrollToTop />
