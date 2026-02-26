@@ -22,13 +22,17 @@ const TRAS_OS_MONTES_CITIES = [
 ];
 
 export function useUserLocation() {
-  const [location, setLocation] = useState<LocationData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [location, setLocation] = useState<LocationData | null>({
+    city: 'Bragança',
+    region: 'Bragança',
+    country: 'Portugal'
+  });
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    async function detectLocation() {
+    // Defer geolocation call to avoid blocking initial render
+    const timer = setTimeout(async () => {
       try {
-        // Utiliser ipapi.co pour la géolocalisation par IP (gratuit, pas de clé API nécessaire)
         const response = await fetch('https://ipapi.co/json/');
         const data = await response.json();
         
@@ -38,19 +42,11 @@ export function useUserLocation() {
           country: data.country_name || 'Portugal'
         });
       } catch (error) {
-        console.error('Erreur de géolocalisation:', error);
-        // Fallback sur Bragança en cas d'erreur
-        setLocation({
-          city: 'Bragança',
-          region: 'Bragança',
-          country: 'Portugal'
-        });
-      } finally {
-        setLoading(false);
+        // Already using default, no action needed
       }
-    }
+    }, 3000);
 
-    detectLocation();
+    return () => clearTimeout(timer);
   }, []);
 
   // Vérifier si la ville détectée est dans Trás-os-Montes
