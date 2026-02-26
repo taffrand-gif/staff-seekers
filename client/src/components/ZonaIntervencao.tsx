@@ -5,20 +5,21 @@ import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
 
 const CIDADES_PRINCIPAIS = [
-  'Bragança',
-  'Mirandela',
-  'Macedo de Cavaleiros',
-  'Vila Real',
-  'Chaves',
-  'Mogadouro',
-  'Vila Flor',
-  'Carrazeda de Ansiães',
-  'Torre de Moncorvo',
-  'Alfândega da Fé',
-  'Vinhais',
-  'Vimioso',
-  'Miranda do Douro',
-  'Freixo de Espada à Cinta',
+  { nome: 'Bragança', slug: 'braganca' },
+  { nome: 'Mirandela', slug: 'mirandela' },
+  { nome: 'Macedo de Cavaleiros', slug: 'macedo-cavaleiros' },
+  { nome: 'Vila Real', slug: 'vila-real' },
+  { nome: 'Chaves', slug: 'chaves' },
+  { nome: 'Lamego', slug: 'lamego' },
+  { nome: 'Mogadouro', slug: 'mogadouro' },
+  { nome: 'Vila Flor', slug: 'vila-flor' },
+  { nome: 'Carrazeda de Ansiães', slug: 'carrazeda-de-ansiaes' },
+  { nome: 'Torre de Moncorvo', slug: 'torre-de-moncorvo' },
+  { nome: 'Alfândega da Fé', slug: 'alfandega-da-fe' },
+  { nome: 'Vinhais', slug: 'vinhais' },
+  { nome: 'Vimioso', slug: 'vimioso' },
+  { nome: 'Miranda do Douro', slug: 'miranda-douro' },
+  { nome: 'Freixo de Espada à Cinta', slug: 'freixo-espada-cinta' },
 ];
 
 export default function ZonaIntervencao() {
@@ -29,6 +30,8 @@ export default function ZonaIntervencao() {
   const accentBg = isPlumber ? 'bg-blue-50' : 'bg-amber-50';
   const accentBorder = isPlumber ? 'border-blue-200' : 'border-amber-200';
   const iconColor = isPlumber ? 'text-blue-600' : 'text-amber-600';
+
+  const serviceSlug = isPlumber ? 'canalizador' : 'eletricista';
 
   return (
     <section id="zona-intervencao" className="py-20 bg-white">
@@ -47,13 +50,14 @@ export default function ZonaIntervencao() {
         {/* Grelha de cidades */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-12">
           {CIDADES_PRINCIPAIS.map((cidade) => (
-            <div
-              key={cidade}
-              className={`flex items-center gap-2 ${accentBg} border ${accentBorder} rounded-xl px-4 py-3 transition-all duration-300 hover:shadow-md hover:scale-105`}
+            <a
+              key={cidade.slug}
+              href={`/${serviceSlug}-${cidade.slug}`}
+              className={`flex items-center gap-2 ${accentBg} border ${accentBorder} rounded-xl px-4 py-3 transition-all duration-300 hover:shadow-md hover:scale-105 no-underline`}
             >
               <MapPin className={`w-4 h-4 flex-shrink-0 ${iconColor}`} />
-              <span className="text-gray-800 font-medium text-sm">{cidade}</span>
-            </div>
+              <span className="text-gray-800 font-medium text-sm">{cidade.nome}</span>
+            </a>
           ))}
         </div>
 
