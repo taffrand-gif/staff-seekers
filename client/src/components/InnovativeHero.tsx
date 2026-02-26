@@ -47,7 +47,7 @@ const InnovativeHero: React.FC = () => {
       id="home" 
       className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images-optimized/hero/hero-electrician-portugal.jpg')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${config.hero.backgroundImage}')`,
       }}
     >
       {/* Background overlay */}
@@ -57,7 +57,7 @@ const InnovativeHero: React.FC = () => {
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge professionnel */}
-          <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-lg border border-white/30 rounded-full px-8 py-4 mb-10 shadow-2xl">
+          <div className="inline-flex items-center gap-3 bg-white/20  border border-white/30 rounded-full px-8 py-4 mb-10 shadow-2xl">
             <span className="text-3xl">{badgeEmoji}</span>
             <span className="text-white font-bold text-xl tracking-wide">
               {badgeText}
@@ -110,7 +110,7 @@ const InnovativeHero: React.FC = () => {
             {statsData.map((stat, index) => (
               <div 
                 key={index}
-                className={`bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 ${statBorderHover} transition-all duration-300 hover:scale-105`}
+                className={`bg-white/10  rounded-2xl p-6 border border-white/20 ${statBorderHover} transition-all duration-300 hover:scale-105`}
               >
                 <div className="text-3xl mb-3">{stat.icon}</div>
                 <div className="text-3xl font-bold text-white mb-1">{stat.value}</div>
