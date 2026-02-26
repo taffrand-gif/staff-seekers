@@ -95,8 +95,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   id: 'staff-seekers',
   name: 'Eletricista Profissional',
-  title: 'Eletricista Certificado em Trás-os-Montes | Eletricista Profissional — Instalação & Reparação Elétrica 24h',
-  description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
+  title: 'Eletricista Urgente Trás-os-Montes ⚡ 24h | 932 321 892',
+  description: 'Problemas elétricos? Respondemos em menos de 1h em Bragança, Macedo, Mirandela e Vila Real. Orçamento sem compromisso. Ligue agora: 932 321 892',
   phone: '932 321 892',
   whatsapp: '351932321892',
   whatsappMessage: 'Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?',
