@@ -4530,6 +4530,186 @@
     {
       "source": "/tuto/como-fazer-extensao-segura",
       "destination": "/tuto/como-fazer-extensao-segura.html"
+    },
+    {
+      "source": "/urgencia-eletricista-ribeira-de-pena",
+      "destination": "/eletricista-urgente-ribeira-de-pena",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-braganca",
+      "destination": "/eletricista-urgente-braganca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-monforte-de-rio-livre",
+      "destination": "/eletricista-urgente-monforte-de-rio-livre",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-vila-real",
+      "destination": "/eletricista-urgente-vila-real",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-alfandega-da-fe",
+      "destination": "/eletricista-urgente-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-duas-igrejas",
+      "destination": "/eletricista-urgente-duas-igrejas",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-moncorvo",
+      "destination": "/eletricista-urgente-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-lagoaca",
+      "destination": "/eletricista-urgente-lagoaca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-penedono",
+      "destination": "/eletricista-urgente-penedono",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-sendim",
+      "destination": "/eletricista-urgente-sendim",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-valpacos",
+      "destination": "/eletricista-urgente-valpacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-tabuaco",
+      "destination": "/eletricista-urgente-tabuaco",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-meda",
+      "destination": "/eletricista-urgente-meda",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-vila-flor",
+      "destination": "/eletricista-urgente-vila-flor",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-mogadouro",
+      "destination": "/eletricista-urgente-mogadouro",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-vimioso",
+      "destination": "/eletricista-urgente-vimioso",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-freixo-de-espada-a-cinta",
+      "destination": "/eletricista-urgente-freixo-de-espada-a-cinta",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-mesao-frio",
+      "destination": "/eletricista-urgente-mesao-frio",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-torre-de-moncorvo",
+      "destination": "/eletricista-urgente-torre-de-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-macedo-de-cavaleiros",
+      "destination": "/eletricista-urgente-macedo-de-cavaleiros",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-montalegre",
+      "destination": "/eletricista-urgente-montalegre",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-boticas",
+      "destination": "/eletricista-urgente-boticas",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-chaves",
+      "destination": "/eletricista-urgente-chaves",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-carrazeda-de-ansiaes",
+      "destination": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-figueira-castelo-rodrigo",
+      "destination": "/eletricista-urgente-figueira-castelo-rodrigo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-mirandela",
+      "destination": "/eletricista-urgente-mirandela",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-algoso",
+      "destination": "/eletricista-urgente-algoso",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-miranda-do-douro",
+      "destination": "/eletricista-urgente-miranda-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-sernancelhe",
+      "destination": "/eletricista-urgente-sernancelhe",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-murca",
+      "destination": "/eletricista-urgente-murca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-armamar",
+      "destination": "/eletricista-urgente-armamar",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-vinhais",
+      "destination": "/eletricista-urgente-vinhais",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-mondim-de-basto",
+      "destination": "/eletricista-urgente-mondim-de-basto",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-vila-pouca-de-aguiar",
+      "destination": "/eletricista-urgente-vila-pouca-de-aguiar",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-rebordelo",
+      "destination": "/eletricista-urgente-rebordelo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-eletricista-santa-marta-penaguiao",
+      "destination": "/eletricista-urgente-santa-marta-penaguiao",
+      "statusCode": 301
     }
   ]
 }
