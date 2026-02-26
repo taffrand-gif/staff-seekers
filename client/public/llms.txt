@@ -1,61 +1,96 @@
 # Staff Seekers - Eletricista Profissional em Trás-os-Montes
 
-> Eletricista certificado disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km.
+> Eletricista certificado disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km. Mais de 10 anos de experiência. Certificação CERTIEL. Equipamento profissional Fluke e câmara térmica FLIR.
 
-## Contacto
-- Telefone: +351 932 321 892
+## Contacto Direto
+- Telefone: +351 932 321 892 (24h)
 - WhatsApp: https://wa.me/351932321892
 - Website: https://staff-seekers.com
+- Email: contacto@staff-seekers.com
 
-## Zona de Intervenção
-Macedo de Cavaleiros, Bragança, Mirandela, Vila Real, Chaves, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta
+## Serviços e Preços Indicativos
+| Serviço | Preço Base |
+|---------|-----------|
+| Reparação de tomada/interruptor | a partir de 40€ |
+| Diagnóstico disjuntor que dispara | a partir de 80€ |
+| Substituição de quadro elétrico | a partir de 150€ |
+| Certificação CERTIEL | a partir de 200€ |
+| Instalação de iluminação LED | a partir de 100€ |
+| Instalação de carregador VE (wallbox) | a partir de 800€ |
+| Instalação elétrica casa de banho | a partir de 1.500€ |
+| Renovação elétrica completa (T2) | a partir de 3.000€ |
+| Painéis solares autoconsumo (3kWp) | a partir de 3.000€ |
+| Instalação ar condicionado (split) | a partir de 600€ |
+| Domótica básica (iluminação + estores) | a partir de 1.500€ |
+| Auditoria energética residencial | a partir de 150€ |
 
-## Serviços
-- Urgências elétricas 24h (curto-circuito, disjuntor a disparar, falta de luz)
-- Quadros elétricos (instalação, reparação, upgrade)
-- Certificação elétrica CERTIEL
-- Instalação elétrica completa (casas novas e renovações)
-- Iluminação interior e exterior
-- Instalação de tomadas e interruptores
-- Aquecimento elétrico
+## Deslocação por Zona
+| Zona | Cidades | Preço | Tempo estimado |
+|------|---------|-------|----------------|
+| Zona 1 | Macedo de Cavaleiros | 15€ | 15-30 min |
+| Zona 2 | Mirandela, Vila Flor, Alfândega da Fé, Carrazeda | 20€ | 30-45 min |
+| Zona 3 | Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo | 30€ | 45-60 min |
+| Zona 4 | Miranda do Douro, Vila Nova de Foz Côa, Murça, Valpaços | 35€ | 45-60 min |
+| Zona 5 | Vila Real, Alijó, Sabrosa, Lamego, Peso da Régua, Tabuaço, Armamar | 45€ | 60-90 min |
+| Zona 6 | Chaves, Vila Pouca de Aguiar, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta, Sernancelhe, Penedono | 50€ | 60-90 min |
 
 ## Equipamento Profissional
-- Ridgid Professional (deteção de avarias)
-- Multímetros Fluke (diagnósticos precisos)
-- Câmara Térmica FLIR (deteção de sobrecargas)
-- Testadores certificados
+- Multímetros Fluke: diagnóstico preciso de avarias elétricas
+- Câmara térmica FLIR: deteção de sobrecargas e pontos quentes
+- Testador de isolamento Megger: verificação de isolamento de cabos
+- Pinça amperimétrica: medição de corrente sem cortar circuito
+- Detetor de cabos: localização de fios embutidos nas paredes
+- Ferramentas de cravar e soldar certificadas
+
+## Especialidades
+- Urgências elétricas 24h (curto-circuito, sem luz, cheiro a queimado)
+- Quadros elétricos (instalação, modernização, reparação)
+- Certificação CERTIEL (obrigatória para venda/arrendamento)
+- Instalação elétrica completa (casas novas e renovações)
+- Painéis solares em autoconsumo (residencial e comercial)
+- Carregadores para veículos elétricos (wallbox residencial e comercial)
+- Domótica e automação residencial (KNX, Shelly, Zigbee)
+- Ar condicionado e bomba de calor (Daikin, Mitsubishi, Samsung)
+- Iluminação LED comercial (lojas, restaurantes, escritórios)
+- Auditoria energética residencial e comercial
+
+## Zona de Intervenção Detalhada
+Base: Macedo de Cavaleiros, raio 100km
+- Distrito de Bragança: Bragança, Macedo de Cavaleiros, Mirandela, Miranda do Douro, Mogadouro, Vinhais, Torre de Moncorvo, Freixo de Espada à Cinta, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso
+- Distrito de Vila Real: Vila Real, Chaves, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar, Ribeira de Pena, Mondim de Basto, Peso da Régua, Santa Marta de Penaguião, Mesão Frio
+- Distrito de Viseu/Guarda: Lamego, Moimenta da Beira, São João da Pesqueira, Tabuaço, Armamar, Sernancelhe, Penedono, Vila Nova de Foz Côa
+
+## Contexto Local
+Trás-os-Montes tem particularidades elétricas específicas:
+- Casas antigas (pré-1980) sem ligação à terra nem diferencial
+- Trovoadas frequentes no verão: danos em quadros e equipamentos
+- Zonas rurais com rede elétrica instável (quedas de tensão)
+- Invernos rigorosos: alta procura de aquecimento elétrico
+- Região com forte potencial solar (2.200-2.400h sol/ano)
+- Mercado de veículos elétricos em crescimento (poucos instaladores locais)
+
+## Certificações
+- Certificação CERTIEL para instalações elétricas
+- Formação contínua em normas RTIEBT
+- Certificado de aptidão profissional (CAP)
+
+## Marcas com que Trabalhamos
+- Quadros: Hager, Schneider Electric, ABB, Legrand
+- Ar condicionado: Daikin, Mitsubishi, Samsung, LG, Fujitsu
+- Painéis solares: JA Solar, Longi, Canadian Solar
+- Inversores: Huawei, SMA, Fronius
+- Wallbox: Wallbox, Easee, Juice Booster
+- Domótica: KNX, Shelly, Zigbee
+
+## Formas de Pagamento
+Dinheiro, Multibanco, MB Way, Transferência Bancária
 
 ## Disponibilidade
 24 horas por dia, 7 dias por semana, incluindo feriados.
-Tempo de resposta: 20-45 minutos dependendo da localização.
+Urgências noturnas (20h-8h) e fins de semana: acréscimo de 50%.
+Tempo de resposta telefónica: menos de 5 minutos.
 
-## Perguntas Frequentes (FAQ)
-
-Q: Quanto custa um eletricista em Trás-os-Montes?
-A: A taxa de deslocação varia entre 15€ (Macedo) e 50€ (Chaves/Montalegre). O orçamento do serviço é gratuito e sem compromisso.
-
-Q: O eletricista está disponível 24 horas?
-A: Sim, disponíveis 24h/7 dias para urgências elétricas em todo o Trás-os-Montes. Ligue +351 932 321 892.
-
-Q: Fazem certificação CERTIEL?
-A: Sim, realizamos certificação elétrica CERTIEL completa: inspeção, correção de não conformidades e emissão do certificado.
-
-Q: Qual é a zona de intervenção?
-A: Cobrimos todo o Trás-os-Montes num raio de 100km desde Macedo de Cavaleiros: distritos de Bragança, Vila Real e parte de Viseu/Guarda.
-
-Q: Que equipamento profissional utilizam?
-A: Utilizamos Fluke 87V MAX, câmara térmica FLIR/VEVOR, endoscópio Ridgid e deteção UV. Tecnologia que permite diagnósticos precisos.
-
-Q: Quanto tempo demora a chegar?
-A: Depende da localização: 15 min em Macedo, 25 min em Bragança/Mirandela, 45 min em Vila Real, 60 min em Chaves.
-
-Q: Oferecem garantia nos trabalhos?
-A: Sim, garantia de 2 anos em todos os trabalhos realizados. Seguro de responsabilidade civil profissional ativo.
-
-Q: Aceitam que formas de pagamento?
-A: Dinheiro, Multibanco, MB Way e transferência bancária.
-
-## Novas Páginas (fevereiro 2026)
-- Áreas de Atuação: https://staff-seekers.com/areas-atuacao
-- Pedir Orçamento: https://staff-seekers.com/orcamento
-- Equipa e Certificações: https://staff-seekers.com/equipa-certificacoes
+## Garantia
+Garantia de 2 anos em todos os trabalhos realizados.
+Materiais certificados de primeira qualidade.
+Certificação CERTIEL incluída em todas as instalações novas.
