@@ -80,35 +80,44 @@ export default function SEOHead() {
     }
     hreflang.href = `https://${config.domain}`;
 
-    // Google Ads tracking (preserved from original sites)
+    // Google Ads tracking - deferred to avoid blocking main thread
     if (!window.dataLayer) {
       window.dataLayer = [];
     }
 
-    // Only initialize gtag if not already present
-    if (!document.querySelector('script[src*="googletagmanager.com/gtag"]')) {
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17915870228';
-      document.head.appendChild(script);
+    // Defer GTM loading by 3s after page load for better performance
+    const loadGTM = () => {
+      if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
+      setTimeout(() => {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17915870228';
+        document.head.appendChild(script);
 
-      script.onload = () => {
-        function gtag(...args: any[]) {
-          window.dataLayer.push(arguments);
-        }
-        window.gtag = gtag;
+        script.onload = () => {
+          function gtag(...args: any[]) {
+            window.dataLayer.push(arguments);
+          }
+          window.gtag = gtag;
 
-        gtag('js', new Date());
-        gtag('config', 'AW-17915870228');
+          gtag('js', new Date());
+          gtag('config', 'AW-17915870228');
 
-        // GDPR Consent Mode (preserved from original)
-        gtag('consent', 'default', {
-          'analytics_storage': 'denied',
-          'ad_storage': 'denied',
-          'ad_user_data': 'denied',
-          'ad_personalization': 'denied'
-        });
-      };
+          // GDPR Consent Mode (preserved from original)
+          gtag('consent', 'default', {
+            'analytics_storage': 'denied',
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied'
+          });
+        };
+      }, 3000);
+    };
+
+    if (document.readyState === 'complete') {
+      loadGTM();
+    } else {
+      window.addEventListener('load', loadGTM, { once: true });
     }
   }, [config]);
 

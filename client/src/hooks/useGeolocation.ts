@@ -47,8 +47,8 @@ function findClosestCity(detectedCity: string | undefined | null): string | null
 }
 
 export function useGeolocation(): GeolocationResult {
-  const [city, setCity] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [city, setCity] = useState<string | null>('Bragança');
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -56,62 +56,48 @@ export function useGeolocation(): GeolocationResult {
     const cached = localStorage.getItem('detected_city');
     if (cached) {
       setCity(cached);
-      setIsLoading(false);
       return;
     }
 
-    // Méthode 1: Géolocalisation GPS (plus précis mais nécessite permission)
-    if ('geolocation' in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          try {
-            // Utiliser Nominatim (OpenStreetMap) pour reverse geocoding
-            const response = await fetch(
-              `https://nominatim.openstreetmap.org/reverse?` +
-              `lat=${position.coords.latitude}&` +
-              `lon=${position.coords.longitude}&` +
-              `format=json&` +
-              `accept-language=pt`
-            );
-            
-            const data = await response.json();
-            const detectedCity = data.address?.city || data.address?.town || data.address?.village;
-            
-            if (detectedCity) {
-              const matchedCity = findClosestCity(detectedCity);
-              if (matchedCity) {
-                setCity(matchedCity);
-                localStorage.setItem('detected_city', matchedCity);
+    // Defer geolocation to avoid blocking critical rendering path
+    const timer = setTimeout(() => {
+      // Méthode 1: Géolocalisation GPS
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(
+          async (position) => {
+            try {
+              const response = await fetch(
+                `https://nominatim.openstreetmap.org/reverse?` +
+                `lat=${position.coords.latitude}&` +
+                `lon=${position.coords.longitude}&` +
+                `format=json&` +
+                `accept-language=pt`
+              );
+              const data = await response.json();
+              const detectedCity = data.address?.city || data.address?.town || data.address?.village;
+              if (detectedCity) {
+                const matchedCity = findClosestCity(detectedCity);
+                if (matchedCity) {
+                  setCity(matchedCity);
+                  localStorage.setItem('detected_city', matchedCity);
+                }
               }
+            } catch (err) {
+              detectCityByIP();
             }
-          } catch (err) {
-            console.error('Geocoding error:', err);
-            // Fallback to IP-based detection
-            detectCityByIP();
-          } finally {
-            setIsLoading(false);
-          }
-        },
-        () => {
-          // Permission refusée ou erreur GPS → fallback IP
-          detectCityByIP();
-        },
-        {
-          timeout: 5000,
-          maximumAge: 3600000, // Cache 1h
-        }
-      );
-    } else {
-      // Pas de support géolocalisation → fallback IP
-      detectCityByIP();
-    }
+          },
+          () => { detectCityByIP(); },
+          { timeout: 5000, maximumAge: 3600000 }
+        );
+      } else {
+        detectCityByIP();
+      }
+    }, 5000);
 
     async function detectCityByIP() {
       try {
-        // Utiliser ipapi.co (gratuit, pas de clé API nécessaire)
         const response = await fetch('https://ipapi.co/json/');
         const data = await response.json();
-        
         const detectedCity = data.city;
         if (detectedCity) {
           const matchedCity = findClosestCity(detectedCity);
@@ -123,10 +109,10 @@ export function useGeolocation(): GeolocationResult {
       } catch (err) {
         console.error('IP geolocation error:', err);
         setError('Unable to detect location');
-      } finally {
-        setIsLoading(false);
       }
     }
+
+    return () => clearTimeout(timer);
   }, []);
 
   return { city, isLoading, error };

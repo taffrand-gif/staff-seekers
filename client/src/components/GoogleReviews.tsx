@@ -66,7 +66,7 @@ const avatarColors = ['#FF6B35', '#E53935', '#8E24AA', '#1E88E5', '#43A047', '#F
 
 function Stars({ count }: { count: number }) {
   return (
-    <div className="flex gap-0.5" aria-label={`${count} de 5 estrelas`}>
+    <div className="flex gap-0.5" role="img" aria-label={`${count} de 5 estrelas`}>
       {[1, 2, 3, 4, 5].map((i) => (
         <svg key={i} className="w-4 h-4" viewBox="0 0 20 20" fill={i <= count ? '#FBBC04' : '#E0E0E0'}>
           <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
