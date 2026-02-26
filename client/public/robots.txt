@@ -47,3 +47,4 @@ Sitemap: https://staff-seekers.com/sitemap.xml
 # IndexNow - Instant indexing for Bing/Yandex
 # Key: 1496b3dde3ef3db681478bc980689cb2
 # Verification file: https://staff-seekers.com/1496b3dde3ef3db681478bc980689cb2.txt
+Sitemap: https://staff-seekers.com/sitemap-images.xml
