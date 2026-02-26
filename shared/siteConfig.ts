@@ -105,9 +105,9 @@ export const siteConfig: SiteConfig = {
   domain: 'staff-seekers.com',
   
   colors: {
-    primary: '#ea580c', // Orange 600
-    primaryDark: '#c2410c', // Orange 700
-    primaryLight: '#fb923c', // Orange 400
+    primary: '#c2410c', // Orange 700 — WCAG AA with white text
+    primaryDark: '#9a3412', // Orange 800
+    primaryLight: '#ea580c', // Orange 600
     accent: '#dc2626', // Red 600 for urgent CTAs
   },
   

@@ -126,7 +126,7 @@ const OptimizedServices: React.FC = () => {
   const accentColor = isPlumber ? 'text-blue-600' : 'text-amber-600';
   const hoverBorder = isPlumber ? 'hover:border-blue-500' : 'hover:border-amber-500';
   const iconColor = isPlumber ? 'text-blue-600' : 'text-amber-600';
-  const btnBg = isPlumber ? 'bg-blue-600 hover:bg-blue-700' : 'bg-amber-600 hover:bg-amber-700';
+  const btnBg = isPlumber ? 'bg-blue-600 hover:bg-blue-700' : 'bg-amber-700 hover:bg-amber-800';
   const serviceEmoji = isPlumber ? '🔧' : '⚡';
   const otherSiteLink = isPlumber
     ? { text: 'Precisa de um eletricista?', url: 'https://staff-seekers.com', label: 'staff-seekers.com' }
