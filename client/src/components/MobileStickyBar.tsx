@@ -38,7 +38,7 @@ export default function MobileStickyBar() {
         rel="noopener noreferrer"
         className="flex-1 flex items-center justify-center gap-2 text-white font-bold text-base active:opacity-90 transition-opacity"
         style={{
-          backgroundColor: '#25D366',
+          backgroundColor: '#15803d',
           minHeight: '56px',
           fontSize: '16px',
         }}

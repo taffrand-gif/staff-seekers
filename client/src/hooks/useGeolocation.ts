@@ -95,21 +95,7 @@ export function useGeolocation(): GeolocationResult {
     }, 5000);
 
     async function detectCityByIP() {
-      try {
-        const response = await fetch('https://ipapi.co/json/');
-        const data = await response.json();
-        const detectedCity = data.city;
-        if (detectedCity) {
-          const matchedCity = findClosestCity(detectedCity);
-          if (matchedCity) {
-            setCity(matchedCity);
-            localStorage.setItem('detected_city', matchedCity);
-          }
-        }
-      } catch (err) {
-        console.error('IP geolocation error:', err);
-        setError('Unable to detect location');
-      }
+      // ipapi.co disabled — causes 429 errors, default city is sufficient
     }
 
     return () => clearTimeout(timer);

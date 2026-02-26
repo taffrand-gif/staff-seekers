@@ -30,23 +30,7 @@ export function useUserLocation() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // Defer geolocation call to avoid blocking initial render
-    const timer = setTimeout(async () => {
-      try {
-        const response = await fetch('https://ipapi.co/json/');
-        const data = await response.json();
-        
-        setLocation({
-          city: data.city || 'Bragança',
-          region: data.region || 'Bragança',
-          country: data.country_name || 'Portugal'
-        });
-      } catch (error) {
-        // Already using default, no action needed
-      }
-    }, 3000);
-
-    return () => clearTimeout(timer);
+    // ipapi.co disabled — causes 429 errors and not needed for local site
   }, []);
 
   // Vérifier si la ville détectée est dans Trás-os-Montes

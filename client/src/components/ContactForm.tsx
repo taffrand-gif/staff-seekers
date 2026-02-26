@@ -69,7 +69,7 @@ export default function ContactForm() {
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <button
                 type="submit"
-                className="flex-1 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
+                className="flex-1 flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
               >
                 <MessageCircle className="w-5 h-5" />
                 Enviar via WhatsApp
