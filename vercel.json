@@ -3928,6 +3928,46 @@
       "statusCode": 301
     },
     {
+      "source": "/entupimento-sifao",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/entupimento-sifao.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/entupimento-lava-loica",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/entupimento-lava-loica.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/torneiras-a-pingar",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/torneiras-a-pingar.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy",
+      "destination": "/politica-privacidade",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/politica-privacidade",
+      "statusCode": 301
+    },
+    {
       "source": "/electricista-mesao-frio",
       "destination": "/eletricista-mesao-frio",
       "statusCode": 301
