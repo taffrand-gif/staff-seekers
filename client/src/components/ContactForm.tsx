@@ -77,7 +77,7 @@ export default function ContactForm() {
               <button
                 type="button"
                 onClick={handleCall}
-                className="flex-1 flex items-center justify-center gap-2 bg-[#FF6B35] hover:bg-[#e55a2b] text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
+                className="flex-1 flex items-center justify-center gap-2 bg-[#c2410c] hover:bg-[#9a3412] text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
               >
                 <Phone className="w-5 h-5" />
                 Ligar Agora

@@ -61,7 +61,7 @@ export default function LatestBlog() {
         <div className="text-center mt-10">
           <a
             href="/blog"
-            className="inline-flex items-center gap-2 bg-[#FF6B35] hover:bg-[#e55a2b] text-white font-bold py-3 px-8 rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 bg-[#c2410c] hover:bg-[#9a3412] text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
             Ver Todos os Artigos <ArrowRight className="w-4 h-4" />
           </a>
