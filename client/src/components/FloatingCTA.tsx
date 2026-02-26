@@ -16,7 +16,7 @@ export default function FloatingCTA() {
   if (!isVisible) return null;
 
   return (
-    <div className={`fixed bottom-4 right-4 z-50 transition-all duration-300 ${isMinimized ? 'w-12 h-12' : 'w-auto'}`}>
+    <div className={`fixed bottom-4 right-4 z-50 transition-all duration-300 hidden md:block ${isMinimized ? 'w-12 h-12' : 'w-auto'}`}>
       {isMinimized ? (
         // Botão minimizado
         <button
