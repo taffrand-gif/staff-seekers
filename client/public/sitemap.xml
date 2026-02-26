@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://staff-seekers.com/</loc><lastmod>2026-02-24</lastmod><priority>1.0</priority></url>
+<url><loc>https://staff-seekers.com/</loc><lastmod>2026-02-26</lastmod><priority>1.0</priority></url>
 <url><loc>https://staff-seekers.com/404</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
+<url><loc>https://staff-seekers.com/garantia</loc><lastmod>2026-02-26</lastmod><priority>0.9</priority></url>
 <url><loc>https://staff-seekers.com/alarme-alfandega-da-fe</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
 <url><loc>https://staff-seekers.com/alarme-algoso</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
 <url><loc>https://staff-seekers.com/alarme-armamar</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
@@ -89,6 +90,8 @@
 <url><loc>https://staff-seekers.com/areas-atuacao</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
 <url><loc>https://staff-seekers.com/automacao-residencial-domotica</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
 <url><loc>https://staff-seekers.com/blog/5-sinais-falha-eletrica-urgente</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/blog/proteger-instalacao-eletrica-trovoadas-verao</loc><lastmod>2026-02-26</lastmod><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/blog/preparar-instalacao-eletrica-inverno-aquecimento</loc><lastmod>2026-02-26</lastmod><priority>0.8</priority></url>
 <url><loc>https://staff-seekers.com/blog/alexa-vs-google-home-eletricista</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
 <url><loc>https://staff-seekers.com/blog/aparelho-da-choque-causas-solucoes</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
 <url><loc>https://staff-seekers.com/blog/aquecedor-oleo-vs-convector</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
@@ -1001,4 +1004,11 @@
 <url><loc>https://staff-seekers.com/blog/proteger-instalacao-eletrica-trovoadas-verao</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://staff-seekers.com/electrician-tras-os-montes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>https://staff-seekers.com/electricien-tras-os-montes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-2026</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-braganca</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-chaves</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-lamego</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-macedo-de-cavaleiros</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-mirandela</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://staff-seekers.com/quanto-custa-eletricista-vila-real</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
