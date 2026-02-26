@@ -81,12 +81,13 @@ const InnovativeHero: React.FC = () => {
           {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-16">
             <a
-              href={`tel:${config.phone.replace(/\s/g, '')}`}
-              className={`group relative overflow-hidden ${ctaPrimaryBg} text-white font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 min-w-[280px]`}
+              href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+              className={`group relative overflow-hidden ${ctaPrimaryBg} text-white font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 w-full sm:w-auto sm:min-w-[280px]`}
+              style={{ minHeight: '56px' }}
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-2xl">📞</span>
-                <span className="text-xl">PEDIR ORÇAMENTO</span>
+                <span className="text-xl">LIGAR AGORA: {config.phone}</span>
               </span>
             </a>
             
@@ -94,7 +95,8 @@ const InnovativeHero: React.FC = () => {
               href={`https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group relative overflow-hidden bg-white hover:bg-gray-50 ${ctaSecondaryText} font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 min-w-[280px] border-2 ${ctaSecondaryBorder}`}
+              className={`group relative overflow-hidden bg-white hover:bg-gray-50 ${ctaSecondaryText} font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 w-full sm:w-auto sm:min-w-[280px] border-2 ${ctaSecondaryBorder}`}
+              style={{ minHeight: '56px' }}
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-2xl">💬</span>

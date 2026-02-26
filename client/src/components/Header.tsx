@@ -199,13 +199,24 @@ export default function Header() {
             ))}
           </nav>
 
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors"
-            aria-label="Abrir menu"
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile: phone button + hamburger */}
+          <div className="flex items-center gap-2 lg:hidden">
+            <a
+              href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+              className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg text-white transition-colors"
+              style={{ backgroundColor: config.colors.primary }}
+              aria-label={`Ligar para ${config.phone}`}
+            >
+              <Phone className="w-5 h-5" />
+            </a>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors"
+              aria-label="Abrir menu"
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
 
           <Button
             onClick={() =>

@@ -18,7 +18,6 @@ import ContactForm from '@/components/ContactForm';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 
-import MobileCallButton from '@/components/MobileCallButton';
 import SEOHead from '@/components/SEOHead';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
@@ -92,7 +91,6 @@ export default function OptimizedHome() {
       
       <Footer />
       
-      <MobileCallButton />
       <ScrollToTop />
     </>
   );

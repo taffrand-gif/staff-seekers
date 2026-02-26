@@ -6,7 +6,6 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Phone } from 'lucide-react';
-import { Button } from './ui/button';
 import { ServicesSlider } from './ServicesSlider';
 
 export default function Hero() {
