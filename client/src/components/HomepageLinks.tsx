@@ -9,16 +9,16 @@ export default function HomepageLinks() {
         <h2 className="text-3xl font-black mb-6 text-center">🔧 Os Nossos Serviços Elétricos</h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-4xl mx-auto">
           A nossa equipa oferece serviços elétricos completos em Trás-os-Montes. Desde{' '}
-          <a href="/instalacao-eletrica-completa" className="text-[#FF6B35] font-bold hover:underline">instalação elétrica completa</a> para construções e renovações, até{' '}
-          <a href="/quadros-eletricos-modernizacao" className="text-[#FF6B35] font-bold hover:underline">modernização de quadros elétricos</a>. Realizamos{' '}
-          <a href="/certificacao-eletrica-tras-os-montes" className="text-[#FF6B35] font-bold hover:underline">certificação elétrica CERTIEL</a>,{' '}
-          <a href="/reparacao-avarias-eletricas" className="text-[#FF6B35] font-bold hover:underline">reparação de avarias elétricas</a>,{' '}
-          <a href="/iluminacao-led-profissional" className="text-[#FF6B35] font-bold hover:underline">iluminação LED profissional</a>,{' '}
-          <a href="/instalacao-paineis-solares-tras-os-montes" className="text-[#FF6B35] font-bold hover:underline">instalação de painéis solares</a>,{' '}
-          <a href="/protecao-contra-raios" className="text-[#FF6B35] font-bold hover:underline">proteção contra raios</a> e{' '}
-          <a href="/automacao-residencial-domotica" className="text-[#FF6B35] font-bold hover:underline">automação residencial</a>. Veja a nossa{' '}
-          <a href="/tecnologia-premium" className="text-[#FF6B35] font-bold hover:underline">tecnologia premium</a> e{' '}
-          <a href="/galeria" className="text-[#FF6B35] font-bold hover:underline">galeria de trabalhos</a>.
+          <a href="/instalacao-eletrica-completa" className="text-[#c2410c] font-bold hover:underline">instalação elétrica completa</a> para construções e renovações, até{' '}
+          <a href="/quadros-eletricos-modernizacao" className="text-[#c2410c] font-bold hover:underline">modernização de quadros elétricos</a>. Realizamos{' '}
+          <a href="/certificacao-eletrica-tras-os-montes" className="text-[#c2410c] font-bold hover:underline">certificação elétrica CERTIEL</a>,{' '}
+          <a href="/reparacao-avarias-eletricas" className="text-[#c2410c] font-bold hover:underline">reparação de avarias elétricas</a>,{' '}
+          <a href="/iluminacao-led-profissional" className="text-[#c2410c] font-bold hover:underline">iluminação LED profissional</a>,{' '}
+          <a href="/instalacao-paineis-solares-tras-os-montes" className="text-[#c2410c] font-bold hover:underline">instalação de painéis solares</a>,{' '}
+          <a href="/protecao-contra-raios" className="text-[#c2410c] font-bold hover:underline">proteção contra raios</a> e{' '}
+          <a href="/automacao-residencial-domotica" className="text-[#c2410c] font-bold hover:underline">automação residencial</a>. Veja a nossa{' '}
+          <a href="/tecnologia-premium" className="text-[#c2410c] font-bold hover:underline">tecnologia premium</a> e{' '}
+          <a href="/galeria" className="text-[#c2410c] font-bold hover:underline">galeria de trabalhos</a>.
         </p>
 
         {/* Urgency Links */}
@@ -35,7 +35,7 @@ export default function HomepageLinks() {
             <a
               key={link.href}
               href={link.href}
-              className="inline-block bg-orange-50 border-2 border-[#FF6B35] px-5 py-3 rounded-lg text-[#FF6B35] font-bold hover:bg-[#FF6B35] hover:text-white transition-colors"
+              className="inline-block bg-orange-50 border-2 border-[#FF6B35] px-5 py-3 rounded-lg text-[#c2410c] font-bold hover:bg-[#FF6B35] hover:text-white transition-colors"
             >
               {link.label}
             </a>
@@ -58,13 +58,13 @@ export default function HomepageLinks() {
               href={article.href}
               className="block bg-white p-4 rounded-lg border-l-4 border-[#FF6B35] shadow-sm hover:shadow-md transition-shadow"
             >
-              <span className="font-bold text-[#FF6B35] block mb-1">{article.title}</span>
+              <span className="font-bold text-[#c2410c] block mb-1">{article.title}</span>
               <span className="text-sm text-gray-600">{article.desc}</span>
             </a>
           ))}
         </div>
         <p className="text-center">
-          <a href="/blog/" className="text-[#FF6B35] font-bold text-lg hover:underline">
+          <a href="/blog/" className="text-[#c2410c] font-bold text-lg hover:underline">
             Ver todos os artigos do blog →
           </a>
         </p>
@@ -72,16 +72,16 @@ export default function HomepageLinks() {
         {/* City-specific services */}
         <h2 className="text-3xl font-black mb-6 mt-12 text-center">🏗️ Serviços por Cidade</h2>
         <p className="text-gray-700 text-center leading-relaxed max-w-4xl mx-auto">
-          <a href="/quadros-eletricos-braganca" className="text-[#FF6B35] hover:underline">Quadros Elétricos Bragança</a> •{' '}
-          <a href="/quadros-eletricos-vila-real" className="text-[#FF6B35] hover:underline">Quadros Elétricos Vila Real</a> •{' '}
-          <a href="/quadros-eletricos-mirandela" className="text-[#FF6B35] hover:underline">Quadros Elétricos Mirandela</a> •{' '}
-          <a href="/certificacao-eletrica-braganca" className="text-[#FF6B35] hover:underline">Certificação Bragança</a> •{' '}
-          <a href="/certificacao-eletrica-vila-real" className="text-[#FF6B35] hover:underline">Certificação Vila Real</a> •{' '}
-          <a href="/certificacao-eletrica-mirandela" className="text-[#FF6B35] hover:underline">Certificação Mirandela</a> •{' '}
-          <a href="/iluminacao-led-braganca" className="text-[#FF6B35] hover:underline">LED Bragança</a> •{' '}
-          <a href="/iluminacao-led-vila-real" className="text-[#FF6B35] hover:underline">LED Vila Real</a> •{' '}
-          <a href="/iluminacao-led-mirandela" className="text-[#FF6B35] hover:underline">LED Mirandela</a> •{' '}
-          <a href="/eficiencia-energetica-poupanca" className="text-[#FF6B35] hover:underline">Eficiência Energética</a>
+          <a href="/quadros-eletricos-braganca" className="text-[#c2410c] hover:underline">Quadros Elétricos Bragança</a> •{' '}
+          <a href="/quadros-eletricos-vila-real" className="text-[#c2410c] hover:underline">Quadros Elétricos Vila Real</a> •{' '}
+          <a href="/quadros-eletricos-mirandela" className="text-[#c2410c] hover:underline">Quadros Elétricos Mirandela</a> •{' '}
+          <a href="/certificacao-eletrica-braganca" className="text-[#c2410c] hover:underline">Certificação Bragança</a> •{' '}
+          <a href="/certificacao-eletrica-vila-real" className="text-[#c2410c] hover:underline">Certificação Vila Real</a> •{' '}
+          <a href="/certificacao-eletrica-mirandela" className="text-[#c2410c] hover:underline">Certificação Mirandela</a> •{' '}
+          <a href="/iluminacao-led-braganca" className="text-[#c2410c] hover:underline">LED Bragança</a> •{' '}
+          <a href="/iluminacao-led-vila-real" className="text-[#c2410c] hover:underline">LED Vila Real</a> •{' '}
+          <a href="/iluminacao-led-mirandela" className="text-[#c2410c] hover:underline">LED Mirandela</a> •{' '}
+          <a href="/eficiencia-energetica-poupanca" className="text-[#c2410c] hover:underline">Eficiência Energética</a>
         </p>
       </div>
     </section>

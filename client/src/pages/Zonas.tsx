@@ -152,7 +152,7 @@ export default function Zonas() {
             <span>{city.distance} de Macedo</span>
           </div>
         </div>
-        <div className="text-[#FF6B35] text-sm font-medium">Ver página →</div>
+        <div className="text-[#c2410c] text-sm font-medium">Ver página →</div>
       </div>
     </a>
   );
@@ -198,7 +198,7 @@ export default function Zonas() {
               {/* Distrito de Bragança */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <MapPin className="w-8 h-8 mr-3 text-[#FF6B35]" />
+                  <MapPin className="w-8 h-8 mr-3 text-[#c2410c]" />
                   {districts.braganca.name}
                   <span className="ml-3 text-lg font-normal text-gray-600">(12 cidades)</span>
                 </h2>
@@ -212,7 +212,7 @@ export default function Zonas() {
               {/* Distrito de Vila Real */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <MapPin className="w-8 h-8 mr-3 text-[#FF6B35]" />
+                  <MapPin className="w-8 h-8 mr-3 text-[#c2410c]" />
                   {districts.vilaReal.name}
                   <span className="ml-3 text-lg font-normal text-gray-600">(12 cidades)</span>
                 </h2>
@@ -226,7 +226,7 @@ export default function Zonas() {
               {/* Distrito de Viseu / Guarda */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
-                  <MapPin className="w-8 h-8 mr-3 text-[#FF6B35]" />
+                  <MapPin className="w-8 h-8 mr-3 text-[#c2410c]" />
                   {districts.viseuGuarda.name}
                   <span className="ml-3 text-lg font-normal text-gray-600">(10 cidades)</span>
                 </h2>

@@ -24,7 +24,7 @@ export default function ContactForm() {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-              Pedir Orçamento <span className="text-[#FF6B35]">Grátis</span>
+              Pedir Orçamento <span className="text-[#c2410c]">Grátis</span>
             </h2>
             <p className="text-lg text-gray-300">
               Descreva o seu problema e a nossa equipa responde rapidamente via WhatsApp.

@@ -29,7 +29,7 @@ export default function Footer() {
             <p className="text-gray-200 mb-4">
               {config.company.shortDescription}
             </p>
-            <p className="text-gray-300 text-sm mb-4">
+            <p className="text-gray-100 text-sm mb-4">
               Cobertura em toda a região de {config.company.coverage}.
             </p>
             <p className="text-white text-sm font-bold italic border-l-2 border-white pl-3">
@@ -63,12 +63,12 @@ export default function Footer() {
             </ul>
             <h4 className="text-lg font-black mt-6 mb-3">Serviços</h4>
             <ul className="space-y-1 text-sm">
-              <li><a href="/instalacao-eletrica-completa" className="text-gray-300 hover:text-white">Instalação Elétrica</a></li>
-              <li><a href="/quadros-eletricos-modernizacao" className="text-gray-300 hover:text-white">Quadros Elétricos</a></li>
-              <li><a href="/certificacao-eletrica-tras-os-montes" className="text-gray-300 hover:text-white">Certificação CERTIEL</a></li>
-              <li><a href="/reparacao-avarias-eletricas" className="text-gray-300 hover:text-white">Reparação Avarias</a></li>
-              <li><a href="/iluminacao-led-profissional" className="text-gray-300 hover:text-white">Iluminação LED</a></li>
-              <li><a href="/instalacao-paineis-solares-tras-os-montes" className="text-gray-300 hover:text-white">Painéis Solares</a></li>
+              <li><a href="/instalacao-eletrica-completa" className="text-gray-100 hover:text-white">Instalação Elétrica</a></li>
+              <li><a href="/quadros-eletricos-modernizacao" className="text-gray-100 hover:text-white">Quadros Elétricos</a></li>
+              <li><a href="/certificacao-eletrica-tras-os-montes" className="text-gray-100 hover:text-white">Certificação CERTIEL</a></li>
+              <li><a href="/reparacao-avarias-eletricas" className="text-gray-100 hover:text-white">Reparação Avarias</a></li>
+              <li><a href="/iluminacao-led-profissional" className="text-gray-100 hover:text-white">Iluminação LED</a></li>
+              <li><a href="/instalacao-paineis-solares-tras-os-montes" className="text-gray-100 hover:text-white">Painéis Solares</a></li>
             </ul>
           </div>
 
@@ -107,13 +107,13 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
+        <div className="pt-8 border-t-2 border-white/20 text-center text-gray-100 text-sm">
           © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
-          <div className="mt-2 text-xs text-gray-400">
+          <div className="mt-2 text-xs text-gray-200">
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
-          <div className="mt-3 text-xs text-gray-500">
-            Precisa de canalizador? <a href="https://norte-reparos.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Canalizador 24h Trás-os-Montes</a>
+          <div className="mt-3 text-xs text-gray-300">
+            Precisa de canalizador? <a href="https://norte-reparos.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">Canalizador 24h Trás-os-Montes</a>
           </div>
         </div>
       </div>
