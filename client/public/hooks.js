@@ -74,7 +74,9 @@
       { emoji: '📋', label: 'Certificação CERTIEL', msg: 'Preciso de certificação CERTIEL' + loc }
     ];
 
-    var existing = document.querySelector('.floating-buttons, [class*="floating"]');
+    // Hide duplicate float buttons
+    document.querySelectorAll('.whatsapp-float, .phone-float').forEach(function(el) { el.style.display = 'none'; });
+    var existing = document.querySelector('.floating-buttons, [class*="floating-buttons"]');
     if (!existing) return;
 
     var container = document.createElement('div');
@@ -157,9 +159,11 @@
     badge.style.cssText = 'background:#fff3e0;border-left:4px solid #FF6B35;padding:12px 16px;border-radius:8px;margin:20px 0;font-size:14px;';
     badge.innerHTML = '🔧 <strong>Última intervenção em ' + cityName + ':</strong> há ' + daysAgo + ' dia' + (daysAgo > 1 ? 's' : '') + ' — ' + work;
 
-    var hero = document.querySelector('.hero, [class*="hero"]');
+    var hero = document.querySelector('.hero, [class*="hero"], .header, .urgence-box, .distance-box, .content');
     if (hero && hero.nextSibling) {
       hero.parentNode.insertBefore(badge, hero.nextSibling);
+    } else if (hero) {
+      hero.appendChild(badge);
     }
   }
 
