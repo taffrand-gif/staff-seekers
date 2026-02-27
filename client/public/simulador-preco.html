@@ -120,5 +120,6 @@ label{font-weight:600;font-size:1rem}
 <script>
 function calcular(){var z=document.getElementById('zona').value,s=document.getElementById('servico').value,r=document.getElementById('resultado'),p=document.getElementById('preco');if(z&&s){var total=parseInt(z)+parseInt(s);var max=Math.round(total*1.5);r.classList.add('show');p.innerHTML='💰 Estimativa: <strong>'+total+'€ — '+max+'€</strong><br><small>(Serviço '+s+'€ + Deslocação '+z+'€)</small>';}else{r.classList.remove('show');}}
 </script>
+<script src="/hooks.js" defer></script>
 </body>
 </html>
