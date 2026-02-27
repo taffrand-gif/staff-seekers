@@ -39,7 +39,9 @@ export default function TrustBanner() {
   const { config } = useSite();
   const ref = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
-  const count = useCountUp(300, 2000, visible);
+  const count = useCountUp(350, 2000, visible);
+  // Show target value immediately for crawlers/noscript, animate only replaces it
+  const displayCount = visible ? count : 350;
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -83,7 +85,7 @@ export default function TrustBanner() {
           <p className="text-lg font-bold text-gray-800">
             Mais de{' '}
             <span className="text-3xl" style={{ color: config.colors.primary }}>
-              {count}+
+              {displayCount}+
             </span>{' '}
             intervenções realizadas
           </p>
