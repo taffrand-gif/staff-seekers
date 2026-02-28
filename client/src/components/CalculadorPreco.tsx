@@ -42,14 +42,16 @@ export default function CalculadorPreco() {
     const zone = zones[zoneIdx];
     const service = services[serviceIdx];
     const mult = isUrgent ? 1.5 : 1;
+    const travel = Math.round(zone.price * mult);
     const laborMin = Math.round(service.min * mult);
     const laborMax = Math.round(service.max * mult);
     return {
-      travel: zone.price,
+      travel,
+      travelBase: zone.price,
       laborMin,
       laborMax,
-      totalMin: zone.price + laborMin,
-      totalMax: zone.price + laborMax,
+      totalMin: travel + laborMin,
+      totalMax: travel + laborMax,
       zoneName: zone.label,
       serviceName: service.label,
     };
@@ -144,7 +146,7 @@ export default function CalculadorPreco() {
               </div>
               {isUrgent && (
                 <div className="flex justify-between text-red-600 text-sm">
-                  <span>Inclui acréscimo urgência (+50%)</span>
+                  <span>Inclui acréscimo urgência (+50% deslocação e mão de obra)</span>
                 </div>
               )}
               <hr />
@@ -156,7 +158,7 @@ export default function CalculadorPreco() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mb-6">
-              * Estimativa. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido.
+              * Estimativa. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Noturno/fim de semana: +50% sobre deslocação e mão de obra.
             </p>
             <a
               href={`https://wa.me/${whatsapp}?text=${waMsg}`}
