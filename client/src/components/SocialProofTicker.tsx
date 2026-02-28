@@ -43,8 +43,9 @@ function randomMinutes() {
   return Math.floor(Math.random() * 45) + 2;
 }
 
-function pickRandom<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
+function pickRandom<T>(arr: T[], exclude?: T): T {
+  const filtered = exclude ? arr.filter(item => item !== exclude) : arr;
+  return filtered[Math.floor(Math.random() * filtered.length)];
 }
 
 export default function SocialProofTicker() {
@@ -63,11 +64,16 @@ export default function SocialProofTicker() {
     const initialDelay = Math.floor(Math.random() * 7000) + 8000;
 
     const showNotification = () => {
-      setNotification({
-        name: pickRandom(names),
-        city: pickRandom(cities),
-        action: pickRandom(actions),
-        minutes: randomMinutes(),
+      setNotification(prev => {
+        const newName = pickRandom(names, prev?.name);
+        const newCity = pickRandom(cities, prev?.city);
+        const newAction = pickRandom(actions, prev?.action);
+        return {
+          name: newName,
+          city: newCity,
+          action: newAction,
+          minutes: randomMinutes(),
+        };
       });
       setVisible(true);
 
