@@ -9,21 +9,21 @@ const InnovativeHero: React.FC = () => {
   const isPlumber = config.id === 'norte-reparos';
   const statsData = isPlumber
     ? [
-        { icon: '🏆', value: '10+', label: 'Anos Experiência' },
-        { icon: '👨‍🔧', value: '500+', label: 'Clientes Satisfeitos' },
-        { icon: '🚨', value: '24h', label: 'Urgências' },
-        { icon: '💰', value: '0€', label: 'Orçamento Grátis' },
+        { icon: '💧', value: 'Certificado', label: 'Seguro Ativo' },
+        { icon: '🔬', value: 'Ridgid', label: 'Câmara Inspeção' },
+        { icon: '🛡️', value: '500+', label: 'Intervenções' },
+        { icon: '📞', value: '40 min', label: 'Chegada Bragança' },
       ]
     : [
-        { icon: '🏆', value: '10+', label: 'Anos Experiência' },
-        { icon: '👨‍🔧', value: '300+', label: 'Clientes Satisfeitos' },
-        { icon: '🚨', value: '24h', label: 'Urgências' },
-        { icon: '💰', value: '0€', label: 'Orçamento Grátis' },
+        { icon: '✅', value: 'CERTIEL', label: 'Certificado' },
+        { icon: '🔬', value: 'Fluke & FLIR', label: 'Diagnóstico Pro' },
+        { icon: '⚡', value: '350+', label: 'Intervenções' },
+        { icon: '📞', value: '40 min', label: 'Chegada Bragança' },
       ];
 
   const badgeText = isPlumber
-    ? 'CANALIZADOR PROFISSIONAL EM TRÁS-OS-MONTES'
-    : 'ELETRICISTA CERTIFICADO EM TRÁS-OS-MONTES';
+    ? 'CANALIZADOR DISPONÍVEL AGORA — RESPOSTA EM 2 MIN'
+    : 'ELETRICISTA CERTIFICADO — CHEGAMOS EM 40 MINUTOS';
 
   const badgeEmoji = isPlumber ? '💧' : '⚡';
 

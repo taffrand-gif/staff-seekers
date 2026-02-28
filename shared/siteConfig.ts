@@ -112,8 +112,8 @@ export const siteConfig: SiteConfig = {
   },
   
   hero: {
-    title: 'Eletricistas de Confiança em Trás-os-Montes.',
-    subtitle: 'De Bragança a Vila Real. Chegamos rápido, resolvemos bem, e o preço é justo.',
+    title: 'Sem Luz em Casa? Chegamos em 40 Minutos.',
+    subtitle: 'Avaria elétrica, disjuntor a disparar, curto-circuito. Diagnóstico gratuito. Preço fixo dito ao telefone antes de sair.',
     backgroundImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
   },
