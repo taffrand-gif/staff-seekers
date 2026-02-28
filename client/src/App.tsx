@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
 import FloatingCTA from "./components/FloatingCTA";
+import SocialProofTicker from "./components/SocialProofTicker";
 import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
 import OptimizedHome from "./pages/OptimizedHome";
@@ -162,6 +163,7 @@ function App() {
             <StructuredData />
             <Router />
             <FloatingCTA />
+            <SocialProofTicker />
             <MobileStickyBar />
           </TooltipProvider>
         </SiteProvider>
