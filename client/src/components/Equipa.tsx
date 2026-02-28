@@ -5,27 +5,27 @@ export default function Equipa() {
   const badges = [
     {
       icon: <Award className="w-10 h-10" />,
-      stat: '10+',
-      label: 'Anos de Experiência',
-      desc: 'Profissionais com mais de uma década no terreno',
+      stat: '350+',
+      label: 'Instalações Reparadas',
+      desc: 'Casas de pedra de Bragança, quadros dos anos 70 de Macedo. Já vi tudo, já resolvi tudo.',
     },
     {
       icon: <Shield className="w-10 h-10" />,
-      stat: '100%',
-      label: 'Satisfação Garantida',
-      desc: 'Compromisso total com a qualidade do serviço',
+      stat: 'FLIR',
+      label: 'Câmara Térmica',
+      desc: 'Deteto sobrecargas antes de queimar. O que outros não veem, eu vejo.',
     },
     {
       icon: <Clock className="w-10 h-10" />,
-      stat: '24/7',
-      label: 'Sempre Disponível',
-      desc: 'Urgências elétricas a qualquer hora do dia ou da noite',
+      stat: '40 min',
+      label: 'Chegada a Bragança',
+      desc: 'Preço dito ao telefone antes de sair. Se disser 80€, são 80€. Nunca mais.',
     },
     {
       icon: <Wrench className="w-10 h-10" />,
-      stat: 'PRO',
-      label: 'Equipamento Profissional',
-      desc: 'Ferramentas Fluke, FLIR e equipamento certificado',
+      stat: 'CERTIEL',
+      label: 'Certificado em 48h',
+      desc: 'Trato de toda a papelada para venda ou arrendamento. Sem complicações.',
     },
   ];
 
