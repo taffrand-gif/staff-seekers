@@ -28,7 +28,7 @@ export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   {
     id: 3,
     question: "O que fazer em caso de avaria elétrica urgente?",
-    answer: "Em caso de avaria elétrica urgente, siga estes passos imediatamente: 1) Desligue o disjuntor geral no quadro elétrico, 2) Desligue todos os aparelhos elétricos das tomadas, 3) Se houver cheiro a queimado ou fumo, evacue a casa e ligue para os bombeiros (112), 4) Contacte-nos imediatamente pelo 932 321 892 ou WhatsApp - estamos disponíveis 24/7 para emergências. Tempo médio de resposta: 15-30 minutos em Bragança e arredores. Nunca tente reparar problemas elétricos sozinho sem formação adequada - a eletricidade pode ser fatal mesmo com tensões aparentemente baixas.",
+    answer: "Em caso de avaria elétrica urgente, siga estes passos imediatamente: 1) Desligue o disjuntor geral no quadro elétrico, 2) Desligue todos os aparelhos elétricos das tomadas, 3) Se houver cheiro a queimado ou fumo, evacue a casa e ligue para os bombeiros (112), 4) Contacte-nos imediatamente pelo 932 321 892 ou WhatsApp - estamos disponíveis 24/7 para emergências. Tempo médio de resposta: 40 minutos em Bragança e arredores. Nunca tente reparar problemas elétricos sozinho sem formação adequada - a eletricidade pode ser fatal mesmo com tensões aparentemente baixas.",
     category: "Emergências"
   },
   {

@@ -24,7 +24,7 @@ export default function Braganca() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Problemas elétricos em Bragança? Respondemos em 30 minutos. Diagnóstico rápido, orçamento sem compromisso. Ligue agora: 932 321 892');
+    metaDescription.setAttribute('content', 'Problemas elétricos em Bragança? Respondemos em 40 minutos. Diagnóstico rápido, orçamento sem compromisso. Ligue agora: 932 321 892');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -289,7 +289,7 @@ export default function Braganca() {
               },
               {
                 question: "Qual o tempo de resposta para urgências em Bragança?",
-                answer: "No centro da cidade: 15-30 minutos. Para aldeias circundantes: 45-60 minutos. Mantemos uma equipa sempre disponível para toda a região."
+                answer: "No centro da cidade: 40 minutos. Para aldeias circundantes: 45-60 minutos. Mantemos uma equipa sempre disponível para toda a região."
               }
             ]}
           />
