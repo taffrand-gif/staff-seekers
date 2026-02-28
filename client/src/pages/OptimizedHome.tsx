@@ -10,6 +10,7 @@ import CalculadorPreco from '@/components/CalculadorPreco';
 import PriceTable from '@/components/PriceTable';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Equipa from '@/components/Equipa';
+import Garantias from '@/components/Garantias';
 import Trabalhos from '@/components/Trabalhos';
 import LatestBlog from '@/components/LatestBlog';
 import FAQ from '@/components/FAQ';
@@ -54,6 +55,8 @@ export default function OptimizedHome() {
       
       {/* Secção Equipa */}
       <Equipa />
+      
+      <Garantias />
       
       {/* Secção Trabalhos */}
       <Trabalhos />
