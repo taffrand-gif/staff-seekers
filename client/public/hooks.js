@@ -76,6 +76,8 @@
 
     // Hide duplicate float buttons
     document.querySelectorAll('.whatsapp-float, .phone-float').forEach(function(el) { el.style.display = 'none'; });
+    // Don't create floating buttons if React FloatingCTA is already present
+    if (document.getElementById('floating-cta-react')) return;
     var existing = document.querySelector('.floating-buttons, [class*="floating-buttons"]');
     if (!existing) return;
 
