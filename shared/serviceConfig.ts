@@ -53,8 +53,8 @@ export const electriciteConfig: ServiceConfig = {
   },
   accentColor: '#1A237E',
   
-  heroTitle: 'Eletricista Certificado em Trás-os-Montes',
-  heroSubtitle: 'Instalações, reparações elétricas e certificação CERTIEL — segurança garantida em Bragança e região',
+  heroTitle: 'Sem Luz em Casa? Chegamos em 40 Minutos.',
+  heroSubtitle: 'Avaria elétrica, disjuntor a disparar, curto-circuito. Diagnóstico gratuito. Preço fixo dito ao telefone antes de sair.',
   heroEmoji: '⚡',
   serviceEmoji: '🔌',
   

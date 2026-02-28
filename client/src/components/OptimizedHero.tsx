@@ -23,7 +23,7 @@ const OptimizedHero: React.FC = () => {
           {/* Badge urgence */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8">
             <span className="text-2xl">⚡</span>
-            <span className="text-white font-semibold text-lg">Certificação e segurança garantidas</span>
+            <span className="text-white font-semibold text-lg">ELETRICISTA CERTIFICADO — CHEGAMOS EM 40 MINUTOS</span>
           </div>
           
           {/* Titre principal */}
@@ -60,21 +60,21 @@ const OptimizedHero: React.FC = () => {
           {/* Informations supplémentaires */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">⏰</div>
-              <h3 className="text-white font-bold text-lg mb-2">Disponível 24h</h3>
-              <p className="text-white/80">Urgências elétricas atendidas imediatamente</p>
-            </div>
-            
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
               <div className="text-3xl mb-3">✅</div>
-              <h3 className="text-white font-bold text-lg mb-2">Orçamento Grátis</h3>
-              <p className="text-white/80">Avaliação sem compromisso financeiro</p>
+              <h3 className="text-white font-bold text-lg mb-2">Certificado CERTIEL</h3>
+              <p className="text-white/80">Técnico habilitado DGEG com seguro ativo</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">📋</div>
-              <h3 className="text-white font-bold text-lg mb-2">Certificação</h3>
-              <p className="text-white/80">Documentação legal para venda de imóveis</p>
+              <div className="text-3xl mb-3">🔬</div>
+              <h3 className="text-white font-bold text-lg mb-2">Equipamento Fluke & FLIR</h3>
+              <p className="text-white/80">Diagnóstico com câmara térmica profissional</p>
+            </div>
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+              <div className="text-3xl mb-3">⚡</div>
+              <h3 className="text-white font-bold text-lg mb-2">350+ Intervenções</h3>
+              <p className="text-white/80">Preço dito ao telefone. Sem surpresas.</p>
             </div>
           </div>
         </div>
