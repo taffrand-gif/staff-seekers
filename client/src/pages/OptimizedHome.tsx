@@ -5,6 +5,7 @@ import TrustBanner from '@/components/TrustBanner';
 import Diagnostico from '@/components/Diagnostico';
 import OrcamentoGratuitoBadge from '@/components/OrcamentoGratuitoBadge';
 import OptimizedServices from '@/components/OptimizedServices';
+import StatsCounters from '@/components/StatsCounters';
 import CalculadorPreco from '@/components/CalculadorPreco';
 import PriceTable from '@/components/PriceTable';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
@@ -41,6 +42,7 @@ export default function OptimizedHome() {
       <Diagnostico />
       <OrcamentoGratuitoBadge />
       <OptimizedServices />
+      <StatsCounters />
       
       <CalculadorPreco />
       
