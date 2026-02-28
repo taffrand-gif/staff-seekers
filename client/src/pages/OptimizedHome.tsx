@@ -2,8 +2,10 @@
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
 import TrustBanner from '@/components/TrustBanner';
+import Diagnostico from '@/components/Diagnostico';
 import OrcamentoGratuitoBadge from '@/components/OrcamentoGratuitoBadge';
 import OptimizedServices from '@/components/OptimizedServices';
+import CalculadorPreco from '@/components/CalculadorPreco';
 import PriceTable from '@/components/PriceTable';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Equipa from '@/components/Equipa';
@@ -36,8 +38,11 @@ export default function OptimizedHome() {
       <main>
       <InnovativeHero />
       <TrustBanner />
+      <Diagnostico />
       <OrcamentoGratuitoBadge />
       <OptimizedServices />
+      
+      <CalculadorPreco />
       
       {/* Secção tabela de preços */}
       <PriceTable />
