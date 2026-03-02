@@ -13,6 +13,7 @@ import OptimizedHome from "./pages/OptimizedHome";
 import SkipLink from '@/components/SkipLink';
 import UrgencyIndicator from '@/components/UrgencyIndicator';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
+import QuoteCalculator from '@/components/QuoteCalculator';
 
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
@@ -177,6 +178,7 @@ function App() {
             <StructuredData />
             <UrgencyIndicator />
             <ExitIntentPopup />
+            <QuoteCalculator />
             <Router />
             <FloatingCTA />
             <SocialProofTicker />
