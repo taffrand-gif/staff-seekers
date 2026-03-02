@@ -3,6 +3,7 @@ import { getCityServiceData } from '@/../../shared/cityServiceMatrix';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedServices from '@/components/RelatedServices';
 import { useEffect } from 'react';
 
 export default function CityServicePage() {
@@ -162,6 +163,9 @@ export default function CityServicePage() {
           </div>
         </div>
       </section>
+
+      {/* Related Services */}
+      <RelatedServices currentService={service.slug} city={city.name} />
 
       <Footer />
     </>
