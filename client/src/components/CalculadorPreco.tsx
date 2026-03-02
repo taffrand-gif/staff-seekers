@@ -123,12 +123,14 @@ export default function CalculadorPreco() {
         <div className="bg-gray-50 rounded-2xl shadow-lg p-8">
           {/* Zone */}
           <div className="mb-6">
-            <label className="block text-sm font-bold text-gray-700 mb-2">📍 Onde está?</label>
+            <label htmlFor="zone-select" className="block text-sm font-bold text-gray-700 mb-2">📍 Onde está?</label>
             <select
+              id="zone-select"
               value={zoneIdx}
               onChange={e => setZoneIdx(Number(e.target.value))}
               className="w-full p-4 rounded-xl border-2 border-gray-200 focus:outline-none text-lg"
               style={{ borderColor: accentColor }}
+              aria-label="Selecione a sua localização"
             >
               {zones.map((z, i) => (
                 <option key={i} value={i}>{z.label} — {z.price}€</option>
@@ -138,12 +140,14 @@ export default function CalculadorPreco() {
 
           {/* Service */}
           <div className="mb-6">
-            <label className="block text-sm font-bold text-gray-700 mb-2">🔧 Que serviço precisa?</label>
+            <label htmlFor="service-select" className="block text-sm font-bold text-gray-700 mb-2">🔧 Que serviço precisa?</label>
             <select
+              id="service-select"
               value={serviceIdx}
               onChange={e => setServiceIdx(Number(e.target.value))}
               className="w-full p-4 rounded-xl border-2 border-gray-200 focus:outline-none text-lg"
               style={{ borderColor: accentColor }}
+              aria-label="Selecione o tipo de serviço"
             >
               {services.map((s, i) => (
                 <option key={i} value={i}>{s.label} — {s.min}€ a {s.max}€</option>
@@ -199,7 +203,7 @@ export default function CalculadorPreco() {
               <hr />
               <div className="flex justify-between items-center">
                 <span className="text-lg font-bold text-gray-900">TOTAL ESTIMADO:</span>
-                <span className="text-3xl font-black" style={{ color: accentColor }}>
+                <span className="text-3xl font-black text-gray-900">
                   {result.totalMin}€ - {result.totalMax}€
                 </span>
               </div>

@@ -109,8 +109,7 @@ export default function Garantias() {
               <h3 className="text-lg font-bold text-gray-900 mb-2">{g.title}</h3>
               <p className="text-sm text-gray-600 mb-3">{g.desc}</p>
               <p
-                className="text-xs font-semibold italic"
-                style={{ color: accentColor }}
+                className="text-xs font-semibold italic text-gray-700"
               >
                 "{g.pain}"
               </p>
