@@ -155,7 +155,7 @@ export default function Header() {
                       citiesOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-2 pointer-events-none'
                     }`}
                     style={{ minWidth: '680px' }}
-                    role="menu"
+                    role="navigation"
                     aria-label="Cidades por distrito"
                   >
                     <div className="grid grid-cols-3 gap-6">
@@ -170,7 +170,6 @@ export default function Header() {
                                 <a
                                   href={city.href}
                                   className="block px-2 py-1 text-sm text-gray-600 rounded hover:text-white transition-colors duration-150"
-                                  role="menuitem"
                                   onMouseEnter={(e) => {
                                     (e.target as HTMLElement).style.backgroundColor = config.colors.primary;
                                     (e.target as HTMLElement).style.color = '#fff';
