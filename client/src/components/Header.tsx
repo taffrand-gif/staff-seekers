@@ -66,7 +66,7 @@ const districts: District[] = [
 
 const totalCities = districts.reduce((sum, d) => sum + d.cities.length, 0);
 
-export default function Header() {
+function Header() {
   const { config } = useSite();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [citiesOpen, setCitiesOpen] = useState(false);
