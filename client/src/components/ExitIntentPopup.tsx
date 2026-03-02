@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function ExitIntentPopup() {
   const [showPopup, setShowPopup] = useState(false);
   const [hasShown, setHasShown] = useState(false);
+  const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
 
   useEffect(() => {
     const handleMouseLeave = (e: MouseEvent) => {
@@ -11,6 +13,7 @@ export default function ExitIntentPopup() {
       if (e.clientY <= 0 && !hasShown) {
         setShowPopup(true);
         setHasShown(true);
+        trackExitPopupShown();
       }
     };
 
@@ -19,6 +22,7 @@ export default function ExitIntentPopup() {
       if (!hasShown) {
         setShowPopup(true);
         setHasShown(true);
+        trackExitPopupShown();
       }
     }, 30000);
 
@@ -28,7 +32,7 @@ export default function ExitIntentPopup() {
       document.removeEventListener('mouseleave', handleMouseLeave);
       clearTimeout(timer);
     };
-  }, [hasShown]);
+  }, [hasShown, trackExitPopupShown]);
 
   if (!showPopup) return null;
 
@@ -94,7 +98,10 @@ export default function ExitIntentPopup() {
                 href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent('Olá! Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?')}`}
                 className="block w-full text-center text-white font-bold px-6 py-4 rounded-xl text-lg transition-all hover:scale-105"
                 style={{ backgroundColor: '#25D366' }}
-                onClick={() => setShowPopup(false)}
+                onClick={() => {
+                  trackExitPopupConversion('WhatsApp');
+                  setShowPopup(false);
+                }}
               >
                 💬 Pedir Orçamento no WhatsApp
               </a>
@@ -102,7 +109,10 @@ export default function ExitIntentPopup() {
                 href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="block w-full text-center font-bold px-6 py-4 rounded-xl text-lg border-2 transition-all hover:scale-105"
                 style={{ borderColor: accentColor, color: accentColor }}
-                onClick={() => setShowPopup(false)}
+                onClick={() => {
+                  trackExitPopupConversion('Phone');
+                  setShowPopup(false);
+                }}
               >
                 📞 Ligar Agora: {ACTIVE_CONFIG.phone}
               </a>

@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function QuoteCalculator() {
   const [isOpen, setIsOpen] = useState(false);
   const [service, setService] = useState('');
   const [urgency, setUrgency] = useState('normal');
   const [estimatedPrice, setEstimatedPrice] = useState<string | null>(null);
+  const { trackQuoteCalculated, trackQuoteSentWhatsApp } = useAnalytics();
 
   const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
   const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
@@ -34,7 +36,10 @@ export default function QuoteCalculator() {
     const minPrice = Math.floor(basePrice * 0.9);
     const maxPrice = Math.ceil(basePrice * 1.3);
 
-    setEstimatedPrice(`${minPrice}€ - ${maxPrice}€`);
+    const priceRange = `${minPrice}€ - ${maxPrice}€`;
+    setEstimatedPrice(priceRange);
+
+    trackQuoteCalculated(selectedService.name, urgency, priceRange);
   };
 
   const sendWhatsApp = () => {
@@ -42,6 +47,7 @@ export default function QuoteCalculator() {
     const urgencyText = urgency === 'urgent' ? 'URGENTE' : 'normal';
     const message = `Olá! Vi o calculador no vosso site e preciso de:\n\nServiço: ${selectedService?.name}\nUrgência: ${urgencyText}\nOrçamento estimado: ${estimatedPrice}\n\nPode confirmar o preço exato?`;
 
+    trackQuoteSentWhatsApp(selectedService?.name || service);
     window.open(`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
