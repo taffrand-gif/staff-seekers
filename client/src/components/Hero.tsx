@@ -7,9 +7,11 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Phone } from 'lucide-react';
 import { ServicesSlider } from './ServicesSlider';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function Hero() {
   const { config } = useSite();
+  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
 
   return (
     <section
@@ -41,17 +43,20 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+            onClick={() => trackPhoneClick(config.phone)}
             className="w-full sm:w-auto inline-flex items-center justify-center text-lg md:text-2xl px-8 md:px-12 font-black tracking-wide text-white rounded shadow-[6px_6px_0_0_rgba(0,0,0,0.3)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95"
             style={{
               backgroundColor: config.colors.primary,
               minHeight: '56px',
             }}
+            aria-label={`Ligar agora para ${config.phone}`}
           >
             <Phone className="w-6 h-6 mr-3" />
             LIGAR AGORA: {config.phone}
           </a>
           <a
             href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`}
+            onClick={() => trackWhatsAppClick('Hero')}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center text-lg md:text-2xl px-8 md:px-12 font-black tracking-wide text-white rounded shadow-[6px_6px_0_0_rgba(0,0,0,0.3)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95"
@@ -59,6 +64,7 @@ export default function Hero() {
               backgroundColor: '#15803d',
               minHeight: '56px',
             }}
+            aria-label="Contactar via WhatsApp"
           >
             💬 WhatsApp
           </a>

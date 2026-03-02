@@ -4,9 +4,11 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, MessageCircle } from 'lucide-react';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function MobileStickyBar() {
   const { config } = useSite();
+  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
   const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`;
 
   return (
@@ -19,6 +21,7 @@ export default function MobileStickyBar() {
       {/* Bouton Ligar Agora — 50% gauche */}
       <a
         href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+        onClick={() => trackPhoneClick(config.phone)}
         className="flex-1 flex items-center justify-center gap-2 text-white font-bold text-base active:opacity-90 transition-opacity"
         style={{
           backgroundColor: config.colors.primary,
@@ -34,6 +37,7 @@ export default function MobileStickyBar() {
       {/* Bouton WhatsApp — 50% droite */}
       <a
         href={whatsappUrl}
+        onClick={() => trackWhatsAppClick('MobileStickyBar')}
         target="_blank"
         rel="noopener noreferrer"
         className="flex-1 flex items-center justify-center gap-2 text-white font-bold text-base active:opacity-90 transition-opacity"

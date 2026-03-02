@@ -4,9 +4,11 @@
 import { useState } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function FloatingCTA() {
   const { config } = useSite();
+  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
   const [isVisible, setIsVisible] = useState(true);
   const [isMinimized, setIsMinimized] = useState(false);
 
@@ -56,13 +58,15 @@ export default function FloatingCTA() {
 
           {/* Corps */}
           <div className="p-4">
-            
+
             <div className="space-y-3">
               {/* Botão telefone */}
               <a
                 href={`tel:${config.phone.replace(/\s/g, '')}`}
+                onClick={() => trackPhoneClick(config.phone)}
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
                 style={{ backgroundColor: config.colors.primary }}
+                aria-label={`Ligar para ${config.phone}`}
               >
                 <Phone className="w-5 h-5" />
                 <span>LIGAR AGORA</span>
@@ -71,10 +75,12 @@ export default function FloatingCTA() {
               {/* Botão WhatsApp */}
               <a
                 href={whatsappUrl}
+                onClick={() => trackWhatsAppClick('FloatingCTA')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
                 style={{ backgroundColor: '#15803d' }}
+                aria-label="Contactar via WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />
                 <span>WhatsApp</span>
