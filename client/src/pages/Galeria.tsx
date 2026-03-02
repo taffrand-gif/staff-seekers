@@ -93,8 +93,10 @@ export default function Galeria() {
                       <div className="relative">
                         <img
                           src={photo.beforeImageUrl}
-                          alt={`Antes - ${photo.title}`}
+                          alt={`Photo avant travaux - ${photo.title}${photo.description ? ' - ' + photo.description : ''}`}
                           className="w-full h-full object-cover"
+                          width="400"
+                          height="300"
                         />
                         <div className="absolute top-2 left-2 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                           Antes
@@ -103,8 +105,10 @@ export default function Galeria() {
                       <div className="relative">
                         <img
                           src={photo.afterImageUrl}
-                          alt={`Depois - ${photo.title}`}
+                          alt={`Photo après travaux - ${photo.title}${photo.description ? ' - ' + photo.description : ''}`}
                           className="w-full h-full object-cover"
+                          width="400"
+                          height="300"
                         />
                         <div className="absolute top-2 right-2 bg-green-700 text-white px-3 py-1 rounded-full text-sm font-semibold">
                           Depois
@@ -138,6 +142,9 @@ export default function Galeria() {
       {/* Lightbox Modal */}
       {selectedPhoto && (
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
           className="fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center p-4"
           onClick={() => setSelectedPhoto(null)}
         >
@@ -150,7 +157,7 @@ export default function Galeria() {
           </button>
 
           <div className="max-w-6xl w-full">
-            <h2 className="text-white text-2xl font-bold mb-4 text-center">
+            <h2 id="modal-title" className="text-white text-2xl font-bold mb-4 text-center">
               {selectedPhoto.title}
             </h2>
 

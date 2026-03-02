@@ -71,7 +71,7 @@ export default function Blog() {
           <h2 className="text-4xl md:text-5xl font-black mb-4">
             Blog & Dicas
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             Conselhos profissionais, guias práticos e dicas para manter tudo em perfeito funcionamento na sua casa em Trás-os-Montes.
           </p>
         </div>
@@ -81,53 +81,54 @@ export default function Blog() {
           {articles.map((article, index) => (
             <article
               key={index}
-              className="bg-white border-4 overflow-hidden shadow-[6px_6px_0_0_rgba(0,0,0,0.1)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all cursor-pointer"
+              className="bg-white border-4 overflow-hidden shadow-[6px_6px_0_0_rgba(0,0,0,0.1)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ borderColor: config.colors.primary }}
-              onClick={() => window.location.href = article.link}
             >
-              {/* Imagem */}
-              <div className="aspect-[16/9] overflow-hidden">
-                <OptimizedImage
-                  src={article.image}
-                  alt={article.title}
-                  className="w-full h-full hover:scale-105 transition-transform duration-300"
-                  width={400}
-                  height={225}
-                  objectFit="cover"
-                />
-              </div>
-
-              {/* Conteúdo */}
-              <div className="p-6">
-                {/* Meta */}
-                <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    <span>{article.date}</span>
-                  </div>
-                  <span>•</span>
-                  <span>{article.readTime} leitura</span>
+              <a href={article.link} className="block">
+                {/* Imagem */}
+                <div className="aspect-[16/9] overflow-hidden">
+                  <OptimizedImage
+                    src={article.image}
+                    alt={`Illustration de l'article: ${article.title}`}
+                    className="w-full h-full hover:scale-105 transition-transform duration-300"
+                    width={400}
+                    height={225}
+                    objectFit="cover"
+                  />
                 </div>
 
-                {/* Título */}
-                <h3 className="font-black text-xl mb-3 leading-tight">
-                  {article.title}
-                </h3>
+                {/* Conteúdo */}
+                <div className="p-6">
+                  {/* Meta */}
+                  <div className="flex items-center gap-4 text-sm text-gray-600 mb-3">
+                    <div className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4" />
+                      <span>{article.date}</span>
+                    </div>
+                    <span>•</span>
+                    <span>{article.readTime} leitura</span>
+                  </div>
 
-                {/* Excerto */}
-                <p className="text-gray-700 mb-4 leading-relaxed">
-                  {article.excerpt}
-                </p>
+                  {/* Título */}
+                  <h3 className="font-black text-xl mb-3 leading-tight">
+                    {article.title}
+                  </h3>
 
-                {/* CTA */}
-                <span
-                  className="inline-flex items-center gap-2 font-bold hover:gap-3 transition-all"
-                  style={{ color: config.colors.primary }}
-                >
-                  Ler Artigo
-                  <ArrowRight className="w-4 h-4" />
-                </span>
-              </div>
+                  {/* Excerto */}
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {article.excerpt}
+                  </p>
+
+                  {/* CTA */}
+                  <span
+                    className="inline-flex items-center gap-2 font-bold hover:gap-3 transition-all"
+                    style={{ color: config.colors.primary }}
+                  >
+                    Ler Artigo
+                    <ArrowRight className="w-4 h-4" />
+                  </span>
+                </div>
+              </a>
             </article>
           ))}
         </div>

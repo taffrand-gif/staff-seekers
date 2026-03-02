@@ -3,9 +3,11 @@
 
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { useLocation } from 'wouter';
 
 export default function SEOHead() {
   const { config } = useSite();
+  const [location] = useLocation();
 
   useEffect(() => {
     // Update document title
@@ -52,7 +54,7 @@ export default function SEOHead() {
     updateMetaTag('meta[property="og:title"]', 'content', config.title);
     updateMetaTag('meta[property="og:description"]', 'content', config.description);
     updateMetaTag('meta[property="og:image"]', 'content', `https://${config.domain}${config.seo.ogImage}`);
-    updateMetaTag('meta[property="og:url"]', 'content', `https://${config.domain}`);
+    updateMetaTag('meta[property="og:url"]', 'content', `https://${config.domain}${location === '/' ? '' : location}`);
 
     // Twitter Card
     updateMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
@@ -67,8 +69,7 @@ export default function SEOHead() {
       canonical.rel = 'canonical';
       document.head.appendChild(canonical);
     }
-    const currentPath = window.location.pathname;
-    canonical.href = `https://${config.domain}${currentPath === '/' ? '' : currentPath}`;
+    canonical.href = `https://${config.domain}${location === '/' ? '' : location}`;
 
     // Alternate hreflang
     let hreflang = document.querySelector('link[hreflang="pt-PT"]') as HTMLLinkElement;
@@ -119,7 +120,7 @@ export default function SEOHead() {
     } else {
       window.addEventListener('load', loadGTM, { once: true });
     }
-  }, [config]);
+  }, [config, location]);
 
   return null; // This component doesn't render anything
 }

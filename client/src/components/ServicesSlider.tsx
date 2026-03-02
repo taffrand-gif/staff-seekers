@@ -123,7 +123,7 @@ export function ServicesSlider() {
               <div className="relative h-80 md:h-96">
                 <OptimizedImage
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} - ${service.description}`}
                   className="w-full h-full"
                   objectFit="cover"
                   priority={index === 0}

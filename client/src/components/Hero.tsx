@@ -12,8 +12,10 @@ export default function Hero() {
   const { config } = useSite();
 
   return (
-    <section 
+    <section
       id="home"
+      role="img"
+      aria-label="Image de fond montrant un électricien professionnel au travail à Trás-os-Montes"
       className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${config.hero.backgroundImage})`,

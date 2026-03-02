@@ -112,7 +112,7 @@ export default function Trabalhos() {
               <div className="aspect-[4/3] overflow-hidden">
                 <OptimizedImage
                   src={project.image}
-                  alt={`${project.title} em ${project.location}`}
+                  alt={`Photo du projet: ${project.title} réalisé à ${project.location}`}
                   className="w-full h-full hover:scale-105 transition-transform duration-300"
                   width={400}
                   height={300}

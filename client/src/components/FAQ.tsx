@@ -86,6 +86,14 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-0">
       <div className="max-w-4xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-black mb-4">
+            Perguntas Frequentes
+          </h2>
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+            Encontre respostas às perguntas mais comuns sobre os nossos serviços em Trás-os-Montes.
+          </p>
+        </div>
         {/* Accordion */}
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, index) => (

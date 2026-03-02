@@ -27,7 +27,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
       <div className="h-48 overflow-hidden">
         <OptimizedImage
           src={imageUrl}
-          alt={title}
+          alt={`Image d'illustration pour l'article: ${title}`}
           className="w-full h-full hover:scale-105 transition-transform duration-500"
           width={600}
           height={300}

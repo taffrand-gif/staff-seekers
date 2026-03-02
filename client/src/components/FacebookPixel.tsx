@@ -15,7 +15,6 @@ declare global {
 export function FacebookPixel({ pixelId }: FacebookPixelProps) {
   useEffect(() => {
     if (!pixelId) {
-      if (import.meta.env.DEV) console.warn('Facebook Pixel ID not provided');
       return;
     }
 
@@ -44,8 +43,6 @@ export function FacebookPixel({ pixelId }: FacebookPixelProps) {
 
     window.fbq('init', pixelId);
     window.fbq('track', 'PageView');
-
-    if (import.meta.env.DEV) console.log('Facebook Pixel initialized:', pixelId);
   }, [pixelId]);
 
   return null;
@@ -60,7 +57,6 @@ export const trackEvent = {
         value: value || 0,
         currency,
       });
-      if (import.meta.env.DEV) console.log('Facebook Pixel: Lead tracked');
     }
   },
 
@@ -70,7 +66,6 @@ export const trackEvent = {
       window.fbq('track', 'Contact', {
         contact_method: method,
       });
-      if (import.meta.env.DEV) console.log('Facebook Pixel: Contact tracked -', method);
     }
   },
 
@@ -81,7 +76,6 @@ export const trackEvent = {
         content_name: contentName,
         content_category: contentCategory || 'service',
       });
-      if (import.meta.env.DEV) console.log('Facebook Pixel: ViewContent tracked -', contentName);
     }
   },
 
@@ -91,7 +85,6 @@ export const trackEvent = {
       window.fbq('track', 'CompleteRegistration', {
         registration_method: method,
       });
-      if (import.meta.env.DEV) console.log('Facebook Pixel: CompleteRegistration tracked');
     }
   },
 
@@ -102,7 +95,6 @@ export const trackEvent = {
         value: value || 0,
         currency: 'EUR',
       });
-      if (import.meta.env.DEV) console.log('Facebook Pixel: Schedule tracked');
     }
   },
 
@@ -110,7 +102,6 @@ export const trackEvent = {
   custom: (eventName: string, params?: Record<string, any>) => {
     if (window.fbq) {
       window.fbq('trackCustom', eventName, params || {});
-      if (import.meta.env.DEV) console.log('Facebook Pixel: Custom event tracked -', eventName);
     }
   },
 };

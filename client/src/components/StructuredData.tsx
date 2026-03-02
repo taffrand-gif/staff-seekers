@@ -315,49 +315,78 @@ export default function StructuredData() {
       ]
     };
 
-    // BreadcrumbList Schema
-    const breadcrumbSchema = {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+    // BreadcrumbList Schema dynamique
+    const getBreadcrumbSchema = () => {
+      const breadcrumbItems = [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
           "item": `https://${config.domain}`
-        },
-        {
+        }
+      ];
+
+      // Pages ville
+      const cityPages = [
+        { path: '/eletricista-chaves', city: 'Chaves' },
+        { path: '/eletricista-braganca', city: 'Bragança' },
+        { path: '/eletricista-mirandela', city: 'Mirandela' },
+        { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+        { path: '/eletricista-valpacos', city: 'Valpaços' },
+        { path: '/eletricista-vinhais', city: 'Vinhais' },
+        { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
+        { path: '/eletricista-mogadouro', city: 'Mogadouro' },
+        { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
+        { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+      ];
+
+      const currentCity = cityPages.find(page => location === page.path);
+
+      if (currentCity) {
+        breadcrumbItems.push({
           "@type": "ListItem",
           "position": 2,
           "name": config.serviceType,
           "item": `https://${config.domain}/servicos`
+        });
+        breadcrumbItems.push({
+          "@type": "ListItem",
+          "position": 3,
+          "name": `${serviceName} em ${currentCity.city}`,
+          "item": `https://${config.domain}${location}`
+        });
+      } else if (location !== '/') {
+        // Pour toutes les autres pages
+        const pageTitles: Record<string, string> = {
+          '/urgencias-24h': 'Urgências 24h',
+          '/simulador-preco': 'Simulador de Preço',
+          '/servicos-restauracao': 'Serviços para Restauração',
+          '/servicos-hotelaria': 'Serviços para Hotelaria',
+          '/servicos-condominios': 'Serviços para Condomínios',
+          '/contactos': 'Contactos',
+          '/sobre': 'Sobre Nós',
+          '/blog': 'Blog'
+        };
+
+        const pageTitle = pageTitles[location] || location.split('/').pop()?.replace(/-/g, ' ');
+        if (pageTitle) {
+          breadcrumbItems.push({
+            "@type": "ListItem",
+            "position": 2,
+            "name": pageTitle.charAt(0).toUpperCase() + pageTitle.slice(1),
+            "item": `https://${config.domain}${location}`
+          });
         }
-      ]
+      }
+
+      return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": breadcrumbItems
+      };
     };
 
-    // Ajouter la ville actuelle au breadcrumb si on est sur une page ville
-    const cityPages = [
-      { path: '/eletricista-chaves', city: 'Chaves' },
-      { path: '/eletricista-braganca', city: 'Bragança' },
-      { path: '/eletricista-mirandela', city: 'Mirandela' },
-      { path: '/eletricista-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-      { path: '/eletricista-valpacos', city: 'Valpaços' },
-      { path: '/eletricista-vinhais', city: 'Vinhais' },
-      { path: '/eletricista-miranda-douro', city: 'Miranda do Douro' },
-      { path: '/eletricista-mogadouro', city: 'Mogadouro' },
-      { path: '/eletricista-torre-moncorvo', city: 'Torre de Moncorvo' },
-      { path: '/eletricista-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
-    ];
-
-    const currentCity = cityPages.find(page => location === page.path);
-    if (currentCity) {
-      breadcrumbSchema.itemListElement.push({
-        "@type": "ListItem",
-        "position": 3,
-        "name": `${serviceName} em ${currentCity.city}`,
-        "item": `https://${config.domain}${location}`
-      });
-    }
+    const breadcrumbSchema = getBreadcrumbSchema();
 
     // Inserir tous les schemas
     const schemas = [

@@ -190,14 +190,70 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    // Minification optimale avec Terser
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true, // Supprimer console.log en production
+        drop_debugger: true,
+        pure_funcs: ['console.log', 'console.info', 'console.debug'],
+        passes: 2, // Deux passes pour meilleure compression
+      },
+      format: {
+        comments: false, // Supprimer tous les commentaires
+      },
+    },
+    // Optimisation des chunks
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ["react", "react-dom", "wouter"],
+          // Vendor principal (React ecosystem)
+          'vendor-react': ['react', 'react-dom', 'wouter'],
+          // Radix UI components (groupés par usage)
+          'vendor-radix-core': [
+            '@radix-ui/react-slot',
+            '@radix-ui/react-label',
+            '@radix-ui/react-separator',
+          ],
+          'vendor-radix-overlay': [
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-alert-dialog',
+            '@radix-ui/react-popover',
+            '@radix-ui/react-tooltip',
+          ],
+          'vendor-radix-forms': [
+            '@radix-ui/react-checkbox',
+            '@radix-ui/react-radio-group',
+            '@radix-ui/react-select',
+            '@radix-ui/react-switch',
+            '@radix-ui/react-slider',
+          ],
+          'vendor-radix-nav': [
+            '@radix-ui/react-navigation-menu',
+            '@radix-ui/react-dropdown-menu',
+            '@radix-ui/react-menubar',
+            '@radix-ui/react-tabs',
+            '@radix-ui/react-accordion',
+          ],
+          // Utilitaires et animations
+          'vendor-utils': [
+            'clsx',
+            'tailwind-merge',
+            'class-variance-authority',
+            'framer-motion',
+          ],
         },
+        // Nommage optimisé des chunks
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
       },
     },
-
+    // Optimisation des assets
+    assetsInlineLimit: 4096, // 4KB - inline les petits assets
+    cssCodeSplit: true, // Split CSS par chunk
+    sourcemap: false, // Pas de sourcemaps en production
+    reportCompressedSize: true, // Rapport de taille compressée
   },
   server: {
     port: 3000,
