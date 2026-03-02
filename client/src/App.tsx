@@ -12,8 +12,10 @@ import StructuredData from "./components/StructuredData";
 import OptimizedHome from "./pages/OptimizedHome";
 import SkipLink from '@/components/SkipLink';
 import UrgencyIndicator from '@/components/UrgencyIndicator';
-import ExitIntentPopup from '@/components/ExitIntentPopup';
-import QuoteCalculator from '@/components/QuoteCalculator';
+
+// Lazy load conversion widgets (below-fold)
+const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
+const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
 
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
@@ -177,8 +179,10 @@ function App() {
             <Toaster />
             <StructuredData />
             <UrgencyIndicator />
-            <ExitIntentPopup />
-            <QuoteCalculator />
+            <Suspense fallback={null}>
+              <ExitIntentPopup />
+              <QuoteCalculator />
+            </Suspense>
             <Router />
             <FloatingCTA />
             <SocialProofTicker />
