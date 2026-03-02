@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
 import OptimizedImage from './OptimizedImage';
@@ -179,3 +179,5 @@ export function ServicesSlider() {
     </div>
   );
 }
+
+export default memo(ServicesSlider);

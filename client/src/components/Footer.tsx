@@ -1,8 +1,9 @@
 // Footer com navegação funcional e informações de contacto
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, MapPin } from 'lucide-react';
+import { memo } from 'react';
 
-export default function Footer() {
+function Footer() {
   const { config } = useSite();
 
   const scrollToSection = (id: string) => {
@@ -120,3 +121,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default memo(Footer);

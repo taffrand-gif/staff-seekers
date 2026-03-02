@@ -1,8 +1,9 @@
 // Secção Testemunhos - avaliações de clientes
 import { useSite } from '@/contexts/SiteContext';
 import { Star } from 'lucide-react';
+import { memo } from 'react';
 
-export default function Testimonials() {
+function Testimonials() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
   const clientCount = isPlumber ? '500+' : '300+';
@@ -78,3 +79,5 @@ export default function Testimonials() {
     </section>
   );
 }
+
+export default memo(Testimonials);

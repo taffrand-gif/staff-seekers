@@ -2,7 +2,7 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, memo } from 'react';
 
 interface CityItem {
   name: string;
@@ -308,3 +308,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default memo(Header);
