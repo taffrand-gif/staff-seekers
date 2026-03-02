@@ -76,6 +76,24 @@ export default function StructuredData() {
         "bestRating": "5",
         "worstRating": "1"
       },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Eletricista",
+        "itemListElement": config.services.map((service, index) => ({
+          "@type": "Offer",
+          "position": index + 1,
+          "itemOffered": {
+            "@type": "Service",
+            "name": service.label,
+            "description": `${service.label} profissional em Trás-os-Montes`
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "EUR",
+            "price": service.basePrice?.toString() || "50"
+          }
+        }))
+      },
       "foundingDate": config.company.yearEstablished,
       "knowsLanguage": "pt-PT",
       "currenciesAccepted": "EUR",
