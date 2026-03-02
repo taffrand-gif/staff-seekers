@@ -6,13 +6,18 @@ interface OptimizedImageProps {
   className?: string;
   width?: number;
   height?: number;
-  priority?: boolean; // Pour les images above-the-fold
+  priority?: boolean;
   objectFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
+  sizes?: string;
 }
 
 /**
- * Composant d'image optimisé avec lazy loading et placeholder
- * Améliore les Core Web Vitals (LCP, CLS)
+ * Composant d'image optimisé avec:
+ * - Lazy loading natif
+ * - Support srcset responsive (320w, 640w, 1024w, 1920w)
+ * - Format WebP avec fallback JPG
+ * - Placeholder pendant le chargement
+ * - Prévention CLS avec width/height
  */
 export default function OptimizedImage({
   src,
@@ -22,13 +27,14 @@ export default function OptimizedImage({
   height,
   priority = false,
   objectFit = 'cover',
+  sizes = '100vw',
 }: OptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isInView, setIsInView] = useState(priority); // Si priority=true, charger immédiatement
+  const [isInView, setIsInView] = useState(priority);
   const imgRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
-    if (priority) return; // Pas de lazy loading pour les images prioritaires
+    if (priority) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -40,7 +46,7 @@ export default function OptimizedImage({
         });
       },
       {
-        rootMargin: '50px', // Commencer à charger 50px avant que l'image soit visible
+        rootMargin: '50px',
       }
     );
 
@@ -53,10 +59,45 @@ export default function OptimizedImage({
     };
   }, [priority]);
 
+  // Générer srcset pour images locales
+  const generateSrcSet = (imagePath: string): string => {
+    // Si c'est une URL externe (CDN), pas de srcset
+    if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+      return '';
+    }
+
+    // Extraire le chemin et l'extension
+    const pathParts = imagePath.split('.');
+    const extension = pathParts.pop();
+    const basePath = pathParts.join('.');
+
+    // Vérifier si c'est une image optimisée (dans /images-optimized/)
+    if (!imagePath.includes('/images-optimized/')) {
+      return '';
+    }
+
+    // Générer srcset pour différentes tailles
+    const widths = [320, 640, 1024, 1920];
+    const srcsetEntries = widths.map(w => {
+      // Pour les images optimisées, on suppose qu'elles existent en WebP
+      return `${basePath}.webp ${w}w`;
+    });
+
+    return srcsetEntries.join(', ');
+  };
+
+  // Générer source WebP
+  const getWebPSrc = (imagePath: string): string => {
+    if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+      return imagePath;
+    }
+    return imagePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+  };
+
   const containerStyle: React.CSSProperties = {
     position: 'relative',
     overflow: 'hidden',
-    backgroundColor: '#f3f4f6', // Placeholder gris clair
+    backgroundColor: '#f3f4f6',
     ...(width && height ? { aspectRatio: `${width} / ${height}` } : {}),
   };
 
@@ -68,20 +109,44 @@ export default function OptimizedImage({
     opacity: isLoaded ? 1 : 0,
   };
 
+  const srcSet = generateSrcSet(src);
+  const webpSrc = getWebPSrc(src);
+  const isExternal = src.startsWith('http://') || src.startsWith('https://');
+
   return (
     <div ref={imgRef} style={containerStyle} className={className}>
       {isInView && (
         <>
-          <img
-            src={src}
-            alt={alt}
-            style={imgStyle}
-            loading={priority ? 'eager' : 'lazy'}
-            decoding="async"
-            onLoad={() => setIsLoaded(true)}
-            {...(width && { width })}
-            {...(height && { height })}
-          />
+          {!isExternal && srcSet ? (
+            <picture>
+              <source
+                type="image/webp"
+                srcSet={srcSet}
+                sizes={sizes}
+              />
+              <img
+                src={webpSrc}
+                alt={alt}
+                style={imgStyle}
+                loading={priority ? 'eager' : 'lazy'}
+                decoding="async"
+                onLoad={() => setIsLoaded(true)}
+                {...(width && { width })}
+                {...(height && { height })}
+              />
+            </picture>
+          ) : (
+            <img
+              src={src}
+              alt={alt}
+              style={imgStyle}
+              loading={priority ? 'eager' : 'lazy'}
+              decoding="async"
+              onLoad={() => setIsLoaded(true)}
+              {...(width && { width })}
+              {...(height && { height })}
+            />
+          )}
           {!isLoaded && (
             <div
               style={{

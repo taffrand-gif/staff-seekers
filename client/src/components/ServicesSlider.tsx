@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
+import OptimizedImage from './OptimizedImage';
 
 interface Service {
   icon: string;
@@ -120,13 +121,18 @@ export function ServicesSlider() {
             <div key={index} className="min-w-full relative">
               {/* Background Image with Overlay */}
               <div className="relative h-80 md:h-96">
-                <img
+                <OptimizedImage
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full"
+                  objectFit="cover"
+                  priority={index === 0}
+                  width={1200}
+                  height={400}
+                  sizes="100vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                
+
                 {/* Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
                   <div className="text-5xl mb-4">{service.icon}</div>

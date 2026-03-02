@@ -1,6 +1,7 @@
 // Secção Trabalhos Realizados - portfolio adaptado ao site ativo
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
+import OptimizedImage from './OptimizedImage';
 
 export default function Trabalhos() {
   const { config } = useSite();
@@ -109,13 +110,13 @@ export default function Trabalhos() {
             >
               {/* Imagem */}
               <div className="aspect-[4/3] overflow-hidden">
-                <img
+                <OptimizedImage
                   src={project.image}
                   alt={`${project.title} em ${project.location}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                  width="400"
-                  height="300"
+                  className="w-full h-full hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={300}
+                  objectFit="cover"
                 />
               </div>
 

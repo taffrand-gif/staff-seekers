@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+import OptimizedImage from './OptimizedImage';
 
 const OptimizedHero: React.FC = () => {
   const { config } = useSite();
@@ -82,13 +83,14 @@ const OptimizedHero: React.FC = () => {
       
       {/* Hero image flottante */}
       <div className="absolute right-0 bottom-0 w-1/3 h-3/4 hidden lg:block">
-        <img
+        <OptimizedImage
           src="/images-optimized/hero/hero-electrician-portugal.jpg"
           alt="Eletricista profissional em Trás-os-Montes com multímetro"
-          className="w-full h-full object-cover object-left rounded-l-3xl shadow-2xl"
-          loading="eager"
-          width="800"
-          height="600"
+          className="w-full h-full rounded-l-3xl shadow-2xl"
+          priority={true}
+          width={800}
+          height={600}
+          objectFit="cover"
         />
       </div>
     </section>

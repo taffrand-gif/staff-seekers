@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import OptimizedImage from './OptimizedImage';
 
 // Images de services pour électricité — utiliser les fichiers .jpg disponibles
 const electricServiceImages: Record<string, string> = {
@@ -159,14 +160,13 @@ const OptimizedServices: React.FC = () => {
               >
                 {/* Imagem do serviço */}
                 <div className="h-48 overflow-hidden">
-                  <img
+                  <OptimizedImage
                     src={`/images-optimized/services/${imageName}`}
                     alt={`Serviço de ${service.toLowerCase()} em Trás-os-Montes`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                    decoding="async"
-                    width="400"
-                    height="300"
+                    className="w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    width={400}
+                    height={300}
+                    objectFit="cover"
                   />
                 </div>
 

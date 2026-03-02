@@ -1,6 +1,7 @@
 // Secção Blog & Dicas - conteúdo adaptado ao site ativo
 import { useSite } from '@/contexts/SiteContext';
 import { Calendar, ArrowRight } from 'lucide-react';
+import OptimizedImage from './OptimizedImage';
 
 export default function Blog() {
   const { config } = useSite();
@@ -86,13 +87,13 @@ export default function Blog() {
             >
               {/* Imagem */}
               <div className="aspect-[16/9] overflow-hidden">
-                <img
+                <OptimizedImage
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                  width="400"
-                  height="225"
+                  className="w-full h-full hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={225}
+                  objectFit="cover"
                 />
               </div>
 

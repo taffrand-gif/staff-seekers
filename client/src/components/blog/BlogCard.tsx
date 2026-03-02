@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import OptimizedImage from '../OptimizedImage';
 
 interface BlogCardProps {
   slug: string;
@@ -24,13 +25,13 @@ const BlogCard: React.FC<BlogCardProps> = ({
     <article className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow duration-300">
       {/* Image */}
       <div className="h-48 overflow-hidden">
-        <img
+        <OptimizedImage
           src={imageUrl}
           alt={title}
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-          loading="lazy"
+          className="w-full h-full hover:scale-105 transition-transform duration-500"
           width={600}
           height={300}
+          objectFit="cover"
         />
       </div>
 

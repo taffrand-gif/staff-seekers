@@ -5,6 +5,7 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Check } from 'lucide-react';
+import OptimizedImage from './OptimizedImage';
 
 const EMERGENCY_SERVICE_IMAGE = 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Zd5MIfeKcoQdjH54bmsaCu-img-5_1770593728000_na1fn_ZW1lcmdlbmN5LXNlcnZpY2UtMjRo.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L1pkNU1JZmVLY29RZGpINTRibXNhQ3UtaW1nLTVfMTc3MDU5MzcyODAwMF9uYTFmbl9aVzFsY21kbGJtTjVMWE5sY25acFkyVXRNalJvLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=TajhBowNnHjmfC2EyR~ZbpeBmVYls4qExj4TKXSoTkZr8GlZmLRxhMAtmuoTpnD7tAfzLV5f~vlhG2I-eJJAS2VsPgaXssgJOhI5pyvQ6l85qFUZNjuqPviU0Rjn0Luz0VxQjs9iYNO7oLIe7bxKKUpytgqf2DvLvQlmi5zQLtzpboDHhHf2RwBYh2OvSAzBulJtrS0g7LKPLmbxekTZtzLpLofrs-2jDFmgJuX5SvzCapHPw8RuQFCUAGpEMqTibxECx90GPEjDDjeHF-ZNm5CSH~f35jr7GP-raYVDCFyi7qeDegTYsIYz98BrR4xnDp~QN4877L9Ze05CX0gZ5A__';
 
@@ -73,15 +74,17 @@ export default function CompanyInfo() {
             </div>
 
             {/* Image */}
-            <div 
+            <div
               className="border-4 overflow-hidden shadow-[8px_8px_0_0_rgba(0,0,0,0.1)]"
               style={{ borderColor: config.colors.primary }}
             >
-              <img
+              <OptimizedImage
                 src={EMERGENCY_SERVICE_IMAGE}
                 alt="Eletricista profissional em serviço de urgência 24h em Trás-os-Montes"
-                loading="lazy"
                 className="w-full h-auto"
+                width={800}
+                height={600}
+                objectFit="cover"
               />
             </div>
           </div>
