@@ -26,6 +26,20 @@ const servicesPlumb = [
   { label: 'Casa de Banho Completa', min: 800, max: 1800 },
 ];
 
+const examplesPlumb = [
+  { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
+  { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
+  { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
+  { icon: '🔍', label: 'Deteção de fuga', price: '80-150€' },
+];
+
+const examplesElec = [
+  { icon: '🔌', label: 'Instalação de tomada', price: '25-45€' },
+  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '80-150€' },
+  { icon: '💡', label: 'Instalação de candeeiro', price: '35-60€' },
+  { icon: '📋', label: 'Certificação elétrica', price: '150-300€' },
+];
+
 export default function CalculadorPreco() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
@@ -34,6 +48,7 @@ export default function CalculadorPreco() {
   const [isUrgent, setIsUrgent] = useState(false);
 
   const services = isPlumber ? servicesPlumb : servicesElec;
+  const examples = isPlumber ? examplesPlumb : examplesElec;
   const phone = isPlumber ? '928 484 451' : '932 321 892';
   const whatsapp = isPlumber ? '351928484451' : '351932321892';
   const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
@@ -70,6 +85,35 @@ export default function CalculadorPreco() {
           </h2>
           <p className="text-lg text-gray-600">
             Estimativa imediata — sem ter de falar com ninguém
+          </p>
+        </div>
+
+        {/* Exemplos de Preços */}
+        <div className="mb-10">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            Exemplos de Preços
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {examples.map((example, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-100 hover:border-current"
+                style={{ '--hover-color': accentColor } as React.CSSProperties}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl">{example.icon}</span>
+                  <div className="flex-1">
+                    <p className="text-gray-700 font-medium">{example.label}</p>
+                    <p className="text-xl font-bold" style={{ color: accentColor }}>
+                      {example.price}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-gray-500 text-center mt-4">
+            * Preços indicativos. Valores finais dependem da complexidade e materiais necessários.
           </p>
         </div>
 
