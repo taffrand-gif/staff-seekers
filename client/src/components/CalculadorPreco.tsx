@@ -13,9 +13,12 @@ const zones = [
 const servicesElec = [
   { label: 'Tomada / Interruptor', min: 30, max: 45 },
   { label: 'Avaria / Diagnóstico', min: 50, max: 80 },
-  { label: 'Substituição Quadro Elétrico', min: 150, max: 350 },
-  { label: 'Certificação CERTIEL', min: 80, max: 200 },
-  { label: 'Instalação Completa', min: 200, max: 500 },
+  { label: 'Modernização Quadro Simples', min: 200, max: 300 },
+  { label: 'Quadro Elétrico Completo', min: 400, max: 600 },
+  { label: 'Certificação CERTIEL', min: 150, max: 200 },
+  { label: 'Instalação de Candeeiro', min: 35, max: 60 },
+  { label: 'Reparação Quadro (dispara)', min: 80, max: 150 },
+  { label: 'Instalação Elétrica Completa', min: 200, max: 500 },
 ];
 
 const servicesPlumb = [
