@@ -2,9 +2,12 @@
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
 import OptimizedImage from './OptimizedImage';
+import { useAnalytics } from '@/hooks/useAnalytics';
+import { memo } from 'react';
 
-export default function Trabalhos() {
+function Trabalhos() {
   const { config } = useSite();
+  const { trackPhoneClick } = useAnalytics();
   const isPlumber = config.id === 'norte-reparos';
 
   const plumbProjects = [
@@ -112,7 +115,7 @@ export default function Trabalhos() {
               <div className="aspect-[4/3] overflow-hidden">
                 <OptimizedImage
                   src={project.image}
-                  alt={`Photo du projet: ${project.title} réalisé à ${project.location}`}
+                  alt={`${project.title} em ${project.location} - Trabalho realizado por ${isPlumber ? 'canalizador' : 'eletricista'} profissional certificado`}
                   className="w-full h-full hover:scale-105 transition-transform duration-300"
                   width={400}
                   height={300}
@@ -155,8 +158,10 @@ export default function Trabalhos() {
             </p>
             <a
               href={`tel:${config.phone.replace(/\s/g, '')}`}
+              onClick={() => trackPhoneClick(config.phone)}
               className="inline-flex items-center gap-2 px-8 py-4 font-bold text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ backgroundColor: config.colors.primary }}
+              aria-label={`Ligar agora para ${config.phone}`}
             >
               LIGUE AGORA: {config.phone}
             </a>
@@ -166,3 +171,5 @@ export default function Trabalhos() {
     </section>
   );
 }
+
+export default memo(Trabalhos);
