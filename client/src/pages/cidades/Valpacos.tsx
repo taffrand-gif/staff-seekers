@@ -23,7 +23,7 @@ export default function Valpacos() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-valpacos');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-valpacos');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

@@ -37,7 +37,7 @@ export default function MacedoCavaleiros() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-macedo-cavaleiros');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-macedo-cavaleiros');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

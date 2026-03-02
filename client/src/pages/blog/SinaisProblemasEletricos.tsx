@@ -22,7 +22,7 @@ export default function SinaisProblemasEletricos() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/blog/sinais-problemas-eletricos-casa');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/sinais-problemas-eletricos-casa');
   }, []);
 
   const sinais = [

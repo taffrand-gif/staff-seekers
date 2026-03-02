@@ -23,7 +23,7 @@ export default function Penedono() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-penedono');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-penedono');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

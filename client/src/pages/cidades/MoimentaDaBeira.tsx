@@ -23,7 +23,7 @@ export default function MoimentaDaBeira() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-moimenta-da-beira');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-moimenta-da-beira');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

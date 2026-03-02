@@ -41,7 +41,7 @@ export default function Chaves() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-chaves');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-chaves');
     
     // Schema.org LocalBusiness para Chaves
     const schemaScript = document.createElement('script');

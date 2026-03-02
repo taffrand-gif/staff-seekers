@@ -23,7 +23,7 @@ export default function VilaRealCity() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vila-pouca-de-aguiar');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-vila-pouca-de-aguiar');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

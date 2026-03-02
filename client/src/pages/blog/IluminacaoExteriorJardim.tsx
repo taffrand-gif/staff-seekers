@@ -22,7 +22,7 @@ export default function IluminacaoExteriorJardim() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/blog/iluminacao-exterior-jardim-guia');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/iluminacao-exterior-jardim-guia');
 
     // JSON-LD Article Schema
     const script = document.createElement('script');
@@ -41,7 +41,7 @@ export default function IluminacaoExteriorJardim() {
         "name": "Staff Seekers",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://staff-seekers.com/logo.png"
+          "url": "https://eletricista-norte-reparos.pt/logo.png"
         }
       },
       "datePublished": "2026-02-19",

@@ -24,7 +24,7 @@ export default function TorreMoncorvo() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-torre-moncorvo');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-torre-moncorvo');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

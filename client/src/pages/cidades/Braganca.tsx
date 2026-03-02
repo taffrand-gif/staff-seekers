@@ -42,7 +42,7 @@ export default function Braganca() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-braganca');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-braganca');
     
     // Schema.org LocalBusiness for Bragança
     const schemaScript = document.createElement('script');

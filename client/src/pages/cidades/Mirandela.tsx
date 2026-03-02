@@ -41,7 +41,7 @@ export default function Mirandela() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mirandela');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-mirandela');
     
     // Schema.org LocalBusiness para Mirandela
     const schemaScript = document.createElement('script');

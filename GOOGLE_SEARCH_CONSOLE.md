@@ -7,7 +7,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 ## 📋 Prérequis
 
 - Avoir déployé le site sur Cloudflare Pages
-- Avoir configuré le domaine personnalisé (norte-reparos.com ou staff-seekers.com)
+- Avoir configuré le domaine personnalisé (norte-reparos.com ou eletricista-norte-reparos.pt)
 - Avoir un compte Google
 
 ---
@@ -25,7 +25,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 **Option A : Vérification par domaine (Recommandé)**
 
 1. Sélectionnez **"Domaine"**
-2. Entrez votre domaine : `norte-reparos.com` ou `staff-seekers.com`
+2. Entrez votre domaine : `norte-reparos.com` ou `eletricista-norte-reparos.pt`
 3. Cliquez sur **"Continuer"**
 4. Google vous donnera un enregistrement TXT DNS
 5. Allez sur Cloudflare → DNS → Ajoutez l'enregistrement TXT
@@ -34,7 +34,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 **Option B : Vérification par préfixe d'URL (Plus rapide)**
 
 1. Sélectionnez **"Préfixe d'URL"**
-2. Entrez : `https://norte-reparos.com` ou `https://staff-seekers.com`
+2. Entrez : `https://norte-reparos.com` ou `https://eletricista-norte-reparos.pt`
 3. Cliquez sur **"Continuer"**
 4. Choisissez la méthode **"Balise HTML"**
 5. Copiez la balise meta fournie
@@ -96,13 +96,13 @@ https://norte-reparos.com/blog/5-sinais-precisa-canalizador-urgente
 ### Staff Seekers (Électricité)
 
 ```
-https://staff-seekers.com/
-https://staff-seekers.com/servicos
-https://staff-seekers.com/servicos/braganca
-https://staff-seekers.com/servicos/mirandela
-https://staff-seekers.com/servicos/macedo-de-cavaleiros
-https://staff-seekers.com/blog
-https://staff-seekers.com/blog/5-sinais-precisa-electricista-urgente
+https://eletricista-norte-reparos.pt/
+https://eletricista-norte-reparos.pt/servicos
+https://eletricista-norte-reparos.pt/servicos/braganca
+https://eletricista-norte-reparos.pt/servicos/mirandela
+https://eletricista-norte-reparos.pt/servicos/macedo-de-cavaleiros
+https://eletricista-norte-reparos.pt/blog
+https://eletricista-norte-reparos.pt/blog/5-sinais-precisa-electricista-urgente
 ```
 
 ---

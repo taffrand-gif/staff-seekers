@@ -23,7 +23,7 @@ export default function RibeiraDePena() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-ribeira-de-pena');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-ribeira-de-pena');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

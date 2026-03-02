@@ -9,11 +9,11 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://staff-seekers.com/.well-known/openapi.yaml",
+    "url": "https://eletricista-norte-reparos.pt/.well-known/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://staff-seekers.com/logo.png",
-  "contact_email": "contacto@staff-seekers.com",
-  "legal_info_url": "https://staff-seekers.com/terms",
-  "human_url": "https://staff-seekers.com"
+  "logo_url": "https://eletricista-norte-reparos.pt/logo.png",
+  "contact_email": "contacto@eletricista-norte-reparos.pt",
+  "legal_info_url": "https://eletricista-norte-reparos.pt/terms",
+  "human_url": "https://eletricista-norte-reparos.pt"
 }

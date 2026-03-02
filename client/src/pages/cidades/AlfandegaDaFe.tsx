@@ -23,7 +23,7 @@ export default function AlfandegaDaFe() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-alfandega-da-fe');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-alfandega-da-fe');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

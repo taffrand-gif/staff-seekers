@@ -23,7 +23,7 @@ export default function Boticas() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-boticas');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-boticas');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

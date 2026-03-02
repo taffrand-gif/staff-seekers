@@ -42,7 +42,7 @@ export const electriciteConfig: ServiceConfig = {
   businessName: 'Eletricista Profissional 24h',
   phone: '+351932321892',
   whatsappNumber: '351932321892',
-  domain: 'staff-seekers.com',
+  domain: 'eletricista-norte-reparos.pt',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   

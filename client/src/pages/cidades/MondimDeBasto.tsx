@@ -23,7 +23,7 @@ export default function MondimDeBasto() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mondim-de-basto');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-mondim-de-basto');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

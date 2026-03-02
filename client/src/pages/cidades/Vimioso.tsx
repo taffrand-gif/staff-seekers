@@ -23,7 +23,7 @@ export default function Vimioso() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vimioso');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-vimioso');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

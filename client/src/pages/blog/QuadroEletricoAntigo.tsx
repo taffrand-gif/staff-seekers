@@ -22,7 +22,7 @@ export default function QuadroEletricoAntigo() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/blog/quadro-eletrico-antigo-fusíveis-trocar');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/quadro-eletrico-antigo-fusíveis-trocar');
   }, []);
 
   return (

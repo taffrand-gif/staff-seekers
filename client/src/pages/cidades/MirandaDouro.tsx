@@ -24,7 +24,7 @@ export default function MirandaDouro() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-miranda-douro');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-miranda-douro');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

@@ -183,7 +183,7 @@ pnpm build
 
 ### Prérequis
 - Compte Cloudflare
-- Domaine acheté sur Cloudflare (ex: norte-reparos.com, staff-seekers.com)
+- Domaine acheté sur Cloudflare (ex: norte-reparos.com, eletricista-norte-reparos.pt)
 - Repository GitHub
 
 ### Étapes
@@ -269,7 +269,7 @@ Pour créer le site d'électricité après avoir créé celui de plomberie :
 3. **Déployer sur un nouveau domaine**
    - Créer un nouveau projet Cloudflare Pages
    - Connecter le même repository
-   - Configurer le domaine staff-seekers.com
+   - Configurer le domaine eletricista-norte-reparos.pt
 
 ---
 

@@ -23,7 +23,7 @@ export default function MesaoFrio() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mesao-frio');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-mesao-frio');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

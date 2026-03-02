@@ -23,7 +23,7 @@ export default function Montalegre() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-montalegre');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-montalegre');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

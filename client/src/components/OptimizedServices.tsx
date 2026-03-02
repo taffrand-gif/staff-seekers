@@ -130,7 +130,7 @@ const OptimizedServices: React.FC = () => {
   const btnBg = isPlumber ? 'bg-blue-600 hover:bg-blue-700' : 'bg-amber-700 hover:bg-amber-800';
   const serviceEmoji = isPlumber ? '🔧' : '⚡';
   const otherSiteLink = isPlumber
-    ? { text: 'Precisa de um eletricista?', url: 'https://staff-seekers.com', label: 'staff-seekers.com' }
+    ? { text: 'Precisa de um eletricista?', url: 'https://eletricista-norte-reparos.pt', label: 'eletricista-norte-reparos.pt' }
     : { text: 'Precisa de um canalizador?', url: 'https://norte-reparos.com', label: 'norte-reparos.com' };
 
   return (

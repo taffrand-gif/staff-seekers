@@ -22,7 +22,7 @@ export default function AutomacaoResidencialGuia() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/blog/automacao-residencial-casa-inteligente');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/automacao-residencial-casa-inteligente');
 
     // JSON-LD Article Schema
     const script = document.createElement('script');
@@ -41,7 +41,7 @@ export default function AutomacaoResidencialGuia() {
         "name": "Staff Seekers",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://staff-seekers.com/logo.png"
+          "url": "https://eletricista-norte-reparos.pt/logo.png"
         }
       },
       "datePublished": "2026-02-19",

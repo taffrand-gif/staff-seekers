@@ -24,7 +24,7 @@ export default function FreixoEspadaCinta() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-freixo-espada-cinta');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-freixo-espada-cinta');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

@@ -26,7 +26,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista macedo de cavaleiros',
       'reparação elétrica macedo de cavaleiros'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-macedo-de-cavaleiros'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-macedo-de-cavaleiros'
   },
   'braganca': {
     cityName: 'Bragança',
@@ -42,7 +42,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista bragança',
       'reparação elétrica bragança'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-braganca'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-braganca'
   },
   'mirandela': {
     cityName: 'Mirandela',
@@ -58,7 +58,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista mirandela',
       'reparação elétrica mirandela'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-mirandela'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-mirandela'
   },
   'chaves': {
     cityName: 'Chaves',
@@ -74,7 +74,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista chaves',
       'reparação elétrica chaves'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-chaves'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-chaves'
   },
   'valpacos': {
     cityName: 'Valpaços',
@@ -90,7 +90,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista valpaços',
       'reparação elétrica valpaços'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-valpacos'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-valpacos'
   },
   'vinhais': {
     cityName: 'Vinhais',
@@ -106,7 +106,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista vinhais',
       'reparação elétrica vinhais'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-vinhais'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-vinhais'
   },
   'miranda-do-douro': {
     cityName: 'Miranda do Douro',
@@ -122,7 +122,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista miranda do douro',
       'reparação elétrica miranda do douro'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-miranda-do-douro'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-miranda-do-douro'
   },
   'mogadouro': {
     cityName: 'Mogadouro',
@@ -138,7 +138,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista mogadouro',
       'reparação elétrica mogadouro'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-mogadouro'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-mogadouro'
   },
   'torre-de-moncorvo': {
     cityName: 'Torre de Moncorvo',
@@ -154,7 +154,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista torre de moncorvo',
       'reparação elétrica torre de moncorvo'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-torre-de-moncorvo'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-torre-de-moncorvo'
   },
   'freixo-de-espada-a-cinta': {
     cityName: 'Freixo de Espada à Cinta',
@@ -170,7 +170,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'preço eletricista freixo de espada à cinta',
       'reparação elétrica freixo de espada à cinta'
     ],
-    canonicalUrl: 'https://staff-seekers.com/eletricista-freixo-de-espada-a-cinta'
+    canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-freixo-de-espada-a-cinta'
   }
 };
 

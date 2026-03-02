@@ -24,7 +24,7 @@ export default function Mogadouro() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-mogadouro');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-mogadouro');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

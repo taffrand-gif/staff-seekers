@@ -10,7 +10,7 @@ Plateforme multi-sites pour services de plomberie et électricité 24h/24 dans l
 - **Couleur principale** : Bleu (#1e40af)
 - **Services** : Reparação Fuga Água, Desentupimento, Instalação Esquentador, Substituição Canalização
 
-### 2. Staff-Seekers (staff-seekers.com)
+### 2. Staff-Seekers (eletricista-norte-reparos.pt)
 - **Secteur** : Services électriques
 - **Téléphone** : 932 321 892
 - **Couleur principale** : Orange (#ea580c)
@@ -66,7 +66,7 @@ Le système utilise une configuration centralisée dans `shared/siteConfig.ts` q
 
 La détection du site se fait via le hostname :
 - `norte-reparos.com` ou `localhost` → Configuration Norte-Reparos (par défaut)
-- `staff-seekers.com` → Configuration Staff-Seekers
+- `eletricista-norte-reparos.pt` → Configuration Staff-Seekers
 
 ## Fonctionnalités
 
@@ -146,7 +146,7 @@ Toutes les images sont stockées dans `/home/ubuntu/webdev-static-assets/` et ut
 
 3. Configurer les domaines :
    - Norte-Reparos : `norte-reparos.com`
-   - Staff-Seekers : `staff-seekers.com`
+   - Staff-Seekers : `eletricista-norte-reparos.pt`
 
 ### Déploiement externe (Cloudflare Pages)
 
@@ -230,7 +230,7 @@ colors: {
 ## Support et maintenance
 
 Pour toute question ou assistance :
-- Email : info@norte-reparos.com ou info@staff-seekers.com
+- Email : info@norte-reparos.com ou info@eletricista-norte-reparos.pt
 - Téléphone : 928 484 451 (Norte-Reparos) ou 932 321 892 (Staff-Seekers)
 
 ## Licence

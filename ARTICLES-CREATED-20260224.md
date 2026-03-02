@@ -85,7 +85,7 @@
 ### ✅ Chaque article contient:
 - Title SEO optimisé
 - Meta description (150-160 caractères)
-- Canonical URL (https://staff-seekers.com/blog/SLUG)
+- Canonical URL (https://eletricista-norte-reparos.pt/blog/SLUG)
 - Open Graph tags
 - Schema.org Article JSON-LD
 - Breadcrumb navigation
@@ -120,7 +120,7 @@ Trás-os-Montes, Portugal
 ## 📞 CONTACT
 - Téléphone: +351 932 321 892
 - WhatsApp: https://wa.me/351932321892
-- Site: https://staff-seekers.com
+- Site: https://eletricista-norte-reparos.pt
 - Couleur: #FF6B35 (Orange)
 
 ## 🚀 PROCHAINES ÉTAPES

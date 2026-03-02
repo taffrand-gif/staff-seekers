@@ -23,7 +23,7 @@ export default function SaoJoaoDaPesqueira() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-sao-joao-da-pesqueira');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-sao-joao-da-pesqueira');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

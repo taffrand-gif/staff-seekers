@@ -3,7 +3,7 @@ import { CITIES } from '../shared/serviceConfig';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const DOMAIN = 'https://staff-seekers.com';
+const DOMAIN = 'https://eletricista-norte-reparos.pt';
 
 function generateSitemap() {
   const urls: Array<{ loc: string; priority: number; changefreq: string }> = [];

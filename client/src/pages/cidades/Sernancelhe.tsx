@@ -23,7 +23,7 @@ export default function Sernancelhe() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-sernancelhe');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-sernancelhe');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

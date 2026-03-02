@@ -426,7 +426,7 @@ Sem certificação = Não pode vender/arrendar
 
 Agende já:
 📞 932 321 892
-🌐 staff-seekers.com
+🌐 eletricista-norte-reparos.pt
 
 #CertificaçãoDGEG #Bragança #Electricista
 ```
@@ -478,7 +478,7 @@ Quer otimizar a instalação elétrica?
 Fazemos auditoria energética GRATUITA!
 
 📞 932 321 892
-📧 contato@staff-seekers.com
+📧 contato@eletricista-norte-reparos.pt
 
 #PouparEnergia #DicasÚteis #Bragança
 ```
@@ -549,7 +549,7 @@ Trabalhos não certificados:
 Exija profissionais certificados!
 
 📞 932 321 892
-🌐 staff-seekers.com
+🌐 eletricista-norte-reparos.pt
 
 #Certificação #Profissional #Bragança
 ```
@@ -604,7 +604,7 @@ RESOLVA HOJE:
 
 📞 Ligue: 932 321 892
 💬 WhatsApp: [link]
-🌐 Orçamento online: staff-seekers.com
+🌐 Orçamento online: eletricista-norte-reparos.pt
 
 ✅ Atendimento 24/7
 ✅ Certificação DGEG

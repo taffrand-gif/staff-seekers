@@ -115,7 +115,7 @@ Aqui define onde presta serviços. Pode escolher:
 
 **Website:**
 - Norte-Reparos: https://norte-reparos.com
-- Staff-Seekers: https://staff-seekers.com
+- Staff-Seekers: https://eletricista-norte-reparos.pt
 
 **IMPORTANTE:** Use formato internacional (+351) para telefone.
 
@@ -216,10 +216,10 @@ Adicione links para páginas específicas do site:
 - FAQ: https://norte-reparos.com/faq
 
 **Staff-Seekers:**
-- Serviços: https://staff-seekers.com/servicos
-- Urgências: https://staff-seekers.com/urgencias
-- Certificação: https://staff-seekers.com/certificacao
-- FAQ: https://staff-seekers.com/faq
+- Serviços: https://eletricista-norte-reparos.pt/servicos
+- Urgências: https://eletricista-norte-reparos.pt/urgencias
+- Certificação: https://eletricista-norte-reparos.pt/certificacao
+- FAQ: https://eletricista-norte-reparos.pt/faq
 
 ---
 

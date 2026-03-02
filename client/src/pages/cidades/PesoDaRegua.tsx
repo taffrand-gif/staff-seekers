@@ -23,7 +23,7 @@ export default function PesoDaRegua() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-peso-da-regua');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-peso-da-regua');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

@@ -23,7 +23,7 @@ export default function VilaFlor() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vila-flor');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-vila-flor');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

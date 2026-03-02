@@ -23,7 +23,7 @@ export default function Tabuaco() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-tabuaco');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-tabuaco');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

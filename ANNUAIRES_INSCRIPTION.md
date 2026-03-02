@@ -65,7 +65,7 @@
 ### Staff Seekers (Eletricista)
 - Nome: Staff Seekers - Eletricista Profissional
 - Telefone: +351 932 321 892
-- Website: https://staff-seekers.com
+- Website: https://eletricista-norte-reparos.pt
 - Morada: Macedo de Cavaleiros, Bragança, Portugal
 - Categoria: Eletricista / Electrician
 - Horário: 24h/7d

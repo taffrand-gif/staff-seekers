@@ -86,7 +86,7 @@ export default function Zonas() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/zonas');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/zonas');
 
     // Schema.org ServiceArea
     const schemaScript = document.createElement('script');

@@ -42,7 +42,7 @@ export default function VilaReal() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-vila-real');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-vila-real');
     
     // Schema.org LocalBusiness for Vila Real
     const schemaScript = document.createElement('script');

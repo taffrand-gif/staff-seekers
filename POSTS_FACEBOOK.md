@@ -11,7 +11,7 @@ A Staff Seekers é a sua equipa de eletricistas certificados CERTIEL. Cobrimos B
 
 📞 +351 932 321 892
 💬 WhatsApp: wa.me/351932321892
-🌐 staff-seekers.com
+🌐 eletricista-norte-reparos.pt
 
 ## Post 2 — Urgências
 🚨 Ficou sem luz? Cheiro a queimado numa tomada?
@@ -22,7 +22,7 @@ A nossa equipa de piquete está disponível 24 horas, 7 dias por semana em toda 
 
 Ligue AGORA: 📞 +351 932 321 892
 
-🔗 staff-seekers.com/blog/cheiro-queimado-tomada-perigos
+🔗 eletricista-norte-reparos.pt/blog/cheiro-queimado-tomada-perigos
 
 ## Post 3 — Tecnologia
 🔬 Sabia que usamos câmara térmica FLIR para encontrar problemas elétricos?
@@ -35,7 +35,7 @@ Com esta tecnologia, conseguimos:
 Diagnóstico preciso = reparação mais rápida e mais barata.
 
 📞 +351 932 321 892
-🌐 staff-seekers.com/tecnologia-premium
+🌐 eletricista-norte-reparos.pt/tecnologia-premium
 
 ## Post 4 — Dica prática
 💡 DICA: Como saber se o seu quadro elétrico precisa de ser trocado?
@@ -50,7 +50,7 @@ Diagnóstico preciso = reparação mais rápida e mais barata.
 Se reconhece algum destes sinais, contacte-nos para uma inspeção gratuita.
 
 📞 +351 932 321 892
-🔗 staff-seekers.com/blog/quadro-eletrico-faz-barulho
+🔗 eletricista-norte-reparos.pt/blog/quadro-eletrico-faz-barulho
 
 ## Post 5 — Certificação CERTIEL
 📋 Vai vender ou arrendar a sua casa?
@@ -65,7 +65,7 @@ A nossa equipa trata de tudo:
 Preço justo, sem surpresas.
 
 📞 +351 932 321 892
-🌐 staff-seekers.com/certificacao-eletrica
+🌐 eletricista-norte-reparos.pt/certificacao-eletrica
 
 ## Post 6 — Iluminação LED
 💡 Ainda tem lâmpadas antigas em casa?
@@ -81,7 +81,7 @@ Fazemos a substituição completa:
 Peça orçamento gratuito.
 
 📞 +351 932 321 892
-🔗 staff-seekers.com/iluminacao-led
+🔗 eletricista-norte-reparos.pt/iluminacao-led
 
 ## Post 7 — Painéis solares
 ☀️ Já pensou em painéis solares?
@@ -97,7 +97,7 @@ A nossa equipa instala:
 Investimento que se paga em 5-7 anos.
 
 📞 +351 932 321 892
-🌐 staff-seekers.com/paineis-solares
+🌐 eletricista-norte-reparos.pt/paineis-solares
 
 ## Post 8 — Domótica
 🏠 Casa inteligente em Trás-os-Montes?
@@ -112,7 +112,7 @@ Sim, é possível! Instalamos:
 Controle tudo pelo telemóvel, esteja onde estiver.
 
 📞 +351 932 321 892
-🔗 staff-seekers.com/domotica
+🔗 eletricista-norte-reparos.pt/domotica
 
 ## Post 9 — Inverno
 ❄️ Preparar a instalação elétrica para o inverno
@@ -138,4 +138,4 @@ A nossa equipa está disponível 24h/7d. Quando precisar, estamos cá.
 
 📞 +351 932 321 892
 💬 wa.me/351932321892
-🌐 staff-seekers.com
+🌐 eletricista-norte-reparos.pt

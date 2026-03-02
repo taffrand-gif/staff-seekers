@@ -23,7 +23,7 @@ export default function SantaMartaDePenaguiao() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://staff-seekers.com/eletricista-santa-marta-de-penaguiao');
+    canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/eletricista-santa-marta-de-penaguiao');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
