@@ -126,25 +126,27 @@ export default function OptimizedImage({
               />
               <img
                 src={webpSrc}
-                alt={alt}
+                alt={alt || ''}
                 style={imgStyle}
                 loading={priority ? 'eager' : 'lazy'}
                 decoding="async"
                 onLoad={() => setIsLoaded(true)}
                 {...(width && { width })}
                 {...(height && { height })}
+                {...(!alt && { role: 'presentation' })}
               />
             </picture>
           ) : (
             <img
               src={src}
-              alt={alt}
+              alt={alt || ''}
               style={imgStyle}
               loading={priority ? 'eager' : 'lazy'}
               decoding="async"
               onLoad={() => setIsLoaded(true)}
               {...(width && { width })}
               {...(height && { height })}
+              {...(!alt && { role: 'presentation' })}
             />
           )}
           {!isLoaded && (

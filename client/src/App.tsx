@@ -10,6 +10,7 @@ import SocialProofTicker from "./components/SocialProofTicker";
 import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
 import OptimizedHome from "./pages/OptimizedHome";
+import SkipLink from '@/components/SkipLink';
 
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
@@ -159,6 +160,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <SiteProvider>
           <TooltipProvider>
+            <SkipLink />
             <Toaster />
             <StructuredData />
             <Router />

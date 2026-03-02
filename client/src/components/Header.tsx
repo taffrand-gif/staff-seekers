@@ -135,7 +135,7 @@ export default function Header() {
               <div key={item.id} className="relative" ref={item.dropdown ? dropdownRef : undefined}>
                 <button
                   onClick={item.action}
-                  className="text-sm font-semibold hover:opacity-60 transition-opacity flex items-center gap-1"
+                  className="text-sm font-semibold hover:opacity-60 transition-opacity flex items-center gap-1 focus:outline-2 focus:outline-offset-2 focus:outline-primary"
                   aria-expanded={item.dropdown ? citiesOpen : undefined}
                   aria-haspopup={item.dropdown ? 'true' : undefined}
                 >
