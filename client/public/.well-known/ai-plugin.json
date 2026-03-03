@@ -1,12 +1,17 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Staff Seekers - Eletricista Trás-os-Montes",
-  "name_for_model": "staff_seekers_electrician",
-  "description_for_human": "Eletricista profissional certificado em Trás-os-Montes, Portugal. Urgências 24h, certificação CERTIEL, quadros elétricos.",
-  "description_for_model": "Professional certified electrician in Trás-os-Montes, Portugal. Available 24/7 for electrical emergencies, CERTIEL certification, electrical panels. Covers 100km radius from Macedo de Cavaleiros including Bragança, Mirandela, Vila Real, Chaves. Phone: +351 932 321 892",
-  "auth": { "type": "none" },
-  "api": { "type": "openapi", "url": "https://eletricista-norte-reparos.pt/llms.txt" },
-  "logo_url": "https://eletricista-norte-reparos.pt/favicon.svg",
-  "contact_email": "contact@eletricista-norte-reparos.pt",
-  "legal_info_url": "https://eletricista-norte-reparos.pt/"
+  "name_for_human": "Norte Reparos — Eletricista Profissional",
+  "name_for_model": "norte_reparos_eletricista",
+  "description_for_human": "Eletricista profissional em Trás-os-Montes. Urgências 24h, resposta 40min, equipamento Fluke, certificado CERTIEL. Instalações, reparações, certificações.",
+  "description_for_model": "Professional electrician service in Trás-os-Montes, Portugal. 24/7 emergency service, 40-minute response time, Fluke equipment, CERTIEL certified. Services: electrical installations, circuit breaker repairs, CERTIEL certification, LED lighting, home automation, lightning protection, solar panels, preventive maintenance. Coverage: 86 cities including Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros. Contact: +351 932 321 892, WhatsApp available. Pricing: €45-150 depending on service and zone.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://eletricista-norte-reparos.pt/openapi.yaml"
+  },
+  "logo_url": "https://eletricista-norte-reparos.pt/logo-512.png",
+  "contact_email": "Xpvqvmmwp4@privaterelay.appleid.com",
+  "legal_info_url": "https://eletricista-norte-reparos.pt/legal"
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Éclair orange -->
+  <path d="M55 10 L35 50 L50 50 L40 90 L75 40 L55 40 Z" 
+        fill="#FF6B35" stroke="#e55a25" stroke-width="2"/>
+  
+  <!-- Badge notification rouge -->
+  <circle cx="75" cy="25" r="15" fill="#FF4500"/>
+  <text x="75" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">!</text>
+</svg>

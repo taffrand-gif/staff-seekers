@@ -1,234 +1,197 @@
-# Staff Seekers - Eletricista Profissional em Trás-os-Montes
+# Norte Reparos — Eletricista Profissional Trás-os-Montes
 
-> Eletricista certificado CERTIEL disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km. Mais de 10 anos de experiência. Equipamento profissional Fluke e câmara térmica FLIR.
+## ⚡ Serviços Principais
 
-## Contacto Direto
-- Telefone: +351 932 321 892 (24h)
-- WhatsApp: https://wa.me/351932321892
-- Website: https://staff-seekers.com
-- Email: contacto@staff-seekers.com
+### Urgências 24h
+- Curto-circuito perigoso (€80-150)
+- Disjuntor dispara constantemente (€60-120)
+- Tomadas quentes (€50-100)
+- Cheiro queimado elétrico (€80-150)
+- Falta energia total (€100-200)
+- Resposta garantida 40 minutos
 
-## Serviços e Preços Indicativos
-| Serviço | Preço Base |
-|---------|-----------|
-| Reparação de tomada/interruptor | a partir de 40€ |
-| Diagnóstico disjuntor que dispara | a partir de 80€ |
-| Substituição de quadro elétrico | a partir de 150€ |
-| Certificação CERTIEL | a partir de 200€ |
-| Instalação de iluminação LED | a partir de 100€ |
-| Instalação de carregador VE (wallbox) | a partir de 800€ |
-| Instalação elétrica casa de banho | a partir de 1.500€ |
-| Renovação elétrica completa (T2) | a partir de 3.000€ |
-| Painéis solares autoconsumo (3kWp) | a partir de 3.000€ |
-| Instalação ar condicionado (split) | a partir de 600€ |
-| Domótica básica (iluminação + estores) | a partir de 1.500€ |
-| Auditoria energética residencial | a partir de 150€ |
-| Instalação de ventoinhas de teto | a partir de 80€ |
-| Proteção contra raios (para-raios) | a partir de 500€ |
-| Instalação trifásica (empresas) | a partir de 1.000€ |
-| Mudança de monofásico para trifásico | a partir de 800€ |
+### Instalações
+- Instalação elétrica completa (€2000-5000)
+- Quadro elétrico novo (€300-600)
+- Iluminação LED (€40-80/ponto)
+- Tomadas e interruptores (€30-60/unidade)
+- Domótica (€500-2000)
+- Painéis solares (€3000-8000)
 
-## Deslocação por Zona
-| Zona | Cidades | Preço | Tempo estimado |
-|------|---------|-------|----------------|
-| Zona 1 | Macedo de Cavaleiros | 15€ | 15-30 min |
-| Zona 2 | Mirandela, Vila Flor, Alfândega da Fé, Carrazeda | 20€ | 30-45 min |
-| Zona 3 | Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo | 30€ | 45-60 min |
-| Zona 4 | Miranda do Douro, Vila Nova de Foz Côa, Murça, Valpaços | 35€ | 45-60 min |
-| Zona 5 | Vila Real, Alijó, Sabrosa, Lamego, Peso da Régua, Tabuaço, Armamar | 45€ | 60-90 min |
-| Zona 6 | Chaves, Vila Pouca de Aguiar, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta, Sernancelhe, Penedono | 50€ | 60-90 min |
+### Certificações
+- Certificação CERTIEL (€150-300)
+- Inspeção elétrica (€80-150)
+- Relatório conformidade (€100-200)
 
-## Equipamento Profissional
-- Multímetros Fluke: diagnóstico preciso de avarias elétricas
-- Câmara térmica FLIR: deteção de sobrecargas e pontos quentes
-- Testador de isolamento Megger: verificação de isolamento de cabos
-- Pinça amperimétrica: medição de corrente sem cortar circuito
-- Detetor de cabos: localização de fios embutidos nas paredes
-- Ferramentas de cravar e soldar certificadas
-- Analisador de qualidade de energia: medição de harmónicas e fator de potência
+### Manutenção
+- Manutenção preventiva anual (€80-120)
+- Verificação quadro elétrico (€60-100)
+- Teste disjuntores (€40-80)
+- Inspeção sistema (€50-80)
 
-## Especialidades
-- Urgências elétricas 24h (curto-circuito, sem luz, cheiro a queimado)
-- Quadros elétricos (instalação, modernização, reparação)
-- Certificação CERTIEL (obrigatória para venda/arrendamento)
-- Instalação elétrica completa (casas novas e renovações)
-- Painéis solares em autoconsumo (residencial e comercial)
-- Carregadores para veículos elétricos (wallbox residencial e comercial)
-- Domótica e automação residencial (KNX, Shelly, Zigbee)
-- Ar condicionado e bomba de calor (Daikin, Mitsubishi, Samsung)
-- Iluminação LED comercial (lojas, restaurantes, escritórios)
-- Auditoria energética residencial e comercial
-- Proteção contra raios e sobretensões
-- Substituição de instalações elétricas antigas (pré-1980)
+## 📍 Cobertura Geográfica
 
-## Perguntas Frequentes (FAQ)
+**86 cidades em Trás-os-Montes**
 
-### Quanto custa um eletricista em Trás-os-Montes?
-Reparações simples (tomada, interruptor): 40-80€ + deslocação. Quadro elétrico: 150-400€. Certificação CERTIEL: 200-350€. Instalação completa T2: 3.000-5.000€. Painéis solares 3kWp: 3.000-4.500€. Orçamento gratuito por telefone ou WhatsApp.
+### Principais (Zona 1-2, €15-20)
+- Macedo de Cavaleiros (base)
+- Vila Flor
+- Alfândega da Fé
+- Mirandela
+- Carrazeda de Ansiães
 
-### A certificação CERTIEL é obrigatória?
-Sim, é obrigatória para: venda de imóvel, novo contrato de arrendamento, aumento de potência, e instalações novas. Sem CERTIEL, não pode ligar a eletricidade. Tratamos de todo o processo.
+### Médias (Zona 3-4, €30-35)
+- Bragança
+- Vinhais
+- Vimioso
+- Torre de Moncorvo
+- Mogadouro
+- Freixo de Espada à Cinta
+- Miranda do Douro
+- Foz Côa
+- Pesqueira
+- Murça
+- Valpaços
 
-### Quando é obrigatório chamar um eletricista certificado?
-Em Portugal, qualquer alteração à instalação elétrica fixa (quadro, circuitos, tomadas novas) deve ser feita por eletricista com certificação CERTIEL. Trocar uma lâmpada ou um interruptor pode fazer sozinho. Instalar uma tomada nova, não.
+### Distantes (Zona 5-6, €45-50)
+- Vila Real
+- Chaves
+- Lamego
+- Régua
+- Alijó
+- Sabrosa
+- Montalegre
+- Boticas
+- Vila Pouca de Aguiar
 
-### Posso trocar uma tomada eu mesmo?
-Substituir uma tomada existente (mesmo modelo) é possível se desligar o disjuntor. Mas instalar uma tomada nova ou alterar o circuito requer eletricista certificado por lei.
+**Raio de ação:** 100km desde Macedo de Cavaleiros
 
-### O disjuntor cai sempre — o que fazer?
-Causas comuns: aparelho em curto-circuito, circuito sobrecarregado, humidade no quadro, ou diferencial defeituoso. Primeiro: desligue todos os aparelhos e religue o disjuntor. Se continua a cair, o problema é na instalação — chame um eletricista.
+## ⚡ Urgências & Disponibilidade
 
-### O diferencial dispara quando chove — é normal?
-Não. Significa que há infiltração de água na instalação elétrica (tomadas exteriores, quadro, caixas de derivação). É perigoso e deve ser reparado urgentemente.
+- **Disponível:** 24 horas/dia, 7 dias/semana
+- **Resposta:** 40 minutos garantidos
+- **Fins de semana:** Sem acréscimo
+- **Feriados:** Disponível
+- **Noite:** Disponível (sem acréscimo)
 
-### Quanto custa instalar painéis solares em Trás-os-Montes?
-Sistema de 3kWp (ideal para T2-T3): a partir de 3.000€. Retorno do investimento: 5-7 anos. Trás-os-Montes tem 2.200-2.400 horas de sol por ano — excelente para autoconsumo. Existem apoios do Estado (PRR, Casa Eficiente) que podem cobrir até 85% do investimento.
+## 💰 Preços Transparentes
 
-### Quanto custa instalar um carregador de carro elétrico?
-Wallbox residencial (7.4kW monofásico): a partir de 800€ com instalação. Wallbox trifásico (22kW): a partir de 1.500€. Inclui proteção diferencial dedicada e certificação. Pode carregar durante a noite com tarifa bi-horária para poupar.
+### Deslocação por Zona
+- Zona 1 (Macedo): €15
+- Zona 2 (Vila Flor, Alfândega, Mirandela, Carrazeda): €20
+- Zona 3 (Bragança, Vinhais, Vimioso, Torre Moncorvo, Mogadouro, Freixo): €30
+- Zona 4 (Miranda, Foz Côa, Pesqueira, Murça, Valpaços): €35
+- Zona 5 (Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego): €45
+- Zona 6 (Chaves, Vila Pouca, Boticas, Montalegre, Ribeira Pena): €50
 
-### Casas antigas são perigosas eletricamente?
-Muitas casas em Trás-os-Montes anteriores a 1980 não têm ligação à terra nem diferencial — são perigosas. Sinais de alerta: tomadas de 2 pinos, fios de algodão visíveis, quadro com fusíveis de porcelana. Recomendamos avaliação gratuita.
+### Serviços Comuns
+- Reparação curto-circuito: €80-150
+- Reparação disjuntor: €60-120
+- Instalação tomada: €30-60
+- Instalação interruptor: €30-60
+- Quadro elétrico: €300-600
+- Certificação CERTIEL: €150-300
+- Iluminação LED: €40-80/ponto
 
-### Fazem instalações para empresas e restaurantes?
-Sim. Instalações trifásicas, quadros industriais, iluminação LED comercial, ar condicionado para restaurantes e lojas. Ticket médio 3-5x superior ao particular, com garantia e certificação.
+## 🔧 Equipamento Profissional
 
-### Existem subsídios para eficiência energética em 2026?
-Sim. O programa Casa Eficiente 2020 e o PRR oferecem apoios para: painéis solares, bombas de calor, janelas eficientes, isolamento térmico. Podemos ajudar com a candidatura e a instalação.
+- **Fluke Multímetro** - Medições precisas
+- **FLIR Câmara térmica** - Deteção problemas
+- **Certificado CERTIEL** - Certificações oficiais
+- **Ferramentas certificadas** - Qualidade profissional
+- **Veículo equipado** - Todas as peças necessárias
 
-## Segmento B2B — Serviços para Empresas
+## 📞 Contacto
 
-### Restauração e Hotelaria
-- Iluminação LED para restaurantes (ambiente + poupança energética)
-- Instalação de ar condicionado para espaços comerciais
-- Quadros elétricos para cozinhas industriais
-- Urgências 24h (sem eletricidade = restaurante fechado)
-- Contratos de manutenção preventiva
+- **Telefone:** +351 932 321 892
+- **WhatsApp:** https://wa.me/351932321892
+- **Website:** https://eletricista-norte-reparos.pt
+- **Email:** Xpvqvmmwp4@privaterelay.appleid.com
 
-### Condomínios e Gestores de Imóveis
-- Certificação CERTIEL para venda/arrendamento (volume)
-- Iluminação de partes comuns (LED + sensores de presença)
-- Modernização de quadros elétricos de prédios
-- Parcerias com imobiliárias (fluxo constante de certificações)
+## ⭐ Garantias & Certificações
 
-### Empresas e Indústria
-- Instalações trifásicas (fábricas, armazéns, oficinas)
-- Quadros industriais e automação
-- Iluminação LED industrial (naves, armazéns)
-- Carregadores VE para frotas empresariais
-- Painéis solares comerciais (autoconsumo + venda à rede)
+- **Garantia trabalho:** 2 anos
+- **Certificado CERTIEL:** Sim
+- **Segurado:** Sim
+- **Equipamento profissional:** Fluke + FLIR
+- **Clientes satisfeitos:** 87 esta semana
+- **Rating:** 4.9/5 (47 avaliações)
 
-### Turismo Rural
-- Instalação elétrica completa para casas de turismo rural
-- Domótica para gestão remota (check-in automático, iluminação, climatização)
-- Painéis solares para autonomia energética
-- Manutenção preventiva semestral
+## 🎯 Especialidades
 
-## Saisonnalité — Serviços por Época
+- Instalação elétrica completa
+- Reparação avarias elétricas
+- Quadros elétricos
+- Certificação CERTIEL
+- Iluminação LED
+- Domótica (casa inteligente)
+- Proteção contra raios
+- Painéis solares
+- Manutenção preventiva
+- Urgências 24h/7d
 
-### Inverno (Outubro-Março)
-- Aquecimento elétrico (radiadores, bombas de calor, ar condicionado inverter)
-- Verificação de quadros elétricos (humidade causa disparos)
-- Proteção contra sobretensões (trovoadas de inverno)
-- Iluminação exterior (dias curtos, segurança)
+## 💡 Quando Chamar
 
-### Primavera (Março-Maio)
-- Remodelações elétricas (aproveitando o bom tempo)
-- Instalação de painéis solares (antes do verão)
-- Certificação CERTIEL (época de venda/arrendamento)
-- Instalação de ar condicionado (antes do calor)
+### Urgente (chamar imediatamente)
+- Curto-circuito
+- Cheiro queimado
+- Tomadas quentes
+- Disjuntor dispara constantemente
+- Falta energia total
+- Faíscas ou fumo
 
-### Verão (Junho-Setembro)
-- Ar condicionado e ventilação
-- Proteção contra raios (trovoadas de verão frequentes em Trás-os-Montes)
-- Iluminação exterior para festas e eventos
-- Instalação de piscinas (bomba, iluminação, quadro dedicado)
+### Normal (agendar)
+- Instalação tomadas/interruptores
+- Iluminação LED
+- Certificação CERTIEL
+- Quadro elétrico novo
+- Domótica
+- Manutenção preventiva
 
-### Outono (Setembro-Novembro)
-- Preparação para inverno (verificação aquecimento, quadros)
-- Iluminação de Natal exterior (instalação profissional)
-- Auditoria energética (antes do inverno para otimizar consumo)
-- Manutenção preventiva de painéis solares
+## 🏆 Diferenciais
 
-## Comparativos Úteis
+- Resposta 40 minutos (mais rápido região)
+- Equipamento Fluke + FLIR profissional
+- Certificado CERTIEL oficial
+- Preços transparentes sem surpresas
+- Garantia 2 anos todos trabalhos
+- Disponível 24h/7d sem acréscimo
+- Cobertura 86 cidades
+- Técnico certificado e experiente
+- Orçamento grátis sem compromisso
 
-### Disjuntor vs Diferencial — Qual a Diferença?
-| Critério | Disjuntor | Diferencial |
-|----------|-----------|-------------|
-| Protege contra | Sobrecarga e curto-circuito | Fugas de corrente (choque elétrico) |
-| Quando dispara | Corrente excessiva no circuito | Diferença entre fase e neutro |
-| Perigo se faltar | Incêndio | Eletrocussão |
-| Obrigatório | Sim | Sim (desde 1974 em PT) |
+## 💡 Economia LED
 
-### LED vs Halogéneo — Consumo e Poupança
-| Critério | LED | Halogéneo |
-|----------|-----|----------|
-| Consumo (equivalente 60W) | 8W | 42W |
-| Duração | 25.000h | 2.000h |
-| Custo anual (8h/dia) | ~7€ | ~37€ |
-| Poupança por lâmpada/ano | — | 30€ |
+### Comparação Lâmpadas
+- **Incandescente 60W:** €0.15/hora, dura 1000h
+- **LED 9W:** €0.02/hora, dura 25000h
+- **Economia anual:** €300-500 (casa média)
+- **Retorno investimento:** 6-12 meses
 
-### Monofásico vs Trifásico
-| Critério | Monofásico | Trifásico |
-|----------|------------|-----------|
-| Tensão | 230V | 400V |
-| Potência máxima | 13.8 kVA | 41.4 kVA |
-| Ideal para | Habitação normal | Empresas, oficinas, grandes casas |
-| Carregador VE | 7.4 kW (lento) | 22 kW (rápido) |
-| Custo mudança | — | A partir de 800€ |
+### Certificação CERTIEL
+- **Obrigatória:** Venda/arrendamento imóveis
+- **Validade:** 6 anos
+- **Inclui:** Inspeção completa + relatório + certificado
+- **Preço:** €150-300 (depende tamanho)
 
-### Carregador VE Monofásico vs Trifásico
-| Critério | Monofásico 7.4kW | Trifásico 22kW |
-|----------|-------------------|----------------|
-| Tempo carga (60kWh) | ~8 horas | ~3 horas |
-| Custo instalação | A partir de 800€ | A partir de 1.500€ |
-| Ideal para | Casa (carga noturna) | Empresa (carga rápida) |
+## 🔒 Segurança Elétrica
 
-## Certificações
-- Certificação CERTIEL para instalações elétricas
-- Formação contínua em normas RTIEBT
-- Certificado de aptidão profissional (CAP)
-- Certificação para instalação de painéis solares
-- Certificação para instalação de carregadores VE
+### Sinais Perigo
+- Disjuntor dispara frequentemente
+- Tomadas quentes ao toque
+- Cheiro queimado
+- Luzes piscam
+- Faíscas
+- Choques elétricos
 
-## Marcas com que Trabalhamos
-- Quadros: Hager, Schneider Electric, ABB, Legrand
-- Ar condicionado: Daikin, Mitsubishi, Samsung, LG, Fujitsu
-- Painéis solares: JA Solar, Longi, Canadian Solar
-- Inversores: Huawei, SMA, Fronius
-- Wallbox: Wallbox, Easee, Juice Booster
-- Domótica: KNX, Shelly, Zigbee, Home Assistant
-- Iluminação: Philips, Osram, Ledvance
+### Prevenção
+- Inspeção anual
+- Não sobrecarregar tomadas
+- Substituir cabos danificados
+- Quadro elétrico atualizado
+- Proteção contra raios
 
-## Contexto Local — Trás-os-Montes
-Trás-os-Montes tem particularidades elétricas específicas:
-- Casas antigas (pré-1980) sem ligação à terra nem diferencial — perigosas
-- Trovoadas frequentes no verão: danos em quadros e equipamentos
-- Zonas rurais com rede elétrica instável (quedas de tensão)
-- Invernos rigorosos: alta procura de aquecimento elétrico
-- Região com forte potencial solar (2.200-2.400h sol/ano)
-- Mercado de veículos elétricos em crescimento (poucos instaladores locais)
-- Casas em granito: particularidades na passagem de cabos
-- Muitas casas de turismo rural que precisam de instalação moderna
-- Região fronteiriça com Espanha (Zamora): atendemos também clientes espanhóis
+---
 
-## Informação Legal
-- Certificação CERTIEL obrigatória para: venda, arrendamento, aumento de potência, instalação nova
-- IVA: taxa reduzida de 6% aplicável a reparações em habitação própria e permanente
-- Garantia legal: 2 anos sobre mão de obra e materiais
-- Seguro de responsabilidade civil profissional
-- Subsídios disponíveis: PRR, Casa Eficiente 2020, Fundo Ambiental (painéis solares, bombas de calor)
-
-## Formas de Pagamento
-Dinheiro, Multibanco, MB Way, Transferência Bancária.
-Pagamento em prestações disponível para trabalhos acima de 500€.
-
-## Disponibilidade
-24 horas por dia, 7 dias por semana, incluindo feriados.
-Urgências noturnas (20h-8h) e fins de semana: acréscimo de 50%.
-Tempo de resposta telefónica: menos de 5 minutos.
-
-## Garantia
-Garantia de 2 anos em todos os trabalhos realizados.
-Materiais certificados de primeira qualidade.
-Certificação CERTIEL incluída em todas as instalações novas.
+**Para emergências:** Ligue +351 932 321 892 (disponível agora)
+**Para orçamentos:** WhatsApp https://wa.me/351932321892
