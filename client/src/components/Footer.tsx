@@ -114,7 +114,7 @@ function Footer() {
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
           <div className="mt-3 text-xs text-gray-300">
-            Precisa de canalizador? <a href="https://norte-reparos.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">Canalizador 24h Trás-os-Montes</a>
+            Precisa de canalizador? <a href="https://canalizador-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">Canalizador 24h Trás-os-Montes</a>
           </div>
         </div>
       </div>

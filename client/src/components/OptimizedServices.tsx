@@ -131,7 +131,7 @@ const OptimizedServices: React.FC = () => {
   const serviceEmoji = isPlumber ? '🔧' : '⚡';
   const otherSiteLink = isPlumber
     ? { text: 'Precisa de um eletricista?', url: 'https://eletricista-norte-reparos.pt', label: 'eletricista-norte-reparos.pt' }
-    : { text: 'Precisa de um canalizador?', url: 'https://norte-reparos.com', label: 'norte-reparos.com' };
+    : { text: 'Precisa de um canalizador?', url: 'https://canalizador-norte-reparos.pt', label: 'canalizador-norte-reparos.pt' };
 
   return (
     <section id="servicos" className="py-20 bg-gradient-to-b from-white to-gray-50">

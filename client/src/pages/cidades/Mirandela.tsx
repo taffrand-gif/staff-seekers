@@ -313,8 +313,8 @@ export default function Mirandela() {
             <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
               <p className="text-lg">
                 💧 <strong>Precisa de um canalizador em Mirandela?</strong> Recomendamos:{' '}
-                <a href="https://norte-reparos.com/canalizador-mirandela" className="underline font-bold">
-                  norte-reparos.com
+                <a href="https://canalizador-norte-reparos.pt/canalizador-mirandela" className="underline font-bold">
+                  canalizador-norte-reparos.pt
                 </a>
               </p>
             </div>
