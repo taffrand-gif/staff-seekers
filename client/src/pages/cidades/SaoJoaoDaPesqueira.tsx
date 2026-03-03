@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
@@ -33,14 +34,9 @@ export default function SaoJoaoDaPesqueira() {
       "@type": "Electrician",
       "name": "Eletricista Profissional São João da Pesqueira",
       "description": "Eletricista profissional em São João da Pesqueira. Douro vinhateiro, quintas e adegas.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "São João da Pesqueira",
-        "addressRegion": "Viseu",
-        "addressCountry": "PT"
-      },
+      "address": getCityAddress('sao-joao-pesqueira'),
       "geo": { "@type": "GeoCoordinates", "latitude": "41.1500", "longitude": "-7.4000" },
-      "telephone": "+351932321892",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });
@@ -76,10 +72,10 @@ export default function SaoJoaoDaPesqueira() {
             <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em São João da Pesqueira</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho de São João da Pesqueira, no coração do Douro. Instalações para quintas vinícolas, adegas e espaços de enoturismo.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
+              <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
                 <Phone className="w-6 h-6" />932 321 892
               </a>
-              <a href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20um%20eletricista%20em%20São%20João%20da%20Pesqueira" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
+              <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá,%20preciso%20de%20um%20eletricista%20em%20SaoJoaoDaPesqueira`} className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
             </div>
           </div>
         </section>
@@ -119,7 +115,7 @@ export default function SaoJoaoDaPesqueira() {
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em São João da Pesqueira?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos quintas, adegas e turismo em todo o Douro.</p>
-            <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
+            <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
             </a>
           </div>

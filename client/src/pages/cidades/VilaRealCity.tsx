@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
@@ -33,14 +34,9 @@ export default function VilaRealCity() {
       "@type": "Electrician",
       "name": "Eletricista Profissional Vila Pouca de Aguiar",
       "description": "Eletricista profissional em Vila Pouca de Aguiar. Especialista em termas e instalações hoteleiras.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Vila Pouca de Aguiar",
-        "addressRegion": "Vila Real",
-        "addressCountry": "PT"
-      },
+      "address": getCityAddress('vila-real'),
       "geo": { "@type": "GeoCoordinates", "latitude": "41.5000", "longitude": "-7.6333" },
-      "telephone": "+351932321892",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });
@@ -76,10 +72,10 @@ export default function VilaRealCity() {
             <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Vila Pouca de Aguiar</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Instalações elétricas para complexos termais, hotéis e explorações em todo o concelho de Vila Pouca de Aguiar. Especialistas em sistemas de potência para termas.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
+              <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
                 <Phone className="w-6 h-6" />932 321 892
               </a>
-              <a href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20um%20eletricista%20em%20Vila%20Pouca%20de%20Aguiar" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
+              <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá,%20preciso%20de%20um%20eletricista%20em%20VilaRealCity`} className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
             </div>
           </div>
         </section>
@@ -119,7 +115,7 @@ export default function VilaRealCity() {
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Vila Pouca de Aguiar?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Servimos termas, hotéis e habitações em todo o concelho.</p>
-            <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
+            <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
             </a>
           </div>

@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
@@ -33,14 +34,9 @@ export default function AlfandegaDaFe() {
       "@type": "Electrician",
       "name": "Eletricista Profissional Alfândega da Fé",
       "description": "Eletricista profissional em Alfândega da Fé. Especialista em instalações para amendoais e olivicultura.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Alfândega da Fé",
-        "addressRegion": "Bragança",
-        "addressCountry": "PT"
-      },
+      "address": getCityAddress('alfandega-da-fe'),
       "geo": { "@type": "GeoCoordinates", "latitude": "41.3500", "longitude": "-6.9667" },
-      "telephone": "+351932321892",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });
@@ -77,10 +73,10 @@ export default function AlfandegaDaFe() {
             <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Alfândega da Fé</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">A apenas 30km de Macedo de Cavaleiros, servimos todo o concelho de Alfândega da Fé. Especialistas em instalações para amendoais e lagares de azeite.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
-                <Phone className="w-6 h-6" />932 321 892
+              <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">
+                <Phone className="w-6 h-6" />{businessInfo.phoneFormatted}
               </a>
-              <a href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20um%20eletricista%20em%20Alfândega%20da%20Fé" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
+              <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá,%20preciso%20de%20um%20eletricista%20em%20AlfandegaDaFe`} className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
             </div>
           </div>
         </section>
@@ -120,7 +116,7 @@ export default function AlfandegaDaFe() {
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Alfândega da Fé?</h2>
             <p className="text-xl mb-8 opacity-90">Ligue agora. Estamos a apenas 30 minutos de distância.</p>
-            <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
+            <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
               <Phone className="w-6 h-6" />932 321 892
             </a>
           </div>

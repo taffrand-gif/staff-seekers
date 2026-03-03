@@ -7,8 +7,8 @@ import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useSite } from '@/contexts/SiteContext';
-import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function VilaReal() {
@@ -53,19 +53,13 @@ export default function VilaReal() {
       "name": "Eletricista Profissional — Eletricista em Vila Real",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Vila Real",
-        "addressRegion": "Trás-os-Montes",
-        "addressCountry": "PT",
-        "postalCode": "5000"
-      },
+      "address": getCityAddress('vila-real'),
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "41.3000",
         "longitude": "-7.7441"
       },
-      "telephone": ACTIVE_CONFIG.phone,
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -73,7 +67,7 @@ export default function VilaReal() {
         "name": "Vila Real"
       },
       "sameAs": [
-        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${businessInfo.whatsapp}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -127,13 +121,13 @@ export default function VilaReal() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${ACTIVE_CONFIG.phone}`}
+                  href={`tel:${businessInfo.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Vila Real: {ACTIVE_CONFIG.phone}
+                  📞 Eletricista Vila Real: {businessInfo.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
+                  href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um eletricista em Vila Real`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -286,13 +280,13 @@ export default function VilaReal() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${ACTIVE_CONFIG.phone}`}
+                href={`tel:${businessInfo.phone}`}
                 className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {ACTIVE_CONFIG.phone} (Vila Real)
+                📞 {businessInfo.phone} (Vila Real)
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um eletricista em Vila Real`}
+                href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um eletricista em Vila Real`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

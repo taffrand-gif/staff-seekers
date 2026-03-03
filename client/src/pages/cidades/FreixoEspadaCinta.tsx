@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
 import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
@@ -33,9 +34,9 @@ export default function FreixoEspadaCinta() {
       "@context": "https://schema.org",
       "@type": "Electrician",
       "name": "Eletricista Profissional Freixo de Espada à Cinta",
-      "address": { "@type": "PostalAddress", "addressLocality": "Freixo de Espada à Cinta", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": getCityAddress('freixo-espada-cinta'),
       "geo": { "@type": "GeoCoordinates", "latitude": "41.0833", "longitude": "-6.8167" },
-      "telephone": "+351932321892",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
     document.head.appendChild(schemaScript);
@@ -64,8 +65,8 @@ export default function FreixoEspadaCinta() {
             <h1 className="text-4xl md:text-6xl font-black mb-6">Eletricista em Freixo de Espada à Cinta</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos todo o concelho. Chegamos às aldeias mais remotas com veículo 4x4.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"><Phone className="w-6 h-6" />932 321 892</a>
-              <a href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20um%20eletricista%20em%20Freixo%20de%20Espada%20à%20Cinta" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
+              <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"><Phone className="w-6 h-6" />{businessInfo.phoneFormatted}</a>
+              <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá,%20preciso%20de%20um%20eletricista%20em%20FreixoEspadaCinta`} className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
             </div>
           </div>
         </section>
@@ -94,7 +95,7 @@ export default function FreixoEspadaCinta() {
         <section className="py-16 bg-orange-500 text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Eletricista em Freixo?</h2>
-            <a href="tel:+351932321892" className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />932 321 892</a>
+            <a href={`tel:${businessInfo.phone}`} className="inline-flex items-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />{businessInfo.phoneFormatted}</a>
           </div>
         </section>
 

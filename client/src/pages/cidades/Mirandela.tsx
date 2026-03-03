@@ -7,6 +7,7 @@ import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
+import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
 
@@ -52,19 +53,13 @@ export default function Mirandela() {
       "name": "Eletricista Profissional — Eletricista em Mirandela",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
       "description": "Eletricista profissional em Mirandela, Trás-os-Montes. Instalação, reparação e certificação elétrica para agricultura e indústria.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mirandela",
-        "addressRegion": "Trás-os-Montes",
-        "addressCountry": "PT",
-        "postalCode": "5370"
-      },
+      "address": getCityAddress('mirandela'),
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "41.4872",
         "longitude": "-7.1869"
       },
-      "telephone": config.phone,
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -81,7 +76,7 @@ export default function Mirandela() {
         "geoRadius": "15000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${businessInfo.whatsapp}?text=${encodeURIComponent("Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -135,13 +130,13 @@ export default function Mirandela() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:${businessInfo.phone}`}
                   className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Eletricista Mirandela: {config.phone}
+                  📞 Eletricista Mirandela: {businessInfo.phoneFormatted}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Mirandela`}
+                  href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um eletricista em Mirandela`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -295,13 +290,13 @@ export default function Mirandela() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${businessInfo.phone}`}
                 className="bg-white text-amber-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone} (Mirandela)
+                📞 {businessInfo.phoneFormatted} (Mirandela)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um eletricista em Mirandela`}
+                href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um eletricista em Mirandela`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
