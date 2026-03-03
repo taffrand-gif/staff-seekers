@@ -13,8 +13,8 @@ export interface CityNAP {
 
 // Base business information
 export const businessInfo = {
-  name: 'Staff Seekers',
-  fullName: 'Staff Seekers - Eletricista Profissional',
+  name: 'Norte Reparos',
+  fullName: 'Norte Reparos — Eletricista',
   phone: '+351 932 321 892',
   phoneFormatted: '932 321 892',
   whatsapp: '351932321892',
