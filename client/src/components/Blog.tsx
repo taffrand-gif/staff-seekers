@@ -49,7 +49,7 @@ export default function Blog() {
       date: '10 Jan 2026',
       readTime: '7 min',
       image: '/images-optimized/blog/electrical-panel-certification.jpg',
-      link: '/blog',
+      link: '/blog/certificacao-certiel-tudo-saber',
     },
     {
       title: 'Sinais de Problemas Elétricos em Casa',
@@ -57,7 +57,7 @@ export default function Blog() {
       date: '5 Jan 2026',
       readTime: '6 min',
       image: '/images-optimized/blog/featured-electrician.jpg',
-      link: '/blog',
+      link: '/blog/sinais-problemas-eletricos-casa',
     },
   ];
 
