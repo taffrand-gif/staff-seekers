@@ -314,8 +314,8 @@ export default function Chaves() {
             <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
               <p className="text-lg">
                 💧 <strong>Precisa de um canalizador em Chaves?</strong> Recomendamos:{' '}
-                <a href="https://norte-reparos.com/canalizador-chaves" className="underline font-bold">
-                  norte-reparos.com
+                <a href="https://canalizador-norte-reparos.pt/canalizador-chaves" className="underline font-bold">
+                  canalizador-norte-reparos.pt
                 </a>
               </p>
             </div>
