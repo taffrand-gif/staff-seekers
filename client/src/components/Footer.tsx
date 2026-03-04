@@ -114,7 +114,10 @@ function Footer() {
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
           <div className="mt-3 text-xs text-gray-300">
-            Precisa de canalizador? <a href="https://canalizador-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">Canalizador 24h Trás-os-Montes</a>
+            <strong>Outros serviços:</strong> Precisa de canalizador profissional? Visite <a href="https://canalizador-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">canalizador-norte-reparos.pt</a>
+          </div>
+          <div className="mt-2 text-xs text-gray-300">
+            <strong>Urgência imediata?</strong> <a href="https://eletricista-urgente.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">eletricista-urgente.pt</a> • <a href="https://canalizador-urgente.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">canalizador-urgente.pt</a>
           </div>
           <div className="mt-4 flex justify-center">
             <a target="_blank" href="https://www.zaask.pt/user/fbraganca204" rel="noopener noreferrer">
