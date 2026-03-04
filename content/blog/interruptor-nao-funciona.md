@@ -1,400 +1,451 @@
 ---
-title: "Interruptor Não Funciona: 7 Causas e Soluções (2026)"
+title: "Interruptor Não Funciona: 7 Causas e Como Reparar (2026)"
 slug: "interruptor-nao-funciona"
-category: "Reparações Elétricas"
+category: "Problemas Elétricos"
 date: "2026-03-04"
 author: "Staff Seekers"
-excerpt: "Interruptor não funciona? Descubra as 7 causas principais e como resolver em segurança. Guia completo com testes simples e quando chamar eletricista em Trás-os-Montes."
-keywords: "interruptor não funciona, interruptor avariado, trocar interruptor, eletricista bragança, reparação elétrica"
+excerpt: "Interruptor não liga a luz ou está partido? Descubra as 7 causas principais (desde lâmpada queimada até interruptor avariado) e como reparar. Guia completo com segurança."
+keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "trocar interruptor", "eletricista Bragança", "reparar interruptor"]
 priority: "HIGH DEMAND"
 ---
 
-# Interruptor Não Funciona: 7 Causas e Soluções (2026)
+# Interruptor Não Funciona: 7 Causas e Como Reparar (2026)
 
-**Interruptor que não funciona é um problema comum mas potencialmente perigoso.** Em Trás-os-Montes, 35% das chamadas de eletricista são por interruptores avariados. Neste guia completo, vou mostrar-lhe as 7 causas principais, como diagnosticar em segurança e quando é essencial chamar um eletricista certificado.
+**O interruptor não liga a luz ou está partido?** Este é um problema comum que pode ter causas simples (lâmpada queimada) ou mais complexas (interruptor avariado). Neste guia completo, vou mostrar-lhe **as 7 causas principais** e **como reparar com segurança**.
 
-## ⚠️ AVISO DE SEGURANÇA CRÍTICO
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
 
-**ANTES de mexer em qualquer interruptor:**
+## 🔍 Diagnóstico Inicial: Teste Simples
 
-1. **DESLIGUE o disjuntor geral** no quadro elétrico
-2. **TESTE com multímetro** para confirmar ausência de corrente
-3. **NUNCA trabalhe com corrente ligada** - risco de eletrocussão fatal
-4. **Use ferramentas isoladas** (cabo amarelo/vermelho)
-5. **Trabalhe com mãos secas** e chão seco
-6. **Se não tem experiência, chame eletricista** - sua vida vale mais que €60
+### Teste 1: É a Lâmpada ou o Interruptor?
 
-**Em caso de dúvida, ligue 932 321 892 - eletricista certificado em 30 minutos**
+**Passo a passo:**
+1. Tente ligar o interruptor
+2. Luz não acende?
+3. Substitua a lâmpada por uma que funciona
+4. **Se acender:** Problema era a lâmpada
+5. **Se não acender:** Problema é o interruptor ou circuito
 
-## 7 Causas Principais de Interruptor Avariado
+### Teste 2: É Só Este Interruptor?
 
-### 1. Interruptor Queimado (40% dos casos)
-**Causa mais comum em Trás-os-Montes:**
+**Verifique:**
+- Outros interruptores da casa funcionam?
+- **Se sim:** Problema é este interruptor específico
+- **Se não:** Problema no quadro elétrico (disjuntor)
 
-**Sinais visíveis:**
-- Marcas de queimadura no interruptor
-- Cheiro a plástico queimado
-- Interruptor quente ao toque
-- Estalidos ao ligar/desligar
+### Teste 3: Verificar o Quadro
 
-**Por que acontece:**
-- Sobrecarga elétrica (lâmpadas potência excessiva)
-- Curto-circuito interno
-- Contactos gastos pelo uso (após 15-20 anos)
-- Má qualidade do interruptor
+**Vá ao quadro elétrico:**
+1. Procure disjuntor desarmado
+2. Se encontrar, tente ligar
+3. **Se ficar ligado:** Problema resolvido
+4. **Se desarmar:** Problema grave (curto-circuito)
 
-**Solução:** Substituir interruptor €5-15 + mão de obra €40-60
+## 🔧 7 Causas Principais e Soluções
 
-### 2. Fios Soltos ou Desligados (25% dos casos)
-**Problema frequente em casas antigas:**
+### Causa 1: Lâmpada Queimada (40% dos casos)
 
 **Como identificar:**
-- Interruptor "mole" ou instável
-- Funciona intermitentemente
-- Precisa pressão extra para funcionar
+- Interruptor liga mas luz não acende
+- Lâmpada visualmente escura ou partida
+- Outras luzes funcionam
 
-**Causas:**
-- Vibração ao longo dos anos
-- Parafusos dos terminais afrouxados
-- Fios de alumínio (casas pré-1980) que oxidam
+**Solução: Substituir lâmpada (€2-15)**
 
-**Solução DIY (com corrente desligada!):**
-1. Desligue disjuntor
-2. Retire espelho do interruptor
-3. Aperte parafusos dos terminais
-4. Verifique se fios estão bem presos
-5. Recoloque espelho
+**Passo a passo:**
+1. Desligue o interruptor
+2. Aguarde lâmpada arrefecer (se estava ligada)
+3. Desenrosque ou retire a lâmpada
+4. Coloque lâmpada nova
+5. Ligue o interruptor e teste
 
-**Custo:** €0 (DIY) ou €40-60 (eletricista)
+**Custo:** €2-15 (lâmpada LED)  
+**Tempo:** 2 minutos
 
-### 3. Disjuntor Desarmado (15% dos casos)
-**Antes de mexer no interruptor, verifique isto:**
+**Não é problema do interruptor!**
 
-**Como verificar:**
-1. Vá ao quadro elétrico
-2. Procure disjuntor na posição "baixo" ou "meio"
-3. Tente rearmá-lo (posição "cima")
+### Causa 2: Interruptor Avariado (25% dos casos)
 
-**Se desarmar imediatamente:**
-- Curto-circuito no circuito
-- Sobrecarga (muitos aparelhos ligados)
-- Disjuntor avariado
+**Como identificar:**
+- Interruptor não faz "click" ao ligar
+- Ou fica solto, partido
+- Lâmpada está boa (testada)
+- Interruptor tem > 15 anos
 
-**⚠️ NUNCA force disjuntor que desarma repetidamente** - há um problema grave!
+**Por que acontece:**
+Contactos internos oxidam, partem-se ou desgastam-se com o tempo e uso frequente.
 
-**Solução:** Eletricista para investigar causa €60-120
+**Solução: Substituir interruptor (€5-30)**
 
-### 4. Lâmpada Queimada (10% dos casos)
-**Parece óbvio, mas muitos esquecem de verificar:**
+**Materiais necessários:**
+- Interruptor novo (€3-15)
+- Chave de fendas isolada (€3-8)
+- Multímetro (€15-30) - opcional
 
-**Teste simples:**
-1. Substitua lâmpada por uma que funciona
-2. Se acender, problema era só a lâmpada
-3. Se não acender, problema é no interruptor/instalação
+**Passo a passo:**
 
-**Dica:** Lâmpadas LED duram 15.000-25.000 horas vs 1.000h incandescentes
+**⚠️ CRÍTICO: DESLIGUE O DISJUNTOR PRIMEIRO!**
 
-### 5. Problema na Fiação (5% dos casos)
-**Mais grave, requer eletricista:**
+1. **Desligue o disjuntor do circuito**
+   - Vá ao quadro elétrico
+   - Desligue disjuntor da iluminação
+   - Teste com multímetro que não há tensão
 
-**Sinais de alerta:**
+2. **Remova a tampa do interruptor:**
+   - Desaperte parafusos (geralmente 2)
+   - Ou retire tampa com chave de fendas (encaixe)
+   - Puxe tampa para fora
+
+3. **Remova o interruptor:**
+   - Desaperte parafusos que prendem à caixa
+   - Puxe interruptor para fora (cuidado com fios)
+   - Não puxe fios!
+
+4. **Desconecte os fios:**
+   - **ANOTE AS POSIÇÕES DOS FIOS!** (tire foto)
+   - Desaperte parafusos dos terminais
+   - Retire fios cuidadosamente
+
+5. **Ligue fios ao interruptor novo:**
+   - Ligue fios nas mesmas posições
+   - Geralmente: fase entra num terminal, fase sai noutro
+   - Aperte bem os parafusos
+   - Puxe levemente cada fio (deve estar firme)
+
+6. **Volte a montar:**
+   - Empurre interruptor para dentro da caixa
+   - Fixe com parafusos
+   - Coloque tampa
+   - Aperte parafusos da tampa
+
+7. **Teste:**
+   - Ligue o disjuntor
+   - Teste o interruptor
+   - Deve ligar e desligar a luz
+
+**Custo DIY:** €3-15  
+**Custo profissional:** €40-80  
+**Tempo:** 20-30 minutos
+
+### Causa 3: Ligação Solta ou Oxidada (15% dos casos)
+
+**Como identificar:**
+- Interruptor funciona intermitentemente
+- Luz pisca ou falha
+- Interruptor aquece
+- Sinais de oxidação nos terminais
+
+**Por que acontece:**
+Parafusos dos terminais soltaram-se com vibração/tempo, ou terminais oxidaram com humidade.
+
+**Solução: Reapertar ou limpar ligações (€0-60)**
+
+**Passo a passo:**
+
+1. **Desligue o disjuntor**
+
+2. **Remova tampa e interruptor** (ver Causa 2)
+
+3. **Verifique ligações:**
+   - Parafusos soltos? → Aperte bem
+   - Oxidação verde/branca? → Limpe com lixa fina
+   - Fios danificados? → Corte e descarne novamente
+
+4. **Reaperte todos os parafusos:**
+   - Firme mas sem forçar demais
+   - Puxe fios para testar
+
+5. **Volte a montar e teste**
+
+**Custo DIY:** Grátis  
+**Custo profissional:** €40-60  
+**Tempo:** 15-20 minutos
+
+### Causa 4: Cabo Partido ou Desligado (10% dos casos)
+
+**Como identificar:**
+- Interruptor não funciona
+- Problema começou após obras, furar parede
+- Sem sinais de dano no interruptor
+- Outros interruptores OK
+
+**Por que acontece:**
+Cabo foi cortado acidentalmente (furar, pregar), roído por roedores, ou desligou-se numa caixa de derivação.
+
+**Solução: Localizar e reparar cabo (€60-300)**
+
+**Diagnóstico:**
+- Requer multímetro e conhecimentos
+- Eletricista usa detetor de cabos
+- Localiza ponto de rutura
+
+**Reparação:**
+- Abrir parede no ponto de rutura
+- Instalar caixa de derivação
+- Religar cabos
+- Fechar parede
+
+**Custo:** €80-300 (dependendo da localização)
+
+**Requer eletricista certificado.**
+
+### Causa 5: Disjuntor Desarmado (5% dos casos)
+
+**Como identificar:**
 - Vários interruptores não funcionam
-- Luzes piscam em várias divisões
-- Cheiro a queimado nas paredes
-- Disjuntor desarma frequentemente
+- Todos do mesmo circuito
+- Disjuntor no quadro está desarmado
 
-**Causas possíveis:**
-- Fios roídos por ratos (comum em zonas rurais)
-- Isolamento deteriorado (casas 40+ anos)
-- Humidade nas caixas de derivação
-- Ligações mal feitas em obra
+**Solução: Ligar disjuntor (Grátis - €150)**
 
-**Solução:** Inspeção profissional €80-150, reparação €150-500
+**Ver artigo completo:** [Disjuntor Desarma Sempre: 7 Causas](/blog/disjuntor-desarma)
 
-### 6. Interruptor Incompatível (3% dos casos)
-**Erro comum em substituições DIY:**
+**Se desarmar repetidamente:** Problema grave (curto-circuito, sobrecarga). Chame eletricista.
 
-**Tipos de interruptor:**
-- **Simples:** 1 lâmpada/circuito
-- **Duplo:** 2 lâmpadas independentes
-- **Comutador:** Controla mesma luz de 2 locais (escadas)
-- **Dimmer:** Regula intensidade (só para lâmpadas reguláveis)
+### Causa 6: Interruptor Errado para Aplicação (3% dos casos)
 
-**Erro típico:** Colocar interruptor simples onde precisa comutador
+**Como identificar:**
+- Interruptor para lâmpadas LED pisca ou não funciona
+- Interruptor com luz piloto
+- LED pisca quando "apagada"
 
-**Solução:** Identificar tipo correto, substituir €50-80
+**Por que acontece:**
+Interruptor com luz piloto deixa passar corrente residual que faz LEDs piscar.
 
-### 7. Instalação Defeituosa (2% dos casos)
-**Problema em obras recentes:**
+**Solução: Substituir por interruptor simples (€5-60)**
 
-**Erros comuns:**
-- Fase e neutro trocados
-- Terra não ligado
-- Caixa de derivação mal feita
-- Fios muito curtos (dificulta ligação)
+**Tipos de interruptores:**
 
-**Solução:** Eletricista certificado refazer ligação €60-120
+**1. Interruptor simples (€3-10)**
+- Sem luz piloto
+- Melhor para LEDs
+- Mais barato
 
-## Como Diagnosticar o Problema (Passo a Passo)
+**2. Interruptor com luz piloto (€5-15)**
+- Tem luzinha (facilita encontrar no escuro)
+- Pode fazer LEDs piscar
+- Não recomendado para LEDs
 
-### Teste 1: Verificação Visual (SEM mexer)
+**3. Interruptor dimmer (€15-50)**
+- Regula intensidade
+- Precisa ser "dimmer LED"
+- Lâmpada deve ser dimerizável
 
-**O que procurar:**
-1. Marcas de queimadura no interruptor
-2. Interruptor partido ou rachado
-3. Espelho solto ou danificado
-4. Sinais de humidade
+**4. Interruptor táctil (€20-60)**
+- Toque para ligar/desligar
+- Moderno
+- Mais caro
 
-**Se encontrar queimaduras → Chame eletricista imediatamente**
+**Ver artigo completo:** [Lâmpada LED Pisca: 7 Causas](/blog/lampada-led-pisca)
 
-### Teste 2: Verificar Disjuntor
+### Causa 7: Interruptor de Escada Mal Configurado (2% dos casos)
 
-**Procedimento:**
-1. Vá ao quadro elétrico
-2. Identifique disjuntor do circuito
-3. Verifique se está armado (posição cima)
-4. Se desarmado, tente rearmá-lo
+**Como identificar:**
+- Interruptor de escada (2 interruptores para mesma luz)
+- Um funciona, outro não
+- Ou ambos não funcionam corretamente
 
-**Se desarmar repetidamente → Problema grave, chame eletricista**
+**Por que acontece:**
+Interruptores de escada (comutadores) precisam ligação específica. Se mal ligados, não funcionam.
 
-### Teste 3: Testar Lâmpada
+**Solução: Religar corretamente (€40-100)**
 
-**Método simples:**
-1. Substitua lâmpada por outra que funciona
-2. Teste interruptor
-3. Se funcionar → Problema era só lâmpada
-4. Se não funcionar → Problema no interruptor/instalação
+**Esquema correto:**
+- Interruptor de escada tem 3 terminais
+- Fase entra no terminal comum do 1º
+- Terminais 1 e 2 ligam aos terminais 1 e 2 do 2º
+- Terminal comum do 2º vai para a lâmpada
 
-### Teste 4: Testar Outro Interruptor (mesmo circuito)
+**Complexo para DIY** — recomendo eletricista.
 
-**Para identificar se é problema localizado:**
-1. Teste outro interruptor no mesmo circuito
-2. Se outros funcionam → Problema no interruptor específico
-3. Se nenhum funciona → Problema no disjuntor/circuito
+## 💰 Custos de Reparação
 
-### Teste 5: Multímetro (Requer conhecimento)
+### Soluções DIY
 
-**⚠️ APENAS se souber usar multímetro:**
-1. Desligue disjuntor
-2. Retire espelho do interruptor
-3. Configure multímetro para continuidade (Ω)
-4. Teste contactos do interruptor
-5. Deve haver continuidade quando ligado, não quando desligado
+| Solução | Custo | Dificuldade | Tempo |
+|---------|-------|-------------|-------|
+| Substituir lâmpada | €2-15 | Muito fácil | 2 min |
+| Substituir interruptor | €3-15 | Moderada | 20-30 min |
+| Reapertar ligações | Grátis | Moderada | 15-20 min |
+| Ligar disjuntor | Grátis | Fácil | 1 min |
 
-**Se não souber usar multímetro → Chame eletricista €60-80**
+**SEMPRE desligue disjuntor antes de trabalhar!**
 
-## Como Substituir Interruptor (DIY Seguro)
+### Soluções Profissionais
 
-### Material Necessário:
+| Serviço | Preço em Trás-os-Montes |
+|---------|-------------------------|
+| Diagnóstico | €40-60 |
+| Substituir interruptor simples | €40-80 |
+| Substituir interruptor dimmer | €60-120 |
+| Reapertar ligações | €40-60 |
+| Reparar cabo partido | €80-300 |
+| Configurar interruptor escada | €60-120 |
+| Urgência 24h | +€30-50 |
 
-- Interruptor novo (€5-15)
-- Chave de fendas isolada
-- Multímetro ou testador de tensão
-- Fita isoladora
-- Luvas de proteção
+> 💡 **Interruptor não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, reparação garantida.
 
-### Passo a Passo Detalhado:
+## 🛡️ Segurança ao Trabalhar com Interruptores
 
-**1. DESLIGUE o disjuntor do circuito**
-- Identifique disjuntor correto no quadro
-- Coloque na posição "baixo"
-- Cole fita adesiva com aviso "NÃO LIGAR"
+### Regras de Ouro
 
-**2. TESTE ausência de corrente**
-- Use testador de tensão
-- Verifique que não há corrente
-- **NUNCA pule este passo!**
-
-**3. Retire espelho do interruptor**
-- Desaparafuse ou desencaixe espelho
-- Cuidado para não partir
-
-**4. Desaparafuse interruptor da caixa**
-- Normalmente 2 parafusos
-- Puxe interruptor para fora (deixando fios ligados)
-
-**5. Fotografe as ligações**
-- Tire foto dos fios antes de desligar
-- Identifique qual fio vai em cada terminal
-- Normalmente: Fase (castanho/preto) e Retorno (azul/cinzento)
+**SEMPRE:**
+✅ Desligue o disjuntor antes de trabalhar  
+✅ Teste ausência de tensão com multímetro  
+✅ Use ferramentas isoladas  
+✅ Trabalhe com mãos secas  
+✅ Anote posições dos fios (tire foto)
 
-**6. Desligue fios do interruptor velho**
-- Desaparafuse terminais
-- Retire fios com cuidado
+**NUNCA:**
+❌ Trabalhe com corrente ligada  
+❌ Toque em fios sem verificar tensão  
+❌ Use ferramentas metálicas sem isolamento  
+❌ Trabalhe em pé molhado  
+❌ Force ligações
 
-**7. Ligue fios no interruptor novo**
-- Siga foto que tirou
-- Aperte bem os parafusos dos terminais
-- Puxe levemente os fios para confirmar que estão presos
-
-**8. Recoloque interruptor na caixa**
-- Empurre fios para dentro
-- Aparafuse interruptor na caixa
-- Certifique-se que fica firme
+### Quando Chamar Eletricista
 
-**9. Recoloque espelho**
-- Encaixe ou aparafuse espelho
-- Verifique alinhamento
+**Chame profissional se:**
+- Não tem experiência com eletricidade
+- Não consegue identificar o problema
+- Há sinais de queimadura ou cheiro
+- Múltiplos interruptores não funcionam
+- Suspeita de cabo partido
+- Quer garantia profissional
 
-**10. TESTE o funcionamento**
-- Ligue disjuntor
-- Teste interruptor várias vezes
-- Verifique se não aquece
-
-**Tempo total:** 15-30 minutos
-**Dificuldade:** Média (requer cuidado e conhecimento básico)
+**Não arrisque eletrocussão!**
 
-## Quando Chamar Eletricista Certificado?
-
-### Situações que EXIGEM profissional:
+## 🔄 Tipos de Interruptores: Qual Escolher?
 
-**1. Cheiro a queimado persistente**
-- Risco de incêndio elétrico
-- Pode haver curto-circuito nas paredes
-- **Urgência:** Ligue imediatamente 932 321 892
-
-**2. Vários interruptores não funcionam**
-- Problema no quadro elétrico ou circuito principal
-- Requer diagnóstico profissional
-- **Custo:** €80-150 diagnóstico + reparação
-
-**3. Disjuntor desarma repetidamente**
-- Sobrecarga ou curto-circuito
-- NUNCA force ou substitua por disjuntor maior
-- **Perigo:** Risco de incêndio
+### Por Função
 
-**4. Instalação antiga (40+ anos)**
-- Fios de alumínio ou isolamento deteriorado
-- Pode precisar rewiring completo
-- **Custo:** €500-2.000 (divisão completa)
+**1. Interruptor Simples (€3-10)**
+- Liga/desliga uma luz
+- Um ponto de comando
+- Mais comum
 
-**5. Não tem experiência elétrica**
-- Eletricidade mata - não arrisque
-- Eletricista certificado €60-80
-- **Sua vida vale mais que €60!**
+**2. Interruptor de Escada/Comutador (€5-15)**
+- Liga/desliga de 2 pontos
+- Escadas, corredores
+- Precisa 2 interruptores
 
-## Preços de Serviço em Trás-os-Montes (2026)
+**3. Interruptor Cruzamento (€8-20)**
+- Liga/desliga de 3+ pontos
+- Combinado com comutadores
+- Menos comum
 
-### Tabela de Custos Reais:
+**4. Interruptor Duplo (€8-20)**
+- 2 interruptores num só
+- Economiza espaço
+- Comum em quartos
 
-| Serviço | Preço Normal | Preço Urgente (24h) |
-|---------|--------------|---------------------|
-| Diagnóstico problema | €40-60 | €80-100 |
-| Substituir interruptor simples | €50-80 | €100-120 |
-| Substituir comutador | €60-100 | €120-150 |
-| Instalar dimmer | €70-120 | €130-180 |
-| Reparar fiação | €100-250 | €180-350 |
-| Substituir quadro parcial | €200-400 | €350-600 |
+### Por Tecnologia
 
-**Dica:** Serviço durante horário normal (8h-18h) é 40% mais barato
+**1. Mecânico (€3-15)**
+- Tradicional
+- Mais barato
+- Durável
 
-## Tipos de Interruptores: Qual Escolher?
+**2. Dimmer (€15-50)**
+- Regula intensidade
+- Precisa lâmpadas dimerizáveis
+- Economiza energia
 
-### 1. Interruptor Simples (€5-10)
-**Uso:** 1 ponto de luz, 1 local de comando
-**Ideal para:** Quartos, salas, cozinhas
+**3. Táctil (€20-60)**
+- Toque para ligar
+- Moderno
+- Mais caro
 
-### 2. Interruptor Duplo (€8-15)
-**Uso:** 2 pontos de luz independentes
-**Ideal para:** Casas de banho (luz + exaustor)
+**4. Smart/WiFi (€25-80)**
+- Controlo por app
+- Automação
+- Requer configuração
 
-### 3. Comutador (€10-20)
-**Uso:** Mesma luz controlada de 2 locais
-**Ideal para:** Escadas, corredores, quartos grandes
+### Por Design
 
-### 4. Dimmer (€15-40)
-**Uso:** Regular intensidade da luz
-**Ideal para:** Salas, quartos (ambiente)
-**⚠️ Atenção:** Só funciona com lâmpadas reguláveis
+**Séries comuns em Portugal:**
+- **Legrand Valena:** €8-25
+- **Schneider Unica:** €10-30
+- **Simon:** €6-20
+- **Efapel:** €5-18
 
-### 5. Interruptor Temporizado (€20-50)
-**Uso:** Desliga automaticamente após X minutos
-**Ideal para:** Escadas de prédios, garagens
+**Escolha série compatível** com restantes interruptores da casa (estética uniforme).
 
-### 6. Interruptor com Luz Piloto (€12-25)
-**Uso:** LED indica quando está ligado
-**Ideal para:** Esquentadores, bombas de água
+## ❓ Perguntas Frequentes
 
-## Prevenção: Como Prolongar Vida do Interruptor
+**1. Posso substituir interruptor sozinho?**
+Tecnicamente sim, se desligar disjuntor e tiver cuidado. MAS: (1) risco de eletrocussão se não desligar, (2) pode ligar mal e causar curto. Se não tem experiência, recomendo eletricista.
 
-### 8 Dicas Profissionais:
+**2. Interruptor aquece, é normal?**
+Aquecimento leve é normal. Aquecimento excessivo (não consegue tocar) indica: ligação solta, sobrecarga, ou interruptor subdimensionado. Desligue disjuntor e chame eletricista (risco de incêndio).
 
-1. **Não force o interruptor** - pressão suave é suficiente
-2. **Limpe regularmente** - pó acumula e causa mau contacto
-3. **Use lâmpadas de potência adequada** - máximo indicado no interruptor
-4. **Evite humidade** - especialmente em casas de banho
-5. **Substitua interruptores a cada 15-20 anos** - preventivo
-6. **Use interruptores de qualidade** - Legrand, Schneider, Efapel
-7. **Não sobrecarregue circuito** - máximo 2.300W por circuito
-8. **Inspeção elétrica a cada 10 anos** - previne 80% dos problemas
+**3. Posso usar qualquer interruptor?**
+Não. Verifique: (1) tensão (230V), (2) corrente (10A mínimo), (3) tipo (simples, escada, dimmer), (4) compatibilidade com lâmpadas (dimmer LED para LEDs). Use interruptor adequado.
 
-## Erros Fatais a Evitar
+**4. Interruptor faz faísca ao ligar, é normal?**
+Faísca pequena ao ligar/desligar é normal (arco elétrico). Faísca grande ou constante indica: ligação solta, interruptor avariado, ou sobrecarga. Substitua interruptor.
 
-### ❌ NUNCA Faça Isto:
+**5. Quanto tempo dura um interruptor?**
+15-25 anos com uso normal. Fatores que reduzem: uso muito frequente (> 10×/dia), sobrecarga, humidade, má qualidade. Substitua se > 20 anos ou funciona mal.
 
-**1. Trabalhar com corrente ligada**
-- Risco de eletrocussão fatal
-- 220V pode matar em segundos
-- **SEMPRE desligue disjuntor primeiro**
+**6. Posso instalar dimmer em qualquer luz?**
+Não. Precisa: (1) dimmer específico para tipo de lâmpada (LED, incandescente), (2) lâmpadas dimerizáveis (nem todas LEDs são), (3) potência adequada. Verifique compatibilidade.
 
-**2. Usar ferramentas não isoladas**
-- Chave de fendas metálica conduz eletricidade
-- Use apenas ferramentas com cabo isolado
-- **Custo:** Kit ferramentas isoladas €20-40
+**7. Interruptor de escada não funciona, como reparar?**
+Complexo. Requer 2 comutadores ligados corretamente (3 fios entre eles). Se mal ligados, não funciona. Recomendo eletricista para verificar e corrigir ligações.
 
-**3. Ligar fios errados**
-- Fase no lugar errado causa curto-circuito
-- Sempre fotografe antes de desligar
-- **Dano:** Queima interruptor, lâmpadas, risco incêndio
+**8. Vale a pena reparar ou substituir?**
+Interruptor custa €3-15. Reparação profissional: €40-80. Se interruptor está partido ou muito velho (> 20 anos): substitua. Se só ligação solta: repare. Geralmente compensa substituir.
 
-**4. Forçar disjuntor que desarma**
-- Disjuntor desarma por motivo - há problema!
-- Forçar pode causar incêndio
-- **Solução:** Chame eletricista para investigar
+## 🎯 Conclusão: Interruptor Que Não Funciona Tem Solução
 
-**5. Usar interruptor tipo errado**
-- Dimmer em lâmpada não regulável queima ambos
-- Interruptor simples onde precisa comutador não funciona
-- **Custo:** €50-100 para corrigir
+Na maioria dos casos, interruptor que não funciona tem **causa identificável e solução acessível**:
 
-## Perguntas Frequentes (FAQ)
+**Causas mais comuns:**
+1. **Lâmpada queimada** (40%) → Substituir lâmpada (€2-15)
+2. **Interruptor avariado** (25%) → Substituir (€3-80)
+3. **Ligação solta** (15%) → Reapertar (grátis-€60)
 
-**P: Quanto tempo dura um interruptor?**
-R: Interruptor de qualidade dura 15-20 anos com uso normal (10-20 acionamentos/dia). Uso intenso reduz para 10-15 anos.
+**Diagnóstico simples:**
+1. Teste com lâmpada que funciona
+2. Verifique outros interruptores
+3. Verifique quadro elétrico (disjuntor)
 
-**P: Posso substituir interruptor eu mesmo?**
-R: Sim, SE tiver conhecimento básico de eletricidade e SEMPRE com disjuntor desligado. Se tiver dúvidas, chame eletricista (€50-80).
+**Quando chamar eletricista:**
+- Não tem experiência
+- Sinais de queimadura
+- Múltiplos interruptores afetados
+- Suspeita de cabo partido
+- Quer garantia profissional
 
-**P: Por que interruptor aquece?**
-R: Sobrecarga (lâmpadas potência excessiva), contactos gastos ou ligação mal feita. Desligue imediatamente e chame eletricista.
+**SEGURANÇA:**
+⚠️ SEMPRE desligue disjuntor antes de trabalhar  
+⚠️ NUNCA trabalhe com corrente ligada  
+⚠️ Use ferramentas isoladas  
+⚠️ Se não tem certeza, chame profissional
 
-**P: Quanto custa eletricista em Bragança?**
-R: Substituir interruptor €50-80 (normal) ou €100-120 (urgente 24h). Staff Seekers: **932 321 892**
+### 🚨 Interruptor Não Funciona? Ajuda Profissional
 
-**P: Interruptor faz estalido, é normal?**
-R: Estalido leve ao ligar/desligar é normal. Estalidos frequentes ou faíscas indicam problema - substitua imediatamente.
+**Staff Seekers — Eletricista Certificado em Bragança**
 
-## Conclusão: Segurança em Primeiro Lugar
+📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
-**Interruptor avariado tem solução simples, mas segurança é essencial.** Para substituições básicas com conhecimento adequado, pode fazer DIY. Para problemas complexos, cheiro a queimado ou dúvidas, chame sempre um eletricista certificado.
+✅ Diagnóstico rápido em 30 minutos  
+✅ Reparação ou substituição  
+✅ Materiais de qualidade em stock  
+✅ Garantia 1 ano no serviço  
+✅ Preços transparentes  
+✅ Técnico em sua casa em 30-45 minutos  
+✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-### 🚨 Precisa Ajuda Profissional?
-
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
-
-📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento 24 horas (urgências elétricas)
-- ✅ Eletricista certificado chega em 30 minutos
-- ✅ Orçamento grátis sem compromisso
-- ✅ Garantia 12 meses em todos os serviços
-- ✅ Certificação elétrica CERTIEL incluída
-
-💬 **WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá,%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda)
-
-🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
-
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Não fique sem luz!** Contacte-nos já para reparação rápida e segura.
 
 ---
 
-**Não arrisque sua segurança com eletricidade. Profissional certificado resolve em 30 minutos!**
+**Artigos relacionados:**
+- [Lâmpada LED Pisca: 7 Causas](/blog/lampada-led-pisca)
+- [Tomada Não Funciona: 8 Causas](/blog/tomada-nao-funciona)
+- [Disjuntor Desarma Sempre: 7 Causas](/blog/disjuntor-desarma)
+- [Campainha Não Funciona: 6 Causas](/blog/campainha-nao-funciona)
+- [Eletricista em Bragança 24h](/eletricista-braganca)
