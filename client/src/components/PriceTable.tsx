@@ -134,7 +134,7 @@ export default function PriceTable() {
                  <div className="mt-8 bg-gray-900 text-white p-6 rounded-lg text-center">
                     <p className="font-bold text-lg mb-2">Dúvidas no preço?</p>
                     <p className="text-gray-300 mb-4 text-sm">Ligue-nos, diga onde está e o que se passa. Damos o preço estimado na hora.</p>
-                    <a href={`tel:${config.phone.replace(/\s/g, '')}`} className="inline-block bg-[var(--site-primary)] text-white font-bold px-6 py-2 rounded hover:bg-[var(--site-primary-dark)] transition-colors">
+                    <a href={`tel:+351${config.phone.replace(/\s/g, '')}`} className="inline-block bg-[var(--site-primary)] text-white font-bold px-6 py-2 rounded hover:bg-[var(--site-primary-dark)] transition-colors">
                         Ligar {config.phone}
                     </a>
                  </div>

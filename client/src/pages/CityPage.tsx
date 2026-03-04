@@ -55,11 +55,11 @@ export default function CityPage() {
       (window as any).gtag('event', 'conversion', {
         'send_to': `${config.googleAdsId}/${config.googleAdsConversionLabel}`,
         'event_callback': () => {
-          window.location.href = `tel:${config.phone}`;
+          window.location.href = `tel:+351${config.phone.replace(/\s/g, "")}`;
         }
       });
     } else {
-      window.location.href = `tel:${config.phone}`;
+      window.location.href = `tel:+351${config.phone.replace(/\s/g, "")}`;
     }
   };
 

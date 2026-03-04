@@ -27,7 +27,7 @@ export default function FloatingButtons() {
 
       {/* Botão Telefone - canto inferior direito */}
       <Button
-        onClick={() => window.location.href = `tel:${config.phone.replace(/\s/g, '')}`}
+        onClick={() => window.location.href = `tel:+351${config.phone.replace(/\s/g, '')}`}
         className="fixed bottom-6 right-6 w-14 h-14 rounded-full text-white shadow-lg hover:shadow-xl transition-all z-40"
         style={{ backgroundColor: config.colors.primary }}
         aria-label="Ligar agora"

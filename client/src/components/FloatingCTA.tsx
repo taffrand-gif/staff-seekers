@@ -62,7 +62,7 @@ export default function FloatingCTA() {
             <div className="space-y-3">
               {/* Botão telefone */}
               <a
-                href={`tel:${config.phone.replace(/\s/g, '')}`}
+                href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                 onClick={() => trackPhoneClick(config.phone)}
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
                 style={{ backgroundColor: config.colors.primary }}

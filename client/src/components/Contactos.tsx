@@ -175,7 +175,7 @@ export default function Contactos() {
                 <div>
                   <h4 className="font-black text-lg mb-2">Telefone</h4>
                   <a
-                    href={`tel:${config.phone.replace(/\s/g, '')}`}
+                    href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                     className="text-xl font-bold hover:underline"
                     style={{ color: config.colors.primary }}
                   >

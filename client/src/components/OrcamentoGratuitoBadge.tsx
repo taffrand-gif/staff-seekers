@@ -19,7 +19,7 @@ export default function OrcamentoGratuitoBadge() {
             </div>
           </div>
           <a
-            href={`tel:${config.phone.replace(/\s/g, '')}`}
+            href={`tel:+351${config.phone.replace(/\s/g, '')}`}
             className="inline-flex items-center gap-2 bg-white text-green-700 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             <Phone className="w-5 h-5" />

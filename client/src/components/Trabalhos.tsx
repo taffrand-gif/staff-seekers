@@ -157,7 +157,7 @@ function Trabalhos() {
               Contacte-nos para um orçamento gratuito e sem compromisso.
             </p>
             <a
-              href={`tel:${config.phone.replace(/\s/g, '')}`}
+              href={`tel:+351${config.phone.replace(/\s/g, '')}`}
               onClick={() => trackPhoneClick(config.phone)}
               className="inline-flex items-center gap-2 px-8 py-4 font-bold text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ backgroundColor: config.colors.primary }}

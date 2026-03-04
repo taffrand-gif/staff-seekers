@@ -40,7 +40,7 @@ const OptimizedHero: React.FC = () => {
           {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href={`tel:${config.phone}`}
+              href={`tel:+351${config.phone.replace(/\s/g, "")}`}
               className="inline-flex items-center justify-center gap-3 bg-blue-900 hover:bg-blue-800 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 min-w-[250px]"
             >
               <span className="text-2xl">📞</span>

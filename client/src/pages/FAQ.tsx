@@ -148,7 +148,7 @@ export default function FAQPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href={`tel:${config.phone.replace(/\s/g, '')}`}
+                  href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                   className="inline-flex items-center justify-center gap-2 bg-white text-orange-700 font-bold px-8 py-4 rounded-lg hover:bg-orange-50 transition-colors"
                 >
                   <Phone size={20} />
@@ -275,7 +275,7 @@ export default function FAQPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href={`tel:${config.phone.replace(/\s/g, '')}`}
+                    href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                     className="inline-flex items-center justify-center gap-2 bg-white text-orange-700 font-bold px-8 py-4 rounded-lg hover:bg-orange-50 transition-colors"
                   >
                     <Phone size={20} />

@@ -113,7 +113,7 @@ function Header() {
       <div className="text-white py-2" style={{ backgroundColor: config.colors.primary }}>
         <div className="container flex items-center justify-center gap-2 text-sm font-semibold">
           <Phone className="w-4 h-4" />
-          <a href={`tel:${config.phone.replace(/\s/g, '')}`} className="hover:underline">
+          <a href={`tel:+351${config.phone.replace(/\s/g, '')}`} className="hover:underline">
             LIGUE AGORA: {config.phone}
           </a>
         </div>

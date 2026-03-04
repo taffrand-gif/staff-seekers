@@ -82,7 +82,7 @@ function Footer() {
                 <div>
                   <p className="font-bold">Telefone:</p>
                   <a 
-                    href={`tel:${config.phone.replace(/\s/g, '')}`}
+                    href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     {config.phone}

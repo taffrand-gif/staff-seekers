@@ -121,7 +121,7 @@ function FAQ() {
             Entre em contacto connosco. A nosso trabalho está pronta para esclarecer todas as suas dúvidas.
           </p>
           <a
-            href={`tel:${config.phone.replace(/\s/g, '')}`}
+            href={`tel:+351${config.phone.replace(/\s/g, '')}`}
             className="inline-flex items-center gap-2 px-8 py-4 font-bold text-white shadow-[3px_3px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             style={{ backgroundColor: config.colors.primary }}
           >
