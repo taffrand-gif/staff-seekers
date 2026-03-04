@@ -1,6 +1,7 @@
 // Page FAQ dédiée - Staff Seekers (Eletricista)
-// 18-20 questions en portugais PT-PT avec Schema.org FAQPage JSON-LD
+// 20 questions en portugais PT-PT avec Schema.org FAQPage JSON-LD
 // Design accordéon avec useState pour open/close
+// Utilise données partilhées de faqData.ts
 
 import { useState } from 'react';
 import Header from '@/components/Header';
@@ -9,6 +10,7 @@ import SEOHead from '@/components/SEOHead';
 import { useSite } from '@/contexts/SiteContext';
 import { ChevronDown, ChevronUp, Phone, MessageCircle, Zap, Shield } from 'lucide-react';
 import { Link } from 'wouter';
+import { electricFaqs, plumberFaqs } from '@/data/faqData';
 
 export default function FAQPage() {
   const { config } = useSite();
@@ -18,89 +20,9 @@ export default function FAQPage() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  // 20 questions para eletricista (Staff-Seekers)
-  const faqs = [
-    {
-      question: "Quanto custa um eletricista em Trás-os-Montes?",
-      answer: "Os preços variam conforme o serviço: instalação de tomada a partir de 35€, reparação de avaria elétrica a partir de 60€, quadro elétrico novo a partir de 450€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
-    },
-    {
-      question: "Como funciona o orçamento gratuito?",
-      answer: "Contacte-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente para avaliar o problema, apresentamos um orçamento detalhado com preços transparentes e só avançamos após sua aprovação. Sem surpresas."
-    },
-    {
-      question: "Tem eletricista urgente disponível 24h?",
-      answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de falta de luz, curto-circuito ou avaria elétrica perigosa, ligue +351 932 321 892 para intervenção imediata."
-    },
-    {
-      question: "Quanto tempo demora a chegar em caso de urgência?",
-      answer: "Na zona de Macedo de Cavaleiros e arredores (até 20km): 30-45 minutos. Para outras localidades do distrito: 45 minutos a 1 hora. Temos veículos equipados com ferramentas e material para deslocações rápidas."
-    },
-    {
-      question: "Atendem urgências à noite ou fim de semana?",
-      answer: "Sim, trabalhamos 24/7. Não importa se é meia-noite, domingo ou feriado - temos equipas de piquete sempre disponíveis para emergências elétricas. O preço de urgência aplica-se fora do horário comercial."
-    },
-    {
-      question: "Quais os serviços elétricos que oferecem?",
-      answer: "Instalação elétrica completa, reparação de avarias, quadros elétricos novos, certificação CERTIEL, painéis solares, iluminação interior/exterior, tomadas e interruptores, automação residencial, instalação de ar condicionado, urgências elétricas."
-    },
-    {
-      question: "Fazem certificação elétrica CERTIEL?",
-      answer: "Sim, somos eletricistas certificados para emitir certificados CERTIEL obrigatórios para venda/arrendamento de imóveis. Fazemos a vistoria completa, emissão do certificado e registo no sistema oficial."
-    },
-    {
-      question: "Instalam painéis solares na região?",
-      answer: "Sim, somos especialistas em instalação de painéis solares fotovoltaicos para autoconsumo. Fazemos estudo gratuito de viabilidade, projeto, instalação, legalização e manutenção. Ajudamos a reduzir a fatura da luz em até 70%."
-    },
-    {
-      question: "Quais cidades servem no distrito de Bragança?",
-      answer: "Servimos todo o distrito: Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Freixo de Espada à Cinta, e todas as aldeias circundantes."
-    },
-    {
-      question: "Qual é o raio de ação máximo?",
-      answer: "Atendemos num raio de 100km a partir de Macedo de Cavaleiros. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
-    },
-    {
-      question: "Quanto tempo demora uma instalação elétrica nova?",
-      answer: "Uma instalação completa numa casa média (T3) leva 3-5 dias. Instalação de quadro elétrico: 1 dia. Reparação de avaria simples: 1-2 horas. Projetos complexos (painéis solares, automação) podem levar 1-2 semanas."
-    },
-    {
-      question: "Dão garantia no trabalho realizado?",
-      answer: "Sim, damos garantia de 24 meses em todos os trabalhos realizados. A garantia cobre mão de obra e materiais fornecidos por nós. Em caso de problema relacionado, voltamos gratuitamente para resolver."
-    },
-    {
-      question: "Quais métodos de pagamento aceitam?",
-      answer: "Aceitamos dinheiro, multibanco, transferência bancária, MB WAY e cheque. Para serviços superiores a 500€, podemos acordar pagamento faseado. Emitimos fatura-recibo com IVA à taxa legal."
-    },
-    {
-      question: "Quando devo trocar o quadro elétrico antigo?",
-      answer: "Se tem fusíveis de rosca (ainda funcionam), disjuntores antigos (mais de 25 anos), falta de diferencial, ou avarias frequentes. Um quadro novo aumenta a segurança, evita incêndios e é obrigatório para certificação."
-    },
-    {
-      question: "Quais são os sinais de perigo elétrico?",
-      answer: "Cheiro a queimado, disjuntores que saltam frequentemente, tomadas/interruptores quentes, luzes que piscam, faíscas nas tomadas, choques leves ao tocar em eletrodomésticos, fusíveis queimados repetidamente."
-    },
-    {
-      question: "Quando devo chamar um eletricista?",
-      answer: "Ao primeiro sinal de problema: falta de luz parcial/total, disjuntores que saltam, cheiro a queimado, tomadas quentes. Não tente reparar sozinho - riscos de eletrocussão e incêndio são reais."
-    },
-    {
-      question: "Usam equipamento profissional?",
-      answer: "Sim, trabalhamos com equipamento de última geração: analisadores de redes Fluke, detetores de cabos, câmaras térmicas FLIR, ferramentas isoladas 1000V, testadores de continuidade, máquinas de furar profissionais."
-    },
-    {
-      question: "São eletricistas certificados?",
-      answer: "Sim, temos certificação profissional (curso de eletricista de instalações) e formação contínua. Trabalhamos de acordo com as normas NP EN 60364 (instalações elétricas) e legislação portuguesa. Todos os técnicos têm habilitações legais."
-    },
-    {
-      question: "Fazem serviços para empresas e indústrias?",
-      answer: "Sim, atendemos particulares, empresas, comércios, restaurantes, armazéns e pequenas indústrias. Para empresas, oferecemos contratos de manutenção preventiva com inspeções periódicas e desconto em intervenções."
-    },
-    {
-      question: "Como posso poupar energia elétrica?",
-      answer: "Trocar para LED, instalar painéis solares, usar termoacumulador com horário bi-horário, desligar standby dos aparelhos, escolher eletrodomésticos classe A+++, isolar bem a casa, usar cortinas térmicas no inverno."
-    }
-  ];
+  // Utilise toutes les 20 questions des FAQs partilhées
+  const isPlumber = config.id === 'norte-reparos';
+  const faqs = isPlumber ? plumberFaqs : electricFaqs;
 
   // Schema.org FAQPage JSON-LD
   const faqSchema = {

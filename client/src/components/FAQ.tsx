@@ -1,4 +1,5 @@
 // Secção FAQ - perguntas frequentes adaptadas ao site ativo
+// Utiliza dados partilhados de faqData.ts (primeiras 8 perguntas)
 import { useSite } from '@/contexts/SiteContext';
 import { memo } from 'react';
 import {
@@ -7,82 +8,14 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { electricFaqs, plumberFaqs } from '@/data/faqData';
 
 function FAQ() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
 
-  const plumbFaqs = [
-    {
-      question: 'Qual é o horário de atendimento do canalizador?',
-      answer: 'Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Temos piquetes de urgência sempre prontos para intervir em Trás-os-Montes.',
-    },
-    {
-      question: 'Quanto tempo demora a chegar em caso de urgência?',
-      answer: 'Em situações de urgência, o nosso tempo médio de resposta é de 30 a 45 minutos na zona de Bragança e Macedo de Cavaleiros. Para outras localidades de Trás-os-Montes, pode variar entre 45 minutos a 1 hora.',
-    },
-    {
-      question: 'Quanto custa um desentupimento?',
-      answer: 'O preço de um desentupimento simples varia entre 50€ e 80€ (sem IVA), dependendo da complexidade. Para um orçamento exato, contacte-nos diretamente.',
-    },
-    {
-      question: 'Os técnicos são certificados?',
-      answer: 'Sim, todos os nossos canalizadores são profissionais experientes com formação técnica adequada. Trabalhamos de acordo com todas as normas de segurança e qualidade exigidas.',
-    },
-    {
-      question: 'Fazem instalação de esquentadores?',
-      answer: 'Sim, fazemos instalação e substituição de esquentadores a gás com toda a certificação necessária. O preço varia entre 100€ e 200€ (sem IVA), dependendo do modelo e complexidade.',
-    },
-    {
-      question: 'Qual é a zona de cobertura?',
-      answer: 'Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Macedo de Cavaleiros, Mirandela, Miranda do Douro, Vinhais, Mogadouro e todas as localidades da região.',
-    },
-    {
-      question: 'Emitem fatura?',
-      answer: 'Sim, emitimos fatura com IVA para todos os serviços prestados. Aceitamos pagamento em dinheiro, multibanco, transferência bancária e MB WAY.',
-    },
-    {
-      question: 'O orçamento é gratuito?',
-      answer: 'Sim, o orçamento é gratuito e sem compromisso. Contacte-nos por telefone ou WhatsApp para descrever o seu problema e receber uma estimativa.',
-    },
-  ];
-
-  const electricFaqs = [
-    {
-      question: 'Qual é o horário de atendimento do eletricista?',
-      answer: 'Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Temos piquetes de urgência sempre prontos para intervir em Trás-os-Montes.',
-    },
-    {
-      question: 'Quanto tempo demora a chegar em caso de urgência?',
-      answer: 'Em situações de urgência, o nosso tempo médio de resposta é de 30 a 45 minutos na zona de Bragança e Macedo de Cavaleiros. Para outras localidades de Trás-os-Montes, pode variar entre 45 minutos a 1 hora.',
-    },
-    {
-      question: 'Quanto custa a certificação elétrica CERTIEL?',
-      answer: 'O preço da certificação CERTIEL varia entre 150€ e 300€ (sem IVA), dependendo da dimensão da instalação e das eventuais correções necessárias.',
-    },
-    {
-      question: 'Os técnicos são certificados?',
-      answer: 'Sim, todos os nossos eletricistas são certificados e credenciados, com vasta experiência na área. Estamos habilitados para emitir certificados CERTIEL.',
-    },
-    {
-      question: 'Fazem substituição de quadros elétricos?',
-      answer: 'Sim, fazemos substituição e modernização de quadros elétricos. O preço varia entre 250€ e 450€ (sem IVA), incluindo quadro novo, disjuntores diferenciais e certificação.',
-    },
-    {
-      question: 'Qual é a zona de cobertura?',
-      answer: 'Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Macedo de Cavaleiros, Mirandela, Miranda do Douro, Vinhais, Mogadouro e todas as localidades da região.',
-    },
-    {
-      question: 'Emitem fatura?',
-      answer: 'Sim, emitimos fatura com IVA para todos os serviços prestados. Aceitamos pagamento em dinheiro, multibanco, transferência bancária e MB WAY.',
-    },
-    {
-      question: 'O orçamento é gratuito?',
-      answer: 'Sim, o orçamento é gratuito e sem compromisso. Contacte-nos por telefone ou WhatsApp para descrever o seu problema e receber uma estimativa.',
-    },
-  ];
-
-  const faqs = isPlumber ? plumbFaqs : electricFaqs;
+  // Utiliza as primeiras 8 perguntas das FAQs partilhadas
+  const faqs = (isPlumber ? plumberFaqs : electricFaqs).slice(0, 8);
 
   return (
     <section id="faq" className="py-0">
