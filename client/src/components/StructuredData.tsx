@@ -32,11 +32,13 @@ export default function StructuredData() {
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
       "legalName": config.company.fullName,
+      "alternateName": serviceName,
       "description": config.description,
+      "slogan": "Serviço 24h/7d em Trás-os-Montes • Certificação CERTIEL • Chegamos em 40 minutos",
       "url": `https://${config.domain}`,
       "telephone": businessInfo.phone,
       "email": config.email,
-      "priceRange": "€€ - €€€",
+      "priceRange": "€€",
       "image": `https://${config.domain}${config.seo.ogImage}`,
       "logo": `https://${config.domain}/logo.png`,
       "address": {
@@ -52,15 +54,25 @@ export default function StructuredData() {
         "latitude": "41.5382",
         "longitude": "-6.9667"
       },
-      "areaServed": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": "41.5382",
-          "longitude": "-6.9667"
+      "areaServed": [
+        {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "41.5382",
+            "longitude": "-6.9667"
+          },
+          "geoRadius": "100000"
         },
-        "geoRadius": "100000"
-      },
+        ...citiesServed.map(city => ({
+          "@type": "City",
+          "name": city,
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Trás-os-Montes"
+          }
+        }))
+      ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
@@ -77,6 +89,16 @@ export default function StructuredData() {
         "bestRating": "5",
         "worstRating": "1"
       },
+      "hasMap": `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(businessInfo.baseAddress.addressLocality + ', Portugal')}`,
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.5382",
+          "longitude": "-6.9667"
+        },
+        "geoRadius": "100000"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Serviços de Eletricista",
@@ -86,18 +108,26 @@ export default function StructuredData() {
           "itemOffered": {
             "@type": "Service",
             "name": service.label,
-            "description": `${service.label} profissional em Trás-os-Montes`
+            "description": `${service.label} profissional em Trás-os-Montes`,
+            "provider": {
+              "@id": `https://${config.domain}/#organization`
+            }
           },
           "priceSpecification": {
             "@type": "PriceSpecification",
             "priceCurrency": "EUR",
             "price": service.basePrice?.toString() || "50"
+          },
+          "availability": "https://schema.org/InStock",
+          "availableAtOrFrom": {
+            "@id": `https://${config.domain}/#organization`
           }
         }))
       },
       "foundingDate": config.company.yearEstablished,
-      "knowsLanguage": "pt-PT",
+      "knowsLanguage": ["pt-PT"],
       "currenciesAccepted": "EUR",
+      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
       "paymentAccepted": "Cash, Credit Card, Bank Transfer",
       "makesOffer": config.services.map(service => ({
         "@type": "Offer",
