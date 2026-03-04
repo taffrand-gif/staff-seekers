@@ -18,36 +18,44 @@ function FAQ() {
 
   const faqs = [
     {
-      question: `Qual é o horário de atendimento do ${config.serviceType}?`,
-      answer: `Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Temos piquetes de urgência sempre prontos para intervir a qualquer momento.`,
+      question: 'Quanto custa um eletricista urgente em Bragança?',
+      answer: 'O custo de um eletricista urgente em Bragança varia entre €80-200 dependendo do serviço. Reparação de avarias elétricas custa €100-180, quadros elétricos €150-300, certificação CERTIEL €150. Deslocação urgente: €15. Orçamento grátis pelo 932 321 892.',
     },
     {
-      question: 'Quanto tempo demora a chegar em caso de urgência?',
-      answer: 'Em situações de urgência, o nosso tempo médio de resposta é de 30 a 45 minutos na zona de Bragança e arredores. Para outras localidades do distrito, pode variar entre 45 minutos a 1 hora.',
+      question: 'Quanto tempo demora a chegar um eletricista urgente?',
+      answer: 'Chegamos em menos de 40 minutos em Bragança, Mirandela e Macedo de Cavaleiros. Em Vila Real e Chaves, o tempo de chegada é de 60-90 minutos. Serviço disponível 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados.',
     },
     {
-      question: 'Como é calculado o preço do serviço?',
-      answer: 'O preço depende do tipo de serviço, da complexidade da intervenção e se é uma situação de urgência. Pode usar o nosso calculador de preços para obter uma estimativa. Para um orçamento exato, contacte-nos diretamente.',
+      question: 'O que fazer em caso de curto-circuito perigoso?',
+      answer: 'Em caso de curto-circuito: 1) Desligue o disjuntor geral imediatamente, 2) Não toque em fios expostos ou tomadas, 3) Afaste-se de cheiro a queimado, 4) Ligue imediatamente para 932 321 892. Chegamos em 40 minutos. Nunca tente reparar sozinho - risco de eletrocussão.',
     },
     {
-      question: 'Os técnicos são certificados?',
-      answer: 'Sim, todos os nossos técnicos são certificados e credenciados, com vasta experiência na área. Trabalhamos de acordo com todas as normas de segurança e qualidade exigidas.',
+      question: 'Eletricista precisa de certificado CERTIEL?',
+      answer: 'Sim, para instalações elétricas em Portugal é obrigatório certificado CERTIEL (Certificação de Instalações Elétricas). Todos os nossos eletricistas são certificados CERTIEL. Emitimos certificação após cada intervenção conforme legislação. Garantia 12 meses em instalações.',
     },
     {
-      question: 'Fazem intervenções em empresas e condomínios?',
-      answer: 'Sim, prestamos serviços tanto a particulares como a empresas, incluindo restaurantes, comércios, escolas, ginásios, hotéis, hospitais e condomínios de qualquer dimensão.',
+      question: 'Eletricista trabalha aos fins de semana e feriados?',
+      answer: 'Sim, o serviço de eletricista urgente está disponível 24 horas por dia, 7 dias por semana, incluindo sábados, domingos e feriados. Não há majoração de preço aos fins de semana. Ligue 932 321 892 a qualquer hora.',
     },
     {
-      question: 'Emitem certificado após a intervenção?',
-      answer: 'Sim, emitimos todos os certificados necessários conforme a legislação em vigor, incluindo certificações DGEG quando aplicável.',
+      question: 'Quanto custa instalar um quadro elétrico?',
+      answer: 'Instalar um quadro elétrico custa entre €150-300 em Bragança. Preços: quadro básico 4 circuitos (€150-200), quadro completo 8+ circuitos (€250-300), substituição disjuntor (€80-150). Inclui mão de obra, materiais e certificação CERTIEL. Orçamento grátis: 932 321 892.',
     },
     {
-      question: 'Qual é a zona de cobertura?',
-      answer: `Cobrimos todo o ${config.company.coverage}, incluindo Bragança, Mirandela, Macedo de Cavaleiros, Miranda do Douro, Vinhais, e todas as localidades da região de Trás-os-Montes.`,
+      question: 'Como detetar problema elétrico perigoso?',
+      answer: 'Sinais de perigo elétrico: 1) Disjuntor dispara constantemente, 2) Tomadas quentes ao toque, 3) Cheiro a queimado, 4) Faíscas ou estalidos, 5) Luzes piscando, 6) Fios expostos. Se notar qualquer sinal, desligue disjuntor geral e ligue 932 321 892 imediatamente.',
     },
     {
-      question: 'Aceitam pagamento com cartão?',
-      answer: 'Sim, aceitamos pagamento em dinheiro, multibanco e transferência bancária. Para sua comodidade, também aceitamos pagamento por MB WAY.',
+      question: 'Qual a garantia do trabalho de eletricista?',
+      answer: 'Oferecemos garantia de 12 meses em todas as instalações elétricas e 6 meses em reparações. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais. Certificado CERTIEL e garantia fornecidos após conclusão.',
+    },
+    {
+      question: 'O que está incluído no serviço de eletricista?',
+      answer: 'O serviço inclui: diagnóstico com multímetro profissional, mão de obra especializada, materiais básicos (disjuntores, cabos, tomadas), certificação CERTIEL quando aplicável, limpeza após intervenção, garantia. Não incluído: quadros elétricos completos, obras de alvenaria. Orçamento detalhado antes de iniciar.',
+    },
+    {
+      question: 'Aceitam pagamento com cartão e MB WAY?',
+      answer: 'Sim, aceitamos pagamento por multibanco, MB WAY, transferência bancária, e dinheiro. Pagamento apenas após conclusão do serviço e sua total satisfação. Fatura fornecida. Sem IVA (Art. 53º CIVA).',
     },
   ];
 
