@@ -136,7 +136,8 @@ export function generateMetaDescription(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue ${config.phone}`;
+    // Meta descriptions optimisées par ville (<160 chars, mots-clés locaux, CTA, CERTIEL)
+    return `Eletricista certificado CERTIEL em ${ville} 24h/7d. Avarias, disjuntores, quadros elétricos. Chegamos 40min. ☎️ ${config.phone}`;
   }
   
   // Page d'accueil
