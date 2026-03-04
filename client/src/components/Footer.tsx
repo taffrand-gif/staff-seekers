@@ -116,6 +116,11 @@ function Footer() {
           <div className="mt-3 text-xs text-gray-300">
             Precisa de canalizador? <a href="https://canalizador-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">Canalizador 24h Trás-os-Montes</a>
           </div>
+          <div className="mt-4 flex justify-center">
+            <a target="_blank" href="https://www.zaask.pt/user/taffrand" rel="noopener noreferrer">
+              <img src="https://www.zaask.pt/widget?user=1023333&widget=pro-findme" alt="Perfil Zaask" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
