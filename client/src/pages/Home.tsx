@@ -18,6 +18,7 @@ import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
 
 // Lazy load below-the-fold components
+const WhyDifferent = lazy(() => import('@/components/WhyDifferent'));
 const CompanyInfo = lazy(() => import('@/components/CompanyInfo'));
 const PriceCalculator = lazy(() => import('@/components/PriceCalculator'));
 const FAQ = lazy(() => import('@/components/FAQ'));
@@ -62,6 +63,7 @@ export default function Home() {
         <Header />
         <main id="main-content">
           <Hero />
+          <Suspense fallback={null}><WhyDifferent /></Suspense>
           <Suspense fallback={null}><CompanyInfo /></Suspense>
           <Suspense fallback={null}><PriceCalculator /></Suspense>
           <Suspense fallback={null}><FAQ /></Suspense>
