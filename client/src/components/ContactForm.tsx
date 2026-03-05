@@ -1,10 +1,27 @@
 import React, { useState } from 'react';
 import { Phone, MessageCircle, Send } from 'lucide-react';
 
+// Hook to detect mobile device
+function useIsMobile() {
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  return isMobile;
+}
+
 export default function ContactForm() {
   const [nome, setNome] = useState('');
   const [telefone, setTelefone] = useState('');
   const [descricao, setDescricao] = useState('');
+  const isMobile = useIsMobile();
 
   const handleWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +57,9 @@ export default function ContactForm() {
                 value={nome}
                 onChange={e => setNome(e.target.value)}
                 placeholder="O seu nome"
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35]"
+                className={`w-full rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35] ${
+                  isMobile ? 'px-5 py-4 text-lg' : 'px-4 py-3'
+                }`}
               />
             </div>
             <div>
@@ -48,10 +67,13 @@ export default function ContactForm() {
               <input
                 id="cf-tel"
                 type="tel"
+                inputMode="tel"
                 value={telefone}
                 onChange={e => setTelefone(e.target.value)}
                 placeholder="Ex: 912 345 678"
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35]"
+                className={`w-full rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35] ${
+                  isMobile ? 'px-5 py-4 text-lg' : 'px-4 py-3'
+                }`}
               />
             </div>
             <div>
@@ -61,25 +83,31 @@ export default function ContactForm() {
                 value={descricao}
                 onChange={e => setDescricao(e.target.value)}
                 placeholder="Descreva brevemente o problema elétrico..."
-                rows={4}
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35] resize-none"
+                rows={isMobile ? 3 : 4}
+                className={`w-full rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FF6B35] resize-none ${
+                  isMobile ? 'px-5 py-4 text-lg' : 'px-4 py-3'
+                }`}
               />
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <button
                 type="submit"
-                className="flex-1 flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
+                className={`flex-1 flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white font-bold rounded-lg transition-colors ${
+                  isMobile ? 'py-5 px-6 text-xl' : 'py-4 px-6 text-lg'
+                }`}
               >
-                <MessageCircle className="w-5 h-5" />
+                <MessageCircle className={isMobile ? 'w-6 h-6' : 'w-5 h-5'} />
                 Enviar via WhatsApp
               </button>
               <button
                 type="button"
                 onClick={handleCall}
-                className="flex-1 flex items-center justify-center gap-2 bg-[#c2410c] hover:bg-[#9a3412] text-white font-bold py-4 px-6 rounded-lg transition-colors text-lg"
+                className={`flex-1 flex items-center justify-center gap-2 bg-[#c2410c] hover:bg-[#9a3412] text-white font-bold rounded-lg transition-colors ${
+                  isMobile ? 'py-5 px-6 text-xl' : 'py-4 px-6 text-lg'
+                }`}
               >
-                <Phone className="w-5 h-5" />
+                <Phone className={isMobile ? 'w-6 h-6' : 'w-5 h-5'} />
                 Ligar Agora
               </button>
             </div>
