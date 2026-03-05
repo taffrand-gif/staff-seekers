@@ -3,10 +3,11 @@
 // Position fixed bottom, z-index élevé, 56px min height
 
 import { useSite } from '@/contexts/SiteContext';
+import { memo } from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-export default function MobileStickyBar() {
+function MobileStickyBar() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
   const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`;
@@ -54,3 +55,5 @@ export default function MobileStickyBar() {
     </div>
   );
 }
+
+export default memo(MobileStickyBar);

@@ -5,11 +5,12 @@
 // - Three value badges with thick borders
 
 import { useSite } from '@/contexts/SiteContext';
+import { memo } from 'react';
 import { Phone } from 'lucide-react';
 import { ServicesSlider } from './ServicesSlider';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-export default function Hero() {
+function Hero() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
 
@@ -73,3 +74,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default memo(Hero);

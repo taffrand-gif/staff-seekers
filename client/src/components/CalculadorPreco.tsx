@@ -43,7 +43,7 @@ const examplesElec = [
   { icon: '📋', label: 'Certificação elétrica', price: '150-300€' },
 ];
 
-export default function CalculadorPreco() {
+function CalculadorPreco() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
   const [zoneIdx, setZoneIdx] = useState(0);
@@ -227,3 +227,5 @@ export default function CalculadorPreco() {
     </section>
   );
 }
+
+export default memo(CalculadorPreco);

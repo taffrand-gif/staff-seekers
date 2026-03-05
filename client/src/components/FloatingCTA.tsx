@@ -1,12 +1,12 @@
 // CTA flottant bottom - Quick Win #2
 // Style Hormozi : Multiples points de conversion, sticky, minimal
 
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-export default function FloatingCTA() {
+function FloatingCTA() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
   const [isVisible, setIsVisible] = useState(true);
@@ -97,3 +97,5 @@ export default function FloatingCTA() {
     </div>
   );
 }
+
+export default memo(FloatingCTA);

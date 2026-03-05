@@ -1,7 +1,8 @@
 import { SERVICES_STAFF_SEEKERS } from '@/../../shared/cityServiceMatrix';
+import { memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
-export default function RelatedServices({ currentService, city }: { currentService: string; city: string }) {
+function RelatedServices({ currentService, city }: { currentService: string; city: string }) {
   const services = SERVICES_STAFF_SEEKERS.filter(s => s.slug !== currentService);
   const accentColor = '#FF6B35';
 
@@ -32,3 +33,5 @@ export default function RelatedServices({ currentService, city }: { currentServi
     </section>
   );
 }
+
+export default memo(RelatedServices);

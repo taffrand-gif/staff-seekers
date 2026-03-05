@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-export default function ExitIntentPopup() {
+function ExitIntentPopup() {
   const [showPopup, setShowPopup] = useState(false);
   const [hasShown, setHasShown] = useState(false);
   const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
@@ -151,3 +151,5 @@ export default function ExitIntentPopup() {
     </>
   );
 }
+
+export default memo(ExitIntentPopup);

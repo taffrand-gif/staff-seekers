@@ -82,7 +82,7 @@ function pickRandom<T>(arr: T[], exclude?: T): T {
   return filtered[Math.floor(Math.random() * filtered.length)];
 }
 
-export default function SocialProofTicker() {
+function SocialProofTicker() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
   const [notification, setNotification] = useState<{ name: string; city: string; action: string; minutes: number } | null>(null);
@@ -168,3 +168,5 @@ export default function SocialProofTicker() {
     </div>
   );
 }
+
+export default memo(SocialProofTicker);

@@ -2,6 +2,7 @@
 // Questions ciblant les recherches locales dans les villes de Trás-os-Montes
 
 import { useSite } from '@/contexts/SiteContext';
+import { memo } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +10,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
-export default function FAQLocal() {
+function FAQLocal() {
   const { config } = useSite();
   const isPlumber = config.id === 'norte-reparos';
 
@@ -100,3 +101,5 @@ export default function FAQLocal() {
     </section>
   );
 }
+
+export default memo(FAQLocal);

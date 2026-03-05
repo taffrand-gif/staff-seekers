@@ -6,7 +6,7 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Calculator, Phone } from 'lucide-react';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { Button } from './ui/button';
 import {
   Select,
@@ -18,7 +18,7 @@ import {
 import { Label } from './ui/label';
 import { RadioGroup, RadioGroupItem } from './ui/radio-group';
 
-export default function PriceCalculator() {
+function PriceCalculator() {
   const { config } = useSite();
   const [selectedService, setSelectedService] = useState<string>('');
   const [urgency, setUrgency] = useState<'normal' | 'urgent'>('normal');
@@ -146,3 +146,5 @@ export default function PriceCalculator() {
     </section>
   );
 }
+
+export default memo(PriceCalculator);

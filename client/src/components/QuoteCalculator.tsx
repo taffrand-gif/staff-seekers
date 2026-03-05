@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-export default function QuoteCalculator() {
+function QuoteCalculator() {
   const [isOpen, setIsOpen] = useState(false);
   const [service, setService] = useState('');
   const [urgency, setUrgency] = useState('normal');
@@ -206,3 +206,5 @@ export default function QuoteCalculator() {
     </div>
   );
 }
+
+export default memo(QuoteCalculator);

@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
-export default function UrgencyIndicator() {
+function UrgencyIndicator() {
   const [viewersCount, setViewersCount] = useState(0);
   const [recentBooking, setRecentBooking] = useState('');
   const [showBooking, setShowBooking] = useState(false);
@@ -90,3 +90,5 @@ export default function UrgencyIndicator() {
     </>
   );
 }
+
+export default memo(UrgencyIndicator);

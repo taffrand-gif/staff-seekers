@@ -1,5 +1,5 @@
 // Breadcrumbs com Schema BreadcrumbList JSON-LD para SEO
-import { useEffect } from 'react';
+import { useEffect, memo } from 'react';
 
 interface BreadcrumbItem {
   label: string;
@@ -10,7 +10,7 @@ interface BreadcrumbsProps {
   items: BreadcrumbItem[];
 }
 
-export default function Breadcrumbs({ items }: BreadcrumbsProps) {
+function Breadcrumbs({ items }: BreadcrumbsProps) {
   useEffect(() => {
     const schema = {
       '@context': 'https://schema.org',
@@ -61,3 +61,5 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
     </nav>
   );
 }
+
+export default memo(Breadcrumbs);

@@ -17,7 +17,7 @@ function useIsMobile() {
   return isMobile;
 }
 
-export default function ContactForm() {
+function ContactForm() {
   const [nome, setNome] = useState('');
   const [telefone, setTelefone] = useState('');
   const [descricao, setDescricao] = useState('');
@@ -121,3 +121,5 @@ export default function ContactForm() {
     </section>
   );
 }
+
+export default memo(ContactForm);

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { memo } from 'react';
 import { trpc } from "@/lib/trpc";
 import { ACTIVE_CONFIG } from "@shared/serviceConfig";
 import { Button } from "@/components/ui/button";
@@ -10,7 +11,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { toast } from "sonner";
 
-export default function QuoteForm() {
+function QuoteForm() {
   const { gradient } = ACTIVE_CONFIG;
   const [isSubmitting, setIsSubmitting] = useState(false);
   
@@ -232,3 +233,5 @@ export default function QuoteForm() {
     </Card>
   );
 }
+
+export default memo(QuoteForm);
