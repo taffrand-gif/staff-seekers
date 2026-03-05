@@ -27,31 +27,22 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYYYYYYYYY"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-YYYYYYYYYY');
-    </script>
+    <!-- Google Analytics 4 - Lazy loaded for performance -->
 
     <!-- Preload des ressources critiques -->
-    <link rel="preload" as="image" href="/images-optimized/hero/hero-electrician-portugal.jpg" fetchpriority="high" />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-400.woff2" crossorigin />
+    <link rel="preload" as="image" href="/images-optimized/hero/hero-electrician-portugal.webp" fetchpriority="high" />
     <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-600.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-700.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-900.woff2" crossorigin />
     <link rel="modulepreload" href="/src/main.tsx" />
     
     <!-- Self-hosted fonts -->
     <style>
-      @font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/poppins-400.woff2') format('woff2'); }
+      @font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: optional; src: url('/fonts/poppins-400.woff2') format('woff2'); }
       @font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/poppins-600.woff2') format('woff2'); }
       @font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/poppins-700.woff2') format('woff2'); }
       @font-face { font-family: 'Poppins'; font-style: normal; font-weight: 900; font-display: swap; src: url('/fonts/poppins-900.woff2') format('woff2'); }
-      @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/inter-400.woff2') format('woff2'); }
-      @font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/inter-500.woff2') format('woff2'); }
+      @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: optional; src: url('/fonts/inter-400.woff2') format('woff2'); }
+      @font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: optional; src: url('/fonts/inter-500.woff2') format('woff2'); }
       @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/inter-600.woff2') format('woff2'); }
     </style>
     <link rel="manifest" href="/manifest.json" />
@@ -146,6 +137,29 @@
     <div id="root"></div>
 
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Lazy load Google Analytics after user interaction -->
+    <script>
+      let gtmLoaded = false;
+      function loadGTM() {
+        if (gtmLoaded) return;
+        gtmLoaded = true;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-YYYYYYYYYY';
+        document.head.appendChild(script);
+        script.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-YYYYYYYYYY');
+        };
+      }
+      ['scroll', 'click', 'touchstart', 'mousemove'].forEach(event => {
+        window.addEventListener(event, loadGTM, { once: true, passive: true });
+      });
+      setTimeout(loadGTM, 5000);
+    </script>
 <!-- Umami: désactivé en attendant les bonnes variables d'environnement
     <script
       defer
