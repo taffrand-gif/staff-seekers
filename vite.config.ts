@@ -190,26 +190,8 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
-    // Minification optimale avec Terser
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true, // Supprimer console.log en production
-        drop_debugger: true,
-        pure_funcs: ['console.log', 'console.info', 'console.debug'],
-        passes: 3, // Trois passes pour meilleure compression
-        unsafe: true,
-        unsafe_comps: true,
-        unsafe_math: true,
-        unsafe_methods: true,
-      },
-      format: {
-        comments: false, // Supprimer tous les commentaires
-      },
-      mangle: {
-        safari10: true,
-      },
-    },
+    // Use esbuild minifier (faster and safer than terser for React)
+    minify: 'esbuild',
     // Optimisation des chunks
     rollupOptions: {
       output: {
