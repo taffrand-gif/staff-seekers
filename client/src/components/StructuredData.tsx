@@ -132,7 +132,6 @@ export default function StructuredData() {
       "knowsLanguage": ["pt-PT"],
       "currenciesAccepted": "EUR",
       "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
-      "paymentAccepted": "Cash, Credit Card, Bank Transfer",
       "makesOffer": config.services.map(service => ({
         "@type": "Offer",
         "itemOffered": {
