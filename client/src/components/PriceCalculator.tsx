@@ -6,7 +6,7 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Calculator, Phone } from 'lucide-react';
-import { useState, memo } from 'react';
+import { useState, memo } { useState, memo, useCallback } from 'react';
 import { Button } from './ui/button';
 import {
   Select,
@@ -24,14 +24,14 @@ function PriceCalculator() {
   const [urgency, setUrgency] = useState<'normal' | 'urgent'>('normal');
   const [calculatedPrice, setCalculatedPrice] = useState<number | null>(null);
 
-  const handleCalculate = () => {
+  const handleCalculate = useCallback(() => {
     const service = config.services.find(s => s.id === selectedService);
     if (service) {
       const basePrice = service.basePrice;
       const finalPrice = urgency === 'urgent' ? basePrice * 1.3 : basePrice;
       setCalculatedPrice(finalPrice);
     }
-  };
+  }, [selectedService, urgency, config]);
 
   return (
     <section id="calculador-preco" className="py-20 bg-gray-50">

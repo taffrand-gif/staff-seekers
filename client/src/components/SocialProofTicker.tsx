@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback, memo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 
 const citiesNorte = [
@@ -77,10 +77,10 @@ function randomMinutes() {
   return Math.floor(Math.random() * 45) + 2;
 }
 
-function pickRandom<T>(arr: T[], exclude?: T): T {
+const pickRandom = <T,>(arr: T[], exclude?: T): T => {
   const filtered = exclude ? arr.filter(item => item !== exclude) : arr;
   return filtered[Math.floor(Math.random() * filtered.length)];
-}
+};
 
 function SocialProofTicker() {
   const { config } = useSite();

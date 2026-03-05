@@ -3,7 +3,7 @@
 // Shows real electrical problems solved with dramatic before/after comparisons
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useState } from 'react';
+import { memo, useState, useMemo } from 'react';
 
 interface Case {
   id: string;
@@ -21,7 +21,7 @@ function BeforeAfter() {
   const { config } = useSite();
   const [activeCase, setActiveCase] = useState(0);
 
-  const cases: Case[] = [
+  const cases = useMemo<Case[]>(() => [
     {
       id: 'breaker',
       title: 'Disjuntor Disparava Toda Hora',
@@ -68,7 +68,7 @@ function BeforeAfter() {
     },
   ];
 
-  const currentCase = cases[activeCase];
+  const currentCase = cases[activeCase], []);
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">

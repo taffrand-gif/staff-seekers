@@ -2,7 +2,7 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
-import { useState, useRef, useEffect, memo } from 'react';
+import { useState, useRef, useEffect, memo, useMemo } from 'react';
 
 interface CityItem {
   name: string;
@@ -14,64 +14,65 @@ interface District {
   cities: CityItem[];
 }
 
-const districts: District[] = [
-  {
-    name: 'Distrito de Bragança',
-    cities: [
-      { name: 'Bragança', href: '/eletricista-braganca' },
-      { name: 'Macedo de Cavaleiros', href: '/eletricista-macedo-de-cavaleiros' },
-      { name: 'Mirandela', href: '/eletricista-mirandela' },
-      { name: 'Miranda do Douro', href: '/eletricista-miranda-do-douro' },
-      { name: 'Mogadouro', href: '/eletricista-mogadouro' },
-      { name: 'Vinhais', href: '/eletricista-vinhais' },
-      { name: 'Torre de Moncorvo', href: '/eletricista-torre-de-moncorvo' },
-      { name: 'Freixo de Espada à Cinta', href: '/eletricista-freixo-de-espada-a-cinta' },
-      { name: 'Alfândega da Fé', href: '/eletricista-alfandega-da-fe' },
-      { name: 'Vila Flor', href: '/eletricista-vila-flor' },
-      { name: 'Carrazeda de Ansiães', href: '/eletricista-carrazeda-de-ansiaes' },
-      { name: 'Vimioso', href: '/eletricista-vimioso' },
-    ],
-  },
-  {
-    name: 'Distrito de Vila Real',
-    cities: [
-      { name: 'Vila Real', href: '/eletricista-vila-real' },
-      { name: 'Chaves', href: '/eletricista-chaves' },
-      { name: 'Valpaços', href: '/eletricista-valpacos' },
-      { name: 'Murça', href: '/eletricista-murca' },
-      { name: 'Alijó', href: '/eletricista-alijo' },
-      { name: 'Sabrosa', href: '/eletricista-sabrosa' },
-      { name: 'Vila Pouca de Aguiar', href: '/eletricista-vila-pouca-de-aguiar' },
-      { name: 'Ribeira de Pena', href: '/eletricista-ribeira-de-pena' },
-      { name: 'Mondim de Basto', href: '/eletricista-mondim-de-basto' },
-      { name: 'Peso da Régua', href: '/eletricista-peso-da-regua' },
-      { name: 'Santa Marta de Penaguião', href: '/eletricista-santa-marta-de-penaguiao' },
-      { name: 'Mesão Frio', href: '/eletricista-mesao-frio' },
-    ],
-  },
-  {
-    name: 'Distrito de Viseu / Guarda',
-    cities: [
-      { name: 'Lamego', href: '/eletricista-lamego' },
-      { name: 'Moimenta da Beira', href: '/eletricista-moimenta-da-beira' },
-      { name: 'São João da Pesqueira', href: '/eletricista-sao-joao-da-pesqueira' },
-      { name: 'Tabuaço', href: '/eletricista-tabuaco' },
-      { name: 'Armamar', href: '/eletricista-armamar' },
-      { name: 'Sernancelhe', href: '/eletricista-sernancelhe' },
-      { name: 'Penedono', href: '/eletricista-penedono' },
-      { name: 'Vila Nova de Foz Côa', href: '/eletricista-vila-nova-de-foz-coa' },
-    ],
-  },
-];
-
-const totalCities = districts.reduce((sum, d) => sum + d.cities.length, 0);
-
 function Header() {
   const { config } = useSite();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [citiesOpen, setCitiesOpen] = useState(false);
   const [mobileDistrictOpen, setMobileDistrictOpen] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Mémoriser districts pour éviter recréation à chaque render
+  const districts: District[] = useMemo(() => [
+    {
+      name: 'Distrito de Bragança',
+      cities: [
+        { name: 'Bragança', href: '/eletricista-braganca' },
+        { name: 'Macedo de Cavaleiros', href: '/eletricista-macedo-de-cavaleiros' },
+        { name: 'Mirandela', href: '/eletricista-mirandela' },
+        { name: 'Miranda do Douro', href: '/eletricista-miranda-do-douro' },
+        { name: 'Mogadouro', href: '/eletricista-mogadouro' },
+        { name: 'Vinhais', href: '/eletricista-vinhais' },
+        { name: 'Torre de Moncorvo', href: '/eletricista-torre-de-moncorvo' },
+        { name: 'Freixo de Espada à Cinta', href: '/eletricista-freixo-de-espada-a-cinta' },
+        { name: 'Alfândega da Fé', href: '/eletricista-alfandega-da-fe' },
+        { name: 'Vila Flor', href: '/eletricista-vila-flor' },
+        { name: 'Carrazeda de Ansiães', href: '/eletricista-carrazeda-de-ansiaes' },
+        { name: 'Vimioso', href: '/eletricista-vimioso' },
+      ],
+    },
+    {
+      name: 'Distrito de Vila Real',
+      cities: [
+        { name: 'Vila Real', href: '/eletricista-vila-real' },
+        { name: 'Chaves', href: '/eletricista-chaves' },
+        { name: 'Valpaços', href: '/eletricista-valpacos' },
+        { name: 'Murça', href: '/eletricista-murca' },
+        { name: 'Alijó', href: '/eletricista-alijo' },
+        { name: 'Sabrosa', href: '/eletricista-sabrosa' },
+        { name: 'Vila Pouca de Aguiar', href: '/eletricista-vila-pouca-de-aguiar' },
+        { name: 'Ribeira de Pena', href: '/eletricista-ribeira-de-pena' },
+        { name: 'Mondim de Basto', href: '/eletricista-mondim-de-basto' },
+        { name: 'Peso da Régua', href: '/eletricista-peso-da-regua' },
+        { name: 'Santa Marta de Penaguião', href: '/eletricista-santa-marta-de-penaguiao' },
+        { name: 'Mesão Frio', href: '/eletricista-mesao-frio' },
+      ],
+    },
+    {
+      name: 'Distrito de Viseu / Guarda',
+      cities: [
+        { name: 'Lamego', href: '/eletricista-lamego' },
+        { name: 'Moimenta da Beira', href: '/eletricista-moimenta-da-beira' },
+        { name: 'São João da Pesqueira', href: '/eletricista-sao-joao-da-pesqueira' },
+        { name: 'Tabuaço', href: '/eletricista-tabuaco' },
+        { name: 'Armamar', href: '/eletricista-armamar' },
+        { name: 'Sernancelhe', href: '/eletricista-sernancelhe' },
+        { name: 'Penedono', href: '/eletricista-penedono' },
+        { name: 'Vila Nova de Foz Côa', href: '/eletricista-vila-nova-de-foz-coa' },
+      ],
+    },
+  ], []);
+
+  const totalCities = useMemo(() => districts.reduce((sum, d) => sum + d.cities.length, 0), [districts]);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {

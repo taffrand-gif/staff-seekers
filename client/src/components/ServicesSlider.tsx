@@ -1,4 +1,4 @@
-import { useState, useEffect, memo } from 'react';
+import { useState, useEffect, memo, useMemo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
 import OptimizedImage from './OptimizedImage';
@@ -18,7 +18,7 @@ export function ServicesSlider() {
 
   const isPlumbing = config.name === 'norte-reparos';
 
-  const services: Service[] = isPlumbing ? [
+  const services: Service[] = useMemo(() => isPlumbing ? [
     {
       icon: '🔧',
       title: 'Ferramentas Hilti e Bosch',
@@ -68,7 +68,7 @@ export function ServicesSlider() {
       description: 'Chegamos em média 25 minutos após o seu contacto',
       image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80'
     }
-  ];
+  ], [isPlumbing]);
 
   // Auto-play
   useEffect(() => {

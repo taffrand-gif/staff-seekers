@@ -3,7 +3,7 @@
 // Builds trust by addressing customer pain points
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+import { memo, useMemo } from 'react';
 
 interface Problem {
   icon: string;
@@ -16,7 +16,7 @@ interface Problem {
 function WhyDifferent() {
   const { config } = useSite();
 
-  const problems: Problem[] = [
+  const problems = useMemo<Problem[]>(() => [
     {
       icon: '⚡',
       title: 'Disjuntor Continua Disparar',
@@ -87,7 +87,7 @@ function WhyDifferent() {
       us: 'Cálculo profissional + Proteção adequada',
       value: 'Economiza €300 (evita incêndio)',
     },
-  ];
+  ], []);
 
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
