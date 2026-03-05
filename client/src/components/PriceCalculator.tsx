@@ -34,7 +34,7 @@ export default function PriceCalculator() {
   };
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="calculador-preco" className="py-20 bg-gray-50">
       <div className="container">
         <div className="max-w-2xl mx-auto">
           {/* Card with thick border */}

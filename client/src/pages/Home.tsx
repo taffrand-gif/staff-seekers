@@ -14,6 +14,7 @@ import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
+import MobileBottomNav from '@/components/MobileBottomNav';
 import { useSite } from '@/contexts/SiteContext';
 
 // Lazy load below-the-fold components - HOMEPAGE PREMIUM (5 sections only)
@@ -75,6 +76,7 @@ export default function Home() {
         </main>
         <Footer />
         <ScrollToTop />
+        <MobileBottomNav />
       </div>
     </>
   );
