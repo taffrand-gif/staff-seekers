@@ -53,7 +53,7 @@ function AnimatedCounter({ end, duration = 2000, suffix = '', prefix = '' }: Cou
   }, [isVisible, end, duration]);
 
   return (
-    <div ref={ref} className="text-5xl md:text-6xl font-black" style={{ color: 'inherit' }}>
+    <div ref={ref} className="text-5xl md:text-6xl font-black text-gray-900">
       {prefix}{count}{suffix}
     </div>
   );
@@ -97,7 +97,7 @@ export default function StatsCounters() {
               className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all"
             >
               <div className="text-5xl mb-4">{stat.icon}</div>
-              <div style={{ color: accentColor }}>
+              <div className="text-gray-900">
                 <AnimatedCounter
                   end={stat.value}
                   suffix={stat.suffix || ''}
