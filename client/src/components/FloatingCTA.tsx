@@ -58,6 +58,10 @@ function FloatingCTA() {
 
           {/* Corps */}
           <div className="p-4">
+            {/* Urgency headline */}
+            <p className="text-center text-sm font-bold text-gray-900 mb-3">
+              ⚡ <span className="text-red-600">URGENTE?</span> Técnico em 30min
+            </p>
 
             <div className="space-y-3">
               {/* Botão telefone */}
@@ -69,7 +73,7 @@ function FloatingCTA() {
                 aria-label={`Ligar para ${config.phone}`}
               >
                 <Phone className="w-5 h-5" />
-                <span>LIGAR AGORA</span>
+                <span>📞 LIGAR AGORA</span>
               </a>
 
               {/* Botão WhatsApp */}
@@ -79,16 +83,16 @@ function FloatingCTA() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
-                style={{ backgroundColor: '#15803d' }}
+                style={{ backgroundColor: '#25D366' }}
                 aria-label="Contactar via WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />
-                <span>WhatsApp</span>
+                <span>💬 WhatsApp Grátis</span>
               </a>
 
-              {/* Petit texte */}
-              <p className="text-xs text-gray-500 text-center mt-2">
-                Resposta em menos de 2 minutos
+              {/* Petit texte avec preuve sociale */}
+              <p className="text-xs text-gray-600 text-center mt-2 font-semibold">
+                ✓ Orçamento grátis • ✓ Sem compromisso
               </p>
             </div>
           </div>

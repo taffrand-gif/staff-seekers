@@ -62,32 +62,38 @@ function ExitIntentPopup() {
 
           {/* Content */}
           <div className="text-center">
-            <div className="text-5xl mb-4">⚡</div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">
-              Espere! Não Vá Embora
+            <div className="text-5xl mb-4">🚨</div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+              ESPERE! Última Oportunidade
             </h2>
+            <p className="text-lg font-bold text-red-600 mb-3">
+              Técnico disponível AGORA na sua zona
+            </p>
             <p className="text-gray-600 mb-6">
-              Precisa de um {serviceName.toLowerCase()} urgente? Respondemos em <strong>menos de 1 hora</strong>.
+              Não perca tempo a procurar. Temos um {serviceName.toLowerCase()} disponível que pode estar aí em <strong>30 minutos</strong>.
             </p>
 
             {/* Benefits */}
-            <div className="bg-gray-50 rounded-xl p-4 mb-6 text-left">
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-xl p-4 mb-6 text-left border-2 border-green-200">
+              <p className="text-xs font-bold text-green-700 mb-3 text-center">
+                🎁 OFERTA EXCLUSIVA PARA QUEM CONTACTAR AGORA
+              </p>
               <ul className="space-y-2">
-                <li className="flex items-center gap-2 text-sm">
-                  <span className="text-green-500">✓</span>
-                  <span>Orçamento gratuito por WhatsApp</span>
+                <li className="flex items-center gap-2 text-sm font-semibold">
+                  <span className="text-green-600 text-lg">✓</span>
+                  <span>Orçamento 100% GRÁTIS (valor €50)</span>
                 </li>
-                <li className="flex items-center gap-2 text-sm">
-                  <span className="text-green-500">✓</span>
-                  <span>Resposta em menos de 1 hora</span>
+                <li className="flex items-center gap-2 text-sm font-semibold">
+                  <span className="text-green-600 text-lg">✓</span>
+                  <span>Resposta garantida em 5 minutos</span>
                 </li>
-                <li className="flex items-center gap-2 text-sm">
-                  <span className="text-green-500">✓</span>
-                  <span>Disponível 24h/7d incluindo feriados</span>
+                <li className="flex items-center gap-2 text-sm font-semibold">
+                  <span className="text-green-600 text-lg">✓</span>
+                  <span>Técnico na sua porta em 30 minutos</span>
                 </li>
-                <li className="flex items-center gap-2 text-sm">
-                  <span className="text-green-500">✓</span>
-                  <span>Sem compromisso, sem surpresas</span>
+                <li className="flex items-center gap-2 text-sm font-semibold">
+                  <span className="text-green-600 text-lg">✓</span>
+                  <span>Garantia 2 anos + Satisfação 100%</span>
                 </li>
               </ul>
             </div>
@@ -96,32 +102,37 @@ function ExitIntentPopup() {
             <div className="space-y-3">
               <a
                 href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent('Olá! Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?')}`}
-                className="block w-full text-center text-white font-bold px-6 py-4 rounded-xl text-lg transition-all hover:scale-105"
+                className="block w-full text-center text-white font-black px-6 py-4 rounded-xl text-lg transition-all hover:scale-105 shadow-lg animate-pulse"
                 style={{ backgroundColor: '#25D366' }}
                 onClick={() => {
                   trackExitPopupConversion('WhatsApp');
                   setShowPopup(false);
                 }}
               >
-                💬 Pedir Orçamento no WhatsApp
+                💬 SIM! QUERO ORÇAMENTO GRÁTIS
               </a>
               <a
                 href={`tel:${ACTIVE_CONFIG.phone}`}
-                className="block w-full text-center font-bold px-6 py-4 rounded-xl text-lg border-2 transition-all hover:scale-105"
+                className="block w-full text-center font-bold px-6 py-4 rounded-xl text-base border-2 transition-all hover:scale-105"
                 style={{ borderColor: accentColor, color: accentColor }}
                 onClick={() => {
                   trackExitPopupConversion('Phone');
                   setShowPopup(false);
                 }}
               >
-                📞 Ligar Agora: {ACTIVE_CONFIG.phone}
+                📞 Ou Ligar: {ACTIVE_CONFIG.phone}
               </a>
             </div>
 
-            {/* Trust indicator */}
-            <p className="text-xs text-gray-500 mt-4">
-              🔒 Mais de 500 clientes satisfeitos em Trás-os-Montes
-            </p>
+            {/* Trust indicator with urgency */}
+            <div className="mt-4 space-y-1">
+              <p className="text-xs font-bold text-red-600">
+                ⏰ Apenas 2 técnicos disponíveis hoje na sua zona
+              </p>
+              <p className="text-xs text-gray-500">
+                🔒 Mais de 500 clientes satisfeitos • ⭐ 4.9/5
+              </p>
+            </div>
           </div>
         </div>
       </div>

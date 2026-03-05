@@ -42,16 +42,16 @@ function UrgencyIndicator() {
     <>
       {/* Live Viewers Indicator */}
       <div
-        className="fixed top-20 right-4 z-40 bg-white rounded-lg shadow-lg px-4 py-2 border-2 animate-pulse"
+        className="fixed top-20 right-4 z-40 bg-white rounded-lg shadow-xl px-4 py-2 border-l-4 animate-pulse"
         style={{ borderColor: accentColor }}
       >
         <div className="flex items-center gap-2">
           <div className="relative">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-ping absolute"></div>
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+            <div className="w-2 h-2 bg-red-500 rounded-full animate-ping absolute"></div>
+            <div className="w-2 h-2 bg-red-500 rounded-full"></div>
           </div>
-          <span className="text-sm font-semibold text-gray-700">
-            {viewersCount} pessoas a ver agora
+          <span className="text-sm font-bold text-gray-900">
+            🔥 {viewersCount} pessoas a ver agora
           </span>
         </div>
       </div>
@@ -59,14 +59,16 @@ function UrgencyIndicator() {
       {/* Recent Booking Notification */}
       {showBooking && (
         <div
-          className="fixed bottom-24 left-4 z-40 bg-white rounded-lg shadow-xl px-5 py-3 border-l-4 animate-slide-in-left max-w-sm"
-          style={{ borderColor: accentColor }}
+          className="fixed bottom-24 left-4 z-40 bg-gradient-to-r from-green-50 to-white rounded-lg shadow-2xl px-5 py-3 border-l-4 animate-slide-in-left max-w-sm border-2"
+          style={{ borderLeftColor: '#10b981', borderColor: '#d1fae5' }}
         >
           <div className="flex items-start gap-3">
             <div className="text-2xl">✅</div>
             <div>
-              <p className="font-semibold text-gray-900 text-sm">{recentBooking}</p>
-              <p className="text-xs text-gray-500 mt-1">Resposta em menos de 1 hora</p>
+              <p className="font-bold text-gray-900 text-sm">{recentBooking}</p>
+              <p className="text-xs font-semibold text-green-700 mt-1">
+                ⚡ Técnico chegou em 25 minutos
+              </p>
             </div>
           </div>
         </div>

@@ -23,16 +23,18 @@ function MobileStickyBar() {
       <a
         href={`tel:+351${config.phone.replace(/\s/g, '')}`}
         onClick={() => trackPhoneClick(config.phone)}
-        className="flex-1 flex items-center justify-center gap-2 text-white font-bold text-base active:opacity-90 transition-opacity"
+        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity"
         style={{
           backgroundColor: config.colors.primary,
           minHeight: '56px',
-          fontSize: '16px',
         }}
         aria-label={`Ligar agora para ${config.phone}`}
       >
-        <Phone className="w-5 h-5" />
-        <span>📞 Ligar Agora</span>
+        <div className="flex items-center gap-1">
+          <Phone className="w-4 h-4" />
+          <span className="text-sm">LIGAR</span>
+        </div>
+        <span className="text-xs font-normal opacity-90">Técnico 30min</span>
       </a>
 
       {/* Bouton WhatsApp — 50% droite */}
@@ -41,16 +43,18 @@ function MobileStickyBar() {
         onClick={() => trackWhatsAppClick('MobileStickyBar')}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-1 flex items-center justify-center gap-2 text-white font-bold text-base active:opacity-90 transition-opacity"
+        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity"
         style={{
-          backgroundColor: '#15803d',
+          backgroundColor: '#25D366',
           minHeight: '56px',
-          fontSize: '16px',
         }}
         aria-label="Contactar via WhatsApp"
       >
-        <MessageCircle className="w-5 h-5" />
-        <span>💬 WhatsApp</span>
+        <div className="flex items-center gap-1">
+          <MessageCircle className="w-4 h-4" />
+          <span className="text-sm">WhatsApp</span>
+        </div>
+        <span className="text-xs font-normal opacity-90">Resposta 5min</span>
       </a>
     </div>
   );

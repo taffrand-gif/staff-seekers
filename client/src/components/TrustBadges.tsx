@@ -52,10 +52,10 @@ export default function TrustBadges() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-3">
-            Porquê Escolher-nos?
+            Porquê Somos a Escolha #1 em Trás-os-Montes?
           </h2>
-          <p className="text-gray-600">
-            Confiança e qualidade garantidas em cada serviço
+          <p className="text-lg font-semibold text-gray-700">
+            Mais de 500 clientes já confiaram em nós. Agora é a sua vez.
           </p>
         </div>
 

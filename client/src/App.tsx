@@ -5,6 +5,7 @@ import { lazy, Suspense } from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
+import { LocationProvider } from "./contexts/LocationContext";
 import FloatingCTA from "./components/FloatingCTA";
 import SocialProofTicker from "./components/SocialProofTicker";
 import MobileStickyBar from "./components/MobileStickyBar";
@@ -16,6 +17,7 @@ import UrgencyIndicator from '@/components/UrgencyIndicator';
 // Lazy load conversion widgets (below-fold)
 const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
 const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
+const LocationDetector = lazy(() => import('@/components/LocationDetector'));
 
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
@@ -174,20 +176,23 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <SiteProvider>
-          <TooltipProvider>
-            <SkipLink />
-            <Toaster />
-            <StructuredData />
-            <UrgencyIndicator />
-            <Suspense fallback={null}>
-              <ExitIntentPopup />
-              <QuoteCalculator />
-            </Suspense>
-            <Router />
-            <FloatingCTA />
-            <SocialProofTicker />
-            <MobileStickyBar />
-          </TooltipProvider>
+          <LocationProvider>
+            <TooltipProvider>
+              <SkipLink />
+              <Toaster />
+              <StructuredData />
+              <UrgencyIndicator />
+              <Suspense fallback={null}>
+                <ExitIntentPopup />
+                <QuoteCalculator />
+                <LocationDetector />
+              </Suspense>
+              <Router />
+              <FloatingCTA />
+              <SocialProofTicker />
+              <MobileStickyBar />
+            </TooltipProvider>
+          </LocationProvider>
         </SiteProvider>
       </ThemeProvider>
     </ErrorBoundary>
