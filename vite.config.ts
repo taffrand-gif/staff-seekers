@@ -174,7 +174,7 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginImageOptimizer()];
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), /* vitePluginManusRuntime(), */ vitePluginManusDebugCollector(), vitePluginImageOptimizer()];
 
 export default defineConfig({
   plugins,
