@@ -21,14 +21,18 @@ function ExitIntentPopup() {
       }
     };
 
-    // Also trigger after 30 seconds if user hasn't interacted
+    // Detect if mobile device
+    const isMobile = window.innerWidth < 768;
+    const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
+
+    // Also trigger after delay if user hasn't interacted
     const timer = setTimeout(() => {
       if (!hasShown) {
         setShowPopup(true);
         setHasShown(true);
         trackExitPopupShown();
       }
-    }, 30000);
+    }, delay);
 
     document.addEventListener('mouseleave', handleMouseLeave);
 

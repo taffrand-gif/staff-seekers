@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Service Hub Pages -->
-  <url><loc>https://staff-seekers.com/quadros-eletricos</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://staff-seekers.com/tomadas-interruptores</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://staff-seekers.com/certificacao-certiel</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://staff-seekers.com/iluminacao</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://staff-seekers.com/avarias-urgentes</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/tomadas-interruptores</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/certificacao-certiel</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/iluminacao</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/avarias-urgentes</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
   
   <!-- Top 20 City×Service Pages (Bragança, Mirandela, Macedo) -->
-  <url><loc>https://staff-seekers.com/quadros-eletricos-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/certificacao-certiel-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/avarias-urgentes-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/tomadas-interruptores-braganca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/iluminacao-braganca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/certificacao-certiel-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/avarias-urgentes-braganca</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/tomadas-interruptores-braganca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/iluminacao-braganca</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   
-  <url><loc>https://staff-seekers.com/quadros-eletricos-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/certificacao-certiel-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/avarias-urgentes-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/tomadas-interruptores-mirandela</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/iluminacao-mirandela</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/certificacao-certiel-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/avarias-urgentes-mirandela</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/tomadas-interruptores-mirandela</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/iluminacao-mirandela</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   
-  <url><loc>https://staff-seekers.com/quadros-eletricos-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/certificacao-certiel-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/avarias-urgentes-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/tomadas-interruptores-macedo-de-cavaleiros</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/iluminacao-macedo-de-cavaleiros</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/certificacao-certiel-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/avarias-urgentes-macedo-de-cavaleiros</loc><priority>0.85</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/tomadas-interruptores-macedo-de-cavaleiros</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/iluminacao-macedo-de-cavaleiros</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   
-  <url><loc>https://staff-seekers.com/quadros-eletricos-chaves</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/certificacao-certiel-chaves</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/quadros-eletricos-vinhais</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/quadros-eletricos-mogadouro</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://staff-seekers.com/quadros-eletricos-vila-flor</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-chaves</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/certificacao-certiel-chaves</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-vinhais</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-mogadouro</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://eletricista-norte-reparos.pt/quadros-eletricos-vila-flor</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
   
   <!-- Note: 430 total city×service pages exist dynamically via /:service-:city route -->
   <!-- This sitemap includes top priority pages. All pages are accessible and indexable. -->

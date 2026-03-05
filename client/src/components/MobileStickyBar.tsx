@@ -18,8 +18,8 @@ function MobileStickyBar() {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-[60] md:hidden flex"
-      style={{ minHeight: '56px' }}
+      className="fixed bottom-0 left-0 right-0 z-[60] md:hidden flex shadow-[0_-4px_12px_rgba(0,0,0,0.15)]"
+      style={{ minHeight: '64px' }}
       role="navigation"
       aria-label="Contacto rápido"
     >
@@ -27,18 +27,17 @@ function MobileStickyBar() {
       <a
         href={`tel:+351${config.phone.replace(/\s/g, '')}`}
         onClick={() => trackPhoneClick(config.phone)}
-        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity"
+        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity min-h-[64px]"
         style={{
           backgroundColor: config.colors.primary,
-          minHeight: '56px',
         }}
         aria-label={`Ligar agora para ${config.phone}`}
       >
-        <div className="flex items-center gap-1">
-          <Phone className="w-4 h-4" />
-          <span className="text-sm">LIGAR</span>
+        <div className="flex items-center gap-2">
+          <Phone className="w-5 h-5" />
+          <span className="text-base">LIGAR</span>
         </div>
-        <span className="text-xs font-normal opacity-90">{arrivalTime.split('-')[0]}</span>
+        <span className="text-xs font-normal opacity-90 mt-0.5">{arrivalTime.split('-')[0]}</span>
       </a>
 
       {/* Bouton WhatsApp — 50% droite */}
@@ -47,18 +46,17 @@ function MobileStickyBar() {
         onClick={() => trackWhatsAppClick('MobileStickyBar')}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity"
+        className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity min-h-[64px]"
         style={{
           backgroundColor: '#25D366',
-          minHeight: '56px',
         }}
         aria-label="Contactar via WhatsApp"
       >
-        <div className="flex items-center gap-1">
-          <MessageCircle className="w-4 h-4" />
-          <span className="text-sm">WhatsApp</span>
+        <div className="flex items-center gap-2">
+          <MessageCircle className="w-5 h-5" />
+          <span className="text-base">WhatsApp</span>
         </div>
-        <span className="text-xs font-normal opacity-90">Resposta 5min</span>
+        <span className="text-xs font-normal opacity-90 mt-0.5">Resposta 5min</span>
       </a>
     </div>
   );

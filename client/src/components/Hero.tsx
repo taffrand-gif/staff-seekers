@@ -35,7 +35,8 @@ function Hero() {
       aria-label="Image de fond montrant un électricien professionnel au travail à Trás-os-Montes"
       className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${config.hero.backgroundImage})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${config.hero.backgroundImage})`,
+        backgroundColor: '#1f2937', // Fallback if image fails to load
       }}
     >
       <div className="container py-20 text-center text-white">
@@ -45,7 +46,7 @@ function Hero() {
         </div>
 
         {/* Main title - Brutalist massive heading */}
-        <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none">
+        <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
           {personalizedTitle}
         </h1>
 

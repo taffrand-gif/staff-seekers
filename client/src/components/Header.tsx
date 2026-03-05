@@ -102,7 +102,7 @@ function Header() {
     { id: 'cities', label: 'CIDADES', action: () => setCitiesOpen(!citiesOpen), dropdown: true },
     { id: 'blog', label: 'BLOG', action: () => (window.location.href = '/blog') },
     { id: 'faq', label: 'FAQ', action: () => (window.location.href = '/faq') },
-    { id: 'precos', label: 'PREÇOS', action: () => (window.location.href = '/blog/custo-eletricista-tras-os-montes-precos') },
+    { id: 'precos', label: 'PREÇOS', action: () => (window.location.href = '/transparence-prix') },
     { id: 'contactos', label: 'CONTACTOS', action: () => scrollToSection('contactos') },
   ];
 
@@ -290,7 +290,7 @@ function Header() {
 
             <a href="/blog" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">BLOG</a>
             <a href="/faq" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">FAQ</a>
-            <a href="/blog/custo-eletricista-tras-os-montes-precos" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">PREÇOS</a>
+            <a href="/transparence-prix" className="text-base font-semibold py-2 px-4 rounded-lg hover:bg-gray-100">PREÇOS</a>
 
             <Button
               onClick={() => {

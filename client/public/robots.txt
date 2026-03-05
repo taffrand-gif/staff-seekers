@@ -1,4 +1,4 @@
-# robots.txt para staff-seekers.com
+# robots.txt para eletricista-norte-reparos.pt
 # Eletricista Profissional em Trás-os-Montes
 
 User-agent: *
@@ -42,12 +42,12 @@ Allow: /ai-plugin.json
 Allow: /.well-known/ai-plugin.json
 
 # Sitemap
-Sitemap: https://staff-seekers.com/sitemap.xml
+Sitemap: https://eletricista-norte-reparos.pt/sitemap.xml
 
 # IndexNow - Instant indexing for Bing/Yandex
 # Key: 1496b3dde3ef3db681478bc980689cb2
-# Verification file: https://staff-seekers.com/1496b3dde3ef3db681478bc980689cb2.txt
-Sitemap: https://staff-seekers.com/sitemap-images.xml
+# Verification file: https://eletricista-norte-reparos.pt/1496b3dde3ef3db681478bc980689cb2.txt
+Sitemap: https://eletricista-norte-reparos.pt/sitemap-images.xml
 
 # Urgency pages - high priority for crawling
 Allow: /urgencias/

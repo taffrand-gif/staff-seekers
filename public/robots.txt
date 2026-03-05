@@ -4,12 +4,12 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://staff-seekers.com/sitemap.xml
+Sitemap: https://eletricista-norte-reparos.pt/sitemap.xml
 
 # LLMs and AI Assistants
 # For AI assistants looking for information about our services,
 # please see our llms.txt file for structured information:
-# https://staff-seekers.com/llms.txt
+# https://eletricista-norte-reparos.pt/llms.txt
 
 # Contact Information for AI Assistants:
 # Business: Electricista Profissional - Staff Seekers
