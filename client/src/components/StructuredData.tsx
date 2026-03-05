@@ -3,12 +3,14 @@
 
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
-import { useLocation } from 'wouter';
+import { useLocation as useWouterLocation } from 'wouter';
+import { useLocation } from '@/contexts/LocationContext';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 
 export default function StructuredData() {
   const { config } = useSite();
-  const [location] = useLocation();
+  const [location] = useWouterLocation();
+  const { getCurrentCity } = useLocation();
 
   useEffect(() => {
     // Remover scripts existentes
@@ -17,6 +19,7 @@ export default function StructuredData() {
 
     const businessType = 'Electrician';
     const serviceName = 'Eletricista';
+    const detectedCity = getCurrentCity();
 
     // Ne pas ajouter FAQPage sur les pages ville (CityServicePage a déjà son propre FAQPage)
     const isCityServicePage = location.match(/\/(eletricista|canalizador)-[a-z-]+$/);
@@ -37,8 +40,8 @@ export default function StructuredData() {
       "name": config.name,
       "legalName": config.company.fullName,
       "alternateName": serviceName,
-      "description": config.description,
-      "slogan": "Serviço 24h/7d em Trás-os-Montes • Certificação CERTIEL • Chegamos em 40 minutos",
+      "description": `${config.description} Atualmente a servir ${detectedCity} e região.`,
+      "slogan": `Serviço 24h/7d em ${detectedCity} • Certificação CERTIEL • Chegamos em 40 minutos`,
       "url": `https://${config.domain}`,
       "telephone": businessInfo.phone,
       "email": config.email,
@@ -67,6 +70,14 @@ export default function StructuredData() {
             "longitude": "-6.9667"
           },
           "geoRadius": "100000"
+        },
+        {
+          "@type": "City",
+          "name": detectedCity,
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Trás-os-Montes"
+          }
         },
         ...citiesServed.map(city => ({
           "@type": "City",
@@ -467,7 +478,7 @@ export default function StructuredData() {
       script.text = JSON.stringify(schema);
       document.head.appendChild(script);
     });
-  }, [config, location]);
+  }, [config, location, getCurrentCity]);
 
   return null;
 }

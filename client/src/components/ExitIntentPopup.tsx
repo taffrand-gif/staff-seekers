@@ -1,11 +1,14 @@
 import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
+import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 
 function ExitIntentPopup() {
   const [showPopup, setShowPopup] = useState(false);
   const [hasShown, setHasShown] = useState(false);
   const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
+  const { city, arrivalTime } = useLocationContent();
+  const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
 
   useEffect(() => {
     const handleMouseLeave = (e: MouseEvent) => {
@@ -67,10 +70,10 @@ function ExitIntentPopup() {
               ESPERE! Última Oportunidade
             </h2>
             <p className="text-lg font-bold text-red-600 mb-3">
-              Técnico disponível AGORA na sua zona
+              Técnico disponível AGORA em {city}
             </p>
             <p className="text-gray-600 mb-6">
-              Não perca tempo a procurar. Temos um {serviceName.toLowerCase()} disponível que pode estar aí em <strong>30 minutos</strong>.
+              Não perca tempo a procurar. Temos um {serviceName.toLowerCase()} disponível que pode estar aí em <strong>{arrivalTime.split('-')[0]}</strong>.
             </p>
 
             {/* Benefits */}
@@ -89,7 +92,7 @@ function ExitIntentPopup() {
                 </li>
                 <li className="flex items-center gap-2 text-sm font-semibold">
                   <span className="text-green-600 text-lg">✓</span>
-                  <span>Técnico na sua porta em 30 minutos</span>
+                  <span>Técnico na sua porta em {arrivalTime.split('-')[0]}</span>
                 </li>
                 <li className="flex items-center gap-2 text-sm font-semibold">
                   <span className="text-green-600 text-lg">✓</span>
@@ -101,7 +104,7 @@ function ExitIntentPopup() {
             {/* CTA Buttons */}
             <div className="space-y-3">
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent('Olá! Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?')}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
                 className="block w-full text-center text-white font-black px-6 py-4 rounded-xl text-lg transition-all hover:scale-105 shadow-lg animate-pulse"
                 style={{ backgroundColor: '#25D366' }}
                 onClick={() => {
@@ -127,7 +130,7 @@ function ExitIntentPopup() {
             {/* Trust indicator with urgency */}
             <div className="mt-4 space-y-1">
               <p className="text-xs font-bold text-red-600">
-                ⏰ Apenas 2 técnicos disponíveis hoje na sua zona
+                ⏰ Apenas 2 técnicos disponíveis hoje em {city}
               </p>
               <p className="text-xs text-gray-500">
                 🔒 Mais de 500 clientes satisfeitos • ⭐ 4.9/5

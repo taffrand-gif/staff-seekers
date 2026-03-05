@@ -5,15 +5,18 @@ import { useState, memo } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
+import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 
 function FloatingCTA() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
+  const { city, arrivalTime } = useLocationContent();
   const [isVisible, setIsVisible] = useState(true);
   const [isMinimized, setIsMinimized] = useState(false);
 
-  // WhatsApp message pré-rempli
-  const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`;
+  // WhatsApp message pré-rempli avec localisation
+  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
+  const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(whatsappMessage)}`;
 
   if (!isVisible) return null;
 
@@ -60,7 +63,7 @@ function FloatingCTA() {
           <div className="p-4">
             {/* Urgency headline */}
             <p className="text-center text-sm font-bold text-gray-900 mb-3">
-              ⚡ <span className="text-red-600">URGENTE?</span> Técnico em 30min
+              ⚡ <span className="text-red-600">URGENTE?</span> Técnico em {city} em {arrivalTime.split('-')[0]}
             </p>
 
             <div className="space-y-3">

@@ -5,14 +5,27 @@
 // - Three value badges with thick borders
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+import { memo, useMemo } from 'react';
 import { Phone } from 'lucide-react';
 import { ServicesSlider } from './ServicesSlider';
 import { useAnalytics } from '@/hooks/useAnalytics';
+import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 
 function Hero() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
+  const { city, arrivalTime } = useLocationContent();
+
+  // Personalized title and subtitle
+  const personalizedTitle = useMemo(() => {
+    return `${config.hero.title.split('—')[0]}— ${city}`;
+  }, [config.hero.title, city]);
+
+  const personalizedSubtitle = useMemo(() => {
+    return `Serviço 24h/7d em ${city} • Chegamos em ${arrivalTime}`;
+  }, [city, arrivalTime]);
+
+  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
 
   return (
     <section
@@ -32,18 +45,18 @@ function Hero() {
 
         {/* Main title - Brutalist massive heading */}
         <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none">
-          {config.hero.title}
+          {personalizedTitle}
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl font-medium mb-12 max-w-3xl mx-auto">
-          {config.hero.subtitle}
+          {personalizedSubtitle}
         </p>
 
         {/* Urgency badge */}
         <div className="mb-6 inline-block">
           <div className="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm animate-pulse">
-            🚨 TÉCNICO DISPONÍVEL AGORA • RESPOSTA EM 5 MIN
+            🚨 TÉCNICO DISPONÍVEL EM {city.toUpperCase()} • CHEGAMOS EM {arrivalTime.toUpperCase()}
           </div>
         </div>
 
@@ -63,7 +76,7 @@ function Hero() {
             LIGAR AGORA
           </a>
           <a
-            href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`}
+            href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`}
             onClick={() => trackWhatsAppClick('Hero')}
             target="_blank"
             rel="noopener noreferrer"

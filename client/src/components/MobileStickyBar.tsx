@@ -6,11 +6,14 @@ import { useSite } from '@/contexts/SiteContext';
 import { memo } from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
+import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 
 function MobileStickyBar() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
-  const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`;
+  const { arrivalTime } = useLocationContent();
+  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
+  const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <div
@@ -34,7 +37,7 @@ function MobileStickyBar() {
           <Phone className="w-4 h-4" />
           <span className="text-sm">LIGAR</span>
         </div>
-        <span className="text-xs font-normal opacity-90">Técnico 30min</span>
+        <span className="text-xs font-normal opacity-90">{arrivalTime.split('-')[0]}</span>
       </a>
 
       {/* Bouton WhatsApp — 50% droite */}

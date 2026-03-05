@@ -2,9 +2,11 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Star } from 'lucide-react';
 import { memo } from 'react';
+import { useLocalTestimonials } from '@/hooks/useLocationContent';
 
 function Testimonials() {
   const { config } = useSite();
+  const localTestimonials = useLocalTestimonials(config.testimonials);
   const isPlumber = config.id === 'norte-reparos';
   const clientCount = isPlumber ? '500+' : '300+';
 
@@ -36,7 +38,7 @@ function Testimonials() {
 
         {/* Grelha de testemunhos */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {config.testimonials.map((testimonial) => (
+          {localTestimonials.map((testimonial) => (
             <div
               key={testimonial.id}
               className="bg-white p-6 border-4 border-gray-200 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,0.08)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
@@ -59,7 +61,7 @@ function Testimonials() {
 
               {/* Autor */}
               <div className="flex items-center gap-3">
-                <div 
+                <div
                   className="w-12 h-12 flex items-center justify-center font-black text-2xl text-white rounded"
                   style={{ backgroundColor: config.colors.primary }}
                 >
@@ -68,7 +70,7 @@ function Testimonials() {
                 <div>
                   <p className="font-bold">{testimonial.name}</p>
                   <p className="text-sm text-gray-600">
-                    {testimonial.location} • {testimonial.service}
+                    📍 {testimonial.location} • {testimonial.service}
                   </p>
                 </div>
               </div>
