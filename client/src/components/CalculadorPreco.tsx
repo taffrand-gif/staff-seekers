@@ -216,8 +216,8 @@ export default function CalculadorPreco() {
               href={`https://wa.me/${whatsapp}?text=${waMsg}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
-              style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+              className="block w-full text-center font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
+              style={{ backgroundColor: '#128C7E', color: '#ffffff' }}
             >
               💬 Confirmar Disponibilidade no WhatsApp
             </a>

@@ -197,10 +197,17 @@ export default defineConfig({
         drop_console: true, // Supprimer console.log en production
         drop_debugger: true,
         pure_funcs: ['console.log', 'console.info', 'console.debug'],
-        passes: 2, // Deux passes pour meilleure compression
+        passes: 3, // Trois passes pour meilleure compression
+        unsafe: true,
+        unsafe_comps: true,
+        unsafe_math: true,
+        unsafe_methods: true,
       },
       format: {
         comments: false, // Supprimer tous les commentaires
+      },
+      mangle: {
+        safari10: true,
       },
     },
     // Optimisation des chunks
@@ -252,8 +259,10 @@ export default defineConfig({
     // Optimisation des assets
     assetsInlineLimit: 4096, // 4KB - inline les petits assets
     cssCodeSplit: true, // Split CSS par chunk
+    cssMinify: 'lightningcss', // CSS minification plus rapide
     sourcemap: false, // Pas de sourcemaps en production
     reportCompressedSize: true, // Rapport de taille compressée
+    chunkSizeWarningLimit: 600, // Augmenter limite warning
   },
   server: {
     port: 3000,
