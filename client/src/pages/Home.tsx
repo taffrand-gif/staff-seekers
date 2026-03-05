@@ -24,6 +24,12 @@ const Testimonials = lazy(() => import('@/components/Testimonials'));
 const BeforeAfter = lazy(() => import('@/components/BeforeAfter'));
 const FAQ = lazy(() => import('@/components/FAQ'));
 
+// Phase 2 - Transparence Prix + Garanties
+const PriceCalculatorWidget = lazy(() => import('@/components/PriceCalculatorWidget'));
+const PriceTransparency = lazy(() => import('@/components/PriceTransparency'));
+const GuaranteeSection = lazy(() => import('@/components/GuaranteeSection'));
+const TrustBadges = lazy(() => import('@/components/TrustBadges'));
+
 export default function Home() {
   const { config } = useSite();
 
@@ -61,8 +67,16 @@ export default function Home() {
           {/* 1. HERO PREMIUM - CTA Direct */}
           <Hero />
 
+          {/* PHASE 2 - TRANSPARENCE PRIX */}
+          <Suspense fallback={null}><PriceCalculatorWidget /></Suspense>
+          <Suspense fallback={null}><PriceTransparency /></Suspense>
+
           {/* 2. VALEUR DIFFÉRENCIANTE - 10 problèmes résolus */}
           <Suspense fallback={null}><WhyDifferent /></Suspense>
+
+          {/* PHASE 2 - GARANTIES */}
+          <Suspense fallback={null}><GuaranteeSection /></Suspense>
+          <Suspense fallback={null}><TrustBadges /></Suspense>
 
           {/* 3. CALCULATEUR ROI - 1 seul, optimisé */}
           <Suspense fallback={null}><PriceCalculator /></Suspense>

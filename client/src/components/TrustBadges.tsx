@@ -6,14 +6,29 @@ export default function TrustBadges() {
 
   const badges = [
     {
-      icon: '🏆',
-      title: 'Certificado',
-      description: isPlumber ? 'Profissionais certificados' : 'Certificação CERTIEL',
+      icon: '💰',
+      title: 'Preço Fixo Garantido',
+      description: 'Sem surpresas na fatura',
     },
     {
       icon: '🛡️',
-      title: 'Garantia',
-      description: isPlumber ? 'Garantia 3 anos' : 'Garantia 5 anos',
+      title: 'Garantia 2 Anos',
+      description: 'Intervenção gratuita',
+    },
+    {
+      icon: '📞',
+      title: 'Orçamento Grátis',
+      description: '2 minutos por telefone',
+    },
+    {
+      icon: '✅',
+      title: 'Sem Taxas Escondidas',
+      description: 'Transparência total',
+    },
+    {
+      icon: '🏆',
+      title: 'Certificado',
+      description: isPlumber ? 'Profissionais certificados' : 'Certificação CERTIEL',
     },
     {
       icon: '⚡',
@@ -30,11 +45,6 @@ export default function TrustBadges() {
       title: 'Seguro',
       description: 'Totalmente segurado',
     },
-    {
-      icon: '💰',
-      title: 'Sem Surpresas',
-      description: 'Orçamento gratuito',
-    },
   ];
 
   return (
@@ -49,7 +59,7 @@ export default function TrustBadges() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
           {badges.map((badge, index) => (
             <div
               key={index}
