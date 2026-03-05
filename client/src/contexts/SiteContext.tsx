@@ -2,7 +2,7 @@
 // This context provides site-specific configuration to all components
 
 import React, { createContext, useContext, ReactNode } from 'react';
-import { SiteConfig, getCurrentSiteConfig } from '@/../../shared/siteConfig';
+import { SiteConfig, getCurrentSiteConfig } from '../../../shared/siteConfig';
 
 interface SiteContextType {
   config: SiteConfig;
