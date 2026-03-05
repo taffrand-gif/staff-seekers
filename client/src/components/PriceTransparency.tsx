@@ -1,10 +1,11 @@
+import React from 'react';
 // Price Transparency Component - Comparaison 3 colonnes
 // Outros vs Nós vs Você Economiza
 // Impact: Lever objection #1 "Combien ça coûte?"
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { memo } from 'react';
+// memo removed from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 
 interface ComparisonColumn {
@@ -185,4 +186,4 @@ function PriceTransparency() {
   );
 }
 
-export default memo(PriceTransparency);
+export default React.memo(PriceTransparency);

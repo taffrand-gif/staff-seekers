@@ -1,3 +1,4 @@
+import React from 'react';
 // Design: Professional Service Layout
 // - Thick borders on form elements
 // - Clear visual hierarchy
@@ -147,4 +148,4 @@ function PriceCalculator() {
   );
 }
 
-export default memo(PriceCalculator);
+export default React.memo(PriceCalculator);

@@ -1,6 +1,7 @@
+import React from 'react';
 // Composant RelatedCities - Affiche les villes connexes pour le maillage interne SEO
 import { Link } from 'wouter';
-import { memo } from 'react';
+// memo removed from 'react';
 
 interface RelatedCitiesProps {
   currentCity: string;
@@ -107,4 +108,4 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
   );
 }
 
-export default memo(RelatedCities);
+export default React.memo(RelatedCities);

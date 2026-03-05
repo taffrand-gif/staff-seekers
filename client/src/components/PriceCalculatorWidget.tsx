@@ -1,3 +1,4 @@
+import React from 'react';
 // Price Calculator Widget - Transparence Prix avec VRAIS PRIX officiels
 // Calcul dynamique: Service + Zone + Urgence
 // Impact: +259K€/an attendu
@@ -296,4 +297,4 @@ function PriceCalculatorWidget() {
   );
 }
 
-export default memo(PriceCalculatorWidget);
+export default React.memo(PriceCalculatorWidget);

@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Money-Back Guarantee - Eletricista
 // Risk reversal strategy - removes fear of trying the service
 // Shows confidence in quality and builds trust with CERTIEL certification
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+// memo removed from 'react';
 
 function MoneyBackGuarantee() {
   const { config } = useSite();
@@ -174,4 +175,4 @@ function MoneyBackGuarantee() {
   );
 }
 
-export default memo(MoneyBackGuarantee);
+export default React.memo(MoneyBackGuarantee);

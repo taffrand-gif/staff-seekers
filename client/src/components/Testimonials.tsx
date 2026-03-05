@@ -1,7 +1,8 @@
+import React from 'react';
 // Secção Testemunhos - avaliações de clientes
 import { useSite } from '@/contexts/SiteContext';
 import { Star } from 'lucide-react';
-import { memo } from 'react';
+// memo removed from 'react';
 import { useLocalTestimonials } from '@/hooks/useLocationContent';
 
 function Testimonials() {
@@ -82,4 +83,4 @@ function Testimonials() {
   );
 }
 
-export default memo(Testimonials);
+export default React.memo(Testimonials);

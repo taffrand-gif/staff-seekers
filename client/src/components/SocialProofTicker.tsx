@@ -169,4 +169,4 @@ function SocialProofTicker() {
   );
 }
 
-export default memo(SocialProofTicker);
+export default React.memo(SocialProofTicker);

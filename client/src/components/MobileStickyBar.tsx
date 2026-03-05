@@ -1,9 +1,10 @@
+import React from 'react';
 // Barre fixe mobile — Ligar + WhatsApp côte à côte
 // Visible UNIQUEMENT sur mobile (md:hidden)
 // Position fixed bottom, z-index élevé, 56px min height
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+// memo removed from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
@@ -63,4 +64,4 @@ function MobileStickyBar() {
   );
 }
 
-export default memo(MobileStickyBar);
+export default React.memo(MobileStickyBar);

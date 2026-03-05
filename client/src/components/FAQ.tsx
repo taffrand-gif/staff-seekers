@@ -1,3 +1,4 @@
+import React from 'react';
 // Design: Professional Service Layout
 // FAQ section with accordion for questions/answers
 // - Bold headings with thick borders
@@ -5,7 +6,7 @@
 // - SEO-optimized Q&A content
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -139,4 +140,4 @@ function FAQ() {
   );
 }
 
-export default memo(FAQ);
+export default React.memo(FAQ);

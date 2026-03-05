@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
@@ -93,4 +94,4 @@ function UrgencyIndicator() {
   );
 }
 
-export default memo(UrgencyIndicator);
+export default React.memo(UrgencyIndicator);

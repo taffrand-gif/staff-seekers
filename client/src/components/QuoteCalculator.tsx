@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -207,4 +208,4 @@ function QuoteCalculator() {
   );
 }
 
-export default memo(QuoteCalculator);
+export default React.memo(QuoteCalculator);

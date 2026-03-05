@@ -1,8 +1,9 @@
+import React from 'react';
 // FAQ supplémentaires orientées SEO local
 // Questions ciblant les recherches locales dans les villes de Trás-os-Montes
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+// memo removed from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -102,4 +103,4 @@ function FAQLocal() {
   );
 }
 
-export default memo(FAQLocal);
+export default React.memo(FAQLocal);

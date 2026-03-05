@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Why We're Different - Eletricista
 // Shows 10 common electrical problems and how we solve them differently
 // Builds trust by addressing customer pain points
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useMemo } from 'react';
+import { useMemo } from 'react';
 
 interface Problem {
   icon: string;
@@ -203,4 +204,4 @@ function WhyDifferent() {
   );
 }
 
-export default memo(WhyDifferent);
+export default React.memo(WhyDifferent);

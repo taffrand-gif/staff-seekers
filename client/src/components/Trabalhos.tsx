@@ -1,9 +1,10 @@
+import React from 'react';
 // Secção Trabalhos Realizados - portfolio adaptado ao site ativo
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
 import OptimizedImage from './OptimizedImage';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { memo } from 'react';
+// memo removed from 'react';
 
 function Trabalhos() {
   const { config } = useSite();
@@ -172,4 +173,4 @@ function Trabalhos() {
   );
 }
 
-export default memo(Trabalhos);
+export default React.memo(Trabalhos);

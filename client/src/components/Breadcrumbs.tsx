@@ -1,3 +1,4 @@
+import React from 'react';
 // Breadcrumbs com Schema BreadcrumbList JSON-LD para SEO
 import { useEffect, memo } from 'react';
 
@@ -62,4 +63,4 @@ function Breadcrumbs({ items }: BreadcrumbsProps) {
   );
 }
 
-export default memo(Breadcrumbs);
+export default React.memo(Breadcrumbs);

@@ -1,5 +1,6 @@
+import React from 'react';
 import { useState } from "react";
-import { memo } from 'react';
+// memo removed from 'react';
 import { trpc } from "@/lib/trpc";
 import { ACTIVE_CONFIG } from "@shared/serviceConfig";
 import { Button } from "@/components/ui/button";
@@ -234,4 +235,4 @@ function QuoteForm() {
   );
 }
 
-export default memo(QuoteForm);
+export default React.memo(QuoteForm);

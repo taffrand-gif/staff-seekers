@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -166,4 +167,4 @@ function ExitIntentPopup() {
   );
 }
 
-export default memo(ExitIntentPopup);
+export default React.memo(ExitIntentPopup);

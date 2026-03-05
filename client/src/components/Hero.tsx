@@ -1,3 +1,4 @@
+import React from 'react';
 // Design: Professional Service Layout
 // - Massive title with ExtraBold Poppins
 // - Full-width hero with overlay
@@ -5,7 +6,7 @@
 // - Three value badges with thick borders
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useMemo } from 'react';
+import { useMemo } from 'react';
 import { Phone } from 'lucide-react';
 import { ServicesSlider } from './ServicesSlider';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -111,4 +112,4 @@ function Hero() {
   );
 }
 
-export default memo(Hero);
+export default React.memo(Hero);

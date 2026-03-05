@@ -1,3 +1,4 @@
+import React from 'react';
 // CTA flottant bottom - Quick Win #2
 // Style Hormozi : Multiples points de conversion, sticky, minimal
 
@@ -105,4 +106,4 @@ function FloatingCTA() {
   );
 }
 
-export default memo(FloatingCTA);
+export default React.memo(FloatingCTA);

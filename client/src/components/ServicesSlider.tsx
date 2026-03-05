@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect, memo, useMemo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
@@ -180,4 +181,4 @@ export function ServicesSlider() {
   );
 }
 
-export default memo(ServicesSlider);
+export default React.memo(ServicesSlider);

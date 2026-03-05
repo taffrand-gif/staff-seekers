@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Before/After Showcase - Eletricista
 // Visual proof of transformations - builds trust and demonstrates value
 // Shows real electrical problems solved with dramatic before/after comparisons
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 
 interface Case {
   id: string;
@@ -212,4 +213,4 @@ function BeforeAfter() {
   );
 }
 
-export default memo(BeforeAfter);
+export default React.memo(BeforeAfter);

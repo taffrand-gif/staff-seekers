@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Loss Calculator - Eletricista
 // Interactive calculator showing how much money customer is wasting on electricity
 // Creates urgency and demonstrates value of fixing electrical problems
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useState } from 'react';
+import { useState } from 'react';
 
 interface CalculatorResult {
   monthly: number;
@@ -262,4 +263,4 @@ function LossCalculator() {
   );
 }
 
-export default memo(LossCalculator);
+export default React.memo(LossCalculator);

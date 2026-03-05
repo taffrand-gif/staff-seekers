@@ -1,10 +1,11 @@
+import React from 'react';
 // Guarantee Section Component - 4 cartes garanties
 // Lever objection #2 "Est-ce qu'il va vraiment résoudre?"
 // Impact: Confiance + Conversion
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { memo } from 'react';
+// memo removed from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 
 interface Guarantee {
@@ -178,4 +179,4 @@ function GuaranteeSection() {
   );
 }
 
-export default memo(GuaranteeSection);
+export default React.memo(GuaranteeSection);
