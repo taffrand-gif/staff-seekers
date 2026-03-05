@@ -1,5 +1,6 @@
 // Design: Professional Service Layout
 // This context provides site-specific configuration to all components
+// Fixed: 2026-03-05 - Corrected import path for siteConfig
 
 import React, { createContext, useContext, ReactNode } from 'react';
 import { SiteConfig, getCurrentSiteConfig } from '../../../shared/siteConfig';

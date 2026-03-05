@@ -250,13 +250,10 @@ export default defineConfig({
             'framer-motion',
           ],
         },
-        // Nommage optimisé des chunks - force new hash with timestamp
-        chunkFileNames: (chunkInfo) => {
-          const hash = `${chunkInfo.name}-${Date.now()}-[hash]`;
-          return `assets/${hash}.js`;
-        },
-        entryFileNames: `assets/[name]-${Date.now()}-[hash].js`,
-        assetFileNames: `assets/[name]-${Date.now()}-[hash].[ext]`,
+        // Nommage optimisé des chunks
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
       },
     },
     // Optimisation des assets
