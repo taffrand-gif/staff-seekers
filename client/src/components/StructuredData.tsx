@@ -17,11 +17,15 @@ export default function StructuredData() {
 
     const businessType = 'Electrician';
     const serviceName = 'Eletricista';
-    
+
+    // Ne pas ajouter FAQPage sur les pages ville (CityServicePage a déjà son propre FAQPage)
+    const isCityServicePage = location.match(/\/(eletricista|canalizador)-[a-z-]+$/);
+    const shouldIncludeFAQ = !isCityServicePage;
+
     // Liste des 10 villes servies
     const citiesServed = [
-      "Bragança", "Macedo de Cavaleiros", "Mirandela", "Chaves", 
-      "Vila Real", "Vinhais", "Miranda do Douro", "Mogadouro", 
+      "Bragança", "Macedo de Cavaleiros", "Mirandela", "Chaves",
+      "Vila Real", "Vinhais", "Miranda do Douro", "Mogadouro",
       "Torre de Moncorvo", "Freixo de Espada à Cinta", "Valpaços", "Alfândega da Fé"
     ];
 
@@ -443,10 +447,14 @@ export default function StructuredData() {
       serviceSchema,
       websiteSchema,
       organizationSchema,
-      faqSchema,
       breadcrumbSchema,
       ...reviewsSchema
     ];
+
+    // Ajouter FAQPage seulement si pas sur une page ville (éviter duplication)
+    if (shouldIncludeFAQ) {
+      schemas.push(faqSchema);
+    }
 
     // Ajouter le schema spécifique à la ville si applicable
     const cityServiceSchema = getCityServiceSchema();
