@@ -100,14 +100,13 @@ export default function CalculadorPreco() {
             {examples.map((example, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-100 hover:border-current"
-                style={{ '--hover-color': accentColor } as React.CSSProperties}
+                className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-100"
               >
                 <div className="flex items-center gap-3">
                   <span className="text-3xl">{example.icon}</span>
                   <div className="flex-1">
-                    <p className="text-gray-700 font-medium">{example.label}</p>
-                    <p className="text-xl font-bold" style={{ color: accentColor }}>
+                    <p className="text-gray-900 font-medium">{example.label}</p>
+                    <p className="text-xl font-bold text-gray-900">
                       {example.price}
                     </p>
                   </div>
@@ -165,8 +164,9 @@ export default function CalculadorPreco() {
                 style={{
                   borderColor: !isUrgent ? accentColor : '#e5e7eb',
                   backgroundColor: !isUrgent ? `${accentColor}15` : 'white',
-                  color: !isUrgent ? accentColor : '#6b7280',
+                  color: !isUrgent ? '#1f2937' : '#6b7280',
                 }}
+                aria-pressed={!isUrgent}
               >
                 Não
               </button>
@@ -176,8 +176,9 @@ export default function CalculadorPreco() {
                 style={{
                   borderColor: isUrgent ? '#dc2626' : '#e5e7eb',
                   backgroundColor: isUrgent ? '#fef2f2' : 'white',
-                  color: isUrgent ? '#dc2626' : '#6b7280',
+                  color: isUrgent ? '#1f2937' : '#6b7280',
                 }}
+                aria-pressed={isUrgent}
               >
                 Sim (+50%)
               </button>

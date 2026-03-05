@@ -53,7 +53,7 @@ function AnimatedCounter({ end, duration = 2000, suffix = '', prefix = '' }: Cou
   }, [isVisible, end, duration]);
 
   return (
-    <div ref={ref} className="text-5xl md:text-6xl font-black">
+    <div ref={ref} className="text-5xl md:text-6xl font-black" style={{ color: 'inherit' }}>
       {prefix}{count}{suffix}
     </div>
   );
