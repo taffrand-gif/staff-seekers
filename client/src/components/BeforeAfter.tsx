@@ -66,9 +66,9 @@ function BeforeAfter() {
       beforeEmoji: '📄',
       afterEmoji: '✅',
     },
-  ];
+  ], []);
 
-  const currentCase = cases[activeCase], []);
+  const currentCase = cases[activeCase];
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">

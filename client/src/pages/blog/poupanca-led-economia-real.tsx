@@ -351,11 +351,11 @@ export default function PoupancaLedEconomiaReal() {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 mr-2">✓</span>
-                <span><strong>IRC >80:</strong> Índice reprodução cromática (cores naturais)</span>
+                <span><strong>IRC {'>'}80:</strong> Índice reprodução cromática (cores naturais)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 mr-2">✓</span>
-                <span><strong>Vida útil >15.000h:</strong> Mínimo aceitável (20.000-25.000h ideal)</span>
+                <span><strong>Vida útil {'>'}15.000h:</strong> Mínimo aceitável (20.000-25.000h ideal)</span>
               </li>
             </ul>
           </div>

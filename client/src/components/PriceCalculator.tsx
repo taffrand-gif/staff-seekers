@@ -6,7 +6,7 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Calculator, Phone } from 'lucide-react';
-import { useState, memo } { useState, memo, useCallback } from 'react';
+import { useState, memo, useCallback } from 'react';
 import { Button } from './ui/button';
 import {
   Select,
