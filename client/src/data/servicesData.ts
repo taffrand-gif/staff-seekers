@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
 
 **Remodelação Parcial**: Quarto 400€, Cozinha 600€, Casa de banho 500€, Sala 500€.
 
-**Serviços Avulsos**: Quadro elétrico 300€, Tomada/interruptor 25€, Ponto de luz 35€, Ligação máquina lavar 80€, Portão automático 250€.
+**Serviços Avulsos**: Quadro elétrico 370-650€ (12 módulos), Tomada nova 138-182€, Tomada substituição 66-90€, Interruptor 58-78€, Ponto de luz 60-85€, Ligação máquina lavar 110-145€, Portão automático 280-420€.
 
 **Todos os preços incluem**: Materiais certificados, mão de obra, certificação CERTIEL, garantia 5 anos. Deslocação gratuita em Bragança e arredores.`
         }
@@ -98,7 +98,7 @@ export const SERVICES: Service[] = [
     subtitle: 'Diagnóstico Rápido e Reparação Profissional',
     description: 'Reparação de curto-circuitos, disjuntores que saltam, tomadas que não funcionam, quadros elétricos com problemas. Diagnóstico com equipamento profissional.',
     icon: '🔧',
-    price: 'Desde 60€',
+    price: 'Desde 80€',
     priceDetails: 'Diagnóstico incluído',
     image: '/images-optimized/services/service-urgencia.jpg',
     content: {
@@ -132,7 +132,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
         },
         {
           title: 'Reparações Típicas',
-          content: `**Substituição disjuntor**: 60€ (inclui disjuntor). **Reparação tomada queimada**: 40€. **Substituição cabo danificado**: 80€ (até 10m). **Reparação curto-circuito**: 100€. **Substituição quadro elétrico**: 250€. **Ligação terra**: 150€.
+          content: `**Substituição disjuntor**: 75-95€ (inclui disjuntor). **Reparação tomada queimada**: 58-78€. **Substituição cabo danificado**: 110-160€ (até 10m). **Reparação curto-circuito**: 150-210€. **Substituição quadro elétrico**: 370-650€ (12 módulos). **Ligação terra**: 180-250€.
 
 **Urgências 24h**: Acréscimo 50€ (noturno/fins de semana). Chegamos em 15-90 minutos conforme localização.
 
@@ -143,7 +143,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     },
     seo: {
       metaTitle: 'Reparação Avarias Elétricas Bragança | Urgências 24h | Eletricista Profissional',
-      metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 60€. Ligue 932 321 892!',
+      metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 80€. Ligue 932 321 892!',
       keywords: ['reparação avaria elétrica', 'eletricista urgência bragança', 'disjuntor salta', 'curto-circuito']
     }
   },
@@ -156,7 +156,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
     subtitle: 'Instalação e Modernização de Quadros Elétricos',
     description: 'Quadros elétricos novos, substituição de quadros antigos, ampliação, disjuntores, diferencial. Conformes RTIEBT.',
     icon: '📊',
-    price: 'Desde 250€',
+    price: 'Desde 370€',
     priceDetails: 'Inclui materiais certificados',
     image: '/images-optimized/services/service-quadro-eletrico.jpg',
     content: {
@@ -172,14 +172,14 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
         },
         {
           title: 'Preços',
-          content: `Monofásico básico 250€, Monofásico completo 400€, Trifásico 600€, Ampliação (adicionar circuitos) 150€. Inclui materiais, instalação, certificação, garantia 5 anos.`
+          content: `Monofásico básico 370€, Monofásico completo 12 módulos 370-650€, Trifásico 800-1200€, Ampliação (adicionar circuitos) 110-160€. Inclui materiais, instalação, certificação, garantia 5 anos.`
         }
       ],
       cta: 'Quadro elétrico antigo? **Ligue 932 321 892** para modernizar!'
     },
     seo: {
       metaTitle: 'Quadros Elétricos Bragança | Modernização | Eletricista Profissional',
-      metaDescription: 'Quadros elétricos novos e modernização em Bragança. Monofásicos, trifásicos. Certificação CERTIEL. Desde 250€. Ligue 932 321 892!',
+      metaDescription: 'Quadros elétricos novos e modernização em Bragança. Monofásicos, trifásicos. Certificação CERTIEL. Desde 370€. Ligue 932 321 892!',
       keywords: ['quadro elétrico bragança', 'modernização quadro', 'disjuntores', 'diferencial']
     }
   },
@@ -207,7 +207,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
         },
         {
           title: 'Preços e Poupança',
-          content: `Substituição lâmpada 25€, Spot LED embutido 35€, Fita LED (por metro) 15€, Projetor LED exterior 80€. **Exemplo poupança**: Casa T3 (20 lâmpadas) gasta 600€/ano. Com LED: 120€/ano. Poupança: 480€/ano! Investimento recuperado em 18 meses.`
+          content: `Substituição lâmpada 45-65€, Spot LED embutido 60-85€, Fita LED (por metro) 25-35€, Projetor LED exterior 120-180€. **Exemplo poupança**: Casa T3 (20 lâmpadas) gasta 600€/ano. Com LED: 120€/ano. Poupança: 480€/ano! Investimento recuperado em 18 meses.`
         }
       ],
       cta: 'Quer poupar na fatura? **Ligue 932 321 892** para orçamento LED!'
