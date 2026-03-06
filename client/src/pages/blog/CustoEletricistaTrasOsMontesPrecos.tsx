@@ -247,14 +247,14 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                   <tbody>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-semibold">Vila Real cidade</td>
-                      <td className="py-3 px-4">35-45€</td>
-                      <td className="py-3 px-4">55-70€</td>
+                      <td className="py-3 px-4">70€</td>
+                      <td className="py-3 px-4">105€</td>
                       <td className="py-3 px-4">Até 15km</td>
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-semibold">Bragança cidade</td>
-                      <td className="py-3 px-4">40-50€</td>
-                      <td className="py-3 px-4">60-80€</td>
+                      <td className="py-3 px-4">70€</td>
+                      <td className="py-3 px-4">105€</td>
                       <td className="py-3 px-4">Até 20km</td>
                     </tr>
                     <tr className="border-b border-gray-200">
@@ -304,22 +304,22 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
                     <td className="py-4 px-6 font-semibold">Quadro elétrico completo</td>
                     <td className="py-4 px-6">1</td>
-                    <td className="py-4 px-6">450-750€</td>
-                    <td className="py-4 px-6">450-750€</td>
+                    <td className="py-4 px-6">370-650€</td>
+                    <td className="py-4 px-6">370-650€</td>
                     <td className="py-4 px-6">Inclui diferencial, magnetotérmicos</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
                     <td className="py-4 px-6 font-semibold">Pontos de luz</td>
                     <td className="py-4 px-6">25-30</td>
-                    <td className="py-4 px-6">45-70€</td>
-                    <td className="py-4 px-6">1.125-2.100€</td>
+                    <td className="py-4 px-6">60-85€</td>
+                    <td className="py-4 px-6">1.500-2.550€</td>
                     <td className="py-4 px-6">Depende do tipo de luminária</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
                     <td className="py-4 px-6 font-semibold">Tomadas</td>
                     <td className="py-4 px-6">35-40</td>
-                    <td className="py-4 px-6">35-55€</td>
-                    <td className="py-4 px-6">1.225-2.200€</td>
+                    <td className="py-4 px-6">66-90€</td>
+                    <td className="py-4 px-6">2.310-3.600€</td>
                     <td className="py-4 px-6">Inclui tomadas USB, TV, internet</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
@@ -332,8 +332,8 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                   <tr className="hover:bg-amber-50">
                     <td className="py-4 px-6 font-semibold">Mão-de-obra total</td>
                     <td className="py-4 px-6">80-120h</td>
-                    <td className="py-4 px-6">40-60€/h</td>
-                    <td className="py-4 px-6">3.200-7.200€</td>
+                    <td className="py-4 px-6">70€/h</td>
+                    <td className="py-4 px-6">5.600-8.400€</td>
                     <td className="py-4 px-6">Depende da complexidade</td>
                   </tr>
                   <tr className="bg-amber-50 font-bold">
