@@ -2,6 +2,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
 import { lazy, Suspense } from "react";
+import { HelmetProvider } from "react-helmet-async";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
@@ -178,27 +179,29 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider defaultTheme="light">
-        <SiteProvider>
-          <LocationProvider>
-            <TooltipProvider>
-              <SkipLink />
-              <Toaster />
-              <StructuredData />
-              <UrgencyIndicator />
-              <Suspense fallback={null}>
-                <ExitIntentPopup />
-                <QuoteCalculator />
-                <LocationDetector />
-              </Suspense>
-              <Router />
-              <FloatingCTA />
-              <SocialProofTicker />
-              <MobileStickyBar />
-            </TooltipProvider>
-          </LocationProvider>
-        </SiteProvider>
-      </ThemeProvider>
+      <HelmetProvider>
+        <ThemeProvider defaultTheme="light">
+          <SiteProvider>
+            <LocationProvider>
+              <TooltipProvider>
+                <SkipLink />
+                <Toaster />
+                <StructuredData />
+                <UrgencyIndicator />
+                <Suspense fallback={null}>
+                  <ExitIntentPopup />
+                  <QuoteCalculator />
+                  <LocationDetector />
+                </Suspense>
+                <Router />
+                <FloatingCTA />
+                <SocialProofTicker />
+                <MobileStickyBar />
+              </TooltipProvider>
+            </LocationProvider>
+          </SiteProvider>
+        </ThemeProvider>
+      </HelmetProvider>
     </ErrorBoundary>
   );
 }
