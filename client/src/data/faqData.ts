@@ -9,7 +9,7 @@ export interface FAQItem {
 export const electricFaqs: FAQItem[] = [
   {
     question: "Quanto custa um eletricista em Trás-os-Montes?",
-    answer: "Os preços variam conforme o serviço: instalação de tomada a partir de 35€, reparação de avaria elétrica a partir de 60€, quadro elétrico novo a partir de 450€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
+    answer: "Os preços variam conforme o serviço: diagnóstico 80-120€, instalação de tomada nova 138-182€, substituição tomada 66-90€, reparação curto-circuito 150-210€, quadro elétrico 12 módulos 370-650€. Oferecemos preço fixo confirmado por telefone. Contacte-nos para orçamento sem compromisso."
   },
   {
     question: "Como funciona o orçamento gratuito?",
