@@ -147,7 +147,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
                 <span className="font-bold text-gray-900">Zone 6</span>
                 <span className="text-2xl font-black text-purple-600">65€</span>
               </div>
-              <p className="text-sm text-gray-600">> 120 km</p>
+              <p className="text-sm text-gray-600">&gt; 120 km</p>
               <p className="text-xs text-gray-500 mt-2">Chaves, Montalegre</p>
             </div>
           </div>
