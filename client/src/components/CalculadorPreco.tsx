@@ -39,8 +39,8 @@ const examplesPlumb = [
 ];
 
 const examplesElec = [
-  { icon: '🔌', label: 'Instalação de tomada', price: '25-45€' },
-  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '80-150€' },
+  { icon: '🔌', label: 'Instalação de tomada', price: '138-182€' },
+  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '110-160€' },
   { icon: '💡', label: 'Instalação de candeeiro', price: '35-60€' },
   { icon: '📋', label: 'Certificação elétrica', price: '150-300€' },
 ];

@@ -47,7 +47,7 @@ function FAQLocal() {
     },
     {
       question: 'Quanto custa um eletricista em Bragança?',
-      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (40-55€), reparação de curto-circuito (70-120€), substituição de quadro elétrico (250-450€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
+      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (80-120€), reparação urgente (150-210€), substituição de quadro elétrico 12 módulos (370-650€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
     },
     {
       question: 'Fazem certificação CERTIEL em Macedo de Cavaleiros?',
@@ -59,7 +59,7 @@ function FAQLocal() {
     },
     {
       question: 'Instalam quadros elétricos em Vila Flor e Torre de Moncorvo?',
-      answer: 'Sim, fazemos substituição e modernização de quadros elétricos em Vila Flor, Torre de Moncorvo e todas as localidades do distrito de Bragança. Preço: 250-450€ (sem IVA). Inclui quadro novo, disjuntores diferenciais, instalação completa e certificação.',
+      answer: 'Sim, fazemos substituição e modernização de quadros elétricos em Vila Flor, Torre de Moncorvo e todas as localidades do distrito de Bragança. Preço: 370-650€ para quadro 12 módulos (sem IVA). Inclui quadro novo, disjuntores diferenciais, instalação completa e certificação.',
     },
     {
       question: 'Qual o eletricista mais perto de Mogadouro?',
