@@ -30,6 +30,10 @@ const PriceTransparency = lazy(() => import('@/components/PriceTransparency'));
 const GuaranteeSection = lazy(() => import('@/components/GuaranteeSection'));
 const TrustBadges = lazy(() => import('@/components/TrustBadges'));
 
+// Phase 3 - Marketing Hooks (Stratégie Mars 2026)
+const TransparenciaTotal = lazy(() => import('@/components/TransparenciaTotal'));
+const EquipamentoProfissional = lazy(() => import('@/components/EquipamentoProfissional'));
+
 export default function Home() {
   const { config } = useSite();
 
@@ -66,6 +70,10 @@ export default function Home() {
 
           {/* 1. HERO PREMIUM - CTA Direct */}
           <Hero />
+
+          {/* PHASE 3 - HOOKS MARKETING (Mars 2026) */}
+          <Suspense fallback={null}><EquipamentoProfissional /></Suspense>
+          <Suspense fallback={null}><TransparenciaTotal /></Suspense>
 
           {/* PHASE 2 - TRANSPARENCE PRIX */}
           <Suspense fallback={null}><PriceCalculatorWidget /></Suspense>
