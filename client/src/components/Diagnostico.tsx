@@ -172,7 +172,7 @@ export default function Diagnostico() {
                       ⏱️ Chegada estimada: <strong>{selectedCity.time}</strong>
                     </p>
                     <p className="text-gray-600">
-                      💰 Deslocação: <strong>{selectedCity.price}€</strong> + mão de obra (35-80€)
+                      💰 Deslocação: <strong>{selectedCity.price}€</strong> + mão de obra (70€/h)
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
