@@ -76,7 +76,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
                   </div>
                   <div className="bg-white rounded-lg p-4">
                     <p className="text-sm text-gray-600 mb-1">Déplacement supplémentaire</p>
-                    <p className="text-2xl font-bold text-indigo-600">+22.50€</p>
+                    <p className="text-2xl font-bold text-indigo-600">+50%</p>
                   </div>
                 </div>
               </div>
