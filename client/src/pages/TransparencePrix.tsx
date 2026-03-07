@@ -86,10 +86,10 @@ export default function TransparencePrix() {
 
   // Taux horaire et majorations
   const tauxHoraire = {
-    base: "50€/hora",
-    weekend: "Sem majoração",
-    urgent: "+30€ (urgência 24h)",
-    deplacement: "15€ - 30€ (conforme zona)"
+    base: "70€/hora",
+    weekend: "90€/hora (sábados) | 100€/hora (domingos)",
+    urgent: "+50% (noite/feriados)",
+    deplacement: "15€ - 65€ (conforme zona)"
   };
 
   // FAQ Prix
@@ -253,27 +253,27 @@ export default function TransparencePrix() {
 
                 <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <Clock className="w-8 h-8 text-green-600" />
+                    <Clock className="w-8 h-8 text-orange-600" />
                     <div>
                       <div className="text-sm text-gray-600">Fins de Semana</div>
-                      <div className="text-3xl font-black text-gray-900">{tauxHoraire.weekend}</div>
+                      <div className="text-2xl font-black text-gray-900">{tauxHoraire.weekend}</div>
                     </div>
                   </div>
                   <p className="text-sm text-gray-600">
-                    Não cobramos mais aos fins de semana. O preço é o mesmo.
+                    Sábados 90€/h, Domingos/Feriados 100€/h. Mínimo 30 minutos.
                   </p>
                 </div>
 
                 <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
                   <div className="flex items-center gap-3 mb-4">
-                    <Zap className="w-8 h-8 text-orange-600" />
+                    <Zap className="w-8 h-8 text-red-600" />
                     <div>
-                      <div className="text-sm text-gray-600">Urgência 24h</div>
+                      <div className="text-sm text-gray-600">Majoração Noturna</div>
                       <div className="text-3xl font-black text-gray-900">{tauxHoraire.urgent}</div>
                     </div>
                   </div>
                   <p className="text-sm text-gray-600">
-                    Chegada em 40 minutos. Disponível 24/7 incluindo feriados.
+                    Noite (18h-08h) e feriados: +50% sobre tarifa base. Fração mínima 1h.
                   </p>
                 </div>
 
