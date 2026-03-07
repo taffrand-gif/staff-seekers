@@ -108,6 +108,56 @@ function Footer() {
           </div>
         </div>
 
+        {/* Certificações e Garantias */}
+        <div className="pt-8 border-t-2 border-white/20">
+          <div className="text-center mb-6">
+            <h4 className="text-lg font-bold mb-4">🏆 Certificações e Garantias</h4>
+            <div className="flex flex-wrap justify-center gap-6 items-center">
+              {/* Badge DGEG */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">⚡</div>
+                <div className="text-sm font-bold">Certificação DGEG</div>
+                <div className="text-xs text-gray-300">Instalações Legais</div>
+              </div>
+
+              {/* Badge CERTIEL */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">📋</div>
+                <div className="text-sm font-bold">CERTIEL</div>
+                <div className="text-xs text-gray-300">Certificação Oficial</div>
+              </div>
+
+              {/* Badge Isenção IVA */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">📄</div>
+                <div className="text-sm font-bold">Isenção IVA</div>
+                <div className="text-xs text-gray-300">Art.º 53.º CIVA</div>
+              </div>
+
+              {/* Badge Garantia */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">🛡️</div>
+                <div className="text-sm font-bold">Garantia Escrita</div>
+                <div className="text-xs text-gray-300">6 meses mão de obra</div>
+              </div>
+
+              {/* Badge Preços Transparentes */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">💰</div>
+                <div className="text-sm font-bold">Preços Públicos</div>
+                <div className="text-xs text-gray-300">100% Transparente</div>
+              </div>
+
+              {/* Badge Equipamento PRO */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
+                <div className="text-2xl mb-2">🔧</div>
+                <div className="text-sm font-bold">Equipamento PRO</div>
+                <div className="text-xs text-gray-300">€10.000+ investido</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Copyright */}
         <div className="pt-8 border-t-2 border-white/20 text-center text-gray-100 text-sm">
           © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
