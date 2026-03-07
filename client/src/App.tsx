@@ -80,6 +80,7 @@ const CarregadorVeiculoEletrico = lazy(() => import("@/pages/blog/CarregadorVeic
 const PoupancaEnergiaInverno = lazy(() => import("@/pages/blog/PoupancaEnergiaInverno"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
+const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 const Tarifas = lazy(() => import("@/pages/Tarifas"));
@@ -162,6 +163,8 @@ function Router() {
         <Route path={"/certificacao-certiel"} component={ServiceHub} />
         <Route path={"/iluminacao"} component={ServiceHub} />
         <Route path={"/avarias-urgentes"} component={ServiceHub} />
+        {/* Dynamic freguesia pages (498 pages) */}
+        <Route path={"/:service-:freguesia-:parentCity"} component={FreguesiasPage} />
         {/* Dynamic city-service pages (100+ pages) */}
         <Route path={"/:service-:city"} component={CityServicePage} />
         {/* Final fallback route */}
