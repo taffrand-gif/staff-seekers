@@ -13,11 +13,11 @@ const zones = [
 ];
 
 const servicesElec = [
-  { label: 'Tomada / Interruptor', min: 30, max: 45 },
-  { label: 'Avaria / Diagnóstico', min: 50, max: 80 },
-  { label: 'Substituição Quadro Elétrico', min: 150, max: 350 },
-  { label: 'Certificação CERTIEL', min: 80, max: 200 },
-  { label: 'Instalação Completa', min: 200, max: 500 },
+  { label: 'Tomada / Interruptor', min: 35, max: 70 },
+  { label: 'Avaria / Diagnóstico', min: 70, max: 140 },
+  { label: 'Substituição Quadro Elétrico', min: 210, max: 420 },
+  { label: 'Certificação CERTIEL', min: 140, max: 280 },
+  { label: 'Instalação Completa', min: 280, max: 700 },
 ];
 
 const servicesPlumb = [
@@ -40,10 +40,10 @@ const examplesPlumb = [
 ];
 
 const examplesElec = [
-  { icon: '🔌', label: 'Instalação de tomada', price: '25-45€' },
-  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '80-150€' },
-  { icon: '💡', label: 'Instalação de candeeiro', price: '35-60€' },
-  { icon: '📋', label: 'Certificação elétrica', price: '150-300€' },
+  { icon: '🔌', label: 'Instalação de tomada', price: '50-90€' },
+  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '105-210€' },
+  { icon: '💡', label: 'Instalação de candeeiro', price: '50-105€' },
+  { icon: '📋', label: 'Certificação elétrica', price: '210-420€' },
 ];
 
 function CalculadorPreco() {
