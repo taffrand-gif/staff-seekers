@@ -74,7 +74,7 @@ export default function VilaReal() {
   const faqs = [
     {
       question: "Qual o custo de deslocação a Vila Real?",
-      answer: "A deslocação a Vila Real é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem urgências 24 horas em Vila Real?",

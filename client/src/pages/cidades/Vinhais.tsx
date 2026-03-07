@@ -56,7 +56,7 @@ export default function Vinhais() {
     },
     {
       question: "Qual o custo de deslocação a Vinhais?",
-      answer: "A deslocação a Vinhais é de 25€. Chegamos em aproximadamente 55-60 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 55-60 minutos. Inclui todo o concelho."
     },
     {
       question: "Trabalham no Parque Natural de Montesinho?",

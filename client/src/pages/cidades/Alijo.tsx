@@ -59,7 +59,7 @@ export default function Alijo() {
     },
     {
       question: "Qual o custo de deslocação a Alijó?",
-      answer: "A deslocação a Alijó é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
     }];
 
   return (

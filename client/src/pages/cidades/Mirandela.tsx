@@ -83,7 +83,7 @@ export default function Mirandela() {
   const faqs = [
     {
       question: "Qual o custo de deslocação a Mirandela?",
-      answer: "A deslocação a Mirandela é de 20€. Chegamos em aproximadamente 30-35 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 25€ (Zona 2). Chegamos em aproximadamente 30-35 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem urgências 24 horas em Mirandela?",

@@ -59,7 +59,7 @@ export default function Sabrosa() {
     },
     {
       question: "Qual o custo de deslocação a Sabrosa?",
-      answer: "A deslocação a Sabrosa é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
     }];
 
   return (

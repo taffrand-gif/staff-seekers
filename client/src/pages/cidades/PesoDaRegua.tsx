@@ -59,7 +59,7 @@ export default function PesoDaRegua() {
     },
     {
       question: "Qual o custo de deslocação a Peso da Régua?",
-      answer: "A deslocação a Peso da Régua é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
     }];
 
   return (

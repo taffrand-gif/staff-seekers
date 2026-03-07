@@ -59,7 +59,7 @@ export default function Murca() {
     },
     {
       question: "Qual o custo de deslocação a Murça?",
-      answer: "A deslocação a Murça é de 30€. Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
     }];
 
   return (

@@ -59,7 +59,7 @@ export default function SaoJoaoDaPesqueira() {
     },
     {
       question: "Qual o custo de deslocação a São João da Pesqueira?",
-      answer: "A deslocação a São João da Pesqueira é de 30€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
     }];
 
   return (

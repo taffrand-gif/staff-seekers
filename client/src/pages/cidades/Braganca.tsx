@@ -74,7 +74,7 @@ export default function Braganca() {
   const faqs = [
     {
       question: "Qual o custo de deslocação a Bragança?",
-      answer: "A deslocação a Bragança é de 25€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente 40 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem urgências 24 horas em Bragança?",

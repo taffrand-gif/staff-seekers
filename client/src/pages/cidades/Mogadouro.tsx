@@ -53,7 +53,7 @@ export default function Mogadouro() {
     { question: "Quanto tempo demora a chegar a Mogadouro?", answer: "Chegamos a Mogadouro em aproximadamente 50-60 minutos a partir de Macedo de Cavaleiros." },
     {
       question: "Qual o custo de deslocação a Mogadouro?",
-      answer: "A deslocação a Mogadouro é de 25€. Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
     },
     { question: "Fazem instalações para explorações agrícolas?", answer: "Sim, temos experiência em instalações elétricas para lagares de azeite, adegas e explorações agrícolas." }
   ];

@@ -59,7 +59,7 @@ export default function Vimioso() {
     },
     {
       question: "Qual o custo de deslocação a Vimioso?",
-      answer: "A deslocação a Vimioso é de 25€. Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
     }];
 
   return (

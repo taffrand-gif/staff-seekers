@@ -59,7 +59,7 @@ export default function VilaNovaFozCoa() {
     },
     {
       question: "Qual o custo de deslocação a Vila Nova de Foz Côa?",
-      answer: "A deslocação a Vila Nova de Foz Côa é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6). Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
     }];
 
   return (

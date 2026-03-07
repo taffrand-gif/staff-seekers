@@ -59,7 +59,7 @@ export default function Sernancelhe() {
     },
     {
       question: "Qual o custo de deslocação a Sernancelhe?",
-      answer: "A deslocação a Sernancelhe é de 40€, sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
     }];
 
   return (

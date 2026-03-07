@@ -59,7 +59,7 @@ export default function Lamego() {
     },
     {
       question: "Qual o custo de deslocação a Lamego?",
-      answer: "A deslocação a Lamego é de 35€. Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
     }];
 
   return (
