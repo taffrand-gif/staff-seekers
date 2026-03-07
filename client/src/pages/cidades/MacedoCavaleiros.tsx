@@ -4,11 +4,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function MacedoCavaleiros() {
   const { config } = useSite();
@@ -64,11 +67,32 @@ export default function MacedoCavaleiros() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-macedo');
       if (existingSchema) existingSchema.remove();
+      document.head.removeChild(faqSchema);
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('macedo-cavaleiros');
 
   const faqs = [
     {
@@ -95,13 +119,18 @@ export default function MacedoCavaleiros() {
       
       <main className="flex-grow">
         {/* Hero Section */}
-        <section 
+        <section
           className="relative py-20 bg-cover bg-center"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images-optimized/hero/hero-electrician-portugal.jpg')`,
           }}
         >
           <div className="container text-center text-white">
+            <Breadcrumbs items={[
+              { label: 'Eletricista', href: '/' },
+              { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+              { label: 'Macedo de Cavaleiros', href: '/eletricista-macedo-cavaleiros' }
+            ]} />
             <span className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">
               ⚡ SEDE EM MACEDO DE CAVALEIROS
             </span>
@@ -250,10 +279,17 @@ export default function MacedoCavaleiros() {
           </div>
         </section>
 
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Macedo de Cavaleiros"
+          cidades={cidadesProximas}
+          serviceType="eletricista"
+        />
+
         {/* Related Cities - Maillage interno SEO */}
-        <RelatedCities 
-          currentCity="Macedo de Cavaleiros" 
-          currentCitySlug="eletricista-macedocavaleiros" 
+        <RelatedCities
+          currentCity="Macedo de Cavaleiros"
+          currentCitySlug="eletricista-macedocavaleiros"
         />
       </main>
 
