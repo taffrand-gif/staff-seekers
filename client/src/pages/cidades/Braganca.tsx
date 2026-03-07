@@ -6,10 +6,13 @@ import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
 import { useEffect } from 'react';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Braganca() {
   const { config } = useSite();
@@ -71,6 +74,25 @@ export default function Braganca() {
       ]
     });
     document.head.appendChild(schemaScript);
+
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
   const faqs = [
     {
       question: "Qual o custo de deslocação a Bragança?",
@@ -86,11 +108,14 @@ export default function Braganca() {
     }
   ];
 
-    
+
     return () => {
       document.head.removeChild(schemaScript);
+      document.head.removeChild(faqSchema);
     };
   }, [config]);
+
+  const cidadesProximas = getCidadesProximas('braganca');
 
   return (
     <>
@@ -104,11 +129,11 @@ export default function Braganca() {
         <section className="bg-gradient-to-r from-amber-600 to-amber-800 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
-              <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
-                <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
-                <span className="ml-2">Bragança</span>
-              </nav>
+              <Breadcrumbs items={[
+                { label: 'Eletricista', href: '/' },
+                { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+                { label: 'Bragança', href: '/eletricista-braganca' }
+              ]} />
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Eletricista Profissional em <span className="text-blue-900">Bragança</span>
@@ -323,8 +348,7 @@ export default function Braganca() {
           </div>
         </section>
 
-        {/* Related Cities - Maillage interno SEO */}
-        
+        {/* FAQ Schema Section */}
         <section className="py-16">
           <div className="container max-w-4xl">
             <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Bragança</h2>
@@ -332,9 +356,17 @@ export default function Braganca() {
           </div>
         </section>
 
-        <RelatedCities 
-          currentCity="Braganca" 
-          currentCitySlug="eletricista-braganca" 
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Bragança"
+          cidades={cidadesProximas}
+          serviceType="eletricista"
+        />
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities
+          currentCity="Braganca"
+          currentCitySlug="eletricista-braganca"
         />
       </main>
       
