@@ -5,11 +5,11 @@ import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useL
 
 const zones = [
   { label: 'Macedo de Cavaleiros (Zona 1)', price: 15 },
-  { label: 'Mirandela / Vila Flor (Zona 2)', price: 20 },
-  { label: 'Bragança / Vinhais (Zona 3)', price: 30 },
-  { label: 'Miranda do Douro (Zona 4)', price: 35 },
-  { label: 'Vila Real / Lamego (Zona 5)', price: 45 },
-  { label: 'Chaves / Montalegre (Zona 6)', price: 50 },
+  { label: 'Mirandela / Vila Flor (Zona 2)', price: 25 },
+  { label: 'Bragança / Vinhais (Zona 3)', price: 35 },
+  { label: 'Miranda do Douro (Zona 4)', price: 45 },
+  { label: 'Vila Real / Lamego (Zona 5)', price: 55 },
+  { label: 'Chaves / Montalegre (Zona 6)', price: 65 },
 ];
 
 const servicesElec = [
