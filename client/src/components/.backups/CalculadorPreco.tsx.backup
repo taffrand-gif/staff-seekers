@@ -15,19 +15,18 @@ const zones = [
 const servicesElec = [
   { label: 'Tomada / Interruptor', min: 30, max: 45 },
   { label: 'Avaria / Diagnóstico', min: 50, max: 80 },
-  { label: 'Substituição Quadro Elétrico', min: 150, max: 350 },
-  { label: 'Certificação CERTIEL', min: 80, max: 200 },
-  { label: 'Instalação Completa', min: 200, max: 500 },
+  { label: 'Modernização Quadro Simples', min: 200, max: 300 },
+  { label: 'Quadro Elétrico Completo', min: 400, max: 600 },
+  { label: 'Certificação CERTIEL', min: 150, max: 200 },
+  { label: 'Instalação de Candeeiro', min: 35, max: 60 },
+  { label: 'Reparação Quadro (dispara)', min: 80, max: 150 },
+  { label: 'Instalação Elétrica Completa', min: 200, max: 500 },
 ];
 
 const servicesPlumb = [
-  { label: 'Reparação de Torneira', min: 60, max: 80 },
-  { label: 'Deteção de Fuga', min: 100, max: 150 },
-  { label: 'Substituição de Cano', min: 150, max: 250 },
   { label: 'Desentupimento Simples', min: 40, max: 60 },
   { label: 'Fuga de Água Visível', min: 60, max: 90 },
   { label: 'Fuga Oculta (deteção + reparação)', min: 120, max: 250 },
-  { label: 'Esquentador (instalação)', min: 200, max: 400 },
   { label: 'Esquentador (reparação)', min: 50, max: 120 },
   { label: 'Casa de Banho Completa', min: 800, max: 1800 },
 ];
@@ -36,7 +35,7 @@ const examplesPlumb = [
   { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
   { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
   { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
-  { icon: '🔍', label: 'Deteção de fuga', price: '150€ (FLIR: 280€)' },
+  { icon: '🔍', label: 'Deteção de fuga', price: '80-150€' },
 ];
 
 const examplesElec = [
@@ -131,14 +130,14 @@ function CalculadorPreco() {
         <div className="bg-gray-50 rounded-2xl shadow-lg p-8">
           {/* Zone */}
           <div className="mb-6">
-            <label htmlFor="calc-zone" className="block text-sm font-bold text-gray-700 mb-2">📍 Onde está?</label>
+            <label htmlFor="zone-select" className="block text-sm font-bold text-gray-700 mb-2">📍 Onde está?</label>
             <select
-              id="calc-zone"
+              id="zone-select"
               value={zoneIdx}
               onChange={e => setZoneIdx(Number(e.target.value))}
               className="w-full p-4 rounded-xl border-2 border-gray-200 focus:outline-none text-lg"
               style={{ borderColor: accentColor }}
-              aria-label="Selecione a sua zona"
+              aria-label="Selecione a sua localização"
             >
               {zones.map((z, i) => (
                 <option key={i} value={i}>{z.label} — {z.price}€</option>
@@ -148,9 +147,9 @@ function CalculadorPreco() {
 
           {/* Service */}
           <div className="mb-6">
-            <label htmlFor="calc-service" className="block text-sm font-bold text-gray-700 mb-2">🔧 Que serviço precisa?</label>
+            <label htmlFor="service-select" className="block text-sm font-bold text-gray-700 mb-2">🔧 Que serviço precisa?</label>
             <select
-              id="calc-service"
+              id="service-select"
               value={serviceIdx}
               onChange={e => setServiceIdx(Number(e.target.value))}
               className="w-full p-4 rounded-xl border-2 border-gray-200 focus:outline-none text-lg"
@@ -232,7 +231,7 @@ function CalculadorPreco() {
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
-              style={{ backgroundColor: '#0D7C66', color: '#ffffff' }}
+              style={{ backgroundColor: '#128C7E', color: '#ffffff' }}
             >
               💬 Confirmar Disponibilidade no WhatsApp
             </a>

@@ -48,7 +48,7 @@ export default function LocationDetector() {
     <>
       {/* Location Banner - shown on first visit */}
       {showBanner && detectedCity && (
-        <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-amber-600 to-amber-700 text-white shadow-lg">
+        <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg">
           <div className="container mx-auto px-4 py-3">
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-3">
@@ -60,20 +60,20 @@ export default function LocationDetector() {
               <div className="flex items-center gap-2">
                 <button
                   onClick={handleConfirmLocation}
-                  className="px-4 py-1.5 bg-white text-amber-600 rounded-lg text-sm font-medium hover:bg-amber-50 transition-colors flex items-center gap-1"
+                  className="px-4 py-1.5 bg-white text-blue-600 rounded-lg text-sm font-medium hover:bg-blue-50 transition-colors flex items-center gap-1"
                 >
                   <Check className="w-4 h-4" />
                   Sim
                 </button>
                 <button
                   onClick={() => setIsOpen(true)}
-                  className="px-4 py-1.5 bg-amber-500 text-white rounded-lg text-sm font-medium hover:bg-amber-400 transition-colors"
+                  className="px-4 py-1.5 bg-blue-700 text-white rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors"
                 >
                   Alterar
                 </button>
                 <button
                   onClick={handleDismissBanner}
-                  className="p-1.5 hover:bg-amber-600 rounded transition-colors"
+                  className="p-1.5 hover:bg-blue-600 rounded transition-colors"
                   aria-label="Fechar"
                 >
                   <X className="w-4 h-4" />
@@ -87,10 +87,10 @@ export default function LocationDetector() {
       {/* Location Badge - always visible */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-24 right-4 md:bottom-6 md:right-6 z-40 bg-white shadow-lg rounded-full px-4 py-2 flex items-center gap-2 hover:shadow-xl transition-shadow border border-gray-200"
+        className="fixed bottom-24 right-4 md:bottom-6 md:right-6 z-40 bg-white shadow-lg rounded-full px-4 py-3 flex items-center gap-2 hover:shadow-xl transition-shadow border border-gray-200 min-h-[48px]"
         aria-label="Alterar localização"
       >
-        <MapPin className="w-4 h-4 text-amber-600" />
+        <MapPin className="w-4 h-4 text-blue-600" />
         <span className="text-sm font-medium text-gray-700">
           {isLoading ? 'A detectar...' : currentCity}
         </span>
@@ -119,7 +119,7 @@ export default function LocationDetector() {
                 placeholder="Pesquisar cidade..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -137,7 +137,7 @@ export default function LocationDetector() {
                       onClick={() => handleSelectCity(city.name)}
                       className={`w-full text-left px-4 py-3 rounded-lg transition-colors ${
                         currentCity === city.name
-                          ? 'bg-amber-50 text-amber-700 font-medium'
+                          ? 'bg-blue-50 text-blue-700 font-medium'
                           : 'hover:bg-gray-50 text-gray-700'
                       }`}
                     >
@@ -151,7 +151,7 @@ export default function LocationDetector() {
                           )}
                         </div>
                         {currentCity === city.name && (
-                          <Check className="w-5 h-5 text-amber-600" />
+                          <Check className="w-5 h-5 text-blue-600" />
                         )}
                       </div>
                     </button>

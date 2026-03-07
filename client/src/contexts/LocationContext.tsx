@@ -81,59 +81,8 @@ export function LocationProvider({ children }: { children: ReactNode }) {
     setIsLoading(true);
     setError(null);
 
-    // Try GPS first
-    if ('geolocation' in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          try {
-            const { latitude, longitude } = position.coords;
-            const response = await fetch(
-              `https://nominatim.openstreetmap.org/reverse?` +
-              `lat=${latitude}&lon=${longitude}&format=json&accept-language=pt`,
-              {
-                headers: {
-                  'User-Agent': 'Staff-Seekers/1.0'
-                }
-              }
-            );
-
-            if (!response.ok) throw new Error('Geocoding failed');
-
-            const data = await response.json();
-            const cityName = data.address?.city ||
-                           data.address?.town ||
-                           data.address?.village ||
-                           data.address?.municipality;
-
-            if (cityName) {
-              const matchedCity = findMatchingCity(cityName);
-              if (matchedCity) {
-                setDetectedCity(matchedCity);
-                cacheLocation(matchedCity);
-                setIsLoading(false);
-                return;
-              }
-            }
-
-            // Fallback to IP
-            await detectByIP();
-          } catch (err) {
-            await detectByIP();
-          }
-        },
-        async () => {
-          // GPS denied, fallback to IP
-          await detectByIP();
-        },
-        {
-          timeout: 10000,
-          maximumAge: 3600000,
-          enableHighAccuracy: false
-        }
-      );
-    } else {
-      await detectByIP();
-    }
+    // Use IP-based detection only (no GPS popup)
+    await detectByIP();
   };
 
   const detectByIP = async () => {
