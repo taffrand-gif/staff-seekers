@@ -1,9 +1,12 @@
 // SEO optimized page for "Eletricista Freixo de Espada à Cinta"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 import { useEffect } from 'react';
 import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
@@ -41,11 +44,31 @@ export default function FreixoEspadaCinta() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-freixo');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('freixo-espada-cinta');
 
   const faqs = [
     { question: "Chegam a Freixo de Espada à Cinta?", answer: "Sim, cobrimos todo o concelho de Freixo de Espada à Cinta. Tempo de chegada: 60-70 minutos." },
@@ -100,6 +123,14 @@ export default function FreixoEspadaCinta() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Freixo de Espada à Cinta"
+          cidades={cidadesProximas}
+          serviceType="eletricista"
+        />
+
+        
         <RelatedCities 
           currentCity="Freixo de Espada à Cinta" 
           currentCitySlug="eletricista-freixoespadacinta" 

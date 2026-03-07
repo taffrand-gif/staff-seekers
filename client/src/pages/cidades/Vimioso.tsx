@@ -1,8 +1,11 @@
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 import { useEffect } from 'react';
 import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
@@ -42,11 +45,31 @@ export default function Vimioso() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-vimioso');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('vimioso');
 
   const faqs = [
     {
@@ -120,6 +143,14 @@ export default function Vimioso() {
             </a>
           </div>
         </section>
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Vimioso"
+          cidades={cidadesProximas}
+          serviceType="eletricista"
+        />
+
+        
 
         <RelatedCities currentCity="Vimioso" currentCitySlug="eletricista-vimioso" />
       </main>

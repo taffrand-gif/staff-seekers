@@ -2,12 +2,15 @@
 // 100% unique content, conforme aux politiques Google
 
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/../../shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 
@@ -71,6 +74,24 @@ export default function VilaReal() {
       ]
     });
     document.head.appendChild(schemaScript);
+
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
   const faqs = [
     {
       question: "Qual o custo de deslocação a Vila Real?",
@@ -89,8 +110,11 @@ export default function VilaReal() {
     
     return () => {
       document.head.removeChild(schemaScript);
+      document.head.removeChild(faqSchema);
     };
   }, [config]);
+
+  const cidadesProximas = getCidadesProximas('vila-real');
 
   return (
     <>
@@ -104,13 +128,12 @@ export default function VilaReal() {
         <section className="bg-gradient-to-r from-amber-600 to-amber-800 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
-              <nav className="mb-6 text-amber-200">
-                <a href="/" className="hover:text-white">Eletricista Profissional</a> &gt; 
-                <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
-                <span className="ml-2">Vila Real</span>
-              </nav>
-              
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                            <Breadcrumbs items={[
+                { label: 'Eletricista', href: '/' },
+                { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+                { label: 'Vila Real', href: '/eletricista-vila-real' }
+              ]} />
+<h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Eletricista Profissional em <span className="text-blue-900">Vila Real</span>
               </h1>
               
@@ -309,6 +332,14 @@ export default function VilaReal() {
             <FAQSection faqs={faqs} />
           </div>
         </section>
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Vila Real"
+          cidades={cidadesProximas}
+          serviceType="eletricista"
+        />
+
+        
 
         <RelatedCities 
           currentCity="Vila Real" 
