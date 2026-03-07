@@ -40,10 +40,10 @@ const examplesPlumb = [
 ];
 
 const examplesElec = [
-  { icon: '🔌', label: 'Instalação de tomada', price: '50-90€' },
+  { icon: '🔌', label: 'Instalação de tomada', price: '50-105€' },
   { icon: '⚡', label: 'Reparação de quadro elétrico', price: '105-210€' },
   { icon: '💡', label: 'Instalação de candeeiro', price: '50-105€' },
-  { icon: '📋', label: 'Certificação elétrica', price: '210-420€' },
+  { icon: '📋', label: 'Certificação elétrica', price: '150-350€' },
 ];
 
 function CalculadorPreco() {

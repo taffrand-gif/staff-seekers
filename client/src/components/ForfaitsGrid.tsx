@@ -23,19 +23,19 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🔌',
       title: 'Installation Prise/Interrupteur',
       description: 'Ajout ou remplacement de prise ou interrupteur',
-      priceRange: '50-75€',
+      priceRange: '50-105€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Installation complète',
         'Test de fonctionnement',
-        'Garantie 2 ans'
+        'Garantie 6 mois'
       ]
     },
     {
       icon: '🔍',
       title: 'Recherche de Panne',
       description: 'Diagnostic complet installation électrique',
-      priceRange: '75-112€',
+      priceRange: '85-140€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Diagnostic approfondi',
@@ -48,7 +48,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '💡',
       title: 'Installation Luminaire',
       description: 'Pose de plafonnier, applique ou spot',
-      priceRange: '60-95€',
+      priceRange: '50-105€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Installation sécurisée',
@@ -60,7 +60,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '⚡',
       title: 'Réparation Disjoncteur',
       description: 'Tableau qui saute - diagnostic et réparation',
-      priceRange: '95-180€',
+      priceRange: '85-210€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Identification problème',
@@ -73,7 +73,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🏠',
       title: 'Modernisation Tableau Simple',
       description: 'Mise à jour tableau électrique basique',
-      priceRange: '250-380€',
+      priceRange: '165-365€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Nouveau tableau modulaire',
@@ -85,7 +85,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🔧',
       title: 'Tableau Électrique Complet',
       description: 'Installation tableau neuf avec protection',
-      priceRange: '450-750€',
+      priceRange: '215-515€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Tableau complet aux normes',
@@ -97,7 +97,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '📋',
       title: 'Certification CERTIEL',
       description: 'Inspection et certificat officiel',
-      priceRange: '180-250€',
+      priceRange: '95-215€',
       details: [
         'Déplacement inclus (Zone 1)',
         'Inspection complète',
@@ -114,7 +114,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
         'Étude personnalisée',
         'Plan électrique',
         'Matériel de qualité',
-        'Garantie décennale'
+        'Garantie 6 mois'
       ]
     }
   ];
@@ -228,7 +228,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
               <div className="text-3xl mb-2">⏰</div>
               <h4 className="font-bold text-gray-900 mb-1">Majorations</h4>
               <p className="text-sm text-gray-600">
-                Samedi +29%, Dimanche/Férié +43%, Nocturne (18h-8h) +50% + 22.50€
+                Samedi +29%, Dimanche/Férié +43%, Nocturne (18h-8h) +50%
               </p>
             </div>
           </div>
