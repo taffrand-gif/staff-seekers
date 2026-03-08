@@ -17,7 +17,7 @@ export const electricFaqs: FAQItem[] = [
   },
   {
     question: "Tem eletricista urgente disponível 24h?",
-    answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de falta de luz, curto-circuito ou avaria elétrica perigosa, ligue +351 932 321 892 para intervenção imediata."
+    answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de curto-circuito, falta de luz ou situação de perigo elétrico, ligue +351 932 321 892 para intervenção imediata."
   },
   {
     question: "Quanto tempo demora a chegar em caso de urgência?",

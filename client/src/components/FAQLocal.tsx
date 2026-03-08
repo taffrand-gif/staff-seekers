@@ -29,8 +29,8 @@ function FAQLocal() {
       answer: 'Sim, Macedo de Cavaleiros é a nossa base de operações. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: menos de 20 minutos para urgências. Preços a partir de 60€ (sem IVA).',
     },
     {
-      question: 'Há canalizador de urgência em Miranda do Douro?',
-      answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.',
+      question: 'Há eletricista de urgência em Miranda do Douro?',
+      answer: 'Sim, prestamos serviço de eletricidade de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como curtos-circuitos, falhas de energia ou situações de perigo. Ligue 932 321 892.',
     },
     {
       question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
