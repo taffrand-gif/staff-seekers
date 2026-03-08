@@ -2,6 +2,7 @@
 // Recherche fréquente: "como instalar tomada sozinho", "instalar tomada seguro", "posso instalar tomada"
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
@@ -11,45 +12,6 @@ import { Phone, AlertTriangle, CheckCircle, XCircle, Zap, ShieldAlert } from 'lu
 export default function ComoInstalarTomadaSozinho() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Como Instalar Tomada Sozinho? (Guia Segurança) | 932 321 892";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content',
-      'Posso instalar tomada sozinho? ATENÇÃO: é ilegal e perigoso sem certificação. Risco choque elétrico e incêndio. Eletricista certificado: 932 321 892'
-    );
-
-    // Schema.org
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-instalar-tomada';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Como Instalar Tomada Sozinho? Guia de Segurança",
-      "description": "Informação sobre instalação de tomadas: riscos, legalidade e quando chamar eletricista",
-      "author": {
-        "@type": "Organization",
-        "name": config.businessName
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": config.businessName,
-        "telephone": config.phone
-      }
-    });
-    document.head.appendChild(schemaScript);
-
-    return () => {
-      const existingSchema = document.getElementById('schema-instalar-tomada');
-      if (existingSchema) existingSchema.remove();
-    };
-  }, [config]);
 
   const faqs = [
     {
@@ -146,6 +108,10 @@ export default function ComoInstalarTomadaSozinho() {
 
   return (
     <>
+      <Helmet>
+        <title>Como Instalar Tomada Sozinho? (Guia Segurança) | 932 321 892</title>
+        <meta name="description" content="Posso instalar tomada sozinho? ATENÇÃO: é ilegal e perigoso sem certificação. Risco choque elétrico e incêndio. Eletricista certificado: 932 321 892" />
+      </Helmet>
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-white to-orange-50">

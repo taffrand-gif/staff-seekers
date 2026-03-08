@@ -2,6 +2,7 @@
 // Recherche fréquente: "tomada faísca", "tomada faz faísca", "tomada faísca perigo"
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
@@ -11,45 +12,6 @@ import { Phone, AlertTriangle, Zap, Shield, Clock } from 'lucide-react';
 export default function TomadaFaisca() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Tomada Faz Faísca? ⚡ PERIGO! Eletricista Urgente | 932 321 892";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content',
-      'Tomada faz faísca? PERIGO DE INCÊNDIO! Não use mais. Eletricista urgente 24h em Trás-os-Montes. Ligue: 932 321 892'
-    );
-
-    // Schema.org
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-tomada-faisca';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Tomada Faz Faísca: Perigo e Solução Urgente",
-      "description": "Guia completo sobre tomadas que fazem faísca: causas, perigos e solução urgente",
-      "author": {
-        "@type": "Organization",
-        "name": config.businessName
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": config.businessName,
-        "telephone": config.phone
-      }
-    });
-    document.head.appendChild(schemaScript);
-
-    return () => {
-      const existingSchema = document.getElementById('schema-tomada-faisca');
-      if (existingSchema) existingSchema.remove();
-    };
-  }, [config]);
 
   const faqs = [
     {
@@ -72,6 +34,10 @@ export default function TomadaFaisca() {
 
   return (
     <>
+      <Helmet>
+        <title>Tomada Faz Faísca? ⚡ PERIGO! Eletricista Urgente | 932 321 892</title>
+        <meta name="description" content="Tomada faz faísca? PERIGO DE INCÊNDIO! Não use mais. Eletricista urgente 24h em Trás-os-Montes. Ligue: 932 321 892" />
+      </Helmet>
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-white to-orange-50">
