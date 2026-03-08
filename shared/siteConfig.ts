@@ -105,10 +105,10 @@ export const siteConfig: SiteConfig = {
   domain: 'eletricista-norte-reparos.pt',
   
   colors: {
-    primary: '#c2410c', // Orange 700 — WCAG AA with white text
-    primaryDark: '#9a3412', // Orange 800
-    primaryLight: '#ea580c', // Orange 600
-    accent: '#dc2626', // Red 600 for urgent CTAs
+    primary: '#9a3412', // Orange 800 — WCAG AA compliant with white text
+    primaryDark: '#7c2d12', // Orange 900
+    primaryLight: '#c2410c', // Orange 700
+    accent: '#b91c1c', // Red 700 for urgent CTAs
   },
   
   hero: {
