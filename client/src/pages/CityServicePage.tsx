@@ -129,6 +129,10 @@ export default function CityServicePage() {
             </div>
             <p className="text-gray-600 mb-6">
               Preço base para {service.name.toLowerCase()} em {city.name}. Orçamento final após diagnóstico no local.
+              Oferecemos também serviços de{' '}
+              <a href={`/instalacao-eletrica-${params.city}`} className="text-blue-600 hover:underline">instalação elétrica</a>,{' '}
+              <a href={`/quadro-eletrico-${params.city}`} className="text-blue-600 hover:underline">quadro elétrico</a> e{' '}
+              <a href={`/certificacao-eletrica-${params.city}`} className="text-blue-600 hover:underline">certificação elétrica</a>.
             </p>
             <a
               href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent(`Olá! Preciso de ${service.name} em ${city.name}. Podem fazer orçamento?`)}`}
@@ -153,6 +157,13 @@ export default function CityServicePage() {
                 </h2>
                 <div className="prose prose-lg max-w-none text-gray-700">
                   {getCityAboutSection(city.slug)}
+                  {/* Internal links contextuels */}
+                  <p className="mt-6">
+                    Servimos também as cidades próximas: {' '}
+                    <a href="/eletricista-braganca" className="text-blue-600 hover:underline">Bragança</a>,{' '}
+                    <a href="/eletricista-mirandela" className="text-blue-600 hover:underline">Mirandela</a>,{' '}
+                    <a href="/eletricista-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>.
+                  </p>
                 </div>
               </div>
             </section>
