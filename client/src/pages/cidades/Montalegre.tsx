@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Montalegre() {
   useEffect(() => {
-    document.title = "Eletricista Montalegre 24h - Barragens e Pecuária Barroso - +351 932 321 892";
+    document.title = "Eletricista Montalegre 24h | Barroso | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

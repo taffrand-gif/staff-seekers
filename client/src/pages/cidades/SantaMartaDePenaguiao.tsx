@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function SantaMartaDePenaguiao() {
   useEffect(() => {
-    document.title = "Eletricista Santa Marta de Penaguião 24h - Vinho Verde e Douro - +351 932 321 892";
+    document.title = "Eletricista Santa Marta Penaguião 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

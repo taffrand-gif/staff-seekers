@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function CarrazedaDeAnsiaes() {
   useEffect(() => {
-    document.title = "Eletricista Carrazeda de Ansiães 24h - Quintas do Douro - +351 932 321 892";
+    document.title = "Eletricista Carrazeda Ansiães 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
