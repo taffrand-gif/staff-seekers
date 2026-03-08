@@ -91,6 +91,7 @@ const ComoInstalarTomadaSozinho = lazy(() => import("@/pages/ComoInstalarTomadaS
 const QuantoCustaArranjarQuadroEletrico = lazy(() => import("@/pages/QuantoCustaArranjarQuadroEletrico"));
 const QuantoTempoQuadro = lazy(() => import("@/pages/QuantoTempoDemoraT rocarQuadroEletrico"));
 const QuantoTempoDemoraInstalarTomada = lazy(() => import("@/pages/QuantoTempoDemoraInstalarTomada"));
+const QuantoTempoSemLuzCasa = lazy(() => import("@/pages/QuantoTempoSemLuzCasa"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -169,6 +170,7 @@ function Router() {
         <Route path={"/quanto-custa-arranjar-quadro-eletrico"} component={QuantoCustaArranjarQuadroEletrico} />
         <Route path={"/quanto-tempo-demora-trocar-quadro-eletrico"} component={QuantoTempoQuadro} />
         <Route path={"/quanto-tempo-demora-instalar-tomada"} component={QuantoTempoDemoraInstalarTomada} />
+        <Route path={"/quanto-tempo-sem-luz-casa"} component={QuantoTempoSemLuzCasa} />
         <Route path={"/404"} component={NotFound} />
         {/* Service hub pages */}
         <Route path={"/quadros-eletricos"} component={ServiceHub} />
