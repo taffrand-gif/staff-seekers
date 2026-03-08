@@ -186,13 +186,13 @@
         gtmLoaded = true;
         const script = document.createElement('script');
         script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-YYYYYYYYYY';
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
         document.head.appendChild(script);
         script.onload = function() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-YYYYYYYYYY');
+          gtag('config', 'G-XXXXXXXXXX');
         };
       }
       ['scroll', 'click', 'touchstart', 'mousemove'].forEach(event => {
