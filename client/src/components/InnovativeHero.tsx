@@ -43,13 +43,16 @@ const InnovativeHero: React.FC = () => {
   const statBorderHover = isPlumber ? 'hover:border-blue-400' : 'hover:border-amber-400';
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${config.hero.backgroundImage}')`,
       }}
     >
+      {/* LCP Image preload hint */}
+      <link rel="preload" as="image" href={config.hero.backgroundImage} fetchpriority="high" />
+
       {/* Background overlay */}
       <div className={`absolute inset-0 bg-gradient-to-br ${overlayFrom} via-transparent ${overlayTo}`} />
       
