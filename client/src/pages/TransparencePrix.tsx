@@ -40,10 +40,10 @@ export default function TransparencePrix() {
     },
     {
       title: "Quadro Elétrico Básico",
-      price: "150€ - 200€",
+      price: "200€ - 300€",
       duration: "2-3h",
       includes: [
-        "Quadro 4 circuitos",
+        "Quadro 4-6 circuitos",
         "Disjuntores de qualidade",
         "Instalação completa",
         "Certificação CERTIEL incluída"
@@ -51,10 +51,10 @@ export default function TransparencePrix() {
     },
     {
       title: "Quadro Elétrico Completo",
-      price: "250€ - 300€",
-      duration: "3-4h",
+      price: "370€ - 650€",
+      duration: "3-5h",
       includes: [
-        "Quadro 8+ circuitos",
+        "Quadro 8-12 circuitos",
         "Disjuntores diferencial + magnetotérmicos",
         "Instalação e ligação",
         "Certificação CERTIEL + garantia 12 meses"
@@ -229,12 +229,12 @@ export default function TransparencePrix() {
           </div>
         </section>
 
-        {/* Taux Horaire */}
+        {/* Taxa Horária */}
         <section className="py-20 bg-gray-50">
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl font-black mb-12 text-center">
-                Taux Horaire & <span className="text-[var(--site-primary)]">Majorações</span>
+                Taxa Horária & <span className="text-[var(--site-primary)]">Acréscimos</span>
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6">
@@ -242,7 +242,7 @@ export default function TransparencePrix() {
                   <div className="flex items-center gap-3 mb-4">
                     <Euro className="w-8 h-8 text-[var(--site-primary)]" />
                     <div>
-                      <div className="text-sm text-gray-600">Taux Horaire Base</div>
+                      <div className="text-sm text-gray-600">Taxa Horária Base</div>
                       <div className="text-3xl font-black text-gray-900">{tauxHoraire.base}</div>
                     </div>
                   </div>

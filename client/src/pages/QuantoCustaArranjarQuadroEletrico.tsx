@@ -16,7 +16,7 @@ export default function QuantoCustaArranjarQuadroEletrico() {
   const faqs = [
     {
       question: "Quanto custa substituir quadro elétrico completo?",
-      answer: "Quadro elétrico completo: 300-800€ (depende tamanho casa e número circuitos). Inclui: quadro novo, disjuntores, diferencial, instalação, certificação CERTIEL. T1/T2: 300-450€, T3/T4: 450-650€, Moradia: 600-800€. Orçamento grátis: 932 321 892"
+      answer: "Quadro elétrico completo: 370-650€ para quadro 8-12 circuitos (depende tamanho casa). Inclui: quadro novo, disjuntores, diferencial, instalação, certificação CERTIEL. T1/T2: 370-450€, T3/T4: 450-650€. Orçamento grátis: 932 321 892"
     },
     {
       question: "Quanto custa substituir um disjuntor?",
@@ -56,7 +56,7 @@ export default function QuantoCustaArranjarQuadroEletrico() {
     },
     {
       servico: "Quadro Elétrico T1/T2",
-      preco: "300-450€",
+      preco: "370-450€",
       tempo: "3-5h",
       descricao: "Quadro completo para apartamento pequeno (6-8 circuitos)",
       inclui: ["Quadro 8 módulos", "Diferencial 40A", "6-8 disjuntores", "Instalação", "Certificação CERTIEL"]
@@ -70,7 +70,7 @@ export default function QuantoCustaArranjarQuadroEletrico() {
     },
     {
       servico: "Quadro Elétrico Moradia",
-      preco: "600-800€",
+      preco: "650-900€",
       tempo: "5-8h",
       descricao: "Quadro completo para moradia (14-18 circuitos)",
       inclui: ["Quadro 18 módulos", "2 Diferenciais", "14-18 disjuntores", "Instalação", "Certificação CERTIEL"]
