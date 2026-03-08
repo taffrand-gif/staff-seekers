@@ -380,7 +380,7 @@ Email 4: Oferta Limitada
     <!-- Footer -->
     <div style="background: #1F2937; padding: 20px; text-align: center; color: white;">
         <p style="margin: 0;">
-            📞 928 484 451 | 📧 contact@norte-reparos.com
+            📞 932 321 892 | 📧 contact@eletricista-norte-reparos.pt
         </p>
         <p style="margin: 10px 0 0 0; font-size: 12px;">
             <a href="*|UNSUB|*" style="color: #9CA3AF;">Cancelar subscrição</a>

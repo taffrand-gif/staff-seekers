@@ -99,8 +99,8 @@ export const plumberFaqs: FAQItem[] = [
     answer: "Contacte-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente para avaliar o problema, apresentamos um orçamento detalhado com preços transparentes e só avançamos após sua aprovação."
   },
   {
-    question: "Tem canalizador urgente disponível 24h?",
-    answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para intervenção imediata."
+    question: "Tem eletricista urgente disponível 24h?",
+    answer: "Sim! Serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de curto-circuito, falha de energia ou situação de perigo elétrico, ligue +351 932 321 892 para intervenção imediata."
   },
   {
     question: "Quanto tempo demora a chegar em caso de urgência?",

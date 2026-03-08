@@ -456,7 +456,7 @@ Em Bragança e todo o distrito de Trás-os-Montes, disponibilizamos equipamento 
 
 **Contactos:**
 
-📞 **Telefone:** 928 484 451 (disponível 24h)  
+📞 **Telefone:** 932 321 892 (disponível 24h)  
 💬 **WhatsApp:** Clique para mensagem direta  
 📍 **Área de atuação:** Todo o distrito de Bragança  
 ⏱️ **Tempo de chegada:** 30-40 minutos desde Macedo de Cavaleiros
