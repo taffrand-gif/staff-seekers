@@ -24,6 +24,8 @@ export default function CityServicePage() {
 
   useEffect(() => {
     document.title = `${service.name} em ${city.name} | ${ACTIVE_CONFIG.businessName}`;
+
+    // Meta description
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
@@ -31,7 +33,17 @@ export default function CityServicePage() {
       document.head.appendChild(meta);
     }
     meta.setAttribute('content', `${service.name} em ${city.name}. Serviço profissional 24h. Orçamento gratuito. Ligue ${ACTIVE_CONFIG.phone}`);
-  }, [city.name, service.name]);
+
+    // Canonical URL
+    const canonicalUrl = `https://${ACTIVE_CONFIG.domain}/${params.service}-${params.city}`;
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', canonicalUrl);
+  }, [city.name, service.name, params.service, params.city]);
 
   const serviceSchema = {
     "@context": "https://schema.org",
