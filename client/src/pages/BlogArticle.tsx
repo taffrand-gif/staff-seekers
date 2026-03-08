@@ -46,8 +46,8 @@ export default function BlogArticle() {
               </div>
               
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                {articleId === 'fuga-agua-escondida' 
-                  ? 'Como Detetar Fuga de Água Escondida'
+                {articleId === 'fuga-agua-escondida'
+                  ? 'Como Prevenir Problemas Elétricos em Casa'
                   : '10 Sinais Que Precisa Trocar o Quadro Elétrico'
                 }
               </h1>

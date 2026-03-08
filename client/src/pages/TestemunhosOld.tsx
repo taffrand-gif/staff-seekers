@@ -205,35 +205,35 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
   if (serviceType === 'plomberie') {
     return [
       {
-        name: "Maria Silva",
-        city: "Bragança",
+        name: "Pedro Santos",
+        city: "Vila Real",
         rating: 5,
         date: "Janeiro 2026",
-        service: "Arranjo de fuga de água",
-        text: "Excelente serviço! Tive uma fuga de água às 3 da manhã e a equipa chegou em menos de 40 minutos. Resolveram o problema rapidamente e deixaram tudo limpo. Muito profissionais!"
+        service: "Instalação de tomadas",
+        text: "Serviço excelente! Instalaram várias tomadas novas na cozinha. Trabalho limpo, rápido e profissional. Muito satisfeito com o resultado!"
       },
       {
         name: "João Pereira",
         city: "Mirandela",
         rating: 5,
         date: "Dezembro 2025",
-        service: "Desentupimento de canalização",
-        text: "Serviço impecável. O canalizador foi muito atencioso, explicou o problema e resolveu tudo na hora. Preço justo e trabalho de qualidade. Recomendo!"
+        service: "Arranjo de curto-circuito",
+        text: "Serviço impecável. O eletricista foi muito atencioso, explicou o problema e resolveu tudo na hora. Preço justo e trabalho de qualidade. Recomendo!"
       },
       {
         name: "Ana Costa",
         city: "Macedo de Cavaleiros",
         rating: 5,
         date: "Novembro 2025",
-        service: "Instalação de esquentador",
-        text: "Muito satisfeita com o serviço. Instalaram o esquentador novo de forma rápida e profissional. Explicaram tudo sobre a manutenção. Equipa de confiança!"
+        service: "Certificação CERTIEL",
+        text: "Muito satisfeita com o serviço. Fizeram a certificação elétrica de forma rápida e profissional. Explicaram tudo sobre o processo. Equipa de confiança!"
       },
       {
         name: "Carlos Rodrigues",
         city: "Mogadouro",
         rating: 5,
         date: "Outubro 2025",
-        service: "Arranjo de autoclismo",
+        service: "Substituição de quadro elétrico",
         text: "Rapidez e eficiência. Liguei de manhã e à tarde já estava resolvido. O técnico foi muito simpático e o preço foi honesto. Vou guardar o contacto!"
       },
       {
