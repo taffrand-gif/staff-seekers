@@ -22,7 +22,8 @@ export default function StructuredData() {
     const detectedCity = getCurrentCity();
 
     // Não adicionar FAQPage nas páginas cidade (CityServicePage já tem seu próprio FAQPage)
-    const isCityServicePage = location.match(/\/(eletricista|canalizador)-[a-z-]+$/);
+    // Pattern: /:service-:city (ex: /eletricista-lamego, /instalacao-eletrica-braganca)
+    const isCityServicePage = location.match(/\/[a-z-]+-[a-z-]+$/);
     const shouldIncludeFAQ = !isCityServicePage;
 
     // Lista das 10 cidades servidas
