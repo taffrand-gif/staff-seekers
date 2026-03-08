@@ -303,32 +303,95 @@ export default function StructuredData() {
       }
     };
 
-    // Organization Schema
+    // Organization Schema enrichi
     const organizationSchema = {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
+      "legalName": config.company.fullName,
       "url": `https://${config.domain}`,
-      "logo": `https://${config.domain}${config.seo.ogImage}`,
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": config.phone.replace(/\s/g, ''),
-        "contactType": "customer service",
-        "areaServed": "PT",
-        "availableLanguage": "Portuguese",
-        "hoursAvailable": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
+      "logo": {
+        "@type": "ImageObject",
+        "url": `https://${config.domain}/logo.png`,
+        "width": "512",
+        "height": "512"
+      },
+      "image": `https://${config.domain}${config.seo.ogImage}`,
+      "description": config.description,
+      "email": config.email,
+      "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+      "foundingDate": config.company.yearEstablished,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": businessInfo.baseAddress.streetAddress,
+        "addressLocality": businessInfo.baseAddress.addressLocality,
+        "addressRegion": businessInfo.baseAddress.addressRegion,
+        "postalCode": businessInfo.baseAddress.postalCode,
+        "addressCountry": businessInfo.baseAddress.addressCountry
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.5382",
+        "longitude": "-6.9667"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Trás-os-Montes",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Portugal"
         }
       },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+          "contactType": "customer service",
+          "areaServed": "PT",
+          "availableLanguage": ["Portuguese"],
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+          "contactType": "emergency",
+          "areaServed": "PT",
+          "availableLanguage": ["Portuguese"],
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        }
+      ],
       "sameAs": [
-        `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`
-      ]
+        `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`,
+        "https://www.facebook.com/staffseekers"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "47",
+        "reviewCount": "47",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
+      "knowsLanguage": ["pt-PT"],
+      "slogan": "Serviço 24h/7d em Trás-os-Montes • Certificação CERTIEL • Chegamos em 40 minutos"
     };
 
     // FAQ Schema enriquecido
