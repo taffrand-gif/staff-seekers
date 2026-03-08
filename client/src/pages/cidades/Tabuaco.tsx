@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Tabuaco() {
   useEffect(() => {
-    document.title = "Eletricista Tabuaço 24h - Quintas Vinícolas do Douro - +351 932 321 892";
+    document.title = "Eletricista Tabuaço 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

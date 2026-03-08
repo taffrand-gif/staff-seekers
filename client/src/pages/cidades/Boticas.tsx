@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Boticas() {
   useEffect(() => {
-    document.title = "Eletricista Boticas 24h - Vinho dos Mortos e Agricultura - +351 932 321 892";
+    document.title = "Eletricista Boticas 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

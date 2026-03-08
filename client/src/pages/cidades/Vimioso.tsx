@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Vimioso() {
   useEffect(() => {
-    document.title = "Eletricista Vimioso 24h - Zona Fronteiriça - +351 932 321 892";
+    document.title = "Eletricista Vimioso 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

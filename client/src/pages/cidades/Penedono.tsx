@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Penedono() {
   useEffect(() => {
-    document.title = "Eletricista Penedono 24h - Castelo Medieval e Granito - +351 932 321 892";
+    document.title = "Eletricista Penedono 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function MesaoFrio() {
   useEffect(() => {
-    document.title = "Eletricista Mesão Frio 24h - Douro e Turismo Fluvial - +351 932 321 892";
+    document.title = "Eletricista Mesão Frio 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

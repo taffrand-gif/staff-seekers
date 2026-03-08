@@ -12,7 +12,7 @@ import { Phone, Zap, Shield, CheckCircle } from 'lucide-react';
 
 export default function FreixoEspadaCinta() {
   useEffect(() => {
-    document.title = "Eletricista Freixo de Espada à Cinta 24h - Urgências - +351 932 321 892";
+    document.title = "Eletricista Freixo Espada à Cinta 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

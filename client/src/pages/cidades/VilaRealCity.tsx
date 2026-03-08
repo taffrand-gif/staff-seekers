@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function VilaRealCity() {
   useEffect(() => {
-    document.title = "Eletricista Vila Pouca de Aguiar 24h - Termas e Pedras Preciosas - +351 932 321 892";
+    document.title = "Eletricista Vila Pouca Aguiar 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

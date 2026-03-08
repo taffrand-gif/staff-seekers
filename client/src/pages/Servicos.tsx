@@ -14,7 +14,7 @@ export default function Servicos() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Serviços de Eletricista em Trás-os-Montes | Instalação, Arranjo, Certificação";
+    document.title = "Serviços Eletricista Trás-os-Montes | 932 321 892";
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]');

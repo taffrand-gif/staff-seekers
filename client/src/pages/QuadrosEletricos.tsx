@@ -11,7 +11,7 @@ const faqItems = [
 
 export default function QuadrosEletricos() {
   useEffect(() => {
-    document.title = "Quadros Elétricos: Instalação e Modernização em Trás-os-Montes | Staff Seekers";
+    document.title = "Quadros Elétricos Trás-os-Montes | 932 321 892";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
     meta.setAttribute('content', 'Instalação e modernização de quadros elétricos em Trás-os-Montes. Disjuntores, diferenciais, certificação CERTIEL. Eletricista certificado 24h. Ligue +351 932 321 892.');

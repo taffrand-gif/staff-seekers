@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Sabrosa() {
   useEffect(() => {
-    document.title = "Eletricista Sabrosa 24h - Douro e Fernão de Magalhães - +351 932 321 892";
+    document.title = "Eletricista Sabrosa 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

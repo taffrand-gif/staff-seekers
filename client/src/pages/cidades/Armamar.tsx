@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Armamar() {
   useEffect(() => {
-    document.title = "Eletricista Armamar 24h - Cereja e Douro - +351 932 321 892";
+    document.title = "Eletricista Armamar 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

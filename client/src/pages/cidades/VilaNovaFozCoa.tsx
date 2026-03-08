@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function VilaNovaFozCoa() {
   useEffect(() => {
-    document.title = "Eletricista Vila Nova de Foz Côa 24h - Gravuras UNESCO - +351 932 321 892";
+    document.title = "Eletricista Vila Nova Foz Côa 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

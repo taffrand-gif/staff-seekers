@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function RibeiraDePena() {
   useEffect(() => {
-    document.title = "Eletricista Ribeira de Pena 24h - Barragem e Turismo Rural - +351 932 321 892";
+    document.title = "Eletricista Ribeira de Pena 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

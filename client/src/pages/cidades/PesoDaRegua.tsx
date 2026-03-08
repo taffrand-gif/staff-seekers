@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function PesoDaRegua() {
   useEffect(() => {
-    document.title = "Eletricista Peso da Régua 24h - Capital do Douro - +351 932 321 892";
+    document.title = "Eletricista Peso da Régua 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

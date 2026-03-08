@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function Sernancelhe() {
   useEffect(() => {
-    document.title = "Eletricista Sernancelhe 24h - Castanha e Turismo Religioso - +351 932 321 892";
+    document.title = "Eletricista Sernancelhe 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

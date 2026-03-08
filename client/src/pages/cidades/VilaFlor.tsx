@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function VilaFlor() {
   useEffect(() => {
-    document.title = "Eletricista Vila Flor 24h - Instalações Vinícolas e Azeite - +351 932 321 892";
+    document.title = "Eletricista Vila Flor 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function MondimDeBasto() {
   useEffect(() => {
-    document.title = "Eletricista Mondim de Basto 24h - Serra do Alvão - +351 932 321 892";
+    document.title = "Eletricista Mondim de Basto 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

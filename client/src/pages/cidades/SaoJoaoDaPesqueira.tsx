@@ -11,7 +11,7 @@ import { Phone, Clock, MapPin, Shield, Zap, CheckCircle } from 'lucide-react';
 
 export default function SaoJoaoDaPesqueira() {
   useEffect(() => {
-    document.title = "Eletricista São João da Pesqueira 24h - Douro Vinhateiro - +351 932 321 892";
+    document.title = "Eletricista São João Pesqueira 24h | 932 321 892";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
