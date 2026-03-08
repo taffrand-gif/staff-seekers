@@ -226,7 +226,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de arranjar.`
     subtitle: 'Eletricista de Urgência em Toda a Região',
     description: 'Serviço urgência 24h/7 dias para avarias graves, curto-circuitos, quedas de corrente. Chegamos em 15-90 minutos.',
     icon: '🚨',
-    price: 'Desde 80€',
+    price: 'Desde 100€',
     priceDetails: 'Acréscimo 50€ horário noturno',
     image: '/images-optimized/services/service-urgencia.jpg',
     content: {
@@ -242,14 +242,14 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de arranjar.`
         },
         {
           title: 'Preços Urgência',
-          content: `Horário normal (8h-20h dias úteis): Desde 80€. Horário noturno (20h-8h + fins de semana + feriados): +50€. Deslocação gratuita. Orçamento telefónico antes de sair. Pagamento: dinheiro, MB Way, Multibanco.`
+          content: `Horário normal (8h-20h dias úteis): Desde 70€. Sábado: 90€/h. Domingo/Feriado: 100€/h. Horário noturno (20h-8h): +50€. Deslocação gratuita. Orçamento telefónico antes de sair. Pagamento: dinheiro, MB Way, Multibanco.`
         }
       ],
       cta: 'Urgência elétrica? **Ligue já 932 321 892** - Atendimento 24h!'
     },
     seo: {
       metaTitle: 'Eletricista Urgência 24h Bragança | Avarias | Eletricista Profissional',
-      metaDescription: 'Urgências elétricas 24h em Bragança. Curto-circuitos, avarias, sem corrente. Chegamos em 15-90 min. Desde 80€. Ligue 932 321 892!',
+      metaDescription: 'Urgências elétricas 24h em Bragança. Curto-circuitos, avarias, sem corrente. Chegamos em 15-90 min. Sábado 90€/h, Domingo 100€/h. Ligue 932 321 892!',
       keywords: ['eletricista urgência bragança', 'urgência 24h', 'avaria elétrica urgente', 'sem corrente']
     }
   },
