@@ -4,6 +4,7 @@ import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedServices from '@/components/RelatedServices';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { useEffect } from 'react';
 
 export default function CityServicePage() {
@@ -51,6 +52,13 @@ export default function CityServicePage() {
 
   const faqItems = generateFAQs(service, city, isPlumber);
 
+  // Breadcrumbs
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    { label: city.name, href: `/${params.city}` },
+    { label: service.name }
+  ];
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
@@ -65,6 +73,7 @@ export default function CityServicePage() {
       }) }} />
 
       <Header />
+      <Breadcrumbs items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="py-20 px-4" style={{ background: `linear-gradient(135deg, ${accentColor} 0%, ${accentColor}dd 100%)` }}>
