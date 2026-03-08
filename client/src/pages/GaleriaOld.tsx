@@ -133,7 +133,7 @@ function getGalleryImages(serviceType: 'plomberie' | 'electricite'): GalleryImag
       { url: IMAGES.gallery[0], alt: "Instalação de torneira moderna", category: "Instalações" },
       { url: IMAGES.gallery[1], alt: "Manutenção preventiva", category: "Manutenção" },
       { url: IMAGES.gallery[2], alt: "Desentupimento de canalização", category: "Desentupimentos" },
-      { url: IMAGES.gallery[3], alt: "Arranjo de fuga de água", category: "Arranjos" },
+      { url: IMAGES.gallery[3], alt: "Arranjo de curto-circuito", category: "Arranjos" },
       { url: IMAGES.gallery[4], alt: "Instalação de esquentador", category: "Instalações" },
     ];
   } else {

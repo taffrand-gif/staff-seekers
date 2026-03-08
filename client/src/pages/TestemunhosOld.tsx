@@ -265,7 +265,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Vinhais",
         rating: 5,
         date: "Junho 2025",
-        service: "Fuga de água urgente",
+        service: "Curto-circuito urgente",
         text: "Serviço de urgência impecável. Tive uma fuga grave e a equipa chegou rapidamente. Resolveram o problema e ainda deram conselhos para prevenir futuras fugas. Top!"
       },
       {
