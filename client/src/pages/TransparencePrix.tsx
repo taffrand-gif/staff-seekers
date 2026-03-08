@@ -62,7 +62,7 @@ export default function TransparencePrix() {
     },
     {
       title: "Certificação CERTIEL",
-      price: "150€",
+      price: "150€ - 300€",
       duration: "1-2h",
       includes: [
         "Vistoria técnica completa",

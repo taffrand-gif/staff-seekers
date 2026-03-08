@@ -8,7 +8,7 @@ const faqItems = [
   },
   {
     question: "Fazem certificação elétrica CERTIEL para venda de imóvel?",
-    answer: "Sim, realizamos inspeções e emitimos certificações elétricas CERTIEL obrigatórias para venda e arrendamento de imóveis. O certificado é válido e registado, cumprindo todas as normas de segurança portuguesas. O preço varia entre 150€ e 300€ (sem IVA)."
+    answer: "Sim, realizamos inspeções e emitimos certificações elétricas CERTIEL obrigatórias para venda e arrendamento de imóveis. O certificado é válido e registado, cumprindo todas as normas de segurança portuguesas. O preço varia entre 150€ e 300€ (sem IVA), dependendo da dimensão do imóvel."
   },
   {
     question: "Como sei se o meu quadro elétrico precisa de ser substituído?",
