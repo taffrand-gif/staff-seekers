@@ -19,7 +19,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - ✅ As 8 causas principais de luzes a piscar
 - ✅ Como diagnosticar o problema (passo a passo)
 - ✅ Soluções DIY vs quando chamar eletricista
-- ✅ Custos de reparação em Trás-os-Montes
+- ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Como prevenir o problema no futuro
 - ✅ Quando é emergência elétrica
 
@@ -88,7 +88,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA**
 
-**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente reparar sozinho.
+**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
 
 **Custo:** €40-70 (substituir interruptor)  
 **Tempo:** 30 minutos  
@@ -136,7 +136,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução Profissional:**
 - Substituir fio completo
-- Reparar casquilho
+- Arranjar casquilho
 
 **Custo DIY:** €3-10  
 **Custo Profissional:** €30-50
@@ -193,7 +193,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **INSPEÇÃO ELÉTRICA COMPLETA**
 
-**Custo:** €200-500 (inspeção + reparações)  
+**Custo:** €200-500 (inspeção + arranjos)  
 **Tempo:** 4-8 horas  
 **Benefício:** Certificação CERTIEL + segurança
 
@@ -274,9 +274,9 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-## 💰 Custos de Reparação em Trás-os-Montes (2026)
+## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-### Reparações Simples
+### Arranjos Simples
 
 | Problema | Solução | Custo | Tempo |
 |----------|---------|-------|-------|
@@ -284,12 +284,12 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 | Lâmpada defeituosa | Substituir | €3-12 | 5 min |
 | Ficha danificada | Substituir | €3-10 | 15 min |
 
-### Reparações Profissionais
+### Arranjos Profissionais
 
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor | €40-70 | 30 min | 2 anos |
-| Reparar casquilho | €30-50 | 20 min | 1 ano |
+| Arranjar casquilho | €30-50 | 20 min | 1 ano |
 | Apertar ligações quadro | €60-120 | 1-2h | 1 ano |
 | Instalar circuito novo | €150-300 | 2-4h | 2 anos |
 | Inspeção elétrica completa | €200-350 | 4-6h | Certificado |
@@ -361,7 +361,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de certificado CERTIEL. Além disso, é perigoso sem conhecimentos.
 
-### 5. Quanto tempo demora a reparar luz que pisca?
+### 5. Quanto tempo demora a arranjar luz que pisca?
 
 **Resposta:** Depende da causa. Lâmpada: 5 minutos. Interruptor: 30 minutos. Problema no quadro: 1-2 horas. Inspeção completa: 4-6 horas.
 

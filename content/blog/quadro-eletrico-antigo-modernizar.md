@@ -77,7 +77,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **Problema:**
 - Normas antigas (menos seguras)
 - Componentes desgastados
-- Não preparado para consumo moderno
+- Não parranjado para consumo moderno
 - Sem proteções modernas
 
 **Solução:** Modernização completa
@@ -275,7 +275,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **Proteção de aparelhos:**
 - Proteção sobretensão (opcional)
 - Evita danos em TV, PC, eletrodomésticos
-- Poupança em reparações
+- Poupança em arranjos
 
 ---
 
@@ -302,7 +302,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ---
 
-### 5. Preparado para Futuro
+### 5. Parranjado para Futuro
 
 **Consumo moderno:**
 - Carregamento carro elétrico (futuro)

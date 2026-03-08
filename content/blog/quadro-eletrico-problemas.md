@@ -33,7 +33,7 @@ priority: "HIGH DEMAND"
 - Abra quadro sem desligar geral
 - Toque em componentes com corrente ligada
 - Force disjuntores
-- Faça reparações DIY no quadro
+- Faça arranjos DIY no quadro
 - Ignore sinais de problema
 
 ## O Que É o Quadro Elétrico?
@@ -122,7 +122,7 @@ O quadro elétrico distribui eletricidade pela casa e protege contra sobrecargas
 
 ### 3. Quadro Subdimensionado (15% dos casos)
 
-**Instalação não preparada para consumo atual:**
+**Instalação não parranjada para consumo atual:**
 
 **Sinais:**
 - Disjuntores desarmam frequentemente
@@ -206,7 +206,7 @@ TOTAL: 11-15 circuitos
 - Falha de proteção
 
 **Solução:**
-- Reparar infiltração €200-2.000
+- Arranjar infiltração €200-2.000
 - Secar quadro
 - Substituir componentes oxidados €150-400
 - Quadro estanque IP65 €100-200 extra
@@ -233,7 +233,7 @@ TOTAL: 11-15 circuitos
 - Aparelho defeituoso → Descartar
 - Humidade → Secar instalação
 - Diferencial defeituoso → Substituir €60-120
-- Instalação antiga → Reparar fugas €150-500
+- Instalação antiga → Arranjar fugas €150-500
 
 **IMPORTANTE:** Diferencial que desarma está a PROTEGER você! Não desative!
 
@@ -261,7 +261,7 @@ TOTAL: 11-15 circuitos
 - Falha de proteção
 - Danos irreversíveis
 
-**Solução:** Inspeção urgente + reparação €150-500
+**Solução:** Inspeção urgente + arranjo €150-500
 
 **⚠️ EMERGÊNCIA:** Quadro muito quente = desligue geral + ligue 932 321 892
 
@@ -326,7 +326,7 @@ TOTAL: 11-15 circuitos
 
 **8. Problemas frequentes**
 - Disjuntores desarmam muito
-- Reparações repetidas
+- Arranjos repetidas
 - **Custo:** €400-1.000
 
 ## Quadro Elétrico Moderno: O Que Deve Ter

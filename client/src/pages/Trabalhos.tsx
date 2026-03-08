@@ -15,8 +15,8 @@ export default function Trabalhos() {
   const projects = Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
     title: config.type === 'plomberie' 
-      ? ['Reparação Fuga Água', 'Instalação Esquentador', 'Desentupimento', 'Substituição Canalização'][i % 4]
-      : ['Substituição Quadro Elétrico', 'Instalação Tomadas', 'Reparação Curto-Circuito', 'Iluminação LED'][i % 4],
+      ? ['Arranjo Fuga Água', 'Instalação Esquentador', 'Desentupimento', 'Substituição Canalização'][i % 4]
+      : ['Substituição Quadro Elétrico', 'Instalação Tomadas', 'Arranjo Curto-Circuito', 'Iluminação LED'][i % 4],
     location: ['Bragança', 'Macedo de Cavaleiros', 'Mirandela', 'Vinhais'][i % 4],
     date: '2026',
   }));

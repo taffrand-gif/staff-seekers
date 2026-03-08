@@ -68,7 +68,7 @@ function Footer() {
               <li><a href="/instalacao-eletrica-completa" className="text-gray-100 hover:text-white">Instalação Elétrica</a></li>
               <li><a href="/quadros-eletricos-modernizacao" className="text-gray-100 hover:text-white">Quadros Elétricos</a></li>
               <li><a href="/certificacao-eletrica-tras-os-montes" className="text-gray-100 hover:text-white">Certificação CERTIEL</a></li>
-              <li><a href="/reparacao-avarias-eletricas" className="text-gray-100 hover:text-white">Reparação Avarias</a></li>
+              <li><a href="/arranjacao-avarias-eletricas" className="text-gray-100 hover:text-white">Arranjo Avarias</a></li>
               <li><a href="/iluminacao-led-profissional" className="text-gray-100 hover:text-white">Iluminação LED</a></li>
               <li><a href="/instalacao-paineis-solares-tras-os-montes" className="text-gray-100 hover:text-white">Painéis Solares</a></li>
             </ul>

@@ -21,7 +21,7 @@
 - sobreaquecimento-tomada
 - lampada-queima-rapido-causas
 - interruptor-faz-barulho
-- tomada-solta-parede-reparar
+- tomada-solta-parede-arranjar
 - quadro-eletrico-faz-barulho
 - choque-eletrico-torneira
 - eletricidade-chuveiro-perigo
@@ -59,7 +59,7 @@
 - quanto-custa-instalar-videoporteiro
 - quanto-custa-instalar-domotica
 - quanto-custa-instalar-piso-radiante
-- quanto-custa-reparar-quadro-eletrico
+- quanto-custa-arranjar-quadro-eletrico
 - quanto-custa-aumentar-potencia
 - quanto-custa-instalar-gerador
 - quanto-custa-instalar-ups
@@ -72,7 +72,7 @@
 - quanto-custa-trocar-cablagem-casa
 
 #### 5. Saisonnier & Específico Trás-os-Montes (15 artigos):
-- preparar-casa-verao-eletricidade
+- parranjar-casa-verao-eletricidade
 - manutencao-eletrica-outono
 - proteger-instalacao-eletrica-cheias
 - eletricidade-casa-ferias-seguranca

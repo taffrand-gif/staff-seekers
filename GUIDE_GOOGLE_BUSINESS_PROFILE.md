@@ -54,8 +54,8 @@ Google Business Profile (anteriormente Google My Business) é a ferramenta mais 
    - **Staff-Seekers:** "Electricista" (categoria principal)
 
 4. Adicione categorias secundárias (máximo 10):
-   - **Norte-Reparos:** Serviço de desentupimento, Serviço de reparação de caldeiras, Instalador de aquecimento
-   - **Staff-Seekers:** Serviço de reparação elétrica, Instalador elétrico, Serviço de certificação elétrica
+   - **Norte-Reparos:** Serviço de desentupimento, Serviço de arranjo de caldeiras, Instalador de aquecimento
+   - **Staff-Seekers:** Serviço de arranjo elétrica, Instalador elétrico, Serviço de certificação elétrica
 
 ### 1.3 Definir Localização
 
@@ -161,7 +161,7 @@ Máximo 750 caracteres. Use palavras-chave naturalmente.
 
 **Template Norte-Reparos:**
 ```
-Canalizador profissional disponível 24 horas em Bragança e todo o distrito de Trás-os-Montes. Especialistas em urgências de canalização: fugas de água, desentupimentos, reparação de caldeiras e esquentadores, instalação de casas de banho completas.
+Canalizador profissional disponível 24 horas em Bragança e todo o distrito de Trás-os-Montes. Especialistas em urgências de canalização: fugas de água, desentupimentos, arranjo de caldeiras e esquentadores, instalação de casas de banho completas.
 
 Atendemos Bragança, Macedo de Cavaleiros, Mirandela, Vinhais, Miranda do Douro, Mogadouro e todas as vilas da região. Chegamos em 30-40 minutos para urgências.
 
@@ -544,7 +544,7 @@ Adicione serviços individuais com preços (se possível).
 
 **Norte-Reparos:**
 - Desentupimento WC: A partir de 60€
-- Reparação Fuga de Água: A partir de 80€
+- Arranjo Fuga de Água: A partir de 80€
 - Instalação Esquentador: A partir de 150€
 - Substituição Canalização: Orçamento personalizado
 
@@ -552,7 +552,7 @@ Adicione serviços individuais com preços (se possível).
 - Substituição Quadro Elétrico: A partir de 450€
 - Certificação DGEG: A partir de 120€
 - Instalação Tomadas: A partir de 40€
-- Reparação Curto-Circuito: A partir de 100€
+- Arranjo Curto-Circuito: A partir de 100€
 
 **Benefício:** Transparência de preços aumenta confiança e reduz chamadas para perguntar valores básicos.
 

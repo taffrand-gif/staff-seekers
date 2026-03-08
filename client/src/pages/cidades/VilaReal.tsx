@@ -35,7 +35,7 @@ export default function VilaReal() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente vila real, eletricista 24 horas vila real, eletricista vila real, eletricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, reparação elétrica vila real, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'eletricista urgente vila real, eletricista 24 horas vila real, eletricista vila real, eletricista profissional vila real, instalação elétrica vila real, quadro elétrico vila real, certificação elétrica vila real, arranjo elétrica vila real, eletricista trás-os-montes');
     
     
     // Canonical URL
@@ -55,7 +55,7 @@ export default function VilaReal() {
       "@type": "LocalBusiness",
       "name": "Eletricista Profissional — Eletricista em Vila Real",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
+      "description": "Eletricista profissional em Vila Real, Trás-os-Montes. Instalação, arranjo e certificação elétrica.",
       "address": getCityAddress('vila-real'),
       "geo": {
         "@type": "GeoCoordinates",

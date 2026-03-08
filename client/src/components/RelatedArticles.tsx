@@ -21,10 +21,10 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
       category: 'Legal'
     },
     { 
-      slug: 'reparacao-avarias-eletricas-comuns', 
-      title: 'Reparação de Avarías Elétricas Comuns', 
+      slug: 'arranjacao-avarias-eletricas-comuns', 
+      title: 'Arranjo de Avarías Elétricas Comuns', 
       excerpt: 'Soluções para os problemas elétricos mais frequentes em habitações antigas.',
-      category: 'Reparação'
+      category: 'Arranjo'
     },
     { 
       slug: 'iluminacao-led-vantagens', 

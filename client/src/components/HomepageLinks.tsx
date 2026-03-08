@@ -12,7 +12,7 @@ export default function HomepageLinks() {
           <a href="/instalacao-eletrica-completa" className="text-[#c2410c] font-bold hover:underline">instalação elétrica completa</a> para construções e renovações, até{' '}
           <a href="/quadros-eletricos-modernizacao" className="text-[#c2410c] font-bold hover:underline">modernização de quadros elétricos</a>. Realizamos{' '}
           <a href="/certificacao-eletrica-tras-os-montes" className="text-[#c2410c] font-bold hover:underline">certificação elétrica CERTIEL</a>,{' '}
-          <a href="/reparacao-avarias-eletricas" className="text-[#c2410c] font-bold hover:underline">reparação de avarias elétricas</a>,{' '}
+          <a href="/arranjacao-avarias-eletricas" className="text-[#c2410c] font-bold hover:underline">arranjo de avarias elétricas</a>,{' '}
           <a href="/iluminacao-led-profissional" className="text-[#c2410c] font-bold hover:underline">iluminação LED profissional</a>,{' '}
           <a href="/instalacao-paineis-solares-tras-os-montes" className="text-[#c2410c] font-bold hover:underline">instalação de painéis solares</a>,{' '}
           <a href="/protecao-contra-raios" className="text-[#c2410c] font-bold hover:underline">proteção contra raios</a> e{' '}

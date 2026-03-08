@@ -62,7 +62,7 @@ export const SERVICES: Service[] = [
           title: 'Processo Profissional',
           content: `**FASE 1**: Visita técnica gratuita → Levantamento necessidades → Projeto elétrico (se necessário) → Orçamento detalhado.
 
-**FASE 2**: Compra materiais certificados → Preparação obra → Proteção superfícies → Abertura roços (se necessário).
+**FASE 2**: Compra materiais certificados → Parranjo obra → Proteção superfícies → Abertura roços (se necessário).
 
 **FASE 3**: Instalação tubagens e caixas → Passagem cabos → Montagem quadro elétrico → Ligação tomadas/interruptores/iluminação → Ligação terra.
 
@@ -90,13 +90,13 @@ export const SERVICES: Service[] = [
     }
   },
 
-  // Service 2: Reparação de Avarias
+  // Service 2: Arranjo de Avarias
   {
     id: '2',
-    slug: 'reparacao-avarias',
-    title: 'Reparação de Avarias Elétricas',
-    subtitle: 'Diagnóstico Rápido e Reparação Profissional',
-    description: 'Reparação de curto-circuitos, disjuntores que saltam, tomadas que não funcionam, quadros elétricos com problemas. Diagnóstico com equipamento profissional.',
+    slug: 'arranjacao-avarias',
+    title: 'Arranjo de Avarias Elétricas',
+    subtitle: 'Diagnóstico Rápido e Arranjo Profissional',
+    description: 'Arranjo de curto-circuitos, disjuntores que saltam, tomadas que não funcionam, quadros elétricos com problemas. Diagnóstico com equipamento profissional.',
     icon: '🔧',
     price: 'Desde 80€',
     priceDetails: 'Diagnóstico incluído',
@@ -128,23 +128,23 @@ export const SERVICES: Service[] = [
 
 **Testador Diferencial**: Verifica funcionamento do disjuntor diferencial (proteção contra choques).
 
-Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
+Diagnóstico preciso em 15-45 minutos. Orçamento antes de arranjar.`
         },
         {
-          title: 'Reparações Típicas',
-          content: `**Substituição disjuntor**: 75-95€ (inclui disjuntor). **Reparação tomada queimada**: 58-78€. **Substituição cabo danificado**: 110-160€ (até 10m). **Reparação curto-circuito**: 150-210€. **Substituição quadro elétrico**: 370-650€ (12 módulos). **Ligação terra**: 180-250€.
+          title: 'Arranjos Típicas',
+          content: `**Substituição disjuntor**: 75-95€ (inclui disjuntor). **Arranjo tomada queimada**: 58-78€. **Substituição cabo danificado**: 110-160€ (até 10m). **Arranjo curto-circuito**: 150-210€. **Substituição quadro elétrico**: 370-650€ (12 módulos). **Ligação terra**: 180-250€.
 
 **Urgências 24h**: Acréscimo 50€ (noturno/fins de semana). Chegamos em 15-90 minutos conforme localização.
 
-**Garantia**: 12 meses em todas as reparações. Se o problema voltar, reparamos gratuitamente.`
+**Garantia**: 12 meses em todas as arranjos. Se o problema voltar, arranjamos gratuitamente.`
         }
       ],
       cta: 'Avaria elétrica? **Ligue já 932 321 892** - Diagnóstico rápido!'
     },
     seo: {
-      metaTitle: 'Reparação Avarias Elétricas Bragança | Urgências 24h | Eletricista Profissional',
-      metaDescription: 'Reparação avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 80€. Ligue 932 321 892!',
-      keywords: ['reparação avaria elétrica', 'eletricista urgência bragança', 'disjuntor salta', 'curto-circuito']
+      metaTitle: 'Arranjo Avarias Elétricas Bragança | Urgências 24h | Eletricista Profissional',
+      metaDescription: 'Arranjo avarias elétricas em Bragança. Disjuntores, tomadas, curto-circuitos. Diagnóstico profissional. Urgências 24h. Desde 80€. Ligue 932 321 892!',
+      keywords: ['arranjo avaria elétrica', 'eletricista urgência bragança', 'disjuntor salta', 'curto-circuito']
     }
   },
 
@@ -328,7 +328,7 @@ Diagnóstico preciso em 15-45 minutos. Orçamento antes de reparar.`
 // Export categories for filtering
 export const SERVICE_CATEGORIES = [
   'Instalação',
-  'Reparação',
+  'Arranjo',
   'Quadros',
   'Iluminação',
   'Urgências',

@@ -35,7 +35,7 @@ export default function Braganca() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente bragança, eletricista 24 horas bragança, eletricista bragança, eletricista profissional bragança, instalação elétrica bragança, quadro elétrico bragança, certificação elétrica bragança, reparação elétrica bragança, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'eletricista urgente bragança, eletricista 24 horas bragança, eletricista bragança, eletricista profissional bragança, instalação elétrica bragança, quadro elétrico bragança, certificação elétrica bragança, arranjo elétrica bragança, eletricista trás-os-montes');
     
     
     // Canonical URL
@@ -55,7 +55,7 @@ export default function Braganca() {
       "@type": "LocalBusiness",
       "name": "Eletricista Profissional — Eletricista em Bragança",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Bragança, Trás-os-Montes. Instalação, reparação e certificação elétrica.",
+      "description": "Eletricista profissional em Bragança, Trás-os-Montes. Instalação, arranjo e certificação elétrica.",
       "address": getCityAddress('braganca'),
       "geo": {
         "@type": "GeoCoordinates",
@@ -300,7 +300,7 @@ export default function Braganca() {
               },
               {
                 question: "Como lidam com o clima frio de Bragança nos sistemas de aquecimento elétrico?",
-                answer: "Conhecemos bem as exigências do clima de Bragança. Instalamos e reparamos sistemas de aquecimento elétrico dimensionados para temperaturas negativas, com isolamento adequado e proteções contra gelo."
+                answer: "Conhecemos bem as exigências do clima de Bragança. Instalamos e arranjamos sistemas de aquecimento elétrico dimensionados para temperaturas negativas, com isolamento adequado e proteções contra gelo."
               },
               {
                 question: "Trabalham em edifícios históricos do centro de Bragança?",

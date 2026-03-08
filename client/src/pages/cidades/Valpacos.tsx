@@ -111,7 +111,7 @@ export default function Valpacos() {
                 { icon: Zap, title: "Instalações Agrícolas", desc: "Quadros elétricos para bombas de rega, lagares e armazéns agrícolas" },
                 { icon: Shield, title: "Sistemas Trifásicos", desc: "Instalação e manutenção de sistemas trifásicos para maquinaria agrícola" },
                 { icon: CheckCircle, title: "Iluminação de Olivais", desc: "Iluminação exterior para explorações, caminhos rurais e estufas" },
-                { icon: Zap, title: "Urgências Elétricas 24h", desc: "Reparação urgente de avarias em explorações e habitações" },
+                { icon: Zap, title: "Urgências Elétricas 24h", desc: "Arranjo urgente de avarias em explorações e habitações" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">

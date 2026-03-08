@@ -178,7 +178,7 @@ function LossCalculator() {
                 <div className="space-y-3 text-lg">
                   <p className="flex items-start gap-3">
                     <span className="text-green-600 font-bold">→</span>
-                    <span>Modernização/reparação custa aproximadamente <strong>€{result.repairCost}</strong></span>
+                    <span>Modernização/arranjo custa aproximadamente <strong>€{result.repairCost}</strong></span>
                   </p>
                   <p className="flex items-start gap-3">
                     <span className="text-green-600 font-bold">→</span>

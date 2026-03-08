@@ -35,7 +35,7 @@ export default function Chaves() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'eletricista urgente chaves, eletricista 24 horas chaves, eletricista chaves, eletricista profissional chaves, instalação elétrica chaves, quadro elétrico chaves, certificação elétrica chaves, reparação elétrica chaves, eletricista trás-os-montes');
+    metaKeywords.setAttribute('content', 'eletricista urgente chaves, eletricista 24 horas chaves, eletricista chaves, eletricista profissional chaves, instalação elétrica chaves, quadro elétrico chaves, certificação elétrica chaves, arranjo elétrica chaves, eletricista trás-os-montes');
     
     
     // Canonical URL
@@ -55,7 +55,7 @@ export default function Chaves() {
       "@type": "LocalBusiness",
       "name": "Eletricista Profissional — Eletricista em Chaves",
       "image": "/images-optimized/hero/hero-electrician-portugal.jpg",
-      "description": "Eletricista profissional em Chaves, Trás-os-Montes. Instalação, reparação e certificação elétrica para termas e turismo.",
+      "description": "Eletricista profissional em Chaves, Trás-os-Montes. Instalação, arranjo e certificação elétrica para termas e turismo.",
       "address": getCityAddress('chaves'),
       "geo": {
         "@type": "GeoCoordinates",

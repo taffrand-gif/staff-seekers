@@ -52,7 +52,7 @@ export default function QuadrosEletricos() {
               { title: "Modernização de Quadros", desc: "Substituição de quadros antigos com fusíveis por quadros modernos com disjuntores automáticos e diferencial. Mais segurança para a sua família.", icon: "⚡" },
               { title: "Instalação Nova", desc: "Instalação de quadros elétricos para construção nova ou ampliação. Dimensionamento correto para as necessidades da sua casa.", icon: "🏠" },
               { title: "Certificação CERTIEL", desc: "Emissão de certificado de conformidade CERTIEL após instalação ou modernização. Obrigatório para contratos de eletricidade.", icon: "📋" },
-              { title: "Reparação e Manutenção", desc: "Diagnóstico e reparação de quadros que disparam frequentemente, circuitos sobrecarregados e problemas de terra.", icon: "🔧" }
+              { title: "Arranjo e Manutenção", desc: "Diagnóstico e arranjo de quadros que disparam frequentemente, circuitos sobrecarregados e problemas de terra.", icon: "🔧" }
             ].map((service, i) => (
               <div key={i} className="p-6 border border-gray-200 rounded-xl hover:shadow-lg transition-shadow">
                 <span className="text-4xl mb-4 block">{service.icon}</span>

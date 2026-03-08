@@ -8,13 +8,13 @@ Plateforme multi-sites pour services de plomberie et électricité 24h/24 dans l
 - **Secteur** : Services de canalisations (plomberie)
 - **Téléphone** : 928 484 451
 - **Couleur principale** : Bleu (#1e40af)
-- **Services** : Reparação Fuga Água, Desentupimento, Instalação Esquentador, Substituição Canalização
+- **Services** : Arranjo Fuga Água, Desentupimento, Instalação Esquentador, Substituição Canalização
 
 ### 2. Staff-Seekers (eletricista-norte-reparos.pt)
 - **Secteur** : Services électriques
 - **Téléphone** : 932 321 892
 - **Couleur principale** : Orange (#ea580c)
-- **Services** : Substituição Quadro Elétrico, Instalação Tomadas, Reparação Curto-Circuito, Certificação DGEG
+- **Services** : Substituição Quadro Elétrico, Instalação Tomadas, Arranjo Curto-Circuito, Certificação DGEG
 
 ## Design Philosophy : Brutalisme Numérique Fonctionnel
 

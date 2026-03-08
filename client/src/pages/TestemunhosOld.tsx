@@ -209,7 +209,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Bragança",
         rating: 5,
         date: "Janeiro 2026",
-        service: "Reparação de fuga de água",
+        service: "Arranjo de fuga de água",
         text: "Excelente serviço! Tive uma fuga de água às 3 da manhã e a equipa chegou em menos de 40 minutos. Resolveram o problema rapidamente e deixaram tudo limpo. Muito profissionais!"
       },
       {
@@ -233,7 +233,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Mogadouro",
         rating: 5,
         date: "Outubro 2025",
-        service: "Reparação de autoclismo",
+        service: "Arranjo de autoclismo",
         text: "Rapidez e eficiência. Liguei de manhã e à tarde já estava resolvido. O técnico foi muito simpático e o preço foi honesto. Vou guardar o contacto!"
       },
       {
@@ -257,7 +257,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Torre de Moncorvo",
         rating: 5,
         date: "Julho 2025",
-        service: "Reparação de caldeira",
+        service: "Arranjo de caldeira",
         text: "Excelente atendimento. A caldeira avariou e fiquei sem água quente. Vieram no próprio dia e resolveram tudo. Técnico muito competente e educado."
       },
       {
@@ -284,7 +284,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Bragança",
         rating: 5,
         date: "Janeiro 2026",
-        service: "Reparação de curto-circuito",
+        service: "Arranjo de curto-circuito",
         text: "Serviço de urgência excelente! Tive um curto-circuito à noite e a equipa chegou em 30 minutos. Resolveram tudo com segurança e profissionalismo. Muito bom!"
       },
       {
@@ -316,7 +316,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Miranda do Douro",
         rating: 5,
         date: "Setembro 2025",
-        service: "Reparação de disjuntor",
+        service: "Arranjo de disjuntor",
         text: "O disjuntor saltava constantemente. Vieram, identificaram o problema e resolveram na hora. Serviço rápido e eficaz. Muito satisfeito!"
       },
       {
@@ -348,7 +348,7 @@ function getTestimonials(serviceType: 'plomberie' | 'electricite'): Testimonial[
         city: "Alfândega da Fé",
         rating: 5,
         date: "Maio 2025",
-        service: "Reparação urgente",
+        service: "Arranjo urgente",
         text: "Fiquei sem luz à noite e eles vieram de imediato. Resolveram o problema em menos de uma hora. Serviço de urgência impecável. Muito obrigado!"
       },
     ];

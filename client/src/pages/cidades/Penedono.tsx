@@ -111,7 +111,7 @@ export default function Penedono() {
                 { icon: Zap, title: "Casas de Granito", desc: "Remodelação elétrica respeitando a arquitetura tradicional em pedra" },
                 { icon: Shield, title: "Iluminação Monumental", desc: "LED para castelos, muralhas e edifícios históricos classificados" },
                 { icon: CheckCircle, title: "Turismo Rural", desc: "Instalações para casas de campo e alojamento local em pedra" },
-                { icon: Zap, title: "Urgências Elétricas", desc: "Reparação urgente de avarias em habitações e comércio" },
+                { icon: Zap, title: "Urgências Elétricas", desc: "Arranjo urgente de avarias em habitações e comércio" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">

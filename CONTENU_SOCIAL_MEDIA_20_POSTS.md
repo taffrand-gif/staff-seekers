@@ -173,7 +173,7 @@ As temperaturas negativas podem congelar e rebentar tubagens.
 Tubagem rebentou?
 🚨 URGÊNCIA 24H: 928 484 451
 
-Prevenção é sempre mais barato que reparação!
+Prevenção é sempre mais barato que arranjo!
 
 #Inverno #Bragança #DicasCanalizador
 ```
@@ -192,7 +192,7 @@ Prevenção é sempre mais barato que reparação!
 
 Serviços completos:
 ✅ Instalação de esquentadores novos
-✅ Reparação de avarias
+✅ Arranjo de avarias
 ✅ Manutenção preventiva
 ✅ Substituição de peças
 ✅ Certificação de gás
@@ -201,7 +201,7 @@ Trabalhamos com todas as marcas:
 Vulcano | Junkers | Ariston | Roca
 
 💰 Instalação desde 150€
-💰 Reparação desde 70€
+💰 Arranjo desde 70€
 
 Orçamento GRATUITO sem compromisso!
 
@@ -509,7 +509,7 @@ SOLUÇÃO:
 Quadro moderno certificado desde 450€
 
 ✅ Segurança máxima
-✅ Preparado para futuro
+✅ Parranjado para futuro
 ✅ Garantia 12 meses
 ✅ Instalação em 3-6h
 
@@ -682,7 +682,7 @@ Emergências elétricas não avisam 😉
 
 1. **Criar contas Facebook/Instagram** (se ainda não tem)
 2. **Configurar perfis** (bio, foto, informações)
-3. **Preparar 10 imagens** (fotos ou Canva)
+3. **Parranjar 10 imagens** (fotos ou Canva)
 4. **Programar 10 posts** (Meta Business Suite)
 5. **Monitorizar engagement** (likes, comentários, partilhas)
 6. **Responder comentários** (em 24h)

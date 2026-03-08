@@ -127,13 +127,13 @@ export default function Galeria() {
 function getGalleryImages(serviceType: 'plomberie' | 'electricite'): GalleryImage[] {
   if (serviceType === 'plomberie') {
     return [
-      { url: IMAGES.plomberie.hero, alt: "Reparação profissional de canalização", category: "Reparações" },
+      { url: IMAGES.plomberie.hero, alt: "Arranjo profissional de canalização", category: "Arranjos" },
       { url: IMAGES.plomberie.van, alt: "Viatura de serviço equipada", category: "Equipamento" },
       { url: IMAGES.plomberie.emergency, alt: "Serviço de urgência 24h", category: "Urgências" },
       { url: IMAGES.gallery[0], alt: "Instalação de torneira moderna", category: "Instalações" },
       { url: IMAGES.gallery[1], alt: "Manutenção preventiva", category: "Manutenção" },
       { url: IMAGES.gallery[2], alt: "Desentupimento de canalização", category: "Desentupimentos" },
-      { url: IMAGES.gallery[3], alt: "Reparação de fuga de água", category: "Reparações" },
+      { url: IMAGES.gallery[3], alt: "Arranjo de fuga de água", category: "Arranjos" },
       { url: IMAGES.gallery[4], alt: "Instalação de esquentador", category: "Instalações" },
     ];
   } else {
@@ -141,11 +141,11 @@ function getGalleryImages(serviceType: 'plomberie' | 'electricite'): GalleryImag
       { url: IMAGES.electricite.hero, alt: "Instalação de quadro elétrico", category: "Instalações" },
       { url: IMAGES.electricite.wiring, alt: "Instalação de fiação elétrica", category: "Instalações" },
       { url: IMAGES.electricite.emergency, alt: "Serviço de urgência 24h", category: "Urgências" },
-      { url: IMAGES.gallery[0], alt: "Reparação de curto-circuito", category: "Reparações" },
+      { url: IMAGES.gallery[0], alt: "Arranjo de curto-circuito", category: "Arranjos" },
       { url: IMAGES.gallery[1], alt: "Instalação de tomadas", category: "Instalações" },
       { url: IMAGES.gallery[2], alt: "Certificação elétrica", category: "Certificação" },
       { url: IMAGES.gallery[3], alt: "Instalação de iluminação LED", category: "Iluminação" },
-      { url: IMAGES.gallery[4], alt: "Substituição de disjuntor", category: "Reparações" },
+      { url: IMAGES.gallery[4], alt: "Substituição de disjuntor", category: "Arranjos" },
     ];
   }
 }

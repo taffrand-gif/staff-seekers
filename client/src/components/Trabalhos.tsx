@@ -31,9 +31,9 @@ function Trabalhos() {
       image: '/images-optimized/services/service-desentupimentos.jpg',
     },
     {
-      title: 'Reparação de Fuga em Condomínio',
+      title: 'Arranjo de Fuga em Condomínio',
       location: 'Miranda do Douro',
-      description: 'Deteção e reparação de fuga de água em canalização enterrada sem danificar estruturas existentes.',
+      description: 'Deteção e arranjo de fuga de água em canalização enterrada sem danificar estruturas existentes.',
       image: '/images-optimized/services/service-urgencia.jpg',
     },
     {
@@ -76,9 +76,9 @@ function Trabalhos() {
       image: '/images-optimized/services/service-iluminacao.jpg',
     },
     {
-      title: 'Reparação de Curto-Circuito',
+      title: 'Arranjo de Curto-Circuito',
       location: 'Vinhais',
-      description: 'Diagnóstico e reparação de curto-circuito que causava disparo frequente do disjuntor principal.',
+      description: 'Diagnóstico e arranjo de curto-circuito que causava disparo frequente do disjuntor principal.',
       image: '/images-optimized/services/service-urgencia.jpg',
     },
     {

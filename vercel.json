@@ -14,8 +14,8 @@
       "destination": "/melhores-eletricistas-:city.html"
     },
     {
-      "source": "/reparacao-:service-:city",
-      "destination": "/reparacao-:service-:city.html"
+      "source": "/arranjacao-:service-:city",
+      "destination": "/arranjacao-:service-:city.html"
     },
     {
       "source": "/urgencia-:service-:city",

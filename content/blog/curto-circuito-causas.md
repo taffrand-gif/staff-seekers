@@ -163,7 +163,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 
 **Solução:**
 - Descartar aparelho defeituoso
-- NÃO tentar reparar (risco!)
+- NÃO tentar arranjar (risco!)
 - Substituir por aparelho certificado (CE)
 
 **Prevenção:**
@@ -194,7 +194,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Cheiro a queimado após chuva
 
 **Solução:**
-- Reparar infiltrações €200-2.000
+- Arranjar infiltrações €200-2.000
 - Instalar disjuntor diferencial (obrigatório)
 - Tomadas IP44 em zonas húmidas
 - Secar instalação antes de religar
@@ -452,7 +452,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
    - Ligue 112
    - Saia de casa
 
-## Custos de Prevenção vs Reparação
+## Custos de Prevenção vs Arranjo
 
 ### Prevenção (Investimento Inteligente):
 
@@ -464,9 +464,9 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 | Manutenção anual | €80-150 | Curtos-circuitos |
 | **TOTAL PREVENÇÃO** | **€410-880** | **Incêndio €50.000+** |
 
-### Reparação (Depois do Desastre):
+### Arranjo (Depois do Desastre):
 
-| Dano | Custo Reparação |
+| Dano | Custo Arranjo |
 |------|-----------------|
 | Aparelhos queimados | €500-5.000 |
 | Rewiring parcial | €1.000-3.000 |
@@ -483,7 +483,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 | Serviço | Preço Normal | Preço Urgente (24h) |
 |---------|--------------|---------------------|
 | Diagnóstico curto-circuito | €60-120 | €120-200 |
-| Reparar circuito | €100-300 | €200-500 |
+| Arranjar circuito | €100-300 | €200-500 |
 | Substituir disjuntor | €60-120 | €120-200 |
 | Instalar diferencial | €100-180 | €180-300 |
 | Rewiring parcial (1 divisão) | €500-1.500 | €1.000-2.500 |
@@ -508,7 +508,7 @@ R: Inspeção €150-400, manutenção anual €80-150, proteções €200-400. 
 R: SIM! 30+ anos = risco alto. Fios deteriorados, sem terra, subdimensionada. Rewiring €3.000-8.000 salva vidas.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €60-120, reparação €100-500. Urgente 24h: +50-100%. Staff Seekers: **932 321 892**
+R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. Staff Seekers: **932 321 892**
 
 ## Conclusão: Prevenção Salva Vidas
 

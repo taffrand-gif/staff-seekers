@@ -209,7 +209,7 @@ Sitemap: https://eletricista-norte-reparos.pt/sitemap.xml
 ## Serviços e Preços Indicativos
 | Serviço | Preço Base |
 |---------|-----------|
-| Reparação de tomada/interruptor | a partir de 40€ |
+| Arranjo de tomada/interruptor | a partir de 40€ |
 ...
 ```
 
@@ -490,7 +490,7 @@ Pages à indexer en priorité:
 **Pourquoi:** Trafic informationnel + autorité thématique
 
 **Calendrier éditorial:**
-- **Mars 2026:** "Preparar instalação elétrica para inverno"
+- **Mars 2026:** "Parranjar instalação elétrica para inverno"
 - **Avril 2026:** "Certificação CERTIEL: guia completo 2026"
 - **Mai 2026:** "Painéis solares em Trás-os-Montes: vale a pena?"
 - **Juin 2026:** "Ar condicionado: escolher potência certa"

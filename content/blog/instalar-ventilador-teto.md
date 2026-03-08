@@ -88,7 +88,7 @@ priority: "SEASONAL"
 
 **Desvantagens:**
 ❌ Muito caro (€200-500)  
-❌ Reparação mais cara
+❌ Arranjo mais cara
 
 **Ideal para:** Uso intensivo, quartos de bebé
 
@@ -157,7 +157,7 @@ priority: "SEASONAL"
 
 ## 🔧 Passo a Passo: Instalação de Ventilador de Teto
 
-### Preparação (CRÍTICO - 15-20 minutos)
+### Parranjo (CRÍTICO - 15-20 minutos)
 
 **Passo 1: Verificar a estrutura do teto**
 

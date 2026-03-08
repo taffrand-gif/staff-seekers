@@ -60,7 +60,7 @@ export const electriciteConfig: ServiceConfig = {
   
   services: [
     'Instalação Elétrica Completa',
-    'Reparação de Avarias Elétricas',
+    'Arranjo de Avarias Elétricas',
     'Quadros Elétricos Modernos',
     'Iluminação Interior/Exterior',
     'Certificação CERTIEL',

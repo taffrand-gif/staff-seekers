@@ -25,8 +25,8 @@ function FAQLocal() {
       answer: 'O preço de um desentupimento em Bragança varia entre 50€ e 120€ (sem IVA), dependendo da complexidade. Desentupimentos simples de sanita ou lavatório: 50-80€. Desentupimentos de canalização principal: 80-120€. Incluímos deslocação e diagnóstico no preço. Orçamento gratuito por telefone.',
     },
     {
-      question: 'Fazem reparação de fugas de água em Macedo de Cavaleiros?',
-      answer: 'Sim, Macedo de Cavaleiros é a nossa base de operações. Reparamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: menos de 20 minutos para urgências. Preços a partir de 60€ (sem IVA).',
+      question: 'Fazem arranjo de fugas de água em Macedo de Cavaleiros?',
+      answer: 'Sim, Macedo de Cavaleiros é a nossa base de operações. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: menos de 20 minutos para urgências. Preços a partir de 60€ (sem IVA).',
     },
     {
       question: 'Há canalizador de urgência em Miranda do Douro?',
@@ -47,7 +47,7 @@ function FAQLocal() {
     },
     {
       question: 'Quanto custa um eletricista em Bragança?',
-      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (80-120€), reparação urgente (150-210€), substituição de quadro elétrico 12 módulos (370-650€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
+      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (80-120€), arranjo urgente (150-210€), substituição de quadro elétrico 12 módulos (370-650€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
     },
     {
       question: 'Fazem certificação CERTIEL em Macedo de Cavaleiros?',

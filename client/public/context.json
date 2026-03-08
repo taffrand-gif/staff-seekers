@@ -23,7 +23,7 @@
       {"name": "Quadro elétrico (instalação/upgrade)", "price_range": "200€-600€"},
       {"name": "Certificação CERTIEL", "price_range": "150€-300€"},
       {"name": "Instalação elétrica completa", "price_range": "1500€-5000€"},
-      {"name": "Reparação tomadas/interruptores", "price_range": "30€-60€"},
+      {"name": "Arranjo tomadas/interruptores", "price_range": "30€-60€"},
       {"name": "Iluminação interior/exterior", "price_range": "50€-200€"},
       {"name": "Aquecimento elétrico", "price_range": "100€-500€"}
     ],

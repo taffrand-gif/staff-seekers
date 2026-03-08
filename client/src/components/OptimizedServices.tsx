@@ -5,7 +5,7 @@ import OptimizedImage from './OptimizedImage';
 // Images de services pour électricité — utiliser les fichiers .jpg disponibles
 const electricServiceImages: Record<string, string> = {
   'Instalação Elétrica Completa': 'service-instalacao.jpg',
-  'Reparação de Avarias Elétricas': 'service-urgencia.jpg',
+  'Arranjo de Avarias Elétricas': 'service-urgencia.jpg',
   'Quadros Elétricos Modernos': 'service-quadro-eletrico.jpg',
   'Iluminação Interior/Exterior': 'service-iluminacao.jpg',
   'Certificação CERTIEL': 'service-certificacao.jpg',
@@ -15,7 +15,7 @@ const electricServiceImages: Record<string, string> = {
 // Images de services pour plomberie
 const plumbServiceImages: Record<string, string> = {
   'Desentupimentos': 'service-desentupimentos.jpg',
-  'Reparação de Fugas de Água': 'service-sala-banho.jpg',
+  'Arranjo de Fugas de Água': 'service-sala-banho.jpg',
   'Instalação Sanitários': 'service-instalacao.jpg',
   'Aquecimento Central': 'service-aquecimento.jpg',
   'Canalização Nova': 'service-instalacao.jpg',
@@ -25,7 +25,7 @@ const plumbServiceImages: Record<string, string> = {
 // Descriptions pour électricité
 const electricDescriptions: Record<string, string> = {
   'Instalação Elétrica Completa': 'Instalação elétrica residencial e comercial completa, desde o quadro principal até às tomadas finais, com materiais de qualidade e cumprimento das normas de segurança.',
-  'Reparação de Avarias Elétricas': 'Diagnóstico e reparação rápida de avarias elétricas, curtos-circuitos, disjuntores que disparam, falhas de iluminação e outros problemas elétricos.',
+  'Arranjo de Avarias Elétricas': 'Diagnóstico e arranjo rápida de avarias elétricas, curtos-circuitos, disjuntores que disparam, falhas de iluminação e outros problemas elétricos.',
   'Quadros Elétricos Modernos': 'Substituição e modernização de quadros elétricos antigos, instalação de disjuntores diferenciais, organização e identificação de circuitos.',
   'Iluminação Interior/Exterior': 'Projeto e instalação de sistemas de iluminação interior e exterior, spots LED, iluminação decorativa, sensores de movimento e automatização.',
   'Certificação CERTIEL': 'Inspeção e certificação elétrica obrigatória para venda e arrendamento de imóveis, com emissão de certificado válido e registado na CERTIEL.',
@@ -35,7 +35,7 @@ const electricDescriptions: Record<string, string> = {
 // Descriptions pour plomberie
 const plumbDescriptions: Record<string, string> = {
   'Desentupimentos': 'Desentupimento profissional de canalizações, WC, pias, ralos e redes de esgotos com equipamento especializado.',
-  'Reparação de Fugas de Água': 'Deteção e reparação de fugas de água em canalizações, torneiras, autoclismos e tubagens, com intervenção rápida e eficaz.',
+  'Arranjo de Fugas de Água': 'Deteção e arranjo de fugas de água em canalizações, torneiras, autoclismos e tubagens, com intervenção rápida e eficaz.',
   'Instalação Sanitários': 'Instalação completa de equipamentos sanitários: sanitas, lavatórios, banheiras, bases de duche e acessórios de casa de banho.',
   'Aquecimento Central': 'Instalação e manutenção de sistemas de aquecimento central, caldeiras, radiadores e sistemas de água quente.',
   'Canalização Nova': 'Instalação de canalização nova para construções, remodelações e ampliações, com materiais certificados.',
@@ -49,9 +49,9 @@ const electricFeatures: Record<string, string[]> = {
     'Cumprimento normativo RCCTE',
     'Garantia na instalação'
   ],
-  'Reparação de Avarias Elétricas': [
+  'Arranjo de Avarias Elétricas': [
     'Diagnóstico no local',
-    'Reparação rápida',
+    'Arranjo rápida',
     'Peças originais com garantia'
   ],
   'Quadros Elétricos Modernos': [
@@ -83,9 +83,9 @@ const plumbFeatures: Record<string, string[]> = {
     'Desentupimento sem danos',
     'Limpeza completa'
   ],
-  'Reparação de Fugas de Água': [
+  'Arranjo de Fugas de Água': [
     'Deteção precisa de fugas',
-    'Reparação definitiva',
+    'Arranjo definitiva',
     'Garantia no serviço'
   ],
   'Instalação Sanitários': [
@@ -120,8 +120,8 @@ const OptimizedServices: React.FC = () => {
 
   // Construire la liste des services à partir de serviceConfig
   const services = isPlumber
-    ? ['Desentupimentos', 'Reparação de Fugas de Água', 'Instalação Sanitários', 'Aquecimento Central', 'Canalização Nova', 'Urgências 24h']
-    : ['Instalação Elétrica Completa', 'Reparação de Avarias Elétricas', 'Quadros Elétricos Modernos', 'Iluminação Interior/Exterior', 'Certificação CERTIEL', 'Urgências 24h'];
+    ? ['Desentupimentos', 'Arranjo de Fugas de Água', 'Instalação Sanitários', 'Aquecimento Central', 'Canalização Nova', 'Urgências 24h']
+    : ['Instalação Elétrica Completa', 'Arranjo de Avarias Elétricas', 'Quadros Elétricos Modernos', 'Iluminação Interior/Exterior', 'Certificação CERTIEL', 'Urgências 24h'];
 
   const sectionTitle = isPlumber ? 'Canalização' : 'Eletricidade';
   const accentColor = isPlumber ? 'text-blue-600' : 'text-amber-600';

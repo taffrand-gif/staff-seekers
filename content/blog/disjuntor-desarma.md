@@ -118,7 +118,7 @@ Fase e neutro tocam-se diretamente (sem resistência), criando corrente enorme (
 - **NÃO tente resolver sozinho!**
 - Chame eletricista urgente: **[932 321 892](tel:+351932321892)**
 - Pode ser: cabo partido, tomada danificada, ligação solta, água infiltrada
-- Custo reparação: €60-300
+- Custo arranjo: €60-300
 
 ### Causa 3: Fuga de Corrente (Diferencial Desarma) (20% dos casos)
 
@@ -226,7 +226,7 @@ Neutro solto, partido ou com mau contacto. Corrente não retorna corretamente, d
 
 **⚠️ MUITO PERIGOSO: Risco de eletrocussão e incêndio!**
 
-**Solução: Reparar neutro (€80-300)**
+**Solução: Arranjar neutro (€80-300)**
 
 **EMERGÊNCIA - Chame eletricista imediatamente:**
 - Não use eletricidade
@@ -261,7 +261,7 @@ Raio próximo ou manobra na rede cria sobretensão (> 300V). Danifica aparelhos 
 
 Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instalações novas).
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY (Faça Você Mesmo)
 
@@ -273,7 +273,7 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 
 **NÃO faça sozinho:**
 - Trabalhos no quadro elétrico
-- Reparação de curto-circuitos
+- Arranjo de curto-circuitos
 - Substituição de cabos
 - Qualquer trabalho com corrente ligada
 
@@ -283,17 +283,17 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 |---------|-------------------------|
 | Diagnóstico completo | €40-80 |
 | Substituir disjuntor | €50-140 |
-| Reparar curto-circuito simples | €60-150 |
-| Reparar curto-circuito em parede | €150-400 |
+| Arranjar curto-circuito simples | €60-150 |
+| Arranjar curto-circuito em parede | €150-400 |
 | Aumentar capacidade circuito | €80-200 |
 | Criar circuito novo | €150-400 |
-| Reparar fuga de corrente | €80-250 |
+| Arranjar fuga de corrente | €80-250 |
 | Reapertar ligações quadro | €60-120 |
-| Reparar problema no neutro | €80-300 |
+| Arranjar problema no neutro | €80-300 |
 | Instalar protetor sobretensão | €120-250 |
 | Urgência 24h | +€50-80 |
 
-> 💡 **Disjuntor desarma constantemente?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico em 30 minutos, reparação urgente.
+> 💡 **Disjuntor desarma constantemente?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico em 30 minutos, arranjo urgente.
 
 ## 🔍 Como Diagnosticar o Problema
 
@@ -407,7 +407,7 @@ Geralmente: termoacumulador a aquecer + outros aparelhos = sobrecarga. Ou frigor
 Só se o cabo suportar. Cabo 1,5mm² = máximo 16A. Cabo 2,5mm² = máximo 20A. Cabo 4mm² = máximo 25A. Colocar disjuntor maior que o cabo suporta = risco de incêndio (cabo aquece mas disjuntor não desarma).
 
 **4. Diferencial desarma quando chove, é normal?**
-Não. Indica infiltração de água em caixa de derivação, tomada exterior, ou cabo danificado. Água cria fuga para terra. Precisa localizar e reparar infiltração. Não ignore (risco de choque).
+Não. Indica infiltração de água em caixa de derivação, tomada exterior, ou cabo danificado. Água cria fuga para terra. Precisa localizar e arranjar infiltração. Não ignore (risco de choque).
 
 **5. Quanto tempo dura um disjuntor?**
 15-25 anos com uso normal. Fatores que reduzem vida útil: sobrecargas frequentes, curto-circuitos, ambiente húmido, má qualidade. Substitua se > 20 anos ou funciona mal.
@@ -427,7 +427,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 
 **Causas mais comuns:**
 1. **Sobrecarga** (40%) → Distribuir aparelhos ou aumentar capacidade
-2. **Curto-circuito** (25%) → Identificar e reparar (URGENTE)
+2. **Curto-circuito** (25%) → Identificar e arranjar (URGENTE)
 3. **Fuga de corrente** (20%) → Localizar aparelho ou ponto com fuga
 4. **Disjuntor defeituoso** (8%) → Substituir
 
@@ -458,7 +458,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 
 ✅ Atendimento 24 horas (urgências elétricas)  
 ✅ Diagnóstico rápido em 30 minutos  
-✅ Reparação imediata  
+✅ Arranjo imediata  
 ✅ Equipamento de deteção profissional  
 ✅ Garantia 1 ano no serviço  
 ✅ Certificado CERTIEL se necessário  

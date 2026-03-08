@@ -397,7 +397,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - **Custo:** €60-120 diagnóstico
 
 **2. Curto-circuito na instalação:**
-- Localizar e reparar
+- Localizar e arranjar
 - **Custo:** €100-500
 
 **3. Upgrade para disjuntores:**
@@ -470,7 +470,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 |---------|--------------|---------------|
 | Diagnóstico | €60-120 | €120-200 |
 | Substituir fusível | €30-60 | €60-100 |
-| Reparar curto | €100-300 | €200-500 |
+| Arranjar curto | €100-300 | €200-500 |
 | Upgrade quadro básico | €400-800 | €700-1.200 |
 | Upgrade quadro completo | €800-1.500 | €1.400-2.500 |
 
@@ -502,7 +502,7 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. Staff Seekers: **932 321
 📞 **Ligue Agora: 932 321 892**
 - ✅ Diagnóstico problema elétrico €60-120
 - ✅ Upgrade fusíveis → disjuntores €400-1.200
-- ✅ Reparar curto-circuito €100-500
+- ✅ Arranjar curto-circuito €100-500
 - ✅ Quadro elétrico moderno completo
 - ✅ Certificação CERTIEL incluída
 - ✅ Garantia 12 meses

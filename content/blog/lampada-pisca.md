@@ -363,7 +363,7 @@ Se nenhum teste anterior identificou o problema:
 | Diagnóstico completo | €60-100 |
 | Substituir casquilho | €45-95 |
 | Substituir interruptor | €43-95 |
-| Reparar ligação solta | €60-120 |
+| Arranjar ligação solta | €60-120 |
 | Substituir dimmer por LED | €65-140 |
 | Criar circuito dedicado | €150-400 |
 | Substituir cabo | €100-300 |
@@ -419,7 +419,7 @@ Corrente residual no circuito (comum com interruptores luminosos). Solução: in
 **2. Lâmpada pisca só em dimmer. É normal?**  
 Não. Dimmer incompatível com LED ou lâmpada não dimerizável. Use dimmer LED específico + lâmpada dimerizável.
 
-**3. Quanto custa reparar lâmpada que pisca?**  
+**3. Quanto custa arranjar lâmpada que pisca?**  
 DIY: €0-20. Profissional: €40-120 (depende da causa).
 
 **4. Posso usar lâmpada LED em dimmer antigo?**  
@@ -464,7 +464,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 **✅ Garantias Staff Seekers:**
 - Eletricistas certificados com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
-- Reparação rápida (30-90 minutos)
+- Arranjo rápida (30-90 minutos)
 - Materiais de qualidade (Philips, Legrand, Schneider)
 - Garantia de 2 anos no trabalho
 - Disponível 24/7 para urgências

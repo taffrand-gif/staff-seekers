@@ -6,7 +6,7 @@ export default function Equipa() {
     {
       icon: <Award className="w-10 h-10" />,
       stat: '350+',
-      label: 'Instalações Reparadas',
+      label: 'Instalações Arranjadas',
       desc: 'Casas de pedra de Bragança, quadros dos anos 70 de Macedo. Já vi tudo, já resolvi tudo.',
     },
     {

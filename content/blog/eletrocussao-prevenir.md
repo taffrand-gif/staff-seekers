@@ -59,7 +59,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - ❌ Abrir quadro sem conhecimento
 - ❌ Mexer disjuntores molhado
 - ❌ Tocar barramentos
-- ❌ Reparar sem desligar geral
+- ❌ Arranjar sem desligar geral
 
 **Sempre**:
 - ✅ Chamar eletricista certificado
@@ -122,7 +122,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Cheiro queimado
 - Faíscas
 
-**Ação**: Desligar imediatamente, não usar, reparar/substituir
+**Ação**: Desligar imediatamente, não usar, arranjar/substituir
 
 ## 🛡️ Prevenção Eletrocussão
 

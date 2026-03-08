@@ -538,7 +538,7 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 - Ativação primavera
 - Hibernação outono
 - Manutenção anual
-- Reparações urgentes
+- Arranjos urgentes
 - Contratos disponíveis
 
 ## 🌍 Cobertura

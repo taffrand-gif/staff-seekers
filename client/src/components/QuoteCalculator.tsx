@@ -11,17 +11,17 @@ function QuoteCalculator() {
   const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
 
   const services = isPlumber ? [
-    { id: 'fuga', name: 'Reparação de Fuga de Água', base: 80, urgent: 120, icon: '💧' },
+    { id: 'fuga', name: 'Arranjo de Fuga de Água', base: 80, urgent: 120, icon: '💧' },
     { id: 'desentupimento', name: 'Desentupimento', base: 60, urgent: 90, icon: '🚿' },
-    { id: 'esquentador', name: 'Reparação Esquentador', base: 90, urgent: 130, icon: '🔥' },
+    { id: 'esquentador', name: 'Arranjo Esquentador', base: 90, urgent: 130, icon: '🔥' },
     { id: 'torneira', name: 'Substituição Torneira', base: 50, urgent: 75, icon: '🚰' },
-    { id: 'sanita', name: 'Reparação Sanita', base: 70, urgent: 100, icon: '🚽' },
+    { id: 'sanita', name: 'Arranjo Sanita', base: 70, urgent: 100, icon: '🚽' },
     { id: 'canalizacao', name: 'Instalação Canalização Nova', base: 150, urgent: 200, icon: '🔧' },
   ] : [
-    { id: 'quadro', name: 'Reparação Quadro Elétrico', base: 100, urgent: 150, icon: '⚡' },
+    { id: 'quadro', name: 'Arranjo Quadro Elétrico', base: 100, urgent: 150, icon: '⚡' },
     { id: 'tomada', name: 'Instalação Tomada/Interruptor', base: 40, urgent: 60, icon: '🔌' },
     { id: 'iluminacao', name: 'Instalação Iluminação', base: 60, urgent: 90, icon: '💡' },
-    { id: 'avaria', name: 'Reparação Avaria Urgente', base: 80, urgent: 120, icon: '🚨' },
+    { id: 'avaria', name: 'Arranjo Avaria Urgente', base: 80, urgent: 120, icon: '🚨' },
     { id: 'certificacao', name: 'Certificação CERTIEL', base: 120, urgent: 180, icon: '📋' },
     { id: 'instalacao', name: 'Instalação Elétrica Nova', base: 200, urgent: 280, icon: '🏗️' },
   ];

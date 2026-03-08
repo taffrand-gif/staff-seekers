@@ -214,7 +214,7 @@ priority: "HIGH DEMAND"
 **5. Danos graves**
 - Queimado, derretido
 - Rachado ou partido
-- Não é seguro reparar
+- Não é seguro arranjar
 
 **6. Não cumpre normas atuais**
 - RTIEBT (Regras Técnicas)
@@ -266,7 +266,7 @@ priority: "HIGH DEMAND"
 
 **Custo total:** €500-2.000 (dependendo da complexidade)
 
-## 💰 Custos de Manutenção e Reparação
+## 💰 Custos de Manutenção e Arranjo
 
 ### Manutenção Preventiva
 
@@ -278,7 +278,7 @@ priority: "HIGH DEMAND"
 | Inspeção profissional anual | €80-150 |
 | Termografia (detetar pontos quentes) | €100-200 |
 
-### Reparações
+### Arranjos
 
 | Serviço | Preço |
 |---------|-------|
@@ -286,7 +286,7 @@ priority: "HIGH DEMAND"
 | Substituir diferencial | €80-150 |
 | Reapertar ligações | €60-120 |
 | Adicionar circuito novo | €80-200 |
-| Reparar oxidação/humidade | €80-200 |
+| Arranjar oxidação/humidade | €80-200 |
 
 ### Substituição Completa
 
@@ -309,7 +309,7 @@ priority: "HIGH DEMAND"
 ❌ Trabalhe no quadro sem desligar disjuntor geral  
 ❌ Use água para limpar  
 ❌ Force disjuntores a ficar ligados  
-❌ Faça reparações sem conhecimentos  
+❌ Faça arranjos sem conhecimentos  
 ❌ Deixe quadro aberto (crianças, animais)
 
 **SEMPRE:**

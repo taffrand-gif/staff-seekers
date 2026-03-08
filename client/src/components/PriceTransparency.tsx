@@ -52,7 +52,7 @@ function PriceTransparency() {
       items: [
         'Sem stress',
         'Sem surpresas desagradáveis',
-        'Reparação definitiva',
+        'Arranjo definitiva',
         'Tranquilidade total',
         'Confiança 100%'
       ],

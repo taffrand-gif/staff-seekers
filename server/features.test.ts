@@ -6,7 +6,7 @@ describe("Bookings API", () => {
       name: "João Silva",
       email: "joao@example.com",
       phone: "928484451",
-      serviceType: "Reparação de Fugas",
+      serviceType: "Arranjo de Fugas",
       address: "Rua Principal 123",
       city: "Bragança",
       preferredDate: new Date().toISOString(),
@@ -38,11 +38,11 @@ describe("Gallery API", () => {
   it("should have valid photo structure", () => {
     const photo = {
       id: 1,
-      title: "Reparação de Canalização",
+      title: "Arranjo de Canalização",
       description: "Antes e depois",
       beforeImageUrl: "https://example.com/before.jpg",
       afterImageUrl: "https://example.com/after.jpg",
-      category: "Reparações",
+      category: "Arranjos",
       city: "Bragança",
       displayOrder: 1,
     };

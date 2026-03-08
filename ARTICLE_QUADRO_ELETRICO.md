@@ -82,7 +82,7 @@ O aquecimento indica mau contacto nas ligações elétricas, sobrecarga ou compo
 
 **Perigo iminente:** Um quadro quente representa risco de incêndio iminente. Não ignore este sinal.
 
-**Caso real em Macedo de Cavaleiros:** Fomos chamados às 23h por um cliente que sentiu o quadro "muito quente" e cheiro a queimado. Ao abrir o quadro, encontramos ligações oxidadas e um disjuntor parcialmente derretido. Desligamos a alimentação geral e fizemos reparação de emergência. O cliente evitou um incêndio por poucas horas.
+**Caso real em Macedo de Cavaleiros:** Fomos chamados às 23h por um cliente que sentiu o quadro "muito quente" e cheiro a queimado. Ao abrir o quadro, encontramos ligações oxidadas e um disjuntor parcialmente derretido. Desligamos a alimentação geral e fizemos arranjo de emergência. O cliente evitou um incêndio por poucas horas.
 
 **Ação imediata:** Desligue o disjuntor geral e contacte um electricista certificado urgentemente. Não utilize a instalação até resolução do problema.
 
@@ -92,7 +92,7 @@ O aquecimento indica mau contacto nas ligações elétricas, sobrecarga ou compo
 
 **O problema:** A vida útil recomendada de um quadro elétrico é de aproximadamente 25 a 30 anos. Após este período, componentes deterioram-se, tecnologias tornam-se obsoletas e riscos aumentam significativamente.
 
-Quadros instalados antes do ano 2000 geralmente não cumprem as normas atuais do RTIEBT. Não possuem proteção adequada contra sobretensões, não têm capacidade para as cargas modernas e utilizam componentes que já não são fabricados (dificultando reparações).
+Quadros instalados antes do ano 2000 geralmente não cumprem as normas atuais do RTIEBT. Não possuem proteção adequada contra sobretensões, não têm capacidade para as cargas modernas e utilizam componentes que já não são fabricados (dificultando arranjos).
 
 **Evolução das necessidades energéticas:**
 - **Anos 1980:** Potência média 3,45 kVA, poucos eletrodomésticos
@@ -190,7 +190,7 @@ Disjuntores gastos ou ligações oxidadas geram resistência elétrica, desperdi
 
 ## 10. Planos de Instalar Painéis Solares ou Veículo Elétrico
 
-**O problema:** Quer instalar painéis fotovoltaicos ou carregar um veículo elétrico em casa, mas o quadro atual não está preparado para estas tecnologias.
+**O problema:** Quer instalar painéis fotovoltaicos ou carregar um veículo elétrico em casa, mas o quadro atual não está parranjado para estas tecnologias.
 
 Sistemas solares requerem proteções específicas, inversores e contadores bidirecionais. Carregamento de veículos elétricos exige circuitos dedicados de alta potência (geralmente 32A monofásico ou trifásico).
 
@@ -207,7 +207,7 @@ Sistemas solares requerem proteções específicas, inversores e contadores bidi
 
 **Caso real em Bragança:** Cliente instalou painéis solares mas o quadro de 1995 não tinha espaço nem proteções adequadas. Instalamos quadro moderno com secção dedicada para produção solar, incluindo proteções AC/DC e contador bidirecional.
 
-**Investimento:** Quadro preparado para solar/EV: 800€ a 1.500€.
+**Investimento:** Quadro parranjado para solar/EV: 800€ a 1.500€.
 
 **Retorno:** Essencial para aproveitar incentivos governamentais e maximizar poupanças energéticas.
 
@@ -329,7 +329,7 @@ Mesmo com quadro novo, recomendamos manutenção anual:
 
 Um quadro elétrico moderno e bem mantido é fundamental para a segurança da sua casa e família. Os 10 sinais apresentados neste guia são indicadores claros de que chegou o momento de substituir o seu quadro.
 
-Não espere por uma avaria grave ou, pior, um incêndio. A substituição preventiva é sempre mais económica e segura do que reparações de emergência ou reconstrução após sinistros.
+Não espere por uma avaria grave ou, pior, um incêndio. A substituição preventiva é sempre mais económica e segura do que arranjos de emergência ou reconstrução após sinistros.
 
 Em Bragança e todo o distrito de Trás-os-Montes, estamos disponíveis 24 horas por dia para urgências elétricas e agendamentos de substituição de quadros. Com mais de 10 anos de experiência, centenas de clientes satisfeitos e certificação DGEG, garantimos trabalho de qualidade com preços transparentes.
 
@@ -354,7 +354,7 @@ Em Bragança e todo o distrito de Trás-os-Montes, estamos disponíveis 24 horas
 **Artigos relacionados:**
 - Como Detetar Fugas de Corrente em Casa
 - Guia Completo de Certificação Elétrica DGEG
-- Preparar a Casa para Painéis Solares
+- Parranjar a Casa para Painéis Solares
 - Instalação de Carregador para Veículo Elétrico
 
 **Partilhe este artigo** se achou útil. Pode salvar a vida de alguém.

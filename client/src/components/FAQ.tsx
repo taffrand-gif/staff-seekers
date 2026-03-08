@@ -20,7 +20,7 @@ function FAQ() {
   const faqs = useMemo(() => [
     {
       question: 'Quanto custa um eletricista urgente em Bragança?',
-      answer: 'O custo de um eletricista urgente em Bragança varia entre €80-200 dependendo do serviço. Reparação de avarias elétricas custa €100-180, quadros elétricos €150-300, certificação CERTIEL €150. Deslocação urgente: €15. Orçamento grátis pelo 932 321 892.',
+      answer: 'O custo de um eletricista urgente em Bragança varia entre €80-200 dependendo do serviço. Arranjo de avarias elétricas custa €100-180, quadros elétricos €150-300, certificação CERTIEL €150. Deslocação urgente: €15. Orçamento grátis pelo 932 321 892.',
     },
     {
       question: 'Quanto tempo demora a chegar um eletricista urgente?',
@@ -28,7 +28,7 @@ function FAQ() {
     },
     {
       question: 'O que fazer em caso de curto-circuito perigoso?',
-      answer: 'Em caso de curto-circuito: 1) Desligue o disjuntor geral imediatamente, 2) Não toque em fios expostos ou tomadas, 3) Afaste-se de cheiro a queimado, 4) Ligue imediatamente para 932 321 892. Chegamos em 40 minutos. Nunca tente reparar sozinho - risco de eletrocussão.',
+      answer: 'Em caso de curto-circuito: 1) Desligue o disjuntor geral imediatamente, 2) Não toque em fios expostos ou tomadas, 3) Afaste-se de cheiro a queimado, 4) Ligue imediatamente para 932 321 892. Chegamos em 40 minutos. Nunca tente arranjar sozinho - risco de eletrocussão.',
     },
     {
       question: 'Eletricista precisa de certificado CERTIEL?',
@@ -48,7 +48,7 @@ function FAQ() {
     },
     {
       question: 'Qual a garantia do trabalho de eletricista?',
-      answer: 'Oferecemos garantia de 12 meses em todas as instalações elétricas e 6 meses em reparações. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais. Certificado CERTIEL e garantia fornecidos após conclusão.',
+      answer: 'Oferecemos garantia de 12 meses em todas as instalações elétricas e 6 meses em arranjos. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais. Certificado CERTIEL e garantia fornecidos após conclusão.',
     },
     {
       question: 'O que está incluído no serviço de eletricista?',

@@ -9,7 +9,7 @@ export interface FAQItem {
 export const electricFaqs: FAQItem[] = [
   {
     question: "Quanto custa um eletricista em Trás-os-Montes?",
-    answer: "Os preços variam conforme o serviço: diagnóstico 80-120€, instalação de tomada nova 138-182€, substituição tomada 66-90€, reparação curto-circuito 150-210€, quadro elétrico 12 módulos 370-650€. Oferecemos preço fixo confirmado por telefone. Contacte-nos para orçamento sem compromisso."
+    answer: "Os preços variam conforme o serviço: diagnóstico 80-120€, instalação de tomada nova 138-182€, substituição tomada 66-90€, arranjo curto-circuito 150-210€, quadro elétrico 12 módulos 370-650€. Oferecemos preço fixo confirmado por telefone. Contacte-nos para orçamento sem compromisso."
   },
   {
     question: "Como funciona o orçamento gratuito?",
@@ -29,7 +29,7 @@ export const electricFaqs: FAQItem[] = [
   },
   {
     question: "Quais os serviços elétricos que oferecem?",
-    answer: "Instalação elétrica completa, reparação de avarias, quadros elétricos novos, certificação CERTIEL, painéis solares, iluminação interior/exterior, tomadas e interruptores, automação residencial, instalação de ar condicionado, urgências elétricas."
+    answer: "Instalação elétrica completa, arranjo de avarias, quadros elétricos novos, certificação CERTIEL, painéis solares, iluminação interior/exterior, tomadas e interruptores, automação residencial, instalação de ar condicionado, urgências elétricas."
   },
   {
     question: "Fazem certificação elétrica CERTIEL?",
@@ -49,7 +49,7 @@ export const electricFaqs: FAQItem[] = [
   },
   {
     question: "Quanto tempo demora uma instalação elétrica nova?",
-    answer: "Uma instalação completa numa casa média (T3) leva 3-5 dias. Instalação de quadro elétrico: 1 dia. Reparação de avaria simples: 1-2 horas. Projetos complexos (painéis solares, automação) podem levar 1-2 semanas."
+    answer: "Uma instalação completa numa casa média (T3) leva 3-5 dias. Instalação de quadro elétrico: 1 dia. Arranjo de avaria simples: 1-2 horas. Projetos complexos (painéis solares, automação) podem levar 1-2 semanas."
   },
   {
     question: "Dão garantia no trabalho realizado?",
@@ -69,7 +69,7 @@ export const electricFaqs: FAQItem[] = [
   },
   {
     question: "Quando devo chamar um eletricista?",
-    answer: "Ao primeiro sinal de problema: falta de luz parcial/total, disjuntores que saltam, cheiro a queimado, tomadas quentes. Não tente reparar sozinho - riscos de eletrocussão e incêndio são reais."
+    answer: "Ao primeiro sinal de problema: falta de luz parcial/total, disjuntores que saltam, cheiro a queimado, tomadas quentes. Não tente arranjar sozinho - riscos de eletrocussão e incêndio são reais."
   },
   {
     question: "Usam equipamento profissional?",
@@ -92,7 +92,7 @@ export const electricFaqs: FAQItem[] = [
 export const plumberFaqs: FAQItem[] = [
   {
     question: "Quanto custa um canalizador em Trás-os-Montes?",
-    answer: "Os preços variam conforme o serviço: desentupimento simples a partir de 50€, reparação de fuga a partir de 60€, instalação de esquentador a partir de 150€. Oferecemos orçamento gratuito sem compromisso."
+    answer: "Os preços variam conforme o serviço: desentupimento simples a partir de 50€, arranjo de fuga a partir de 60€, instalação de esquentador a partir de 150€. Oferecemos orçamento gratuito sem compromisso."
   },
   {
     question: "Como funciona o orçamento gratuito?",
@@ -112,7 +112,7 @@ export const plumberFaqs: FAQItem[] = [
   },
   {
     question: "Quais os serviços de canalização que oferecem?",
-    answer: "Reparação de fugas, desentupimentos, instalação de esquentadores e caldeiras, substituição de canalização, instalação de sanitas e lavatórios, reparação de autoclismos, deteção de fugas, urgências 24h."
+    answer: "Arranjo de fugas, desentupimentos, instalação de esquentadores e caldeiras, substituição de canalização, instalação de sanitas e lavatórios, arranjo de autoclismos, deteção de fugas, urgências 24h."
   },
   {
     question: "Fazem certificação de gás?",

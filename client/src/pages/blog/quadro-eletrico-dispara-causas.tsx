@@ -38,10 +38,10 @@ export default function QuadroEletricoDisparaCausas() {
               },
               {
                 "@type": "Question",
-                "name": "Quanto custa reparar quadro elétrico em Bragança?",
+                "name": "Quanto custa arranjar quadro elétrico em Bragança?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Diagnóstico: 40-60€. Substituição disjuntor: 80-150€. Reparação curto-circuito: 100-250€. Atualização quadro completo: 400-800€. Preços variam conforme complexidade e urgência."
+                  "text": "Diagnóstico: 40-60€. Substituição disjuntor: 80-150€. Arranjo curto-circuito: 100-250€. Atualização quadro completo: 400-800€. Preços variam conforme complexidade e urgência."
                 }
               },
               {
@@ -124,7 +124,7 @@ export default function QuadroEletricoDisparaCausas() {
             <li>Aparelhos com fios internos danificados</li>
           </ul>
           <p>
-            <strong>Solução:</strong> NUNCA tente reparar sozinho. Desligue o disjuntor, identifique o circuito afetado e contacte eletricista certificado imediatamente. Risco de incêndio é elevado.
+            <strong>Solução:</strong> NUNCA tente arranjar sozinho. Desligue o disjuntor, identifique o circuito afetado e contacte eletricista certificado imediatamente. Risco de incêndio é elevado.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -151,7 +151,7 @@ export default function QuadroEletricoDisparaCausas() {
               Precisa de Eletricista Certificado em Bragança?
             </h3>
             <p className="text-gray-800 mb-4">
-              Diagnóstico rápido e reparação profissional. Intervenção em 2-4 horas. Certificação CERTIEL garantida.
+              Diagnóstico rápido e arranjo profissional. Intervenção em 2-4 horas. Certificação CERTIEL garantida.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
@@ -267,7 +267,7 @@ export default function QuadroEletricoDisparaCausas() {
 
           <div className="bg-gray-50 rounded-lg p-6 my-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Tabela de Preços: Reparações Quadro Elétrico em Bragança
+              Tabela de Preços: Arranjos Quadro Elétrico em Bragança
             </h3>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-200">
@@ -301,7 +301,7 @@ export default function QuadroEletricoDisparaCausas() {
                     <td className="px-6 py-4 text-sm text-gray-900">200-280€</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">Reparação curto-circuito</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Arranjo curto-circuito</td>
                     <td className="px-6 py-4 text-sm text-gray-900">100-250€</td>
                     <td className="px-6 py-4 text-sm text-gray-900">180-350€</td>
                   </tr>
@@ -370,10 +370,10 @@ export default function QuadroEletricoDisparaCausas() {
 
             <div className="border-l-4 border-orange-600 pl-4">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Quanto custa reparar quadro elétrico em Bragança?
+                Quanto custa arranjar quadro elétrico em Bragança?
               </h3>
               <p className="text-gray-700">
-                Diagnóstico: 40-60€. Substituição disjuntor: 80-150€. Reparação curto-circuito: 100-250€. Atualização quadro completo: 400-800€. Preços variam conforme complexidade e urgência.
+                Diagnóstico: 40-60€. Substituição disjuntor: 80-150€. Arranjo curto-circuito: 100-250€. Atualização quadro completo: 400-800€. Preços variam conforme complexidade e urgência.
               </p>
             </div>
 
@@ -392,7 +392,7 @@ export default function QuadroEletricoDisparaCausas() {
               Quadro Elétrico a Disparar? Resolvemos Hoje!
             </h3>
             <p className="text-gray-800 mb-6">
-              Eletricistas certificados CERTIEL em Bragança e Trás-os-Montes. Diagnóstico rápido, reparação profissional, garantia 2 anos. Intervenção urgente em 2-4 horas.
+              Eletricistas certificados CERTIEL em Bragança e Trás-os-Montes. Diagnóstico rápido, arranjo profissional, garantia 2 anos. Intervenção urgente em 2-4 horas.
             </p>
             <ul className="space-y-2 mb-6 text-gray-800">
               <li className="flex items-start">
@@ -441,8 +441,8 @@ export default function QuadroEletricoDisparaCausas() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/reparacao-eletrica" className="text-orange-600 hover:text-orange-700">
-                  → Reparação Elétrica Urgente 24h
+                <Link href="/servicos/arranjacao-eletrica" className="text-orange-600 hover:text-orange-700">
+                  → Arranjo Elétrica Urgente 24h
                 </Link>
               </li>
               <li>

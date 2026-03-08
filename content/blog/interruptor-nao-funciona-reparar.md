@@ -1,15 +1,15 @@
 ---
-title: "Interruptor Não Funciona? 7 Causas e Como Reparar"
-slug: "interruptor-nao-funciona-reparar"
-category: "Reparações Elétricas"
+title: "Interruptor Não Funciona? 7 Causas e Como Arranjar"
+slug: "interruptor-nao-funciona-arranjar"
+category: "Arranjos Elétricas"
 date: "2026-03-04"
 author: "Staff Seekers"
 excerpt: "Interruptor não liga a luz? Descubra as 7 causas principais (lâmpada queimada 35%, interruptor defeituoso 30%, disjuntor desarmado 20%) e como resolver em Trás-os-Montes."
-keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "interruptor defeituoso", "reparar interruptor", "eletricista Trás-os-Montes", "trocar interruptor"]
+keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "interruptor defeituoso", "arranjar interruptor", "eletricista Trás-os-Montes", "trocar interruptor"]
 priority: "HIGH DEMAND"
 ---
 
-# Interruptor Não Funciona? 7 Causas e Como Reparar
+# Interruptor Não Funciona? 7 Causas e Como Arranjar
 
 **Carregou no interruptor e a luz não acendeu?** Este é um dos problemas elétricos mais comuns em casa, mas pode ter várias causas - desde uma simples lâmpada queimada até problemas graves na instalação elétrica.
 
@@ -19,7 +19,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - ✅ As 7 causas principais de interruptor que não funciona
 - ✅ Diagnóstico passo a passo (5 minutos)
 - ✅ O que pode resolver sozinho vs quando chamar eletricista
-- ✅ Custos de reparação em Trás-os-Montes
+- ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Como prevenir o problema
 - ✅ Quando é emergência elétrica
 
@@ -67,7 +67,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA** - substituir interruptor
 
-**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente reparar sozinho.
+**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
 
 **Custo:** €40-70 (substituir interruptor)  
 **Tempo:** 30 minutos  
@@ -94,7 +94,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Se desarmar novamente:** **CHAMAR ELETRICISTA** - há problema grave (curto-circuito ou sobrecarga).
 
-**Custo:** €0 (se for apenas rearmar) ou €80-150 (se precisar reparação)
+**Custo:** €0 (se for apenas rearmar) ou €80-150 (se precisar arranjo)
 
 ---
 
@@ -145,9 +145,9 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Causa:** Fio partido, solto ou mal ligado no interruptor ou casquilho.
 
-**Solução:** **CHAMAR ELETRICISTA** - reparar ligação
+**Solução:** **CHAMAR ELETRICISTA** - arranjar ligação
 
-**Custo:** €50-100 (reparar ligação)  
+**Custo:** €50-100 (arranjar ligação)  
 **Tempo:** 30-60 minutos
 
 ---
@@ -166,7 +166,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **⚠️ PERIGO:** Não abra o quadro elétrico. Risco de choque elétrico fatal.
 
-**Custo:** €100-300 (reparação no quadro)  
+**Custo:** €100-300 (arranjo no quadro)  
 **Tempo:** 1-3 horas
 
 ---
@@ -237,7 +237,7 @@ O problema é:
 
 ---
 
-## 💰 Custos de Reparação em Trás-os-Montes (2026)
+## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
 ### Soluções DIY
 
@@ -249,16 +249,16 @@ O problema é:
 
 **Total DIY:** €0-12
 
-### Reparações Profissionais
+### Arranjos Profissionais
 
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor simples | €40-70 | 30 min | 2 anos |
 | Substituir interruptor duplo | €60-90 | 45 min | 2 anos |
 | Substituir casquilho | €30-60 | 20 min | 1 ano |
-| Reparar ligação (fio solto) | €50-100 | 30-60 min | 1 ano |
+| Arranjar ligação (fio solto) | €50-100 | 30-60 min | 1 ano |
 | Substituir fio completo | €80-150 | 1-2h | 2 anos |
-| Reparação no quadro | €100-300 | 1-3h | 2 anos |
+| Arranjo no quadro | €100-300 | 1-3h | 2 anos |
 | Emergência 24h | +50% | Imediato | 30 dias |
 
 ### Upgrades Recomendados
@@ -336,7 +336,7 @@ O problema é:
 
 **Resposta:** **SIM, muito grave!** Estalidos indicam **arco elétrico** (faíscas internas) que pode causar incêndio. Desligue o disjuntor e chame eletricista URGENTE. Não use o interruptor.
 
-### 8. Posso deixar interruptor partido sem reparar?
+### 8. Posso deixar interruptor partido sem arranjar?
 
 **Resposta:** **NÃO!** Interruptor partido expõe contactos elétricos - risco de choque elétrico (especialmente crianças). Cubra com fita isoladora TEMPORARIAMENTE e chame eletricista no mesmo dia.
 
@@ -346,7 +346,7 @@ O problema é:
 
 **70% dos casos** de "interruptor não funciona" são lâmpada queimada (€3-12) ou disjuntor desarmado (€0). Vale a pena fazer diagnóstico simples antes de chamar eletricista.
 
-**Mas se o problema for o interruptor:** Não tente reparar sozinho. Risco de choque elétrico não compensa economia de €40-70.
+**Mas se o problema for o interruptor:** Não tente arranjar sozinho. Risco de choque elétrico não compensa economia de €40-70.
 
 **Sinais de EMERGÊNCIA (chamar 24h):**
 - Interruptor quente

@@ -28,9 +28,9 @@ describe("Quotes API", () => {
       phone: "912345678",
       city: "Bragança",
       address: "Rua das Flores, 123",
-      serviceType: "Reparação de fugas de água",
+      serviceType: "Arranjo de fugas de água",
       urgency: "normal" as const,
-      description: "Tenho uma fuga de água na casa de banho que precisa de ser reparada urgentemente.",
+      description: "Tenho uma fuga de água na casa de banho que precisa de ser arranjada urgentemente.",
     };
 
     const result = await caller.quotes.create(quoteData);
@@ -43,7 +43,7 @@ describe("Quotes API", () => {
       email: "joao@example.com",
       phone: "912345678",
       city: "Bragança",
-      serviceType: "Reparação de fugas de água",
+      serviceType: "Arranjo de fugas de água",
       urgency: "normal" as const,
       description: "Tenho uma fuga de água na casa de banho.",
     };
@@ -57,7 +57,7 @@ describe("Quotes API", () => {
       email: "invalid-email",
       phone: "912345678",
       city: "Bragança",
-      serviceType: "Reparação de fugas de água",
+      serviceType: "Arranjo de fugas de água",
       urgency: "normal" as const,
       description: "Tenho uma fuga de água na casa de banho.",
     };
@@ -71,7 +71,7 @@ describe("Quotes API", () => {
       email: "joao@example.com",
       phone: "912345678",
       city: "Bragança",
-      serviceType: "Reparação de fugas de água",
+      serviceType: "Arranjo de fugas de água",
       urgency: "normal" as const,
       description: "Curto",
     };

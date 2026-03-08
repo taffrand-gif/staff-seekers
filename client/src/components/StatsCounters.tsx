@@ -66,7 +66,7 @@ export default function StatsCounters() {
 
   const stats = isPlumber
     ? [
-        { value: 500, suffix: '+', label: 'Canalizações Reparadas', icon: '💧' },
+        { value: 500, suffix: '+', label: 'Canalizações Arranjadas', icon: '💧' },
         { value: 10, suffix: '+', label: 'Anos de Experiência', icon: '⭐' },
         { value: 40, label: 'Min Chegada a Bragança', icon: '⏱️' },
         { value: 4.9, suffix: '/5', label: 'Avaliação Clientes', icon: '🌟' },

@@ -242,7 +242,7 @@ export default function QuantoCustaEletricistaBraganca() {
                     <td className="px-6 py-4 text-sm text-gray-900">40-80€</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">Reparação curto-circuito</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Arranjo curto-circuito</td>
                     <td className="px-6 py-4 text-sm text-gray-900">100-300€</td>
                   </tr>
                   <tr>
@@ -321,7 +321,7 @@ export default function QuantoCustaEletricistaBraganca() {
             <li>Domótica/automação: +800-2.500€</li>
             <li>Videoporteiro: +300-600€</li>
             <li>Alarme integrado: +400-800€</li>
-            <li>Preparação painéis solares: +500-1.000€</li>
+            <li>Parranjo painéis solares: +500-1.000€</li>
             <li>Carregador veículo elétrico: +800-1.500€</li>
           </ul>
 
@@ -484,8 +484,8 @@ export default function QuantoCustaEletricistaBraganca() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/reparacao-eletrica" className="text-orange-600 hover:text-orange-700">
-                  → Reparação Elétrica Urgente 24h
+                <Link href="/servicos/arranjacao-eletrica" className="text-orange-600 hover:text-orange-700">
+                  → Arranjo Elétrica Urgente 24h
                 </Link>
               </li>
             </ul>

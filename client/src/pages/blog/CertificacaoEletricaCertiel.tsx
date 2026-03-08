@@ -127,7 +127,7 @@ export default function CertificacaoEletricaCertiel() {
                   </tbody>
                 </table>
                 <p className="text-sm text-gray-500 mt-4">
-                  * Preços incluem inspeção e emissão do certificado. Não incluem eventuais reparações necessárias.
+                  * Preços incluem inspeção e emissão do certificado. Não incluem eventuais arranjos necessárias.
                 </p>
               </div>
             </section>

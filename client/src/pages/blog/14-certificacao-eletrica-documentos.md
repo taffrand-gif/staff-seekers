@@ -67,7 +67,7 @@ tags: ['certificação elétrica', 'documentos', 'processo', 'legal', 'seguranç
 **Resposta:** Sim, desde 2015 é obrigatório apresentar certificado elétrico válido.
 
 ### O que acontece se não passar na vistoria?
-**Resposta:** Emitimos relatório com correções necessárias e fazemos as reparações antes de nova vistoria.
+**Resposta:** Emitimos relatório com correções necessárias e fazemos as arranjos antes de nova vistoria.
 
 ## Conclusão: Solução Profissional em Trás-os-Montes
 

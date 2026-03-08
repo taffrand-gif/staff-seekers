@@ -121,7 +121,7 @@ export const siteConfig: SiteConfig = {
   services: [
     { id: 'quadro-eletrico', label: 'Substituição Quadro Elétrico', basePrice: 200 },
     { id: 'tomadas', label: 'Instalação Tomadas', basePrice: 50 },
-    { id: 'curto-circuito', label: 'Reparação Curto-Circuito', basePrice: 90 },
+    { id: 'curto-circuito', label: 'Arranjo Curto-Circuito', basePrice: 90 },
     { id: 'certificacao', label: 'Certificação CERTIEL', basePrice: 180 },
   ],
 
@@ -152,7 +152,7 @@ export const siteConfig: SiteConfig = {
       location: "Aldeia isolada perto de Vinhais",
       situation: "Trovoada, toda a aldeia tem luz menos a casa do Sr. José.",
       emotion: "Isolamento total, arca cheia de carne que se vai estragar.",
-      solution: "Intervenção 4x4, reparação do disjuntor diferencial que \"queimou\" com o raio."
+      solution: "Intervenção 4x4, arranjo do disjuntor diferencial que \"queimou\" com o raio."
     }
   ],
 

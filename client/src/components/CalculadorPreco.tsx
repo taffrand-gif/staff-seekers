@@ -21,27 +21,27 @@ const servicesElec = [
 ];
 
 const servicesPlumb = [
-  { label: 'Reparação de Torneira', min: 60, max: 80 },
+  { label: 'Arranjo de Torneira', min: 60, max: 80 },
   { label: 'Deteção de Fuga', min: 100, max: 150 },
   { label: 'Substituição de Cano', min: 150, max: 250 },
   { label: 'Desentupimento Simples', min: 40, max: 60 },
   { label: 'Fuga de Água Visível', min: 60, max: 90 },
-  { label: 'Fuga Oculta (deteção + reparação)', min: 120, max: 250 },
+  { label: 'Fuga Oculta (deteção + arranjo)', min: 120, max: 250 },
   { label: 'Esquentador (instalação)', min: 200, max: 400 },
-  { label: 'Esquentador (reparação)', min: 50, max: 120 },
+  { label: 'Esquentador (arranjo)', min: 50, max: 120 },
   { label: 'Casa de Banho Completa', min: 800, max: 1800 },
 ];
 
 const examplesPlumb = [
   { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
-  { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
+  { icon: '💧', label: 'Arranjo de torneira', price: '40-80€' },
   { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
   { icon: '🔍', label: 'Deteção de fuga', price: '150€ (FLIR: 280€)' },
 ];
 
 const examplesElec = [
   { icon: '🔌', label: 'Instalação de tomada', price: '50-105€' },
-  { icon: '⚡', label: 'Reparação de quadro elétrico', price: '105-210€' },
+  { icon: '⚡', label: 'Arranjo de quadro elétrico', price: '105-210€' },
   { icon: '💡', label: 'Instalação de candeeiro', price: '50-105€' },
   { icon: '📋', label: 'Certificação elétrica', price: '150-350€' },
 ];

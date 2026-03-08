@@ -8,7 +8,7 @@ export default function PriceTable() {
   // Tabela de preços para eletricidade (sem IVA)
   const electricPrices = [
     {
-      service: "Pequena Reparação",
+      service: "Pequena Arranjo",
       description: "Tomadas, interruptores, pontos de luz",
       price: "35€ - 70€",
       details: ["30 min - 1h de trabalho", "Pequeno material incluído", "Deslocação à parte"],

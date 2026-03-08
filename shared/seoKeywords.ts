@@ -24,7 +24,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL macedo de cavaleiros',
       'eletricista 24 horas macedo de cavaleiros',
       'preço eletricista macedo de cavaleiros',
-      'reparação elétrica macedo de cavaleiros'
+      'arranjo elétrica macedo de cavaleiros'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-macedo-de-cavaleiros'
   },
@@ -40,7 +40,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL bragança',
       'eletricista 24 horas bragança',
       'preço eletricista bragança',
-      'reparação elétrica bragança'
+      'arranjo elétrica bragança'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-braganca'
   },
@@ -56,7 +56,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL mirandela',
       'eletricista 24 horas mirandela',
       'preço eletricista mirandela',
-      'reparação elétrica mirandela'
+      'arranjo elétrica mirandela'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-mirandela'
   },
@@ -72,7 +72,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL chaves',
       'eletricista 24 horas chaves',
       'preço eletricista chaves',
-      'reparação elétrica chaves'
+      'arranjo elétrica chaves'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-chaves'
   },
@@ -88,7 +88,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL valpaços',
       'eletricista 24 horas valpaços',
       'preço eletricista valpaços',
-      'reparação elétrica valpaços'
+      'arranjo elétrica valpaços'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-valpacos'
   },
@@ -104,7 +104,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL vinhais',
       'eletricista 24 horas vinhais',
       'preço eletricista vinhais',
-      'reparação elétrica vinhais'
+      'arranjo elétrica vinhais'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-vinhais'
   },
@@ -120,7 +120,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL miranda do douro',
       'eletricista 24 horas miranda do douro',
       'preço eletricista miranda do douro',
-      'reparação elétrica miranda do douro'
+      'arranjo elétrica miranda do douro'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-miranda-do-douro'
   },
@@ -136,7 +136,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL mogadouro',
       'eletricista 24 horas mogadouro',
       'preço eletricista mogadouro',
-      'reparação elétrica mogadouro'
+      'arranjo elétrica mogadouro'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-mogadouro'
   },
@@ -152,7 +152,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL torre de moncorvo',
       'eletricista 24 horas torre de moncorvo',
       'preço eletricista torre de moncorvo',
-      'reparação elétrica torre de moncorvo'
+      'arranjo elétrica torre de moncorvo'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-torre-de-moncorvo'
   },
@@ -168,7 +168,7 @@ export const staffSeekersCitySEO: Record<string, CitySEOConfig> = {
       'certificação CERTIEL freixo de espada à cinta',
       'eletricista 24 horas freixo de espada à cinta',
       'preço eletricista freixo de espada à cinta',
-      'reparação elétrica freixo de espada à cinta'
+      'arranjo elétrica freixo de espada à cinta'
     ],
     canonicalUrl: 'https://eletricista-norte-reparos.pt/eletricista-freixo-de-espada-a-cinta'
   }

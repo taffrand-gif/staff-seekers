@@ -1,15 +1,15 @@
 ---
-title: "Cabo Elétrico Danificado? Como Identificar e Reparar"
-slug: "cabo-eletrico-danificado-reparar"
+title: "Cabo Elétrico Danificado? Como Identificar e Arranjar"
+slug: "cabo-eletrico-danificado-arranjar"
 category: "Segurança Elétrica"
 date: "2026-03-04"
 author: "Staff Seekers"
-excerpt: "Cabo elétrico cortado, derretido ou exposto é PERIGO DE INCÊNDIO! Descubra os 8 sinais de dano, quando substituir vs reparar, custos em Trás-os-Montes e como prevenir."
-keywords: ["cabo elétrico danificado", "fio elétrico cortado", "cabo derretido", "reparar cabo elétrico", "eletricista Trás-os-Montes", "substituir cabo", "segurança elétrica"]
+excerpt: "Cabo elétrico cortado, derretido ou exposto é PERIGO DE INCÊNDIO! Descubra os 8 sinais de dano, quando substituir vs arranjar, custos em Trás-os-Montes e como prevenir."
+keywords: ["cabo elétrico danificado", "fio elétrico cortado", "cabo derretido", "arranjar cabo elétrico", "eletricista Trás-os-Montes", "substituir cabo", "segurança elétrica"]
 priority: "HIGH DEMAND"
 ---
 
-# Cabo Elétrico Danificado? Como Identificar e Reparar
+# Cabo Elétrico Danificado? Como Identificar e Arranjar
 
 **Cabo elétrico com isolamento cortado? Fios expostos? Cabo derretido ou queimado?** Estes são sinais de **perigo grave** - risco de choque elétrico, curto-circuito e incêndio.
 
@@ -18,8 +18,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 **Neste guia completo**, vamos explicar:
 - ✅ 8 sinais de cabo elétrico danificado
 - ✅ Tipos de danos e gravidade
-- ✅ Quando substituir vs reparar
-- ✅ Como reparar temporariamente (emergência)
+- ✅ Quando substituir vs arranjar
+- ✅ Como arranjar temporariamente (emergência)
 - ✅ Custos de substituição em Trás-os-Montes
 - ✅ Como prevenir danos futuros
 
@@ -134,7 +134,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 - Cabo "remendado"
 
 **Causas comuns:**
-- Reparação caseira anterior
+- Arranjo caseira anterior
 - Cabo cortado e "consertado"
 
 **Perigo:** ⚠️⚠️ MÉDIO - Emendas mal feitas podem soltar-se
@@ -233,9 +233,9 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ---
 
-## 🔧 Reparar vs Substituir
+## 🔧 Arranjar vs Substituir
 
-### SEMPRE Substituir (Não Reparar) ❌
+### SEMPRE Substituir (Não Arranjar) ❌
 
 **Situações:**
 - Cabo derretido ou queimado
@@ -245,18 +245,18 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 - Cabo de instalação fixa danificado
 - Dano perto de ficha/tomada
 
-**Porquê:** Reparação não é segura a longo prazo. Risco não compensa economia.
+**Porquê:** Arranjo não é segura a longo prazo. Risco não compensa economia.
 
 ---
 
-### Pode Reparar Temporariamente ✅
+### Pode Arranjar Temporariamente ✅
 
 **Situações (APENAS emergência até eletricista chegar):**
 - Corte pequeno em cabo de aparelho
 - Isolamento ligeiramente danificado
 - Cabo de baixa potência (<500W)
 
-**Como reparar temporariamente:**
+**Como arranjar temporariamente:**
 1. Desligar aparelho
 2. Limpar área danificada
 3. Envolver com fita isoladora de alta qualidade
@@ -265,7 +265,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 6. **Usar apenas temporariamente** (dias, não meses)
 7. **Substituir assim que possível**
 
-**⚠️ ATENÇÃO:** Isto é solução TEMPORÁRIA. Não é reparação permanente!
+**⚠️ ATENÇÃO:** Isto é solução TEMPORÁRIA. Não é arranjo permanente!
 
 ---
 
@@ -391,9 +391,9 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ## ❓ Perguntas Frequentes (FAQ)
 
-### 1. Posso reparar cabo elétrico com fita isoladora?
+### 1. Posso arranjar cabo elétrico com fita isoladora?
 
-**Resposta:** Apenas **TEMPORARIAMENTE** (dias) em emergência. Fita isoladora não é reparação permanente - pode soltar-se, derreter ou falhar. **Substitua cabo assim que possível**.
+**Resposta:** Apenas **TEMPORARIAMENTE** (dias) em emergência. Fita isoladora não é arranjo permanente - pode soltar-se, derreter ou falhar. **Substitua cabo assim que possível**.
 
 ### 2. Cabo aquece durante uso. É normal?
 
@@ -413,15 +413,15 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ### 6. Animal roeu cabo. O que fazer?
 
-**Resposta:** Desligar disjuntor IMEDIATAMENTE. Se fios expostos: **PERIGO GRAVE**. Não tente reparar - substitua cabo completo. Proteja novos cabos com calhas rígidas.
+**Resposta:** Desligar disjuntor IMEDIATAMENTE. Se fios expostos: **PERIGO GRAVE**. Não tente arranjar - substitua cabo completo. Proteja novos cabos com calhas rígidas.
 
 ### 7. Cabo derreteu. Posso usar depois de arrefecer?
 
 **Resposta:** **NÃO!** Cabo derretido indica sobrecarga ou curto-circuito grave. Isolamento está comprometido. **Substitua cabo + investigue causa** (aparelho defeituoso? Sobrecarga?).
 
-### 8. Fita isoladora é suficiente para reparação permanente?
+### 8. Fita isoladora é suficiente para arranjo permanente?
 
-**Resposta:** **NÃO!** Fita isoladora é solução TEMPORÁRIA (dias/semanas). Com tempo: solta-se, degrada, perde isolamento. Reparação permanente = substituir cabo.
+**Resposta:** **NÃO!** Fita isoladora é solução TEMPORÁRIA (dias/semanas). Com tempo: solta-se, degrada, perde isolamento. Arranjo permanente = substituir cabo.
 
 ---
 

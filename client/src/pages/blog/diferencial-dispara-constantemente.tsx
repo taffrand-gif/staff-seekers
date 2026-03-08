@@ -224,7 +224,7 @@ export default function DiferencialDisparaConstantemente() {
                 <h4 className="font-bold text-gray-900 mb-2">Ligue Aparelhos Um a Um</h4>
                 <p className="text-gray-700">
                   Se diferencial ficou ligado, ligue aparelhos um a um esperando 30 segundos entre cada.
-                  O aparelho que causar disparo está avariado. <strong>→ Não use esse aparelho, mande reparar ou substitua.</strong>
+                  O aparelho que causar disparo está avariado. <strong>→ Não use esse aparelho, mande arranjar ou substitua.</strong>
                 </p>
               </div>
             </div>
@@ -241,7 +241,7 @@ export default function DiferencialDisparaConstantemente() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Preços de Reparação</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Preços de Arranjo</h2>
 
           <div className="overflow-x-auto my-8">
             <table className="min-w-full bg-white border border-gray-300">
@@ -264,7 +264,7 @@ export default function DiferencialDisparaConstantemente() {
                   <td className="px-6 py-4 text-sm text-gray-900">100-180€</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 text-sm font-semibold text-gray-900">Reparar fuga instalação</td>
+                  <td className="px-6 py-4 text-sm font-semibold text-gray-900">Arranjar fuga instalação</td>
                   <td className="px-6 py-4 text-sm text-gray-700">Isolar cabo, secar caixa, etc</td>
                   <td className="px-6 py-4 text-sm text-gray-900">80-200€</td>
                 </tr>
@@ -337,9 +337,9 @@ export default function DiferencialDisparaConstantemente() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h4 className="font-bold text-gray-900 mb-2">Quanto tempo demora a reparação?</h4>
+              <h4 className="font-bold text-gray-900 mb-2">Quanto tempo demora a arranjo?</h4>
               <p className="text-gray-700 mb-0">
-                Diagnóstico: 30-60 minutos. Substituição diferencial: 30 minutos. Reparação fuga instalação: 1-3 horas.
+                Diagnóstico: 30-60 minutos. Substituição diferencial: 30 minutos. Arranjo fuga instalação: 1-3 horas.
                 Substituição cabo: 2-4 horas. Urgências 24h disponíveis.
               </p>
             </div>
@@ -361,7 +361,7 @@ export default function DiferencialDisparaConstantemente() {
           </p>
 
           <p>
-            O investimento de 100-250€ numa reparação profissional previne choques elétricos fatais, incêndios e danos em aparelhos.
+            O investimento de 100-250€ numa arranjo profissional previne choques elétricos fatais, incêndios e danos em aparelhos.
             Em Trás-os-Montes, com inverno húmido e instalações antigas, a manutenção elétrica preventiva é essencial.
           </p>
         </div>

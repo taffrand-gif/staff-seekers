@@ -1,19 +1,19 @@
 ---
-title: "Campainha Não Funciona: 6 Causas e Como Reparar (2026)"
+title: "Campainha Não Funciona: 6 Causas e Como Arranjar (2026)"
 slug: "campainha-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
 author: "Staff Seekers"
-excerpt: "Campainha não toca ou sem som? Descubra as 6 causas principais (desde pilhas gastas até transformador avariado) e como reparar. Guia completo com diagnóstico passo a passo."
-keywords: ["campainha não funciona", "campainha não toca", "reparar campainha", "botão campainha", "eletricista Bragança", "campainha sem som"]
+excerpt: "Campainha não toca ou sem som? Descubra as 6 causas principais (desde pilhas gastas até transformador avariado) e como arranjar. Guia completo com diagnóstico passo a passo."
+keywords: ["campainha não funciona", "campainha não toca", "arranjar campainha", "botão campainha", "eletricista Bragança", "campainha sem som"]
 priority: "HIGH DEMAND"
 ---
 
-# Campainha Não Funciona: 6 Causas e Como Reparar (2026)
+# Campainha Não Funciona: 6 Causas e Como Arranjar (2026)
 
-**A campainha não toca quando carrega no botão?** Este é um problema irritante mas geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de campainhas que não funcionam e **como reparar cada uma**.
+**A campainha não toca quando carrega no botão?** Este é um problema irritante mas geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de campainhas que não funcionam e **como arranjar cada uma**.
 
-> ⚠️ **Precisa de ajuda profissional?** Eletricista certificado em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico e reparação rápida em 30 minutos.
+> ⚠️ **Precisa de ajuda profissional?** Eletricista certificado em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico e arranjo rápida em 30 minutos.
 
 ## 🔍 Tipos de Campainhas
 
@@ -221,7 +221,7 @@ Transformador queimou-se (sobrecarga, curto-circuito, fim de vida útil). Vida �
 **Por que acontece:**
 Cabo foi cortado acidentalmente, roído por roedores, ou desligou-se numa caixa de derivação.
 
-**Solução: Localizar e reparar cabo (€20-150)**
+**Solução: Localizar e arranjar cabo (€20-150)**
 
 **Diagnóstico:**
 
@@ -235,7 +235,7 @@ Cabo foi cortado acidentalmente, roído por roedores, ou desligou-se numa caixa 
    - Procure sinais de dano visível
    - Pode precisar detetor de cabos
 
-**Reparação:**
+**Arranjo:**
 
 **Se cabo acessível:**
 - Corte parte danificada
@@ -321,7 +321,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 - Frequência diferente
 - Custo: €30-80
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY (Faça Você Mesmo)
 
@@ -331,7 +331,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 | Substituir botão | €5-20 | Fácil | 15 min |
 | Substituir campainha | €10-40 | Fácil | 20 min |
 | Substituir transformador | €10-30 | Difícil | 30 min |
-| Reparar cabo acessível | €5-20 | Moderada | 30 min |
+| Arranjar cabo acessível | €5-20 | Moderada | 30 min |
 
 ### Soluções Profissionais
 
@@ -341,12 +341,12 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 | Substituir botão | €40-80 |
 | Substituir campainha | €50-100 |
 | Substituir transformador | €60-120 |
-| Reparar cabo em parede | €80-200 |
+| Arranjar cabo em parede | €80-200 |
 | Instalar campainha nova (com fios) | €80-180 |
 | Instalar campainha sem fios | €50-120 |
 | Urgência | +€30-50 |
 
-> 💡 **Campainha não funciona?** Eletricista em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, reparação garantida.
+> 💡 **Campainha não funciona?** Eletricista em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
 
 ## 🔍 Diagnóstico Passo a Passo
 
@@ -367,7 +367,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 **Passo 3: Teste os cabos**
 1. Teste continuidade entre transformador e campainha
 2. **Se há continuidade:** Cabos OK → Continue
-3. **Se não há continuidade:** Cabo partido → Reparar
+3. **Se não há continuidade:** Cabo partido → Arranjar
 
 **Passo 4: Teste a campainha**
 1. Ligue campainha diretamente ao transformador
@@ -496,14 +496,14 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20campainha%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido em 30 minutos  
-✅ Reparação ou instalação nova  
+✅ Arranjo ou instalação nova  
 ✅ Materiais em stock  
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-**Não fique sem campainha funcional!** Contacte-nos já para reparação rápida e garantida.
+**Não fique sem campainha funcional!** Contacte-nos já para arranjo rápida e garantida.
 
 ---
 

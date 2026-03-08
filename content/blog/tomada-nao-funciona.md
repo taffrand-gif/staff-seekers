@@ -5,7 +5,7 @@ category: "Problemas Elétricos"
 date: "2026-03-04"
 author: "Staff Seekers"
 excerpt: "Tomada não funciona ou sem corrente? Descubra as 8 causas principais (desde disjuntor desarmado até tomada queimada) e como resolver com segurança. Guia completo com diagnóstico."
-keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "reparar tomada", "eletricista Bragança", "tomada avariada"]
+keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada"]
 priority: "HIGH DEMAND"
 ---
 
@@ -76,7 +76,7 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 - **NÃO force!**
 - Há curto-circuito grave
 - Chame eletricista: **[932 321 892](tel:+351932321892)**
-- Custo reparação: €60-300
+- Custo arranjo: €60-300
 
 **Se ficar ligado:**
 - Problema resolvido
@@ -93,7 +93,7 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 **Por que acontece:**
 O aparelho está avariado, não a tomada.
 
-**Solução: Reparar ou substituir aparelho (€0-500)**
+**Solução: Arranjar ou substituir aparelho (€0-500)**
 
 **Teste:**
 1. Ligue o aparelho noutra tomada
@@ -206,14 +206,14 @@ Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade
 **Por que acontece:**
 Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedores, ou partiu com o tempo.
 
-**Solução: Localizar e reparar cabo (€80-400)**
+**Solução: Localizar e arranjar cabo (€80-400)**
 
 **Diagnóstico:**
 - Difícil sem equipamento profissional
 - Eletricista usa detetor de cabos e multímetro
 - Localiza ponto de rutura
 
-**Reparação:**
+**Arranjo:**
 - Abrir parede no ponto de rutura
 - Instalar caixa de derivação
 - Religar cabos com ligadores
@@ -257,7 +257,7 @@ Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou liga
 **Por que acontece:**
 Cabo partido na caixa de derivação, ligação solta no quadro, ou problema na instalação.
 
-**Solução: Diagnóstico e reparação profissional (€80-300)**
+**Solução: Diagnóstico e arranjo profissional (€80-300)**
 
 **Requer eletricista com equipamento de diagnóstico:**
 - Multímetro
@@ -286,7 +286,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 
 **Não force demais** (pode partir a tomada).
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY (Faça Você Mesmo)
 
@@ -305,13 +305,13 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 |---------|-------------------------|
 | Diagnóstico | €40-80 |
 | Substituir tomada simples | €50-120 |
-| Reparar ligação solta | €40-100 |
-| Reparar cabo partido | €80-400 |
+| Arranjar ligação solta | €40-100 |
+| Arranjar cabo partido | €80-400 |
 | Instalar tomada nova | €60-150 |
-| Reparar curto-circuito | €80-300 |
+| Arranjar curto-circuito | €80-300 |
 | Urgência 24h | +€50-80 |
 
-> 💡 **Tomada não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, reparação garantida.
+> 💡 **Tomada não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
 
 ## 🔍 Diagnóstico Completo Passo a Passo
 
@@ -417,7 +417,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 **2. Tomada funciona mas aparelho não liga, porquê?**
 Problema é o aparelho (avariado) ou a ficha (contacto ruim). Teste o aparelho noutra tomada. Se não funcionar em nenhuma, aparelho está avariado.
 
-**3. Posso reparar tomada com corrente ligada?**
+**3. Posso arranjar tomada com corrente ligada?**
 **NUNCA!** Risco de eletrocussão fatal. SEMPRE desligue o disjuntor e teste com multímetro que não há tensão antes de tocar nos fios.
 
 **4. Tomada tem 2 furos, posso ligar ficha com 3 pinos?**
@@ -432,8 +432,8 @@ Não! Extensão partilha a mesma capacidade. Se tomada é 16A (3.680W), todas as
 **7. Tomada exterior não funciona, é diferente?**
 Diagnóstico é igual. MAS tomadas exteriores têm proteção IP65 (à prova de água). Verifique se tampa fecha bem. Humidade pode causar curto-circuito ou oxidação.
 
-**8. Vale a pena reparar ou instalar nova?**
-**Reparar se:** Ligação solta, oxidação leve, tomada < 10 anos. **Substituir se:** Queimada, rachada, > 15 anos, sem terra. Tomada nova: €5-20 (DIY) ou €50-120 (profissional).
+**8. Vale a pena arranjar ou instalar nova?**
+**Arranjar se:** Ligação solta, oxidação leve, tomada < 10 anos. **Substituir se:** Queimada, rachada, > 15 anos, sem terra. Tomada nova: €5-20 (DIY) ou €50-120 (profissional).
 
 ## 🎯 Conclusão: Tomada Que Não Funciona Tem Solução
 
@@ -472,14 +472,14 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido em 30 minutos  
-✅ Reparação imediata  
+✅ Arranjo imediata  
 ✅ Materiais de qualidade em stock  
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-**Não fique sem tomadas funcionais!** Contacte-nos já para reparação rápida e segura.
+**Não fique sem tomadas funcionais!** Contacte-nos já para arranjo rápida e segura.
 
 ---
 

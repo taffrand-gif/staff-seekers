@@ -78,7 +78,7 @@ export default function Vimioso() {
     },
     {
       question: "Servem as aldeias fronteiriças do concelho de Vimioso?",
-      answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as mais próximas da fronteira espanhola. Temos veículo preparado para acessos rurais."
+      answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as mais próximas da fronteira espanhola. Temos veículo parranjado para acessos rurais."
     },
     {
       question: "Qual o custo de deslocação a Vimioso?",

@@ -180,10 +180,10 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 - Aparelhos antigos (10+ anos)
 
 **Soluções:**
-- Aparelho com fuga → Descartar ou reparar
+- Aparelho com fuga → Descartar ou arranjar
 - Humidade → Secar instalação
 - Diferencial defeituoso → Substituir €60-120
-- Instalação antiga → Reparar fugas €150-500
+- Instalação antiga → Arranjar fugas €150-500
 
 **IMPORTANTE:** Diferencial que desarma está a SALVAR vidas! Não desative!
 
@@ -259,7 +259,7 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 
 **Solução:**
 - Descartar aparelho
-- NÃO tentar reparar (risco)
+- NÃO tentar arranjar (risco)
 - Substituir por certificado (CE)
 
 ### 7. Extensões Sobrecarregadas (2% dos casos)
@@ -490,7 +490,7 @@ TOTAL: 2.600W → SOBRECARGA!
 | Diagnóstico | €60-120 | €120-200 |
 | Substituir disjuntor | €40-80 | €80-120 |
 | Adicionar circuito | €150-400 | €300-600 |
-| Reparar curto-circuito | €100-300 | €200-500 |
+| Arranjar curto-circuito | €100-300 | €200-500 |
 | Reapertar ligações | €60-120 | €120-200 |
 | Upgrade quadro parcial | €400-800 | €700-1.200 |
 | Rewiring completo (T2) | €3.000-6.000 | €5.000-10.000 |
@@ -505,7 +505,7 @@ R: NUNCA! Disjuntor protege fios. Disjuntor maior = fios queimam = incêndio. So
 R: Desligue aparelhos, teste 1 a 1 para identificar culpado. Se desarma sem aparelhos, chame eletricista: 932 321 892
 
 **P: Diferencial desarma em dias de chuva, é normal?**
-R: NÃO! Indica humidade na instalação ou fuga. Problema grave que precisa reparação. Não desative diferencial!
+R: NÃO! Indica humidade na instalação ou fuga. Problema grave que precisa arranjo. Não desative diferencial!
 
 **P: Quanto custa eletricista em Bragança?**
 R: Diagnóstico €60-120, substituir disjuntor €40-80, adicionar circuito €150-400. Urgente 24h: +50-100%. Staff Seekers: **932 321 892**

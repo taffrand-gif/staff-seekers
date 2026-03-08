@@ -86,8 +86,8 @@ function getDicas(serviceType: 'electricite'): Dica[] {
     },
     {
       icon: '🔧',
-      title: 'Não faça reparações sem conhecimento',
-      content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um eletricista certificado para reparações.',
+      title: 'Não faça arranjos sem conhecimento',
+      content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um eletricista certificado para arranjos.',
     },
     {
       icon: '🏠',

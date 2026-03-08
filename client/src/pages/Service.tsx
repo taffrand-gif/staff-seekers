@@ -152,7 +152,7 @@ export default function Service() {
             <div className="grid md:grid-cols-3 gap-4">
               {[
                 { slug: 'desentupimento', title: 'Desentupimento', icon: '🚿' },
-                { slug: 'reparacao-fugas', title: 'Reparação Fugas', icon: '💧' },
+                { slug: 'arranjacao-fugas', title: 'Arranjo Fugas', icon: '💧' },
                 { slug: 'instalacao', title: 'Instalação', icon: '🔧' },
                 { slug: 'manutencao-preventiva', title: 'Manutenção', icon: '🛠️' },
                 { slug: 'urgencias-24h', title: 'Urgências 24h', icon: '🚨' },

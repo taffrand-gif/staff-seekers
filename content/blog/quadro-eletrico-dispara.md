@@ -89,8 +89,8 @@ Um circuito de 16A (3.680W) com:
 4. Se não disparar, ligue aparelhos um a um → identifica o aparelho com fuga
 
 **Solução:**
-- **Aparelho com fuga:** Reparar ou substituir (€50-500)
-- **Instalação com fuga:** Localizar e reparar o circuito afetado (€120-600)
+- **Aparelho com fuga:** Arranjar ou substituir (€50-500)
+- **Instalação com fuga:** Localizar e arranjar o circuito afetado (€120-600)
 - **Humidade:** Selar tomadas exteriores, resolver infiltrações (€80-300)
 
 ### 3. Curto-Circuito (15% dos Casos)
@@ -110,7 +110,7 @@ Um circuito de 16A (3.680W) com:
 
 **Solução:**
 - **Urgente:** Não tente religar repetidamente
-- **Profissional:** Localizar e reparar o curto-circuito (€100-500)
+- **Profissional:** Localizar e arranjar o curto-circuito (€100-500)
 - **Prevenção:** Inspeção elétrica em casas antigas
 
 ### 4. Disjuntor ou Diferencial Defeituoso (5% dos Casos)
@@ -168,7 +168,7 @@ Muitas casas antigas têm:
 
 **Solução:**
 - Desligar o aparelho da tomada
-- Reparar ou substituir o aparelho
+- Arranjar ou substituir o aparelho
 - Não usar até resolver o problema
 
 ### 7. Problemas Sazonais (0.5% dos Casos)
@@ -265,12 +265,12 @@ Siga este procedimento para identificar o problema:
 - Sem diferencial ou diferencial antigo
 - Expansão de consumo (novos aparelhos)
 
-### Solução 5: Reparar Fuga de Corrente (€120-600)
+### Solução 5: Arranjar Fuga de Corrente (€120-600)
 **Quando:** Diferencial dispara por humidade ou isolamento danificado  
 **Processo:**
 1. Localizar o circuito com fuga (teste de isolamento)
 2. Identificar o ponto exato (megóhmetro)
-3. Reparar ou substituir cabo
+3. Arranjar ou substituir cabo
 4. Testar e certificar
 
 ### Solução 6: Aumentar Potência Contratada (€30-50/ano)
@@ -325,12 +325,12 @@ Comum em casos de humidade (condensação noturna) ou aparelhos com fuga intermi
 **5. Posso substituir o disjuntor por um de maior amperagem?**  
 **NÃO!** O disjuntor protege o cabo. Aumentar a amperagem sem trocar o cabo pode causar incêndio.
 
-**6. Quanto tempo demora a reparar?**  
+**6. Quanto tempo demora a arranjar?**  
 - Sobrecarga simples: 30-60 minutos
 - Criar circuito novo: 2-4 horas
 - Atualizar quadro completo: 1-2 dias
 
-**7. Preciso de certificação após a reparação?**  
+**7. Preciso de certificação após a arranjo?**  
 Sim, para alterações significativas (novo circuito, quadro novo). Certificação CERTIEL obrigatória.
 
 ---

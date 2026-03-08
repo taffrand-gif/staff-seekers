@@ -192,7 +192,7 @@ O driver (transformador interno) da lâmpada está a falhar. Componentes eletró
 
 **Solução: Substituir a lâmpada (€5-15)**
 
-Não compensa reparar. Lâmpadas LED são seladas e o driver não é substituível.
+Não compensa arranjar. Lâmpadas LED são seladas e o driver não é substituível.
 
 **Prevenção:**
 - Use lâmpadas em locais ventilados
@@ -228,7 +228,7 @@ Problema grave: ligação solta, disjuntor defeituoso, neutro com problema, ou s
 🚨 Disjuntores muito quentes  
 🚨 Fumo  
 
-**Custo reparação:** €80-300 (dependendo do problema)
+**Custo arranjo:** €80-300 (dependendo do problema)
 
 ## 🔍 Diagnóstico: Qual é o Seu Problema?
 
@@ -263,7 +263,7 @@ Use esta tabela para identificar a causa:
 | Substituir interruptor/dimmer | €40-80 |
 | Instalar estabilizador | €150-350 |
 | Reforçar circuito | €100-300 |
-| Reparação quadro elétrico | €80-300 |
+| Arranjo quadro elétrico | €80-300 |
 | Urgência 24h | +€50-80 |
 
 > 💡 **Precisa de eletricista?** Certificado em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, orçamento grátis.
@@ -314,8 +314,8 @@ Sim, resistência 100kΩ 2W em paralelo resolve (€3-8). MAS requer conheciment
 **6. Lâmpada LED dura quanto tempo?**
 Boa qualidade: 15.000-50.000 horas (10-25 anos com 3h/dia). Má qualidade: 5.000-10.000 horas (3-5 anos). Se piscar constantemente, reduz vida útil significativamente.
 
-**7. Vale a pena reparar lâmpada LED que pisca?**
-Não. Lâmpadas LED são seladas e não reparáveis. Se o driver falhou, substitua a lâmpada (€5-15). Só vale reparar se o problema for na instalação (interruptor, dimmer, circuito).
+**7. Vale a pena arranjar lâmpada LED que pisca?**
+Não. Lâmpadas LED são seladas e não reparáveis. Se o driver falhou, substitua a lâmpada (€5-15). Só vale arranjar se o problema for na instalação (interruptor, dimmer, circuito).
 
 **8. Várias lâmpadas piscam ao mesmo tempo, o que fazer?**
 Problema na instalação elétrica: tensão instável, neutro com problema, ou sobrecarga. Chame eletricista para diagnóstico. Pode ser grave (risco de incêndio). Não ignore!

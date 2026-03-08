@@ -8,7 +8,7 @@ import RelatedArticles from '@/components/RelatedArticles';
 const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
   useSEO({
     title: 'Quanto Custa um Eletricista em Trás-os-Montes? Guia de Preços 2026',
-    description: 'Tabela completa de preços para serviços elétricos em Trás-os-Montes. Instalações, reparações, certificação e custos por hora.',
+    description: 'Tabela completa de preços para serviços elétricos em Trás-os-Montes. Instalações, arranjos, certificação e custos por hora.',
     keywords: 'preço eletricista, custo instalação elétrica, preços eletricista Trás-os-Montes, quanto custa eletricista, orçamento instalação elétrica'
   });
 
@@ -85,7 +85,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
             <li><a href="#tabela-precos" className="text-amber-600 hover:text-amber-700">Tabela Completa de Preços 2026</a></li>
             <li><a href="#fatores-regiao" className="text-amber-600 hover:text-amber-700">Fatores Específicos de Trás-os-Montes</a></li>
             <li><a href="#instalacoes" className="text-amber-600 hover:text-amber-700">Preços de Instalações Novas</a></li>
-            <li><a href="#reparacoes" className="text-amber-600 hover:text-amber-700">Preços de Reparações e Emergências</a></li>
+            <li><a href="#arranjacoes" className="text-amber-600 hover:text-amber-700">Preços de Arranjos e Emergências</a></li>
             <li><a href="#certificacao" className="text-amber-600 hover:text-amber-700">Certificação e Legalização</a></li>
             <li><a href="#economizar" className="text-amber-600 hover:text-amber-700">Como Economizar sem Comprometer Segurança</a></li>
           </ul>
@@ -144,7 +144,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                     <td className="py-4 px-6">1-2h</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
-                    <td className="py-4 px-6 font-semibold">Reparação avaria simples</td>
+                    <td className="py-4 px-6 font-semibold">Arranjo avaria simples</td>
                     <td className="py-4 px-6">60€</td>
                     <td className="py-4 px-6">90€</td>
                     <td className="py-4 px-6">140€</td>
@@ -350,7 +350,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
             <div className="mt-6 p-6 bg-green-50 border border-green-200 rounded-xl">
               <h4 className="font-bold text-green-800 text-lg mb-2">💡 Dica para Poupar:</h4>
               <p className="text-green-700">
-                Para renovações, considere fazer a <strong>demolição e preparação</strong> você mesmo 
+                Para renovações, considere fazer a <strong>demolição e parranjo</strong> você mesmo 
                 (retirar tomadas antigas, abrir roços simples). Isto pode reduzir a mão-de-obra em 
                 20-30%. Mas <strong>NUNCA</strong> mexa na parte elétrica ativa - deixe sempre para o profissional.
               </p>
@@ -487,7 +487,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                   </ul>
                   Este valor <strong>inclui</strong>: vistoria completa, testes de segurança, emissão do 
                   Boletim de Instalação Elétrica (BIE) e registo no sistema oficial. <strong>Não inclui</strong> 
-                  reparações necessárias para aprovação - essas são cobradas à parte.
+                  arranjos necessárias para aprovação - essas são cobradas à parte.
                   A certificação é válida por 5-8 anos dependendo do tipo de instalação.
                 </p>
               </div>
@@ -520,7 +520,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
                     "name": "Quanto custa a certificação elétrica (Boletim) em Trás-os-Montes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "T0/T1: 150-250€; T2/T3: 200-350€; T4+: 300-500€+; Comercial pequeno: 400-800€. Inclui vistoria, testes, emissão do BIE e registo. Não inclui reparações necessárias para aprovação. Validade: 5-8 anos conforme tipo de instalação."
+                      "text": "T0/T1: 150-250€; T2/T3: 200-350€; T4+: 300-500€+; Comercial pequeno: 400-800€. Inclui vistoria, testes, emissão do BIE e registo. Não inclui arranjos necessárias para aprovação. Validade: 5-8 anos conforme tipo de instalação."
                     }
                   }
                 ]
@@ -542,7 +542,7 @@ const CustoEletricistaTrasOsMontesPrecos: React.FC = () => {
               <p className="text-gray-700 mb-4">
                 <strong>Carlos Mendes</strong> é gestor de projetos elétricos com mais de 10 anos de experiência 
                 na região de <Link to="/servicos">Trás-os-Montes</Link>. Já coordenou mais de 300 projetos de instalação e renovação elétrica, 
-                desde pequenas reparações a instalações completas em casas centenárias. Especialista em 
+                desde pequenas arranjos a instalações completas em casas centenárias. Especialista em 
                 orçamentação transparente e adaptação de soluções técnicas à realidade económica regional.
               </p>
               <p className="text-gray-600">

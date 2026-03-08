@@ -20,7 +20,7 @@ export default function TorreMoncorvo() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Tomada queimada em Torre de Moncorvo? Reparação no próprio dia. Certificação CERTIEL, orçamento gratuito. Ligue: 932 321 892');
+    metaDescription.setAttribute('content', 'Tomada queimada em Torre de Moncorvo? Arranjo no próprio dia. Certificação CERTIEL, orçamento gratuito. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

@@ -30,7 +30,7 @@ export const SERVICES_STAFF_SEEKERS: Service[] = [
     name: 'Tomadas e Interruptores',
     basePrice: 35,
     icon: '🔌',
-    description: 'Instalação e reparação de tomadas e interruptores'
+    description: 'Instalação e arranjo de tomadas e interruptores'
   },
   {
     slug: 'certificacao-certiel',
@@ -51,7 +51,7 @@ export const SERVICES_STAFF_SEEKERS: Service[] = [
     name: 'Avarias Urgentes',
     basePrice: 100,
     icon: '🚨',
-    description: 'Reparação urgente 24h de curto-circuitos e avarias elétricas'
+    description: 'Arranjo urgente 24h de curto-circuitos e avarias elétricas'
   },
 ];
 

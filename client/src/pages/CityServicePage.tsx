@@ -303,7 +303,7 @@ function getCitySpecificFAQs(citySlug: string, serviceSlug: string) {
         },
         {
           question: 'Trabalham com instalações trifásicas em Macedo de Cavaleiros?',
-          answer: 'Sim, temos equipamento e certificação para trabalhar com instalações trifásicas, comuns em explorações agrícolas e pequenas indústrias na região de Macedo de Cavaleiros. Fazemos manutenção preventiva e reparações urgentes.'
+          answer: 'Sim, temos equipamento e certificação para trabalhar com instalações trifásicas, comuns em explorações agrícolas e pequenas indústrias na região de Macedo de Cavaleiros. Fazemos manutenção preventiva e arranjos urgentes.'
         }
       ]
     }
@@ -428,7 +428,7 @@ function getWhyChooseUs(citySlug: string, serviceSlug: string) {
         {
           icon: '💧',
           title: 'Sistemas de Bombagem e Rega',
-          description: 'Instalação e reparação de quadros elétricos para bombas de água, sistemas de rega automática e equipamentos agrícolas. Conhecemos as necessidades da agricultura local.'
+          description: 'Instalação e arranjo de quadros elétricos para bombas de água, sistemas de rega automática e equipamentos agrícolas. Conhecemos as necessidades da agricultura local.'
         },
         {
           icon: '🌙',

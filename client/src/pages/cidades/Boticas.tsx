@@ -112,7 +112,7 @@ export default function Boticas() {
                 { icon: Zap, title: "Adegas Subterrâneas", desc: "Instalações elétricas para caves e adegas do Vinho dos Mortos" },
                 { icon: Shield, title: "Controlo de Temperatura", desc: "Sistemas elétricos para climatização de adegas e armazéns" },
                 { icon: CheckCircle, title: "Explorações Agrícolas", desc: "Quadros elétricos para bombas, estábulos e maquinaria" },
-                { icon: Zap, title: "Urgências Elétricas", desc: "Reparação urgente de avarias em habitações e explorações" },
+                { icon: Zap, title: "Urgências Elétricas", desc: "Arranjo urgente de avarias em habitações e explorações" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">

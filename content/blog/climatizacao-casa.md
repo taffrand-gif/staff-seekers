@@ -523,7 +523,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 ✅ Fuga água
 ✅ Cheiro mau
 
-### Reparação
+### Arranjo
 
 ✅ Não liga
 ✅ Não arrefece/aquece
@@ -571,7 +571,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 - Limpeza completa
 - Verificação gás
 - Prioridade avarias
-- Descontos reparações
+- Descontos arranjos
 
 ## 🌍 Cobertura
 

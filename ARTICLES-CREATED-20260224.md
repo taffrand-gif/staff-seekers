@@ -57,7 +57,7 @@
 10. verificacao-anual-instalacao.html (manquant - créer manuellement)
 
 #### 🌦️ SAZONAIS (10 articles)
-1. preparar-casa-verao-eletricidade.html
+1. parranjar-casa-verao-eletricidade.html
 2. ar-condicionado-eficiente-verao.html
 3. aquecimento-eletrico-inverno-dicas.html
 4. iluminacao-natal-segura.html
@@ -75,7 +75,7 @@
 4. quanto-custa-instalar-ar-condicionado.html
 5. quanto-custa-instalar-paineis-solares.html
 6. quanto-custa-instalar-wallbox.html
-7. quanto-custa-reparar-curto-circuito.html
+7. quanto-custa-arranjar-curto-circuito.html
 8. quanto-custa-instalar-alarme-casa.html
 9. quanto-custa-iluminacao-led-completa.html
 10. quanto-custa-instalar-piso-radiante-eletrico.html

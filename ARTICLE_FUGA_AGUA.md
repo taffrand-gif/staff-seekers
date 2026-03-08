@@ -100,7 +100,7 @@ A câmara termográfica exibe uma imagem colorida onde diferentes temperaturas a
 - Necessita de diferença térmica entre água e ambiente
 - Técnico deve ser treinado em interpretação de termogramas
 
-**Caso real em Vinhais:** Habitação com fuga escondida há meses. Já tinham partido 3 zonas diferentes da parede sem sucesso. Utilizámos câmara termográfica e identificámos a fuga exata em 15 minutos. Reparação feita com abertura mínima de 30×30cm. Cliente poupou centenas de euros em obras desnecessárias.
+**Caso real em Vinhais:** Habitação com fuga escondida há meses. Já tinham partido 3 zonas diferentes da parede sem sucesso. Utilizámos câmara termográfica e identificámos a fuga exata em 15 minutos. Arranjo feita com abertura mínima de 30×30cm. Cliente poupou centenas de euros em obras desnecessárias.
 
 **Custo em Bragança:** 120€ a 250€ para deteção termográfica (inclui relatório fotográfico).
 
@@ -151,7 +151,7 @@ Câmara miniatura inserida em canalizações de esgoto ou drenagem para visualiz
 - Localização de obstruções
 - Avaliação antes de compra de imóvel
 
-**Caso real em Miranda do Douro:** Cliente com infiltração persistente na cave. Câmara de inspeção revelou fratura na canalização de esgoto sob a casa, permitindo águas residuais infiltrar. Reparação evitou danos estruturais graves.
+**Caso real em Miranda do Douro:** Cliente com infiltração persistente na cave. Câmara de inspeção revelou fratura na canalização de esgoto sob a casa, permitindo águas residuais infiltrar. Arranjo evitou danos estruturais graves.
 
 ---
 
@@ -218,7 +218,7 @@ Tubagens que sobem paredes para abastecer casas de banho ou cozinhas em pisos su
 
 **Sinais:** Manchas de humidade em paredes interiores, especialmente verticais.
 
-**Solução:** Abertura localizada da parede, reparação e restauro. Custo: 150€ a 400€.
+**Solução:** Abertura localizada da parede, arranjo e restauro. Custo: 150€ a 400€.
 
 **4. Sob banheiras e bases de duche (12% dos casos)**
 
@@ -226,7 +226,7 @@ Fugas em sifões, ligações de torneiras ou ralos sob banheiras e bases de duch
 
 **Sinais:** Humidade no teto da divisão inferior. Cheiro a mofo na casa de banho.
 
-**Solução:** Remoção de painéis de acesso ou banheira, reparação e reinstalação. Custo: 120€ a 350€.
+**Solução:** Remoção de painéis de acesso ou banheira, arranjo e reinstalação. Custo: 120€ a 350€.
 
 **5. Esquentadores e caldeiras (10% dos casos)**
 
@@ -234,7 +234,7 @@ Permutadores de calor furados, válvulas de segurança defeituosas ou juntas deg
 
 **Sinais:** Poças de água sob o aparelho. Pressão baixa. Funcionamento irregular.
 
-**Solução:** Reparação ou substituição de componentes. Custo: 80€ a 300€.
+**Solução:** Arranjo ou substituição de componentes. Custo: 80€ a 300€.
 
 **6. Canalizações em lajes de piso (8% dos casos)**
 
@@ -242,15 +242,15 @@ Tubagens embutidas em lajes de betão, especialmente em aquecimento central de p
 
 **Sinais:** Pavimento quente em zonas localizadas (aquecimento). Humidade ascendente.
 
-**Solução:** Deteção precisa com termografia, abertura mínima e reparação. Custo: 250€ a 700€.
+**Solução:** Deteção precisa com termografia, abertura mínima e arranjo. Custo: 250€ a 700€.
 
 ---
 
-## Quanto Custa Reparar Uma Fuga Escondida em Bragança?
+## Quanto Custa Arranjar Uma Fuga Escondida em Bragança?
 
 Os custos variam significativamente conforme a localização e extensão da fuga:
 
-| Tipo de Fuga | Deteção | Reparação | Total |
+| Tipo de Fuga | Deteção | Arranjo | Total |
 |--------------|---------|-----------|-------|
 | Autoclismo (fuga interna) | Grátis (DIY) | 30€ - 80€ | 30€ - 80€ |
 | Torneira/junta visível | Grátis | 40€ - 100€ | 40€ - 100€ |
@@ -264,7 +264,7 @@ Os custos variam significativamente conforme a localização e extensão da fuga
 **Incluído nos preços:**
 - Deslocação em todo o distrito de Bragança
 - Deteção com equipamento profissional
-- Reparação da fuga
+- Arranjo da fuga
 - Materiais (tubagens, juntas, abraçadeiras)
 - Teste de estanquicidade
 - Garantia de 12 meses
@@ -272,7 +272,7 @@ Os custos variam significativamente conforme a localização e extensão da fuga
 **Não incluído:**
 - Obras de restauro (rebocos, pinturas, azulejos)
 - Substituição completa de canalizações (se necessário)
-- Reparação de danos causados pela fuga (mobiliário, pavimentos)
+- Arranjo de danos causados pela fuga (mobiliário, pavimentos)
 
 **Importante:** Investir em deteção profissional (termografia) economiza dinheiro ao evitar aberturas desnecessárias em paredes e pavimentos.
 
@@ -337,7 +337,7 @@ Além do desperdício de água e aumento da fatura, fugas escondidas causam:
 
 Água infiltrada enfraquece estruturas de betão, apodrece madeiras e corrói ferro de armação. Em casos extremos, pode comprometer a segurança estrutural do edifício.
 
-**Caso real em Bragança:** Fuga numa canalização embutida em parede de carga passou despercebida durante 2 anos. A água infiltrou a fundação, causando fissuras graves. Custo de reparação estrutural: 8.000€.
+**Caso real em Bragança:** Fuga numa canalização embutida em parede de carga passou despercebida durante 2 anos. A água infiltrou a fundação, causando fissuras graves. Custo de arranjo estrutural: 8.000€.
 
 **2. Problemas de saúde (mofo e fungos)**
 
@@ -376,11 +376,11 @@ Chame um canalizador certificado imediatamente se:
 - Há cheiro persistente a mofo
 - Pressão de água baixou significativamente
 
-**Não espere:** Fugas escondidas pioram com o tempo. Quanto mais cedo detetar e reparar, menores os danos e custos.
+**Não espere:** Fugas escondidas pioram com o tempo. Quanto mais cedo detetar e arranjar, menores os danos e custos.
 
 ---
 
-## Processo de Deteção e Reparação: O Que Esperar
+## Processo de Deteção e Arranjo: O Que Esperar
 
 **1. Contacto inicial:**
 - Descreva os sintomas (fatura alta, humidade, etc.)
@@ -394,9 +394,9 @@ Chame um canalizador certificado imediatamente se:
 - Orçamento detalhado
 - Duração: 45 minutos a 2 horas
 
-**3. Reparação:**
+**3. Arranjo:**
 - Abertura mínima necessária (graças à localização precisa)
-- Reparação ou substituição do troço afetado
+- Arranjo ou substituição do troço afetado
 - Teste de estanquicidade (pressão)
 - Limpeza do local
 - Duração: 2 a 6 horas dependendo da complexidade
@@ -407,7 +407,7 @@ Chame um canalizador certificado imediatamente se:
 - Recolocação de azulejos
 - Pode ser feito pelo cliente ou subcontratado
 
-**Garantia:** 12 meses em todas as reparações. Se a fuga reaparecer no mesmo local, voltamos sem custos.
+**Garantia:** 12 meses em todas as arranjos. Se a fuga reaparecer no mesmo local, voltamos sem custos.
 
 ---
 
@@ -421,7 +421,7 @@ R: Possível mas raro. Verifique sempre o contador. Se os números correspondem 
 
 R: Com equipamento profissional (termografia), geralmente 30 minutos a 2 horas. Sem equipamento, pode levar dias de tentativa e erro.
 
-**P: Posso reparar eu próprio?**
+**P: Posso arranjar eu próprio?**
 
 R: Fugas visíveis simples (torneiras, autoclismos) sim. Fugas escondidas em paredes ou enterradas requerem equipamento e experiência profissional.
 
@@ -437,7 +437,7 @@ R: Absolutamente. Evita abrir paredes em locais errados, reduz danos e economiza
 
 ## Conclusão
 
-Fugas de água escondidas são problemas sérios que requerem deteção e reparação profissional. Os métodos modernos, especialmente termografia infravermelha, permitem localizar fugas com precisão milimétrica sem destruir paredes e pavimentos desnecessariamente.
+Fugas de água escondidas são problemas sérios que requerem deteção e arranjo profissional. Os métodos modernos, especialmente termografia infravermelha, permitem localizar fugas com precisão milimétrica sem destruir paredes e pavimentos desnecessariamente.
 
 Se suspeita de fuga escondida, não espere. Cada dia de atraso representa:
 - Centenas de litros de água desperdiçados
@@ -478,4 +478,4 @@ Em Bragança e todo o distrito de Trás-os-Montes, disponibilizamos equipamento 
 
 *Última atualização: 7 de fevereiro de 2026*  
 *Autor: Equipa Técnica Canalizador de Trás-os-Montes*  
-*Experiência: 10+ anos | Centenas de fugas detetadas e reparadas*
+*Experiência: 10+ anos | Centenas de fugas detetadas e arranjadas*

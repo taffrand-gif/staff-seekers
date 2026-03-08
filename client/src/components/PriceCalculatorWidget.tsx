@@ -26,8 +26,8 @@ interface Zone {
 const servicesNorte: ServicePrice[] = [
   { id: 'sanita', label: 'Desentupimento Sanita', priceMin: 120, priceMax: 120, nightMultiplier: 1.5 },
   { id: 'fuga', label: 'Fuga Água (urgência)', priceMin: 140, priceMax: 180, nightMultiplier: 1.5 },
-  { id: 'esquentador', label: 'Esquentador (reparação)', priceMin: 180, priceMax: 300, nightMultiplier: 1.5 },
-  { id: 'torneira', label: 'Reparação Torneira', priceMin: 58, priceMax: 115, nightMultiplier: 1.5 },
+  { id: 'esquentador', label: 'Esquentador (arranjo)', priceMin: 180, priceMax: 300, nightMultiplier: 1.5 },
+  { id: 'torneira', label: 'Arranjo Torneira', priceMin: 58, priceMax: 115, nightMultiplier: 1.5 },
   { id: 'autoclismo', label: 'Autoclismo', priceMin: 40, priceMax: 135, nightMultiplier: 1.5 }
 ];
 
@@ -112,7 +112,7 @@ function PriceCalculatorWidget() {
               💰 Preço Transparente
             </div>
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Calcule o Preço da Sua Reparação
+              Calcule o Preço da Sua Arranjo
             </h2>
             <p className="text-xl text-gray-600">
               Preço fixo garantido. Sem surpresas. Orçamento confirmado em 2 minutos por telefone.

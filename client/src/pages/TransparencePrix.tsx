@@ -17,7 +17,7 @@ export default function TransparencePrix() {
   // Prix détaillés par service
   const forfaits = [
     {
-      title: "Pequena Reparação",
+      title: "Pequena Arranjo",
       price: "30€ - 45€",
       duration: "30 min",
       includes: [
@@ -34,7 +34,7 @@ export default function TransparencePrix() {
       includes: [
         "Diagnóstico completo com multímetro",
         "Resolução de avarias elétricas",
-        "Reparação de curto-circuitos",
+        "Arranjo de curto-circuitos",
         "Garantia 6 meses"
       ]
     },
@@ -128,7 +128,7 @@ export default function TransparencePrix() {
     <>
       <SEOHead
         title={`Transparência de Preços - O ÚNICO Eletricista de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
-        description="Somos o ÚNICO eletricista em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena reparação desde 30€, quadros elétricos desde 150€. Garantia satisfeito ou reembolsado."
+        description="Somos o ÚNICO eletricista em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 30€, quadros elétricos desde 150€. Garantia satisfeito ou reembolsado."
       />
 
       <Header />
@@ -331,7 +331,7 @@ export default function TransparencePrix() {
                   <TrendingUp className="w-12 h-12 text-purple-600 mb-4" />
                   <h3 className="text-xl font-bold mb-3 text-gray-900">Garantia Alargada</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    12 meses em instalações, 6 meses em reparações. A concorrência dá 3 meses (quando dá).
+                    12 meses em instalações, 6 meses em arranjos. A concorrência dá 3 meses (quando dá).
                     Voltamos gratuitamente se houver problemas.
                   </p>
                 </div>
@@ -379,7 +379,7 @@ export default function TransparencePrix() {
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <div className="text-3xl font-black mb-2">6 meses</div>
-                  <div className="text-white/80">Garantia Reparações</div>
+                  <div className="text-white/80">Garantia Arranjos</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <div className="text-3xl font-black mb-2">500.000€</div>

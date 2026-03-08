@@ -80,7 +80,7 @@ export default function Garantias() {
         {
           icon: '📞',
           title: 'Amanhã Ainda Atendemos',
-          desc: 'Reparamos hoje e amanhã ainda atendemos o telefone. SMS de seguimento no dia seguinte.',
+          desc: 'Arranjamos hoje e amanhã ainda atendemos o telefone. SMS de seguimento no dia seguinte.',
           pain: 'Se o nosso trabalho causar dano, assumimos a responsabilidade.',
         },
       ];

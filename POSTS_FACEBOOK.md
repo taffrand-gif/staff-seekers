@@ -32,7 +32,7 @@ Com esta tecnologia, conseguimos:
 ⚡ Detetar fios sobreaquecidos dentro das paredes
 🔌 Identificar ligações soltas sem abrir paredes
 
-Diagnóstico preciso = reparação mais rápida e mais barata.
+Diagnóstico preciso = arranjo mais rápida e mais barata.
 
 📞 +351 932 321 892
 🌐 eletricista-norte-reparos.pt/tecnologia-premium
@@ -115,7 +115,7 @@ Controle tudo pelo telemóvel, esteja onde estiver.
 🔗 eletricista-norte-reparos.pt/domotica
 
 ## Post 9 — Inverno
-❄️ Preparar a instalação elétrica para o inverno
+❄️ Parranjar a instalação elétrica para o inverno
 
 Com as temperaturas a descer em Trás-os-Montes, é importante:
 🔌 Verificar aquecedores elétricos

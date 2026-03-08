@@ -399,7 +399,7 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 
 ### Apoio Candidaturas
 
-- Preparação documentos
+- Parranjo documentos
 - Certificados energéticos (parceiro)
 - Submissão candidatura
 - Acompanhamento processo

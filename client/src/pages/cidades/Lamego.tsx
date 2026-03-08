@@ -19,7 +19,7 @@ export default function Lamego() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Problemas elétricos em Lamego? Instalação e reparação urgente. Certificação CERTIEL, orçamento sem compromisso. Ligue: 932 321 892');
+    metaDescription.setAttribute('content', 'Problemas elétricos em Lamego? Instalação e arranjo urgente. Certificação CERTIEL, orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

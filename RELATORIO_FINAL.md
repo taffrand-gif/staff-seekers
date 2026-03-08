@@ -71,7 +71,7 @@ Guias de preços para 2026:
 - Videoporteiro
 - Domótica
 - Piso radiante
-- Reparar quadro elétrico
+- Arranjar quadro elétrico
 - Aumentar potência
 - Gerador
 - UPS
@@ -85,7 +85,7 @@ Guias de preços para 2026:
 
 ### 5️⃣ Sazonal & Trás-os-Montes (15 artigos)
 Específicos para a região e estações:
-- Preparar casa para o verão
+- Parranjar casa para o verão
 - Manutenção elétrica de outono
 - Proteger instalação de cheias
 - Eletricidade em casa de férias

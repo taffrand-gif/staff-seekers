@@ -20,7 +20,7 @@ export default function MirandaDouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Sem eletricidade em Miranda do Douro? Estamos aí hoje. Reparação urgente, orçamento sem compromisso. Ligue: 932 321 892');
+    metaDescription.setAttribute('content', 'Sem eletricidade em Miranda do Douro? Estamos aí hoje. Arranjo urgente, orçamento sem compromisso. Ligue: 932 321 892');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

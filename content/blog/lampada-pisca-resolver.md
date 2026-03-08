@@ -1,7 +1,7 @@
 ---
 title: "Lâmpada Pisca: 8 Causas e Como Resolver (Guia 2026)"
 slug: "lampada-pisca-resolver"
-category: "Reparações Elétricas"
+category: "Arranjos Elétricas"
 date: "2026-03-04"
 author: "Staff Seekers"
 excerpt: "Lâmpada pisca ou tremula? Descubra as 8 causas principais e soluções seguras. Guia completo com diagnóstico passo a passo e quando chamar eletricista em Trás-os-Montes."
@@ -178,7 +178,7 @@ priority: "HIGH DEMAND"
 - Circuito subdimensionado (10A para 16A necessários)
 - Muitos aparelhos no mesmo circuito
 - Extensões em cascata
-- Instalação antiga não preparada para consumo atual
+- Instalação antiga não parranjada para consumo atual
 
 **Solução:**
 - Redistribua aparelhos por diferentes circuitos
@@ -205,7 +205,7 @@ priority: "HIGH DEMAND"
 
 **⚠️ EMERGÊNCIA:** Desligue disjuntor geral, ligue **932 321 892**
 
-**Solução:** Inspeção + reparação €100-300 ou substituição quadro €400-1.200
+**Solução:** Inspeção + arranjo €100-300 ou substituição quadro €400-1.200
 
 ## Como Diagnosticar o Problema (Passo a Passo)
 
@@ -296,7 +296,7 @@ priority: "HIGH DEMAND"
 - Custo: €150-400
 
 **8. Problema no quadro:**
-- Inspeção + reparação urgente
+- Inspeção + arranjo urgente
 - Custo: €100-1.200
 
 ## Quando Chamar Eletricista Certificado?
@@ -350,7 +350,7 @@ priority: "HIGH DEMAND"
 | Diagnóstico problema | €40-60 | €80-100 |
 | Substituir casquilho | €40-80 | €80-120 |
 | Instalar dimmer LED | €60-100 | €120-150 |
-| Reparar fiação | €80-200 | €150-300 |
+| Arranjar fiação | €80-200 | €150-300 |
 | Adicionar circuito | €150-400 | €300-600 |
 | Inspeção quadro elétrico | €80-150 | €150-250 |
 | Substituir quadro parcial | €400-800 | €700-1.200 |
@@ -422,7 +422,7 @@ R: Interruptor com luz piloto ou corrente residual. Solução: instale resistor 
 R: Humidade na instalação externa ou caixa de derivação. Problema grave - chame eletricista urgente.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €40-60 (normal) ou €80-100 (urgente 24h). Reparação €80-200. Staff Seekers: **932 321 892**
+R: Diagnóstico €40-60 (normal) ou €80-100 (urgente 24h). Arranjo €80-200. Staff Seekers: **932 321 892**
 
 **P: Posso usar LED em qualquer candeeiro?**
 R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), espaço suficiente para LED (alguns são maiores).

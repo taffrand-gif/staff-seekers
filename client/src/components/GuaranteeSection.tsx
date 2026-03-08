@@ -95,7 +95,7 @@ function GuaranteeSection() {
               Garantia 2 Anos — Se Voltar, Voltamos Grátis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Reparação definitiva, não temporária. Por isso garantimos 2 anos.
+              Arranjo definitiva, não temporária. Por isso garantimos 2 anos.
             </p>
           </div>
 
@@ -132,7 +132,7 @@ function GuaranteeSection() {
           {/* CTA Banner */}
           <div className="bg-white p-8 rounded-xl border-4 border-green-500 text-center">
             <h3 className="text-2xl font-black mb-4">
-              Reparação com Garantia — Ligue Já
+              Arranjo com Garantia — Ligue Já
             </h3>
             <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
               Trabalho garantido 2 anos. Se o problema voltar, voltamos gratuitamente.
@@ -150,7 +150,7 @@ function GuaranteeSection() {
                 Ligar: {config.phone}
               </a>
               <a
-                href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma reparação com garantia 2 anos.')}`}
+                href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia 2 anos.')}`}
                 onClick={handleWhatsAppClick}
                 target="_blank"
                 rel="noopener noreferrer"

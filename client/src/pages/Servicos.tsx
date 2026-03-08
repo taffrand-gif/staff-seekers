@@ -14,7 +14,7 @@ export default function Servicos() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Serviços de Eletricista em Trás-os-Montes | Instalação, Reparação, Certificação";
+    document.title = "Serviços de Eletricista em Trás-os-Montes | Instalação, Arranjo, Certificação";
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Servicos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Serviços completos de eletricista em Trás-os-Montes: instalação elétrica, reparação de avarias, quadros elétricos, iluminação, certificação DGEG. Profissionais certificados, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Serviços completos de eletricista em Trás-os-Montes: instalação elétrica, arranjo de avarias, quadros elétricos, iluminação, certificação DGEG. Profissionais certificados, orçamento gratuito.');
   }, [config]);
 
   const servicesDetails = [
@@ -41,11 +41,11 @@ export default function Servicos() {
       priceRange: 'A partir de €200'
     },
     {
-      title: 'Reparação de Avarias Elétricas',
-      description: 'Diagnóstico e reparação rápida de avarias elétricas, curtos-circuitos, disjuntores que disparam constantemente, falhas de iluminação e outros problemas elétricos urgentes.',
+      title: 'Arranjo de Avarias Elétricas',
+      description: 'Diagnóstico e arranjo rápida de avarias elétricas, curtos-circuitos, disjuntores que disparam constantemente, falhas de iluminação e outros problemas elétricos urgentes.',
       features: [
         'Diagnóstico preciso com equipamento especializado',
-        'Reparação de curtos-circuitos',
+        'Arranjo de curtos-circuitos',
         'Substituição de disjuntores defeituosos',
         'Correção de falhas de aterramento',
         'Serviço de urgência 24h'

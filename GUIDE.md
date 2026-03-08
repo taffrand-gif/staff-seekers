@@ -144,7 +144,7 @@ Exemples :
 Format : `[Service] em [Ville] - [USP]. [Appel à l'action]. Piquete 24h.`
 
 Exemples :
-- `Canalizador em Bragança - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h.`
+- `Canalizador em Bragança - Arranjo de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h.`
 
 ### Données Structurées
 
@@ -283,9 +283,9 @@ Remplacez les placeholders dans `client/src/pages/Galeria.tsx` par de vraies ima
 function getGalleryImages(serviceType: 'plomberie' | 'electricite'): GalleryImage[] {
   return [
     { 
-      url: "/images/reparation-fuga.jpg", 
-      alt: "Reparação de fuga de água", 
-      category: "Reparações" 
+      url: "/images/arranjation-fuga.jpg", 
+      alt: "Arranjo de fuga de água", 
+      category: "Arranjos" 
     },
     // ... autres images
   ];

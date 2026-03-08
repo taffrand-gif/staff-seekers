@@ -248,7 +248,7 @@ Corrente: 100-1.000A (descontrolada)
 
 **Se observar qualquer sinal:**
 1. Desligue disjuntor do circuito
-2. Não use até reparar
+2. Não use até arranjar
 3. Chame eletricista urgente
 
 ---
@@ -447,7 +447,7 @@ Corrente: 100-1.000A (descontrolada)
 
 **4. Chame Eletricista**
 - Não religue até identificar causa
-- Reparação profissional obrigatória
+- Arranjo profissional obrigatória
 
 ---
 

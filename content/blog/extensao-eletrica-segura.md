@@ -388,9 +388,9 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 **Resposta:** Extensão barata tem cabo fino, sem proteção, sem certificação - PERIGO DE INCÊNDIO. Extensão de qualidade tem cabo grosso (1,5-2,5mm²), proteção sobrecarga, certificação CE. Vale os €20!
 
-### 6. Posso reparar extensão danificada?
+### 6. Posso arranjar extensão danificada?
 
-**Resposta:** **NÃO recomendado.** Reparação caseira (fita isoladora) não é segura. Extensão custa €10-20 - não vale risco de incêndio. SUBSTITUA.
+**Resposta:** **NÃO recomendado.** Arranjo caseira (fita isoladora) não é segura. Extensão custa €10-20 - não vale risco de incêndio. SUBSTITUA.
 
 ---
 

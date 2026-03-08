@@ -182,7 +182,7 @@ const ComoEscolherEletricistaCertificado: React.FC = () => {
                     <td className="py-4 px-6">Projetos RTIE, certificação energética</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-amber-50">
-                    <td className="py-4 px-6 font-semibold">Reparação urgente</td>
+                    <td className="py-4 px-6 font-semibold">Arranjo urgente</td>
                     <td className="py-4 px-6">3+ anos</td>
                     <td className="py-4 px-6">Diagnóstico rápido, soluções temporárias seguras</td>
                   </tr>

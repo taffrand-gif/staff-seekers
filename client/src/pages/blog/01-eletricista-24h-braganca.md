@@ -5,7 +5,7 @@ slug: electricista-24h-braganca
 date: 2026-02-18
 author: Staff Seekers
 category: Urgências Elétricas
-tags: [electricista, bragança, urgente, 24h, reparação]
+tags: [electricista, bragança, urgente, 24h, arranjo]
 ---
 
 # Electricista 24h em Bragança - Preços + Contacto Urgente
@@ -21,7 +21,7 @@ As emergências eléctricas podem ocorrer a qualquer momento - durante a noite, 
 1. **Cortes totais de energia** - Diagnóstico e restauro rápido
 2. **Sobrecargas e curtos-circuitos** - Identificação da origem
 3. **Tomadas e interruptores defeituosos** - Substituição urgente
-4. **Problemas com quadros eléctricos** - Reparação especializada
+4. **Problemas com quadros eléctricos** - Arranjo especializada
 5. **Falhas em sistemas de aquecimento eléctrico** - Especialmente crítico no inverno
 
 ## Como Funciona o Nosso Serviço de Urgência 24h
@@ -38,7 +38,7 @@ Chegamos em até **1 hora** na zona urbana de Bragança com equipamento de diagn
 ### 3. Orçamento Transparente
 Apresentamos um **orçamento detalhado e grátis** antes de qualquer intervenção. Sem surpresas, sem custos ocultos.
 
-### 4. Reparação Imediata
+### 4. Arranjo Imediata
 Com peças de reposição no veículo e ferramentas profissionais, resolvemos a maioria das emergências na primeira visita.
 
 ## Tabela de Preços Referenciais - Electricista Urgente Bragança
@@ -47,7 +47,7 @@ Com peças de reposição no veículo e ferramentas profissionais, resolvemos a 
 |---------|--------------|-------------|----------------|
 | Diagnóstico de emergência | €30-€50 | €40 | 30-45 min |
 | Substituição de tomada/interruptor | €25-€40 | €35 | 20-30 min |
-| Reparação de curto-circuito | €60-€120 | €90 | 1-2 horas |
+| Arranjo de curto-circuito | €60-€120 | €90 | 1-2 horas |
 | Troca de disjuntor | €40-€80 | €60 | 45-60 min |
 | Restauro de corte total | €80-€150 | €120 | 1-3 horas |
 

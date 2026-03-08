@@ -8,8 +8,8 @@
 ### 2. Meta tags (norte-reparos.com)
 ```html
 <title>Canalizador 24h | Canalizador de Trás-os-Montes | Urgências Bragança</title>
-<meta name="description" content="Canalizador 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados." />
-<meta name="keywords" content="canalizador, plombier, fuga de água, entupimento, reparação canalização, urgência 24h, piquete, Bragança" />
+<meta name="description" content="Canalizador 24h - instalação, arranjo e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados." />
+<meta name="keywords" content="canalizador, plombier, fuga de água, entupimento, arranjo canalização, urgência 24h, piquete, Bragança" />
 <meta name="author" content="Canalizador de Trás-os-Montes" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />

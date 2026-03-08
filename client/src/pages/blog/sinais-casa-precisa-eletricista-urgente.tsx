@@ -49,7 +49,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
                 "name": "Quanto custa eletricista urgente em Bragança?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Chamada urgente noite/fim-de-semana: 80-150€ mínimo. Diagnóstico: 60-100€. Reparação: conforme problema. Caro mas essencial - problemas elétricos não esperam e podem causar incêndio."
+                  "text": "Chamada urgente noite/fim-de-semana: 80-150€ mínimo. Diagnóstico: 60-100€. Arranjo: conforme problema. Caro mas essencial - problemas elétricos não esperam e podem causar incêndio."
                 }
               }
             ]
@@ -129,7 +129,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
               Eletricista Urgente 24h em Bragança
             </h3>
             <p className="text-gray-800 mb-4">
-              Intervenção rápida em emergências elétricas. Disponível noites, fins-de-semana e feriados. Diagnóstico e reparação imediata. Proteja a sua família.
+              Intervenção rápida em emergências elétricas. Disponível noites, fins-de-semana e feriados. Diagnóstico e arranjo imediata. Proteja a sua família.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
@@ -377,7 +377,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
                 Quanto custa eletricista urgente em Bragança?
               </h3>
               <p className="text-gray-700">
-                Chamada urgente noite/fim-de-semana: 80-150€ mínimo. Diagnóstico: 60-100€. Reparação: conforme problema. Caro mas essencial - problemas elétricos não esperam e podem causar incêndio.
+                Chamada urgente noite/fim-de-semana: 80-150€ mínimo. Diagnóstico: 60-100€. Arranjo: conforme problema. Caro mas essencial - problemas elétricos não esperam e podem causar incêndio.
               </p>
             </div>
           </div>
@@ -387,7 +387,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
               Emergência Elétrica? Intervenção Rápida 24h
             </h3>
             <p className="text-gray-800 mb-6">
-              Eletricistas certificados disponíveis 24h em Bragança e Trás-os-Montes. Intervenção urgente em 2-4 horas. Diagnóstico rápido, reparação profissional. Proteja a sua família.
+              Eletricistas certificados disponíveis 24h em Bragança e Trás-os-Montes. Intervenção urgente em 2-4 horas. Diagnóstico rápido, arranjo profissional. Proteja a sua família.
             </p>
             <ul className="space-y-2 mb-6 text-gray-800">
               <li className="flex items-start">
@@ -436,8 +436,8 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/reparacao-eletrica" className="text-orange-600 hover:text-orange-700">
-                  → Reparação Elétrica Urgente 24h
+                <Link href="/servicos/arranjacao-eletrica" className="text-orange-600 hover:text-orange-700">
+                  → Arranjo Elétrica Urgente 24h
                 </Link>
               </li>
               <li>

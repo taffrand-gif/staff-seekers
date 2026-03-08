@@ -1,17 +1,17 @@
 ---
-title: "Interruptor Não Funciona: 7 Causas e Como Reparar (2026)"
+title: "Interruptor Não Funciona: 7 Causas e Como Arranjar (2026)"
 slug: "interruptor-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
 author: "Staff Seekers"
-excerpt: "Interruptor não liga a luz ou está partido? Descubra as 7 causas principais (desde lâmpada queimada até interruptor avariado) e como reparar. Guia completo com segurança."
-keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "trocar interruptor", "eletricista Bragança", "reparar interruptor"]
+excerpt: "Interruptor não liga a luz ou está partido? Descubra as 7 causas principais (desde lâmpada queimada até interruptor avariado) e como arranjar. Guia completo com segurança."
+keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "trocar interruptor", "eletricista Bragança", "arranjar interruptor"]
 priority: "HIGH DEMAND"
 ---
 
-# Interruptor Não Funciona: 7 Causas e Como Reparar (2026)
+# Interruptor Não Funciona: 7 Causas e Como Arranjar (2026)
 
-**O interruptor não liga a luz ou está partido?** Este é um problema comum que pode ter causas simples (lâmpada queimada) ou mais complexas (interruptor avariado). Neste guia completo, vou mostrar-lhe **as 7 causas principais** e **como reparar com segurança**.
+**O interruptor não liga a luz ou está partido?** Este é um problema comum que pode ter causas simples (lâmpada queimada) ou mais complexas (interruptor avariado). Neste guia completo, vou mostrar-lhe **as 7 causas principais** e **como arranjar com segurança**.
 
 > ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
 
@@ -172,14 +172,14 @@ Parafusos dos terminais soltaram-se com vibração/tempo, ou terminais oxidaram 
 **Por que acontece:**
 Cabo foi cortado acidentalmente (furar, pregar), roído por roedores, ou desligou-se numa caixa de derivação.
 
-**Solução: Localizar e reparar cabo (€60-300)**
+**Solução: Localizar e arranjar cabo (€60-300)**
 
 **Diagnóstico:**
 - Requer multímetro e conhecimentos
 - Eletricista usa detetor de cabos
 - Localiza ponto de rutura
 
-**Reparação:**
+**Arranjo:**
 - Abrir parede no ponto de rutura
 - Instalar caixa de derivação
 - Religar cabos
@@ -258,7 +258,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 **Complexo para DIY** — recomendo eletricista.
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY
 
@@ -279,11 +279,11 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 | Substituir interruptor simples | €40-80 |
 | Substituir interruptor dimmer | €60-120 |
 | Reapertar ligações | €40-60 |
-| Reparar cabo partido | €80-300 |
+| Arranjar cabo partido | €80-300 |
 | Configurar interruptor escada | €60-120 |
 | Urgência 24h | +€30-50 |
 
-> 💡 **Interruptor não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, reparação garantida.
+> 💡 **Interruptor não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
 
 ## 🛡️ Segurança ao Trabalhar com Interruptores
 
@@ -391,11 +391,11 @@ Faísca pequena ao ligar/desligar é normal (arco elétrico). Faísca grande ou 
 **6. Posso instalar dimmer em qualquer luz?**
 Não. Precisa: (1) dimmer específico para tipo de lâmpada (LED, incandescente), (2) lâmpadas dimerizáveis (nem todas LEDs são), (3) potência adequada. Verifique compatibilidade.
 
-**7. Interruptor de escada não funciona, como reparar?**
+**7. Interruptor de escada não funciona, como arranjar?**
 Complexo. Requer 2 comutadores ligados corretamente (3 fios entre eles). Se mal ligados, não funciona. Recomendo eletricista para verificar e corrigir ligações.
 
-**8. Vale a pena reparar ou substituir?**
-Interruptor custa €3-15. Reparação profissional: €40-80. Se interruptor está partido ou muito velho (> 20 anos): substitua. Se só ligação solta: repare. Geralmente compensa substituir.
+**8. Vale a pena arranjar ou substituir?**
+Interruptor custa €3-15. Arranjo profissional: €40-80. Se interruptor está partido ou muito velho (> 20 anos): substitua. Se só ligação solta: repare. Geralmente compensa substituir.
 
 ## 🎯 Conclusão: Interruptor Que Não Funciona Tem Solução
 
@@ -432,14 +432,14 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido em 30 minutos  
-✅ Reparação ou substituição  
+✅ Arranjo ou substituição  
 ✅ Materiais de qualidade em stock  
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-**Não fique sem luz!** Contacte-nos já para reparação rápida e segura.
+**Não fique sem luz!** Contacte-nos já para arranjo rápida e segura.
 
 ---
 

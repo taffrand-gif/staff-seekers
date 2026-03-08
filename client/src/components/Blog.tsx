@@ -45,7 +45,7 @@ export default function Blog() {
     },
     {
       title: 'Certificação Elétrica CERTIEL: Tudo o que Precisa Saber',
-      excerpt: 'Descubra quando é obrigatória a certificação elétrica, quanto custa e como preparar a sua instalação para a inspeção.',
+      excerpt: 'Descubra quando é obrigatória a certificação elétrica, quanto custa e como parranjar a sua instalação para a inspeção.',
       date: '10 Jan 2026',
       readTime: '7 min',
       image: '/images-optimized/blog/electrical-panel-certification.jpg',
