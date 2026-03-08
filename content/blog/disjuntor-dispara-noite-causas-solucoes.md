@@ -427,6 +427,13 @@ Não ligar tudo ao mesmo tempo.
 ### 7. Vale a pena reparar disjuntor velho?
 **Não.** Disjuntor novo custa 40-60€. Reparação não compensa. Sempre substituir.
 
+## Artigos Relacionados
+
+- [Quanto Custa Quadro Elétrico 2026](https://eletricista-norte-reparos.pt/blog/quanto-custa-quadro-fusiveis-2026)
+- [Urgência Elétrica: O Que Fazer](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes)
+- [Eletricista 24 Horas: Guia Completo](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo)
+- [Certificação CERTIEL Obrigatória](https://eletricista-norte-reparos.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+
 ## Disjuntor Dispara Frequentemente?
 
 **Ligue agora: 932 321 892**

@@ -378,6 +378,13 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### 7. Preciso mudar cabos também?
 **Depende.** Se cabos em bom estado (isolamento ok), não precisa. Eletricista avalia na visita técnica.
 
+## Artigos Relacionados
+
+- [Disjuntor Dispara: Causas e Soluções](https://eletricista-norte-reparos.pt/blog/disjuntor-dispara-noite-causas-solucoes)
+- [Certificação CERTIEL: Preços 2026](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
+- [Urgência Elétrica: O Que Fazer](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes)
+- [Eletricista vs Bricolage](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena)
+
 ## Precisa Modernizar Quadro Elétrico?
 
 **Ligue agora: 932 321 892**
