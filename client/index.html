@@ -30,7 +30,43 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
 
-    <!-- Google Analytics 4 - Lazy loaded for performance -->
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELETRICISTA01"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ELETRICISTA01', {
+        'send_page_view': true,
+        'anonymize_ip': true,
+        'cookie_flags': 'SameSite=None;Secure'
+      });
+
+      // Événements conversion personnalisés
+      window.trackPhoneClick = function(phone) {
+        gtag('event', 'phone_click', {
+          'event_category': 'conversion',
+          'event_label': phone,
+          'value': 1
+        });
+      };
+
+      window.trackWhatsAppClick = function(source) {
+        gtag('event', 'whatsapp_click', {
+          'event_category': 'conversion',
+          'event_label': source,
+          'value': 1
+        });
+      };
+
+      window.trackQuoteCalculated = function(service, price) {
+        gtag('event', 'quote_calculated', {
+          'event_category': 'engagement',
+          'event_label': service,
+          'value': price
+        });
+      };
+    </script>
 
     <!-- Preload des ressources critiques -->
     <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-600.woff2" crossorigin />
