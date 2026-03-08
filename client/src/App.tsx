@@ -89,6 +89,7 @@ const TomadaFaisca = lazy(() => import("@/pages/TomadaFaisca"));
 // Commercial Intent Pages (SEO Premium) - Eletricista
 const ComoInstalarTomadaSozinho = lazy(() => import("@/pages/ComoInstalarTomadaSozinho"));
 const QuantoCustaArranjarQuadroEletrico = lazy(() => import("@/pages/QuantoCustaArranjarQuadroEletrico"));
+const QuantoTempoQuadro = lazy(() => import("@/pages/QuantoTempoDemoraT rocarQuadroEletrico"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -165,6 +166,7 @@ function Router() {
         {/* Commercial Intent Pages - SEO Premium - Eletricista */}
         <Route path={"/como-instalar-tomada-sozinho"} component={ComoInstalarTomadaSozinho} />
         <Route path={"/quanto-custa-arranjar-quadro-eletrico"} component={QuantoCustaArranjarQuadroEletrico} />
+        <Route path={"/quanto-tempo-demora-trocar-quadro-eletrico"} component={QuantoTempoQuadro} />
         <Route path={"/404"} component={NotFound} />
         {/* Service hub pages */}
         <Route path={"/quadros-eletricos"} component={ServiceHub} />
