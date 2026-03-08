@@ -48,7 +48,7 @@ function MobileStickyBar() {
         rel="noopener noreferrer"
         className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity min-h-[64px]"
         style={{
-          backgroundColor: '#25D366',
+          backgroundColor: '#128C7E',
         }}
         aria-label="Contactar via WhatsApp"
       >
@@ -56,7 +56,7 @@ function MobileStickyBar() {
           <MessageCircle className="w-5 h-5" />
           <span className="text-base">WhatsApp</span>
         </div>
-        <span className="text-xs font-normal opacity-100 mt-0.5">Resposta 5min</span>
+        <span className="text-xs font-normal opacity-90 mt-0.5">Resposta 5min</span>
       </a>
     </div>
   );
