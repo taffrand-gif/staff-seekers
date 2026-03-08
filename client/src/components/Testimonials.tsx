@@ -2,7 +2,6 @@ import React from 'react';
 // Secção Testemunhos - avaliações de clientes
 import { useSite } from '@/contexts/SiteContext';
 import { Star } from 'lucide-react';
-// memo removed from 'react';
 import { useLocalTestimonials } from '@/hooks/useLocationContent';
 
 function Testimonials() {
@@ -16,9 +15,9 @@ function Testimonials() {
       <div className="container">
         {/* Cabeçalho */}
         <div className="text-center mb-16">
-          <div 
+          <div
             className="inline-flex items-center gap-2 px-6 py-3 mb-6 font-black text-white text-lg shadow-[4px_4px_0_0_rgba(0,0,0,0.2)]"
-            style={{ 
+            style={{
               backgroundColor: config.colors.primary,
               borderRadius: '999px',
             }}
