@@ -21,100 +21,100 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
   const forfaitsElectricien: Forfait[] = [
     {
       icon: '🔌',
-      title: 'Installation Prise/Interrupteur',
-      description: 'Ajout ou remplacement de prise ou interrupteur',
+      title: 'Instalação Tomada/Interruptor',
+      description: 'Adição ou substituição de tomada ou interruptor',
       priceRange: '50-105€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Installation complète',
-        'Test de fonctionnement',
-        'Garantie 6 mois'
+        'Deslocação incluída (Zona 1)',
+        'Instalação completa',
+        'Teste de funcionamento',
+        'Garantia 6 meses'
       ]
     },
     {
       icon: '🔍',
-      title: 'Recherche de Panne',
-      description: 'Diagnostic complet installation électrique',
+      title: 'Pesquisa de Avaria',
+      description: 'Diagnóstico completo instalação elétrica',
       priceRange: '85-140€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Diagnostic approfondi',
-        'Rapport détaillé',
-        'Devis réparation gratuit'
+        'Deslocação incluída (Zona 1)',
+        'Diagnóstico aprofundado',
+        'Relatório detalhado',
+        'Orçamento reparação gratuito'
       ],
       popular: true
     },
     {
       icon: '💡',
-      title: 'Installation Luminaire',
-      description: 'Pose de plafonnier, applique ou spot',
+      title: 'Instalação Luminária',
+      description: 'Instalação de candeeiro, aplique ou foco',
       priceRange: '50-105€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Installation sécurisée',
-        'Raccordement électrique',
-        'Nettoyage après travaux'
+        'Deslocação incluída (Zona 1)',
+        'Instalação segura',
+        'Ligação elétrica',
+        'Limpeza após trabalhos'
       ]
     },
     {
       icon: '⚡',
-      title: 'Réparation Disjoncteur',
-      description: 'Tableau qui saute - diagnostic et réparation',
+      title: 'Reparação Disjuntor',
+      description: 'Quadro que dispara - diagnóstico e reparação',
       priceRange: '85-210€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Identification problème',
-        'Remplacement si nécessaire',
-        'Mise aux normes'
+        'Deslocação incluída (Zona 1)',
+        'Identificação problema',
+        'Substituição se necessário',
+        'Conformidade normas'
       ],
       popular: true
     },
     {
       icon: '🏠',
-      title: 'Modernisation Tableau Simple',
-      description: 'Mise à jour tableau électrique basique',
+      title: 'Modernização Quadro Simples',
+      description: 'Atualização quadro elétrico básico',
       priceRange: '165-365€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Nouveau tableau modulaire',
-        'Disjoncteurs neufs',
-        'Étiquetage circuits'
+        'Deslocação incluída (Zona 1)',
+        'Novo quadro modular',
+        'Disjuntores novos',
+        'Etiquetagem circuitos'
       ]
     },
     {
       icon: '🔧',
-      title: 'Tableau Électrique Complet',
-      description: 'Installation tableau neuf avec protection',
+      title: 'Quadro Elétrico Completo',
+      description: 'Instalação quadro novo com proteção',
       priceRange: '215-515€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Tableau complet aux normes',
-        'Différentiel 30mA',
-        'Parafoudre inclus'
+        'Deslocação incluída (Zona 1)',
+        'Quadro completo às normas',
+        'Diferencial 30mA',
+        'Para-raios incluído'
       ]
     },
     {
       icon: '📋',
-      title: 'Certification CERTIEL',
-      description: 'Inspection et certificat officiel',
+      title: 'Certificação CERTIEL',
+      description: 'Inspeção e certificado oficial',
       priceRange: '95-215€',
       details: [
-        'Déplacement inclus (Zone 1)',
-        'Inspection complète',
-        'Certificat officiel',
-        'Rapport détaillé'
+        'Deslocação incluída (Zona 1)',
+        'Inspeção completa',
+        'Certificado oficial',
+        'Relatório detalhado'
       ]
     },
     {
       icon: '🏗️',
-      title: 'Installation Complète',
-      description: 'Électricité maison/appartement neuf',
-      priceRange: 'Sur devis',
+      title: 'Instalação Completa',
+      description: 'Eletricidade casa/apartamento novo',
+      priceRange: 'Sob orçamento',
       details: [
-        'Étude personnalisée',
-        'Plan électrique',
-        'Matériel de qualité',
-        'Garantie 6 mois'
+        'Estudo personalizado',
+        'Plano elétrico',
+        'Material de qualidade',
+        'Garantia 6 meses'
       ]
     }
   ];
@@ -125,10 +125,10 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Forfaits & Tarifs Clairs
+            Pacotes & Tarifas Claras
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Prix tout compris pour les interventions les plus courantes. Matériel standard inclus.
+            Preços completos para as intervenções mais comuns. Material padrão incluído.
           </p>
         </div>
 
@@ -197,7 +197,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
                     window.open(`https://wa.me/351${phone}?text=${message}`, '_blank');
                   }}
                 >
-                  Demander Devis
+                  Pedir Orçamento
                 </button>
               </div>
             </div>
@@ -207,28 +207,28 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
         {/* Important Notes */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border-2 border-blue-200">
           <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-            Informations Importantes
+            Informações Importantes
           </h3>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl mb-2">📍</div>
-              <h4 className="font-bold text-gray-900 mb-1">Zones de Déplacement</h4>
+              <h4 className="font-bold text-gray-900 mb-1">Zonas de Deslocação</h4>
               <p className="text-sm text-gray-600">
-                Prix indiqués pour Zone 1 (≤15km). Autres zones: voir grille tarifaire.
+                Preços indicados para Zona 1 (≤15km). Outras zonas: ver tabela tarifária.
               </p>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-2">🔧</div>
-              <h4 className="font-bold text-gray-900 mb-1">Matériel Inclus</h4>
+              <h4 className="font-bold text-gray-900 mb-1">Material Incluído</h4>
               <p className="text-sm text-gray-600">
-                Matériel standard inclus. Équipement premium sur demande avec supplément.
+                Material padrão incluído. Equipamento premium sob pedido com suplemento.
               </p>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-2">⏰</div>
-              <h4 className="font-bold text-gray-900 mb-1">Majorations</h4>
+              <h4 className="font-bold text-gray-900 mb-1">Acréscimos</h4>
               <p className="text-sm text-gray-600">
-                Samedi +29%, Dimanche/Férié +43%, Nocturne (18h-8h) +50%
+                Sábado +29%, Domingo/Feriado +43%, Noturno (18h-8h) +50%
               </p>
             </div>
           </div>
@@ -238,10 +238,10 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
         <div className="mt-8 text-center">
           <div className="inline-block bg-green-50 border-2 border-green-200 rounded-xl px-8 py-4">
             <p className="text-lg font-bold text-gray-900 mb-1">
-              ✅ Prix Communiqué et Validé Avant Intervention
+              ✅ Preço Comunicado e Validado Antes da Intervenção
             </p>
             <p className="text-sm text-gray-600">
-              Aucune surprise. Si le prix change, nous vous prévenons AVANT de commencer.
+              Sem surpresas. Se o preço mudar, avisamos ANTES de começar.
             </p>
           </div>
         </div>
