@@ -84,6 +84,7 @@ const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 const Tarifas = lazy(() => import("@/pages/Tarifas"));
+const TomadaFaisca = lazy(() => import("@/pages/TomadaFaisca"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -156,6 +157,7 @@ function Router() {
         <Route path={"/zonas"} component={Zonas} />
         <Route path={"/transparence-prix"} component={TransparencePrix} />
         <Route path={"/tarifas"} component={Tarifas} />
+        <Route path={"/tomada-faisca"} component={TomadaFaisca} />
         <Route path={"/404"} component={NotFound} />
         {/* Service hub pages */}
         <Route path={"/quadros-eletricos"} component={ServiceHub} />
