@@ -10,13 +10,13 @@ export default function SEOHead() {
   const [location] = useLocation();
 
   useEffect(() => {
-    // Update document title
+    // Atualizar título do documento
     document.title = config.title;
 
-    // Set language
+    // Definir idioma
     document.documentElement.lang = 'pt-PT';
 
-    // Helper function to update or create meta tag
+    // Função auxiliar para atualizar ou criar meta tag
     const updateMetaTag = (selector: string, attribute: string, value: string) => {
       let element = document.querySelector(selector);
       if (!element) {
@@ -33,7 +33,7 @@ export default function SEOHead() {
       element.setAttribute(attribute, value);
     };
 
-    // Basic meta tags
+    // Meta tags básicas
     updateMetaTag('meta[name="description"]', 'content', config.description);
     updateMetaTag('meta[name="author"]', 'content', config.name);
     updateMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
@@ -41,7 +41,7 @@ export default function SEOHead() {
     updateMetaTag('meta[name="keywords"]', 'content', config.seo.keywords.join(', '));
     updateMetaTag('meta[name="language"]', 'content', 'pt-PT');
 
-    // Geo tags pour SEO local
+    // Geo tags para SEO local
     updateMetaTag('meta[name="geo.region"]', 'content', 'PT-04');
     updateMetaTag('meta[name="geo.placename"]', 'content', 'Macedo de Cavaleiros');
     updateMetaTag('meta[name="geo.position"]', 'content', '41.5382;-6.9667');
@@ -56,13 +56,13 @@ export default function SEOHead() {
     updateMetaTag('meta[property="og:image"]', 'content', `https://${config.domain}${config.seo.ogImage}`);
     updateMetaTag('meta[property="og:url"]', 'content', `https://${config.domain}${location === '/' ? '' : location}`);
 
-    // Twitter Card
+    // Cartão Twitter
     updateMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
     updateMetaTag('meta[name="twitter:title"]', 'content', config.title);
     updateMetaTag('meta[name="twitter:description"]', 'content', config.description);
     updateMetaTag('meta[name="twitter:image"]', 'content', `https://${config.domain}${config.seo.ogImage}`);
 
-    // Canonical URL (dynamic based on path)
+    // URL Canónica (dinâmica baseada no caminho)
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
     if (!canonical) {
       canonical = document.createElement('link');
@@ -71,7 +71,7 @@ export default function SEOHead() {
     }
     canonical.href = `https://${config.domain}${location === '/' ? '' : location}`;
 
-    // Alternate hreflang
+    // Hreflang alternativo
     let hreflang = document.querySelector('link[hreflang="pt-PT"]') as HTMLLinkElement;
     if (!hreflang) {
       hreflang = document.createElement('link');
@@ -81,12 +81,12 @@ export default function SEOHead() {
     }
     hreflang.href = `https://${config.domain}`;
 
-    // Google Ads tracking - deferred to avoid blocking main thread
+    // Rastreamento Google Ads - diferido para evitar bloquear thread principal
     if (!window.dataLayer) {
       window.dataLayer = [];
     }
 
-    // Defer GTM loading by 3s after page load for better performance
+    // Diferir carregamento GTM por 3s após carregamento da página para melhor desempenho
     const loadGTM = () => {
       if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
       setTimeout(() => {
@@ -104,7 +104,7 @@ export default function SEOHead() {
           gtag('js', new Date());
           gtag('config', 'AW-17915870228');
 
-          // GDPR Consent Mode (preserved from original)
+          // Modo de Consentimento GDPR (preservado do original)
           gtag('consent', 'default', {
             'analytics_storage': 'denied',
             'ad_storage': 'denied',
@@ -122,10 +122,10 @@ export default function SEOHead() {
     }
   }, [config, location]);
 
-  return null; // This component doesn't render anything
+  return null; // Este componente não renderiza nada
 }
 
-// Extend Window interface for TypeScript
+// Estender interface Window para TypeScript
 declare global {
   interface Window {
     dataLayer: any[];

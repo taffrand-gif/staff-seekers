@@ -1,7 +1,7 @@
 import React from 'react';
-// Guarantee Section Component - 4 cartes garanties
-// Lever objection #2 "Est-ce qu'il va vraiment résoudre?"
-// Impact: Confiance + Conversion
+// Componente Seção de Garantia - 4 cartões de garantia
+// Superar objeção #2 "Ele vai realmente resolver?"
+// Impacto: Confiança + Conversão
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';

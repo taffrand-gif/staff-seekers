@@ -4,16 +4,16 @@ export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Vérifier si le consentement a déjà été donné
+    // Verificar se o consentimento já foi dado
     const consentStatus = localStorage.getItem('cookieConsent');
-    
+
     if (!consentStatus) {
-      // Afficher le bandeau après 1 seconde
+      // Mostrar o banner após 1 segundo
       setTimeout(() => {
         setIsVisible(true);
       }, 1000);
     } else if (consentStatus === 'accepted') {
-      // Charger les scripts Google si consentement donné
+      // Carregar os scripts Google se consentimento dado
       initializeGoogleTags();
     }
   }, []);
@@ -31,7 +31,7 @@ export default function CookieConsent() {
 
   const handleSettings = () => {
     alert('Você será redirecionado para as configurações de cookies.');
-    // TODO: Implémenter une modal de paramètres détaillés
+    // TODO: Implementar uma modal de configurações detalhadas
   };
 
   if (!isVisible) return null;

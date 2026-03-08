@@ -1,4 +1,4 @@
-// Secção Avaliações Google com Schema AggregateRating
+// Seção Avaliações Google com Schema AggregateRating
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect, useRef, useState } from 'react';
 
@@ -119,7 +119,7 @@ export default function GoogleReviews() {
     return () => observer.disconnect();
   }, []);
 
-  // Inject AggregateRating schema
+  // Injetar schema AggregateRating
   useEffect(() => {
     const schema = {
       '@context': 'https://schema.org',

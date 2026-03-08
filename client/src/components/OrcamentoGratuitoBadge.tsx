@@ -1,5 +1,5 @@
-// Badge "Orçamento Gratuito" bien visible
-// Apparaît sous le hero, au-dessus des services
+// Badge "Orçamento Gratuito" bem visível
+// Aparece abaixo do hero, acima dos serviços
 
 import { useSite } from '@/contexts/SiteContext';
 import { Shield, Phone } from 'lucide-react';

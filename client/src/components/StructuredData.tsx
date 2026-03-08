@@ -1,5 +1,5 @@
-// Structured Data (Schema.org) component
-// Schema Markup LocalBusiness: Plumber pour norte-reparos, Electrician pour staff-seekers
+// Componente Structured Data (Schema.org)
+// Schema Markup LocalBusiness: Plumber para norte-reparos, Electrician para staff-seekers
 
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
@@ -21,18 +21,18 @@ export default function StructuredData() {
     const serviceName = 'Eletricista';
     const detectedCity = getCurrentCity();
 
-    // Ne pas ajouter FAQPage sur les pages ville (CityServicePage a déjà son propre FAQPage)
+    // Não adicionar FAQPage nas páginas cidade (CityServicePage já tem seu próprio FAQPage)
     const isCityServicePage = location.match(/\/(eletricista|canalizador)-[a-z-]+$/);
     const shouldIncludeFAQ = !isCityServicePage;
 
-    // Liste des 10 villes servies
+    // Lista das 10 cidades servidas
     const citiesServed = [
       "Bragança", "Macedo de Cavaleiros", "Mirandela", "Chaves",
       "Vila Real", "Vinhais", "Miranda do Douro", "Mogadouro",
       "Torre de Moncorvo", "Freixo de Espada à Cinta", "Valpaços", "Alfândega da Fé"
     ];
 
-    // LocalBusiness Schema enrichi
+    // LocalBusiness Schema enriquecido
     const localBusinessSchema = {
       "@context": "https://schema.org",
       "@type": businessType,
@@ -155,7 +155,7 @@ export default function StructuredData() {
       }))
     };
 
-    // Service Schema (général)
+    // Service Schema (geral)
     const serviceSchema = {
       "@context": "https://schema.org",
       "@type": "Service",
@@ -208,7 +208,7 @@ export default function StructuredData() {
       }
     };
 
-    // Service Schema spécifique pour les pages ville
+    // Service Schema específico para as páginas cidade
     const getCityServiceSchema = () => {
       const cityPages = [
         { path: '/eletricista-chaves', city: 'Chaves' },
@@ -259,7 +259,7 @@ export default function StructuredData() {
       };
     };
 
-    // Reviews Schema amélioré
+    // Reviews Schema melhorado
     const reviewsSchema = config.testimonials.map((testimonial, index) => ({
       "@context": "https://schema.org",
       "@type": "Review",
@@ -330,7 +330,7 @@ export default function StructuredData() {
       ]
     };
 
-    // FAQ Schema enrichi
+    // FAQ Schema enriquecido
     const faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -378,7 +378,7 @@ export default function StructuredData() {
       ]
     };
 
-    // BreadcrumbList Schema dynamique
+    // BreadcrumbList Schema dinâmico
     const getBreadcrumbSchema = () => {
       const breadcrumbItems = [
         {
@@ -389,7 +389,7 @@ export default function StructuredData() {
         }
       ];
 
-      // Pages ville
+      // Páginas cidade
       const cityPages = [
         { path: '/eletricista-chaves', city: 'Chaves' },
         { path: '/eletricista-braganca', city: 'Bragança' },
@@ -419,7 +419,7 @@ export default function StructuredData() {
           "item": `https://${config.domain}${location}`
         });
       } else if (location !== '/') {
-        // Pour toutes les autres pages
+        // Para todas as outras páginas
         const pageTitles: Record<string, string> = {
           '/urgencias-24h': 'Urgências 24h',
           '/simulador-preco': 'Simulador de Preço',
@@ -451,7 +451,7 @@ export default function StructuredData() {
 
     const breadcrumbSchema = getBreadcrumbSchema();
 
-    // Inserir tous les schemas
+    // Inserir todos os schemas
     const schemas = [
       localBusinessSchema,
       serviceSchema,
@@ -461,12 +461,12 @@ export default function StructuredData() {
       ...reviewsSchema
     ];
 
-    // Ajouter FAQPage seulement si pas sur une page ville (éviter duplication)
+    // Adicionar FAQPage apenas se não estiver numa página cidade (evitar duplicação)
     if (shouldIncludeFAQ) {
       schemas.push(faqSchema);
     }
 
-    // Ajouter le schema spécifique à la ville si applicable
+    // Adicionar o schema específico da cidade se aplicável
     const cityServiceSchema = getCityServiceSchema();
     if (cityServiceSchema) {
       schemas.push(cityServiceSchema);

@@ -15,7 +15,7 @@ function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(true);
   const [isMinimized, setIsMinimized] = useState(false);
 
-  // WhatsApp message pré-rempli avec localisation
+  // Mensagem WhatsApp pré-preenchida com localização
   const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
   const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(whatsappMessage)}`;
 

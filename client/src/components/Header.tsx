@@ -22,7 +22,7 @@ function Header() {
   const [mobileDistrictOpen, setMobileDistrictOpen] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Mémoriser districts pour éviter recréation à chaque render
+  // Memorizar distritos para evitar recriação a cada render
   const districts: District[] = useMemo(() => [
     {
       name: 'Distrito de Bragança',

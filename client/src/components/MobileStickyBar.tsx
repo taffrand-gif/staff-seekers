@@ -1,7 +1,7 @@
 import React from 'react';
-// Barre fixe mobile — Ligar + WhatsApp côte à côte
-// Visible UNIQUEMENT sur mobile (md:hidden)
-// Position fixed bottom, z-index élevé, 56px min height
+// Barra fixa mobile — Ligar + WhatsApp lado a lado
+// Visível APENAS em mobile (md:hidden)
+// Posição fixed bottom, z-index elevado, 56px min height
 
 import { useSite } from '@/contexts/SiteContext';
 // memo removed from 'react';

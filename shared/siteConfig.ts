@@ -1,6 +1,6 @@
-// Configuration for Staff-Seekers (Eletricista)
-// Zone d'intervention : rayon de 100 km autour de Macedo de Cavaleiros, district de Bragança, Portugal
-// Site en portugais uniquement — Tarifs sem IVA
+// Configuração para Staff-Seekers (Eletricista)
+// Zona de intervenção: raio de 100 km em torno de Macedo de Cavaleiros, distrito de Bragança, Portugal
+// Site apenas em português — Preços sem IVA
 
 export type SiteId = 'staff-seekers';
 

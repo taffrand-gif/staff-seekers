@@ -1,7 +1,7 @@
-// Design: Professional Service Layout
-// - Asymmetric layout with text and image
-// - Thick borders and bold headings
-// - Clear value propositions with checkmarks
+// Design: Layout de Serviço Profissional
+// - Layout assimétrico com texto e imagem
+// - Bordas grossas e títulos em negrito
+// - Propostas de valor claras com marcas de verificação
 
 import { useSite } from '@/contexts/SiteContext';
 import { Check } from 'lucide-react';

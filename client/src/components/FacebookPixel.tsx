@@ -4,7 +4,7 @@ interface FacebookPixelProps {
   pixelId: string;
 }
 
-// Déclaration TypeScript pour fbq
+// Declaração TypeScript para fbq
 declare global {
   interface Window {
     fbq: any;
@@ -18,7 +18,7 @@ export function FacebookPixel({ pixelId }: FacebookPixelProps) {
       return;
     }
 
-    // Initialiser Facebook Pixel
+    // Inicializar Facebook Pixel
     (function(f: any, b: any, e: string, v: string, n?: any, t?: any, s?: any) {
       if (f.fbq) return;
       n = f.fbq = function() {
@@ -48,7 +48,7 @@ export function FacebookPixel({ pixelId }: FacebookPixelProps) {
   return null;
 }
 
-// Helper functions pour tracker les événements
+// Funções auxiliares para rastrear os eventos
 export const trackEvent = {
   // Lead: Formulário de orçamento submetido
   lead: (value?: number, currency = 'EUR') => {
@@ -60,7 +60,7 @@ export const trackEvent = {
     }
   },
 
-  // Contact: Clic sur téléphone ou WhatsApp
+  // Contact: Clique em telefone ou WhatsApp
   contact: (method: 'phone' | 'whatsapp') => {
     if (window.fbq) {
       window.fbq('track', 'Contact', {
@@ -69,7 +69,7 @@ export const trackEvent = {
     }
   },
 
-  // ViewContent: Visite d'une page de service
+  // ViewContent: Visita de uma página de serviço
   viewContent: (contentName: string, contentCategory?: string) => {
     if (window.fbq) {
       window.fbq('track', 'ViewContent', {
@@ -79,7 +79,7 @@ export const trackEvent = {
     }
   },
 
-  // CompleteRegistration: Inscription newsletter
+  // CompleteRegistration: Inscrição newsletter
   completeRegistration: (method = 'newsletter') => {
     if (window.fbq) {
       window.fbq('track', 'CompleteRegistration', {
@@ -88,7 +88,7 @@ export const trackEvent = {
     }
   },
 
-  // Schedule: Réservation prise
+  // Schedule: Reserva feita
   schedule: (value?: number) => {
     if (window.fbq) {
       window.fbq('track', 'Schedule', {

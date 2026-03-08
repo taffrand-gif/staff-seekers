@@ -1,6 +1,6 @@
 import React from 'react';
-// FAQ supplémentaires orientées SEO local
-// Questions ciblant les recherches locales dans les villes de Trás-os-Montes
+// FAQ adicionais orientadas para SEO local
+// Perguntas direcionadas para pesquisas locais nas cidades de Trás-os-Montes
 
 import { useSite } from '@/contexts/SiteContext';
 // memo removed from 'react';

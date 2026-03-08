@@ -78,13 +78,13 @@ export default function QuoteFormEnhanced() {
 
     autocomplete.addListener('place_changed', () => {
       const place = autocomplete.getPlace();
-      
+
       if (!place.geometry || !place.geometry.location) {
         toast.error("Endereço não encontrado. Por favor, selecione um endereço válido.");
         return;
       }
 
-      // Extract address components
+      // Extrair componentes do endereço
       let street = "";
       let streetNumber = "";
       let postalCode = "";
@@ -107,7 +107,7 @@ export default function QuoteFormEnhanced() {
         }
       });
 
-      // Update form with extracted data
+      // Atualizar formulário com dados extraídos
       setFormData({
         ...formData,
         street,
@@ -118,11 +118,11 @@ export default function QuoteFormEnhanced() {
         longitude: place.geometry.location.lng().toString(),
       });
 
-      // Center map on selected location
+      // Centrar mapa na localização selecionada
       map.setCenter(place.geometry.location);
       map.setZoom(17);
 
-      // Add marker
+      // Adicionar marcador
       new window.google.maps.Marker({
         position: place.geometry.location,
         map: map,
@@ -135,10 +135,10 @@ export default function QuoteFormEnhanced() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Build full address for legacy field
+
+    // Construir endereço completo para campo legado
     const fullAddress = `${formData.street} ${formData.streetNumber}${formData.complement ? ', ' + formData.complement : ''}, ${formData.postalCode} ${formData.city}`;
-    
+
     createQuote.mutate({
       ...formData,
       address: fullAddress,
