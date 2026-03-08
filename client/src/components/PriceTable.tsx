@@ -124,8 +124,8 @@ export default function PriceTable() {
                         <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
                         <ul className="space-y-1 text-amber-800 text-sm">
                             <li className="flex justify-between"><span>Deslocação (Zona 3):</span> <span>35€</span></li>
-                            <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>100€</span></li>
-                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>135€</span></li>
+                            <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>80€</span></li>
+                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>115€</span></li>
                         </ul>
                          <p className="text-xs text-amber-700 mt-2 italic">Preço anunciado ao telefone ANTES de sair.</p>
                     </div>
