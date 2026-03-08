@@ -23,7 +23,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 **Interrupção do descanso semanal:** Trabalhar ao domingo significa abdicar do tempo com família, o que justifica uma compensação justa.
 
-**Urgência real:** Problemas elétricos ao domingo são geralmente urgências que não podem esperar até segunda-feira.
+**Urgência real:** Problemas elétricos ao domingo são geralmente urgências que não podem esperar até segunda-feira. Se precisa de [eletricista 24 horas](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo), saiba como funciona o serviço completo.
 
 **Custos operacionais:** Seguros, combustível e manutenção de viaturas não param ao fim de semana.
 
@@ -115,12 +115,12 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ### URGÊNCIAS REAIS (Chamar Imediatamente) ✅
 
-1. **Cheiro a queimado** - Risco de incêndio iminente
+1. **Cheiro a queimado** - Risco de incêndio iminente. Saiba [o que fazer antes do eletricista chegar](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes).
 2. **Choque elétrico** - Perigo de morte
 3. **Sem corrente no inverno** - Risco hipotermia (idosos, crianças)
 4. **Curto-circuito com faíscas** - Risco incêndio
 5. **Água em contacto com eletricidade** - Perigo extremo
-6. **Quadro elétrico a fazer ruído estranho** - Pode explodir
+6. **Quadro elétrico a fazer ruído estranho** - Pode explodir. Veja [quanto custa substituir quadro](https://eletricista-norte-reparos.pt/blog/quanto-custa-quadro-fusiveis-2026).
 
 ### PODE ESPERAR ATÉ SEGUNDA (Poupar 25-30%) ⏳
 
@@ -188,13 +188,20 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **Sim, 365 dias/ano.** Feriados têm o mesmo preço que domingos (100€/h horário normal, 150€/h noturno).
 
 ### 6. Dão garantia nos arranjos ao domingo?
-**Sim, 12 meses.** Mesma garantia que dias úteis. Se problema voltar, arranjamos gratuitamente.
+**Sim, 12 meses.** Mesma garantia que dias úteis. Se problema voltar, arranjamos gratuitamente. Conheça [como escolher o melhor eletricista](https://eletricista-norte-reparos.pt/blog/melhores-eletricistas-braganca-2026).
 
 ### 7. Posso agendar para domingo de manhã?
 **Sim.** Pode ligar sábado à noite ou domingo de manhã cedo para agendar hora específica.
 
 ### 8. Preços incluem IVA?
 **Não.** Preços apresentados são sem IVA. Com IVA (23%): dias úteis 86€/h, sábado 111€/h, domingo 123€/h.
+
+## Artigos Relacionados
+
+- [Eletricista 24 Horas: Guia Completo](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo)
+- [Certificação CERTIEL: Preços 2026](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
+- [Urgência Elétrica: O Que Fazer](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes)
+- [Eletricista vs Bricolage: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena)
 
 ## Comparação com Concorrência
 

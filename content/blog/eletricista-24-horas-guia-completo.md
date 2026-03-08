@@ -386,6 +386,13 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ### 7. Aceitam cartão de crédito?
 **Não no local**, mas aceitamos MB Way (instantâneo) ou transferência bancária.
 
+## Artigos Relacionados
+
+- [Quanto Custa Eletricista Domingo 2026](https://eletricista-norte-reparos.pt/blog/quanto-custa-eletricista-domingo-2026)
+- [Urgência Elétrica: O Que Fazer Antes](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes)
+- [Certificação CERTIEL: Preços e Processo](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
+- [Melhores Eletricistas Bragança](https://eletricista-norte-reparos.pt/blog/melhores-eletricistas-braganca-2026)
+
 ## Precisa de Eletricista Urgente?
 
 **Ligue AGORA: 932 321 892**

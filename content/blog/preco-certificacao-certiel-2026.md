@@ -55,7 +55,7 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 
 ### OBRIGATÓRIA (Lei) ✅
 
-1. **Venda de imóvel** - Sem certificado, não pode vender legalmente
+1. **Venda de imóvel** - Sem certificado, não pode vender legalmente. Saiba mais sobre [certificação obrigatória](https://eletricista-norte-reparos.pt/blog/certificacao-eletrica-obrigatoria-quando-como).
 2. **Arrendamento** - Obrigatório para novos contratos desde 2007
 3. **Instalação nova** - Todas as instalações novas devem ser certificadas
 4. **Remodelação elétrica** - Se alterar >50% da instalação
@@ -65,7 +65,7 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 ### RECOMENDADA (Mas Não Obrigatória) ⚠️
 
 1. **Seguro habitação** - Algumas seguradoras exigem ou dão desconto
-2. **Imóvel com +20 anos** - Verificar segurança instalação
+2. **Imóvel com +20 anos** - Verificar segurança instalação. Veja [como escolher eletricista confiável](https://eletricista-norte-reparos.pt/blog/melhores-eletricistas-braganca-2026).
 3. **Compra de imóvel antigo** - Garantir que está conforme
 4. **Após avaria grave** - Confirmar que ficou tudo seguro
 
@@ -256,6 +256,20 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 - Chaves de todas divisões
 - Acesso ao quadro elétrico
 - Acesso ao contador
+
+**Ganho:** Evita reagendamento
+
+### 3. Corrigir Problemas Conhecidos Antes
+Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. Veja [quando vale a pena fazer você mesmo](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena).
+
+**Ganho:** -2 a -3 dias
+
+## Artigos Relacionados
+
+- [Certificação Elétrica Obrigatória: Guia Completo](https://eletricista-norte-reparos.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+- [Quanto Custa Quadro Elétrico 2026](https://eletricista-norte-reparos.pt/blog/quanto-custa-quadro-fusiveis-2026)
+- [Melhores Eletricistas Bragança](https://eletricista-norte-reparos.pt/blog/melhores-eletricistas-braganca-2026)
+- [Eletricista 24 Horas: Como Funciona](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo)
 
 **Ganho:** Evita reagendamentos
 
