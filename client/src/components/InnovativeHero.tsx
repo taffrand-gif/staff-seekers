@@ -51,7 +51,7 @@ const InnovativeHero: React.FC = () => {
       }}
     >
       {/* LCP Image preload hint */}
-      <link rel="preload" as="image" href={config.hero.backgroundImage} fetchpriority="high" />
+      <link rel="preload" as="image" href={config.hero.backgroundImage} fetchPriority="high" />
 
       {/* Background overlay */}
       <div className={`absolute inset-0 bg-gradient-to-br ${overlayFrom} via-transparent ${overlayTo}`} />
