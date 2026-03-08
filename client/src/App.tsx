@@ -86,6 +86,10 @@ const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 const Tarifas = lazy(() => import("@/pages/Tarifas"));
 const TomadaFaisca = lazy(() => import("@/pages/TomadaFaisca"));
 
+// Commercial Intent Pages (SEO Premium) - Eletricista
+const ComoInstalarTomadaSozinho = lazy(() => import("@/pages/ComoInstalarTomadaSozinho"));
+const QuantoCustaArranjarQuadroEletrico = lazy(() => import("@/pages/QuantoCustaArranjarQuadroEletrico"));
+
 // Simple loading fallback component
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-[400px]">
@@ -158,6 +162,9 @@ function Router() {
         <Route path={"/transparence-prix"} component={TransparencePrix} />
         <Route path={"/tarifas"} component={Tarifas} />
         <Route path={"/tomada-faisca"} component={TomadaFaisca} />
+        {/* Commercial Intent Pages - SEO Premium - Eletricista */}
+        <Route path={"/como-instalar-tomada-sozinho"} component={ComoInstalarTomadaSozinho} />
+        <Route path={"/quanto-custa-arranjar-quadro-eletrico"} component={QuantoCustaArranjarQuadroEletrico} />
         <Route path={"/404"} component={NotFound} />
         {/* Service hub pages */}
         <Route path={"/quadros-eletricos"} component={ServiceHub} />
