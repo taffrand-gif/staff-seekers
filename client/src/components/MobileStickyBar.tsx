@@ -37,7 +37,7 @@ function MobileStickyBar() {
           <Phone className="w-5 h-5" />
           <span className="text-base">LIGAR</span>
         </div>
-        <span className="text-xs font-normal opacity-100 mt-0.5">{arrivalTime.split('-')[0]}</span>
+        <span className="text-xs font-normal opacity-90 mt-0.5">{arrivalTime.split('-')[0]}</span>
       </a>
 
       {/* Bouton WhatsApp — 50% droite */}
@@ -56,7 +56,7 @@ function MobileStickyBar() {
           <MessageCircle className="w-5 h-5" />
           <span className="text-base">WhatsApp</span>
         </div>
-        <span className="text-xs font-normal opacity-100 mt-0.5">Resposta 5min</span>
+        <span className="text-xs font-normal opacity-90 mt-0.5">Resposta 5min</span>
       </a>
     </div>
   );

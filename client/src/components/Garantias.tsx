@@ -126,7 +126,7 @@ export default function Garantias() {
           <a
             href={`tel:+351${phone.replace(/ /g, '')}`}
             className="inline-flex items-center gap-2 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
-            style={{ backgroundColor: accentColor, color: '#ffffff' }}
+            style={{ backgroundColor: accentColor }}
           >
             📞 Ligar Agora — {phone}
           </a>
