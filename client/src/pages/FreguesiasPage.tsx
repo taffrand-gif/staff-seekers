@@ -33,6 +33,7 @@ export default function FreguesiasPage() {
   useEffect(() => {
     document.title = `${config.serviceName} ${freguesia.name} (${parentCity.name}) 💧 24h | ${config.phone}`;
 
+    // Meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -42,6 +43,16 @@ export default function FreguesiasPage() {
     metaDescription.setAttribute('content',
       `${config.serviceName} profissional em ${freguesia.name}, ${parentCity.name}. Serviço 24h, urgências. Ligue: ${config.phone}`
     );
+
+    // Canonical URL
+    const canonicalUrl = `https://${config.domain}/${config.serviceSlug}-${freguesiaSlug}-${parentCitySlug}`;
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', canonicalUrl);
 
     // Schema.org LocalBusiness
     const schemaScript = document.createElement('script');
