@@ -6,7 +6,7 @@ Plateforme multi-sites pour services de plomberie et électricité 24h/24 dans l
 
 ### 1. Norte-Reparos (norte-reparos.com)
 - **Secteur** : Services de canalisations (plomberie)
-- **Téléphone** : 928 484 451
+- **Téléphone** : 932 321 892
 - **Couleur principale** : Bleu (#1e40af)
 - **Services** : Arranjo Fuga Água, Desentupimento, Instalação Esquentador, Substituição Canalização
 
@@ -231,7 +231,7 @@ colors: {
 
 Pour toute question ou assistance :
 - Email : info@norte-reparos.com ou info@eletricista-norte-reparos.pt
-- Téléphone : 928 484 451 (Norte-Reparos) ou 932 321 892 (Staff-Seekers)
+- Téléphone : 932 321 892 (Norte-Reparos) ou 932 321 892 (Staff-Seekers)
 
 ## Licence
 

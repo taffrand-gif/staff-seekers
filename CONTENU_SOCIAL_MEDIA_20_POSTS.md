@@ -25,7 +25,7 @@ Canalizadores profissionais disponíveis 24 horas por dia, 7 dias por semana.
 
 Atendemos todo o distrito de Bragança em 30-40 minutos!
 
-📞 Ligue AGORA: 928 484 451
+📞 Ligue AGORA: 932 321 892
 💬 WhatsApp disponível
 
 #Bragança #Canalizador #Urgências #NorteReparos
@@ -54,7 +54,7 @@ Estamos disponíveis 24 HORAS, incluindo:
 
 Chegamos em 30-40 minutos!
 
-📞 928 484 451 (LIGUE AGORA)
+📞 932 321 892 (LIGUE AGORA)
 💬 WhatsApp: [link]
 
 Bragança | Macedo de Cavaleiros | Mirandela | Toda a região
@@ -85,7 +85,7 @@ Fugas escondidas desperdiçam centenas de litros por dia e aumentam a fatura em 
 Detetamos fugas com termografia (sem partir paredes)!
 
 Suspeita de fuga?
-📞 928 484 451
+📞 932 321 892
 Diagnóstico rápido e preciso.
 
 #DicasÚteis #FugaDeÁgua #Bragança #Canalizador
@@ -117,7 +117,7 @@ Não use produtos químicos agressivos!
 Podem danificar as canalizações.
 
 Ligue para os profissionais:
-📞 928 484 451
+📞 932 321 892
 
 Atendemos TODO o distrito de Bragança.
 
@@ -145,7 +145,7 @@ A sua satisfação é a nossa prioridade!
 Centenas de clientes satisfeitos em todo o distrito.
 
 Próxima urgência?
-📞 928 484 451 (24h)
+📞 932 321 892 (24h)
 
 #Testemunhos #ClientesSatisfeitos #Bragança
 ```
@@ -171,7 +171,7 @@ As temperaturas negativas podem congelar e rebentar tubagens.
 5️⃣ Esvazie canalizações de casas desabitadas
 
 Tubagem rebentou?
-🚨 URGÊNCIA 24H: 928 484 451
+🚨 URGÊNCIA 24H: 932 321 892
 
 Prevenção é sempre mais barato que arranjo!
 
@@ -205,7 +205,7 @@ Vulcano | Junkers | Ariston | Roca
 
 Orçamento GRATUITO sem compromisso!
 
-📞 928 484 451
+📞 932 321 892
 📍 Todo o distrito de Bragança
 
 #Esquentador #Canalizador #Bragança
@@ -236,7 +236,7 @@ Não arrisque com "faz-tudo" sem certificação!
 Profissionalismo e confiança garantidos.
 
 Próximo projeto?
-📞 928 484 451
+📞 932 321 892
 🌐 norte-reparos.com
 
 #Certificação #Garantia #Bragança #Profissional
@@ -268,7 +268,7 @@ E TODAS as vilas e aldeias da região!
 Não importa onde está, chegamos rapidamente.
 
 Urgência de canalização?
-📞 928 484 451 (24 horas)
+📞 932 321 892 (24 horas)
 
 #Bragança #TrásOsMontes #Canalizador #Urgências
 ```
@@ -291,7 +291,7 @@ Esquentador avariado → Desconforto
 
 RESOLVA HOJE:
 
-📞 Ligue: 928 484 451
+📞 Ligue: 932 321 892
 💬 WhatsApp: [link]
 🌐 Orçamento online: norte-reparos.com
 

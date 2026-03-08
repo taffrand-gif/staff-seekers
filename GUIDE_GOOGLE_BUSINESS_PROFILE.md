@@ -110,7 +110,7 @@ Aqui define onde presta serviços. Pode escolher:
 ### 1.5 Adicionar Contactos
 
 **Telefone:** 
-- Norte-Reparos: +351 928 484 451
+- Norte-Reparos: +351 932 321 892
 - Staff-Seekers: +351 932 321 892
 
 **Website:**
@@ -167,7 +167,7 @@ Atendemos Bragança, Macedo de Cavaleiros, Mirandela, Vinhais, Miranda do Douro,
 
 Serviços certificados com garantia de 12 meses. Preços transparentes e competitivos. Orçamento sem compromisso. Mais de 10 anos de experiência e centenas de clientes satisfeitos.
 
-Urgência de canalização? Ligue agora: 928 484 451 (disponível 24h/dia, 7 dias/semana, incluindo fins-de-semana e feriados).
+Urgência de canalização? Ligue agora: 932 321 892 (disponível 24h/dia, 7 dias/semana, incluindo fins-de-semana e feriados).
 ```
 
 **Template Staff-Seekers:**
@@ -390,7 +390,7 @@ Estamos sempre disponíveis para futuras necessidades. 24h/dia!
 
 Cumprimentos,
 Equipa [Norte-Reparos/Staff-Seekers]
-928 484 451 / 932 321 892
+932 321 892 / 932 321 892
 ```
 
 **Template resposta avaliação negativa:**

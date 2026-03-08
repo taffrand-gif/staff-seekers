@@ -72,7 +72,7 @@
 
 ### Norte Reparos (Canalizador)
 - Nome: Norte Reparos - Canalizador Profissional
-- Telefone: +351 928 484 451
+- Telefone: +351 932 321 892
 - Website: https://norte-reparos.com
 - Morada: Macedo de Cavaleiros, Bragança, Portugal
 - Categoria: Canalizador / Plumber
