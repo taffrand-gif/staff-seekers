@@ -43,7 +43,7 @@ function QuoteCalculator() {
     return (
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-[88px] right-4 md:bottom-6 md:right-6 z-40 text-white font-bold px-5 py-4 rounded-full shadow-2xl transition-all hover:scale-110 flex items-center gap-2 min-w-[56px] min-h-[56px]"
+        className="fixed bottom-[152px] right-4 md:bottom-6 md:right-6 z-40 text-white font-bold px-5 py-4 rounded-full shadow-2xl transition-all hover:scale-110 flex items-center gap-2 min-w-[56px] min-h-[56px]"
         style={{ backgroundColor: accentColor }}
         aria-label="Abrir calculador de orçamento"
       >
@@ -54,7 +54,7 @@ function QuoteCalculator() {
   }
 
   return (
-    <div className="fixed bottom-[88px] right-4 left-4 md:bottom-6 md:right-6 md:left-auto z-50 md:w-[480px] bg-white rounded-2xl shadow-2xl animate-slide-up max-h-[calc(100vh-120px)] overflow-y-auto">
+    <div className="fixed bottom-[152px] right-4 left-4 md:bottom-6 md:right-6 md:left-auto z-50 md:w-[480px] bg-white rounded-2xl shadow-2xl animate-slide-up max-h-[calc(100vh-120px)] overflow-y-auto">
       <div className="p-5 md:p-6">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
