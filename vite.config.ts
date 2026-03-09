@@ -199,7 +199,25 @@ function vitePluginInjectScriptsToBody(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), /* vitePluginManusRuntime(), */ vitePluginManusDebugCollector(), vitePluginImageOptimizer(), vitePluginInjectScriptsToBody()];
+// Plugin to load CSS asynchronously (non-render-blocking)
+function vitePluginAsyncCSS(): Plugin {
+  return {
+    name: 'async-css',
+    transformIndexHtml: {
+      order: 'post',
+      handler(html) {
+        // Make CSS non-render-blocking by using media="print" trick
+        html = html.replace(
+          /<link rel="stylesheet" crossorigin href="([^"]+\.css)"/g,
+          '<link rel="stylesheet" href="$1" media="print" onload="this.media=\'all\'; this.onload=null;"'
+        );
+        return html;
+      }
+    }
+  };
+}
+
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), /* vitePluginManusRuntime(), */ vitePluginManusDebugCollector(), vitePluginImageOptimizer(), vitePluginInjectScriptsToBody(), vitePluginAsyncCSS()];
 
 export default defineConfig({
   plugins,
