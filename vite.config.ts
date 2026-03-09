@@ -217,7 +217,59 @@ function vitePluginAsyncCSS(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), /* vitePluginManusRuntime(), */ vitePluginManusDebugCollector(), vitePluginImageOptimizer(), vitePluginInjectScriptsToBody(), vitePluginAsyncCSS()];
+// Plugin to add preload hints for critical resources
+function vitePluginPreloadCritical(): Plugin {
+  return {
+    name: 'preload-critical',
+    transformIndexHtml: {
+      order: 'post',
+      handler(html, ctx) {
+        if (!ctx.bundle) {
+          console.log('⚠️ Bundle not available in transformIndexHtml');
+          return html;
+        }
+
+        const preloads: string[] = [];
+        const bundleKeys = Object.keys(ctx.bundle);
+        console.log('📦 Bundle files:', bundleKeys.filter(f => f.startsWith('assets/index-')));
+
+        // Find main CSS file
+        const cssFile = bundleKeys.find(file => file.startsWith('assets/index-') && file.endsWith('.css'));
+        if (cssFile) {
+          preloads.push(`<link rel="preload" href="/${cssFile}" as="style" />`);
+          console.log('✅ CSS preload:', cssFile);
+        }
+
+        // Find main JS file
+        const jsFile = bundleKeys.find(file => file.startsWith('assets/index-') && file.endsWith('.js'));
+        if (jsFile) {
+          preloads.push(`<link rel="preload" href="/${jsFile}" as="script" crossorigin />`);
+          console.log('✅ JS preload:', jsFile);
+        }
+
+        // Add critical fonts
+        preloads.push(`<link rel="preload" href="/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />`);
+        preloads.push(`<link rel="preload" href="/fonts/poppins-900.woff2" as="font" type="font/woff2" crossorigin />`);
+
+        // Insert preloads after <link rel="manifest">
+        const newHtml = html.replace(
+          /(<link rel="manifest"[^>]*>)/,
+          `$1\n\n    <!-- Preload critical resources -->\n    ${preloads.join('\n    ')}`
+        );
+
+        if (newHtml !== html) {
+          console.log('✅ Preload hints injected');
+        } else {
+          console.log('⚠️ Failed to inject preload hints');
+        }
+
+        return newHtml;
+      }
+    }
+  };
+}
+
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), /* vitePluginManusRuntime(), */ vitePluginManusDebugCollector(), vitePluginImageOptimizer(), vitePluginInjectScriptsToBody(), vitePluginAsyncCSS(), vitePluginPreloadCritical()];
 
 export default defineConfig({
   plugins,
