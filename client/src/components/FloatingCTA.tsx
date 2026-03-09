@@ -87,7 +87,7 @@ function FloatingCTA() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 px-4 font-bold text-white rounded-lg transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
-                style={{ backgroundColor: '#25D366' }}
+                style={{ backgroundColor: '#128C7E' }}
                 aria-label="Contactar via WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />

@@ -8,7 +8,7 @@ function QuoteCalculator() {
   const { trackQuoteCalculated, trackQuoteSentWhatsApp } = useAnalytics();
 
   const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
-  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
+  const accentColor = isPlumber ? '#0e7490' : '#D84315'; // Darker orange for better contrast
 
   const services = isPlumber ? [
     { id: 'fuga', name: 'Arranjo de Fuga de Água', base: 80, urgent: 120, icon: '💧' },
