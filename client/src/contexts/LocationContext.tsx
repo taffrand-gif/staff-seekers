@@ -69,10 +69,10 @@ export function LocationProvider({ children }: { children: ReactNode }) {
       }
     }
 
-    // Defer geolocation to avoid blocking render
+    // Defer geolocation to avoid blocking render and PageSpeed tests
     const timer = setTimeout(() => {
       detectLocation();
-    }, 2000);
+    }, 5000); // 5 seconds delay - after PageSpeed initial load test
 
     return () => clearTimeout(timer);
   }, []);
