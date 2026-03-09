@@ -10,8 +10,34 @@ function Testimonials() {
   const isPlumber = config.id === 'norte-reparos';
   const clientCount = isPlumber ? '500+' : '300+';
 
+  // Generate Review schema for each testimonial
+  const reviewSchemas = localTestimonials.map((testimonial) => ({
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": testimonial.name
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": testimonial.rating,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "reviewBody": testimonial.text,
+    "datePublished": "2026-02-01"
+  }));
+
   return (
-    <section id="testemunhos" className="py-20 bg-white">
+    <>
+      {/* Review Schema JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(reviewSchemas)
+        }}
+      />
+
+      <section id="testemunhos" className="py-20 bg-white">
       <div className="container">
         {/* Cabeçalho */}
         <div className="text-center mb-16">
