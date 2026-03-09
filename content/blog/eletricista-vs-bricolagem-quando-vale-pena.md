@@ -1,6 +1,6 @@
 ---
-title: "Eletricista vs Bricolage: Quando Chamar Profissional"
-slug: "eletricista-vs-bricolage-quando-chamar"
+title: "Eletricista vs Bricolagem: Quando Chamar Profissional"
+slug: "eletricista-vs-bricolagem-quando-chamar"
 date: "2026-03-08"
 author: "Staff Seekers"
 category: "Segurança"
@@ -8,10 +8,10 @@ excerpt: "Guia completo sobre quando pode fazer DIY elétrico e quando DEVE cham
 image: "/images-optimized/blog/blog-diy-vs-pro.webp"
 metaTitle: "Eletricista vs DIY: Quando Chamar Pro | Guia"
 metaDescription: "DIY elétrico: trocar lâmpada ok, quadro NÃO. Riscos: choque fatal, incêndio, multa 3740€, seguro não cobre. Ligue 932 321 892!"
-keywords: ["eletricista ou bricolage", "posso fazer instalação elétrica", "diy eletricidade perigos", "quando chamar eletricista"]
+keywords: ["eletricista ou bricolagem", "posso fazer instalação elétrica", "diy eletricidade perigos", "quando chamar eletricista"]
 ---
 
-# Eletricista vs Bricolage: Quando Chamar Profissional
+# Eletricista vs Bricolagem: Quando Chamar Profissional
 
 Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia completo explica o que é seguro fazer DIY, o que é PERIGOSO, riscos legais e quando economias aparentes saem mais caras.
 

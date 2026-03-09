@@ -275,7 +275,7 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 **Ganho:** Evita reagendamento
 
 ### 3. Corrigir Problemas Conhecidos Antes
-Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. Veja [quando vale a pena fazer você mesmo](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena).
+Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. Veja [quando vale a pena fazer você mesmo](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolagem-quando-vale-pena).
 
 **Ganho:** -2 a -3 dias
 

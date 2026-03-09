@@ -375,7 +375,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-norte-reparos.pt/blog/quanto-custa-quadro-fusiveis-2026)
 - [Certificação CERTIEL: Preços e Processo](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
-- [Eletricista vs Bricolage: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena)
+- [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Melhores Eletricistas Bragança](https://eletricista-norte-reparos.pt/blog/melhores-eletricistas-braganca-2026)
 
 ## Precisa de Tomada Exterior?

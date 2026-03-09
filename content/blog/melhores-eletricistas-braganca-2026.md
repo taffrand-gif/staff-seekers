@@ -408,7 +408,7 @@ Explicamos tudo em português simples
 ## Artigos Relacionados
 
 - [Certificação CERTIEL: Preços e Processo](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
-- [Eletricista vs Bricolage: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena)
+- [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Quanto Custa Eletricista Domingo](https://eletricista-norte-reparos.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Eletricista 24 Horas: Guia Completo](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo)
 

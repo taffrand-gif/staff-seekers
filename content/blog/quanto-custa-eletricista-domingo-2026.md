@@ -208,7 +208,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 - [Eletricista 24 Horas: Guia Completo](https://eletricista-norte-reparos.pt/blog/eletricista-24-horas-guia-completo)
 - [Certificação CERTIEL: Preços 2026](https://eletricista-norte-reparos.pt/blog/preco-certificacao-certiel-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-norte-reparos.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Eletricista vs Bricolage: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolage-quando-vale-pena)
+- [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-norte-reparos.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 
 ## Comparação com Concorrência
 
