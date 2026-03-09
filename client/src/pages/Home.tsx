@@ -11,7 +11,6 @@ import { lazy, Suspense, useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
-import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import MobileBottomNav from '@/components/MobileBottomNav';
@@ -60,7 +59,6 @@ export default function Home() {
   return (
     <>
       {/* SEO Components - Don't render visible content */}
-      <SEOHeadEnhanced pageType="home" />
       <StructuredData />
 
       <div className="min-h-screen flex flex-col">
