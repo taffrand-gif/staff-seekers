@@ -9,6 +9,21 @@ image: "/images-optimized/blog/blog-24h-service.webp"
 metaTitle: "Eletricista 24h Trás-os-Montes | Urgências"
 metaDescription: "Eletricista 24h em Trás-os-Montes. Bragança 15-40min, Mirandela 35-70min. Preços: 70-150€/h. Urgências reais. Ligue 932 321 892!"
 keywords: ["eletricista 24 horas", "urgência elétrica noite", "eletricista urgente trás-os-montes", "eletricista domingo noite"]
+schema:
+  type: "HowTo"
+  name: "Como Chamar Eletricista 24 Horas em Urgência"
+  description: "Guia passo a passo para chamar eletricista 24 horas em caso de urgência elétrica"
+  totalTime: "PT15M"
+  estimatedCost:
+    currency: "EUR"
+    value: "70-150"
+faqSchema:
+  - question: "Quanto tempo demora eletricista 24h a chegar?"
+    answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
+  - question: "Quanto custa eletricista 24 horas?"
+    answer: "Dias úteis: 70€/h, Sábados: 85€/h, Domingos/feriados: 95€/h, Noite (20h-8h): 140€/h. Mais deslocação 30-60€."
+  - question: "Eletricista 24h trabalha feriados?"
+    answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
 ---
 
 # Eletricista 24 Horas Trás-os-Montes: Guia Completo

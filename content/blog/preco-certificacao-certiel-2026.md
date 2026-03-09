@@ -9,6 +9,21 @@ image: "/images-optimized/blog/blog-certificacao-certiel.webp"
 metaTitle: "Preço Certificação CERTIEL 2026 | Guia Completo"
 metaDescription: "Certificação CERTIEL: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
 keywords: ["preço certificação certiel", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
+schema:
+  type: "HowTo"
+  name: "Como Obter Certificação CERTIEL"
+  description: "Processo completo para obter certificação elétrica CERTIEL em Portugal"
+  totalTime: "P3D"
+  estimatedCost:
+    currency: "EUR"
+    value: "200-350"
+faqSchema:
+  - question: "Quanto custa certificação CERTIEL?"
+    answer: "T1-T2: 200-250€, T3-T4: 280-320€, T4+: 350-400€. Inclui inspeção, termo responsabilidade e emissão certificado. Sem IVA."
+  - question: "Quanto tempo demora certificação CERTIEL?"
+    answer: "2-3 dias úteis se instalação conforme. 5-7 dias se precisar correções pequenas. 7-10 dias se correções grandes."
+  - question: "Certificação CERTIEL é obrigatória?"
+    answer: "Sim para venda, arrendamento, instalação nova ou alteração >50%. Obrigatório por lei DL 226/2005. Multa até 3740€."
 ---
 
 # Preço Certificação CERTIEL 2026 Trás-os-Montes

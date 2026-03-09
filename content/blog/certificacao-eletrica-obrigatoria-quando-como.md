@@ -9,6 +9,13 @@ image: "/images-optimized/blog/blog-certificacao-obrigatoria.webp"
 metaTitle: "Certificação Elétrica Obrigatória 2026 | Lei"
 metaDescription: "Certificação elétrica obrigatória: venda, arrendamento, instalação nova. DL 226/2005. Multa até 3740€. Prazo 2-5 dias. Ligue 932 321 892!"
 keywords: ["certificação elétrica obrigatória", "certiel obrigatório quando", "lei certificação elétrica", "dl 226/2005"]
+faqSchema:
+  - question: "Quando é obrigatória certificação elétrica?"
+    answer: "Obrigatória em venda, arrendamento, instalação nova, alteração >50% instalação, aumento potência >20%. Lei DL 226/2005."
+  - question: "O que acontece se não tiver certificação elétrica?"
+    answer: "Venda bloqueada, arrendamento inválido, multa 1250-3740€, seguro pode não cobrir sinistros, responsabilidade civil em acidentes."
+  - question: "Certificação elétrica antiga é válida?"
+    answer: "Sim se <10 anos e instalação não foi alterada. Se >10 anos ou houve alterações, precisa nova certificação."
 ---
 
 # Certificação Elétrica Obrigatória: Guia Completo 2026
