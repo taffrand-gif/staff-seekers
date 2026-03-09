@@ -2,11 +2,17 @@ import { generateCityServiceMatrix } from '../shared/cityServiceMatrix';
 import { CITIES } from '../shared/serviceConfig';
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const DOMAIN = 'https://eletricista-norte-reparos.pt';
 
 function generateSitemap() {
   const urls: Array<{ loc: string; priority: number; changefreq: string }> = [];
+  const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
 
   // Homepage (highest priority)
   urls.push({
@@ -65,6 +71,7 @@ function generateSitemap() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => `  <url>
     <loc>${url.loc}</loc>
+    <lastmod>${today}</lastmod>
     <priority>${url.priority.toFixed(1)}</priority>
     <changefreq>${url.changefreq}</changefreq>
   </url>`).join('\n')}
