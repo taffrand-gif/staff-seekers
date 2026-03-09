@@ -172,7 +172,7 @@ function Footer() {
           </div>
           <div className="mt-4 flex justify-center">
             <a target="_blank" href="https://www.zaask.pt/user/fbraganca204" rel="noopener noreferrer">
-              <img src="https://www.zaask.pt/widget?user=1030479&widget=pro-since" alt="Perfil Zaask" />
+              <img src="https://www.zaask.pt/widget?user=1030479&widget=pro-since" alt="Perfil Zaask" loading="lazy" />
             </a>
           </div>
         </div>
