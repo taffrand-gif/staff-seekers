@@ -208,8 +208,8 @@ function vitePluginAsyncCSS(): Plugin {
       handler(html) {
         // Make CSS non-render-blocking by using media="print" trick
         html = html.replace(
-          /<link rel="stylesheet" crossorigin href="([^"]+\.css)"/g,
-          '<link rel="stylesheet" href="$1" media="print" onload="this.media=\'all\'; this.onload=null;"'
+          /<link rel="stylesheet"([^>]*) href="([^"]+\.css)"([^>]*)>/g,
+          '<link rel="stylesheet"$1 href="$2"$3 media="print" onload="this.media=\'all\'; this.onload=null;">'
         );
         return html;
       }
