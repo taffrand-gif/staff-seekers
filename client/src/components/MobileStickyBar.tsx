@@ -48,7 +48,7 @@ function MobileStickyBar() {
         rel="noopener noreferrer"
         className="flex-1 flex flex-col items-center justify-center text-white font-bold active:opacity-90 transition-opacity min-h-[64px]"
         style={{
-          backgroundColor: '#128C7E',
+          backgroundColor: '#075E54', // WhatsApp dark green for better contrast
         }}
         aria-label="Contactar via WhatsApp"
       >
