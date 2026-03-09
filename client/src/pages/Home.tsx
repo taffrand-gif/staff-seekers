@@ -33,6 +33,10 @@ const TrustBadges = lazy(() => import('@/components/TrustBadges'));
 const TransparenciaTotal = lazy(() => import('@/components/TransparenciaTotal'));
 const EquipamentoProfissional = lazy(() => import('@/components/EquipamentoProfissional'));
 
+// Phase 4 - Maillage Interne (SEO)
+const BlogPreview = lazy(() => import('@/components/BlogPreview'));
+const CitiesGrid = lazy(() => import('@/components/CitiesGrid'));
+
 export default function Home() {
   const { config } = useSite();
 
@@ -90,6 +94,10 @@ export default function Home() {
           {/* 4. PROVA SOCIAL - Témoignages + Before/After */}
           <Suspense fallback={null}><Testimonials /></Suspense>
           <Suspense fallback={null}><BeforeAfter /></Suspense>
+
+          {/* PHASE 4 - MAILLAGE INTERNE SEO */}
+          <Suspense fallback={null}><BlogPreview /></Suspense>
+          <Suspense fallback={null}><CitiesGrid /></Suspense>
 
           {/* 5. CTA FINAL + FAQ - Conversion + Réassurance */}
           <Suspense fallback={null}><FAQ /></Suspense>

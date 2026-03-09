@@ -24,7 +24,7 @@ function Footer() {
       style={{ backgroundColor: config.colors.primaryDark }}
     >
       <div className="container">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Informação da empresa */}
           <div>
             <h3 className="text-2xl font-black mb-4">{config.name}</h3>
@@ -39,38 +39,40 @@ function Footer() {
             </p>
           </div>
 
-          {/* Links rápidos */}
+          {/* Serviços */}
           <div>
-            <h4 className="text-lg font-black mb-4">Links Rápidos</h4>
-            <ul className="space-y-2">
-              {[
-                { href: '/', label: 'Home' },
-                { href: '/servicos', label: 'Serviços' },
-                { href: '/blog/', label: 'Blog' },
-                { href: '/faq', label: 'FAQ' },
-                { href: '/galeria', label: 'Galeria' },
-                { href: '/tecnologia-premium', label: 'Tecnologia' },
-                { href: '/contactos', label: 'Contactos' },
-                { href: '/sobre-mim', label: 'Sobre Nós' },
-              ].map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-gray-200 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+            <h4 className="text-lg font-black mb-4">Serviços</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/instalacao-eletrica-completa" className="text-gray-200 hover:text-white transition-colors">Instalação Elétrica</a></li>
+              <li><a href="/quadros-eletricos-modernizacao" className="text-gray-200 hover:text-white transition-colors">Quadros Elétricos</a></li>
+              <li><a href="/certificacao-eletrica-tras-os-montes" className="text-gray-200 hover:text-white transition-colors">Certificação CERTIEL</a></li>
+              <li><a href="/arranjacao-avarias-eletricas" className="text-gray-200 hover:text-white transition-colors">Arranjo Avarias</a></li>
+              <li><a href="/iluminacao-led-profissional" className="text-gray-200 hover:text-white transition-colors">Iluminação LED</a></li>
+              <li><a href="/instalacao-paineis-solares-tras-os-montes" className="text-gray-200 hover:text-white transition-colors">Painéis Solares</a></li>
             </ul>
-            <h4 className="text-lg font-black mt-6 mb-3">Serviços</h4>
-            <ul className="space-y-1 text-sm">
-              <li><a href="/instalacao-eletrica-completa" className="text-gray-100 hover:text-white">Instalação Elétrica</a></li>
-              <li><a href="/quadros-eletricos-modernizacao" className="text-gray-100 hover:text-white">Quadros Elétricos</a></li>
-              <li><a href="/certificacao-eletrica-tras-os-montes" className="text-gray-100 hover:text-white">Certificação CERTIEL</a></li>
-              <li><a href="/arranjacao-avarias-eletricas" className="text-gray-100 hover:text-white">Arranjo Avarias</a></li>
-              <li><a href="/iluminacao-led-profissional" className="text-gray-100 hover:text-white">Iluminação LED</a></li>
-              <li><a href="/instalacao-paineis-solares-tras-os-montes" className="text-gray-100 hover:text-white">Painéis Solares</a></li>
+          </div>
+
+          {/* Zonas */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Zonas</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/eletricista-braganca" className="text-gray-200 hover:text-white transition-colors">Bragança</a></li>
+              <li><a href="/eletricista-mirandela" className="text-gray-200 hover:text-white transition-colors">Mirandela</a></li>
+              <li><a href="/eletricista-macedo-cavaleiros" className="text-gray-200 hover:text-white transition-colors">Macedo de Cavaleiros</a></li>
+              <li><a href="/eletricista-mogadouro" className="text-gray-200 hover:text-white transition-colors">Mogadouro</a></li>
+              <li><a href="/eletricista-miranda-douro" className="text-gray-200 hover:text-white transition-colors">Miranda do Douro</a></li>
+              <li><a href="/zonas" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todas →</a></li>
+            </ul>
+          </div>
+
+          {/* Blog */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Blog</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/blog/como-escolher-eletricista-certificado" className="text-gray-200 hover:text-white transition-colors">Como Escolher Eletricista</a></li>
+              <li><a href="/blog/quadro-eletrico-disjuntores-disparar" className="text-gray-200 hover:text-white transition-colors">Disjuntores Disparam</a></li>
+              <li><a href="/blog/certificacao-certiel-obrigatoria" className="text-gray-200 hover:text-white transition-colors">Certificação CERTIEL</a></li>
+              <li><a href="/blog" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todos →</a></li>
             </ul>
           </div>
 

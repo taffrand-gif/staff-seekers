@@ -38,7 +38,7 @@ function Testimonials() {
       />
 
       <section id="testemunhos" className="py-20 bg-white">
-      <div className="container">
+        <div className="container">
         {/* Cabeçalho */}
         <div className="text-center mb-16">
           <div
@@ -105,6 +105,7 @@ function Testimonials() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

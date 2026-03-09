@@ -345,6 +345,9 @@ export default defineConfig({
     reportCompressedSize: true, // Rapport de taille compressée
     chunkSizeWarningLimit: 600, // Augmenter limite warning
   },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'wouter'],
+  },
   server: {
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy
