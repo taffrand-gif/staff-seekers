@@ -1,53 +1,15 @@
-# robots.txt para eletricista-norte-reparos.pt
-# Eletricista Profissional em Trás-os-Montes
-
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /api/
-Disallow: /private/
-Disallow: /maintenance.html
-Disallow: /google123xyz789.html
 
-# Motores de busca principais
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Yandex
-Allow: /
-
-# Bots de IA - Permitidos para melhor visibilidade
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# Arquivos para indexação por IA
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /ai-plugin.json
-Allow: /.well-known/ai-plugin.json
-
-# Sitemap
+# Sitemaps
 Sitemap: https://eletricista-norte-reparos.pt/sitemap.xml
 
-# IndexNow - Instant indexing for Bing/Yandex
-# Key: 1496b3dde3ef3db681478bc980689cb2
-# Verification file: https://eletricista-norte-reparos.pt/1496b3dde3ef3db681478bc980689cb2.txt
-Sitemap: https://eletricista-norte-reparos.pt/sitemap-images.xml
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
 
-# Urgency pages - high priority for crawling
-Allow: /urgencias/
+# Block admin/private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+Allow: /sitemap.xml
