@@ -1,15 +1,26 @@
+# robots.txt pour eletricista-norte-reparos.pt
 User-agent: *
 Allow: /
 
 # Sitemaps
 Sitemap: https://eletricista-norte-reparos.pt/sitemap.xml
 
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
+# Crawl-delay pour bots agressifs
+User-agent: AhrefsBot
+Crawl-delay: 10
 
-# Block admin/private areas (if any)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.json$
-Disallow: /*.xml$
-Allow: /sitemap.xml
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# Bloquer bots inutiles
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
